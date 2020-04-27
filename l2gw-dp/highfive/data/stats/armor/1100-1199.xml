@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="1100" name="Cotton Tunic">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="1101" name="Tunic of Devotion">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="1102" name="Tunic of Magic">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="1103" name="Cotton Stockings">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="1104" name="Stockings of Devotion">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="1105" name="Stockings of Magic">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+</list>

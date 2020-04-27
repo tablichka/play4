@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="15007" name="Doom Shield of Friendship - 30 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="15016" name="Full Plate Shield of Friendship - 30 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="15026" name="Brigandine Shield of Friendship - 30 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="15031" name="Friendship Shield of Nightmare - 30 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="15096" name="Dark Crystal Shield of Friendship - 10 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+</list>

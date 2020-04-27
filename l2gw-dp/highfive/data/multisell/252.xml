@@ -1,0 +1,4505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- weapon_variation_sep_smith -->
+<list>
+	<config showall="false" keepenchanted="true" notax="true"/>
+	<item>
+		<production id="72" count="1"/>	<!-- Stormbringer -->
+		<ingredient id="4681" count="1"/>	<!-- Stormbringer -->
+	</item>
+	<item>
+		<production id="72" count="1"/>	<!-- Stormbringer -->
+		<ingredient id="4682" count="1"/>	<!-- Stormbringer -->
+	</item>
+	<item>
+		<production id="72" count="1"/>	<!-- Stormbringer -->
+		<ingredient id="4683" count="1"/>	<!-- Stormbringer -->
+	</item>
+	<item>
+		<production id="71" count="1"/>	<!-- Flamberge -->
+		<ingredient id="4711" count="1"/>	<!-- Flamberge -->
+	</item>
+	<item>
+		<production id="71" count="1"/>	<!-- Flamberge -->
+		<ingredient id="4712" count="1"/>	<!-- Flamberge -->
+	</item>
+	<item>
+		<production id="71" count="1"/>	<!-- Flamberge -->
+		<ingredient id="4713" count="1"/>	<!-- Flamberge -->
+	</item>
+	<item>
+		<production id="7887" count="1"/>	<!-- Mysterious Sword -->
+		<ingredient id="8111" count="1"/>	<!-- Mysterious Sword -->
+	</item>
+	<item>
+		<production id="7887" count="1"/>	<!-- Mysterious Sword -->
+		<ingredient id="8112" count="1"/>	<!-- Mysterious Sword -->
+	</item>
+	<item>
+		<production id="7887" count="1"/>	<!-- Mysterious Sword -->
+		<ingredient id="8113" count="1"/>	<!-- Mysterious Sword -->
+	</item>
+	<item>
+		<production id="89" count="1"/>	<!-- Big Hammer -->
+		<ingredient id="4726" count="1"/>	<!-- Big Hammer -->
+	</item>
+	<item>
+		<production id="89" count="1"/>	<!-- Big Hammer -->
+		<ingredient id="4727" count="1"/>	<!-- Big Hammer -->
+	</item>
+	<item>
+		<production id="89" count="1"/>	<!-- Big Hammer -->
+		<ingredient id="4728" count="1"/>	<!-- Big Hammer -->
+	</item>
+	<item>
+		<production id="160" count="1"/>	<!-- Battle Axe -->
+		<ingredient id="4729" count="1"/>	<!-- Battle Axe -->
+	</item>
+	<item>
+		<production id="160" count="1"/>	<!-- Battle Axe -->
+		<ingredient id="4730" count="1"/>	<!-- Battle Axe -->
+	</item>
+	<item>
+		<production id="160" count="1"/>	<!-- Battle Axe -->
+		<ingredient id="4731" count="1"/>	<!-- Battle Axe -->
+	</item>
+	<item>
+		<production id="161" count="1"/>	<!-- Silver Axe -->
+		<ingredient id="4732" count="1"/>	<!-- Silver Axe -->
+	</item>
+	<item>
+		<production id="161" count="1"/>	<!-- Silver Axe -->
+		<ingredient id="4733" count="1"/>	<!-- Silver Axe -->
+	</item>
+	<item>
+		<production id="161" count="1"/>	<!-- Silver Axe -->
+		<ingredient id="4734" count="1"/>	<!-- Silver Axe -->
+	</item>
+	<item>
+		<production id="173" count="1"/>	<!-- Skull Graver -->
+		<ingredient id="4735" count="1"/>	<!-- Skull Graver -->
+	</item>
+	<item>
+		<production id="173" count="1"/>	<!-- Skull Graver -->
+		<ingredient id="4736" count="1"/>	<!-- Skull Graver -->
+	</item>
+	<item>
+		<production id="173" count="1"/>	<!-- Skull Graver -->
+		<ingredient id="4737" count="1"/>	<!-- Skull Graver -->
+	</item>
+	<item>
+		<production id="226" count="1"/>	<!-- Cursed Dagger -->
+		<ingredient id="4759" count="1"/>	<!-- Cursed Dagger -->
+	</item>
+	<item>
+		<production id="226" count="1"/>	<!-- Cursed Dagger -->
+		<ingredient id="4760" count="1"/>	<!-- Cursed Dagger -->
+	</item>
+	<item>
+		<production id="226" count="1"/>	<!-- Cursed Dagger -->
+		<ingredient id="4761" count="1"/>	<!-- Cursed Dagger -->
+	</item>
+	<item>
+		<production id="232" count="1"/>	<!-- Dark Elven Dagger -->
+		<ingredient id="4762" count="1"/>	<!-- Dark Elven Dagger -->
+	</item>
+	<item>
+		<production id="232" count="1"/>	<!-- Dark Elven Dagger -->
+		<ingredient id="4763" count="1"/>	<!-- Dark Elven Dagger -->
+	</item>
+	<item>
+		<production id="232" count="1"/>	<!-- Dark Elven Dagger -->
+		<ingredient id="6356" count="1"/>	<!-- Dark Elven Dagger -->
+	</item>
+	<item>
+		<production id="232" count="1"/>	<!-- Dark Elven Dagger -->
+		<ingredient id="4764" count="1"/>	<!-- Dark Elven Dagger -->
+	</item>
+	<item>
+		<production id="263" count="1"/>	<!-- Chakram -->
+		<ingredient id="4789" count="1"/>	<!-- Chakram -->
+	</item>
+	<item>
+		<production id="263" count="1"/>	<!-- Chakram -->
+		<ingredient id="4790" count="1"/>	<!-- Chakram -->
+	</item>
+	<item>
+		<production id="263" count="1"/>	<!-- Chakram -->
+		<ingredient id="4791" count="1"/>	<!-- Chakram -->
+	</item>
+	<item>
+		<production id="281" count="1"/>	<!-- Crystallized Ice Bow -->
+		<ingredient id="4810" count="1"/>	<!-- Crystallized Ice Bow -->
+	</item>
+	<item>
+		<production id="281" count="1"/>	<!-- Crystallized Ice Bow -->
+		<ingredient id="4811" count="1"/>	<!-- Crystallized Ice Bow -->
+	</item>
+	<item>
+		<production id="281" count="1"/>	<!-- Crystallized Ice Bow -->
+		<ingredient id="4812" count="1"/>	<!-- Crystallized Ice Bow -->
+	</item>
+	<item>
+		<production id="96" count="1"/>	<!-- Scythe -->
+		<ingredient id="4834" count="1"/>	<!-- Scythe -->
+	</item>
+	<item>
+		<production id="96" count="1"/>	<!-- Scythe -->
+		<ingredient id="4835" count="1"/>	<!-- Scythe -->
+	</item>
+	<item>
+		<production id="96" count="1"/>	<!-- Scythe -->
+		<ingredient id="4836" count="1"/>	<!-- Scythe -->
+	</item>
+	<item>
+		<production id="298" count="1"/>	<!-- Orcish Glaive -->
+		<ingredient id="4837" count="1"/>	<!-- Orcish Glaive -->
+	</item>
+	<item>
+		<production id="298" count="1"/>	<!-- Orcish Glaive -->
+		<ingredient id="4838" count="1"/>	<!-- Orcish Glaive -->
+	</item>
+	<item>
+		<production id="298" count="1"/>	<!-- Orcish Glaive -->
+		<ingredient id="4839" count="1"/>	<!-- Orcish Glaive -->
+	</item>
+	<item>
+		<production id="302" count="1"/>	<!-- Body Slasher -->
+		<ingredient id="4840" count="1"/>	<!-- Body Slasher -->
+	</item>
+	<item>
+		<production id="302" count="1"/>	<!-- Body Slasher -->
+		<ingredient id="4841" count="1"/>	<!-- Body Slasher -->
+	</item>
+	<item>
+		<production id="302" count="1"/>	<!-- Body Slasher -->
+		<ingredient id="4842" count="1"/>	<!-- Body Slasher -->
+	</item>
+	<item>
+		<production id="191" count="1"/>	<!-- Heavy Doom Hammer -->
+		<ingredient id="4864" count="1"/>	<!-- Heavy Doom Hammer -->
+	</item>
+	<item>
+		<production id="191" count="1"/>	<!-- Heavy Doom Hammer -->
+		<ingredient id="4865" count="1"/>	<!-- Heavy Doom Hammer -->
+	</item>
+	<item>
+		<production id="191" count="1"/>	<!-- Heavy Doom Hammer -->
+		<ingredient id="4866" count="1"/>	<!-- Heavy Doom Hammer -->
+	</item>
+	<item>
+		<production id="192" count="1"/>	<!-- Crystal Staff -->
+		<ingredient id="4867" count="1"/>	<!-- Crystal Staff -->
+	</item>
+	<item>
+		<production id="192" count="1"/>	<!-- Crystal Staff -->
+		<ingredient id="4868" count="1"/>	<!-- Crystal Staff -->
+	</item>
+	<item>
+		<production id="192" count="1"/>	<!-- Crystal Staff -->
+		<ingredient id="4869" count="1"/>	<!-- Crystal Staff -->
+	</item>
+	<item>
+		<production id="194" count="1"/>	<!-- Heavy Doom Axe -->
+		<ingredient id="4870" count="1"/>	<!-- Heavy Doom Axe -->
+	</item>
+	<item>
+		<production id="194" count="1"/>	<!-- Heavy Doom Axe -->
+		<ingredient id="4871" count="1"/>	<!-- Heavy Doom Axe -->
+	</item>
+	<item>
+		<production id="194" count="1"/>	<!-- Heavy Doom Axe -->
+		<ingredient id="4872" count="1"/>	<!-- Heavy Doom Axe -->
+	</item>
+	<item>
+		<production id="193" count="1"/>	<!-- Stick of Faith -->
+		<ingredient id="7701" count="1"/>	<!-- Stick of Faith -->
+	</item>
+	<item>
+		<production id="193" count="1"/>	<!-- Stick of Faith -->
+		<ingredient id="7702" count="1"/>	<!-- Stick of Faith -->
+	</item>
+	<item>
+		<production id="193" count="1"/>	<!-- Stick of Faith -->
+		<ingredient id="7703" count="1"/>	<!-- Stick of Faith -->
+	</item>
+	<item>
+		<production id="73" count="1"/>	<!-- Shamshir -->
+		<ingredient id="4684" count="1"/>	<!-- Shamshir -->
+	</item>
+	<item>
+		<production id="73" count="1"/>	<!-- Shamshir -->
+		<ingredient id="4685" count="1"/>	<!-- Shamshir -->
+	</item>
+	<item>
+		<production id="73" count="1"/>	<!-- Shamshir -->
+		<ingredient id="4686" count="1"/>	<!-- Shamshir -->
+	</item>
+	<item>
+		<production id="74" count="1"/>	<!-- Katana -->
+		<ingredient id="4687" count="1"/>	<!-- Katana -->
+	</item>
+	<item>
+		<production id="74" count="1"/>	<!-- Katana -->
+		<ingredient id="4688" count="1"/>	<!-- Katana -->
+	</item>
+	<item>
+		<production id="74" count="1"/>	<!-- Katana -->
+		<ingredient id="4689" count="1"/>	<!-- Katana -->
+	</item>
+	<item>
+		<production id="131" count="1"/>	<!-- Spirit Sword -->
+		<ingredient id="4690" count="1"/>	<!-- Spirit Sword -->
+	</item>
+	<item>
+		<production id="131" count="1"/>	<!-- Spirit Sword -->
+		<ingredient id="4691" count="1"/>	<!-- Spirit Sword -->
+	</item>
+	<item>
+		<production id="131" count="1"/>	<!-- Spirit Sword -->
+		<ingredient id="4692" count="1"/>	<!-- Spirit Sword -->
+	</item>
+	<item>
+		<production id="133" count="1"/>	<!-- Raid Sword -->
+		<ingredient id="4693" count="1"/>	<!-- Raid Sword -->
+	</item>
+	<item>
+		<production id="133" count="1"/>	<!-- Raid Sword -->
+		<ingredient id="4694" count="1"/>	<!-- Raid Sword -->
+	</item>
+	<item>
+		<production id="133" count="1"/>	<!-- Raid Sword -->
+		<ingredient id="4695" count="1"/>	<!-- Raid Sword -->
+	</item>
+	<item>
+		<production id="242" count="1"/>	<!-- Soulfire Dirk -->
+		<ingredient id="7810" count="1"/>	<!-- Soulfire Dirk -->
+	</item>
+	<item>
+		<production id="242" count="1"/>	<!-- Soulfire Dirk -->
+		<ingredient id="7811" count="1"/>	<!-- Soulfire Dirk -->
+	</item>
+	<item>
+		<production id="242" count="1"/>	<!-- Soulfire Dirk -->
+		<ingredient id="7812" count="1"/>	<!-- Soulfire Dirk -->
+	</item>
+	<item>
+		<production id="2502" count="1"/>	<!-- Dwarven War Hammer -->
+		<ingredient id="4738" count="1"/>	<!-- Dwarven War Hammer -->
+	</item>
+	<item>
+		<production id="2502" count="1"/>	<!-- Dwarven War Hammer -->
+		<ingredient id="4739" count="1"/>	<!-- Dwarven War Hammer -->
+	</item>
+	<item>
+		<production id="2502" count="1"/>	<!-- Dwarven War Hammer -->
+		<ingredient id="4740" count="1"/>	<!-- Dwarven War Hammer -->
+	</item>
+	<item>
+		<production id="227" count="1"/>	<!-- Stiletto -->
+		<ingredient id="4765" count="1"/>	<!-- Stiletto -->
+	</item>
+	<item>
+		<production id="227" count="1"/>	<!-- Stiletto -->
+		<ingredient id="4766" count="1"/>	<!-- Stiletto -->
+	</item>
+	<item>
+		<production id="227" count="1"/>	<!-- Stiletto -->
+		<ingredient id="6357" count="1"/>	<!-- Stiletto -->
+	</item>
+	<item>
+		<production id="227" count="1"/>	<!-- Stiletto -->
+		<ingredient id="4767" count="1"/>	<!-- Stiletto -->
+	</item>
+	<item>
+		<production id="4233" count="1"/>	<!-- Knuckle Duster -->
+		<ingredient id="4798" count="1"/>	<!-- Knuckle Duster -->
+	</item>
+	<item>
+		<production id="4233" count="1"/>	<!-- Knuckle Duster -->
+		<ingredient id="4799" count="1"/>	<!-- Knuckle Duster -->
+	</item>
+	<item>
+		<production id="4233" count="1"/>	<!-- Knuckle Duster -->
+		<ingredient id="4800" count="1"/>	<!-- Knuckle Duster -->
+	</item>
+	<item>
+		<production id="282" count="1"/>	<!-- Elemental Bow -->
+		<ingredient id="4813" count="1"/>	<!-- Elemental Bow -->
+	</item>
+	<item>
+		<production id="282" count="1"/>	<!-- Elemental Bow -->
+		<ingredient id="4814" count="1"/>	<!-- Elemental Bow -->
+	</item>
+	<item>
+		<production id="282" count="1"/>	<!-- Elemental Bow -->
+		<ingredient id="4815" count="1"/>	<!-- Elemental Bow -->
+	</item>
+	<item>
+		<production id="285" count="1"/>	<!-- Noble Elven Bow -->
+		<ingredient id="4816" count="1"/>	<!-- Noble Elven Bow -->
+	</item>
+	<item>
+		<production id="285" count="1"/>	<!-- Noble Elven Bow -->
+		<ingredient id="4817" count="1"/>	<!-- Noble Elven Bow -->
+	</item>
+	<item>
+		<production id="285" count="1"/>	<!-- Noble Elven Bow -->
+		<ingredient id="4818" count="1"/>	<!-- Noble Elven Bow -->
+	</item>
+	<item>
+		<production id="94" count="1"/>	<!-- Bec de Corbin -->
+		<ingredient id="4843" count="1"/>	<!-- Bec de Corbin -->
+	</item>
+	<item>
+		<production id="94" count="1"/>	<!-- Bec de Corbin -->
+		<ingredient id="4844" count="1"/>	<!-- Bec de Corbin -->
+	</item>
+	<item>
+		<production id="94" count="1"/>	<!-- Bec de Corbin -->
+		<ingredient id="4845" count="1"/>	<!-- Bec de Corbin -->
+	</item>
+	<item>
+		<production id="195" count="1"/>	<!-- Cursed Staff -->
+		<ingredient id="4873" count="1"/>	<!-- Cursed Staff -->
+	</item>
+	<item>
+		<production id="195" count="1"/>	<!-- Cursed Staff -->
+		<ingredient id="4874" count="1"/>	<!-- Cursed Staff -->
+	</item>
+	<item>
+		<production id="195" count="1"/>	<!-- Cursed Staff -->
+		<ingredient id="4875" count="1"/>	<!-- Cursed Staff -->
+	</item>
+	<item>
+		<production id="196" count="1"/>	<!-- Stick of Eternity -->
+		<ingredient id="7704" count="1"/>	<!-- Stick of Eternity -->
+	</item>
+	<item>
+		<production id="196" count="1"/>	<!-- Stick of Eternity -->
+		<ingredient id="7705" count="1"/>	<!-- Stick of Eternity -->
+	</item>
+	<item>
+		<production id="196" count="1"/>	<!-- Stick of Eternity -->
+		<ingredient id="7706" count="1"/>	<!-- Stick of Eternity -->
+	</item>
+	<item>
+		<production id="7882" count="1"/>	<!-- Pa'agrian Sword -->
+		<ingredient id="8102" count="1"/>	<!-- Pa'agrian Sword -->
+	</item>
+	<item>
+		<production id="7882" count="1"/>	<!-- Pa'agrian Sword -->
+		<ingredient id="8103" count="1"/>	<!-- Pa'agrian Sword -->
+	</item>
+	<item>
+		<production id="7882" count="1"/>	<!-- Pa'agrian Sword -->
+		<ingredient id="8104" count="1"/>	<!-- Pa'agrian Sword -->
+	</item>
+	<item>
+		<production id="174" count="1"/>	<!-- Nirvana Axe -->
+		<ingredient id="7707" count="1"/>	<!-- Nirvana Axe -->
+	</item>
+	<item>
+		<production id="174" count="1"/>	<!-- Nirvana Axe -->
+		<ingredient id="7708" count="1"/>	<!-- Nirvana Axe -->
+	</item>
+	<item>
+		<production id="174" count="1"/>	<!-- Nirvana Axe -->
+		<ingredient id="7709" count="1"/>	<!-- Nirvana Axe -->
+	</item>
+	<item>
+		<production id="201" count="1"/>	<!-- Club of Nature -->
+		<ingredient id="7710" count="1"/>	<!-- Club of Nature -->
+	</item>
+	<item>
+		<production id="201" count="1"/>	<!-- Club of Nature -->
+		<ingredient id="7711" count="1"/>	<!-- Club of Nature -->
+	</item>
+	<item>
+		<production id="201" count="1"/>	<!-- Club of Nature -->
+		<ingredient id="7712" count="1"/>	<!-- Club of Nature -->
+	</item>
+	<item>
+		<production id="202" count="1"/>	<!-- Mace of Underworld -->
+		<ingredient id="7713" count="1"/>	<!-- Mace of Underworld -->
+	</item>
+	<item>
+		<production id="202" count="1"/>	<!-- Mace of Underworld -->
+		<ingredient id="7714" count="1"/>	<!-- Mace of Underworld -->
+	</item>
+	<item>
+		<production id="202" count="1"/>	<!-- Mace of Underworld -->
+		<ingredient id="7715" count="1"/>	<!-- Mace of Underworld -->
+	</item>
+	<item>
+		<production id="198" count="1"/>	<!-- Inferno Staff -->
+		<ingredient id="7716" count="1"/>	<!-- Inferno Staff -->
+	</item>
+	<item>
+		<production id="198" count="1"/>	<!-- Inferno Staff -->
+		<ingredient id="7717" count="1"/>	<!-- Inferno Staff -->
+	</item>
+	<item>
+		<production id="198" count="1"/>	<!-- Inferno Staff -->
+		<ingredient id="7718" count="1"/>	<!-- Inferno Staff -->
+	</item>
+	<item>
+		<production id="7898" count="1"/>	<!-- Karik Horn -->
+		<ingredient id="8125" count="1"/>	<!-- Karik Horn -->
+	</item>
+	<item>
+		<production id="7898" count="1"/>	<!-- Karik Horn -->
+		<ingredient id="8124" count="1"/>	<!-- Karik Horn -->
+	</item>
+	<item>
+		<production id="7898" count="1"/>	<!-- Karik Horn -->
+		<ingredient id="8123" count="1"/>	<!-- Karik Horn -->
+	</item>
+	<item>
+		<production id="95" count="1"/>	<!-- Poleaxe -->
+		<ingredient id="7719" count="1"/>	<!-- Poleaxe -->
+	</item>
+	<item>
+		<production id="95" count="1"/>	<!-- Poleaxe -->
+		<ingredient id="7720" count="1"/>	<!-- Poleaxe -->
+	</item>
+	<item>
+		<production id="95" count="1"/>	<!-- Poleaxe -->
+		<ingredient id="7721" count="1"/>	<!-- Poleaxe -->
+	</item>
+	<item>
+		<production id="75" count="1"/>	<!-- Caliburs -->
+		<ingredient id="4696" count="1"/>	<!-- Caliburs -->
+	</item>
+	<item>
+		<production id="75" count="1"/>	<!-- Caliburs -->
+		<ingredient id="4697" count="1"/>	<!-- Caliburs -->
+	</item>
+	<item>
+		<production id="75" count="1"/>	<!-- Caliburs -->
+		<ingredient id="4698" count="1"/>	<!-- Caliburs -->
+	</item>
+	<item>
+		<production id="76" count="1"/>	<!-- Sword of Delusion -->
+		<ingredient id="4699" count="1"/>	<!-- Sword of Delusion -->
+	</item>
+	<item>
+		<production id="76" count="1"/>	<!-- Sword of Delusion -->
+		<ingredient id="4700" count="1"/>	<!-- Sword of Delusion -->
+	</item>
+	<item>
+		<production id="76" count="1"/>	<!-- Sword of Delusion -->
+		<ingredient id="4701" count="1"/>	<!-- Sword of Delusion -->
+	</item>
+	<item>
+		<production id="77" count="1"/>	<!-- Tsurugi -->
+		<ingredient id="4702" count="1"/>	<!-- Tsurugi -->
+	</item>
+	<item>
+		<production id="77" count="1"/>	<!-- Tsurugi -->
+		<ingredient id="4703" count="1"/>	<!-- Tsurugi -->
+	</item>
+	<item>
+		<production id="77" count="1"/>	<!-- Tsurugi -->
+		<ingredient id="4704" count="1"/>	<!-- Tsurugi -->
+	</item>
+	<item>
+		<production id="134" count="1"/>	<!-- Sword of Nightmare -->
+		<ingredient id="4705" count="1"/>	<!-- Sword of Nightmare -->
+	</item>
+	<item>
+		<production id="134" count="1"/>	<!-- Sword of Nightmare -->
+		<ingredient id="4706" count="1"/>	<!-- Sword of Nightmare -->
+	</item>
+	<item>
+		<production id="134" count="1"/>	<!-- Sword of Nightmare -->
+		<ingredient id="4707" count="1"/>	<!-- Sword of Nightmare -->
+	</item>
+	<item>
+		<production id="162" count="1"/>	<!-- War Axe -->
+		<ingredient id="4741" count="1"/>	<!-- War Axe -->
+	</item>
+	<item>
+		<production id="162" count="1"/>	<!-- War Axe -->
+		<ingredient id="4742" count="1"/>	<!-- War Axe -->
+	</item>
+	<item>
+		<production id="162" count="1"/>	<!-- War Axe -->
+		<ingredient id="4743" count="1"/>	<!-- War Axe -->
+	</item>
+	<item>
+		<production id="231" count="1"/>	<!-- Grace Dagger -->
+		<ingredient id="4768" count="1"/>	<!-- Grace Dagger -->
+	</item>
+	<item>
+		<production id="231" count="1"/>	<!-- Grace Dagger -->
+		<ingredient id="4769" count="1"/>	<!-- Grace Dagger -->
+	</item>
+	<item>
+		<production id="231" count="1"/>	<!-- Grace Dagger -->
+		<ingredient id="4770" count="1"/>	<!-- Grace Dagger -->
+	</item>
+	<item>
+		<production id="233" count="1"/>	<!-- Dark Screamer -->
+		<ingredient id="4771" count="1"/>	<!-- Dark Screamer -->
+	</item>
+	<item>
+		<production id="233" count="1"/>	<!-- Dark Screamer -->
+		<ingredient id="4772" count="1"/>	<!-- Dark Screamer -->
+	</item>
+	<item>
+		<production id="233" count="1"/>	<!-- Dark Screamer -->
+		<ingredient id="4773" count="1"/>	<!-- Dark Screamer -->
+	</item>
+	<item>
+		<production id="265" count="1"/>	<!-- Fisted Blade -->
+		<ingredient id="4792" count="1"/>	<!-- Fisted Blade -->
+	</item>
+	<item>
+		<production id="265" count="1"/>	<!-- Fisted Blade -->
+		<ingredient id="4793" count="1"/>	<!-- Fisted Blade -->
+	</item>
+	<item>
+		<production id="265" count="1"/>	<!-- Fisted Blade -->
+		<ingredient id="4794" count="1"/>	<!-- Fisted Blade -->
+	</item>
+	<item>
+		<production id="283" count="1"/>	<!-- Akat Long Bow -->
+		<ingredient id="4819" count="1"/>	<!-- Akat Long Bow -->
+	</item>
+	<item>
+		<production id="283" count="1"/>	<!-- Akat Long Bow -->
+		<ingredient id="4820" count="1"/>	<!-- Akat Long Bow -->
+	</item>
+	<item>
+		<production id="283" count="1"/>	<!-- Akat Long Bow -->
+		<ingredient id="4821" count="1"/>	<!-- Akat Long Bow -->
+	</item>
+	<item>
+		<production id="197" count="1"/>	<!-- Paradia Staff -->
+		<ingredient id="4876" count="1"/>	<!-- Paradia Staff -->
+	</item>
+	<item>
+		<production id="197" count="1"/>	<!-- Paradia Staff -->
+		<ingredient id="4877" count="1"/>	<!-- Paradia Staff -->
+	</item>
+	<item>
+		<production id="197" count="1"/>	<!-- Paradia Staff -->
+		<ingredient id="4878" count="1"/>	<!-- Paradia Staff -->
+	</item>
+	<item>
+		<production id="199" count="1"/>	<!-- Pa'agrian Hammer -->
+		<ingredient id="4879" count="1"/>	<!-- Pa'agrian Hammer -->
+	</item>
+	<item>
+		<production id="199" count="1"/>	<!-- Pa'agrian Hammer -->
+		<ingredient id="4880" count="1"/>	<!-- Pa'agrian Hammer -->
+	</item>
+	<item>
+		<production id="199" count="1"/>	<!-- Pa'agrian Hammer -->
+		<ingredient id="4881" count="1"/>	<!-- Pa'agrian Hammer -->
+	</item>
+	<item>
+		<production id="200" count="1"/>	<!-- Sage's Staff -->
+		<ingredient id="4882" count="1"/>	<!-- Sage's Staff -->
+	</item>
+	<item>
+		<production id="200" count="1"/>	<!-- Sage's Staff -->
+		<ingredient id="4883" count="1"/>	<!-- Sage's Staff -->
+	</item>
+	<item>
+		<production id="200" count="1"/>	<!-- Sage's Staff -->
+		<ingredient id="4884" count="1"/>	<!-- Sage's Staff -->
+	</item>
+	<item>
+		<production id="301" count="1"/>	<!-- Scorpion -->
+		<ingredient id="4846" count="1"/>	<!-- Scorpion -->
+	</item>
+	<item>
+		<production id="301" count="1"/>	<!-- Scorpion -->
+		<ingredient id="4847" count="1"/>	<!-- Scorpion -->
+	</item>
+	<item>
+		<production id="301" count="1"/>	<!-- Scorpion -->
+		<ingredient id="4848" count="1"/>	<!-- Scorpion -->
+	</item>
+	<item>
+		<production id="303" count="1"/>	<!-- Widow Maker -->
+		<ingredient id="4849" count="1"/>	<!-- Widow Maker -->
+	</item>
+	<item>
+		<production id="303" count="1"/>	<!-- Widow Maker -->
+		<ingredient id="4850" count="1"/>	<!-- Widow Maker -->
+	</item>
+	<item>
+		<production id="303" count="1"/>	<!-- Widow Maker -->
+		<ingredient id="4851" count="1"/>	<!-- Widow Maker -->
+	</item>
+	<item>
+		<production id="203" count="1"/>	<!-- Pa'agrian Axe -->
+		<ingredient id="4885" count="1"/>	<!-- Pa'agrian Axe -->
+	</item>
+	<item>
+		<production id="203" count="1"/>	<!-- Pa'agrian Axe -->
+		<ingredient id="4886" count="1"/>	<!-- Pa'agrian Axe -->
+	</item>
+	<item>
+		<production id="203" count="1"/>	<!-- Pa'agrian Axe -->
+		<ingredient id="4887" count="1"/>	<!-- Pa'agrian Axe -->
+	</item>
+	<item>
+		<production id="135" count="1"/>	<!-- Samurai Longsword -->
+		<ingredient id="4708" count="1"/>	<!-- Samurai Longsword -->
+	</item>
+	<item>
+		<production id="135" count="1"/>	<!-- Samurai Longsword -->
+		<ingredient id="4709" count="1"/>	<!-- Samurai Longsword -->
+	</item>
+	<item>
+		<production id="135" count="1"/>	<!-- Samurai Longsword -->
+		<ingredient id="4710" count="1"/>	<!-- Samurai Longsword -->
+	</item>
+	<item>
+		<production id="7888" count="1"/>	<!-- Ecliptic Sword -->
+		<ingredient id="8114" count="1"/>	<!-- Ecliptic Sword -->
+	</item>
+	<item>
+		<production id="7888" count="1"/>	<!-- Ecliptic Sword -->
+		<ingredient id="8115" count="1"/>	<!-- Ecliptic Sword -->
+	</item>
+	<item>
+		<production id="7888" count="1"/>	<!-- Ecliptic Sword -->
+		<ingredient id="8116" count="1"/>	<!-- Ecliptic Sword -->
+	</item>
+	<item>
+		<production id="2503" count="1"/>	<!-- Yaksa Mace -->
+		<ingredient id="4744" count="1"/>	<!-- Yaksa Mace -->
+	</item>
+	<item>
+		<production id="2503" count="1"/>	<!-- Yaksa Mace -->
+		<ingredient id="4745" count="1"/>	<!-- Yaksa Mace -->
+	</item>
+	<item>
+		<production id="2503" count="1"/>	<!-- Yaksa Mace -->
+		<ingredient id="4746" count="1"/>	<!-- Yaksa Mace -->
+	</item>
+	<item>
+		<production id="7897" count="1"/>	<!-- Dwarven Hammer -->
+		<ingredient id="8121" count="1"/>	<!-- Dwarven Hammer -->
+	</item>
+	<item>
+		<production id="7897" count="1"/>	<!-- Dwarven Hammer -->
+		<ingredient id="8120" count="1"/>	<!-- Dwarven Hammer -->
+	</item>
+	<item>
+		<production id="7897" count="1"/>	<!-- Dwarven Hammer -->
+		<ingredient id="8122" count="1"/>	<!-- Dwarven Hammer -->
+	</item>
+	<item>
+		<production id="228" count="1"/>	<!-- Crystal Dagger -->
+		<ingredient id="4774" count="1"/>	<!-- Crystal Dagger -->
+	</item>
+	<item>
+		<production id="228" count="1"/>	<!-- Crystal Dagger -->
+		<ingredient id="4775" count="1"/>	<!-- Crystal Dagger -->
+	</item>
+	<item>
+		<production id="228" count="1"/>	<!-- Crystal Dagger -->
+		<ingredient id="6358" count="1"/>	<!-- Crystal Dagger -->
+	</item>
+	<item>
+		<production id="228" count="1"/>	<!-- Crystal Dagger -->
+		<ingredient id="4776" count="1"/>	<!-- Crystal Dagger -->
+	</item>
+	<item>
+		<production id="7891" count="1"/>	<!-- Ecliptic Axe -->
+		<ingredient id="8138" count="1"/>	<!-- Ecliptic Axe -->
+	</item>
+	<item>
+		<production id="7891" count="1"/>	<!-- Ecliptic Axe -->
+		<ingredient id="8139" count="1"/>	<!-- Ecliptic Axe -->
+	</item>
+	<item>
+		<production id="7891" count="1"/>	<!-- Ecliptic Axe -->
+		<ingredient id="8140" count="1"/>	<!-- Ecliptic Axe -->
+	</item>
+	<item>
+		<production id="266" count="1"/>	<!-- Great Pata -->
+		<ingredient id="4795" count="1"/>	<!-- Great Pata -->
+	</item>
+	<item>
+		<production id="266" count="1"/>	<!-- Great Pata -->
+		<ingredient id="4796" count="1"/>	<!-- Great Pata -->
+	</item>
+	<item>
+		<production id="266" count="1"/>	<!-- Great Pata -->
+		<ingredient id="4797" count="1"/>	<!-- Great Pata -->
+	</item>
+	<item>
+		<production id="286" count="1"/>	<!-- Eminence Bow -->
+		<ingredient id="4822" count="1"/>	<!-- Eminence Bow -->
+	</item>
+	<item>
+		<production id="286" count="1"/>	<!-- Eminence Bow -->
+		<ingredient id="4823" count="1"/>	<!-- Eminence Bow -->
+	</item>
+	<item>
+		<production id="286" count="1"/>	<!-- Eminence Bow -->
+		<ingredient id="4824" count="1"/>	<!-- Eminence Bow -->
+	</item>
+	<item>
+		<production id="299" count="1"/>	<!-- Orcish Poleaxe -->
+		<ingredient id="4852" count="1"/>	<!-- Orcish Poleaxe -->
+	</item>
+	<item>
+		<production id="299" count="1"/>	<!-- Orcish Poleaxe -->
+		<ingredient id="4853" count="1"/>	<!-- Orcish Poleaxe -->
+	</item>
+	<item>
+		<production id="299" count="1"/>	<!-- Orcish Poleaxe -->
+		<ingredient id="4854" count="1"/>	<!-- Orcish Poleaxe -->
+	</item>
+	<item>
+		<production id="204" count="1"/>	<!-- Deadman's Staff -->
+		<ingredient id="4888" count="1"/>	<!-- Deadman's Staff -->
+	</item>
+	<item>
+		<production id="204" count="1"/>	<!-- Deadman's Staff -->
+		<ingredient id="4889" count="1"/>	<!-- Deadman's Staff -->
+	</item>
+	<item>
+		<production id="204" count="1"/>	<!-- Deadman's Staff -->
+		<ingredient id="4890" count="1"/>	<!-- Deadman's Staff -->
+	</item>
+	<item>
+		<production id="205" count="1"/>	<!-- Ghoul's Staff -->
+		<ingredient id="4891" count="1"/>	<!-- Ghoul's Staff -->
+	</item>
+	<item>
+		<production id="205" count="1"/>	<!-- Ghoul's Staff -->
+		<ingredient id="4892" count="1"/>	<!-- Ghoul's Staff -->
+	</item>
+	<item>
+		<production id="205" count="1"/>	<!-- Ghoul's Staff -->
+		<ingredient id="4893" count="1"/>	<!-- Ghoul's Staff -->
+	</item>
+	<item>
+		<production id="206" count="1"/>	<!-- Demon's Staff -->
+		<ingredient id="4894" count="1"/>	<!-- Demon's Staff -->
+	</item>
+	<item>
+		<production id="206" count="1"/>	<!-- Demon's Staff -->
+		<ingredient id="4895" count="1"/>	<!-- Demon's Staff -->
+	</item>
+	<item>
+		<production id="206" count="1"/>	<!-- Demon's Staff -->
+		<ingredient id="4896" count="1"/>	<!-- Demon's Staff -->
+	</item>
+	<item>
+		<production id="142" count="1"/>	<!-- Keshanberk -->
+		<ingredient id="4714" count="1"/>	<!-- Keshanberk -->
+	</item>
+	<item>
+		<production id="142" count="1"/>	<!-- Keshanberk -->
+		<ingredient id="4715" count="1"/>	<!-- Keshanberk -->
+	</item>
+	<item>
+		<production id="142" count="1"/>	<!-- Keshanberk -->
+		<ingredient id="4716" count="1"/>	<!-- Keshanberk -->
+	</item>
+	<item>
+		<production id="78" count="1"/>	<!-- Great Sword -->
+		<ingredient id="4723" count="1"/>	<!-- Great Sword -->
+	</item>
+	<item>
+		<production id="78" count="1"/>	<!-- Great Sword -->
+		<ingredient id="4724" count="1"/>	<!-- Great Sword -->
+	</item>
+	<item>
+		<production id="78" count="1"/>	<!-- Great Sword -->
+		<ingredient id="4725" count="1"/>	<!-- Great Sword -->
+	</item>
+	<item>
+		<production id="91" count="1"/>	<!-- Heavy War Axe -->
+		<ingredient id="4747" count="1"/>	<!-- Heavy War Axe -->
+	</item>
+	<item>
+		<production id="91" count="1"/>	<!-- Heavy War Axe -->
+		<ingredient id="4748" count="1"/>	<!-- Heavy War Axe -->
+	</item>
+	<item>
+		<production id="91" count="1"/>	<!-- Heavy War Axe -->
+		<ingredient id="4749" count="1"/>	<!-- Heavy War Axe -->
+	</item>
+	<item>
+		<production id="7900" count="1"/>	<!-- Ice Storm Hammer -->
+		<ingredient id="8129" count="1"/>	<!-- Ice Storm Hammer -->
+	</item>
+	<item>
+		<production id="7900" count="1"/>	<!-- Ice Storm Hammer -->
+		<ingredient id="8130" count="1"/>	<!-- Ice Storm Hammer -->
+	</item>
+	<item>
+		<production id="7900" count="1"/>	<!-- Ice Storm Hammer -->
+		<ingredient id="8131" count="1"/>	<!-- Ice Storm Hammer -->
+	</item>
+	<item>
+		<production id="243" count="1"/>	<!-- Hell Knife -->
+		<ingredient id="7813" count="1"/>	<!-- Hell Knife -->
+	</item>
+	<item>
+		<production id="243" count="1"/>	<!-- Hell Knife -->
+		<ingredient id="7814" count="1"/>	<!-- Hell Knife -->
+	</item>
+	<item>
+		<production id="243" count="1"/>	<!-- Hell Knife -->
+		<ingredient id="7815" count="1"/>	<!-- Hell Knife -->
+	</item>
+	<item>
+		<production id="7892" count="1"/>	<!-- Spell Breaker -->
+		<ingredient id="8143" count="1"/>	<!-- Spell Breaker -->
+	</item>
+	<item>
+		<production id="7892" count="1"/>	<!-- Spell Breaker -->
+		<ingredient id="8142" count="1"/>	<!-- Spell Breaker -->
+	</item>
+	<item>
+		<production id="7892" count="1"/>	<!-- Spell Breaker -->
+		<ingredient id="8141" count="1"/>	<!-- Spell Breaker -->
+	</item>
+	<item>
+		<production id="229" count="1"/>	<!-- Kris -->
+		<ingredient id="4777" count="1"/>	<!-- Kris -->
+	</item>
+	<item>
+		<production id="229" count="1"/>	<!-- Kris -->
+		<ingredient id="4778" count="1"/>	<!-- Kris -->
+	</item>
+	<item>
+		<production id="229" count="1"/>	<!-- Kris -->
+		<ingredient id="4779" count="1"/>	<!-- Kris -->
+	</item>
+	<item>
+		<production id="267" count="1"/>	<!-- Arthro Nail -->
+		<ingredient id="4801" count="1"/>	<!-- Arthro Nail -->
+	</item>
+	<item>
+		<production id="267" count="1"/>	<!-- Arthro Nail -->
+		<ingredient id="4802" count="1"/>	<!-- Arthro Nail -->
+	</item>
+	<item>
+		<production id="267" count="1"/>	<!-- Arthro Nail -->
+		<ingredient id="4803" count="1"/>	<!-- Arthro Nail -->
+	</item>
+	<item>
+		<production id="284" count="1"/>	<!-- Dark Elven Long Bow -->
+		<ingredient id="4825" count="1"/>	<!-- Dark Elven Long Bow -->
+	</item>
+	<item>
+		<production id="284" count="1"/>	<!-- Dark Elven Long Bow -->
+		<ingredient id="4826" count="1"/>	<!-- Dark Elven Long Bow -->
+	</item>
+	<item>
+		<production id="284" count="1"/>	<!-- Dark Elven Long Bow -->
+		<ingredient id="4827" count="1"/>	<!-- Dark Elven Long Bow -->
+	</item>
+	<item>
+		<production id="300" count="1"/>	<!-- Great Axe -->
+		<ingredient id="4855" count="1"/>	<!-- Great Axe -->
+	</item>
+	<item>
+		<production id="300" count="1"/>	<!-- Great Axe -->
+		<ingredient id="4856" count="1"/>	<!-- Great Axe -->
+	</item>
+	<item>
+		<production id="300" count="1"/>	<!-- Great Axe -->
+		<ingredient id="4857" count="1"/>	<!-- Great Axe -->
+	</item>
+	<item>
+		<production id="92" count="1"/>	<!-- Sprite's Staff -->
+		<ingredient id="4897" count="1"/>	<!-- Sprite's Staff -->
+	</item>
+	<item>
+		<production id="92" count="1"/>	<!-- Sprite's Staff -->
+		<ingredient id="4898" count="1"/>	<!-- Sprite's Staff -->
+	</item>
+	<item>
+		<production id="92" count="1"/>	<!-- Sprite's Staff -->
+		<ingredient id="4899" count="1"/>	<!-- Sprite's Staff -->
+	</item>
+	<item>
+		<production id="148" count="1"/>	<!-- Sword of Valhalla -->
+		<ingredient id="7722" count="1"/>	<!-- Sword of Valhalla -->
+	</item>
+	<item>
+		<production id="148" count="1"/>	<!-- Sword of Valhalla -->
+		<ingredient id="7723" count="1"/>	<!-- Sword of Valhalla -->
+	</item>
+	<item>
+		<production id="148" count="1"/>	<!-- Sword of Valhalla -->
+		<ingredient id="7724" count="1"/>	<!-- Sword of Valhalla -->
+	</item>
+	<item>
+		<production id="79" count="1"/>	<!-- Sword of Damascus -->
+		<ingredient id="4717" count="1"/>	<!-- Sword of Damascus -->
+	</item>
+	<item>
+		<production id="79" count="1"/>	<!-- Sword of Damascus -->
+		<ingredient id="4718" count="1"/>	<!-- Sword of Damascus -->
+	</item>
+	<item>
+		<production id="79" count="1"/>	<!-- Sword of Damascus -->
+		<ingredient id="4719" count="1"/>	<!-- Sword of Damascus -->
+	</item>
+	<item>
+		<production id="7883" count="1"/>	<!-- Guardian Sword -->
+		<ingredient id="8105" count="1"/>	<!-- Guardian Sword -->
+	</item>
+	<item>
+		<production id="7883" count="1"/>	<!-- Guardian Sword -->
+		<ingredient id="8106" count="1"/>	<!-- Guardian Sword -->
+	</item>
+	<item>
+		<production id="7883" count="1"/>	<!-- Guardian Sword -->
+		<ingredient id="8107" count="1"/>	<!-- Guardian Sword -->
+	</item>
+	<item>
+		<production id="171" count="1"/>	<!-- Deadman's Glory -->
+		<ingredient id="4750" count="1"/>	<!-- Deadman's Glory -->
+	</item>
+	<item>
+		<production id="171" count="1"/>	<!-- Deadman's Glory -->
+		<ingredient id="4751" count="1"/>	<!-- Deadman's Glory -->
+	</item>
+	<item>
+		<production id="171" count="1"/>	<!-- Deadman's Glory -->
+		<ingredient id="4752" count="1"/>	<!-- Deadman's Glory -->
+	</item>
+	<item>
+		<production id="175" count="1"/>	<!-- Art of Battle Axe -->
+		<ingredient id="4753" count="1"/>	<!-- Art of Battle Axe -->
+	</item>
+	<item>
+		<production id="175" count="1"/>	<!-- Art of Battle Axe -->
+		<ingredient id="4754" count="1"/>	<!-- Art of Battle Axe -->
+	</item>
+	<item>
+		<production id="175" count="1"/>	<!-- Art of Battle Axe -->
+		<ingredient id="4755" count="1"/>	<!-- Art of Battle Axe -->
+	</item>
+	<item>
+		<production id="7889" count="1"/>	<!-- Wizard's Tear -->
+		<ingredient id="8117" count="1"/>	<!-- Wizard's Tear -->
+	</item>
+	<item>
+		<production id="7889" count="1"/>	<!-- Wizard's Tear -->
+		<ingredient id="8118" count="1"/>	<!-- Wizard's Tear -->
+	</item>
+	<item>
+		<production id="7889" count="1"/>	<!-- Wizard's Tear -->
+		<ingredient id="8119" count="1"/>	<!-- Wizard's Tear -->
+	</item>
+	<item>
+		<production id="234" count="1"/>	<!-- Demon's Dagger -->
+		<ingredient id="4780" count="1"/>	<!-- Demon's Dagger -->
+	</item>
+	<item>
+		<production id="234" count="1"/>	<!-- Demon's Dagger -->
+		<ingredient id="4781" count="1"/>	<!-- Demon's Dagger -->
+	</item>
+	<item>
+		<production id="234" count="1"/>	<!-- Demon's Dagger -->
+		<ingredient id="6359" count="1"/>	<!-- Demon's Dagger -->
+	</item>
+	<item>
+		<production id="268" count="1"/>	<!-- Bellion Cestus -->
+		<ingredient id="4804" count="1"/>	<!-- Bellion Cestus -->
+	</item>
+	<item>
+		<production id="268" count="1"/>	<!-- Bellion Cestus -->
+		<ingredient id="4805" count="1"/>	<!-- Bellion Cestus -->
+	</item>
+	<item>
+		<production id="268" count="1"/>	<!-- Bellion Cestus -->
+		<ingredient id="4806" count="1"/>	<!-- Bellion Cestus -->
+	</item>
+	<item>
+		<production id="287" count="1"/>	<!-- Bow of Peril -->
+		<ingredient id="4828" count="1"/>	<!-- Bow of Peril -->
+	</item>
+	<item>
+		<production id="287" count="1"/>	<!-- Bow of Peril -->
+		<ingredient id="4829" count="1"/>	<!-- Bow of Peril -->
+	</item>
+	<item>
+		<production id="287" count="1"/>	<!-- Bow of Peril -->
+		<ingredient id="4830" count="1"/>	<!-- Bow of Peril -->
+	</item>
+	<item>
+		<production id="97" count="1"/>	<!-- Lance -->
+		<ingredient id="4858" count="1"/>	<!-- Lance -->
+	</item>
+	<item>
+		<production id="97" count="1"/>	<!-- Lance -->
+		<ingredient id="4859" count="1"/>	<!-- Lance -->
+	</item>
+	<item>
+		<production id="97" count="1"/>	<!-- Lance -->
+		<ingredient id="4860" count="1"/>	<!-- Lance -->
+	</item>
+	<item>
+		<production id="7901" count="1"/>	<!-- Star Buster -->
+		<ingredient id="8132" count="1"/>	<!-- Star Buster -->
+	</item>
+	<item>
+		<production id="7901" count="1"/>	<!-- Star Buster -->
+		<ingredient id="8133" count="1"/>	<!-- Star Buster -->
+	</item>
+	<item>
+		<production id="7901" count="1"/>	<!-- Star Buster -->
+		<ingredient id="8134" count="1"/>	<!-- Star Buster -->
+	</item>
+	<item>
+		<production id="210" count="1"/>	<!-- Staff of Evil Spirits -->
+		<ingredient id="4900" count="1"/>	<!-- Staff of Evil Spirits -->
+	</item>
+	<item>
+		<production id="210" count="1"/>	<!-- Staff of Evil Spirits -->
+		<ingredient id="4901" count="1"/>	<!-- Staff of Evil Spirits -->
+	</item>
+	<item>
+		<production id="210" count="1"/>	<!-- Staff of Evil Spirits -->
+		<ingredient id="4902" count="1"/>	<!-- Staff of Evil Spirits -->
+	</item>
+	<item>
+		<production id="7893" count="1"/>	<!-- Kaim Vanul's Bones -->
+		<ingredient id="8144" count="1"/>	<!-- Kaim Vanul's Bones -->
+	</item>
+	<item>
+		<production id="7893" count="1"/>	<!-- Kaim Vanul's Bones -->
+		<ingredient id="8145" count="1"/>	<!-- Kaim Vanul's Bones -->
+	</item>
+	<item>
+		<production id="7893" count="1"/>	<!-- Kaim Vanul's Bones -->
+		<ingredient id="8146" count="1"/>	<!-- Kaim Vanul's Bones -->
+	</item>
+	<item>
+		<production id="132" count="1"/>	<!-- Sword of Limit -->
+		<ingredient id="6307" count="1"/>	<!-- Sword of Limit -->
+	</item>
+	<item>
+		<production id="132" count="1"/>	<!-- Sword of Limit -->
+		<ingredient id="6308" count="1"/>	<!-- Sword of Limit -->
+	</item>
+	<item>
+		<production id="132" count="1"/>	<!-- Sword of Limit -->
+		<ingredient id="6309" count="1"/>	<!-- Sword of Limit -->
+	</item>
+	<item>
+		<production id="145" count="1"/>	<!-- Sword of Whispering Death -->
+		<ingredient id="6310" count="1"/>	<!-- Sword of Whispering Death -->
+	</item>
+	<item>
+		<production id="145" count="1"/>	<!-- Sword of Whispering Death -->
+		<ingredient id="6311" count="1"/>	<!-- Sword of Whispering Death -->
+	</item>
+	<item>
+		<production id="145" count="1"/>	<!-- Sword of Whispering Death -->
+		<ingredient id="6312" count="1"/>	<!-- Sword of Whispering Death -->
+	</item>
+	<item>
+		<production id="84" count="1"/>	<!-- Homunkulus's Sword -->
+		<ingredient id="6313" count="1"/>	<!-- Homunkulus's Sword -->
+	</item>
+	<item>
+		<production id="84" count="1"/>	<!-- Homunkulus's Sword -->
+		<ingredient id="6314" count="1"/>	<!-- Homunkulus's Sword -->
+	</item>
+	<item>
+		<production id="84" count="1"/>	<!-- Homunkulus's Sword -->
+		<ingredient id="6315" count="1"/>	<!-- Homunkulus's Sword -->
+	</item>
+	<item>
+		<production id="5286" count="1"/>	<!-- Berserker Blade -->
+		<ingredient id="6347" count="1"/>	<!-- Berserker Blade -->
+	</item>
+	<item>
+		<production id="5286" count="1"/>	<!-- Berserker Blade -->
+		<ingredient id="6348" count="1"/>	<!-- Berserker Blade -->
+	</item>
+	<item>
+		<production id="5286" count="1"/>	<!-- Berserker Blade -->
+		<ingredient id="6349" count="1"/>	<!-- Berserker Blade -->
+	</item>
+	<item>
+		<production id="212" count="1"/>	<!-- Dasparion's Staff -->
+		<ingredient id="5596" count="1"/>	<!-- Dasparion's Staff -->
+	</item>
+	<item>
+		<production id="212" count="1"/>	<!-- Dasparion's Staff -->
+		<ingredient id="5597" count="1"/>	<!-- Dasparion's Staff -->
+	</item>
+	<item>
+		<production id="212" count="1"/>	<!-- Dasparion's Staff -->
+		<ingredient id="5598" count="1"/>	<!-- Dasparion's Staff -->
+	</item>
+	<item>
+		<production id="7884" count="1"/>	<!-- Infernal Master -->
+		<ingredient id="8108" count="1"/>	<!-- Infernal Master -->
+	</item>
+	<item>
+		<production id="7884" count="1"/>	<!-- Infernal Master -->
+		<ingredient id="8109" count="1"/>	<!-- Infernal Master -->
+	</item>
+	<item>
+		<production id="7884" count="1"/>	<!-- Infernal Master -->
+		<ingredient id="8110" count="1"/>	<!-- Infernal Master -->
+	</item>
+	<item>
+		<production id="7899" count="1"/>	<!-- Destroyer Hammer -->
+		<ingredient id="8126" count="1"/>	<!-- Destroyer Hammer -->
+	</item>
+	<item>
+		<production id="7899" count="1"/>	<!-- Destroyer Hammer -->
+		<ingredient id="8127" count="1"/>	<!-- Destroyer Hammer -->
+	</item>
+	<item>
+		<production id="7899" count="1"/>	<!-- Destroyer Hammer -->
+		<ingredient id="8128" count="1"/>	<!-- Destroyer Hammer -->
+	</item>
+	<item>
+		<production id="7894" count="1"/>	<!-- Spiritual Eye -->
+		<ingredient id="8147" count="1"/>	<!-- Spiritual Eye -->
+	</item>
+	<item>
+		<production id="7894" count="1"/>	<!-- Spiritual Eye -->
+		<ingredient id="8148" count="1"/>	<!-- Spiritual Eye -->
+	</item>
+	<item>
+		<production id="7894" count="1"/>	<!-- Spiritual Eye -->
+		<ingredient id="8149" count="1"/>	<!-- Spiritual Eye -->
+	</item>
+	<item>
+		<production id="2504" count="1"/>	<!-- Meteor Shower -->
+		<ingredient id="5599" count="1"/>	<!-- Meteor Shower -->
+	</item>
+	<item>
+		<production id="2504" count="1"/>	<!-- Meteor Shower -->
+		<ingredient id="5600" count="1"/>	<!-- Meteor Shower -->
+	</item>
+	<item>
+		<production id="2504" count="1"/>	<!-- Meteor Shower -->
+		<ingredient id="5601" count="1"/>	<!-- Meteor Shower -->
+	</item>
+	<item>
+		<production id="164" count="1"/>	<!-- Elysian -->
+		<ingredient id="5602" count="1"/>	<!-- Elysian -->
+	</item>
+	<item>
+		<production id="164" count="1"/>	<!-- Elysian -->
+		<ingredient id="5603" count="1"/>	<!-- Elysian -->
+	</item>
+	<item>
+		<production id="164" count="1"/>	<!-- Elysian -->
+		<ingredient id="5604" count="1"/>	<!-- Elysian -->
+	</item>
+	<item>
+		<production id="213" count="1"/>	<!-- Branch of the Mother Tree -->
+		<ingredient id="5605" count="1"/>	<!-- Branch of the Mother Tree -->
+	</item>
+	<item>
+		<production id="213" count="1"/>	<!-- Branch of the Mother Tree -->
+		<ingredient id="5606" count="1"/>	<!-- Branch of the Mother Tree -->
+	</item>
+	<item>
+		<production id="213" count="1"/>	<!-- Branch of the Mother Tree -->
+		<ingredient id="5607" count="1"/>	<!-- Branch of the Mother Tree -->
+	</item>
+	<item>
+		<production id="288" count="1"/>	<!-- Carnage Bow -->
+		<ingredient id="5608" count="1"/>	<!-- Carnage Bow -->
+	</item>
+	<item>
+		<production id="288" count="1"/>	<!-- Carnage Bow -->
+		<ingredient id="5609" count="1"/>	<!-- Carnage Bow -->
+	</item>
+	<item>
+		<production id="288" count="1"/>	<!-- Carnage Bow -->
+		<ingredient id="5610" count="1"/>	<!-- Carnage Bow -->
+	</item>
+	<item>
+		<production id="289" count="1"/>	<!-- Soul Bow -->
+		<ingredient id="5611" count="1"/>	<!-- Soul Bow -->
+	</item>
+	<item>
+		<production id="289" count="1"/>	<!-- Soul Bow -->
+		<ingredient id="5612" count="1"/>	<!-- Soul Bow -->
+	</item>
+	<item>
+		<production id="289" count="1"/>	<!-- Soul Bow -->
+		<ingredient id="5613" count="1"/>	<!-- Soul Bow -->
+	</item>
+	<item>
+		<production id="235" count="1"/>	<!-- Bloody Orchid -->
+		<ingredient id="5614" count="1"/>	<!-- Bloody Orchid -->
+	</item>
+	<item>
+		<production id="235" count="1"/>	<!-- Bloody Orchid -->
+		<ingredient id="5615" count="1"/>	<!-- Bloody Orchid -->
+	</item>
+	<item>
+		<production id="235" count="1"/>	<!-- Bloody Orchid -->
+		<ingredient id="5616" count="1"/>	<!-- Bloody Orchid -->
+	</item>
+	<item>
+		<production id="236" count="1"/>	<!-- Soul Separator -->
+		<ingredient id="5617" count="1"/>	<!-- Soul Separator -->
+	</item>
+	<item>
+		<production id="236" count="1"/>	<!-- Soul Separator -->
+		<ingredient id="5618" count="1"/>	<!-- Soul Separator -->
+	</item>
+	<item>
+		<production id="236" count="1"/>	<!-- Soul Separator -->
+		<ingredient id="5619" count="1"/>	<!-- Soul Separator -->
+	</item>
+	<item>
+		<production id="269" count="1"/>	<!-- Blood Tornado -->
+		<ingredient id="5620" count="1"/>	<!-- Blood Tornado -->
+	</item>
+	<item>
+		<production id="269" count="1"/>	<!-- Blood Tornado -->
+		<ingredient id="5621" count="1"/>	<!-- Blood Tornado -->
+	</item>
+	<item>
+		<production id="269" count="1"/>	<!-- Blood Tornado -->
+		<ingredient id="5622" count="1"/>	<!-- Blood Tornado -->
+	</item>
+	<item>
+		<production id="270" count="1"/>	<!-- Dragon Grinder -->
+		<ingredient id="5623" count="1"/>	<!-- Dragon Grinder -->
+	</item>
+	<item>
+		<production id="270" count="1"/>	<!-- Dragon Grinder -->
+		<ingredient id="5624" count="1"/>	<!-- Dragon Grinder -->
+	</item>
+	<item>
+		<production id="270" count="1"/>	<!-- Dragon Grinder -->
+		<ingredient id="5625" count="1"/>	<!-- Dragon Grinder -->
+	</item>
+	<item>
+		<production id="98" count="1"/>	<!-- Halberd -->
+		<ingredient id="5626" count="1"/>	<!-- Halberd -->
+	</item>
+	<item>
+		<production id="98" count="1"/>	<!-- Halberd -->
+		<ingredient id="5627" count="1"/>	<!-- Halberd -->
+	</item>
+	<item>
+		<production id="98" count="1"/>	<!-- Halberd -->
+		<ingredient id="5628" count="1"/>	<!-- Halberd -->
+	</item>
+	<item>
+		<production id="305" count="1"/>	<!-- Tallum Glaive -->
+		<ingredient id="5632" count="1"/>	<!-- Tallum Glaive -->
+	</item>
+	<item>
+		<production id="305" count="1"/>	<!-- Tallum Glaive -->
+		<ingredient id="5633" count="1"/>	<!-- Tallum Glaive -->
+	</item>
+	<item>
+		<production id="305" count="1"/>	<!-- Tallum Glaive -->
+		<ingredient id="5634" count="1"/>	<!-- Tallum Glaive -->
+	</item>
+	<item>
+		<production id="80" count="1"/>	<!-- Tallum Blade -->
+		<ingredient id="5635" count="1"/>	<!-- Tallum Blade -->
+	</item>
+	<item>
+		<production id="80" count="1"/>	<!-- Tallum Blade -->
+		<ingredient id="5636" count="1"/>	<!-- Tallum Blade -->
+	</item>
+	<item>
+		<production id="80" count="1"/>	<!-- Tallum Blade -->
+		<ingredient id="5637" count="1"/>	<!-- Tallum Blade -->
+	</item>
+	<item>
+		<production id="150" count="1"/>	<!-- Elemental Sword -->
+		<ingredient id="5638" count="1"/>	<!-- Elemental Sword -->
+	</item>
+	<item>
+		<production id="150" count="1"/>	<!-- Elemental Sword -->
+		<ingredient id="5639" count="1"/>	<!-- Elemental Sword -->
+	</item>
+	<item>
+		<production id="150" count="1"/>	<!-- Elemental Sword -->
+		<ingredient id="5640" count="1"/>	<!-- Elemental Sword -->
+	</item>
+	<item>
+		<production id="151" count="1"/>	<!-- Sword of Miracles -->
+		<ingredient id="5641" count="1"/>	<!-- Sword of Miracles -->
+	</item>
+	<item>
+		<production id="151" count="1"/>	<!-- Sword of Miracles -->
+		<ingredient id="5642" count="1"/>	<!-- Sword of Miracles -->
+	</item>
+	<item>
+		<production id="151" count="1"/>	<!-- Sword of Miracles -->
+		<ingredient id="5643" count="1"/>	<!-- Sword of Miracles -->
+	</item>
+	<item>
+		<production id="81" count="1"/>	<!-- Dragon Slayer -->
+		<ingredient id="5644" count="1"/>	<!-- Dragon Slayer -->
+	</item>
+	<item>
+		<production id="81" count="1"/>	<!-- Dragon Slayer -->
+		<ingredient id="5645" count="1"/>	<!-- Dragon Slayer -->
+	</item>
+	<item>
+		<production id="81" count="1"/>	<!-- Dragon Slayer -->
+		<ingredient id="5646" count="1"/>	<!-- Dragon Slayer -->
+	</item>
+	<item>
+		<production id="2500" count="1"/>	<!-- Dark Legion's Edge -->
+		<ingredient id="5647" count="1"/>	<!-- Dark Legion's Edge -->
+	</item>
+	<item>
+		<production id="2500" count="1"/>	<!-- Dark Legion's Edge -->
+		<ingredient id="5648" count="1"/>	<!-- Dark Legion's Edge -->
+	</item>
+	<item>
+		<production id="2500" count="1"/>	<!-- Dark Legion's Edge -->
+		<ingredient id="5649" count="1"/>	<!-- Dark Legion's Edge -->
+	</item>
+	<item>
+		<production id="7902" count="1"/>	<!-- Doom Crusher -->
+		<ingredient id="8135" count="1"/>	<!-- Doom Crusher -->
+	</item>
+	<item>
+		<production id="7902" count="1"/>	<!-- Doom Crusher -->
+		<ingredient id="8136" count="1"/>	<!-- Doom Crusher -->
+	</item>
+	<item>
+		<production id="7902" count="1"/>	<!-- Doom Crusher -->
+		<ingredient id="8137" count="1"/>	<!-- Doom Crusher -->
+	</item>
+	<item>
+		<production id="7895" count="1"/>	<!-- Flaming Dragon Skull -->
+		<ingredient id="8150" count="1"/>	<!-- Flaming Dragon Skull -->
+	</item>
+	<item>
+		<production id="7895" count="1"/>	<!-- Flaming Dragon Skull -->
+		<ingredient id="8151" count="1"/>	<!-- Flaming Dragon Skull -->
+	</item>
+	<item>
+		<production id="7895" count="1"/>	<!-- Flaming Dragon Skull -->
+		<ingredient id="8152" count="1"/>	<!-- Flaming Dragon Skull -->
+	</item>
+	<item>
+		<production id="6364" count="1"/>	<!-- Forgotten Blade -->
+		<ingredient id="6581" count="1"/>	<!-- Forgotten Blade -->
+	</item>
+	<item>
+		<production id="6364" count="1"/>	<!-- Forgotten Blade -->
+		<ingredient id="6582" count="1"/>	<!-- Forgotten Blade -->
+	</item>
+	<item>
+		<production id="6364" count="1"/>	<!-- Forgotten Blade -->
+		<ingredient id="6583" count="1"/>	<!-- Forgotten Blade -->
+	</item>
+	<item>
+		<production id="6365" count="1"/>	<!-- Basalt Battlehammer -->
+		<ingredient id="6584" count="1"/>	<!-- Basalt Battlehammer -->
+	</item>
+	<item>
+		<production id="6365" count="1"/>	<!-- Basalt Battlehammer -->
+		<ingredient id="6585" count="1"/>	<!-- Basalt Battlehammer -->
+	</item>
+	<item>
+		<production id="6365" count="1"/>	<!-- Basalt Battlehammer -->
+		<ingredient id="6586" count="1"/>	<!-- Basalt Battlehammer -->
+	</item>
+	<item>
+		<production id="6366" count="1"/>	<!-- Imperial Staff -->
+		<ingredient id="6587" count="1"/>	<!-- Imperial Staff -->
+	</item>
+	<item>
+		<production id="6366" count="1"/>	<!-- Imperial Staff -->
+		<ingredient id="6588" count="1"/>	<!-- Imperial Staff -->
+	</item>
+	<item>
+		<production id="6366" count="1"/>	<!-- Imperial Staff -->
+		<ingredient id="6589" count="1"/>	<!-- Imperial Staff -->
+	</item>
+	<item>
+		<production id="6367" count="1"/>	<!-- Angel Slayer -->
+		<ingredient id="6590" count="1"/>	<!-- Angel Slayer -->
+	</item>
+	<item>
+		<production id="6367" count="1"/>	<!-- Angel Slayer -->
+		<ingredient id="6591" count="1"/>	<!-- Angel Slayer -->
+	</item>
+	<item>
+		<production id="6367" count="1"/>	<!-- Angel Slayer -->
+		<ingredient id="6592" count="1"/>	<!-- Angel Slayer -->
+	</item>
+	<item>
+		<production id="7575" count="1"/>	<!-- Draconic Bow -->
+		<ingredient id="7576" count="1"/>	<!-- Draconic Bow -->
+	</item>
+	<item>
+		<production id="7575" count="1"/>	<!-- Draconic Bow -->
+		<ingredient id="7577" count="1"/>	<!-- Draconic Bow -->
+	</item>
+	<item>
+		<production id="7575" count="1"/>	<!-- Draconic Bow -->
+		<ingredient id="7578" count="1"/>	<!-- Draconic Bow -->
+	</item>
+	<item>
+		<production id="6369" count="1"/>	<!-- Dragon Hunter Axe -->
+		<ingredient id="6596" count="1"/>	<!-- Dragon Hunter Axe -->
+	</item>
+	<item>
+		<production id="6369" count="1"/>	<!-- Dragon Hunter Axe -->
+		<ingredient id="6597" count="1"/>	<!-- Dragon Hunter Axe -->
+	</item>
+	<item>
+		<production id="6369" count="1"/>	<!-- Dragon Hunter Axe -->
+		<ingredient id="6598" count="1"/>	<!-- Dragon Hunter Axe -->
+	</item>
+	<item>
+		<production id="6370" count="1"/>	<!-- Saint Spear -->
+		<ingredient id="6599" count="1"/>	<!-- Saint Spear -->
+	</item>
+	<item>
+		<production id="6370" count="1"/>	<!-- Saint Spear -->
+		<ingredient id="6600" count="1"/>	<!-- Saint Spear -->
+	</item>
+	<item>
+		<production id="6370" count="1"/>	<!-- Saint Spear -->
+		<ingredient id="6601" count="1"/>	<!-- Saint Spear -->
+	</item>
+	<item>
+		<production id="6371" count="1"/>	<!-- Demon Splinter -->
+		<ingredient id="6602" count="1"/>	<!-- Demon Splinter -->
+	</item>
+	<item>
+		<production id="6371" count="1"/>	<!-- Demon Splinter -->
+		<ingredient id="6603" count="1"/>	<!-- Demon Splinter -->
+	</item>
+	<item>
+		<production id="6371" count="1"/>	<!-- Demon Splinter -->
+		<ingredient id="6604" count="1"/>	<!-- Demon Splinter -->
+	</item>
+	<item>
+		<production id="6372" count="1"/>	<!-- Heaven's Divider -->
+		<ingredient id="6605" count="1"/>	<!-- Heavens Divider -->
+	</item>
+	<item>
+		<production id="6372" count="1"/>	<!-- Heaven's Divider -->
+		<ingredient id="6606" count="1"/>	<!-- Heavens Divider -->
+	</item>
+	<item>
+		<production id="6372" count="1"/>	<!-- Heaven's Divider -->
+		<ingredient id="6607" count="1"/>	<!-- Heavens Divider -->
+	</item>
+	<item>
+		<production id="6579" count="1"/>	<!-- Arcana Mace -->
+		<ingredient id="6608" count="1"/>	<!-- Arcana Mace -->
+	</item>
+	<item>
+		<production id="6579" count="1"/>	<!-- Arcana Mace -->
+		<ingredient id="6609" count="1"/>	<!-- Arcana Mace -->
+	</item>
+	<item>
+		<production id="6579" count="1"/>	<!-- Arcana Mace -->
+		<ingredient id="6610" count="1"/>	<!-- Arcana Mace -->
+	</item>
+	<item>
+		<production id="8678" count="1"/>	<!-- Sirra's Blade -->
+		<ingredient id="8788" count="1"/>	<!-- Sirra's Blade -->
+	</item>
+	<item>
+		<production id="8678" count="1"/>	<!-- Sirra's Blade -->
+		<ingredient id="8789" count="1"/>	<!-- Sirra's Blade -->
+	</item>
+	<item>
+		<production id="8678" count="1"/>	<!-- Sirra's Blade -->
+		<ingredient id="8790" count="1"/>	<!-- Sirra's Blade -->
+	</item>
+	<item>
+		<production id="8679" count="1"/>	<!-- Sword of Ipos -->
+		<ingredient id="8791" count="1"/>	<!-- Sword of Ipos -->
+	</item>
+	<item>
+		<production id="8679" count="1"/>	<!-- Sword of Ipos -->
+		<ingredient id="8792" count="1"/>	<!-- Sword of Ipos -->
+	</item>
+	<item>
+		<production id="8679" count="1"/>	<!-- Sword of Ipos -->
+		<ingredient id="8793" count="1"/>	<!-- Sword of Ipos -->
+	</item>
+	<item>
+		<production id="8680" count="1"/>	<!-- Barakiel's Axe -->
+		<ingredient id="8794" count="1"/>	<!-- Barakiel's Axe -->
+	</item>
+	<item>
+		<production id="8680" count="1"/>	<!-- Barakiel's Axe -->
+		<ingredient id="8795" count="1"/>	<!-- Barakiel's Axe -->
+	</item>
+	<item>
+		<production id="8680" count="1"/>	<!-- Barakiel's Axe -->
+		<ingredient id="8796" count="1"/>	<!-- Barakiel's Axe -->
+	</item>
+	<item>
+		<production id="8681" count="1"/>	<!-- Behemoth's Tuning Fork -->
+		<ingredient id="8797" count="1"/>	<!-- Behemoth's Tuning Fork -->
+	</item>
+	<item>
+		<production id="8681" count="1"/>	<!-- Behemoth's Tuning Fork -->
+		<ingredient id="8798" count="1"/>	<!-- Behemoth's Tuning Fork -->
+	</item>
+	<item>
+		<production id="8681" count="1"/>	<!-- Behemoth's Tuning Fork -->
+		<ingredient id="8799" count="1"/>	<!-- Behemoth's Tuning Fork -->
+	</item>
+	<item>
+		<production id="8682" count="1"/>	<!-- Naga Storm -->
+		<ingredient id="8800" count="1"/>	<!-- Naga Storm -->
+	</item>
+	<item>
+		<production id="8682" count="1"/>	<!-- Naga Storm -->
+		<ingredient id="8801" count="1"/>	<!-- Naga Storm -->
+	</item>
+	<item>
+		<production id="8682" count="1"/>	<!-- Naga Storm -->
+		<ingredient id="8802" count="1"/>	<!-- Naga Storm -->
+	</item>
+	<item>
+		<production id="8683" count="1"/>	<!-- Tiphon's Spear -->
+		<ingredient id="8803" count="1"/>	<!-- Tiphon's Spear -->
+	</item>
+	<item>
+		<production id="8683" count="1"/>	<!-- Tiphon's Spear -->
+		<ingredient id="8804" count="1"/>	<!-- Tiphon's Spear -->
+	</item>
+	<item>
+		<production id="8683" count="1"/>	<!-- Tiphon's Spear -->
+		<ingredient id="8805" count="1"/>	<!-- Tiphon's Spear -->
+	</item>
+	<item>
+		<production id="8684" count="1"/>	<!-- Shyeed's Bow -->
+		<ingredient id="8806" count="1"/>	<!-- Shyeed's Bow -->
+	</item>
+	<item>
+		<production id="8684" count="1"/>	<!-- Shyeed's Bow -->
+		<ingredient id="8807" count="1"/>	<!-- Shyeed's Bow -->
+	</item>
+	<item>
+		<production id="8684" count="1"/>	<!-- Shyeed's Bow -->
+		<ingredient id="8808" count="1"/>	<!-- Shyeed's Bow -->
+	</item>
+	<item>
+		<production id="8685" count="1"/>	<!-- Sobekk's Hurricane -->
+		<ingredient id="8809" count="1"/>	<!-- Sobekk's Hurricane -->
+	</item>
+	<item>
+		<production id="8685" count="1"/>	<!-- Sobekk's Hurricane -->
+		<ingredient id="8810" count="1"/>	<!-- Sobekk's Hurricane -->
+	</item>
+	<item>
+		<production id="8685" count="1"/>	<!-- Sobekk's Hurricane -->
+		<ingredient id="8811" count="1"/>	<!-- Sobekk's Hurricane -->
+	</item>
+	<item>
+		<production id="8686" count="1"/>	<!-- Themis' Tongue -->
+		<ingredient id="8812" count="1"/>	<!-- Themis' Tongue -->
+	</item>
+	<item>
+		<production id="8686" count="1"/>	<!-- Themis' Tongue -->
+		<ingredient id="8813" count="1"/>	<!-- Themis' Tongue -->
+	</item>
+	<item>
+		<production id="8686" count="1"/>	<!-- Themis' Tongue -->
+		<ingredient id="8814" count="1"/>	<!-- Themis' Tongue -->
+	</item>
+	<item>
+		<production id="8687" count="1"/>	<!-- Cabrio's Hand -->
+		<ingredient id="8815" count="1"/>	<!-- Cabrio's Hand -->
+	</item>
+	<item>
+		<production id="8687" count="1"/>	<!-- Cabrio's Hand -->
+		<ingredient id="8816" count="1"/>	<!-- Cabrio's Hand -->
+	</item>
+	<item>
+		<production id="8687" count="1"/>	<!-- Cabrio's Hand -->
+		<ingredient id="8817" count="1"/>	<!-- Cabrio's Hand -->
+	</item>
+	<item>
+		<production id="8688" count="1"/>	<!-- Daimon Crystal -->
+		<ingredient id="8818" count="1"/>	<!-- Daimon Crystal -->
+	</item>
+	<item>
+		<production id="8688" count="1"/>	<!-- Daimon Crystal -->
+		<ingredient id="8819" count="1"/>	<!-- Daimon Crystal -->
+	</item>
+	<item>
+		<production id="8688" count="1"/>	<!-- Daimon Crystal -->
+		<ingredient id="8820" count="1"/>	<!-- Daimon Crystal -->
+	</item>
+	<item>
+		<production id="9228" count="1"/>	<!-- Soldat Estoc -->
+		<ingredient id="9229" count="1"/>	<!-- Soldat Estoc -->
+	</item>
+	<item>
+		<production id="9228" count="1"/>	<!-- Soldat Estoc -->
+		<ingredient id="9230" count="1"/>	<!-- Soldat Estoc -->
+	</item>
+	<item>
+		<production id="9228" count="1"/>	<!-- Soldat Estoc -->
+		<ingredient id="9231" count="1"/>	<!-- Soldat Estoc -->
+	</item>
+	<item>
+		<production id="9240" count="1"/>	<!-- Chevalier Rapier -->
+		<ingredient id="9241" count="1"/>	<!-- Chevalier Rapier -->
+	</item>
+	<item>
+		<production id="9240" count="1"/>	<!-- Chevalier Rapier -->
+		<ingredient id="9242" count="1"/>	<!-- Chevalier Rapier -->
+	</item>
+	<item>
+		<production id="9240" count="1"/>	<!-- Chevalier Rapier -->
+		<ingredient id="9243" count="1"/>	<!-- Chevalier Rapier -->
+	</item>
+	<item>
+		<production id="9244" count="1"/>	<!-- Chevalier Rapier -->
+		<ingredient id="9245" count="1"/>	<!-- Chevalier Rapier -->
+	</item>
+	<item>
+		<production id="9244" count="1"/>	<!-- Chevalier Rapier -->
+		<ingredient id="9246" count="1"/>	<!-- Chevalier Rapier -->
+	</item>
+	<item>
+		<production id="9244" count="1"/>	<!-- Chevalier Rapier -->
+		<ingredient id="9247" count="1"/>	<!-- Chevalier Rapier -->
+	</item>
+	<item>
+		<production id="9248" count="1"/>	<!-- Chevalier Rapier -->
+		<ingredient id="9249" count="1"/>	<!-- Chevalier Rapier -->
+	</item>
+	<item>
+		<production id="9248" count="1"/>	<!-- Chevalier Rapier -->
+		<ingredient id="9250" count="1"/>	<!-- Chevalier Rapier -->
+	</item>
+	<item>
+		<production id="9248" count="1"/>	<!-- Chevalier Rapier -->
+		<ingredient id="9251" count="1"/>	<!-- Chevalier Rapier -->
+	</item>
+	<item>
+		<production id="9252" count="1"/>	<!-- Chevalier Rapier -->
+		<ingredient id="9253" count="1"/>	<!-- Chevalier Rapier -->
+	</item>
+	<item>
+		<production id="9252" count="1"/>	<!-- Chevalier Rapier -->
+		<ingredient id="9254" count="1"/>	<!-- Chevalier Rapier -->
+	</item>
+	<item>
+		<production id="9252" count="1"/>	<!-- Chevalier Rapier -->
+		<ingredient id="9255" count="1"/>	<!-- Chevalier Rapier -->
+	</item>
+	<item>
+		<production id="9264" count="1"/>	<!-- Blinzlasher -->
+		<ingredient id="9265" count="1"/>	<!-- Blinzlasher -->
+	</item>
+	<item>
+		<production id="9264" count="1"/>	<!-- Blinzlasher -->
+		<ingredient id="9266" count="1"/>	<!-- Blinzlasher -->
+	</item>
+	<item>
+		<production id="9264" count="1"/>	<!-- Blinzlasher -->
+		<ingredient id="9267" count="1"/>	<!-- Blinzlasher -->
+	</item>
+	<item>
+		<production id="9268" count="1"/>	<!-- Blinzlasher -->
+		<ingredient id="9269" count="1"/>	<!-- Blinzlasher -->
+	</item>
+	<item>
+		<production id="9268" count="1"/>	<!-- Blinzlasher -->
+		<ingredient id="9270" count="1"/>	<!-- Blinzlasher -->
+	</item>
+	<item>
+		<production id="9268" count="1"/>	<!-- Blinzlasher -->
+		<ingredient id="9271" count="1"/>	<!-- Blinzlasher -->
+	</item>
+	<item>
+		<production id="9272" count="1"/>	<!-- Blinzlasher -->
+		<ingredient id="9273" count="1"/>	<!-- Blinzlasher -->
+	</item>
+	<item>
+		<production id="9272" count="1"/>	<!-- Blinzlasher -->
+		<ingredient id="9274" count="1"/>	<!-- Blinzlasher -->
+	</item>
+	<item>
+		<production id="9272" count="1"/>	<!-- Blinzlasher -->
+		<ingredient id="9275" count="1"/>	<!-- Blinzlasher -->
+	</item>
+	<item>
+		<production id="9276" count="1"/>	<!-- Blinzlasher -->
+		<ingredient id="9277" count="1"/>	<!-- Blinzlasher -->
+	</item>
+	<item>
+		<production id="9276" count="1"/>	<!-- Blinzlasher -->
+		<ingredient id="9278" count="1"/>	<!-- Blinzlasher -->
+	</item>
+	<item>
+		<production id="9276" count="1"/>	<!-- Blinzlasher -->
+		<ingredient id="9279" count="1"/>	<!-- Blinzlasher -->
+	</item>
+	<item>
+		<production id="9280" count="1"/>	<!-- Blinzlasher -->
+		<ingredient id="9281" count="1"/>	<!-- Blinzlasher -->
+	</item>
+	<item>
+		<production id="9280" count="1"/>	<!-- Blinzlasher -->
+		<ingredient id="9282" count="1"/>	<!-- Blinzlasher -->
+	</item>
+	<item>
+		<production id="9280" count="1"/>	<!-- Blinzlasher -->
+		<ingredient id="9283" count="1"/>	<!-- Blinzlasher -->
+	</item>
+	<item>
+		<production id="9292" count="1"/>	<!-- Admiral's Estoc -->
+		<ingredient id="9293" count="1"/>	<!-- Admiral's Estoc -->
+	</item>
+	<item>
+		<production id="9292" count="1"/>	<!-- Admiral's Estoc -->
+		<ingredient id="9294" count="1"/>	<!-- Admiral's Estoc -->
+	</item>
+	<item>
+		<production id="9292" count="1"/>	<!-- Admiral's Estoc -->
+		<ingredient id="9295" count="1"/>	<!-- Admiral's Estoc -->
+	</item>
+	<item>
+		<production id="9304" count="1"/>	<!-- Military Fleuret -->
+		<ingredient id="9305" count="1"/>	<!-- Military Fleuret -->
+	</item>
+	<item>
+		<production id="9304" count="1"/>	<!-- Military Fleuret -->
+		<ingredient id="9306" count="1"/>	<!-- Military Fleuret -->
+	</item>
+	<item>
+		<production id="9304" count="1"/>	<!-- Military Fleuret -->
+		<ingredient id="9307" count="1"/>	<!-- Military Fleuret -->
+	</item>
+	<item>
+		<production id="9316" count="1"/>	<!-- Colichemarde -->
+		<ingredient id="9317" count="1"/>	<!-- Colichemarde -->
+	</item>
+	<item>
+		<production id="9316" count="1"/>	<!-- Colichemarde -->
+		<ingredient id="9318" count="1"/>	<!-- Colichemarde -->
+	</item>
+	<item>
+		<production id="9316" count="1"/>	<!-- Colichemarde -->
+		<ingredient id="9319" count="1"/>	<!-- Colichemarde -->
+	</item>
+	<item>
+		<production id="9232" count="1"/>	<!-- Schlager -->
+		<ingredient id="9233" count="1"/>	<!-- Schlager -->
+	</item>
+	<item>
+		<production id="9232" count="1"/>	<!-- Schlager -->
+		<ingredient id="9234" count="1"/>	<!-- Schlager -->
+	</item>
+	<item>
+		<production id="9232" count="1"/>	<!-- Schlager -->
+		<ingredient id="9235" count="1"/>	<!-- Schlager -->
+	</item>
+	<item>
+		<production id="9284" count="1"/>	<!-- Immortal Edge -->
+		<ingredient id="9285" count="1"/>	<!-- Immortal Edge -->
+	</item>
+	<item>
+		<production id="9284" count="1"/>	<!-- Immortal Edge -->
+		<ingredient id="9286" count="1"/>	<!-- Immortal Edge -->
+	</item>
+	<item>
+		<production id="9284" count="1"/>	<!-- Immortal Edge -->
+		<ingredient id="9287" count="1"/>	<!-- Immortal Edge -->
+	</item>
+	<item>
+		<production id="9296" count="1"/>	<!-- Saber Tooth -->
+		<ingredient id="9297" count="1"/>	<!-- Saber Tooth -->
+	</item>
+	<item>
+		<production id="9296" count="1"/>	<!-- Saber Tooth -->
+		<ingredient id="9298" count="1"/>	<!-- Saber Tooth -->
+	</item>
+	<item>
+		<production id="9296" count="1"/>	<!-- Saber Tooth -->
+		<ingredient id="9299" count="1"/>	<!-- Saber Tooth -->
+	</item>
+	<item>
+		<production id="9308" count="1"/>	<!-- Innominate Victory -->
+		<ingredient id="9309" count="1"/>	<!-- Innominate Victory -->
+	</item>
+	<item>
+		<production id="9308" count="1"/>	<!-- Innominate Victory -->
+		<ingredient id="9310" count="1"/>	<!-- Innominate Victory -->
+	</item>
+	<item>
+		<production id="9308" count="1"/>	<!-- Innominate Victory -->
+		<ingredient id="9311" count="1"/>	<!-- Innominate Victory -->
+	</item>
+	<item>
+		<production id="9320" count="1"/>	<!-- Dismantler -->
+		<ingredient id="9321" count="1"/>	<!-- Dismantler -->
+	</item>
+	<item>
+		<production id="9320" count="1"/>	<!-- Dismantler -->
+		<ingredient id="9322" count="1"/>	<!-- Dismantler -->
+	</item>
+	<item>
+		<production id="9320" count="1"/>	<!-- Dismantler -->
+		<ingredient id="9323" count="1"/>	<!-- Dismantler -->
+	</item>
+	<item>
+		<production id="9236" count="1"/>	<!-- Arbalest -->
+		<ingredient id="9237" count="1"/>	<!-- Arbalest -->
+	</item>
+	<item>
+		<production id="9236" count="1"/>	<!-- Arbalest -->
+		<ingredient id="9238" count="1"/>	<!-- Arbalest -->
+	</item>
+	<item>
+		<production id="9236" count="1"/>	<!-- Arbalest -->
+		<ingredient id="9239" count="1"/>	<!-- Arbalest -->
+	</item>
+	<item>
+		<production id="9256" count="1"/>	<!-- Ballista -->
+		<ingredient id="9257" count="1"/>	<!-- Ballista -->
+	</item>
+	<item>
+		<production id="9256" count="1"/>	<!-- Ballista -->
+		<ingredient id="9258" count="1"/>	<!-- Ballista -->
+	</item>
+	<item>
+		<production id="9256" count="1"/>	<!-- Ballista -->
+		<ingredient id="9259" count="1"/>	<!-- Ballista -->
+	</item>
+	<item>
+		<production id="9260" count="1"/>	<!-- Ballista -->
+		<ingredient id="9261" count="1"/>	<!-- Ballista -->
+	</item>
+	<item>
+		<production id="9260" count="1"/>	<!-- Ballista -->
+		<ingredient id="9262" count="1"/>	<!-- Ballista -->
+	</item>
+	<item>
+		<production id="9260" count="1"/>	<!-- Ballista -->
+		<ingredient id="9263" count="1"/>	<!-- Ballista -->
+	</item>
+	<item>
+		<production id="9288" count="1"/>	<!-- Tathlum -->
+		<ingredient id="9289" count="1"/>	<!-- Tathlum -->
+	</item>
+	<item>
+		<production id="9288" count="1"/>	<!-- Tathlum -->
+		<ingredient id="9290" count="1"/>	<!-- Tathlum -->
+	</item>
+	<item>
+		<production id="9288" count="1"/>	<!-- Tathlum -->
+		<ingredient id="9291" count="1"/>	<!-- Tathlum -->
+	</item>
+	<item>
+		<production id="9300" count="1"/>	<!-- Sharpshooter -->
+		<ingredient id="9301" count="1"/>	<!-- Sharpshooter -->
+	</item>
+	<item>
+		<production id="9300" count="1"/>	<!-- Sharpshooter -->
+		<ingredient id="9302" count="1"/>	<!-- Sharpshooter -->
+	</item>
+	<item>
+		<production id="9300" count="1"/>	<!-- Sharpshooter -->
+		<ingredient id="9303" count="1"/>	<!-- Sharpshooter -->
+	</item>
+	<item>
+		<production id="9312" count="1"/>	<!-- Peacemaker -->
+		<ingredient id="9313" count="1"/>	<!-- Peacemaker -->
+	</item>
+	<item>
+		<production id="9312" count="1"/>	<!-- Peacemaker -->
+		<ingredient id="9314" count="1"/>	<!-- Peacemaker -->
+	</item>
+	<item>
+		<production id="9312" count="1"/>	<!-- Peacemaker -->
+		<ingredient id="9315" count="1"/>	<!-- Peacemaker -->
+	</item>
+	<item>
+		<production id="9324" count="1"/>	<!-- Hell Hound -->
+		<ingredient id="9325" count="1"/>	<!-- Hell Hound -->
+	</item>
+	<item>
+		<production id="9324" count="1"/>	<!-- Hell Hound -->
+		<ingredient id="9326" count="1"/>	<!-- Hell Hound -->
+	</item>
+	<item>
+		<production id="9324" count="1"/>	<!-- Hell Hound -->
+		<ingredient id="9327" count="1"/>	<!-- Hell Hound -->
+	</item>
+	<item>
+		<production id="9328" count="1"/>	<!-- White Lightning -->
+		<ingredient id="9329" count="1"/>	<!-- White Lightning -->
+	</item>
+	<item>
+		<production id="9328" count="1"/>	<!-- White Lightning -->
+		<ingredient id="9330" count="1"/>	<!-- White Lightning -->
+	</item>
+	<item>
+		<production id="9328" count="1"/>	<!-- White Lightning -->
+		<ingredient id="9331" count="1"/>	<!-- White Lightning -->
+	</item>
+	<item>
+		<production id="9340" count="1"/>	<!-- Lacerator -->
+		<ingredient id="9341" count="1"/>	<!-- Lacerator -->
+	</item>
+	<item>
+		<production id="9340" count="1"/>	<!-- Lacerator -->
+		<ingredient id="9342" count="1"/>	<!-- Lacerator -->
+	</item>
+	<item>
+		<production id="9340" count="1"/>	<!-- Lacerator -->
+		<ingredient id="9343" count="1"/>	<!-- Lacerator -->
+	</item>
+	<item>
+		<production id="9352" count="1"/>	<!-- Éclair Bijou -->
+		<ingredient id="9353" count="1"/>	<!-- Éclair Bijou -->
+	</item>
+	<item>
+		<production id="9352" count="1"/>	<!-- Éclair Bijou -->
+		<ingredient id="9354" count="1"/>	<!-- Éclair Bijou -->
+	</item>
+	<item>
+		<production id="9352" count="1"/>	<!-- Éclair Bijou -->
+		<ingredient id="9355" count="1"/>	<!-- Éclair Bijou -->
+	</item>
+	<item>
+		<production id="9332" count="1"/>	<!-- Divine Pain -->
+		<ingredient id="9333" count="1"/>	<!-- Divine Pain -->
+	</item>
+	<item>
+		<production id="9332" count="1"/>	<!-- Divine Pain -->
+		<ingredient id="9334" count="1"/>	<!-- Divine Pain -->
+	</item>
+	<item>
+		<production id="9332" count="1"/>	<!-- Divine Pain -->
+		<ingredient id="9335" count="1"/>	<!-- Divine Pain -->
+	</item>
+	<item>
+		<production id="9344" count="1"/>	<!-- Undertaker -->
+		<ingredient id="9345" count="1"/>	<!-- Undertaker -->
+	</item>
+	<item>
+		<production id="9344" count="1"/>	<!-- Undertaker -->
+		<ingredient id="9346" count="1"/>	<!-- Undertaker -->
+	</item>
+	<item>
+		<production id="9344" count="1"/>	<!-- Undertaker -->
+		<ingredient id="9347" count="1"/>	<!-- Undertaker -->
+	</item>
+	<item>
+		<production id="9356" count="1"/>	<!-- Durendal -->
+		<ingredient id="9357" count="1"/>	<!-- Durendal -->
+	</item>
+	<item>
+		<production id="9356" count="1"/>	<!-- Durendal -->
+		<ingredient id="9358" count="1"/>	<!-- Durendal -->
+	</item>
+	<item>
+		<production id="9356" count="1"/>	<!-- Durendal -->
+		<ingredient id="9359" count="1"/>	<!-- Durendal -->
+	</item>
+	<item>
+		<production id="9336" count="1"/>	<!-- Doomchanter -->
+		<ingredient id="9337" count="1"/>	<!-- Doomchanter -->
+	</item>
+	<item>
+		<production id="9336" count="1"/>	<!-- Doomchanter -->
+		<ingredient id="9338" count="1"/>	<!-- Doomchanter -->
+	</item>
+	<item>
+		<production id="9336" count="1"/>	<!-- Doomchanter -->
+		<ingredient id="9339" count="1"/>	<!-- Doomchanter -->
+	</item>
+	<item>
+		<production id="9348" count="1"/>	<!-- Reaper -->
+		<ingredient id="9349" count="1"/>	<!-- Reaper -->
+	</item>
+	<item>
+		<production id="9348" count="1"/>	<!-- Reaper -->
+		<ingredient id="9350" count="1"/>	<!-- Reaper -->
+	</item>
+	<item>
+		<production id="9348" count="1"/>	<!-- Reaper -->
+		<ingredient id="9351" count="1"/>	<!-- Reaper -->
+	</item>
+	<item>
+		<production id="9360" count="1"/>	<!-- Screaming Vengeance -->
+		<ingredient id="9361" count="1"/>	<!-- Screaming Vengeance -->
+	</item>
+	<item>
+		<production id="9360" count="1"/>	<!-- Screaming Vengeance -->
+		<ingredient id="9362" count="1"/>	<!-- Screaming Vengeance -->
+	</item>
+	<item>
+		<production id="9360" count="1"/>	<!-- Screaming Vengeance -->
+		<ingredient id="9363" count="1"/>	<!-- Screaming Vengeance -->
+	</item>
+	<item>
+		<production id="9364" count="1"/>	<!-- Laevateinn -->
+		<ingredient id="9365" count="1"/>	<!-- Laevateinn -->
+	</item>
+	<item>
+		<production id="9364" count="1"/>	<!-- Laevateinn -->
+		<ingredient id="9366" count="1"/>	<!-- Laevateinn -->
+	</item>
+	<item>
+		<production id="9364" count="1"/>	<!-- Laevateinn -->
+		<ingredient id="9367" count="1"/>	<!-- Laevateinn -->
+	</item>
+	<item>
+		<production id="9368" count="1"/>	<!-- Gram -->
+		<ingredient id="9369" count="1"/>	<!-- Gram -->
+	</item>
+	<item>
+		<production id="9368" count="1"/>	<!-- Gram -->
+		<ingredient id="9370" count="1"/>	<!-- Gram -->
+	</item>
+	<item>
+		<production id="9368" count="1"/>	<!-- Gram -->
+		<ingredient id="9371" count="1"/>	<!-- Gram -->
+	</item>
+	<item>
+		<production id="9372" count="1"/>	<!-- Sarunga -->
+		<ingredient id="9373" count="1"/>	<!-- Sarunga -->
+	</item>
+	<item>
+		<production id="9372" count="1"/>	<!-- Sarunga -->
+		<ingredient id="9374" count="1"/>	<!-- Sarunga -->
+	</item>
+	<item>
+		<production id="9372" count="1"/>	<!-- Sarunga -->
+		<ingredient id="9375" count="1"/>	<!-- Sarunga -->
+	</item>
+	<item>
+		<production id="9442" count="1"/>	<!-- Dynasty Sword -->
+		<ingredient id="9854" count="1"/>	<!-- Dynasty Sword -->
+	</item>
+	<item>
+		<production id="9442" count="1"/>	<!-- Dynasty Sword -->
+		<ingredient id="9855" count="1"/>	<!-- Dynasty Sword -->
+	</item>
+	<item>
+		<production id="9442" count="1"/>	<!-- Dynasty Sword -->
+		<ingredient id="9856" count="1"/>	<!-- Dynasty Sword -->
+	</item>
+	<item>
+		<production id="9443" count="1"/>	<!-- Dynasty Blade -->
+		<ingredient id="9857" count="1"/>	<!-- Dynasty Blade -->
+	</item>
+	<item>
+		<production id="9443" count="1"/>	<!-- Dynasty Blade -->
+		<ingredient id="9858" count="1"/>	<!-- Dynasty Blade -->
+	</item>
+	<item>
+		<production id="9443" count="1"/>	<!-- Dynasty Blade -->
+		<ingredient id="9859" count="1"/>	<!-- Dynasty Blade -->
+	</item>
+	<item>
+		<production id="9444" count="1"/>	<!-- Dynasty Phantom -->
+		<ingredient id="9860" count="1"/>	<!-- Dynasty Phantom -->
+	</item>
+	<item>
+		<production id="9444" count="1"/>	<!-- Dynasty Phantom -->
+		<ingredient id="9861" count="1"/>	<!-- Dynasty Phantom -->
+	</item>
+	<item>
+		<production id="9444" count="1"/>	<!-- Dynasty Phantom -->
+		<ingredient id="9862" count="1"/>	<!-- Dynasty Phantom -->
+	</item>
+	<item>
+		<production id="9445" count="1"/>	<!-- Dynasty Bow -->
+		<ingredient id="9863" count="1"/>	<!-- Dynasty Bow -->
+	</item>
+	<item>
+		<production id="9445" count="1"/>	<!-- Dynasty Bow -->
+		<ingredient id="9864" count="1"/>	<!-- Dynasty Bow -->
+	</item>
+	<item>
+		<production id="9445" count="1"/>	<!-- Dynasty Bow -->
+		<ingredient id="9865" count="1"/>	<!-- Dynasty Bow -->
+	</item>
+	<item>
+		<production id="9446" count="1"/>	<!-- Dynasty Knife -->
+		<ingredient id="9866" count="1"/>	<!-- Dynasty Knife -->
+	</item>
+	<item>
+		<production id="9446" count="1"/>	<!-- Dynasty Knife -->
+		<ingredient id="9867" count="1"/>	<!-- Dynasty Knife -->
+	</item>
+	<item>
+		<production id="9446" count="1"/>	<!-- Dynasty Knife -->
+		<ingredient id="9868" count="1"/>	<!-- Dynasty Knife -->
+	</item>
+	<item>
+		<production id="9447" count="1"/>	<!-- Dynasty Halberd -->
+		<ingredient id="9869" count="1"/>	<!-- Dynasty Halberd -->
+	</item>
+	<item>
+		<production id="9447" count="1"/>	<!-- Dynasty Halberd -->
+		<ingredient id="9870" count="1"/>	<!-- Dynasty Halberd -->
+	</item>
+	<item>
+		<production id="9447" count="1"/>	<!-- Dynasty Halberd -->
+		<ingredient id="9871" count="1"/>	<!-- Dynasty Halberd -->
+	</item>
+	<item>
+		<production id="9448" count="1"/>	<!-- Dynasty Cudgel -->
+		<ingredient id="9872" count="1"/>	<!-- Dynasty Cudgel -->
+	</item>
+	<item>
+		<production id="9448" count="1"/>	<!-- Dynasty Cudgel -->
+		<ingredient id="9873" count="1"/>	<!-- Dynasty Cudgel -->
+	</item>
+	<item>
+		<production id="9448" count="1"/>	<!-- Dynasty Cudgel -->
+		<ingredient id="9874" count="1"/>	<!-- Dynasty Cudgel -->
+	</item>
+	<item>
+		<production id="9449" count="1"/>	<!-- Dynasty Mace -->
+		<ingredient id="9875" count="1"/>	<!-- Dynasty Mace  -->
+	</item>
+	<item>
+		<production id="9449" count="1"/>	<!-- Dynasty Mace -->
+		<ingredient id="9876" count="1"/>	<!-- Dynasty Mace  -->
+	</item>
+	<item>
+		<production id="9449" count="1"/>	<!-- Dynasty Mace -->
+		<ingredient id="9877" count="1"/>	<!-- Dynasty Mace   -->
+	</item>
+	<item>
+		<production id="9450" count="1"/>	<!-- Dynasty Bagh-Nakh -->
+		<ingredient id="9878" count="1"/>	<!-- Dynasty Bagh-Nakh -->
+	</item>
+	<item>
+		<production id="9450" count="1"/>	<!-- Dynasty Bagh-Nakh -->
+		<ingredient id="9879" count="1"/>	<!-- Dynasty Bagh-Nakh -->
+	</item>
+	<item>
+		<production id="9450" count="1"/>	<!-- Dynasty Bagh-Nakh -->
+		<ingredient id="9880" count="1"/>	<!-- Dynasty Bagh-Nakh -->
+	</item>
+	<item>
+		<production id="9376" count="1"/>	<!-- Dynasty Rapier -->
+		<ingredient id="9377" count="1"/>	<!-- Dynasty Rapier -->
+	</item>
+	<item>
+		<production id="9376" count="1"/>	<!-- Dynasty Rapier -->
+		<ingredient id="9378" count="1"/>	<!-- Dynasty Rapier -->
+	</item>
+	<item>
+		<production id="9376" count="1"/>	<!-- Dynasty Rapier -->
+		<ingredient id="9379" count="1"/>	<!-- Dynasty Rapier -->
+	</item>
+	<item>
+		<production id="9380" count="1"/>	<!-- Dynasty Ancient Sword -->
+		<ingredient id="9381" count="1"/>	<!-- Dynasty Ancient Sword -->
+	</item>
+	<item>
+		<production id="9380" count="1"/>	<!-- Dynasty Ancient Sword -->
+		<ingredient id="9382" count="1"/>	<!-- Dynasty Ancient Sword -->
+	</item>
+	<item>
+		<production id="9380" count="1"/>	<!-- Dynasty Ancient Sword -->
+		<ingredient id="9383" count="1"/>	<!-- Dynasty Ancient Sword -->
+	</item>
+	<item>
+		<production id="9384" count="1"/>	<!-- Dynasty Crossbow -->
+		<ingredient id="9385" count="1"/>	<!-- Dynasty Crossbow -->
+	</item>
+	<item>
+		<production id="9384" count="1"/>	<!-- Dynasty Crossbow -->
+		<ingredient id="9386" count="1"/>	<!-- Dynasty Crossbow -->
+	</item>
+	<item>
+		<production id="9384" count="1"/>	<!-- Dynasty Crossbow -->
+		<ingredient id="9387" count="1"/>	<!-- Dynasty Crossbow -->
+	</item>
+	<item>
+		<production id="10253" count="1"/>	<!-- Dynasty Crusher -->
+		<ingredient id="10530" count="1"/>	<!-- Dynasty Crusher -->
+	</item>
+	<item>
+		<production id="10253" count="1"/>	<!-- Dynasty Crusher -->
+		<ingredient id="10531" count="1"/>	<!-- Dynasty Crusher -->
+	</item>
+	<item>
+		<production id="10253" count="1"/>	<!-- Dynasty Crusher -->
+		<ingredient id="10532" count="1"/>	<!-- Dynasty Crusher -->
+	</item>
+	<item>
+		<production id="10252" count="1"/>	<!-- Dynasty Staff -->
+		<ingredient id="10527" count="1"/>	<!-- Dynasty Staff -->
+	</item>
+	<item>
+		<production id="10252" count="1"/>	<!-- Dynasty Staff -->
+		<ingredient id="10528" count="1"/>	<!-- Dynasty Staff -->
+	</item>
+	<item>
+		<production id="10252" count="1"/>	<!-- Dynasty Staff -->
+		<ingredient id="10529" count="1"/>	<!-- Dynasty Staff -->
+	</item>
+	<item>
+		<production id="10215" count="1"/>	<!-- Icarus Sawsword -->
+		<ingredient id="10434" count="1"/>	<!-- Icarus Sawsword -->
+	</item>
+	<item>
+		<production id="10215" count="1"/>	<!-- Icarus Sawsword -->
+		<ingredient id="10435" count="1"/>	<!-- Icarus Sawsword -->
+	</item>
+	<item>
+		<production id="10215" count="1"/>	<!-- Icarus Sawsword -->
+		<ingredient id="10436" count="1"/>	<!-- Icarus Sawsword -->
+	</item>
+	<item>
+		<production id="10218" count="1"/>	<!-- Icarus Heavy Arms -->
+		<ingredient id="10437" count="1"/>	<!-- Icarus Heavy Arms -->
+	</item>
+	<item>
+		<production id="10218" count="1"/>	<!-- Icarus Heavy Arms -->
+		<ingredient id="10438" count="1"/>	<!-- Icarus Heavy Arms -->
+	</item>
+	<item>
+		<production id="10218" count="1"/>	<!-- Icarus Heavy Arms -->
+		<ingredient id="10439" count="1"/>	<!-- Icarus Heavy Arms -->
+	</item>
+	<item>
+		<production id="10217" count="1"/>	<!-- Icarus Spirit -->
+		<ingredient id="10440" count="1"/>	<!-- Icarus Spirit -->
+	</item>
+	<item>
+		<production id="10217" count="1"/>	<!-- Icarus Spirit -->
+		<ingredient id="10441" count="1"/>	<!-- Icarus Spirit -->
+	</item>
+	<item>
+		<production id="10217" count="1"/>	<!-- Icarus Spirit -->
+		<ingredient id="10442" count="1"/>	<!-- Icarus Spirit -->
+	</item>
+	<item>
+		<production id="10223" count="1"/>	<!-- Icarus Spitter -->
+		<ingredient id="10443" count="1"/>	<!-- Icarus Spitter -->
+	</item>
+	<item>
+		<production id="10223" count="1"/>	<!-- Icarus Spitter -->
+		<ingredient id="10444" count="1"/>	<!-- Icarus Spitter -->
+	</item>
+	<item>
+		<production id="10223" count="1"/>	<!-- Icarus Spitter -->
+		<ingredient id="10445" count="1"/>	<!-- Icarus Spitter -->
+	</item>
+	<item>
+		<production id="10216" count="1"/>	<!-- Icarus Disperser -->
+		<ingredient id="10446" count="1"/>	<!-- Icarus Disperser -->
+	</item>
+	<item>
+		<production id="10216" count="1"/>	<!-- Icarus Disperser -->
+		<ingredient id="10447" count="1"/>	<!-- Icarus Disperser -->
+	</item>
+	<item>
+		<production id="10216" count="1"/>	<!-- Icarus Disperser -->
+		<ingredient id="10448" count="1"/>	<!-- Icarus Disperser -->
+	</item>
+	<item>
+		<production id="10219" count="1"/>	<!-- Icarus Trident -->
+		<ingredient id="10449" count="1"/>	<!-- Icarus Trident -->
+	</item>
+	<item>
+		<production id="10219" count="1"/>	<!-- Icarus Trident -->
+		<ingredient id="10450" count="1"/>	<!-- Icarus Trident -->
+	</item>
+	<item>
+		<production id="10219" count="1"/>	<!-- Icarus Trident -->
+		<ingredient id="10451" count="1"/>	<!-- Icarus Trident -->
+	</item>
+	<item>
+		<production id="10220" count="1"/>	<!-- Icarus Hammer -->
+		<ingredient id="10452" count="1"/>	<!-- Icarus Hammer -->
+	</item>
+	<item>
+		<production id="10220" count="1"/>	<!-- Icarus Hammer -->
+		<ingredient id="10453" count="1"/>	<!-- Icarus Hammer -->
+	</item>
+	<item>
+		<production id="10220" count="1"/>	<!-- Icarus Hammer -->
+		<ingredient id="10454" count="1"/>	<!-- Icarus Hammer -->
+	</item>
+	<item>
+		<production id="10222" count="1"/>	<!-- Icarus Hall -->
+		<ingredient id="10455" count="1"/>	<!-- Icarus Hall -->
+	</item>
+	<item>
+		<production id="10222" count="1"/>	<!-- Icarus Hall -->
+		<ingredient id="10456" count="1"/>	<!-- Icarus Hall -->
+	</item>
+	<item>
+		<production id="10222" count="1"/>	<!-- Icarus Hall -->
+		<ingredient id="10457" count="1"/>	<!-- Icarus Hall -->
+	</item>
+	<item>
+		<production id="10221" count="1"/>	<!-- Icarus Hand -->
+		<ingredient id="10458" count="1"/>	<!-- Icarus Hand -->
+	</item>
+	<item>
+		<production id="10221" count="1"/>	<!-- Icarus Hand -->
+		<ingredient id="10459" count="1"/>	<!-- Icarus Hand -->
+	</item>
+	<item>
+		<production id="10221" count="1"/>	<!-- Icarus Hand -->
+		<ingredient id="10460" count="1"/>	<!-- Icarus Hand -->
+	</item>
+	<item>
+		<production id="10224" count="1"/>	<!-- Icarus Stinger -->
+		<ingredient id="10461" count="1"/>	<!-- Icarus Stinger  -->
+	</item>
+	<item>
+		<production id="10224" count="1"/>	<!-- Icarus Stinger -->
+		<ingredient id="10462" count="1"/>	<!-- Icarus Stinger  -->
+	</item>
+	<item>
+		<production id="10224" count="1"/>	<!-- Icarus Stinger -->
+		<ingredient id="10463" count="1"/>	<!-- Icarus Stinger  -->
+	</item>
+	<item>
+		<production id="10225" count="1"/>	<!-- Icarus Wingblade -->
+		<ingredient id="10464" count="1"/>	<!-- Icarus Wingblade -->
+	</item>
+	<item>
+		<production id="10225" count="1"/>	<!-- Icarus Wingblade -->
+		<ingredient id="10465" count="1"/>	<!-- Icarus Wingblade -->
+	</item>
+	<item>
+		<production id="10225" count="1"/>	<!-- Icarus Wingblade -->
+		<ingredient id="10466" count="1"/>	<!-- Icarus Wingblade -->
+	</item>
+	<item>
+		<production id="10226" count="1"/>	<!-- Icarus Shooter -->
+		<ingredient id="10467" count="1"/>	<!-- Icarus Shooter -->
+	</item>
+	<item>
+		<production id="10226" count="1"/>	<!-- Icarus Shooter -->
+		<ingredient id="10468" count="1"/>	<!-- Icarus Shooter -->
+	</item>
+	<item>
+		<production id="10226" count="1"/>	<!-- Icarus Shooter -->
+		<ingredient id="10469" count="1"/>	<!-- Icarus Shooter -->
+	</item>
+	<item>
+		<production id="13457" count="1"/>	<!-- Vesper Cutter -->
+		<ingredient id="14120" count="1"/>	<!-- Vesper Cutter -->
+	</item>
+	<item>
+		<production id="13457" count="1"/>	<!-- Vesper Cutter -->
+		<ingredient id="14118" count="1"/>	<!-- Vesper Cutter -->
+	</item>
+	<item>
+		<production id="13457" count="1"/>	<!-- Vesper Cutter -->
+		<ingredient id="14119" count="1"/>	<!-- Vesper Cutter -->
+	</item>
+	<item>
+		<production id="13458" count="1"/>	<!-- Vesper Slasher -->
+		<ingredient id="14123" count="1"/>	<!-- Vesper Slasher -->
+	</item>
+	<item>
+		<production id="13458" count="1"/>	<!-- Vesper Slasher -->
+		<ingredient id="14121" count="1"/>	<!-- Vesper Slasher -->
+	</item>
+	<item>
+		<production id="13458" count="1"/>	<!-- Vesper Slasher -->
+		<ingredient id="14122" count="1"/>	<!-- Vesper Slasher -->
+	</item>
+	<item>
+		<production id="13461" count="1"/>	<!-- Vesper Fighter -->
+		<ingredient id="14131" count="1"/>	<!-- Vesper Fighter -->
+	</item>
+	<item>
+		<production id="13461" count="1"/>	<!-- Vesper Fighter -->
+		<ingredient id="14132" count="1"/>	<!-- Vesper Fighter -->
+	</item>
+	<item>
+		<production id="13461" count="1"/>	<!-- Vesper Fighter -->
+		<ingredient id="14130" count="1"/>	<!-- Vesper Fighter -->
+	</item>
+	<item>
+		<production id="13459" count="1"/>	<!-- Vesper Buster -->
+		<ingredient id="14126" count="1"/>	<!-- Vesper Buster -->
+	</item>
+	<item>
+		<production id="13459" count="1"/>	<!-- Vesper Buster -->
+		<ingredient id="14124" count="1"/>	<!-- Vesper Buster -->
+	</item>
+	<item>
+		<production id="13459" count="1"/>	<!-- Vesper Buster -->
+		<ingredient id="14125" count="1"/>	<!-- Vesper Buster -->
+	</item>
+	<item>
+		<production id="13460" count="1"/>	<!-- Vesper Shaper -->
+		<ingredient id="14128" count="1"/>	<!-- Vesper Shaper -->
+	</item>
+	<item>
+		<production id="13460" count="1"/>	<!-- Vesper Shaper -->
+		<ingredient id="14129" count="1"/>	<!-- Vesper Shaper -->
+	</item>
+	<item>
+		<production id="13460" count="1"/>	<!-- Vesper Shaper -->
+		<ingredient id="14127" count="1"/>	<!-- Vesper Shaper -->
+	</item>
+	<item>
+		<production id="13462" count="1"/>	<!-- Vesper Stormer -->
+		<ingredient id="14134" count="1"/>	<!-- Vesper Stormer -->
+	</item>
+	<item>
+		<production id="13462" count="1"/>	<!-- Vesper Stormer -->
+		<ingredient id="14135" count="1"/>	<!-- Vesper Stormer -->
+	</item>
+	<item>
+		<production id="13462" count="1"/>	<!-- Vesper Stormer -->
+		<ingredient id="14133" count="1"/>	<!-- Vesper Stormer -->
+	</item>
+	<item>
+		<production id="13463" count="1"/>	<!-- Vesper Avenger -->
+		<ingredient id="14137" count="1"/>	<!-- Vesper Avenger -->
+	</item>
+	<item>
+		<production id="13463" count="1"/>	<!-- Vesper Avenger -->
+		<ingredient id="14138" count="1"/>	<!-- Vesper Avenger -->
+	</item>
+	<item>
+		<production id="13463" count="1"/>	<!-- Vesper Avenger -->
+		<ingredient id="14136" count="1"/>	<!-- Vesper Avenger -->
+	</item>
+	<item>
+		<production id="13464" count="1"/>	<!-- Vesper Retributer -->
+		<ingredient id="14140" count="1"/>	<!-- Vesper Retributer -->
+	</item>
+	<item>
+		<production id="13464" count="1"/>	<!-- Vesper Retributer -->
+		<ingredient id="14141" count="1"/>	<!-- Vesper Retributer -->
+	</item>
+	<item>
+		<production id="13464" count="1"/>	<!-- Vesper Retributer -->
+		<ingredient id="14139" count="1"/>	<!-- Vesper Retributer -->
+	</item>
+	<item>
+		<production id="13466" count="1"/>	<!-- Vesper Singer -->
+		<ingredient id="14145" count="1"/>	<!-- Vesper Singer -->
+	</item>
+	<item>
+		<production id="13466" count="1"/>	<!-- Vesper Singer -->
+		<ingredient id="14146" count="1"/>	<!-- Vesper Singer -->
+	</item>
+	<item>
+		<production id="13466" count="1"/>	<!-- Vesper Singer -->
+		<ingredient id="14147" count="1"/>	<!-- Vesper Singer -->
+	</item>
+	<item>
+		<production id="13467" count="1"/>	<!-- Vesper Thrower -->
+		<ingredient id="14149" count="1"/>	<!-- Vesper Thrower -->
+	</item>
+	<item>
+		<production id="13467" count="1"/>	<!-- Vesper Thrower -->
+		<ingredient id="14148" count="1"/>	<!-- Vesper Thrower -->
+	</item>
+	<item>
+		<production id="13467" count="1"/>	<!-- Vesper Thrower -->
+		<ingredient id="14150" count="1"/>	<!-- Vesper Thrower -->
+	</item>
+	<item>
+		<production id="13468" count="1"/>	<!-- Vesper Pincer -->
+		<ingredient id="14152" count="1"/>	<!-- Vesper Pincer -->
+	</item>
+	<item>
+		<production id="13468" count="1"/>	<!-- Vesper Pincer -->
+		<ingredient id="14153" count="1"/>	<!-- Vesper Pincer -->
+	</item>
+	<item>
+		<production id="13468" count="1"/>	<!-- Vesper Pincer -->
+		<ingredient id="14151" count="1"/>	<!-- Vesper Pincer -->
+	</item>
+	<item>
+		<production id="13469" count="1"/>	<!-- Vesper Shooter -->
+		<ingredient id="14155" count="1"/>	<!-- Vesper Shooter -->
+	</item>
+	<item>
+		<production id="13469" count="1"/>	<!-- Vesper Shooter -->
+		<ingredient id="14156" count="1"/>	<!-- Vesper Shooter -->
+	</item>
+	<item>
+		<production id="13469" count="1"/>	<!-- Vesper Shooter -->
+		<ingredient id="14154" count="1"/>	<!-- Vesper Shooter -->
+	</item>
+	<item>
+		<production id="13470" count="1"/>	<!-- Vesper Nagan -->
+		<ingredient id="14158" count="1"/>	<!-- Vesper Nagan -->
+	</item>
+	<item>
+		<production id="13470" count="1"/>	<!-- Vesper Nagan -->
+		<ingredient id="14159" count="1"/>	<!-- Vesper Nagan -->
+	</item>
+	<item>
+		<production id="13470" count="1"/>	<!-- Vesper Nagan -->
+		<ingredient id="14157" count="1"/>	<!-- Vesper Nagan -->
+	</item>
+	<item>
+		<production id="13465" count="1"/>	<!-- Vesper Caster -->
+		<ingredient id="14142" count="1"/>	<!-- Vesper Caster -->
+	</item>
+	<item>
+		<production id="13465" count="1"/>	<!-- Vesper Caster -->
+		<ingredient id="14143" count="1"/>	<!-- Vesper Caster -->
+	</item>
+	<item>
+		<production id="13465" count="1"/>	<!-- Vesper Caster -->
+		<ingredient id="14144" count="1"/>	<!-- Vesper Caster -->
+	</item>
+	<item>
+		<production id="16042" count="1"/>	<!-- Vesper Cutter - Thunder -->
+		<ingredient id="16058" count="1"/>	<!-- Vesper Cutter - Thunder -->
+	</item>
+	<item>
+		<production id="16042" count="1"/>	<!-- Vesper Cutter - Thunder -->
+		<ingredient id="16056" count="1"/>	<!-- Vesper Cutter - Thunder -->
+	</item>
+	<item>
+		<production id="16042" count="1"/>	<!-- Vesper Cutter - Thunder -->
+		<ingredient id="16057" count="1"/>	<!-- Vesper Cutter - Thunder -->
+	</item>
+	<item>
+		<production id="16043" count="1"/>	<!-- Vesper Slasher - Gale -->
+		<ingredient id="16061" count="1"/>	<!-- Vesper Slasher - Gale -->
+	</item>
+	<item>
+		<production id="16043" count="1"/>	<!-- Vesper Slasher - Gale -->
+		<ingredient id="16059" count="1"/>	<!-- Vesper Slasher - Gale -->
+	</item>
+	<item>
+		<production id="16043" count="1"/>	<!-- Vesper Slasher - Gale -->
+		<ingredient id="16060" count="1"/>	<!-- Vesper Slasher - Gale -->
+	</item>
+	<item>
+		<production id="16046" count="1"/>	<!-- Vesper Fighter - Gale -->
+		<ingredient id="16069" count="1"/>	<!-- Vesper Fighter - Gale -->
+	</item>
+	<item>
+		<production id="16046" count="1"/>	<!-- Vesper Fighter - Gale -->
+		<ingredient id="16070" count="1"/>	<!-- Vesper Fighter - Gale -->
+	</item>
+	<item>
+		<production id="16046" count="1"/>	<!-- Vesper Fighter - Gale -->
+		<ingredient id="16068" count="1"/>	<!-- Vesper Fighter - Gale -->
+	</item>
+	<item>
+		<production id="16044" count="1"/>	<!-- Vesper Buster - Cleverness -->
+		<ingredient id="16064" count="1"/>	<!-- Vesper Buster - Cleverness -->
+	</item>
+	<item>
+		<production id="16044" count="1"/>	<!-- Vesper Buster - Cleverness -->
+		<ingredient id="16062" count="1"/>	<!-- Vesper Buster - Cleverness -->
+	</item>
+	<item>
+		<production id="16044" count="1"/>	<!-- Vesper Buster - Cleverness -->
+		<ingredient id="16063" count="1"/>	<!-- Vesper Buster - Cleverness -->
+	</item>
+	<item>
+		<production id="16045" count="1"/>	<!-- Vesper Shaper - Gale -->
+		<ingredient id="16066" count="1"/>	<!-- Vesper Shaper - Gale -->
+	</item>
+	<item>
+		<production id="16045" count="1"/>	<!-- Vesper Shaper - Gale -->
+		<ingredient id="16067" count="1"/>	<!-- Vesper Shaper - Gale -->
+	</item>
+	<item>
+		<production id="16045" count="1"/>	<!-- Vesper Shaper - Gale -->
+		<ingredient id="16065" count="1"/>	<!-- Vesper Shaper - Gale -->
+	</item>
+	<item>
+		<production id="16047" count="1"/>	<!-- Vesper Stormer - Thunder -->
+		<ingredient id="16072" count="1"/>	<!-- Vesper Stormer - Thunder -->
+	</item>
+	<item>
+		<production id="16047" count="1"/>	<!-- Vesper Stormer - Thunder -->
+		<ingredient id="16073" count="1"/>	<!-- Vesper Stormer - Thunder -->
+	</item>
+	<item>
+		<production id="16047" count="1"/>	<!-- Vesper Stormer - Thunder -->
+		<ingredient id="16071" count="1"/>	<!-- Vesper Stormer - Thunder -->
+	</item>
+	<item>
+		<production id="16048" count="1"/>	<!-- Vesper Avenger - Landslide -->
+		<ingredient id="16075" count="1"/>	<!-- Vesper Avenger - Landslide -->
+	</item>
+	<item>
+		<production id="16048" count="1"/>	<!-- Vesper Avenger - Landslide -->
+		<ingredient id="16076" count="1"/>	<!-- Vesper Avenger - Landslide -->
+	</item>
+	<item>
+		<production id="16048" count="1"/>	<!-- Vesper Avenger - Landslide -->
+		<ingredient id="16074" count="1"/>	<!-- Vesper Avenger - Landslide -->
+	</item>
+	<item>
+		<production id="16049" count="1"/>	<!-- Vesper Retributer - Gale -->
+		<ingredient id="16078" count="1"/>	<!-- Vesper Retributer - Gale -->
+	</item>
+	<item>
+		<production id="16049" count="1"/>	<!-- Vesper Retributer - Gale -->
+		<ingredient id="16079" count="1"/>	<!-- Vesper Retributer - Gale -->
+	</item>
+	<item>
+		<production id="16049" count="1"/>	<!-- Vesper Retributer - Gale -->
+		<ingredient id="16077" count="1"/>	<!-- Vesper Retributer - Gale -->
+	</item>
+	<item>
+		<production id="16051" count="1"/>	<!-- Vesper Singer - Hail -->
+		<ingredient id="16083" count="1"/>	<!-- Vesper Singer - Hail -->
+	</item>
+	<item>
+		<production id="16051" count="1"/>	<!-- Vesper Singer - Hail -->
+		<ingredient id="16084" count="1"/>	<!-- Vesper Singer - Hail -->
+	</item>
+	<item>
+		<production id="16051" count="1"/>	<!-- Vesper Singer - Hail -->
+		<ingredient id="16085" count="1"/>	<!-- Vesper Singer - Hail -->
+	</item>
+	<item>
+		<production id="16052" count="1"/>	<!-- Vesper Thrower - Clairvoyance -->
+		<ingredient id="16087" count="1"/>	<!-- Vesper Thrower - Clairvoyance -->
+	</item>
+	<item>
+		<production id="16052" count="1"/>	<!-- Vesper Thrower - Clairvoyance -->
+		<ingredient id="16086" count="1"/>	<!-- Vesper Thrower - Clairvoyance -->
+	</item>
+	<item>
+		<production id="16052" count="1"/>	<!-- Vesper Thrower - Clairvoyance -->
+		<ingredient id="16088" count="1"/>	<!-- Vesper Thrower - Clairvoyance -->
+	</item>
+	<item>
+		<production id="16053" count="1"/>	<!-- Vesper Pincer - Thunder -->
+		<ingredient id="16090" count="1"/>	<!-- Vesper Pincer - Thunder -->
+	</item>
+	<item>
+		<production id="16053" count="1"/>	<!-- Vesper Pincer - Thunder -->
+		<ingredient id="16091" count="1"/>	<!-- Vesper Pincer - Thunder -->
+	</item>
+	<item>
+		<production id="16053" count="1"/>	<!-- Vesper Pincer - Thunder -->
+		<ingredient id="16089" count="1"/>	<!-- Vesper Pincer - Thunder -->
+	</item>
+	<item>
+		<production id="16054" count="1"/>	<!-- Vesper Shooter - Clairvoyance -->
+		<ingredient id="16093" count="1"/>	<!-- Vesper Shooter - Clairvoyance -->
+	</item>
+	<item>
+		<production id="16054" count="1"/>	<!-- Vesper Shooter - Clairvoyance -->
+		<ingredient id="16094" count="1"/>	<!-- Vesper Shooter - Clairvoyance -->
+	</item>
+	<item>
+		<production id="16054" count="1"/>	<!-- Vesper Shooter - Clairvoyance -->
+		<ingredient id="16092" count="1"/>	<!-- Vesper Shooter - Clairvoyance -->
+	</item>
+	<item>
+		<production id="16055" count="1"/>	<!-- Vesper Nagan - Gale -->
+		<ingredient id="16096" count="1"/>	<!-- Vesper Nagan - Gale -->
+	</item>
+	<item>
+		<production id="16055" count="1"/>	<!-- Vesper Nagan - Gale -->
+		<ingredient id="16097" count="1"/>	<!-- Vesper Nagan - Gale -->
+	</item>
+	<item>
+		<production id="16055" count="1"/>	<!-- Vesper Nagan - Gale -->
+		<ingredient id="16095" count="1"/>	<!-- Vesper Nagan - Gale -->
+	</item>
+	<item>
+		<production id="16050" count="1"/>	<!-- Vesper Caster - Cleverness -->
+		<ingredient id="16080" count="1"/>	<!-- Vesper Caster - Cleverness -->
+	</item>
+	<item>
+		<production id="16050" count="1"/>	<!-- Vesper Caster - Cleverness -->
+		<ingredient id="16081" count="1"/>	<!-- Vesper Caster - Cleverness -->
+	</item>
+	<item>
+		<production id="16050" count="1"/>	<!-- Vesper Caster - Cleverness -->
+		<ingredient id="16082" count="1"/>	<!-- Vesper Caster - Cleverness -->
+	</item>
+	<item>
+		<production id="21919" count="1"/>	<!-- Hellblade -->
+		<ingredient id="21922" count="1"/>	<!-- Hellblade -->
+	</item>
+	<item>
+		<production id="21919" count="1"/>	<!-- Hellblade -->
+		<ingredient id="21920" count="1"/>	<!-- Hellblade -->
+	</item>
+	<item>
+		<production id="21919" count="1"/>	<!-- Hellblade -->
+		<ingredient id="21921" count="1"/>	<!-- Hellblade -->
+	</item>
+	<item>
+		<production id="21973" count="1"/>	<!-- Mardil's Fan -->
+		<ingredient id="21974" count="1"/>	<!-- Mardil's Fan -->
+	</item>
+	<item>
+		<production id="21973" count="1"/>	<!-- Mardil's Fan -->
+		<ingredient id="21975" count="1"/>	<!-- Mardil's Fan -->
+	</item>
+	<item>
+		<production id="21973" count="1"/>	<!-- Mardil's Fan -->
+		<ingredient id="21976" count="1"/>	<!-- Mardil's Fan -->
+	</item>
+	<item>
+		<production id="21939" count="1"/>	<!-- Claw of Destruction -->
+		<ingredient id="21941" count="1"/>	<!-- Claw of Destruction -->
+	</item>
+	<item>
+		<production id="21939" count="1"/>	<!-- Claw of Destruction -->
+		<ingredient id="21942" count="1"/>	<!-- Claw of Destruction -->
+	</item>
+	<item>
+		<production id="21939" count="1"/>	<!-- Claw of Destruction -->
+		<ingredient id="21940" count="1"/>	<!-- Claw of Destruction -->
+	</item>
+	<item>
+		<production id="21959" count="1"/>	<!-- Blood Brother -->
+		<ingredient id="21960" count="1"/>	<!-- Blood Brother -->
+	</item>
+	<item>
+		<production id="21959" count="1"/>	<!-- Blood Brother -->
+		<ingredient id="21961" count="1"/>	<!-- Blood Brother -->
+	</item>
+	<item>
+		<production id="21959" count="1"/>	<!-- Blood Brother -->
+		<ingredient id="21962" count="1"/>	<!-- Blood Brother -->
+	</item>
+	<item>
+		<production id="21927" count="1"/>	<!-- Hellblade - Lightning -->
+		<ingredient id="21930" count="1"/>	<!-- Hellblade - Lightning -->
+	</item>
+	<item>
+		<production id="21927" count="1"/>	<!-- Hellblade - Lightning -->
+		<ingredient id="21928" count="1"/>	<!-- Hellblade - Lightning -->
+	</item>
+	<item>
+		<production id="21927" count="1"/>	<!-- Hellblade - Lightning -->
+		<ingredient id="21929" count="1"/>	<!-- Hellblade - Lightning -->
+	</item>
+	<item>
+		<production id="21977" count="1"/>	<!-- Mardil's Fan - Holy Spirit -->
+		<ingredient id="21978" count="1"/>	<!-- Mardil's Fan - Holy Spirit -->
+	</item>
+	<item>
+		<production id="21977" count="1"/>	<!-- Mardil's Fan - Holy Spirit -->
+		<ingredient id="21979" count="1"/>	<!-- Mardil's Fan - Holy Spirit -->
+	</item>
+	<item>
+		<production id="21977" count="1"/>	<!-- Mardil's Fan - Holy Spirit -->
+		<ingredient id="21980" count="1"/>	<!-- Mardil's Fan - Holy Spirit -->
+	</item>
+	<item>
+		<production id="21947" count="1"/>	<!-- Claw of Destruction - Landslide -->
+		<ingredient id="21949" count="1"/>	<!-- Claw of Destruction - Landslide -->
+	</item>
+	<item>
+		<production id="21947" count="1"/>	<!-- Claw of Destruction - Landslide -->
+		<ingredient id="21950" count="1"/>	<!-- Claw of Destruction - Landslide -->
+	</item>
+	<item>
+		<production id="21947" count="1"/>	<!-- Claw of Destruction - Landslide -->
+		<ingredient id="21948" count="1"/>	<!-- Claw of Destruction - Landslide -->
+	</item>
+	<item>
+		<production id="21966" count="1"/>	<!-- Blood Brother - Great Gale -->
+		<ingredient id="21967" count="1"/>	<!-- Blood Brother - Great Gale -->
+	</item>
+	<item>
+		<production id="21966" count="1"/>	<!-- Blood Brother - Great Gale -->
+		<ingredient id="21968" count="1"/>	<!-- Blood Brother - Great Gale -->
+	</item>
+	<item>
+		<production id="21966" count="1"/>	<!-- Blood Brother - Great Gale -->
+		<ingredient id="21969" count="1"/>	<!-- Blood Brother - Great Gale -->
+	</item>
+	<item>
+		<production id="15558" count="1"/>	<!-- Periel Sword -->
+		<ingredient id="15830" count="1"/>	<!-- Periel Sword -->
+	</item>
+	<item>
+		<production id="15558" count="1"/>	<!-- Periel Sword -->
+		<ingredient id="15831" count="1"/>	<!-- Periel Sword -->
+	</item>
+	<item>
+		<production id="15558" count="1"/>	<!-- Periel Sword -->
+		<ingredient id="15829" count="1"/>	<!-- Periel Sword -->
+	</item>
+	<item>
+		<production id="15559" count="1"/>	<!-- Skull Edge -->
+		<ingredient id="15833" count="1"/>	<!-- Skull Edge -->
+	</item>
+	<item>
+		<production id="15559" count="1"/>	<!-- Skull Edge -->
+		<ingredient id="15834" count="1"/>	<!-- Skull Edge -->
+	</item>
+	<item>
+		<production id="15559" count="1"/>	<!-- Skull Edge -->
+		<ingredient id="15832" count="1"/>	<!-- Skull Edge -->
+	</item>
+	<item>
+		<production id="15560" count="1"/>	<!-- Vigwik Axe -->
+		<ingredient id="15836" count="1"/>	<!-- Vigwik Axe -->
+	</item>
+	<item>
+		<production id="15560" count="1"/>	<!-- Vigwik Axe -->
+		<ingredient id="15837" count="1"/>	<!-- Vigwik Axe -->
+	</item>
+	<item>
+		<production id="15560" count="1"/>	<!-- Vigwik Axe -->
+		<ingredient id="15835" count="1"/>	<!-- Vigwik Axe -->
+	</item>
+	<item>
+		<production id="15561" count="1"/>	<!-- Devilish Maul -->
+		<ingredient id="15839" count="1"/>	<!-- Devilish Maul -->
+	</item>
+	<item>
+		<production id="15561" count="1"/>	<!-- Devilish Maul -->
+		<ingredient id="15840" count="1"/>	<!-- Devilish Maul -->
+	</item>
+	<item>
+		<production id="15561" count="1"/>	<!-- Devilish Maul -->
+		<ingredient id="15838" count="1"/>	<!-- Devilish Maul -->
+	</item>
+	<item>
+		<production id="15562" count="1"/>	<!-- Feather Eye Blade -->
+		<ingredient id="15842" count="1"/>	<!-- Feather Eye Blade -->
+	</item>
+	<item>
+		<production id="15562" count="1"/>	<!-- Feather Eye Blade -->
+		<ingredient id="15843" count="1"/>	<!-- Feather Eye Blade -->
+	</item>
+	<item>
+		<production id="15562" count="1"/>	<!-- Feather Eye Blade -->
+		<ingredient id="15841" count="1"/>	<!-- Feather Eye Blade -->
+	</item>
+	<item>
+		<production id="15563" count="1"/>	<!-- Octo Claw -->
+		<ingredient id="15845" count="1"/>	<!-- Octo Claw -->
+	</item>
+	<item>
+		<production id="15563" count="1"/>	<!-- Octo Claw -->
+		<ingredient id="15846" count="1"/>	<!-- Octo Claw -->
+	</item>
+	<item>
+		<production id="15563" count="1"/>	<!-- Octo Claw -->
+		<ingredient id="15844" count="1"/>	<!-- Octo Claw -->
+	</item>
+	<item>
+		<production id="15564" count="1"/>	<!-- Doubletop Spear -->
+		<ingredient id="15848" count="1"/>	<!-- Doubletop Spear -->
+	</item>
+	<item>
+		<production id="15564" count="1"/>	<!-- Doubletop Spear -->
+		<ingredient id="15849" count="1"/>	<!-- Doubletop Spear -->
+	</item>
+	<item>
+		<production id="15564" count="1"/>	<!-- Doubletop Spear -->
+		<ingredient id="15847" count="1"/>	<!-- Doubletop Spear -->
+	</item>
+	<item>
+		<production id="15565" count="1"/>	<!-- Rising Star -->
+		<ingredient id="15851" count="1"/>	<!-- Rising Star -->
+	</item>
+	<item>
+		<production id="15565" count="1"/>	<!-- Rising Star -->
+		<ingredient id="15852" count="1"/>	<!-- Rising Star -->
+	</item>
+	<item>
+		<production id="15565" count="1"/>	<!-- Rising Star -->
+		<ingredient id="15850" count="1"/>	<!-- Rising Star -->
+	</item>
+	<item>
+		<production id="15566" count="1"/>	<!-- Black Visage -->
+		<ingredient id="15854" count="1"/>	<!-- Black Visage -->
+	</item>
+	<item>
+		<production id="15566" count="1"/>	<!-- Black Visage -->
+		<ingredient id="15855" count="1"/>	<!-- Black Visage -->
+	</item>
+	<item>
+		<production id="15566" count="1"/>	<!-- Black Visage -->
+		<ingredient id="15853" count="1"/>	<!-- Black Visage -->
+	</item>
+	<item>
+		<production id="15567" count="1"/>	<!-- Veniplant Sword -->
+		<ingredient id="15857" count="1"/>	<!-- Veniplant Sword -->
+	</item>
+	<item>
+		<production id="15567" count="1"/>	<!-- Veniplant Sword -->
+		<ingredient id="15858" count="1"/>	<!-- Veniplant Sword -->
+	</item>
+	<item>
+		<production id="15567" count="1"/>	<!-- Veniplant Sword -->
+		<ingredient id="15856" count="1"/>	<!-- Veniplant Sword -->
+	</item>
+	<item>
+		<production id="15568" count="1"/>	<!-- Skull Carnium Bow -->
+		<ingredient id="15860" count="1"/>	<!-- Skull Carnium Bow -->
+	</item>
+	<item>
+		<production id="15568" count="1"/>	<!-- Skull Carnium Bow -->
+		<ingredient id="15861" count="1"/>	<!-- Skull Carnium Bow -->
+	</item>
+	<item>
+		<production id="15568" count="1"/>	<!-- Skull Carnium Bow -->
+		<ingredient id="15859" count="1"/>	<!-- Skull Carnium Bow -->
+	</item>
+	<item>
+		<production id="15569" count="1"/>	<!-- Gemtail Rapier -->
+		<ingredient id="15863" count="1"/>	<!-- Gemtail Rapier -->
+	</item>
+	<item>
+		<production id="15569" count="1"/>	<!-- Gemtail Rapier -->
+		<ingredient id="15864" count="1"/>	<!-- Gemtail Rapier -->
+	</item>
+	<item>
+		<production id="15569" count="1"/>	<!-- Gemtail Rapier -->
+		<ingredient id="15862" count="1"/>	<!-- Gemtail Rapier -->
+	</item>
+	<item>
+		<production id="15570" count="1"/>	<!-- Finale Blade -->
+		<ingredient id="15866" count="1"/>	<!-- Finale Blade -->
+	</item>
+	<item>
+		<production id="15570" count="1"/>	<!-- Finale Blade -->
+		<ingredient id="15867" count="1"/>	<!-- Finale Blade -->
+	</item>
+	<item>
+		<production id="15570" count="1"/>	<!-- Finale Blade -->
+		<ingredient id="15865" count="1"/>	<!-- Finale Blade -->
+	</item>
+	<item>
+		<production id="15571" count="1"/>	<!-- Dominion Crossbow -->
+		<ingredient id="15869" count="1"/>	<!-- Dominion Crossbow -->
+	</item>
+	<item>
+		<production id="15571" count="1"/>	<!-- Dominion Crossbow -->
+		<ingredient id="15870" count="1"/>	<!-- Dominion Crossbow -->
+	</item>
+	<item>
+		<production id="15571" count="1"/>	<!-- Dominion Crossbow -->
+		<ingredient id="15868" count="1"/>	<!-- Dominion Crossbow -->
+	</item>
+	<item>
+		<production id="15544" count="1"/>	<!-- Eternal Core Sword -->
+		<ingredient id="15873" count="1"/>	<!-- Eternal Core Sword -->
+	</item>
+	<item>
+		<production id="15544" count="1"/>	<!-- Eternal Core Sword -->
+		<ingredient id="15871" count="1"/>	<!-- Eternal Core Sword -->
+	</item>
+	<item>
+		<production id="15544" count="1"/>	<!-- Eternal Core Sword -->
+		<ingredient id="15872" count="1"/>	<!-- Eternal Core Sword -->
+	</item>
+	<item>
+		<production id="15545" count="1"/>	<!-- Mamba Edge -->
+		<ingredient id="15876" count="1"/>	<!-- Mamba Edge -->
+	</item>
+	<item>
+		<production id="15545" count="1"/>	<!-- Mamba Edge -->
+		<ingredient id="15874" count="1"/>	<!-- Mamba Edge -->
+	</item>
+	<item>
+		<production id="15545" count="1"/>	<!-- Mamba Edge -->
+		<ingredient id="15875" count="1"/>	<!-- Mamba Edge -->
+	</item>
+	<item>
+		<production id="15546" count="1"/>	<!-- Eversor Mace -->
+		<ingredient id="15879" count="1"/>	<!-- Eversor Mace -->
+	</item>
+	<item>
+		<production id="15546" count="1"/>	<!-- Eversor Mace -->
+		<ingredient id="15877" count="1"/>	<!-- Eversor Mace -->
+	</item>
+	<item>
+		<production id="15546" count="1"/>	<!-- Eversor Mace -->
+		<ingredient id="15878" count="1"/>	<!-- Eversor Mace -->
+	</item>
+	<item>
+		<production id="15547" count="1"/>	<!-- Contristo Hammer -->
+		<ingredient id="15882" count="1"/>	<!-- Contristo Hammer -->
+	</item>
+	<item>
+		<production id="15547" count="1"/>	<!-- Contristo Hammer -->
+		<ingredient id="15880" count="1"/>	<!-- Contristo Hammer -->
+	</item>
+	<item>
+		<production id="15547" count="1"/>	<!-- Contristo Hammer -->
+		<ingredient id="15881" count="1"/>	<!-- Contristo Hammer -->
+	</item>
+	<item>
+		<production id="15548" count="1"/>	<!-- Lava Saw -->
+		<ingredient id="15885" count="1"/>	<!-- Lava Saw -->
+	</item>
+	<item>
+		<production id="15548" count="1"/>	<!-- Lava Saw -->
+		<ingredient id="15883" count="1"/>	<!-- Lava Saw -->
+	</item>
+	<item>
+		<production id="15548" count="1"/>	<!-- Lava Saw -->
+		<ingredient id="15884" count="1"/>	<!-- Lava Saw -->
+	</item>
+	<item>
+		<production id="15549" count="1"/>	<!-- Jade Claw -->
+		<ingredient id="15888" count="1"/>	<!-- Jade Claw -->
+	</item>
+	<item>
+		<production id="15549" count="1"/>	<!-- Jade Claw -->
+		<ingredient id="15886" count="1"/>	<!-- Jade Claw -->
+	</item>
+	<item>
+		<production id="15549" count="1"/>	<!-- Jade Claw -->
+		<ingredient id="15887" count="1"/>	<!-- Jade Claw -->
+	</item>
+	<item>
+		<production id="15550" count="1"/>	<!-- Demitelum -->
+		<ingredient id="15891" count="1"/>	<!-- Demitelum -->
+	</item>
+	<item>
+		<production id="15550" count="1"/>	<!-- Demitelum -->
+		<ingredient id="15889" count="1"/>	<!-- Demitelum -->
+	</item>
+	<item>
+		<production id="15550" count="1"/>	<!-- Demitelum -->
+		<ingredient id="15890" count="1"/>	<!-- Demitelum -->
+	</item>
+	<item>
+		<production id="15551" count="1"/>	<!-- Sacredium -->
+		<ingredient id="15894" count="1"/>	<!-- Sacredium -->
+	</item>
+	<item>
+		<production id="15551" count="1"/>	<!-- Sacredium -->
+		<ingredient id="15892" count="1"/>	<!-- Sacredium -->
+	</item>
+	<item>
+		<production id="15551" count="1"/>	<!-- Sacredium -->
+		<ingredient id="15893" count="1"/>	<!-- Sacredium -->
+	</item>
+	<item>
+		<production id="15552" count="1"/>	<!-- Cyclic Cane -->
+		<ingredient id="15897" count="1"/>	<!-- Cyclic Cane -->
+	</item>
+	<item>
+		<production id="15552" count="1"/>	<!-- Cyclic Cane -->
+		<ingredient id="15895" count="1"/>	<!-- Cyclic Cane -->
+	</item>
+	<item>
+		<production id="15552" count="1"/>	<!-- Cyclic Cane -->
+		<ingredient id="15896" count="1"/>	<!-- Cyclic Cane -->
+	</item>
+	<item>
+		<production id="15553" count="1"/>	<!-- Archangel Sword -->
+		<ingredient id="15900" count="1"/>	<!-- Archangel Sword -->
+	</item>
+	<item>
+		<production id="15553" count="1"/>	<!-- Archangel Sword -->
+		<ingredient id="15898" count="1"/>	<!-- Archangel Sword -->
+	</item>
+	<item>
+		<production id="15553" count="1"/>	<!-- Archangel Sword -->
+		<ingredient id="15899" count="1"/>	<!-- Archangel Sword -->
+	</item>
+	<item>
+		<production id="15554" count="1"/>	<!-- Recurve Thorne Bow -->
+		<ingredient id="15903" count="1"/>	<!-- Recurve Thorne Bow -->
+	</item>
+	<item>
+		<production id="15554" count="1"/>	<!-- Recurve Thorne Bow -->
+		<ingredient id="15901" count="1"/>	<!-- Recurve Thorne Bow -->
+	</item>
+	<item>
+		<production id="15554" count="1"/>	<!-- Recurve Thorne Bow -->
+		<ingredient id="15902" count="1"/>	<!-- Recurve Thorne Bow -->
+	</item>
+	<item>
+		<production id="15555" count="1"/>	<!-- Heavenstare Rapier -->
+		<ingredient id="15906" count="1"/>	<!-- Heavenstare Rapier -->
+	</item>
+	<item>
+		<production id="15555" count="1"/>	<!-- Heavenstare Rapier -->
+		<ingredient id="15904" count="1"/>	<!-- Heavenstare Rapier -->
+	</item>
+	<item>
+		<production id="15555" count="1"/>	<!-- Heavenstare Rapier -->
+		<ingredient id="15905" count="1"/>	<!-- Heavenstare Rapier -->
+	</item>
+	<item>
+		<production id="15556" count="1"/>	<!-- Pyseal Blade -->
+		<ingredient id="15909" count="1"/>	<!-- Pyseal Blade -->
+	</item>
+	<item>
+		<production id="15556" count="1"/>	<!-- Pyseal Blade -->
+		<ingredient id="15907" count="1"/>	<!-- Pyseal Blade -->
+	</item>
+	<item>
+		<production id="15556" count="1"/>	<!-- Pyseal Blade -->
+		<ingredient id="15908" count="1"/>	<!-- Pyseal Blade -->
+	</item>
+	<item>
+		<production id="15557" count="1"/>	<!-- Thorne Crossbow -->
+		<ingredient id="15912" count="1"/>	<!-- Thorne Crossbow -->
+	</item>
+	<item>
+		<production id="15557" count="1"/>	<!-- Thorne Crossbow -->
+		<ingredient id="15910" count="1"/>	<!-- Thorne Crossbow -->
+	</item>
+	<item>
+		<production id="15557" count="1"/>	<!-- Thorne Crossbow -->
+		<ingredient id="15911" count="1"/>	<!-- Thorne Crossbow -->
+	</item>
+	<item>
+		<production id="10930" count="1"/>	<!-- Keshanberk - Destruction -->
+		<ingredient id="10931" count="1"/>	<!-- Keshanberk - Destruction -->
+	</item>
+	<item>
+		<production id="10930" count="1"/>	<!-- Keshanberk - Destruction -->
+		<ingredient id="10932" count="1"/>	<!-- Keshanberk - Destruction -->
+	</item>
+	<item>
+		<production id="10930" count="1"/>	<!-- Keshanberk - Destruction -->
+		<ingredient id="10933" count="1"/>	<!-- Keshanberk - Destruction -->
+	</item>
+	<item>
+		<production id="10870" count="1"/>	<!-- Great Sword - Lightning -->
+		<ingredient id="10871" count="1"/>	<!-- Great Sword - Lightning -->
+	</item>
+	<item>
+		<production id="10870" count="1"/>	<!-- Great Sword - Lightning -->
+		<ingredient id="10872" count="1"/>	<!-- Great Sword - Lightning -->
+	</item>
+	<item>
+		<production id="10870" count="1"/>	<!-- Great Sword - Lightning -->
+		<ingredient id="10873" count="1"/>	<!-- Great Sword - Lightning -->
+	</item>
+	<item>
+		<production id="10938" count="1"/>	<!-- Heavy War Axe - Earth -->
+		<ingredient id="10939" count="1"/>	<!-- Heavy War Axe - Earth -->
+	</item>
+	<item>
+		<production id="10938" count="1"/>	<!-- Heavy War Axe - Earth -->
+		<ingredient id="10940" count="1"/>	<!-- Heavy War Axe - Earth -->
+	</item>
+	<item>
+		<production id="10938" count="1"/>	<!-- Heavy War Axe - Earth -->
+		<ingredient id="10941" count="1"/>	<!-- Heavy War Axe - Earth -->
+	</item>
+	<item>
+		<production id="10906" count="1"/>	<!-- Ice Storm Hammer - Lightning -->
+		<ingredient id="10907" count="1"/>	<!-- Ice Storm Hammer - Lightning -->
+	</item>
+	<item>
+		<production id="10906" count="1"/>	<!-- Ice Storm Hammer - Lightning -->
+		<ingredient id="10908" count="1"/>	<!-- Ice Storm Hammer - Lightning -->
+	</item>
+	<item>
+		<production id="10906" count="1"/>	<!-- Ice Storm Hammer - Lightning -->
+		<ingredient id="10909" count="1"/>	<!-- Ice Storm Hammer - Lightning -->
+	</item>
+	<item>
+		<production id="10942" count="1"/>	<!-- Hell Knife - Confusion -->
+		<ingredient id="10943" count="1"/>	<!-- Hell Knife - Confusion -->
+	</item>
+	<item>
+		<production id="10942" count="1"/>	<!-- Hell Knife - Confusion -->
+		<ingredient id="10944" count="1"/>	<!-- Hell Knife - Confusion -->
+	</item>
+	<item>
+		<production id="10942" count="1"/>	<!-- Hell Knife - Confusion -->
+		<ingredient id="10945" count="1"/>	<!-- Hell Knife - Confusion -->
+	</item>
+	<item>
+		<production id="10898" count="1"/>	<!-- Spell Breaker - Hail -->
+		<ingredient id="10901" count="1"/>	<!-- Spell Breaker - Hail -->
+	</item>
+	<item>
+		<production id="10898" count="1"/>	<!-- Spell Breaker - Hail -->
+		<ingredient id="10900" count="1"/>	<!-- Spell Breaker - Hail -->
+	</item>
+	<item>
+		<production id="10898" count="1"/>	<!-- Spell Breaker - Hail -->
+		<ingredient id="10899" count="1"/>	<!-- Spell Breaker - Hail -->
+	</item>
+	<item>
+		<production id="10926" count="1"/>	<!-- Kris - Confusion -->
+		<ingredient id="10927" count="1"/>	<!-- Kris - Confusion -->
+	</item>
+	<item>
+		<production id="10926" count="1"/>	<!-- Kris - Confusion -->
+		<ingredient id="10928" count="1"/>	<!-- Kris - Confusion -->
+	</item>
+	<item>
+		<production id="10926" count="1"/>	<!-- Kris - Confusion -->
+		<ingredient id="10929" count="1"/>	<!-- Kris - Confusion -->
+	</item>
+	<item>
+		<production id="10902" count="1"/>	<!-- Arthro Nail - Destruction -->
+		<ingredient id="10903" count="1"/>	<!-- Arthro Nail - Destruction -->
+	</item>
+	<item>
+		<production id="10902" count="1"/>	<!-- Arthro Nail - Destruction -->
+		<ingredient id="10904" count="1"/>	<!-- Arthro Nail - Destruction -->
+	</item>
+	<item>
+		<production id="10902" count="1"/>	<!-- Arthro Nail - Destruction -->
+		<ingredient id="10905" count="1"/>	<!-- Arthro Nail - Destruction -->
+	</item>
+	<item>
+		<production id="10886" count="1"/>	<!-- Dark Elven Long Bow - Concentration -->
+		<ingredient id="10887" count="1"/>	<!-- Dark Elven Long Bow - Concentration -->
+	</item>
+	<item>
+		<production id="10886" count="1"/>	<!-- Dark Elven Long Bow - Concentration -->
+		<ingredient id="10888" count="1"/>	<!-- Dark Elven Long Bow - Concentration -->
+	</item>
+	<item>
+		<production id="10886" count="1"/>	<!-- Dark Elven Long Bow - Concentration -->
+		<ingredient id="10889" count="1"/>	<!-- Dark Elven Long Bow - Concentration -->
+	</item>
+	<item>
+		<production id="10874" count="1"/>	<!-- Great Axe - Thunder -->
+		<ingredient id="10875" count="1"/>	<!-- Great Axe - Thunder -->
+	</item>
+	<item>
+		<production id="10874" count="1"/>	<!-- Great Axe - Thunder -->
+		<ingredient id="10876" count="1"/>	<!-- Great Axe - Thunder -->
+	</item>
+	<item>
+		<production id="10874" count="1"/>	<!-- Great Axe - Thunder -->
+		<ingredient id="10877" count="1"/>	<!-- Great Axe - Thunder -->
+	</item>
+	<item>
+		<production id="10916" count="1"/>	<!-- Sprite's Staff - Hail -->
+		<ingredient id="10917" count="1"/>	<!-- Sprite's Staff - Hail -->
+	</item>
+	<item>
+		<production id="10916" count="1"/>	<!-- Sprite's Staff - Hail -->
+		<ingredient id="10918" count="1"/>	<!-- Sprite's Staff - Hail -->
+	</item>
+	<item>
+		<production id="10916" count="1"/>	<!-- Sprite's Staff - Hail -->
+		<ingredient id="10919" count="1"/>	<!-- Sprite's Staff - Hail -->
+	</item>
+	<item>
+		<production id="10893" count="1"/>	<!-- Sword of Valhalla - Nature -->
+		<ingredient id="10894" count="1"/>	<!-- Sword of Valhalla - Nature -->
+	</item>
+	<item>
+		<production id="10893" count="1"/>	<!-- Sword of Valhalla - Nature -->
+		<ingredient id="10895" count="1"/>	<!-- Sword of Valhalla - Nature -->
+	</item>
+	<item>
+		<production id="10893" count="1"/>	<!-- Sword of Valhalla - Nature -->
+		<ingredient id="10896" count="1"/>	<!-- Sword of Valhalla - Nature -->
+	</item>
+	<item>
+		<production id="10959" count="1"/>	<!-- Sword of Damascus - Earth -->
+		<ingredient id="10960" count="1"/>	<!-- Sword of Damascus - Earth -->
+	</item>
+	<item>
+		<production id="10959" count="1"/>	<!-- Sword of Damascus - Earth -->
+		<ingredient id="10961" count="1"/>	<!-- Sword of Damascus - Earth -->
+	</item>
+	<item>
+		<production id="10959" count="1"/>	<!-- Sword of Damascus - Earth -->
+		<ingredient id="10962" count="1"/>	<!-- Sword of Damascus - Earth -->
+	</item>
+	<item>
+		<production id="10955" count="1"/>	<!-- Guardian Sword - Great Gale -->
+		<ingredient id="10956" count="1"/>	<!-- Guardian Sword - Great Gale -->
+	</item>
+	<item>
+		<production id="10955" count="1"/>	<!-- Guardian Sword - Great Gale -->
+		<ingredient id="10957" count="1"/>	<!-- Guardian Sword - Great Gale -->
+	</item>
+	<item>
+		<production id="10955" count="1"/>	<!-- Guardian Sword - Great Gale -->
+		<ingredient id="10958" count="1"/>	<!-- Guardian Sword - Great Gale -->
+	</item>
+	<item>
+		<production id="10979" count="1"/>	<!-- Deadman's Glory - Landslide -->
+		<ingredient id="10980" count="1"/>	<!-- Deadman's Glory - Landslide -->
+	</item>
+	<item>
+		<production id="10979" count="1"/>	<!-- Deadman's Glory - Landslide -->
+		<ingredient id="10981" count="1"/>	<!-- Deadman's Glory - Landslide -->
+	</item>
+	<item>
+		<production id="10979" count="1"/>	<!-- Deadman's Glory - Landslide -->
+		<ingredient id="10982" count="1"/>	<!-- Deadman's Glory - Landslide -->
+	</item>
+	<item>
+		<production id="10988" count="1"/>	<!-- Art of Battle Axe - Landslide -->
+		<ingredient id="10989" count="1"/>	<!-- Art of Battle Axe - Landslide -->
+	</item>
+	<item>
+		<production id="10988" count="1"/>	<!-- Art of Battle Axe - Landslide -->
+		<ingredient id="10990" count="1"/>	<!-- Art of Battle Axe - Landslide -->
+	</item>
+	<item>
+		<production id="10988" count="1"/>	<!-- Art of Battle Axe - Landslide -->
+		<ingredient id="10991" count="1"/>	<!-- Art of Battle Axe - Landslide -->
+	</item>
+	<item>
+		<production id="11005" count="1"/>	<!-- Wizard's Tear - Cleverness -->
+		<ingredient id="11006" count="1"/>	<!-- Wizard's Tear - Cleverness -->
+	</item>
+	<item>
+		<production id="11005" count="1"/>	<!-- Wizard's Tear - Cleverness -->
+		<ingredient id="11007" count="1"/>	<!-- Wizard's Tear - Cleverness -->
+	</item>
+	<item>
+		<production id="11005" count="1"/>	<!-- Wizard's Tear - Cleverness -->
+		<ingredient id="11008" count="1"/>	<!-- Wizard's Tear - Cleverness -->
+	</item>
+	<item>
+		<production id="10992" count="1"/>	<!-- Demon's Dagger - Great Gale -->
+		<ingredient id="10993" count="1"/>	<!-- Demon's Dagger - Great Gale -->
+	</item>
+	<item>
+		<production id="10992" count="1"/>	<!-- Demon's Dagger - Great Gale -->
+		<ingredient id="10994" count="1"/>	<!-- Demon's Dagger - Great Gale -->
+	</item>
+	<item>
+		<production id="10992" count="1"/>	<!-- Demon's Dagger - Great Gale -->
+		<ingredient id="10996" count="1"/>	<!-- Demon's Dagger - Great Gale -->
+	</item>
+	<item>
+		<production id="10971" count="1"/>	<!-- Bellion Cestus - Great Gale -->
+		<ingredient id="10972" count="1"/>	<!-- Bellion Cestus - Great Gale -->
+	</item>
+	<item>
+		<production id="10971" count="1"/>	<!-- Bellion Cestus - Great Gale -->
+		<ingredient id="10973" count="1"/>	<!-- Bellion Cestus - Great Gale -->
+	</item>
+	<item>
+		<production id="10971" count="1"/>	<!-- Bellion Cestus - Great Gale -->
+		<ingredient id="10974" count="1"/>	<!-- Bellion Cestus - Great Gale -->
+	</item>
+	<item>
+		<production id="11009" count="1"/>	<!-- Bow of Peril - Earth -->
+		<ingredient id="11010" count="1"/>	<!-- Bow of Peril - Earth -->
+	</item>
+	<item>
+		<production id="11009" count="1"/>	<!-- Bow of Peril - Earth -->
+		<ingredient id="11011" count="1"/>	<!-- Bow of Peril - Earth -->
+	</item>
+	<item>
+		<production id="11009" count="1"/>	<!-- Bow of Peril - Earth -->
+		<ingredient id="11012" count="1"/>	<!-- Bow of Peril - Earth -->
+	</item>
+	<item>
+		<production id="10967" count="1"/>	<!-- Lance - Earth -->
+		<ingredient id="10968" count="1"/>	<!-- Lance - Earth -->
+	</item>
+	<item>
+		<production id="10967" count="1"/>	<!-- Lance - Earth -->
+		<ingredient id="10969" count="1"/>	<!-- Lance - Earth -->
+	</item>
+	<item>
+		<production id="10967" count="1"/>	<!-- Lance - Earth -->
+		<ingredient id="10970" count="1"/>	<!-- Lance - Earth -->
+	</item>
+	<item>
+		<production id="10983" count="1"/>	<!-- Star Buster - Great Gale -->
+		<ingredient id="10984" count="1"/>	<!-- Star Buster - Great Gale -->
+	</item>
+	<item>
+		<production id="10983" count="1"/>	<!-- Star Buster - Great Gale -->
+		<ingredient id="10985" count="1"/>	<!-- Star Buster - Great Gale -->
+	</item>
+	<item>
+		<production id="10983" count="1"/>	<!-- Star Buster - Great Gale -->
+		<ingredient id="10986" count="1"/>	<!-- Star Buster - Great Gale -->
+	</item>
+	<item>
+		<production id="10975" count="1"/>	<!-- Staff of Evil Spirits - Holy Spirit -->
+		<ingredient id="10976" count="1"/>	<!-- Staff of Evil Spirits - Holy Spirit -->
+	</item>
+	<item>
+		<production id="10975" count="1"/>	<!-- Staff of Evil Spirits - Holy Spirit -->
+		<ingredient id="10977" count="1"/>	<!-- Staff of Evil Spirits - Holy Spirit -->
+	</item>
+	<item>
+		<production id="10975" count="1"/>	<!-- Staff of Evil Spirits - Holy Spirit -->
+		<ingredient id="10978" count="1"/>	<!-- Staff of Evil Spirits - Holy Spirit -->
+	</item>
+	<item>
+		<production id="10997" count="1"/>	<!-- Kaim Vanul's Bones - Earth -->
+		<ingredient id="10998" count="1"/>	<!-- Kaim Vanul's Bones - Earth -->
+	</item>
+	<item>
+		<production id="10997" count="1"/>	<!-- Kaim Vanul's Bones - Earth -->
+		<ingredient id="10999" count="1"/>	<!-- Kaim Vanul's Bones - Earth -->
+	</item>
+	<item>
+		<production id="10997" count="1"/>	<!-- Kaim Vanul's Bones - Earth -->
+		<ingredient id="11000" count="1"/>	<!-- Kaim Vanul's Bones - Earth -->
+	</item>
+	<item>
+		<production id="11017" count="1"/>	<!-- Dasparion's Staff - Hail -->
+		<ingredient id="11018" count="1"/>	<!-- Dasparion's Staff - Hail -->
+	</item>
+	<item>
+		<production id="11017" count="1"/>	<!-- Dasparion's Staff - Hail -->
+		<ingredient id="11019" count="1"/>	<!-- Dasparion's Staff - Hail -->
+	</item>
+	<item>
+		<production id="11017" count="1"/>	<!-- Dasparion's Staff - Hail -->
+		<ingredient id="11020" count="1"/>	<!-- Dasparion's Staff - Hail -->
+	</item>
+	<item>
+		<production id="11049" count="1"/>	<!-- Infernal Master - Concentration -->
+		<ingredient id="11050" count="1"/>	<!-- Infernal Master - Concentration -->
+	</item>
+	<item>
+		<production id="11049" count="1"/>	<!-- Infernal Master - Concentration -->
+		<ingredient id="11051" count="1"/>	<!-- Infernal Master - Concentration -->
+	</item>
+	<item>
+		<production id="11049" count="1"/>	<!-- Infernal Master - Concentration -->
+		<ingredient id="11052" count="1"/>	<!-- Infernal Master - Concentration -->
+	</item>
+	<item>
+		<production id="11062" count="1"/>	<!-- Destroyer Hammer - Lightning -->
+		<ingredient id="11063" count="1"/>	<!-- Destroyer Hammer - Lightning -->
+	</item>
+	<item>
+		<production id="11062" count="1"/>	<!-- Destroyer Hammer - Lightning -->
+		<ingredient id="11064" count="1"/>	<!-- Destroyer Hammer - Lightning -->
+	</item>
+	<item>
+		<production id="11062" count="1"/>	<!-- Destroyer Hammer - Lightning -->
+		<ingredient id="11065" count="1"/>	<!-- Destroyer Hammer - Lightning -->
+	</item>
+	<item>
+		<production id="11045" count="1"/>	<!-- Spiritual Eye - Hail -->
+		<ingredient id="11046" count="1"/>	<!-- Spiritual Eye - Hail -->
+	</item>
+	<item>
+		<production id="11045" count="1"/>	<!-- Spiritual Eye - Hail -->
+		<ingredient id="11047" count="1"/>	<!-- Spiritual Eye - Hail -->
+	</item>
+	<item>
+		<production id="11045" count="1"/>	<!-- Spiritual Eye - Hail -->
+		<ingredient id="11048" count="1"/>	<!-- Spiritual Eye - Hail -->
+	</item>
+	<item>
+		<production id="11029" count="1"/>	<!-- Meteor Shower - Earth -->
+		<ingredient id="11030" count="1"/>	<!-- Meteor Shower - Earth -->
+	</item>
+	<item>
+		<production id="11029" count="1"/>	<!-- Meteor Shower - Earth -->
+		<ingredient id="11031" count="1"/>	<!-- Meteor Shower - Earth -->
+	</item>
+	<item>
+		<production id="11029" count="1"/>	<!-- Meteor Shower - Earth -->
+		<ingredient id="11032" count="1"/>	<!-- Meteor Shower - Earth -->
+	</item>
+	<item>
+		<production id="11120" count="1"/>	<!-- Elysian - Great Gale -->
+		<ingredient id="11121" count="1"/>	<!-- Elysian - Great Gale -->
+	</item>
+	<item>
+		<production id="11120" count="1"/>	<!-- Elysian - Great Gale -->
+		<ingredient id="11122" count="1"/>	<!-- Elysian - Great Gale -->
+	</item>
+	<item>
+		<production id="11120" count="1"/>	<!-- Elysian - Great Gale -->
+		<ingredient id="11123" count="1"/>	<!-- Elysian - Great Gale -->
+	</item>
+	<item>
+		<production id="11104" count="1"/>	<!-- Branch of the Mother Tree - Nature -->
+		<ingredient id="11105" count="1"/>	<!-- Branch of the Mother Tree - Nature -->
+	</item>
+	<item>
+		<production id="11104" count="1"/>	<!-- Branch of the Mother Tree - Nature -->
+		<ingredient id="11106" count="1"/>	<!-- Branch of the Mother Tree - Nature -->
+	</item>
+	<item>
+		<production id="11104" count="1"/>	<!-- Branch of the Mother Tree - Nature -->
+		<ingredient id="11107" count="1"/>	<!-- Branch of the Mother Tree - Nature -->
+	</item>
+	<item>
+		<production id="11053" count="1"/>	<!-- Carnage Bow - Concentration -->
+		<ingredient id="11054" count="1"/>	<!-- Carnage Bow - Concentration -->
+	</item>
+	<item>
+		<production id="11053" count="1"/>	<!-- Carnage Bow - Concentration -->
+		<ingredient id="11055" count="1"/>	<!-- Carnage Bow - Concentration -->
+	</item>
+	<item>
+		<production id="11053" count="1"/>	<!-- Carnage Bow - Concentration -->
+		<ingredient id="11056" count="1"/>	<!-- Carnage Bow - Concentration -->
+	</item>
+	<item>
+		<production id="11124" count="1"/>	<!-- Soul Bow - Clairvoyance -->
+		<ingredient id="11125" count="1"/>	<!-- Soul Bow - Clairvoyance -->
+	</item>
+	<item>
+		<production id="11124" count="1"/>	<!-- Soul Bow - Clairvoyance -->
+		<ingredient id="11126" count="1"/>	<!-- Soul Bow - Clairvoyance -->
+	</item>
+	<item>
+		<production id="11124" count="1"/>	<!-- Soul Bow - Clairvoyance -->
+		<ingredient id="11127" count="1"/>	<!-- Soul Bow - Clairvoyance -->
+	</item>
+	<item>
+		<production id="11037" count="1"/>	<!-- Bloody Orchid - Confusion -->
+		<ingredient id="11038" count="1"/>	<!-- Bloody Orchid - Confusion -->
+	</item>
+	<item>
+		<production id="11037" count="1"/>	<!-- Bloody Orchid - Confusion -->
+		<ingredient id="11039" count="1"/>	<!-- Bloody Orchid - Confusion -->
+	</item>
+	<item>
+		<production id="11037" count="1"/>	<!-- Bloody Orchid - Confusion -->
+		<ingredient id="11040" count="1"/>	<!-- Bloody Orchid - Confusion -->
+	</item>
+	<item>
+		<production id="11116" count="1"/>	<!-- Soul Separator - On Fire -->
+		<ingredient id="11117" count="1"/>	<!-- Soul Separator - On Fire -->
+	</item>
+	<item>
+		<production id="11116" count="1"/>	<!-- Soul Separator - On Fire -->
+		<ingredient id="11118" count="1"/>	<!-- Soul Separator - On Fire -->
+	</item>
+	<item>
+		<production id="11116" count="1"/>	<!-- Soul Separator - On Fire -->
+		<ingredient id="11119" count="1"/>	<!-- Soul Separator - On Fire -->
+	</item>
+	<item>
+		<production id="11033" count="1"/>	<!-- Blood Tornado - Destruction -->
+		<ingredient id="11034" count="1"/>	<!-- Blood Tornado - Destruction -->
+	</item>
+	<item>
+		<production id="11033" count="1"/>	<!-- Blood Tornado - Destruction -->
+		<ingredient id="11035" count="1"/>	<!-- Blood Tornado - Destruction -->
+	</item>
+	<item>
+		<production id="11033" count="1"/>	<!-- Blood Tornado - Destruction -->
+		<ingredient id="11036" count="1"/>	<!-- Blood Tornado - Destruction -->
+	</item>
+	<item>
+		<production id="11092" count="1"/>	<!-- Dragon Grinder - Earth -->
+		<ingredient id="11093" count="1"/>	<!-- Dragon Grinder - Earth -->
+	</item>
+	<item>
+		<production id="11092" count="1"/>	<!-- Dragon Grinder - Earth -->
+		<ingredient id="11094" count="1"/>	<!-- Dragon Grinder - Earth -->
+	</item>
+	<item>
+		<production id="11092" count="1"/>	<!-- Dragon Grinder - Earth -->
+		<ingredient id="11095" count="1"/>	<!-- Dragon Grinder - Earth -->
+	</item>
+	<item>
+		<production id="11070" count="1"/>	<!-- Halberd - Lightning -->
+		<ingredient id="11071" count="1"/>	<!-- Halberd - Lightning -->
+	</item>
+	<item>
+		<production id="11070" count="1"/>	<!-- Halberd - Lightning -->
+		<ingredient id="11072" count="1"/>	<!-- Halberd - Lightning -->
+	</item>
+	<item>
+		<production id="11070" count="1"/>	<!-- Halberd - Lightning -->
+		<ingredient id="11073" count="1"/>	<!-- Halberd - Lightning -->
+	</item>
+	<item>
+		<production id="11128" count="1"/>	<!-- Tallum Glaive - On Fire -->
+		<ingredient id="11129" count="1"/>	<!-- Tallum Glaive - On Fire -->
+	</item>
+	<item>
+		<production id="11128" count="1"/>	<!-- Tallum Glaive - On Fire -->
+		<ingredient id="11130" count="1"/>	<!-- Tallum Glaive - On Fire -->
+	</item>
+	<item>
+		<production id="11128" count="1"/>	<!-- Tallum Glaive - On Fire -->
+		<ingredient id="11131" count="1"/>	<!-- Tallum Glaive - On Fire -->
+	</item>
+	<item>
+		<production id="11058" count="1"/>	<!-- Tallum Blade - Destruction -->
+		<ingredient id="11059" count="1"/>	<!-- Tallum Blade - Destruction -->
+	</item>
+	<item>
+		<production id="11058" count="1"/>	<!-- Tallum Blade - Destruction -->
+		<ingredient id="11060" count="1"/>	<!-- Tallum Blade - Destruction -->
+	</item>
+	<item>
+		<production id="11058" count="1"/>	<!-- Tallum Blade - Destruction -->
+		<ingredient id="11061" count="1"/>	<!-- Tallum Blade - Destruction -->
+	</item>
+	<item>
+		<production id="11041" count="1"/>	<!-- Elemental Sword - Hail -->
+		<ingredient id="11042" count="1"/>	<!-- Elemental Sword - Hail -->
+	</item>
+	<item>
+		<production id="11041" count="1"/>	<!-- Elemental Sword - Hail -->
+		<ingredient id="11043" count="1"/>	<!-- Elemental Sword - Hail -->
+	</item>
+	<item>
+		<production id="11041" count="1"/>	<!-- Elemental Sword - Hail -->
+		<ingredient id="11044" count="1"/>	<!-- Elemental Sword - Hail -->
+	</item>
+	<item>
+		<production id="11108" count="1"/>	<!-- Sword of Miracles - Holy Spirit -->
+		<ingredient id="11109" count="1"/>	<!-- Sword of Miracles - Holy Spirit -->
+	</item>
+	<item>
+		<production id="11108" count="1"/>	<!-- Sword of Miracles - Holy Spirit -->
+		<ingredient id="11110" count="1"/>	<!-- Sword of Miracles - Holy Spirit -->
+	</item>
+	<item>
+		<production id="11108" count="1"/>	<!-- Sword of Miracles - Holy Spirit -->
+		<ingredient id="11111" count="1"/>	<!-- Sword of Miracles - Holy Spirit -->
+	</item>
+	<item>
+		<production id="11096" count="1"/>	<!-- Dragon Slayer - Evil Spirit -->
+		<ingredient id="11097" count="1"/>	<!-- Dragon Slayer - Evil Spirit -->
+	</item>
+	<item>
+		<production id="11096" count="1"/>	<!-- Dragon Slayer - Evil Spirit -->
+		<ingredient id="11098" count="1"/>	<!-- Dragon Slayer - Evil Spirit -->
+	</item>
+	<item>
+		<production id="11096" count="1"/>	<!-- Dragon Slayer - Evil Spirit -->
+		<ingredient id="11099" count="1"/>	<!-- Dragon Slayer - Evil Spirit -->
+	</item>
+	<item>
+		<production id="11080" count="1"/>	<!-- Dark Legion's Edge - Thunder -->
+		<ingredient id="11081" count="1"/>	<!-- Dark Legion's Edge - Thunder -->
+	</item>
+	<item>
+		<production id="11080" count="1"/>	<!-- Dark Legion's Edge - Thunder -->
+		<ingredient id="11082" count="1"/>	<!-- Dark Legion's Edge - Thunder -->
+	</item>
+	<item>
+		<production id="11080" count="1"/>	<!-- Dark Legion's Edge - Thunder -->
+		<ingredient id="11083" count="1"/>	<!-- Dark Legion's Edge - Thunder -->
+	</item>
+	<item>
+		<production id="11088" count="1"/>	<!-- Doom Crusher - Thunder -->
+		<ingredient id="11089" count="1"/>	<!-- Doom Crusher - Thunder -->
+	</item>
+	<item>
+		<production id="11088" count="1"/>	<!-- Doom Crusher - Thunder -->
+		<ingredient id="11090" count="1"/>	<!-- Doom Crusher - Thunder -->
+	</item>
+	<item>
+		<production id="11088" count="1"/>	<!-- Doom Crusher - Thunder -->
+		<ingredient id="11091" count="1"/>	<!-- Doom Crusher - Thunder -->
+	</item>
+	<item>
+		<production id="11100" count="1"/>	<!-- Flaming Dragon Skull - Wisdom -->
+		<ingredient id="11101" count="1"/>	<!-- Flaming Dragon Skull - Wisdom -->
+	</item>
+	<item>
+		<production id="11100" count="1"/>	<!-- Flaming Dragon Skull - Wisdom -->
+		<ingredient id="11102" count="1"/>	<!-- Flaming Dragon Skull - Wisdom -->
+	</item>
+	<item>
+		<production id="11100" count="1"/>	<!-- Flaming Dragon Skull - Wisdom -->
+		<ingredient id="11103" count="1"/>	<!-- Flaming Dragon Skull - Wisdom -->
+	</item>
+	<item>
+		<production id="11235" count="1"/>	<!-- Forgotten Blade - Lightning -->
+		<ingredient id="11236" count="1"/>	<!-- Forgotten Blade - Lightning -->
+	</item>
+	<item>
+		<production id="11235" count="1"/>	<!-- Forgotten Blade - Lightning -->
+		<ingredient id="11237" count="1"/>	<!-- Forgotten Blade - Lightning -->
+	</item>
+	<item>
+		<production id="11235" count="1"/>	<!-- Forgotten Blade - Lightning -->
+		<ingredient id="11238" count="1"/>	<!-- Forgotten Blade - Lightning -->
+	</item>
+	<item>
+		<production id="11210" count="1"/>	<!-- Basalt Battlehammer - Concentration -->
+		<ingredient id="11211" count="1"/>	<!-- Basalt Battlehammer - Concentration -->
+	</item>
+	<item>
+		<production id="11210" count="1"/>	<!-- Basalt Battlehammer - Concentration -->
+		<ingredient id="11212" count="1"/>	<!-- Basalt Battlehammer - Concentration -->
+	</item>
+	<item>
+		<production id="11210" count="1"/>	<!-- Basalt Battlehammer - Concentration -->
+		<ingredient id="11213" count="1"/>	<!-- Basalt Battlehammer - Concentration -->
+	</item>
+	<item>
+		<production id="11230" count="1"/>	<!-- Imperial Staff - Nature -->
+		<ingredient id="11231" count="1"/>	<!-- Imperial Staff - Nature -->
+	</item>
+	<item>
+		<production id="11230" count="1"/>	<!-- Imperial Staff - Nature -->
+		<ingredient id="11232" count="1"/>	<!-- Imperial Staff - Nature -->
+	</item>
+	<item>
+		<production id="11230" count="1"/>	<!-- Imperial Staff - Nature -->
+		<ingredient id="11233" count="1"/>	<!-- Imperial Staff - Nature -->
+	</item>
+	<item>
+		<production id="11226" count="1"/>	<!-- Angel Slayer - Concentration -->
+		<ingredient id="11227" count="1"/>	<!-- Angel Slayer - Concentration -->
+	</item>
+	<item>
+		<production id="11226" count="1"/>	<!-- Angel Slayer - Concentration -->
+		<ingredient id="11228" count="1"/>	<!-- Angel Slayer - Concentration -->
+	</item>
+	<item>
+		<production id="11226" count="1"/>	<!-- Angel Slayer - Concentration -->
+		<ingredient id="11229" count="1"/>	<!-- Angel Slayer - Concentration -->
+	</item>
+	<item>
+		<production id="11198" count="1"/>	<!-- Draconic Bow - Earth -->
+		<ingredient id="11199" count="1"/>	<!-- Draconic Bow - Earth -->
+	</item>
+	<item>
+		<production id="11198" count="1"/>	<!-- Draconic Bow - Earth -->
+		<ingredient id="11200" count="1"/>	<!-- Draconic Bow - Earth -->
+	</item>
+	<item>
+		<production id="11198" count="1"/>	<!-- Draconic Bow - Earth -->
+		<ingredient id="11201" count="1"/>	<!-- Draconic Bow - Earth -->
+	</item>
+	<item>
+		<production id="11202" count="1"/>	<!-- Dragon Hunter Axe - Thunder -->
+		<ingredient id="11203" count="1"/>	<!-- Dragon Hunter Axe - Thunder -->
+	</item>
+	<item>
+		<production id="11202" count="1"/>	<!-- Dragon Hunter Axe - Thunder -->
+		<ingredient id="11204" count="1"/>	<!-- Dragon Hunter Axe - Thunder -->
+	</item>
+	<item>
+		<production id="11202" count="1"/>	<!-- Dragon Hunter Axe - Thunder -->
+		<ingredient id="11205" count="1"/>	<!-- Dragon Hunter Axe - Thunder -->
+	</item>
+	<item>
+		<production id="11218" count="1"/>	<!-- Saint Spear - Destruction -->
+		<ingredient id="11219" count="1"/>	<!-- Saint Spear - Destruction -->
+	</item>
+	<item>
+		<production id="11218" count="1"/>	<!-- Saint Spear - Destruction -->
+		<ingredient id="11220" count="1"/>	<!-- Saint Spear - Destruction -->
+	</item>
+	<item>
+		<production id="11218" count="1"/>	<!-- Saint Spear - Destruction -->
+		<ingredient id="11221" count="1"/>	<!-- Saint Spear - Destruction -->
+	</item>
+	<item>
+		<production id="11194" count="1"/>	<!-- Demon Splinter - Thunder -->
+		<ingredient id="11195" count="1"/>	<!-- Demon Splinter - Thunder -->
+	</item>
+	<item>
+		<production id="11194" count="1"/>	<!-- Demon Splinter - Thunder -->
+		<ingredient id="11196" count="1"/>	<!-- Demon Splinter - Thunder -->
+	</item>
+	<item>
+		<production id="11194" count="1"/>	<!-- Demon Splinter - Thunder -->
+		<ingredient id="11197" count="1"/>	<!-- Demon Splinter - Thunder -->
+	</item>
+	<item>
+		<production id="11239" count="1"/>	<!-- Heaven's Divider - Thunder -->
+		<ingredient id="11240" count="1"/>	<!-- Heaven's Divider - Thunder -->
+	</item>
+	<item>
+		<production id="11239" count="1"/>	<!-- Heaven's Divider - Thunder -->
+		<ingredient id="11241" count="1"/>	<!-- Heaven's Divider - Thunder -->
+	</item>
+	<item>
+		<production id="11239" count="1"/>	<!-- Heaven's Divider - Thunder -->
+		<ingredient id="11242" count="1"/>	<!-- Heaven's Divider - Thunder -->
+	</item>
+	<item>
+		<production id="11222" count="1"/>	<!-- Arcana Mace - Nature -->
+		<ingredient id="11223" count="1"/>	<!-- Arcana Mace - Nature -->
+	</item>
+	<item>
+		<production id="11222" count="1"/>	<!-- Arcana Mace - Nature -->
+		<ingredient id="11224" count="1"/>	<!-- Arcana Mace - Nature -->
+	</item>
+	<item>
+		<production id="11222" count="1"/>	<!-- Arcana Mace - Nature -->
+		<ingredient id="11225" count="1"/>	<!-- Arcana Mace - Nature -->
+	</item>
+	<item>
+		<production id="11169" count="1"/>	<!-- Sirra's Blade - Landslide -->
+		<ingredient id="11170" count="1"/>	<!-- Sirra's Blade - Landslide -->
+	</item>
+	<item>
+		<production id="11169" count="1"/>	<!-- Sirra's Blade - Landslide -->
+		<ingredient id="11171" count="1"/>	<!-- Sirra's Blade - Landslide -->
+	</item>
+	<item>
+		<production id="11169" count="1"/>	<!-- Sirra's Blade - Landslide -->
+		<ingredient id="11172" count="1"/>	<!-- Sirra's Blade - Landslide -->
+	</item>
+	<item>
+		<production id="11161" count="1"/>	<!-- Sword of Ipos - Earth -->
+		<ingredient id="11162" count="1"/>	<!-- Sword of Ipos - Earth -->
+	</item>
+	<item>
+		<production id="11161" count="1"/>	<!-- Sword of Ipos - Earth -->
+		<ingredient id="11163" count="1"/>	<!-- Sword of Ipos - Earth -->
+	</item>
+	<item>
+		<production id="11161" count="1"/>	<!-- Sword of Ipos - Earth -->
+		<ingredient id="11164" count="1"/>	<!-- Sword of Ipos - Earth -->
+	</item>
+	<item>
+		<production id="11141" count="1"/>	<!-- Barakiel's Axe - On Fire -->
+		<ingredient id="11142" count="1"/>	<!-- Barakiel's Axe - On Fire -->
+	</item>
+	<item>
+		<production id="11141" count="1"/>	<!-- Barakiel's Axe - On Fire -->
+		<ingredient id="11143" count="1"/>	<!-- Barakiel's Axe - On Fire -->
+	</item>
+	<item>
+		<production id="11141" count="1"/>	<!-- Barakiel's Axe - On Fire -->
+		<ingredient id="11144" count="1"/>	<!-- Barakiel's Axe - On Fire -->
+	</item>
+	<item>
+		<production id="11149" count="1"/>	<!-- Behemoth's Tuning Fork - Destruction -->
+		<ingredient id="11150" count="1"/>	<!-- Behemoth's Tuning Fork - Destruction -->
+	</item>
+	<item>
+		<production id="11149" count="1"/>	<!-- Behemoth's Tuning Fork - Destruction -->
+		<ingredient id="11151" count="1"/>	<!-- Behemoth's Tuning Fork - Destruction -->
+	</item>
+	<item>
+		<production id="11149" count="1"/>	<!-- Behemoth's Tuning Fork - Destruction -->
+		<ingredient id="11152" count="1"/>	<!-- Behemoth's Tuning Fork - Destruction -->
+	</item>
+	<item>
+		<production id="11133" count="1"/>	<!-- Naga Storm - Molar -->
+		<ingredient id="11134" count="1"/>	<!-- Naga Storm - Molar -->
+	</item>
+	<item>
+		<production id="11133" count="1"/>	<!-- Naga Storm - Molar -->
+		<ingredient id="11135" count="1"/>	<!-- Naga Storm - Molar -->
+	</item>
+	<item>
+		<production id="11133" count="1"/>	<!-- Naga Storm - Molar -->
+		<ingredient id="11136" count="1"/>	<!-- Naga Storm - Molar -->
+	</item>
+	<item>
+		<production id="11177" count="1"/>	<!-- Tiphon's Spear - Landslide -->
+		<ingredient id="11178" count="1"/>	<!-- Tiphon's Spear - Landslide -->
+	</item>
+	<item>
+		<production id="11177" count="1"/>	<!-- Tiphon's Spear - Landslide -->
+		<ingredient id="11179" count="1"/>	<!-- Tiphon's Spear - Landslide -->
+	</item>
+	<item>
+		<production id="11177" count="1"/>	<!-- Tiphon's Spear - Landslide -->
+		<ingredient id="11180" count="1"/>	<!-- Tiphon's Spear - Landslide -->
+	</item>
+	<item>
+		<production id="11157" count="1"/>	<!-- Shyeed's Bow - Concentration -->
+		<ingredient id="11158" count="1"/>	<!-- Shyeed's Bow - Concentration -->
+	</item>
+	<item>
+		<production id="11157" count="1"/>	<!-- Shyeed's Bow - Concentration -->
+		<ingredient id="11159" count="1"/>	<!-- Shyeed's Bow - Concentration -->
+	</item>
+	<item>
+		<production id="11157" count="1"/>	<!-- Shyeed's Bow - Concentration -->
+		<ingredient id="11160" count="1"/>	<!-- Shyeed's Bow - Concentration -->
+	</item>
+	<item>
+		<production id="11165" count="1"/>	<!-- Sobekk's Hurricane - Landslide -->
+		<ingredient id="11166" count="1"/>	<!-- Sobekk's Hurricane - Landslide -->
+	</item>
+	<item>
+		<production id="11165" count="1"/>	<!-- Sobekk's Hurricane - Landslide -->
+		<ingredient id="11167" count="1"/>	<!-- Sobekk's Hurricane - Landslide -->
+	</item>
+	<item>
+		<production id="11165" count="1"/>	<!-- Sobekk's Hurricane - Landslide -->
+		<ingredient id="11168" count="1"/>	<!-- Sobekk's Hurricane - Landslide -->
+	</item>
+	<item>
+		<production id="11182" count="1"/>	<!-- Themis' Tongue - Cleverness -->
+		<ingredient id="11183" count="1"/>	<!-- Themis' Tongue - Cleverness -->
+	</item>
+	<item>
+		<production id="11182" count="1"/>	<!-- Themis' Tongue - Cleverness -->
+		<ingredient id="11184" count="1"/>	<!-- Themis' Tongue - Cleverness -->
+	</item>
+	<item>
+		<production id="11182" count="1"/>	<!-- Themis' Tongue - Cleverness -->
+		<ingredient id="11185" count="1"/>	<!-- Themis' Tongue - Cleverness -->
+	</item>
+	<item>
+		<production id="11186" count="1"/>	<!-- Cabrio's Hand - Cleverness -->
+		<ingredient id="11187" count="1"/>	<!-- Cabrio's Hand - Cleverness -->
+	</item>
+	<item>
+		<production id="11186" count="1"/>	<!-- Cabrio's Hand - Cleverness -->
+		<ingredient id="11188" count="1"/>	<!-- Cabrio's Hand - Cleverness -->
+	</item>
+	<item>
+		<production id="11186" count="1"/>	<!-- Cabrio's Hand - Cleverness -->
+		<ingredient id="11189" count="1"/>	<!-- Cabrio's Hand - Cleverness -->
+	</item>
+	<item>
+		<production id="11137" count="1"/>	<!-- Daimon Crystal - Wisdom -->
+		<ingredient id="11138" count="1"/>	<!-- Daimon Crystal - Wisdom -->
+	</item>
+	<item>
+		<production id="11137" count="1"/>	<!-- Daimon Crystal - Wisdom -->
+		<ingredient id="11139" count="1"/>	<!-- Daimon Crystal - Wisdom -->
+	</item>
+	<item>
+		<production id="11137" count="1"/>	<!-- Daimon Crystal - Wisdom -->
+		<ingredient id="11140" count="1"/>	<!-- Daimon Crystal - Wisdom -->
+	</item>
+	<item>
+		<production id="10912" count="1"/>	<!-- Military Fleuret - Destruction -->
+		<ingredient id="10913" count="1"/>	<!-- Military Fleuret - Destruction -->
+	</item>
+	<item>
+		<production id="10912" count="1"/>	<!-- Military Fleuret - Destruction -->
+		<ingredient id="10914" count="1"/>	<!-- Military Fleuret - Destruction -->
+	</item>
+	<item>
+		<production id="10912" count="1"/>	<!-- Military Fleuret - Destruction -->
+		<ingredient id="10915" count="1"/>	<!-- Military Fleuret - Destruction -->
+	</item>
+	<item>
+		<production id="11001" count="1"/>	<!-- Colichemarde - Earth -->
+		<ingredient id="11002" count="1"/>	<!-- Colichemarde - Earth -->
+	</item>
+	<item>
+		<production id="11001" count="1"/>	<!-- Colichemarde - Earth -->
+		<ingredient id="11003" count="1"/>	<!-- Colichemarde - Earth -->
+	</item>
+	<item>
+		<production id="11001" count="1"/>	<!-- Colichemarde - Earth -->
+		<ingredient id="11004" count="1"/>	<!-- Colichemarde - Earth -->
+	</item>
+	<item>
+		<production id="10882" count="1"/>	<!-- Innominate Victory - Lightning -->
+		<ingredient id="10883" count="1"/>	<!-- Innominate Victory - Lightning -->
+	</item>
+	<item>
+		<production id="10882" count="1"/>	<!-- Innominate Victory - Lightning -->
+		<ingredient id="10884" count="1"/>	<!-- Innominate Victory - Lightning -->
+	</item>
+	<item>
+		<production id="10882" count="1"/>	<!-- Innominate Victory - Lightning -->
+		<ingredient id="10885" count="1"/>	<!-- Innominate Victory - Lightning -->
+	</item>
+	<item>
+		<production id="10963" count="1"/>	<!-- Dismantler - Great Gale -->
+		<ingredient id="10964" count="1"/>	<!-- Dismantler - Great Gale -->
+	</item>
+	<item>
+		<production id="10963" count="1"/>	<!-- Dismantler - Great Gale -->
+		<ingredient id="10965" count="1"/>	<!-- Dismantler - Great Gale -->
+	</item>
+	<item>
+		<production id="10963" count="1"/>	<!-- Dismantler - Great Gale -->
+		<ingredient id="10966" count="1"/>	<!-- Dismantler - Great Gale -->
+	</item>
+	<item>
+		<production id="10934" count="1"/>	<!-- Peacemaker - Concentration -->
+		<ingredient id="10935" count="1"/>	<!-- Peacemaker - Concentration -->
+	</item>
+	<item>
+		<production id="10934" count="1"/>	<!-- Peacemaker - Concentration -->
+		<ingredient id="10936" count="1"/>	<!-- Peacemaker - Concentration -->
+	</item>
+	<item>
+		<production id="10934" count="1"/>	<!-- Peacemaker - Concentration -->
+		<ingredient id="10937" count="1"/>	<!-- Peacemaker - Concentration -->
+	</item>
+	<item>
+		<production id="11013" count="1"/>	<!-- Hell Hound - Earth -->
+		<ingredient id="11014" count="1"/>	<!-- Hell Hound - Earth -->
+	</item>
+	<item>
+		<production id="11013" count="1"/>	<!-- Hell Hound - Earth -->
+		<ingredient id="11015" count="1"/>	<!-- Hell Hound - Earth -->
+	</item>
+	<item>
+		<production id="11013" count="1"/>	<!-- Hell Hound - Earth -->
+		<ingredient id="11016" count="1"/>	<!-- Hell Hound - Earth -->
+	</item>
+	<item>
+		<production id="11025" count="1"/>	<!-- White Lightning - Destruction -->
+		<ingredient id="11026" count="1"/>	<!-- White Lightning - Destruction -->
+	</item>
+	<item>
+		<production id="11025" count="1"/>	<!-- White Lightning - Destruction -->
+		<ingredient id="11027" count="1"/>	<!-- White Lightning - Destruction -->
+	</item>
+	<item>
+		<production id="11025" count="1"/>	<!-- White Lightning - Destruction -->
+		<ingredient id="11028" count="1"/>	<!-- White Lightning - Destruction -->
+	</item>
+	<item>
+		<production id="11075" count="1"/>	<!-- Lacerator - Thunder -->
+		<ingredient id="11076" count="1"/>	<!-- Lacerator - Thunder -->
+	</item>
+	<item>
+		<production id="11075" count="1"/>	<!-- Lacerator - Thunder -->
+		<ingredient id="11077" count="1"/>	<!-- Lacerator - Thunder -->
+	</item>
+	<item>
+		<production id="11075" count="1"/>	<!-- Lacerator - Thunder -->
+		<ingredient id="11078" count="1"/>	<!-- Lacerator - Thunder -->
+	</item>
+	<item>
+		<production id="11173" count="1"/>	<!-- Eclair Bijou - Landslide -->
+		<ingredient id="11174" count="1"/>	<!-- Eclair Bijou - Landslide -->
+	</item>
+	<item>
+		<production id="11173" count="1"/>	<!-- Eclair Bijou - Landslide -->
+		<ingredient id="11175" count="1"/>	<!-- Eclair Bijou - Landslide -->
+	</item>
+	<item>
+		<production id="11173" count="1"/>	<!-- Eclair Bijou - Landslide -->
+		<ingredient id="11176" count="1"/>	<!-- Eclair Bijou - Landslide -->
+	</item>
+	<item>
+		<production id="11066" count="1"/>	<!-- Divine Pain - Concentration -->
+		<ingredient id="11067" count="1"/>	<!-- Divine Pain - Concentration -->
+	</item>
+	<item>
+		<production id="11066" count="1"/>	<!-- Divine Pain - Concentration -->
+		<ingredient id="11068" count="1"/>	<!-- Divine Pain - Concentration -->
+	</item>
+	<item>
+		<production id="11066" count="1"/>	<!-- Divine Pain - Concentration -->
+		<ingredient id="11069" count="1"/>	<!-- Divine Pain - Concentration -->
+	</item>
+	<item>
+		<production id="11084" count="1"/>	<!-- Undertaker - Evil Spirit -->
+		<ingredient id="11085" count="1"/>	<!-- Undertaker - Evil Spirit -->
+	</item>
+	<item>
+		<production id="11084" count="1"/>	<!-- Undertaker - Evil Spirit -->
+		<ingredient id="11086" count="1"/>	<!-- Undertaker - Evil Spirit -->
+	</item>
+	<item>
+		<production id="11084" count="1"/>	<!-- Undertaker - Evil Spirit -->
+		<ingredient id="11087" count="1"/>	<!-- Undertaker - Evil Spirit -->
+	</item>
+	<item>
+		<production id="11153" count="1"/>	<!-- Bultgang - Earth -->
+		<ingredient id="11154" count="1"/>	<!-- Bultgang - Earth -->
+	</item>
+	<item>
+		<production id="11153" count="1"/>	<!-- Bultgang - Earth -->
+		<ingredient id="11155" count="1"/>	<!-- Bultgang - Earth -->
+	</item>
+	<item>
+		<production id="11153" count="1"/>	<!-- Bultgang - Earth -->
+		<ingredient id="11156" count="1"/>	<!-- Bultgang - Earth -->
+	</item>
+	<item>
+		<production id="11021" count="1"/>	<!-- Doomchanter - Concentration -->
+		<ingredient id="11022" count="1"/>	<!-- Doomchanter - Concentration -->
+	</item>
+	<item>
+		<production id="11021" count="1"/>	<!-- Doomchanter - Concentration -->
+		<ingredient id="11023" count="1"/>	<!-- Doomchanter - Concentration -->
+	</item>
+	<item>
+		<production id="11021" count="1"/>	<!-- Doomchanter - Concentration -->
+		<ingredient id="11024" count="1"/>	<!-- Doomchanter - Concentration -->
+	</item>
+	<item>
+		<production id="11112" count="1"/>	<!-- Reaper - Clairvoyance -->
+		<ingredient id="11113" count="1"/>	<!-- Reaper - Clairvoyance -->
+	</item>
+	<item>
+		<production id="11112" count="1"/>	<!-- Reaper - Clairvoyance -->
+		<ingredient id="11114" count="1"/>	<!-- Reaper - Clairvoyance -->
+	</item>
+	<item>
+		<production id="11112" count="1"/>	<!-- Reaper - Clairvoyance -->
+		<ingredient id="11115" count="1"/>	<!-- Reaper - Clairvoyance -->
+	</item>
+	<item>
+		<production id="11145" count="1"/>	<!-- Screaming Vengeance - Concentration -->
+		<ingredient id="11146" count="1"/>	<!-- Screaming Vengeance - Concentration -->
+	</item>
+	<item>
+		<production id="11145" count="1"/>	<!-- Screaming Vengeance - Concentration -->
+		<ingredient id="11147" count="1"/>	<!-- Screaming Vengeance - Concentration -->
+	</item>
+	<item>
+		<production id="11145" count="1"/>	<!-- Screaming Vengeance - Concentration -->
+		<ingredient id="11148" count="1"/>	<!-- Screaming Vengeance - Concentration -->
+	</item>
+	<item>
+		<production id="11206" count="1"/>	<!-- Laevateinn - Lightning -->
+		<ingredient id="11207" count="1"/>	<!-- Laevateinn - Lightning -->
+	</item>
+	<item>
+		<production id="11206" count="1"/>	<!-- Laevateinn - Lightning -->
+		<ingredient id="11208" count="1"/>	<!-- Laevateinn - Lightning -->
+	</item>
+	<item>
+		<production id="11206" count="1"/>	<!-- Laevateinn - Lightning -->
+		<ingredient id="11209" count="1"/>	<!-- Laevateinn - Lightning -->
+	</item>
+	<item>
+		<production id="11190" count="1"/>	<!-- Gram - Thunder -->
+		<ingredient id="11191" count="1"/>	<!-- Gram - Thunder -->
+	</item>
+	<item>
+		<production id="11190" count="1"/>	<!-- Gram - Thunder -->
+		<ingredient id="11192" count="1"/>	<!-- Gram - Thunder -->
+	</item>
+	<item>
+		<production id="11190" count="1"/>	<!-- Gram - Thunder -->
+		<ingredient id="11193" count="1"/>	<!-- Gram - Thunder -->
+	</item>
+	<item>
+		<production id="11214" count="1"/>	<!-- Sarunga - Earth -->
+		<ingredient id="11215" count="1"/>	<!-- Sarunga - Earth -->
+	</item>
+	<item>
+		<production id="11214" count="1"/>	<!-- Sarunga - Earth -->
+		<ingredient id="11216" count="1"/>	<!-- Sarunga - Earth -->
+	</item>
+	<item>
+		<production id="11214" count="1"/>	<!-- Sarunga - Earth -->
+		<ingredient id="11217" count="1"/>	<!-- Sarunga - Earth -->
+	</item>
+	<item>
+		<production id="11272" count="1"/>	<!-- Dynasty Sword - Earth -->
+		<ingredient id="11273" count="1"/>	<!-- Dynasty Sword - Earth -->
+	</item>
+	<item>
+		<production id="11272" count="1"/>	<!-- Dynasty Sword - Earth -->
+		<ingredient id="11274" count="1"/>	<!-- Dynasty Sword - Earth -->
+	</item>
+	<item>
+		<production id="11272" count="1"/>	<!-- Dynasty Sword - Earth -->
+		<ingredient id="11275" count="1"/>	<!-- Dynasty Sword - Earth -->
+	</item>
+	<item>
+		<production id="11268" count="1"/>	<!-- Dynasty Blade - Great Gale -->
+		<ingredient id="11269" count="1"/>	<!-- Dynasty Blade - Great Gale -->
+	</item>
+	<item>
+		<production id="11268" count="1"/>	<!-- Dynasty Blade - Great Gale -->
+		<ingredient id="11270" count="1"/>	<!-- Dynasty Blade - Great Gale -->
+	</item>
+	<item>
+		<production id="11268" count="1"/>	<!-- Dynasty Blade - Great Gale -->
+		<ingredient id="11271" count="1"/>	<!-- Dynasty Blade - Great Gale -->
+	</item>
+	<item>
+		<production id="11292" count="1"/>	<!-- Dynasty Phantom - Nature -->
+		<ingredient id="11293" count="1"/>	<!-- Dynasty Phantom - Nature -->
+	</item>
+	<item>
+		<production id="11292" count="1"/>	<!-- Dynasty Phantom - Nature -->
+		<ingredient id="11294" count="1"/>	<!-- Dynasty Phantom - Nature -->
+	</item>
+	<item>
+		<production id="11292" count="1"/>	<!-- Dynasty Phantom - Nature -->
+		<ingredient id="11295" count="1"/>	<!-- Dynasty Phantom - Nature -->
+	</item>
+	<item>
+		<production id="11264" count="1"/>	<!-- Dynasty Bow - Great Gale -->
+		<ingredient id="11265" count="1"/>	<!-- Dynasty Bow - Great Gale -->
+	</item>
+	<item>
+		<production id="11264" count="1"/>	<!-- Dynasty Bow - Great Gale -->
+		<ingredient id="11266" count="1"/>	<!-- Dynasty Bow - Great Gale -->
+	</item>
+	<item>
+		<production id="11264" count="1"/>	<!-- Dynasty Bow - Great Gale -->
+		<ingredient id="11267" count="1"/>	<!-- Dynasty Bow - Great Gale -->
+	</item>
+	<item>
+		<production id="11247" count="1"/>	<!-- Dynasty Knife - Great Gale -->
+		<ingredient id="11248" count="1"/>	<!-- Dynasty Knife - Great Gale -->
+	</item>
+	<item>
+		<production id="11247" count="1"/>	<!-- Dynasty Knife - Great Gale -->
+		<ingredient id="11249" count="1"/>	<!-- Dynasty Knife - Great Gale -->
+	</item>
+	<item>
+		<production id="11247" count="1"/>	<!-- Dynasty Knife - Great Gale -->
+		<ingredient id="11250" count="1"/>	<!-- Dynasty Knife - Great Gale -->
+	</item>
+	<item>
+		<production id="11296" count="1"/>	<!-- Dynasty Halberd - Earth -->
+		<ingredient id="11297" count="1"/>	<!-- Dynasty Halberd - Earth -->
+	</item>
+	<item>
+		<production id="11296" count="1"/>	<!-- Dynasty Halberd - Earth -->
+		<ingredient id="11298" count="1"/>	<!-- Dynasty Halberd - Earth -->
+	</item>
+	<item>
+		<production id="11296" count="1"/>	<!-- Dynasty Halberd - Earth -->
+		<ingredient id="11299" count="1"/>	<!-- Dynasty Halberd - Earth -->
+	</item>
+	<item>
+		<production id="11280" count="1"/>	<!-- Dynasty Cudgel - Landslide -->
+		<ingredient id="11281" count="1"/>	<!-- Dynasty Cudgel - Landslide -->
+	</item>
+	<item>
+		<production id="11280" count="1"/>	<!-- Dynasty Cudgel - Landslide -->
+		<ingredient id="11282" count="1"/>	<!-- Dynasty Cudgel - Landslide -->
+	</item>
+	<item>
+		<production id="11280" count="1"/>	<!-- Dynasty Cudgel - Landslide -->
+		<ingredient id="11283" count="1"/>	<!-- Dynasty Cudgel - Landslide -->
+	</item>
+	<item>
+		<production id="11256" count="1"/>	<!-- Dynasty Mace - Earth -->
+		<ingredient id="11257" count="1"/>	<!-- Dynasty Mace - Earth -->
+	</item>
+	<item>
+		<production id="11256" count="1"/>	<!-- Dynasty Mace - Earth -->
+		<ingredient id="11258" count="1"/>	<!-- Dynasty Mace - Earth -->
+	</item>
+	<item>
+		<production id="11256" count="1"/>	<!-- Dynasty Mace - Earth -->
+		<ingredient id="11259" count="1"/>	<!-- Dynasty Mace - Earth -->
+	</item>
+	<item>
+		<production id="11260" count="1"/>	<!-- Dynasty Bagh-Nakh - Great Gale -->
+		<ingredient id="11261" count="1"/>	<!-- Dynasty Bagh-Nakh - Great Gale -->
+	</item>
+	<item>
+		<production id="11260" count="1"/>	<!-- Dynasty Bagh-Nakh - Great Gale -->
+		<ingredient id="11262" count="1"/>	<!-- Dynasty Bagh-Nakh - Great Gale -->
+	</item>
+	<item>
+		<production id="11260" count="1"/>	<!-- Dynasty Bagh-Nakh - Great Gale -->
+		<ingredient id="11263" count="1"/>	<!-- Dynasty Bagh-Nakh - Great Gale -->
+	</item>
+	<item>
+		<production id="11252" count="1"/>	<!-- Dynasty Rapier - Earth -->
+		<ingredient id="11253" count="1"/>	<!-- Dynasty Rapier - Earth -->
+	</item>
+	<item>
+		<production id="11252" count="1"/>	<!-- Dynasty Rapier - Earth -->
+		<ingredient id="11254" count="1"/>	<!-- Dynasty Rapier - Earth -->
+	</item>
+	<item>
+		<production id="11252" count="1"/>	<!-- Dynasty Rapier - Earth -->
+		<ingredient id="11255" count="1"/>	<!-- Dynasty Rapier - Earth -->
+	</item>
+	<item>
+		<production id="11243" count="1"/>	<!-- Dynasty Ancient Sword - Great Gale -->
+		<ingredient id="11244" count="1"/>	<!-- Dynasty Ancient Sword - Great Gale -->
+	</item>
+	<item>
+		<production id="11243" count="1"/>	<!-- Dynasty Ancient Sword - Great Gale -->
+		<ingredient id="11245" count="1"/>	<!-- Dynasty Ancient Sword - Great Gale -->
+	</item>
+	<item>
+		<production id="11243" count="1"/>	<!-- Dynasty Ancient Sword - Great Gale -->
+		<ingredient id="11246" count="1"/>	<!-- Dynasty Ancient Sword - Great Gale -->
+	</item>
+	<item>
+		<production id="11288" count="1"/>	<!-- Dynasty Crossbow - Great Gale -->
+		<ingredient id="11289" count="1"/>	<!-- Dynasty Crossbow - Great Gale -->
+	</item>
+	<item>
+		<production id="11288" count="1"/>	<!-- Dynasty Crossbow - Great Gale -->
+		<ingredient id="11290" count="1"/>	<!-- Dynasty Crossbow - Great Gale -->
+	</item>
+	<item>
+		<production id="11288" count="1"/>	<!-- Dynasty Crossbow - Great Gale -->
+		<ingredient id="11291" count="1"/>	<!-- Dynasty Crossbow - Great Gale -->
+	</item>
+	<item>
+		<production id="11284" count="1"/>	<!-- Dynasty Crusher - Great Gale -->
+		<ingredient id="11285" count="1"/>	<!-- Dynasty Crusher - Great Gale -->
+	</item>
+	<item>
+		<production id="11284" count="1"/>	<!-- Dynasty Crusher - Great Gale -->
+		<ingredient id="11286" count="1"/>	<!-- Dynasty Crusher - Great Gale -->
+	</item>
+	<item>
+		<production id="11284" count="1"/>	<!-- Dynasty Crusher - Great Gale -->
+		<ingredient id="11287" count="1"/>	<!-- Dynasty Crusher - Great Gale -->
+	</item>
+	<item>
+		<production id="11276" count="1"/>	<!-- Dynasty Staff - Holy Spirit -->
+		<ingredient id="11277" count="1"/>	<!-- Dynasty Staff - Holy Spirit -->
+	</item>
+	<item>
+		<production id="11276" count="1"/>	<!-- Dynasty Staff - Holy Spirit -->
+		<ingredient id="11278" count="1"/>	<!-- Dynasty Staff - Holy Spirit -->
+	</item>
+	<item>
+		<production id="11276" count="1"/>	<!-- Dynasty Staff - Holy Spirit -->
+		<ingredient id="11279" count="1"/>	<!-- Dynasty Staff - Holy Spirit -->
+	</item>
+	<item>
+		<production id="11305" count="1"/>	<!-- Icarus Sawsword - Destruction -->
+		<ingredient id="11306" count="1"/>	<!-- Icarus Sawsword - Destruction -->
+	</item>
+	<item>
+		<production id="11305" count="1"/>	<!-- Icarus Sawsword - Destruction -->
+		<ingredient id="11307" count="1"/>	<!-- Icarus Sawsword - Destruction -->
+	</item>
+	<item>
+		<production id="11305" count="1"/>	<!-- Icarus Sawsword - Destruction -->
+		<ingredient id="11308" count="1"/>	<!-- Icarus Sawsword - Destruction -->
+	</item>
+	<item>
+		<production id="11341" count="1"/>	<!-- Icarus Heavy Arms - Lightning -->
+		<ingredient id="11342" count="1"/>	<!-- Icarus Heavy Arms - Lightning -->
+	</item>
+	<item>
+		<production id="11341" count="1"/>	<!-- Icarus Heavy Arms - Lightning -->
+		<ingredient id="11343" count="1"/>	<!-- Icarus Heavy Arms - Lightning -->
+	</item>
+	<item>
+		<production id="11341" count="1"/>	<!-- Icarus Heavy Arms - Lightning -->
+		<ingredient id="11344" count="1"/>	<!-- Icarus Heavy Arms - Lightning -->
+	</item>
+	<item>
+		<production id="11317" count="1"/>	<!-- Icarus Spirit - Nature -->
+		<ingredient id="11318" count="1"/>	<!-- Icarus Spirit - Nature -->
+	</item>
+	<item>
+		<production id="11317" count="1"/>	<!-- Icarus Spirit - Nature -->
+		<ingredient id="11319" count="1"/>	<!-- Icarus Spirit - Nature -->
+	</item>
+	<item>
+		<production id="11317" count="1"/>	<!-- Icarus Spirit - Nature -->
+		<ingredient id="11320" count="1"/>	<!-- Icarus Spirit - Nature -->
+	</item>
+	<item>
+		<production id="11321" count="1"/>	<!-- Icarus Spitter - Concentration -->
+		<ingredient id="11322" count="1"/>	<!-- Icarus Spitter - Concentration -->
+	</item>
+	<item>
+		<production id="11321" count="1"/>	<!-- Icarus Spitter - Concentration -->
+		<ingredient id="11323" count="1"/>	<!-- Icarus Spitter - Concentration -->
+	</item>
+	<item>
+		<production id="11321" count="1"/>	<!-- Icarus Spitter - Concentration -->
+		<ingredient id="11324" count="1"/>	<!-- Icarus Spitter - Concentration -->
+	</item>
+	<item>
+		<production id="11301" count="1"/>	<!-- Icarus Disperser - Confusion -->
+		<ingredient id="11302" count="1"/>	<!-- Icarus Disperser - Confusion -->
+	</item>
+	<item>
+		<production id="11301" count="1"/>	<!-- Icarus Disperser - Confusion -->
+		<ingredient id="11303" count="1"/>	<!-- Icarus Disperser - Confusion -->
+	</item>
+	<item>
+		<production id="11301" count="1"/>	<!-- Icarus Disperser - Confusion -->
+		<ingredient id="11304" count="1"/>	<!-- Icarus Disperser - Confusion -->
+	</item>
+	<item>
+		<production id="11329" count="1"/>	<!-- Icarus Trident - Thunder -->
+		<ingredient id="11330" count="1"/>	<!-- Icarus Trident - Thunder -->
+	</item>
+	<item>
+		<production id="11329" count="1"/>	<!-- Icarus Trident - Thunder -->
+		<ingredient id="11331" count="1"/>	<!-- Icarus Trident - Thunder -->
+	</item>
+	<item>
+		<production id="11329" count="1"/>	<!-- Icarus Trident - Thunder -->
+		<ingredient id="11332" count="1"/>	<!-- Icarus Trident - Thunder -->
+	</item>
+	<item>
+		<production id="11333" count="1"/>	<!-- Icarus Hammer - Earth -->
+		<ingredient id="11334" count="1"/>	<!-- Icarus Hammer - Earth -->
+	</item>
+	<item>
+		<production id="11333" count="1"/>	<!-- Icarus Hammer - Earth -->
+		<ingredient id="11335" count="1"/>	<!-- Icarus Hammer - Earth -->
+	</item>
+	<item>
+		<production id="11333" count="1"/>	<!-- Icarus Hammer - Earth -->
+		<ingredient id="11336" count="1"/>	<!-- Icarus Hammer - Earth -->
+	</item>
+	<item>
+		<production id="11345" count="1"/>	<!-- Icarus Hall - Hail -->
+		<ingredient id="11346" count="1"/>	<!-- Icarus Hall - Hail -->
+	</item>
+	<item>
+		<production id="11345" count="1"/>	<!-- Icarus Hall - Hail -->
+		<ingredient id="11347" count="1"/>	<!-- Icarus Hall - Hail -->
+	</item>
+	<item>
+		<production id="11345" count="1"/>	<!-- Icarus Hall - Hail -->
+		<ingredient id="11348" count="1"/>	<!-- Icarus Hall - Hail -->
+	</item>
+	<item>
+		<production id="11337" count="1"/>	<!-- Icarus Hand - Destruction -->
+		<ingredient id="11338" count="1"/>	<!-- Icarus Hand - Destruction -->
+	</item>
+	<item>
+		<production id="11337" count="1"/>	<!-- Icarus Hand - Destruction -->
+		<ingredient id="11339" count="1"/>	<!-- Icarus Hand - Destruction -->
+	</item>
+	<item>
+		<production id="11337" count="1"/>	<!-- Icarus Hand - Destruction -->
+		<ingredient id="11340" count="1"/>	<!-- Icarus Hand - Destruction -->
+	</item>
+	<item>
+		<production id="11313" count="1"/>	<!-- Icarus Stinger - Destruction -->
+		<ingredient id="11314" count="1"/>	<!-- Icarus Stinger - Destruction -->
+	</item>
+	<item>
+		<production id="11313" count="1"/>	<!-- Icarus Stinger - Destruction -->
+		<ingredient id="11315" count="1"/>	<!-- Icarus Stinger - Destruction -->
+	</item>
+	<item>
+		<production id="11313" count="1"/>	<!-- Icarus Stinger - Destruction -->
+		<ingredient id="11316" count="1"/>	<!-- Icarus Stinger - Destruction -->
+	</item>
+	<item>
+		<production id="11325" count="1"/>	<!-- Icarus Wingblade - Lightning -->
+		<ingredient id="11326" count="1"/>	<!-- Icarus Wingblade - Lightning -->
+	</item>
+	<item>
+		<production id="11325" count="1"/>	<!-- Icarus Wingblade - Lightning -->
+		<ingredient id="11327" count="1"/>	<!-- Icarus Wingblade - Lightning -->
+	</item>
+	<item>
+		<production id="11325" count="1"/>	<!-- Icarus Wingblade - Lightning -->
+		<ingredient id="11328" count="1"/>	<!-- Icarus Wingblade - Lightning -->
+	</item>
+	<item>
+		<production id="11309" count="1"/>	<!-- Icarus Shooter - Concentration -->
+		<ingredient id="11310" count="1"/>	<!-- Icarus Shooter - Concentration -->
+	</item>
+	<item>
+		<production id="11309" count="1"/>	<!-- Icarus Shooter - Concentration -->
+		<ingredient id="11311" count="1"/>	<!-- Icarus Shooter - Concentration -->
+	</item>
+	<item>
+		<production id="11309" count="1"/>	<!-- Icarus Shooter - Concentration -->
+		<ingredient id="11312" count="1"/>	<!-- Icarus Shooter - Concentration -->
+	</item>
+</list>

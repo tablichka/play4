@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- exchange_noble_for_s84 -->
+<list>
+	<config showall="false" notax="true" keepenchanted="true"/>
+	<item>
+		<production id="13140" count="1"/>	<!-- Vesper Noble Helmet -->
+		<ingredient id="13137" count="1"/>	<!-- Vesper Helmet -->
+		<ingredient id="14052" count="430"/>	<!-- Noble Enhancement Stone -->
+	</item>
+	<item>
+		<production id="13141" count="1"/>	<!-- Vesper Noble Leather Helmet -->
+		<ingredient id="13138" count="1"/>	<!-- Vesper Leather Helmet -->
+		<ingredient id="14052" count="430"/>	<!-- Noble Enhancement Stone -->
+	</item>
+	<item>
+		<production id="13142" count="1"/>	<!-- Vesper Noble Circlet -->
+		<ingredient id="13139" count="1"/>	<!-- Vesper Circlet -->
+		<ingredient id="14052" count="430"/>	<!-- Noble Enhancement Stone -->
+	</item>
+	<item>
+		<production id="13435" count="1"/>	<!-- Vesper Noble Breastplate -->
+		<ingredient id="13432" count="1"/>	<!-- Vesper Breastplate -->
+		<ingredient id="14052" count="1150"/>	<!-- Noble Enhancement Stone -->
+	</item>
+	<item>
+		<production id="13436" count="1"/>	<!-- Vesper Noble Leather Breastplate -->
+		<ingredient id="13433" count="1"/>	<!-- Vesper Leather Breastplate -->
+		<ingredient id="14052" count="860"/>	<!-- Noble Enhancement Stone -->
+	</item>
+	<item>
+		<production id="13437" count="1"/>	<!-- Vesper Noble Tunic -->
+		<ingredient id="13434" count="1"/>	<!-- Vesper Tunic -->
+		<ingredient id="14052" count="860"/>	<!-- Noble Enhancement Stone -->
+	</item>
+	<item>
+		<production id="13448" count="1"/>	<!-- Vesper Noble Gaiters -->
+		<ingredient id="13438" count="1"/>	<!-- Vesper Gaiters -->
+		<ingredient id="14052" count="720"/>	<!-- Noble Enhancement Stone -->
+	</item>
+	<item>
+		<production id="13449" count="1"/>	<!-- Vesper Noble Gauntlet -->
+		<ingredient id="13439" count="1"/>	<!-- Vesper Gauntlet -->
+		<ingredient id="14052" count="290"/>	<!-- Noble Enhancement Stone -->
+	</item>
+	<item>
+		<production id="13450" count="1"/>	<!-- Vesper Noble Boots -->
+		<ingredient id="13440" count="1"/>	<!-- Vesper Boots -->
+		<ingredient id="14052" count="290"/>	<!-- Noble Enhancement Stone -->
+	</item>
+	<item>
+		<production id="13451" count="1"/>	<!-- Vesper Noble Leather Leggings -->
+		<ingredient id="13441" count="1"/>	<!-- Vesper Leather Leggings -->
+		<ingredient id="14052" count="540"/>	<!-- Noble Enhancement Stone -->
+	</item>
+	<item>
+		<production id="13452" count="1"/>	<!-- Vesper Noble Leather Gloves -->
+		<ingredient id="13442" count="1"/>	<!-- Vesper Leather Gloves -->
+		<ingredient id="14052" count="290"/>	<!-- Noble Enhancement Stone -->
+	</item>
+	<item>
+		<production id="13453" count="1"/>	<!-- Vesper Noble Leather Boots -->
+		<ingredient id="13443" count="1"/>	<!-- Vesper Leather Boots -->
+		<ingredient id="14052" count="290"/>	<!-- Noble Enhancement Stone -->
+	</item>
+	<item>
+		<production id="13454" count="1"/>	<!-- Vesper Noble Stockings -->
+		<ingredient id="13444" count="1"/>	<!-- Vesper Stockings -->
+		<ingredient id="14052" count="540"/>	<!-- Noble Enhancement Stone -->
+	</item>
+	<item>
+		<production id="13455" count="1"/>	<!-- Vesper Noble Gloves -->
+		<ingredient id="13445" count="1"/>	<!-- Vesper Gloves -->
+		<ingredient id="14052" count="290"/>	<!-- Noble Enhancement Stone -->
+	</item>
+	<item>
+		<production id="13456" count="1"/>	<!-- Vesper Noble Shoes -->
+		<ingredient id="13446" count="1"/>	<!-- Vesper Shoes -->
+		<ingredient id="14052" count="290"/>	<!-- Noble Enhancement Stone -->
+	</item>
+	<item>
+		<production id="16837" count="1"/>	<!-- Vesper Noble Helmet -->
+		<ingredient id="16306" count="1"/>	<!-- Vesper Helmet -->
+		<ingredient id="14052" count="430"/>	<!-- Noble Enhancement Stone -->
+	</item>
+	<item>
+		<production id="16838" count="1"/>	<!-- Vesper Noble Leather Helmet -->
+		<ingredient id="16307" count="1"/>	<!-- Vesper Leather Helmet -->
+		<ingredient id="14052" count="430"/>	<!-- Noble Enhancement Stone -->
+	</item>
+	<item>
+		<production id="16839" count="1"/>	<!-- Vesper Noble Circlet -->
+		<ingredient id="16308" count="1"/>	<!-- Vesper Circlet -->
+		<ingredient id="14052" count="430"/>	<!-- Noble Enhancement Stone -->
+	</item>
+	<item>
+		<production id="16840" count="1"/>	<!-- Vesper Noble Breastplate -->
+		<ingredient id="16309" count="1"/>	<!-- Vesper Breastplate -->
+		<ingredient id="14052" count="1150"/>	<!-- Noble Enhancement Stone -->
+	</item>
+	<item>
+		<production id="16841" count="1"/>	<!-- Vesper Noble Houberk -->
+		<ingredient id="16310" count="1"/>	<!-- Vesper Leather Breastplate -->
+		<ingredient id="14052" count="860"/>	<!-- Noble Enhancement Stone -->
+	</item>
+	<item>
+		<production id="16842" count="1"/>	<!-- Vesper Noble Tunic -->
+		<ingredient id="16311" count="1"/>	<!-- Vesper Tunic -->
+		<ingredient id="14052" count="860"/>	<!-- Noble Enhancement Stone -->
+	</item>
+	<item>
+		<production id="16843" count="1"/>	<!-- Vesper Noble Gaiter -->
+		<ingredient id="16312" count="1"/>	<!-- Vesper Gaiter -->
+		<ingredient id="14052" count="720"/>	<!-- Noble Enhancement Stone -->
+	</item>
+	<item>
+		<production id="16846" count="1"/>	<!-- Vesper Noble Gauntlet -->
+		<ingredient id="16315" count="1"/>	<!-- Vesper Gauntlet -->
+		<ingredient id="14052" count="290"/>	<!-- Noble Enhancement Stone -->
+	</item>
+	<item>
+		<production id="16849" count="1"/>	<!-- Vesper Noble Boots -->
+		<ingredient id="16318" count="1"/>	<!-- Vesper Boots -->
+		<ingredient id="14052" count="290"/>	<!-- Noble Enhancement Stone -->
+	</item>
+	<item>
+		<production id="16844" count="1"/>	<!-- Vesper Noble Leather Legging -->
+		<ingredient id="16313" count="1"/>	<!-- Vesper Leather Legging -->
+		<ingredient id="14052" count="540"/>	<!-- Noble Enhancement Stone -->
+	</item>
+	<item>
+		<production id="16847" count="1"/>	<!-- Vesper Noble Leather Gloves -->
+		<ingredient id="16316" count="1"/>	<!-- Vesper Leather Gloves -->
+		<ingredient id="14052" count="290"/>	<!-- Noble Enhancement Stone -->
+	</item>
+	<item>
+		<production id="16850" count="1"/>	<!-- Vesper Noble Leather Boots -->
+		<ingredient id="16319" count="1"/>	<!-- Vesper Leather Boots -->
+		<ingredient id="14052" count="290"/>	<!-- Noble Enhancement Stone -->
+	</item>
+	<item>
+		<production id="16845" count="1"/>	<!-- Vesper Noble Stockings -->
+		<ingredient id="16314" count="1"/>	<!-- Vesper Stockings -->
+		<ingredient id="14052" count="540"/>	<!-- Noble Enhancement Stone -->
+	</item>
+	<item>
+		<production id="16848" count="1"/>	<!-- Vesper Noble Gloves -->
+		<ingredient id="16317" count="1"/>	<!-- Vesper Gloves -->
+		<ingredient id="14052" count="290"/>	<!-- Noble Enhancement Stone -->
+	</item>
+	<item>
+		<production id="16851" count="1"/>	<!-- Vesper Noble Shoes -->
+		<ingredient id="16320" count="1"/>	<!-- Vesper Shoes -->
+		<ingredient id="14052" count="290"/>	<!-- Noble Enhancement Stone -->
+	</item>
+</list>

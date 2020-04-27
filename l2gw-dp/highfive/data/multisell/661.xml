@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- dion_merc_captain -->
+<list>
+	<config showall="true" notax="true" keepenchanted="false" />
+	<item>
+		<production id="14605" count="1"/>	<!-- Red Talisman - Territory Guard -->
+		<ingredient id="57" count="10000"/>	<!-- Adena -->
+		<ingredient id="13758" count="7"/>	<!-- Dion Territory Badge -->
+	</item>
+	<item>
+		<production id="13581" count="1"/>	<!-- Transformation Scroll: Dion Human Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13582" count="1"/>	<!-- Transformation Scroll: Dion Elf Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13583" count="1"/>	<!-- Transformation Scroll: Dion Dark Elf Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13584" count="1"/>	<!-- Transformation Scroll: Dion Orc Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13585" count="1"/>	<!-- Transformation Scroll: Dion Dwarf Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13586" count="1"/>	<!-- Transformation Scroll: Dion Kamael Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13678" count="1"/>	<!-- Dion Disguise Scroll -->
+		<ingredient id="57" count="70000"/>	<!-- Adena -->
+	</item>
+</list>

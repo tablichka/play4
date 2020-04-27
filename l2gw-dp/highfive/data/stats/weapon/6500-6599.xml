@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="6589" name="Imperial Staff - Magic Hold">
+		<for>
+			<skill id="3577" level="1" chance="20" action="magic" />
+		</for>
+	</item>
+	<item id="6593" name="Shining Bow - Cheap Shot">
+		<for>
+			<set val="2" order="0x08" stat="cheapShot" />
+			<set val="0.36" order="0x08" stat="cheapShotChance" />
+		</for>
+	</item>
+	<item id="6595" name="Shining Bow - Critical Slow">
+		<for>
+			<skill id="3574" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+</list>

@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<group id="0" onstart="open">
+		<!-- Colosseum doors -->
+		<door id="24190001"/>
+		<door id="24190002"/>
+		<door id="24190003"/>
+		<door id="24190004"/>
+		<door id="23140001"/>
+		<door id="23140002"/>
+		<!-- TOI doors -->
+		<door id="23180001"/>
+		<door id="23180002"/>
+		<door id="23180003"/>
+		<door id="23180004"/>
+		<door id="23180005"/>
+		<door id="23180006"/>
+		<!-- Двери в Dark Cloud Mansion Instance открываем что бы гео было открыто -->
+		<door id="24230001"/>
+		<door id="24230002"/>
+		<door id="24230005"/>
+		<door id="24230003"/>
+		<door id="24230004"/>
+		<door id="24230006"/>
+		<door id="24230007"/>
+		<door id="24230008"/>
+		<door id="24230009"/>
+		<door id="24230010"/>
+		<door id="24230011"/>
+		<door id="24230012"/>
+		<door id="24230013"/>
+		<door id="21160502"/>
+		<door id="18230101"/>
+		<door id="14240102"/>
+	</group>
+	<!-- Garden of Eva -->
+	<group id="1" onstart="laststate" opendelay="420" closedelay="420">
+		<door id="22250001"/>
+		<door id="22250002"/>
+		<door id="22250003"/>
+		<door id="22250004"/>
+		<door id="22250005"/>
+		<door id="22250006"/>
+		<door id="22250007"/>
+		<door id="22250008"/>
+		<door id="22250009"/>
+		<door id="22250010"/>
+		<door id="22250011"/>
+		<door id="22250012"/>
+		<door id="22250013"/>
+		<door id="22250014"/>
+		<door id="22250015"/>
+		<door id="22250016"/>
+		<door id="22250017"/>
+		<door id="22250018"/>
+		<door id="22250019"/>
+		<door id="22250020"/>
+		<door id="22250021"/>
+		<door id="22250022"/>
+		<door id="22250023"/>
+		<door id="22250024"/>
+		<door id="22250025"/>
+		<door id="22250026"/>
+		<door id="22250027"/>
+		<door id="22250028"/>
+	</group>
+	<!-- Tower of Insolence -->
+	<group id="2" onstart="laststate" opendelay="300" closedelay="300">
+		<door id="23180001"/>
+		<door id="23180002"/>
+		<door id="23180003"/>
+		<door id="23180004"/>
+		<door id="23180005"/>
+		<door id="23180006"/>
+	</group>
+	<!-- Coral Garden Gate -->
+	<group id="3" onstart="open">
+		<door id="24220001"/>
+		<door id="24220002"/>
+		<door id="24220003"/>
+		<door id="24220004"/>
+		<door id="24220005"/>
+		<door id="24220006"/>
+		<door id="24220007"/>
+		<door id="24220008"/>
+		<door id="24220009"/>
+		<door id="24220010"/>
+		<door id="24220011"/>
+		<door id="24220012"/>
+		<door id="24220013"/>
+		<door id="24220014"/>
+		<door id="24220015"/>
+		<door id="24220016"/>
+		<door id="24220017"/>
+		<door id="24220018"/>
+		<door id="24220019"/>
+		<door id="24220020"/>
+		<door id="24220021"/>
+		<door id="24220022"/>
+		<door id="24220023"/>
+		<door id="24220024"/>
+		<door id="24220025"/>
+		<door id="24220026"/>
+
+		<door id="24220030"/>
+		<door id="24220031"/>
+		<door id="24220032"/>
+		<door id="24220033"/>
+		<door id="24220034"/>
+		<door id="24220035"/>
+		<door id="24220036"/>
+		<door id="24220037"/>
+		<door id="24220038"/>
+		<door id="24220039"/>
+		<door id="24220040"/>
+		<door id="24220041"/>
+		<door id="24220042"/>
+		<door id="24220043"/>
+		<door id="24220044"/>
+		<door id="24220045"/>
+		<door id="24220046"/>
+		<door id="24220047"/>
+		<door id="24220048"/>
+		<door id="24220049"/>
+		<door id="24220050"/>
+		<door id="24220060"/>
+		<door id="24220061"/>
+	</group>
+	<!-- Normil's cave -->
+	<group id="4" onstart="laststate" opendelay="300" closedelay="300">
+		<door id="17190001"/>
+	</group>
+	<!-- Normil's Garden -->
+	<group id="5" onstart="laststate" opendelay="900" closedelay="900">
+		<door id="16200001"/>
+		<door id="16200002"/>
+		<door id="16200003"/>
+		<door id="16200004"/>
+		<door id="16200005"/>
+		<door id="16200006"/>
+		<door id="16200007"/>
+		<door id="16200008"/>
+		<door id="16200009"/>
+		<door id="16200010"/>
+		<door id="16200011"/>
+		<door id="16200012"/>
+		<door id="16200013"/>
+		<door id="16200014"/>
+		<door id="16200015"/>
+		<door id="16200016"/>
+		<door id="16200017"/>
+		<door id="16200018"/>
+		<door id="16200019"/>
+		<door id="16200022"/>
+		<door id="16200023"/>
+		<door id="16200024"/>
+		<door id="16200025"/>
+	</group>
+	<!-- Giran Devil Isle -->
+	<group id="6" onstart="close" opendelay="120" closedelay="120">
+		<door id="21240001"/>
+		<door id="21240002"/>
+	</group>
+	<!-- Goddard special doors -->
+	<group id="7" onstart="open" openEvent="siegeEnd_7" closeEvent="siegeStart_7">
+		<door id="24160019"/>
+		<door id="24160020"/>
+		<door id="24160023"/>
+	</group>
+	<!-- Schuttgart special doors -->
+	<group id="8" onstart="open" openEvent="siegeEnd_9" closeEvent="siegeStart_9">
+		<door id="22130003"/>
+		<door id="22130012"/>
+		<door id="22130013"/>
+	</group>
+	<!-- SoD doors for stage 2 must be opened. Closed by instances when needed. -->
+	<group id="9" onstart="open">
+		<door id="12240001"/>
+		<door id="12240002"/>
+		<door id="12240003"/>
+		<door id="12240004"/>
+		<door id="12240005"/>
+		<door id="12240006"/>
+		<door id="12240007"/>
+		<door id="12240008"/>
+		<door id="12240009"/>
+		<door id="12240010"/>
+		<door id="12240011"/>
+		<door id="12240012"/>
+		<door id="12240013"/>
+		<door id="12240014"/>
+		<door id="12240015"/>
+		<door id="12240016"/>
+		<door id="12240017"/>
+		<door id="12240018"/>
+		<door id="12240019"/>
+		<door id="12240020"/>
+		<door id="12240021"/>
+		<door id="12240022"/>
+		<door id="12240023"/>
+		<door id="12240024"/>
+		<door id="12240025"/>
+		<door id="12240026"/>
+		<door id="12240027"/>
+		<door id="12240028"/>
+		<door id="12240029"/>
+		<door id="12240030"/>
+		<door id="12240031"/>
+	</group>
+	<group id="10" onstart="open">
+		<!-- Hellbound instances -->
+		<door id="19260053"/>
+		<door id="19260054"/>
+	</group>
+	<group id="11" onstart="open">
+		<door id="19260001"/>
+		<door id="19260002"/>
+		<door id="19260003"/>
+		<door id="19260004"/>
+		<door id="19260005"/>
+		<door id="19260006"/>
+		<door id="19260007"/>
+		<door id="19260008"/>
+		<door id="19260009"/>
+		<door id="19260010"/>
+		<door id="19260011"/>
+		<door id="19260012"/>
+		<door id="19260013"/>
+		<door id="19260014"/>
+		<door id="19260015"/>
+		<door id="19260016"/>
+		<door id="19260017"/>
+		<door id="19260018"/>
+		<door id="19260019"/>
+		<door id="19260020"/>
+		<door id="19260021"/>
+		<door id="19260022"/>
+		<door id="19260023"/>
+		<door id="19260051"/>
+		<door id="19260052"/>
+	</group>
+	<group id="12" onstart="open">
+		<!-- Pailaka -->
+		<door id="22110100"/> <!-- Underwater door -->
+		<door id="22110101"/> <!-- 1st door at the start loc -->
+		<door id="22110102"/>
+		<door id="22110103"/>
+		<door id="22110104"/>
+	</group>
+	<group id="13" onstart="open">
+		<!-- SSQ instances -->
+		<door id="17240001"/>
+		<door id="17240002"/>
+		<door id="17240003"/>
+		<door id="17240004"/>
+		<door id="17240005"/>
+		<door id="17240006"/>
+	</group>
+	<group id="14" onstart="open">
+		<door id="17240101"/>
+		<door id="17240102"/>
+		<door id="17240103"/>
+		<door id="17240104"/>
+		<door id="17240105"/>
+		<door id="17240106"/>
+		<door id="17240107"/>
+		<door id="17240108"/>
+		<door id="17240109"/>
+		<door id="17240110"/>
+		<door id="17240111"/>
+	</group>
+
+</list>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- exchange_nephentes_seed_1st_step -->
+<list>
+	<config showall="false" notax="true" keepenchanted="false"/>
+	<item>
+		<production id="7634" count="1"/>	<!-- Looted Goods - Brown Pouch -->
+		<ingredient id="7187" count="55"/>	<!-- Nepenthes Seed -->
+	</item>
+	<item>
+		<production id="7619" count="1"/>	<!-- Scroll of Escape: Varka Silenos Village -->
+		<ingredient id="7187" count="80"/>	<!-- Nepenthes Seed -->
+	</item>
+</list>

@@ -1,0 +1,2470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<skill id="2300" levels="1" name="Hair Style Change Potion">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="8673"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+		<set name="hitTime" val="500"/>
+	</skill>
+	<skill id="2301" levels="1" name="Hair Style Change Potion">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="8674"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+		<set name="hitTime" val="500"/>
+	</skill>
+	<skill id="2302" levels="1" name="Hair Style Change Potion">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="8675"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+		<set name="hitTime" val="500"/>
+	</skill>
+	<skill id="2303" levels="1" name="Hair Style Change Potion">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="8676"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+		<set name="hitTime" val="500"/>
+	</skill>
+	<skill id="2304" levels="1" name="Hair Style Change Potion">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="8677"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+		<set name="hitTime" val="500"/>
+	</skill>
+	<skill id="2305" levels="1" name="Primeval Potion">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="8786"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="levelMod" val="0"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="abnormal_time" val="1200"/>
+		<set name="abnormal_type" val="primeval_potion"/>
+		<set name="abnormalLevel" val="#abnormal_lv"/>
+		<table name="#abnormal_lv">1</table>
+		<table name="#magicLevel">70</table>
+		<!-- TODO: add effect "anesthetics that originate on the Primeval Isle" -->
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="isHandler" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="altUse" val="true"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="poisonRcpt" val="0.7"/>
+				<mul order="0x30" stat="bleedRcpt" val="0.7"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2306" levels="3" name="Red Primeval Crystal">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="#itemConsumeId"/>
+		<table name="#itemConsumeId">8954 8955 8956 </table>
+		<set name="itemConsumeCount" val="1"/>
+		<table name="#mpConsume2">
+			0 0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1 -1 -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<table name="#power">50000 100000 200000</table>
+		<table name="#item">8954 8955 8956</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="hitTime" val="200"/>
+		<set name="staticReuse" val="true"/>
+		<set name="staticHitTime" val="true"/>
+		<cond msgId="1902">
+			<and>
+				<player minLevel="76"/>
+				<player maxLevel="85"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_sp" val="#power"/>
+		</for>
+	</skill>
+	<skill id="2307" levels="1" name="Remove Petrification Scroll">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Needs to be finished. 
+			Target is set to TARGET_NONE, skillType to NOTDONE for server compatability. 
+			Description(s): 
+			none 
+		-->
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="2308" levels="36" name="Event Item">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="8980,1,17,1000;100;"/>
+			<effect name="i_restoration_random" skillLevel="2" options="8989,1,1341,1000;100;"/>
+			<effect name="i_restoration_random" skillLevel="3" options="8997,1,1342,1000;100;"/>
+			<effect name="i_restoration_random" skillLevel="4" options="9008,1,1343,1000;100;"/>
+			<effect name="i_restoration_random" skillLevel="5" options="9016,1,1344,1000;100;"/>
+			<effect name="i_restoration_random" skillLevel="6" options="9027,1,1344,1000;100;"/>
+			<effect name="i_restoration_random" skillLevel="7" options="9030,1,9031,1,9038,1,9039,1,9037,1,9036,1;100;"/>
+			<effect name="i_restoration_random" skillLevel="8" options="9040,1,9041,1,9042,1,9043,1,9044,1,9053,1;100;"/>
+			<effect name="i_restoration_random" skillLevel="9" options="9054,1,9055,1,9056,1,9057,1,9128,1;100;"/>
+			<effect name="i_restoration_random" skillLevel="10" options="9067,1,9068,1,9069,1,9070,1,9071,1,9072,1;100;"/>
+			<effect name="i_restoration_random" skillLevel="11" options="9081,1,9082,1,9083,1,9084,1,9085,1,9086,1;100;"/>
+			<effect name="i_restoration_random" skillLevel="12" options="9094,1,9095,1,9096,1,9097,1,9129,1;100;"/>
+			<effect name="i_restoration_random" skillLevel="13" options="9032,1,9033,1,9037,1,9038,1,9039,1;100;"/>
+			<effect name="i_restoration_random" skillLevel="14" options="9045,1,9046,1,9047,1,9048,1,9053,1;100;"/>
+			<effect name="i_restoration_random" skillLevel="15" options="9058,1,9059,1,9060,1,9061,1,9066,1;100;"/>
+			<effect name="i_restoration_random" skillLevel="16" options="9073,1,9074,1,9075,1,9076,1,9069,1;100;"/>
+			<effect name="i_restoration_random" skillLevel="17" options="9087,1,9088,1,9089,1,9090,1,9083,1;100;"/>
+			<effect name="i_restoration_random" skillLevel="18" options="9098,1,9099,1,9100,1,9095,1;100;"/>
+			<effect name="i_restoration_random" skillLevel="19" options="9034,1,9035,1,9037,1,9038,1,9036,1,9039,1;100;"/>
+			<effect name="i_restoration_random" skillLevel="20" options="9049,1,9050,1,9051,1,9052,1,9053,1,9044,1;100;"/>
+			<effect name="i_restoration_random" skillLevel="21" options="9062,1,9063,1,9064,1,9065,1,9066,1,9056,1;100;"/>
+			<effect name="i_restoration_random" skillLevel="22" options="9077,1,9078,1,9079,1,9080,1,9069,1,9070,1;100;"/>
+			<effect name="i_restoration_random" skillLevel="23" options="9091,1,9092,1,9093,1,9084,1,9083,1;100;"/>
+			<effect name="i_restoration_random" skillLevel="24" options="9101,1,9102,1,9103,1,9095,1,9129,1;100;"/>
+			<effect name="i_restoration_random" skillLevel="25" options="1835,1000,8622,10;100;"/>
+			<effect name="i_restoration_random" skillLevel="26" options="1463,1000,8623,10;100;"/>
+			<effect name="i_restoration_random" skillLevel="27" options="1464,1000,8624,10;100;"/>
+			<effect name="i_restoration_random" skillLevel="28" options="1465,500,8625,7;100;"/>
+			<effect name="i_restoration_random" skillLevel="29" options="1466,300,8626,7;100;"/>
+			<effect name="i_restoration_random" skillLevel="30" options="1466,300,8627,5;100;"/>
+			<effect name="i_restoration_random" skillLevel="31" options="2509,1000,8622,10;100;"/>
+			<effect name="i_restoration_random" skillLevel="32" options="2510,1000,8623,10;100;"/>
+			<effect name="i_restoration_random" skillLevel="33" options="2511,1000,8624,10;100;"/>
+			<effect name="i_restoration_random" skillLevel="34" options="2512,500,8625,7;100;"/>
+			<effect name="i_restoration_random" skillLevel="35" options="2513,300,8626,7;100;"/>
+			<effect name="i_restoration_random" skillLevel="36" options="2513,300,8627,5;100;"/>
+		</for>
+	</skill>
+	<skill id="2309" levels="1" name="Pig Chest">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="9143,1;70;"/>
+		</for>
+	</skill>
+	<skill id="2310" levels="1" name="Scroll of Guidance - Event Use">
+		<set name="itemConsumeId" val="9146"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="levelMod" val="0"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_type" val="accuracyUp"/>
+		<!-- Done by SYS.
+			Description: Increases Accuracy. Effect 3. 
+		-->
+		<set name="magicLevel" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="hitTime" val="4000"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="allowPetUse" val="true"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="accCombat" val="4"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2311" levels="1" name="Scroll of Death Whisper - Event Use">
+		<set name="itemConsumeId" val="9147"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="levelMod" val="0"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_type" val="cAtk"/>
+		<!-- Done by SYS.
+			Description: Increases critical attack power. Effect 3. 
+		-->
+		<set name="magicLevel" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="hitTime" val="4000"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="allowPetUse" val="true"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="cAtk" val="1.35"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2312" levels="1" name="Scroll of Focus - Event Use">
+		<set name="itemConsumeId" val="9148"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="levelMod" val="0"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_type" val="rCritPercent"/>
+		<!-- Done by SYS.
+			Description: Increases critical attack rate. Effect 3. 
+		-->
+		<set name="magicLevel" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="hitTime" val="4000"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="allowPetUse" val="true"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="rCrit" val="1.30"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2313" levels="1" name="Scroll of Acumen - Event Use">
+		<set name="itemConsumeId" val="9149"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="levelMod" val="0"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_type" val="mAtkSpeedUp"/>
+		<!-- Done by SYS.
+			Description: Increases Casting Spd. Effect 3.
+		-->
+		<set name="magicLevel" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="hitTime" val="4000"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="allowPetUse" val="true"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="mAtkSpd" val="1.3"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2314" levels="1" name="Scroll of Haste - Event Use">
+		<set name="itemConsumeId" val="9150"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="levelMod" val="0"/>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_type" val="attack_time_down"/>
+		<set name="magicLevel" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="hitTime" val="4000"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="allowPetUse" val="true"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="pAtkSpd" val="1.33"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2315" levels="1" name="Scroll of Agility - Event Use">
+		<set name="itemConsumeId" val="9151"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="levelMod" val="0"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_type" val="rEvas"/>
+		<!-- Done by SYS.
+			Description: Increases Evasion. Effect 3. 
+		-->
+		<set name="magicLevel" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="hitTime" val="4000"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="allowPetUse" val="true"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="rEvas" val="4"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2316" levels="1" name="Scroll of Empower - Event Use">
+		<set name="itemConsumeId" val="9152"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="levelMod" val="0"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_type" val="mAtk"/>
+		<!-- Done by SYS.
+			Description: Increases M. Atk. Effect 3. 
+		-->
+		<set name="magicLevel" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="hitTime" val="4000"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="allowPetUse" val="true"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="mAtk" val="1.75"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2317" levels="1" name="Scroll of Might - Event Use">
+		<set name="itemConsumeId" val="9153"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="levelMod" val="0"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_type" val="pAtk"/>
+		<!-- Done by SYS.
+			Description: Increases P. Atk. Effect 3. 
+		-->
+		<set name="magicLevel" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="hitTime" val="4000"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="allowPetUse" val="true"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="pAtk" val="1.15"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2318" levels="1" name="Scroll of Wind Walk - Event Use">
+		<set name="itemConsumeId" val="9154"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="levelMod" val="0"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_type" val="SpeedUp"/>
+		<!-- Done by SYS.
+			Description: Increases Speed. Effect 2. 
+		-->
+		<set name="magicLevel" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="hitTime" val="4000"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="allowPetUse" val="true"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="runSpd" val="33"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2319" levels="1" name="Scroll of Shield - Event Use">
+		<set name="itemConsumeId" val="9155"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="levelMod" val="0"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_type" val="pDef"/>
+		<!-- Done by SYS.
+			Description: Increases P. Def. Effect 3. 
+		-->
+		<set name="magicLevel" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="hitTime" val="4000"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="allowPetUse" val="true"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="pDef" val="1.15"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2320" levels="1" name="Blessed Scroll of Escape - Event Use">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="9156"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="isHandler" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="hitTime" val="200"/>
+		<set name="flyingTransformUse" val="true"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond msgId="113">
+			<CanEscape/>
+		</cond>
+		<for>
+			<effect name="i_escape" type="town"/>
+		</for>
+	</skill>
+	<skill id="2321" levels="1" name="Blessed Scroll of Resurrection - Event Use">
+		<set name="itemConsumeId" val="9157"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="target_type" val="pc_body"/>
+		<set name="hitTime" val="3000"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="400"/>
+		<cond msgId="113">
+			<CanResurrect/>
+		</cond>
+		<for>
+			<effect name="i_resurrection" val="200"/>
+		</for>
+	</skill>
+	<skill id="2322" levels="1" name="Chest Key - For Events Only">
+		<set name="itemConsumeId" val="9205"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#magicLevel">10</table>
+		<set name="castRange" val="40"/>
+		<!-- 
+			Needs to be finished. 
+			Target is set to TARGET_NONE, skillType to NOTDONE for server compatability. 
+			Description(s): 
+			Lvl 1 - none 
+		-->
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+		<set name="hitTime" val="500"/>
+	</skill>
+	<skill id="2323" levels="1" name="Red Sage's Stone">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="9171"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="9177,1;2.5;9184,1;2.5;9191,1;2.5;9198,1;2.5;9153,3;6.6;9146,3;6.6;9150,3;6.8;9156,1;7.0;9157,1;2.0;9206,10;45.997;9207,5;15.0;8678,1;0.0015;8682,1;0.0015;"/>
+		</for>
+	</skill>
+	<skill id="2324" levels="1" name="Blue Sage's Stone">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="9172"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="9178,1;2.5;9185,1;2.5;9192,1;2.5;9199,1;2.5;9147,3;6.6;9151,3;6.6;9149,3;6.8;9156,1;7.0;9157,1;2.0;9206,10;45.997;9207,5;15.0;8685,1;0.0015;8679,1;0.0015;"/>
+		</for>
+	</skill>
+	<skill id="2325" levels="1" name="Orange Sage's Stone">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="9173"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="9180,1;2.5;9187,1;2.5;9194,1;2.5;9201,1;2.5;9149,3;6.6;9155,3;6.6;9150,3;6.8;9156,1;7.0;9157,1;2.0;9206,10;45.997;9207,5;15.0;8688,1;0.0015;8680,1;0.0015;"/>
+		</for>
+	</skill>
+	<skill id="2326" levels="1" name="Black Sage's Stone">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="9174"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="9182,1;2.5;9189,1;2.5;9196,1;2.5;9203,1;2.5;9148,3;6.6;9146,3;6.6;9154,3;6.8;9156,1;7.0;9157,1;2.0;9206,10;45.997;9207,5;15.0;8681,1;0.0015;8687,1;0.0015;"/>
+		</for>
+	</skill>
+	<skill id="2327" levels="1" name="White Sage's Stone">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="9175"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="9183,1;2.5;9190,1;2.5;9197,1;2.5;9204,1;2.5;9152,3;6.6;9155,3;6.6;9147,3;6.8;9156,1;7.0;9157,1;2.0;9206,10;45.997;9207,5;15.0;8685,1;0.0015;8683,1;0.0015;"/>
+		</for>
+	</skill>
+	<skill id="2328" levels="1" name="Green Sage's Stone">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="9176"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="9179,1;2.5;9186,1;2.5;9193,1;2.5;9200,1;2.5;9148,3;6.6;9152,3;6.6;9154,3;6.8;9156,1;7.0;9157,1;2.0;9206,10;45.997;9207,5;15.0;8686,1;0.0015;8684,1;0.0015;"/>
+		</for>
+	</skill>
+	<skill id="2329" levels="4" name="Fire Energy">
+		<set name="hitCancelTime" val="0"/>
+		<table name="#mpConsume2">
+			0 0 0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1 -1 -1 -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="2330" levels="4" name="Water Energy">
+		<set name="hitCancelTime" val="0"/>
+		<table name="#mpConsume2">
+			0 0 0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1 -1 -1 -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="2331" levels="4" name="Wind Energy">
+		<set name="hitCancelTime" val="0"/>
+		<table name="#mpConsume2">
+			0 0 0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1 -1 -1 -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="2332" levels="4" name="Earth Energy">
+		<set name="hitCancelTime" val="0"/>
+		<table name="#mpConsume2">
+			0 0 0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1 -1 -1 -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="2333" levels="4" name="Divine Energy">
+		<set name="hitCancelTime" val="0"/>
+		<table name="#mpConsume2">
+			0 0 0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1 -1 -1 -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="2334" levels="4" name="Dark Energy">
+		<set name="hitCancelTime" val="0"/>
+		<table name="#mpConsume2">
+			0 0 0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1 -1 -1 -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="2335" levels="1" name="Fire Resist Potion">
+		<set name="itemConsumeId" val="9997"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="abnormal_time" val="600"/>
+		<set name="abnormal_type" val="ElementDefUp"/>
+		<!--
+			Done by:	SYS
+			Last modify:	10.12.2007
+			Description: Resistance to the element of fire is increased.
+		-->
+		<set name="magicLevel" val="1"/>
+		<table name="#res">30</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="fireAttr" val="#res"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2336" levels="1" name="Water Resist Potion">
+		<set name="itemConsumeId" val="9998"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="abnormal_time" val="600"/>
+		<set name="abnormal_type" val="ElementDefUp"/>
+		<!--
+			Done by:	SYS
+			Last modify:	10.12.2007
+			Description: Resistance to the element of water is increased.
+		-->
+		<set name="magicLevel" val="1"/>
+		<table name="#res">30</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="waterAttr" val="#res"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2337" levels="1" name="Wind Resist Potion">
+		<set name="itemConsumeId" val="10000"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="abnormal_time" val="600"/>
+		<set name="abnormal_type" val="ElementDefUp"/>
+		<!--
+			Done by:	SYS
+			Last modify:	10.12.2007
+			Description: Resistance to the element of wind is increased.
+		-->
+		<set name="magicLevel" val="1"/>
+		<table name="#res">30</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="windAttr" val="#res"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2338" levels="1" name="Earth Resist Potion">
+		<set name="itemConsumeId" val="9999"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="abnormal_time" val="600"/>
+		<set name="abnormal_type" val="ElementDefUp"/>
+		<!--
+			Done by:	SYS
+			Last modify:	10.12.2007
+			Description: Resistance to the element of earth is increased.
+		-->
+		<set name="magicLevel" val="1"/>
+		<table name="#res">30</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="earthAttr" val="#res"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2339" levels="1" name="Holy Resist Potion">
+		<set name="itemConsumeId" val="10002"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="abnormal_time" val="600"/>
+		<set name="abnormal_type" val="ElementDefUp"/>
+		<!--
+			Done by:	SYS
+			Last modify:	10.12.2007
+			Description: Increases the resistance to holy element.
+		-->
+		<set name="magicLevel" val="1"/>
+		<table name="#res">30</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="holyAttr" val="#res"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2340" levels="1" name="Unholy Resist Potion">
+		<set name="itemConsumeId" val="10001"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="abnormal_time" val="600"/>
+		<set name="abnormal_type" val="ElementDefUp"/>
+		<!--
+			Done by:	SYS
+			Last modify:	10.12.2007
+			Description: Increases the resistance to dark element.
+		-->
+		<set name="magicLevel" val="1"/>
+		<table name="#res">30</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="darkAttr" val="#res"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2341" levels="1" name="Caravan's Secret Medicine">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="9702"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_type" val="DesertHeat"/>
+		<set name="abnormalLevel" val="10"/>
+		<set name="magicLevel" val="1"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="flyingTransformUse" val="true"/>
+		<for>
+			<effect/>
+		</for>
+	</skill>
+	<skill id="2342" levels="1" name="Ballista Bomb">
+		<set name="itemConsumeId" val="9688"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#effectPoint">10 </table>
+		<set name="effectPoint" val="#effectPoint"/>
+		<table name="#magicLevel">1</table>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="hitTime" val="5000"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="castRange" val="150"/>
+		<set name="target_type" val="enemy_only"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isOffensive" val="true"/>
+		<cond msgId="113">
+			<target ballista="true"/>
+		</cond>
+		<for>
+			<effect name="i_damage_random"/>
+		</for>
+	</skill>
+	<skill id="2343" levels="1" name="Gate Key of Kamael">
+		<set name="itemConsumeId" val="9703"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<!-- 
+			skillType = GARDEN_KEY_UNLOCK
+		-->
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="40"/>
+		<set name="hitTime" val="500"/>
+		<set name="effectPoint" val="400"/>
+		<for/>
+	</skill>
+	<skill id="2344" levels="1" name="Gate Key of Records">
+		<set name="itemConsumeId" val="9704"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<!-- 
+			skillType = GARDEN_KEY_UNLOCK
+		-->
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="40"/>
+		<set name="hitTime" val="500"/>
+		<set name="effectPoint" val="400"/>
+		<for/>
+	</skill>
+	<skill id="2345" levels="1" name="Gate Key of Observation">
+		<set name="itemConsumeId" val="9705"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<!-- 
+			skillType = GARDEN_KEY_UNLOCK
+		-->
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="40"/>
+		<set name="hitTime" val="500"/>
+		<set name="effectPoint" val="400"/>
+		<for/>
+	</skill>
+	<skill id="2346" levels="1" name="Gate Key of Specula">
+		<set name="itemConsumeId" val="9706"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<!-- 
+			skillType = GARDEN_KEY_UNLOCK
+		-->
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="40"/>
+		<set name="hitTime" val="500"/>
+		<set name="effectPoint" val="400"/>
+		<for/>
+	</skill>
+	<skill id="2347" levels="1" name="Enuma Elish Key">
+		<set name="itemConsumeId" val="9707"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<!-- 
+			skillType = GARDEN_KEY_UNLOCK
+		-->
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="40"/>
+		<set name="hitTime" val="500"/>
+		<set name="effectPoint" val="400"/>
+		<for/>
+	</skill>
+	<skill id="2348" levels="1" name="Prahnah Key">
+		<set name="itemConsumeId" val="9708"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<!-- 
+			skillType = GARDEN_KEY_UNLOCK
+		-->
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="40"/>
+		<set name="hitTime" val="500"/>
+		<set name="effectPoint" val="400"/>
+		<for/>
+	</skill>
+	<skill id="2349" levels="1" name="Gate Key of Arvitaire">
+		<set name="itemConsumeId" val="9709"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<!-- 
+			skillType = GARDEN_KEY_UNLOCK
+		-->
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="40"/>
+		<set name="hitTime" val="500"/>
+		<set name="effectPoint" val="400"/>
+		<for/>
+	</skill>
+	<skill id="2350" levels="1" name="Leopold Key">
+		<set name="itemConsumeId" val="9710"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<!-- 
+			skillType = GARDEN_KEY_UNLOCK
+		-->
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="40"/>
+		<set name="hitTime" val="500"/>
+		<set name="effectPoint" val="400"/>
+		<for/>
+	</skill>
+	<skill id="2351" levels="1" name="Gate Key of Prediction">
+		<set name="itemConsumeId" val="9711"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<!-- 
+			skillType = GARDEN_KEY_UNLOCK
+		-->
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="40"/>
+		<set name="hitTime" val="500"/>
+		<set name="effectPoint" val="400"/>
+		<for/>
+	</skill>
+	<skill id="2352" levels="1" name="Gate Key of Nornil">
+		<set name="itemConsumeId" val="9712"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<!-- 
+			skillType = GARDEN_KEY_UNLOCK
+		-->
+		<set name="target" val="TARGET_ONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="40"/>
+		<set name="hitTime" val="500"/>
+		<set name="effectPoint" val="400"/>
+		<for/>
+	</skill>
+	<skill id="2353" levels="1" name="Nornil's Power">
+		<set name="itemConsumeId" val="9713"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="0"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="1000"/>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="2354" levels="1" name="Gate Key of Darkness">
+		<set name="itemConsumeId" val="9685"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="hitTime" val="500"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="staticReuse" val="true"/>
+		<!--
+			Generated from client by rage
+			none
+		-->
+		<set name="target_type" val="door_treasure"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="40"/>
+		<for>
+			<effect name="i_unlock" options="16-100"/>
+		</for>
+	</skill>
+	<skill id="2355" levels="1" name="Gate Key of Destruction">
+		<set name="itemConsumeId" val="9686"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="hitTime" val="500"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="staticReuse" val="true"/>
+		<!--
+			Generated from client by rage
+			none
+		-->
+		<set name="target_type" val="door_treasure"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="40"/>
+		<for>
+			<effect name="i_unlock" options="17-100"/>
+		</for>
+	</skill>
+	<skill id="2356" levels="1" name="Gate Key of Blood">
+		<set name="itemConsumeId" val="9687"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="hitTime" val="500"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="staticReuse" val="true"/>
+		<!--
+			Generated from client by rage
+			none
+		-->
+		<set name="target_type" val="door_treasure"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="40"/>
+		<for>
+			<effect name="i_unlock" options="18-100"/>
+		</for>
+	</skill>
+	<skill id="2357" levels="1" name="Fiery Demon Blood">
+		<set name="itemConsumeId" val="9849"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="100"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="abnormal_type" val="fiery"/>
+		<set name="abnormal_time" val="600"/>
+		<set name="magicLevel" val="1"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect/>
+		</for>
+	</skill>
+	<skill id="2358" levels="1" name="Holy Water">
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="target_type" val="enemy"/>
+		<set name="hitTime" val="500"/>
+		<set name="affect_scope" val="single"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="staticReuse" val="true"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="40"/>
+		<set name="isHandler" val="true"/>
+		<cond msgId="113">
+			<or>
+				<player attackerNpcId="18464"/>
+				<player attackerNpcId="18463"/>
+			</or>
+		</cond>
+		<for/>
+	</skill>
+	<skill id="2359" levels="1" name="Magic Bottle">
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="target_type" val="enemy"/>
+		<set name="affect_scope" val="single"/>
+		<set name="hitTime" val="500"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="staticReuse" val="true"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="40"/>
+		<set name="isHandler" val="true"/>
+		<set name="effectPoint" val="400"/>
+		<for/>
+	</skill>
+	<skill id="2360" levels="1" name="Water Dragon Claw">
+		<set name="itemConsumeId" val="9700"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="0"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#magicLevel">1</table>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="hitTime" val="500"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="castRange" val="400"/>
+		<set name="target_type" val="enemy_only"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="isDebuff" val="true"/>
+		<set name="effectPoint" val="0"/>
+		<cond msgId="113">
+			<player attackerNpcId="29099"/>
+		</cond>
+		<for/>
+	</skill>
+	<skill id="2361" levels="1" name="Evolving Wolf's Food">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="allowPetUse" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<for>
+			<effect name="i_food_for_pet" options="1100;1100;0"/>
+		</for>
+	</skill>
+	<skill id="2362" levels="1" name="Prison Gate Key">
+		<set name="itemConsumeId" val="10015"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="hitTime" val="500"/>
+		<set name="castRange" val="40"/>
+		<set name="target_type" val="door_treasure"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="reuseDelay" val="8000"/>
+		<for>
+			<effect name="i_unlock" options="14-100"/> 
+		</for>
+	</skill>
+	<skill id="2363" levels="1" name="Underground Warehouse Key">
+		<set name="itemConsumeId" val="10016"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="hitTime" val="500"/>
+		<set name="castRange" val="40"/>
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="2364" levels="1" name="Blessed Scroll of Fortress Return">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="10130"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="isHandler" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="hitTime" val="200"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond msgId="113">
+			<and>
+				<OpHome type="fortress"/>
+				<CanEscape/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_escape" type="fortress"/>
+		</for>
+	</skill>
+	<skill id="2365" levels="1" name="Scroll of Fortress Return">
+		<set name="itemConsumeId" val="10129"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="isHandler" val="true"/>
+		<set name="fortress" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="hitTime" val="20000"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond msgId="113">
+			<and>
+				<OpHome type="fortress"/>
+				<CanEscape/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_escape" type="fortress"/>
+		</for>
+	</skill>
+	<skill id="2366" levels="1" name="Blue Coral Key">
+		<set name="itemConsumeId" val="9698"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="target_type" val="door_treasure"/>
+		<set name="hitTime" val="500"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="40"/>
+		<set name="isHandler" val="true"/>
+		<set name="reuseDelay" val="8000"/>
+		<for>
+			<effect name="i_unlock" options="12-100"/> 
+		</for>
+	</skill>
+	<skill id="2367" levels="1" name="Red Coral Key">
+		<set name="itemConsumeId" val="9699"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="target_type" val="door_treasure"/>
+		<set name="hitTime" val="500"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="40"/>
+		<set name="isHandler" val="true"/>
+		<set name="reuseDelay" val="8000"/>
+		<for>
+			<effect name="i_unlock" options="13-100"/>
+		</for>
+	</skill>
+	<skill id="2368" levels="1" name="Spirit of the Lake">
+		<set name="itemConsumeId" val="9689"/>
+		<set name="itemConsumeCount" val="1"/>
+		<table name="#mpConsume1">
+			0
+		</table>
+		<table name="#mpConsume2">
+			0
+		</table>
+		<set name="mpConsume1" val="#mpConsume1"/>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="1"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#magicLevel">1</table>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="target" val="TARGET_ONE"/>
+		<set name="hitTime" val="8000"/>
+		<set name="reuseDelay" val="8000"/>
+		<set name="staticReuse" val="true"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="600"/>
+		<set name="effectPoint" val="0"/>
+		<set name="isHandler" val="true"/>
+		<set name="target_type" val="enemy_only"/>
+		<set name="affect_scope" val="single"/>
+		<set name="isDebuff" val="true"/>
+		<cond msgId="113">
+			<player attackerNpcId="18482"/>
+		</cond>
+		<for>
+			<effect name="i_heal_force" val="20"/>
+		</for>
+	</skill>
+	<skill id="2369" levels="1" name="Water Dragon Scale">
+		<set name="itemConsumeId" val="9691"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="0"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#magicLevel">1</table>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="hitTime" val="500"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="castRange" val="400"/>
+		<set name="target_type" val="enemy_only"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="isDebuff" val="true"/>
+		<set name="effectPoint" val="0"/>
+		<cond msgId="113">
+			<or>
+				<player attackerNpcId="25534"/>
+				<player attackerNpcId="25535"/>
+			</or>
+		</cond>
+		<for/>
+	</skill>
+	<skill id="2370" levels="1" name="Scroll of Transformation - Pig">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="9897"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="cancelable" val="false"/>
+		<set name="isHandler" val="true"/>
+		<set name="reuseDelay" val="3600000"/>
+		<set name="staticReuse" val="true"/>
+		<set name="addSkills" val="5437;1"/>
+		<set name="staticHitTime" val="true"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<target hasBuffId="1411;false" msgId="2064" />
+				<player olympiad="false" msgId="1509"/>
+				<player riding="none" msgId="2063"/>
+				<player zoneType="water" msgId="2060"/>
+				<target playerOnly="true"/>
+			</and>
+		</cond>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect name="t_transform" val="104" npcId="13093" femaleNpcId="13093"/>
+		</for>
+	</skill>
+	<skill id="2371" levels="1" name="Transform Sealbook - Onyx Beast">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="10131"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="cancelable" val="false"/>
+		<set name="reuseDelay" val="3600000"/>
+		<set name="addSkills" val="584;1;585;1;5491;1;"/>
+		<set name="isHandler" val="true"/>
+		<set name="staticHitTime" val="true"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<target hasBuffId="1411;false" msgId="2064" />
+				<player olympiad="false" msgId="1509"/>
+				<player riding="none" msgId="2063"/>
+				<player zoneType="water" msgId="2060"/>
+				<target playerOnly="true"/>
+			</and>
+		</cond>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect name="t_transform" val="1"  npcId="13077" femaleNpcId="13077">
+				<set order="0x40" stat="STR" val="40"/>
+				<set order="0x40" stat="DEX" val="30"/>
+				<set order="0x40" stat="CON" val="43"/>
+				<set order="0x40" stat="INT" val="21"/>
+				<set order="0x40" stat="WIT" val="11"/>
+				<set order="0x40" stat="MEN" val="25"/>
+				<add order="0x40" stat="runSpd" val="11"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2372" levels="1" name="Transform Sealbook - Death Blader">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="10132"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="cancelable" val="false"/>
+		<set name="reuseDelay" val="3600000"/>
+		<set name="staticReuse" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="addSkills" val="586;1[1-59];587;1[1-59];588;1[1-59];589;1[1-59];5491;1;586;2[60-86];587;2[60-86];588;2[60-86];589;2[60-86];"/>
+		<set name="staticHitTime" val="true"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<target hasBuffId="1411;false" msgId="2064" />
+				<player olympiad="false" msgId="1509"/>
+				<player riding="none" msgId="2063"/>
+				<player zoneType="water" msgId="2060"/>
+				<target playerOnly="true"/>
+			</and>
+		</cond>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect name="t_transform" val="2" npcId="13078" femaleNpcId="13078">
+				<set order="0x40" stat="STR" val="40"/>
+				<set order="0x40" stat="DEX" val="30"/>
+				<set order="0x40" stat="CON" val="43"/>
+				<set order="0x40" stat="INT" val="21"/>
+				<set order="0x40" stat="WIT" val="11"/>
+				<set order="0x40" stat="MEN" val="25"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2373" levels="1" name="Transform Sealbook - Grail Apostle">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="10133"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="cancelable" val="false"/>
+		<set name="reuseDelay" val="3600000"/>
+		<set name="staticReuse" val="true"/>
+		<set name="addSkills" val="559;3[1-64];560;3[1-64];561;3[1-64];562;3[1-64];5491;1;559;4[65-86];560;4[65-86];561;4[65-86];562;4[65-86];"/>
+		<set name="staticHitTime" val="true"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<target hasBuffId="1411;false" msgId="2064" />
+				<player olympiad="false" msgId="1509"/>
+				<player riding="none" msgId="2063"/>
+				<player zoneType="water" msgId="2060"/>
+				<target playerOnly="true"/>
+			</and>
+		</cond>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect name="t_transform" val="201" npcId="13079" femaleNpcId="13079">
+				<set order="0x40" stat="STR" val="40"/>
+				<set order="0x40" stat="DEX" val="28"/>
+				<set order="0x40" stat="CON" val="45"/>
+				<set order="0x40" stat="INT" val="21"/>
+				<set order="0x40" stat="WIT" val="11"/>
+				<set order="0x40" stat="MEN" val="25"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2374" levels="1" name="Transform Sealbook - Unicorn">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="10134"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="cancelable" val="false"/>
+		<set name="reuseDelay" val="3600000"/>
+		<set name="staticReuse" val="true"/>
+		<set name="addSkills" val="563;3[1-64];564;3[1-64];565;3[1-64];567;3[1-64];563;4[65-86];564;4[65-86];565;4[65-86];567;4[65-86];5491;1;"/>
+		<set name="staticHitTime" val="true"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<target hasBuffId="1411;false" msgId="2064" />
+				<player olympiad="false" msgId="1509"/>
+				<player riding="none" msgId="2063"/>
+				<player zoneType="water" msgId="2060"/>
+				<target playerOnly="true"/>
+			</and>
+		</cond>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect name="t_transform" val="204" npcId="13081" femaleNpcId="13081">
+				<set order="0x40" stat="STR" val="36"/>
+				<set order="0x40" stat="DEX" val="35"/>
+				<set order="0x40" stat="CON" val="36"/>
+				<set order="0x40" stat="INT" val="23"/>
+				<set order="0x40" stat="WIT" val="14"/>
+				<set order="0x40" stat="MEN" val="26"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2375" levels="1" name="Transform Sealbook - Lilim Knight">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="10135"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="cancelable" val="false"/>
+		<set name="reuseDelay" val="3600000"/>
+		<set name="staticReuse" val="true"/>
+		<set name="addSkills" val="568;3[1-64];569;3[1-64];570;3[1-64];571;3[1-64];568;4[65-86];569;4[65-86];570;4[65-86];571;4[65-86];5491;1;"/>
+		<set name="staticHitTime" val="true"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<target hasBuffId="1411;false" msgId="2064" />
+				<player olympiad="false" msgId="1509"/>
+				<player riding="none" msgId="2063"/>
+				<player zoneType="water" msgId="2060"/>
+				<target playerOnly="true"/>
+			</and>
+		</cond>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect name="t_transform" val="207" npcId="13082" femaleNpcId="13082">
+				<set order="0x40" stat="STR" val="41"/>
+				<set order="0x40" stat="DEX" val="34"/>
+				<set order="0x40" stat="CON" val="32"/>
+				<set order="0x40" stat="INT" val="25"/>
+				<set order="0x40" stat="WIT" val="12"/>
+				<set order="0x40" stat="MEN" val="26"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2376" levels="1" name="Transform Sealbook - Golem Guardian">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="10136"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="cancelable" val="false"/>
+		<set name="reuseDelay" val="3600000"/>
+		<set name="staticReuse" val="true"/>
+		<set name="addSkills" val="572;3[1-64];573;3[1-64];574;3[1-64];575;3[1-64];572;4[65-86];573;4[65-86];574;4[65-86];575;4[65-86];5491;1;"/>
+		<set name="staticHitTime" val="true"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<target hasBuffId="1411;false" msgId="2064" />
+				<player olympiad="false" msgId="1509"/>
+				<player riding="none" msgId="2063"/>
+				<player zoneType="water" msgId="2060"/>
+				<target playerOnly="true"/>
+			</and>
+		</cond>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect name="t_transform" val="210" npcId="13083" femaleNpcId="13083">
+				<set order="0x40" stat="STR" val="39"/>
+				<set order="0x40" stat="DEX" val="29"/>
+				<set order="0x40" stat="CON" val="45"/>
+				<set order="0x40" stat="INT" val="20"/>
+				<set order="0x40" stat="WIT" val="10"/>
+				<set order="0x40" stat="MEN" val="27"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2377" levels="1" name="Transform Sealbook - Inferno Drake">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="10137"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="cancelable" val="false"/>
+		<set name="reuseDelay" val="3600000"/>
+		<set name="staticReuse" val="true"/>
+		<set name="addSkills" val="576;3[1-64];577;3[1-64];578;3[1-64];579;3[1-64];576;4[65-86];577;4[65-86];578;4[65-86];579;4[65-86];5491;1;"/>
+		<set name="staticHitTime" val="true"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<target hasBuffId="1411;false" msgId="2064" />
+				<player olympiad="false" msgId="1509"/>
+				<player riding="none" msgId="2063"/>
+				<player zoneType="water" msgId="2060"/>
+				<target playerOnly="true"/>
+			</and>
+		</cond>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect name="t_transform" val="213" npcId="13084" femaleNpcId="13084">
+				<set order="0x40" stat="STR" val="40"/>
+				<set order="0x40" stat="DEX" val="26"/>
+				<set order="0x40" stat="CON" val="47"/>
+				<set order="0x40" stat="INT" val="18"/>
+				<set order="0x40" stat="WIT" val="12"/>
+				<set order="0x40" stat="MEN" val="27"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2378" levels="1" name="Transform Sealbook - Dragon Bomber">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="10138"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="cancelable" val="false"/>
+		<set name="reuseDelay" val="3600000"/>
+		<set name="staticReuse" val="true"/>
+		<set name="addSkills" val="580;3[1-64];581;3[1-64];582;3[1-64];583;3[1-64];580;4[65-86];581;4[65-86];582;4[65-86];583;4[65-86];5491;1;"/>
+		<set name="staticHitTime" val="true"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<target hasBuffId="1411;false" msgId="2064" />
+				<player olympiad="false" msgId="1509"/>
+				<player riding="none" msgId="2063"/>
+				<player zoneType="water" msgId="2060"/>
+				<target playerOnly="true"/>
+			</and>
+		</cond>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect name="t_transform" val="216" npcId="13085" femaleNpcId="13085">
+				<set order="0x40" stat="STR" val="41"/>
+				<set order="0x40" stat="DEX" val="33"/>
+				<set order="0x40" stat="CON" val="31"/>
+				<set order="0x40" stat="INT" val="29"/>
+				<set order="0x40" stat="WIT" val="11"/>
+				<set order="0x40" stat="MEN" val="25"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2379" levels="1" name="Wind">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="abnormal_time" val="1200"/>
+		<set name="abnormal_type" val="SpeedUp"/>
+		<table name="#effectPoint">250 </table>
+		<set name="effectPoint" val="#effectPoint"/>
+		<table name="#magicLevel">25</table>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="abnormalLevel" val="2"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="runSpd" val="33" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2380" levels="1" name="Shield">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="abnormal_time" val="1200"/>
+		<set name="abnormal_type" val="pDef"/>
+		<table name="#effectPoint">400 </table>
+		<set name="effectPoint" val="#effectPoint"/>
+		<table name="#magicLevel">40</table>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="abnormalLevel" val="3"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="pDef" val="1.15" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2381" levels="1" name="Magic Barrier">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="abnormal_time" val="1200"/>
+		<set name="abnormal_type" val="MagicDefUp"/>
+		<table name="#effectPoint">430 </table>
+		<set name="effectPoint" val="#effectPoint"/>
+		<table name="#magicLevel">43</table>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="abnormalLevel" val="2"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="mDef" val="1.23" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2382" levels="1" name="Bless Shield">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="abnormal_time" val="1200"/>
+		<set name="abnormal_type" val="shieldProbUp"/>
+		<table name="#effectPoint">640 </table>
+		<set name="effectPoint" val="#effectPoint"/>
+		<table name="#magicLevel">64</table>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="abnormalLevel" val="6"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="rShld" val="1.8" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2383" levels="1" name="Haste">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="abnormal_time" val="1200"/>
+		<set name="abnormal_type" val="attack_time_down"/>
+		<table name="#effectPoint">460 </table>
+		<set name="effectPoint" val="#effectPoint"/>
+		<table name="#magicLevel">46</table>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="abnormalLevel" val="1"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="pAtkSpd" val="1.15" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2384" levels="1" name="Acumen">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="abnormal_time" val="1200"/>
+		<set name="abnormal_type" val="mAtkSpeedUp"/>
+		<table name="#effectPoint">400 </table>
+		<set name="effectPoint" val="#effectPoint"/>
+		<table name="#magicLevel">40</table>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="abnormalLevel" val="1"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="mAtkSpd" val="1.15" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2385" levels="1" name="Empower">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="abnormal_time" val="1200"/>
+		<set name="abnormal_type" val="mAtk"/>
+		<table name="#effectPoint">560 </table>
+		<set name="effectPoint" val="#effectPoint"/>
+		<table name="#magicLevel">56</table>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="abnormalLevel" val="1"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="mAtk" val="1.55" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2386" levels="1" name="Divine Power">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="abnormal_time" val="15"/>
+		<set name="abnormal_type" val="HealPowerUp"/>
+		<table name="#effectPoint">790 </table>
+		<set name="effectPoint" val="#effectPoint"/>
+		<table name="#magicLevel">79</table>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="abnormalLevel" val="1"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="healPowerStatic" val="1000"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2387" levels="1" name="Might">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="abnormal_time" val="1200"/>
+		<set name="abnormal_type" val="pAtk"/>
+		<table name="#effectPoint">360 </table>
+		<set name="effectPoint" val="#effectPoint"/>
+		<table name="#magicLevel">36</table>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="abnormalLevel" val="3"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="pAtk" val="1.15" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2388" levels="1" name="Focus">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="abnormal_time" val="1200"/>
+		<set name="abnormal_type" val="rCritPercent"/>
+		<table name="#effectPoint">560 </table>
+		<set name="effectPoint" val="#effectPoint"/>
+		<table name="#magicLevel">56</table>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="abnormalLevel" val="1"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="rCrit" val="20" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2389" levels="1" name="Guidance">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="abnormal_time" val="1200"/>
+		<set name="abnormal_type" val="accuracyUp"/>
+		<table name="#effectPoint">520 </table>
+		<set name="effectPoint" val="#effectPoint"/>
+		<table name="#magicLevel">52</table>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="abnormalLevel" val="2"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="accCombat" val="3" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2390" levels="1" name="Berserker Spirit">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="abnormal_time" val="1200"/>
+		<set name="abnormal_type" val="berserker"/>
+		<table name="#effectPoint">460 </table>
+		<set name="effectPoint" val="#effectPoint"/>
+		<table name="#magicLevel">46</table>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="abnormalLevel" val="2"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="mAtk" val="1.16" />
+				<mul order="0x30" stat="pAtk" val="1.08" />
+				<mul order="0x30" stat="pDef" val="0.92" />
+				<mul order="0x30" stat="mDef" val="0.85" />
+				<mul order="0x30" stat="mAtkSpd" val="1.08" />
+				<mul order="0x30" stat="pAtkSpd" val="1.08" />
+				<add order="0x40" stat="runSpd" val="8" />
+				<sub order="0x40" stat="rEvas" val="4" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2391" levels="1" name="Clarity">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="abnormal_time" val="1200"/>
+		<set name="abnormal_type" val="clarity"/>
+		<table name="#effectPoint">640 </table>
+		<set name="effectPoint" val="#effectPoint"/>
+		<table name="#magicLevel">64</table>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="abnormalLevel" val="1"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="mpConsume" val="0.96" />
+				<mul order="0x30" stat="mpConsumePhysical" val="0.96" />
+				<mul order="0x30" stat="mpDanceConsume" val="0.96" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2392" levels="1" name="Blessed Scroll of Battlefield Escape">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="10149"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="isHandler" val="true" />
+		<set name="hitTime" val="200"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="target_type" val="self" />
+		<set name="affect_scope" val="single" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="113">
+			<and>
+				<CanEscape/>
+				<player zoneType="siege;true"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_escape" type="town"/>
+		</for>
+	</skill>
+	<skill id="2393" levels="1" name="Blessed Scroll of Battlefield Resurrection">
+		<set name="itemConsumeId" val="10150"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="hitTime" val="3000"/>
+		<set name="castRange" val="400"/>
+		<set name="isHandler" val="true"/>
+		<set name="target_type" val="pc_body" />
+		<set name="corpse" val="true" />
+		<set name="affect_scope" val="single" />
+		<set name="operateType" val="OP_ACTIVE" />
+		<cond msgId="113">
+			<and>
+				<player zoneType="siege;true"/>
+				<CanResurrect/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_resurrection" val="200"/>
+		</for>
+	</skill>
+	<skill id="2394" levels="1" name="Scroll of Battlefield Transformation">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="10151"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="cancelable" val="false"/>
+		<set name="isHandler" val="true"/>
+		<set name="reuseDelay" val="1200000"/>
+		<set name="staticReuse" val="true"/>
+		<set name="addSkills" val="5437;2"/>
+		<set name="staticHitTime" val="true"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<target hasBuffId="1411;false" msgId="2064" />
+				<player olympiad="false" msgId="1509"/>
+				<player riding="none" msgId="2063"/>
+				<player zoneType="water" msgId="2060"/>
+				<target playerOnly="true"/>
+				<player zoneType="siege;true" msgId="113"/>
+			</and>
+		</cond>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect name="t_transform" val="304" npcId="13095" femaleNpcId="13095"/>
+		</for>
+	</skill>
+	<skill id="2395" levels="1" name="Lesser Battlefield Healing Potion">
+		<set name="hitCancelTime" val="0"/>
+		<table name="#itemConsumeId">10152</table>
+		<set name="itemConsumeId" val="#itemConsumeId"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<table name="#power">1500</table>
+		<table name="#levelMin">52</table>
+		<table name="#levelMax">90</table>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="isPotion" val="true"/>
+		<set name="reuseDelay" val="180000"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond msgId="113">
+			<and>
+				<player minLevel="#levelMin"/>
+				<player maxLevel="#levelMax"/>
+				<player zoneType="siege;true"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_hp" math="diff" val="#power"/>
+		</for>
+	</skill>
+	<skill id="2396" levels="1" name="Mental Potion">
+		<set name="itemConsumeId" val="10155"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="itemConsumeId" val="10157" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="abnormal_time" val="600"/>
+		<set name="abnormal_type" val="mental"/>
+		<set name="magicLevel" val="1"/>
+		<table name="#mentalRcpt">0.6</table>
+		<table name="#abnormal_lv">1</table>
+		<set name="isHandler" val="true" />
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="reuseDelay" val="60000"/>
+		<set name="altUse" val="true" />
+		<cond msgId="113">
+			<player zoneType="siege;true"/>
+		</cond>
+		<for>
+			<effect>
+				<mul order="0x30" stat="sleepRcpt" val="#mentalRcpt" />
+				<mul order="0x30" stat="fearRcpt" val="#mentalRcpt" />
+				<mul order="0x30" stat="rootRcpt" val="#mentalRcpt" />
+				<mul order="0x30" stat="silenceRcpt" val="#mentalRcpt" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="2397" levels="1" name="Medusa Potion">
+		<set name="itemConsumeId" val="10156"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="abnormal_type" val="turn_stone"/>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_ve" val="stone"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="isHandler" val="true" />
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="effectPoint" val="-1"/>
+		<set name="altUse" val="true"/>
+		<set name="isDebuff" val="true"/>
+		<cond msgId="113">
+			<player zoneType="siege;true"/>
+		</cond>
+		<for>
+			<effect>
+				<add order="0x10" stat="block_act" val="1"/>
+				<add order="0x10" stat="block_hp" val="1"/>
+				<add order="0x10" stat="block_mp" val="1"/>
+				<add order="0x10" stat="block_buff" val="1"/>
+				<add order="0x10" stat="block_debuff" val="1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2398" levels="1" name="Instant Haste Potion">
+		<set name="itemConsumeId" val="10157"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="abnormal_type" val="speed_up"/>
+		<set name="abnormal_time" val="30"/>
+		<set name="magicLevel" val="1"/>
+		<set name="isHandler" val="true" />
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="effectPoint" val="-1"/>
+		<set name="altUse" val="true"/>
+		<cond msgId="113">
+			<player zoneType="siege;true"/>
+		</cond>
+		<for>
+			<effect>
+				<add order="0x40" stat="runSpd" val="33"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2399" levels="1" name="Capture Rope">
+		<set name="itemConsumeId" val="10159"/>
+		<set name="itemConsumeCount" val="1"/>
+		<table name="#mpConsume2">
+			25
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="0"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_type" val="root_physically"/>
+		<set name="abnormal_ve" val="root"/>
+		<set name="isDebuff" val="true"/>
+		<set name="magicLevel" val="75"/>
+		<set name="hitTime" val="2000"/>
+		<set name="castRange" val="600"/>
+		<table name="#effectPoint">100</table>
+		<set name="effectPoint" val="#effectPoint"/>
+		<set name="activateRate" val="20"/>
+		<set name="target_type" val="enemy_only"/>
+		<set name="reuseDelay" val="60000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="resistType" val="ROOT"/>
+		<set name="baseStat" val="MEN"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="isHandler" val="true" />
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<cond msgId="113">
+			<player zoneType="siege;true"/>
+		</cond>
+		<for>
+			<effect>
+				<add order="0x10" stat="block_move" val="1"/>
+				<mul order="0x30" stat="rootRcpt" val="0"/>
+			</effect>
+		</for>
+	</skill>
+</list>

@@ -1,0 +1,365 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<zone id="1" name="Hellbound zone">
+		<attr name="type" val="no_summon"/>
+		<listener name="NoLandingL2ZoneListener" />
+		<attr name="enterMessageNo" val="2205"/>
+		<attr name="blockedActions" val="mini map;"/>
+		<shape type="Rect" zMin="0" zMax="0">
+			<point x="-33760" y="294000"/>
+			<point x="33760" y="228000"/>
+		</shape>
+		<restartPoints>
+			<point x="-16434" y="208803" z="-3664"/>
+		</restartPoints>
+	</zone>
+	<zone id="2" name="Hellbound Heat 1">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100" dayTime="day">
+				<skill id="5399" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-5000" zMax="1700">
+			<point x="272" y="234496"/>
+			<point x="396" y="238884"/>
+			<point x="2368" y="243056"/>
+			<point x="7003" y="241772"/>
+			<point x="9928" y="240422"/>
+			<point x="12893" y="238353"/>
+			<point x="11337" y="233544"/>
+			<point x="4490" y="232099"/>
+			<point x="-69" y="231429"/>
+		</shape>
+	</zone>
+	<zone id="3" name="Hellbound Heat 2">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100" dayTime="day">
+				<skill id="5399" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-5000" zMax="1700">
+			<point x="-1724" y="249587"/>
+			<point x="-2196" y="253041"/>
+			<point x="-10421" y="258853"/>
+			<point x="-16451" y="258486"/>
+			<point x="-18775" y="259115"/>
+			<point x="-21641" y="258975"/>
+			<point x="-24319" y="257947"/>
+			<point x="-24279" y="254664"/>
+			<point x="-22935" y="253357"/>
+			<point x="-22637" y="251290"/>
+			<point x="-18399" y="250256"/>
+			<point x="-18629" y="247700"/>
+			<point x="-16349" y="248074"/>
+			<point x="-14324" y="249278"/>
+			<point x="-11888" y="246912"/>
+			<point x="-8332" y="247448"/>
+		</shape>
+	</zone>
+
+	<zone id="4" name="Trap Zone 1"> <!-- to quarry -->
+		<attr name="type" val="dummy"/>
+		<attr name="hb_spawn_time" val="600"/>
+		<attr name="hb_cooldown_time" val="1800"/>
+		<attr name="hb_spawn" val="1-5,quarry_trap1:100;6-11,quarry_trap2:50,quarry_trap3:50;"/>
+		<shape type="Poly" zMin="-3000" zMax="-2000">
+			<point x="-9420" y="239495"/>
+			<point x="-9871" y="239440"/>
+			<point x="-9865" y="240072"/>
+			<point x="-9231" y="240243"/>
+		</shape>
+	</zone>
+
+	<zone id="5" name="Trap Zone 2"> <!-- to green spot -->
+		<attr name="type" val="dummy"/>
+		<attr name="hb_spawn_time" val="600"/>
+		<attr name="hb_cooldown_time" val="1800"/>
+		<attr name="hb_spawn" val="1-11,gs_trap1:33,gs_trap2:33,gs_trap3:33,gs_trap4:1;"/>
+		<shape type="Poly" zMin="-3600" zMax="-3200">
+			<point x="-19466" y="242093"/>
+			<point x="-18916" y="242728"/>
+			<point x="-18343" y="242135"/>
+			<point x="-18816" y="241687"/>
+		</shape>
+	</zone>
+
+	<zone id="6" name="Trap Zone 3"> <!-- to native village -->
+		<attr name="type" val="dummy"/>
+		<attr name="hb_spawn_time" val="600"/>
+		<attr name="hb_cooldown_time" val="1800"/>
+		<attr name="hb_spawn" val="1-11,nv_trap1:100;"/>
+		<shape type="Poly" zMin="-2600" zMax="-2200">
+			<point x="-26686" y="251116"/>
+			<point x="-27034" y="251497"/>
+			<point x="-27304" y="251162"/>
+			<point x="-26749" y="250640"/>
+		</shape>
+	</zone>
+
+	<zone id="7" name="Trap Zone 4"> <!-- to wounded passage, closer to harbor area -->
+		<attr name="type" val="dummy"/>
+		<attr name="hb_spawn_time" val="600"/>
+		<attr name="hb_cooldown_time" val="1800"/>
+		<attr name="hb_spawn" val="1-4,wp_trap1:100;8,hb_trap8_1:100"/>
+		<shape type="Poly" zMin="-3000" zMax="-2500">
+			<point x="-5936" y="234973"/>
+			<point x="-6283" y="234582"/>
+			<point x="-5930" y="233952"/>
+			<point x="-5147" y="234329"/>
+		</shape>
+	</zone>
+
+	<zone id="8" name="Trap Zone 5"> <!-- to wounded passage, closer to chimeras area -->
+		<attr name="type" val="dummy"/>
+		<attr name="hb_spawn_time" val="600"/>
+		<attr name="hb_cooldown_time" val="1800"/>
+		<attr name="hb_spawn" val="1-6,wp_trap2:100;7,wp_trap2:80,wp_trap3:20;8,hb_trap8_2:100"/>
+		<shape type="Poly" zMin="-3500" zMax="-2500">
+			<point x="-4538" y="231283"/>
+			<point x="-4360" y="230791"/>
+			<point x="-3642" y="230813"/>
+			<point x="-3741" y="231298"/>
+		</shape>
+	</zone>
+
+	<zone id="9" name="Trap Zone 6"> <!-- Harbor area 1 -->
+		<attr name="type" val="dummy"/>
+		<attr name="hb_spawn_time" val="600"/>
+		<attr name="hb_cooldown_time" val="1200"/>
+		<attr name="hb_spawn" val="1-4,nh_trap1:100;"/>
+		<shape type="Poly" zMin="-3500" zMax="-2500">
+			<point x="-17712" y="236804"/>
+			<point x="-17465" y="236504"/>
+			<point x="-18054" y="236206"/>
+			<point x="-18482" y="236636"/>
+		</shape>
+	</zone>
+
+	<zone id="10" name="Trap Zone 7"> <!-- Harbor area 2 -->
+		<attr name="type" val="dummy"/>
+		<attr name="hb_spawn_time" val="600"/>
+		<attr name="hb_cooldown_time" val="1200"/>
+		<attr name="hb_spawn" val="1-4,nh_trap2:100;"/>
+		<shape type="Poly" zMin="-3600" zMax="-3000">
+			<point x="-16030" y="235989"/>
+			<point x="-15547" y="235593"/>
+			<point x="-14889" y="235862"/>
+			<point x="-14370" y="236660"/>
+			<point x="-14519" y="237737"/>
+			<point x="-15424" y="237725"/>
+			<point x="-15935" y="236572"/>
+		</shape>
+	</zone>
+
+	<zone id="11" name="Trap Zone 8"> <!-- Native Village -->
+		<attr name="type" val="dummy"/>
+		<attr name="hb_spawn_time" val="600"/>
+		<attr name="hb_cooldown_time" val="1800"/>
+		<attr name="hb_spawn" val="3-4,nv_trap1:100;"/>
+		<shape type="Poly" zMin="-3700" zMax="-3000">
+			<point x="-27367" y="251404"/>
+			<point x="-27372" y="250815"/>
+			<point x="-26907" y="250805"/>
+			<point x="-26898" y="251367"/>
+		</shape>
+	</zone>
+
+	<zone id="705001" name="[Infinitum_1]">
+		<attr name="type" val="dummy"/>
+		<attr name="type" val="no_summon"/>
+		<restartPoints>
+			<point x="8877" y="251819" z="-2032"/>
+		</restartPoints>
+		<shape type="Poly" zMin="-15140" zMax="-14940">
+			<point x="-23192" y="280280"/>
+			<point x="-21224" y="280280"/>
+			<point x="-21224" y="276904"/>
+			<point x="-23192" y="276904"/>
+		</shape>
+	</zone>
+	<zone id="705002" name="[Infinitum_2]">
+		<attr name="type" val="dummy"/>
+		<attr name="type" val="no_summon"/>
+		<restartPoints>
+			<point x="8877" y="251819" z="-2032"/>
+		</restartPoints>
+		<shape type="Poly" zMin="-13481" zMax="-13281">
+			<point x="-23192" y="280280"/>
+			<point x="-21224" y="280280"/>
+			<point x="-21224" y="276904"/>
+			<point x="-23192" y="276904"/>
+		</shape>
+	</zone>
+	<zone id="705003" name="[Infinitum_3]">
+		<attr name="type" val="dummy"/>
+		<attr name="type" val="no_summon"/>
+		<restartPoints>
+			<point x="8877" y="251819" z="-2032"/>
+		</restartPoints>
+		<shape type="Poly" zMin="-11666" zMax="-11466">
+			<point x="-23192" y="280280"/>
+			<point x="-21224" y="280280"/>
+			<point x="-21224" y="276904"/>
+			<point x="-23192" y="276904"/>
+		</shape>
+	</zone>
+	<zone id="705004" name="[Infinitum_4]">
+		<attr name="type" val="dummy"/>
+		<attr name="type" val="no_summon"/>
+		<restartPoints>
+			<point x="8877" y="251819" z="-2032"/>
+		</restartPoints>
+		<shape type="Poly" zMin="-10020" zMax="-9820">
+			<point x="-23192" y="280280"/>
+			<point x="-21224" y="280280"/>
+			<point x="-21224" y="276904"/>
+			<point x="-23192" y="276904"/>
+		</shape>
+	</zone>
+
+	<zone id="705005" name="[Infinitum_5]">
+		<attr name="type" val="no_summon"/>
+		<attr name="type" val="dummy"/>
+		<attr name="type" val="instance"/>
+		<attr name="entityId" val="3"/>
+		<restartPoints>
+			<point x="8877" y="251819" z="-2032"/>
+		</restartPoints>
+		<shape type="Poly" zMin="-8315" zMax="-8115">
+			<point x="-23192" y="280280"/>
+			<point x="-21224" y="280280"/>
+			<point x="-21224" y="276904"/>
+			<point x="-23192" y="276904"/>
+		</shape>
+	</zone>
+
+	<zone id="705006" name="[Infinitum_6]">
+		<attr name="type" val="dummy"/>
+		<attr name="type" val="no_summon"/>
+		<restartPoints>
+			<point x="8877" y="251819" z="-2032"/>
+		</restartPoints>
+		<shape type="Poly" zMin="-8356" zMax="-8156">
+			<point x="-20008" y="280280"/>
+			<point x="-18040" y="280280"/>
+			<point x="-18040" y="276904"/>
+			<point x="-20008" y="276904"/>
+		</shape>
+	</zone>
+	<zone id="705007" name="[Infinitum_7]">
+		<attr name="type" val="dummy"/>
+		<attr name="type" val="no_summon"/>
+		<restartPoints>
+			<point x="8877" y="251819" z="-2032"/>
+		</restartPoints>
+		<shape type="Poly" zMin="-10020" zMax="-9820">
+			<point x="-20008" y="280280"/>
+			<point x="-18040" y="280280"/>
+			<point x="-18040" y="276904"/>
+			<point x="-20008" y="276904"/>
+		</shape>
+	</zone>
+	<zone id="705008" name="[Infinitum_8]">
+		<attr name="type" val="dummy"/>
+		<attr name="type" val="no_summon"/>
+		<restartPoints>
+			<point x="8877" y="251819" z="-2032"/>
+		</restartPoints>
+		<shape type="Poly" zMin="-11748" zMax="-11548">
+			<point x="-20008" y="280280"/>
+			<point x="-18040" y="280280"/>
+			<point x="-18040" y="276904"/>
+			<point x="-20008" y="276904"/>
+		</shape>
+	</zone>
+	<zone id="705009" name="[Infinitum_9]">
+		<attr name="type" val="dummy"/>
+		<attr name="type" val="no_summon"/>
+		<restartPoints>
+			<point x="8877" y="251819" z="-2032"/>
+		</restartPoints>
+		<shape type="Poly" zMin="-13476" zMax="-13276">
+			<point x="-20008" y="280280"/>
+			<point x="-18040" y="280280"/>
+			<point x="-18040" y="276904"/>
+			<point x="-20008" y="276904"/>
+		</shape>
+	</zone>
+
+	<zone id="705010" name="[Infinitum_10]">
+		<attr name="type" val="no_summon"/>
+		<attr name="type" val="dummy"/>
+		<attr name="type" val="instance"/>
+		<attr name="entityId" val="4"/>
+		<restartPoints>
+			<point x="8877" y="251819" z="-2032"/>
+		</restartPoints>
+		<shape type="Poly" zMin="-15140" zMax="-14940">
+			<point x="-20008" y="280280"/>
+			<point x="-18040" y="280280"/>
+			<point x="-18040" y="276904"/>
+			<point x="-20008" y="276904"/>
+		</shape>
+	</zone>
+
+	<zone id="704009" name="[tully1]">
+		<attr name="type" val="no_summon"/>
+		<attr name="type" val="dummy"/>
+		<attr name="type" val="instance"/>
+		<attr name="entityId" val="5"/>
+		<restartPoints>
+			<point x="18921" y="284231" z="-9704"/>
+		</restartPoints>
+		<shape type="Rect" zMin="-15350" zMax="-14900">
+			<point x="-15352" y="276600"/>
+			<point x="-9960" y="271208"/>
+		</shape>
+	</zone>
+	<zone id="704010" name="[tully2]">
+		<attr name="type" val="no_summon"/>
+		<attr name="type" val="dummy"/>
+		<shape type="Poly" zMin="-11624" zMax="-11524">
+			<point x="-12200" y="273928"/>
+			<point x="-12504" y="274264"/>
+			<point x="-12840" y="273944"/>
+			<point x="-12504" y="273592"/>
+		</shape>
+	</zone>
+	<zone id="704011" name="[tully3]">
+		<attr name="type" val="no_summon"/>
+		<attr name="type" val="dummy"/>
+		<attr name="type" val="instance"/>
+		<attr name="entityId" val="6"/>
+		<restartPoints>
+			<point x="-14180" y="273060" z="-13600"/>
+		</restartPoints>
+		<shape type="Rect" zMin="-12100" zMax="-11400">
+			<point x="-15352" y="276600"/>
+			<point x="-9960" y="271208"/>
+		</shape>
+	</zone>
+
+	<zone id="704013" name="[tully5]">
+		<attr name="type" val="no_summon"/>
+		<attr name="type" val="dummy"/>
+		<attr name="type" val="instance"/>
+		<attr name="entityId" val="7"/>
+		<restartPoints>
+			<point x="-14238" y="273002" z="-10496"/>
+		</restartPoints>
+		<shape type="Rect" zMin="-9100" zMax="-8900">
+			<point x="-15352" y="276600"/>
+			<point x="-9960" y="271208"/>
+		</shape>
+	</zone>
+
+</list>
+

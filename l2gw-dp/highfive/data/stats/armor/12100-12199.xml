@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="12100" name="Common Item - Karmian Stockings">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12109" name="Common Item - Dwarven Chain Gaiters">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12110" name="Common Item - Dwarven Chain Mail Shirt">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12115" name="Common Item - Robe of Seal">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12123" name="Common Item - Demon's Tunic">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12124" name="Common Item - Demon's Stockings">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12128" name="Common Item - Composite Armor">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12138" name="Common Item - Divine Tunic">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12139" name="Common Item - Divine Stockings">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12144" name="Common Item - Full Plate Armor">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12152" name="Common Item - Zubei's Gaiters">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12153" name="Common Item - Zubei's Gauntlet - Heavy Armor Use">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12155" name="Common Item - Zubei's Gauntlet - Robe Use">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12156" name="Common Item - Zubei's Boots - Heavy Armor Use">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12158" name="Common Item - Zubei's Boots - Robe Use">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12161" name="Common Item - Zubei's Breastplate">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12162" name="Common Item - Avadon Gloves - Heavy Armor Use">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12164" name="Common Item - Avadon Gloves - Robe Use">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12166" name="Common Item - Avadon Robe">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12167" name="Common Item - Avadon Boots - Heavy Armor Use">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12169" name="Common Item - Avadon Boots - Robe Use">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12172" name="Common Item - Avadon Plate Gaiters">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12173" name="Common Item - Avadon Breastplate">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12175" name="Common Item - Tunic of Zubei">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12176" name="Common Item - Stockings of Zubei">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12177" name="Common Item - Doom Gloves - Heavy Armor Use">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12179" name="Common Item - Doom Gloves - Robe Use">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12180" name="Common Item - Doom Boots - Heavy Armor Use">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12182" name="Common Item - Doom Boots - Robe Use">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12184" name="Common Item - Doom Plate Armor">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12192" name="Common Item - Tunic of Doom">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12193" name="Common Item - Blue Wolf Gaiters">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12195" name="Common Item - Blue Wolf Boots - Heavy Armor Use">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12197" name="Common Item - Blue Wolf Boots - Robe Use">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12198" name="Common Item - Blue Wolf Gloves - Heavy Armor Use">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+</list>

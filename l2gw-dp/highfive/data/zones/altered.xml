@@ -1,0 +1,5869 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+
+	<zone id="15000" name="22_14_camp_01_pc_1_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3519" zMax="-2919">
+			<point x="72168" y="-129117"/>
+			<point x="72204" y="-128685"/>
+			<point x="71840" y="-128240"/>
+			<point x="71324" y="-128244"/>
+			<point x="70896" y="-128712"/>
+			<point x="70944" y="-129100"/>
+			<point x="71348" y="-129452"/>
+			<point x="71900" y="-129400"/>
+		</shape>
+	</zone>
+	<zone id="15001" name="22_14_camp_01_pc_1_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3519" zMax="-2919">
+			<point x="72168" y="-129117"/>
+			<point x="72204" y="-128685"/>
+			<point x="71840" y="-128240"/>
+			<point x="71324" y="-128244"/>
+			<point x="70896" y="-128712"/>
+			<point x="70944" y="-129100"/>
+			<point x="71348" y="-129452"/>
+			<point x="71900" y="-129400"/>
+		</shape>
+	</zone>
+	<zone id="15002" name="22_14_camp_01_pc_1_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3519" zMax="-2919">
+			<point x="72168" y="-129117"/>
+			<point x="72204" y="-128685"/>
+			<point x="71840" y="-128240"/>
+			<point x="71324" y="-128244"/>
+			<point x="70896" y="-128712"/>
+			<point x="70944" y="-129100"/>
+			<point x="71348" y="-129452"/>
+			<point x="71900" y="-129400"/>
+		</shape>
+	</zone>
+	<zone id="15003" name="22_14_camp_01_pc_1_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3519" zMax="-2919">
+			<point x="72168" y="-129117"/>
+			<point x="72204" y="-128685"/>
+			<point x="71840" y="-128240"/>
+			<point x="71324" y="-128244"/>
+			<point x="70896" y="-128712"/>
+			<point x="70944" y="-129100"/>
+			<point x="71348" y="-129452"/>
+			<point x="71900" y="-129400"/>
+		</shape>
+	</zone>
+	<zone id="15004" name="22_14_camp_01_npc_1_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3519" zMax="-2919">
+			<point x="72168" y="-129117"/>
+			<point x="72204" y="-128685"/>
+			<point x="71840" y="-128240"/>
+			<point x="71324" y="-128244"/>
+			<point x="70896" y="-128712"/>
+			<point x="70944" y="-129100"/>
+			<point x="71348" y="-129452"/>
+			<point x="71900" y="-129400"/>
+		</shape>
+	</zone>
+	<zone id="15005" name="22_14_camp_01_npc_1_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3519" zMax="-2919">
+			<point x="72168" y="-129117"/>
+			<point x="72204" y="-128685"/>
+			<point x="71840" y="-128240"/>
+			<point x="71324" y="-128244"/>
+			<point x="70896" y="-128712"/>
+			<point x="70944" y="-129100"/>
+			<point x="71348" y="-129452"/>
+			<point x="71900" y="-129400"/>
+		</shape>
+	</zone>
+	<zone id="15006" name="22_14_camp_01_npc_1_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3519" zMax="-2919">
+			<point x="72168" y="-129117"/>
+			<point x="72204" y="-128685"/>
+			<point x="71840" y="-128240"/>
+			<point x="71324" y="-128244"/>
+			<point x="70896" y="-128712"/>
+			<point x="70944" y="-129100"/>
+			<point x="71348" y="-129452"/>
+			<point x="71900" y="-129400"/>
+		</shape>
+	</zone>
+	<zone id="15007" name="22_14_camp_01_npc_1_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3519" zMax="-2919">
+			<point x="72168" y="-129117"/>
+			<point x="72204" y="-128685"/>
+			<point x="71840" y="-128240"/>
+			<point x="71324" y="-128244"/>
+			<point x="70896" y="-128712"/>
+			<point x="70944" y="-129100"/>
+			<point x="71348" y="-129452"/>
+			<point x="71900" y="-129400"/>
+		</shape>
+	</zone>
+	<zone id="15008" name="22_14_camp_01_pc_2_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3519" zMax="-2919">
+			<point x="72168" y="-129117"/>
+			<point x="72204" y="-128685"/>
+			<point x="71840" y="-128240"/>
+			<point x="71324" y="-128244"/>
+			<point x="70896" y="-128712"/>
+			<point x="70944" y="-129100"/>
+			<point x="71348" y="-129452"/>
+			<point x="71900" y="-129400"/>
+		</shape>
+	</zone>
+	<zone id="15009" name="22_14_camp_01_pc_2_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3519" zMax="-2919">
+			<point x="72168" y="-129117"/>
+			<point x="72204" y="-128685"/>
+			<point x="71840" y="-128240"/>
+			<point x="71324" y="-128244"/>
+			<point x="70896" y="-128712"/>
+			<point x="70944" y="-129100"/>
+			<point x="71348" y="-129452"/>
+			<point x="71900" y="-129400"/>
+		</shape>
+	</zone>
+	<zone id="15010" name="22_14_camp_01_pc_2_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3519" zMax="-2919">
+			<point x="72168" y="-129117"/>
+			<point x="72204" y="-128685"/>
+			<point x="71840" y="-128240"/>
+			<point x="71324" y="-128244"/>
+			<point x="70896" y="-128712"/>
+			<point x="70944" y="-129100"/>
+			<point x="71348" y="-129452"/>
+			<point x="71900" y="-129400"/>
+		</shape>
+	</zone>
+	<zone id="15011" name="22_14_camp_01_pc_2_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3519" zMax="-2919">
+			<point x="72168" y="-129117"/>
+			<point x="72204" y="-128685"/>
+			<point x="71840" y="-128240"/>
+			<point x="71324" y="-128244"/>
+			<point x="70896" y="-128712"/>
+			<point x="70944" y="-129100"/>
+			<point x="71348" y="-129452"/>
+			<point x="71900" y="-129400"/>
+		</shape>
+	</zone>
+	<zone id="15012" name="22_14_camp_01_npc_2_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3519" zMax="-2919">
+			<point x="72168" y="-129117"/>
+			<point x="72204" y="-128685"/>
+			<point x="71840" y="-128240"/>
+			<point x="71324" y="-128244"/>
+			<point x="70896" y="-128712"/>
+			<point x="70944" y="-129100"/>
+			<point x="71348" y="-129452"/>
+			<point x="71900" y="-129400"/>
+		</shape>
+	</zone>
+	<zone id="15013" name="22_14_camp_01_npc_2_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3519" zMax="-2919">
+			<point x="72168" y="-129117"/>
+			<point x="72204" y="-128685"/>
+			<point x="71840" y="-128240"/>
+			<point x="71324" y="-128244"/>
+			<point x="70896" y="-128712"/>
+			<point x="70944" y="-129100"/>
+			<point x="71348" y="-129452"/>
+			<point x="71900" y="-129400"/>
+		</shape>
+	</zone>
+	<zone id="15014" name="22_14_camp_01_npc_2_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3519" zMax="-2919">
+			<point x="72168" y="-129117"/>
+			<point x="72204" y="-128685"/>
+			<point x="71840" y="-128240"/>
+			<point x="71324" y="-128244"/>
+			<point x="70896" y="-128712"/>
+			<point x="70944" y="-129100"/>
+			<point x="71348" y="-129452"/>
+			<point x="71900" y="-129400"/>
+		</shape>
+	</zone>
+	<zone id="15015" name="22_14_camp_01_npc_2_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3519" zMax="-2919">
+			<point x="72168" y="-129117"/>
+			<point x="72204" y="-128685"/>
+			<point x="71840" y="-128240"/>
+			<point x="71324" y="-128244"/>
+			<point x="70896" y="-128712"/>
+			<point x="70944" y="-129100"/>
+			<point x="71348" y="-129452"/>
+			<point x="71900" y="-129400"/>
+		</shape>
+	</zone>
+	<zone id="15016" name="22_14_camp_01_pc_3_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3519" zMax="-2919">
+			<point x="72168" y="-129117"/>
+			<point x="72204" y="-128685"/>
+			<point x="71840" y="-128240"/>
+			<point x="71324" y="-128244"/>
+			<point x="70896" y="-128712"/>
+			<point x="70944" y="-129100"/>
+			<point x="71348" y="-129452"/>
+			<point x="71900" y="-129400"/>
+		</shape>
+	</zone>
+	<zone id="15017" name="22_14_camp_01_pc_3_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3519" zMax="-2919">
+			<point x="72168" y="-129117"/>
+			<point x="72204" y="-128685"/>
+			<point x="71840" y="-128240"/>
+			<point x="71324" y="-128244"/>
+			<point x="70896" y="-128712"/>
+			<point x="70944" y="-129100"/>
+			<point x="71348" y="-129452"/>
+			<point x="71900" y="-129400"/>
+		</shape>
+	</zone>
+	<zone id="15018" name="22_14_camp_01_pc_3_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3519" zMax="-2919">
+			<point x="72168" y="-129117"/>
+			<point x="72204" y="-128685"/>
+			<point x="71840" y="-128240"/>
+			<point x="71324" y="-128244"/>
+			<point x="70896" y="-128712"/>
+			<point x="70944" y="-129100"/>
+			<point x="71348" y="-129452"/>
+			<point x="71900" y="-129400"/>
+		</shape>
+	</zone>
+	<zone id="15019" name="22_14_camp_01_pc_3_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3519" zMax="-2919">
+			<point x="72168" y="-129117"/>
+			<point x="72204" y="-128685"/>
+			<point x="71840" y="-128240"/>
+			<point x="71324" y="-128244"/>
+			<point x="70896" y="-128712"/>
+			<point x="70944" y="-129100"/>
+			<point x="71348" y="-129452"/>
+			<point x="71900" y="-129400"/>
+		</shape>
+	</zone>
+	<zone id="15020" name="22_14_camp_01_npc_3_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3519" zMax="-2919">
+			<point x="72168" y="-129117"/>
+			<point x="72204" y="-128685"/>
+			<point x="71840" y="-128240"/>
+			<point x="71324" y="-128244"/>
+			<point x="70896" y="-128712"/>
+			<point x="70944" y="-129100"/>
+			<point x="71348" y="-129452"/>
+			<point x="71900" y="-129400"/>
+		</shape>
+	</zone>
+	<zone id="15021" name="22_14_camp_01_npc_3_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3519" zMax="-2919">
+			<point x="72168" y="-129117"/>
+			<point x="72204" y="-128685"/>
+			<point x="71840" y="-128240"/>
+			<point x="71324" y="-128244"/>
+			<point x="70896" y="-128712"/>
+			<point x="70944" y="-129100"/>
+			<point x="71348" y="-129452"/>
+			<point x="71900" y="-129400"/>
+		</shape>
+	</zone>
+	<zone id="15022" name="22_14_camp_01_npc_3_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3519" zMax="-2919">
+			<point x="72168" y="-129117"/>
+			<point x="72204" y="-128685"/>
+			<point x="71840" y="-128240"/>
+			<point x="71324" y="-128244"/>
+			<point x="70896" y="-128712"/>
+			<point x="70944" y="-129100"/>
+			<point x="71348" y="-129452"/>
+			<point x="71900" y="-129400"/>
+		</shape>
+	</zone>
+	<zone id="15023" name="22_14_camp_01_npc_3_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3519" zMax="-2919">
+			<point x="72168" y="-129117"/>
+			<point x="72204" y="-128685"/>
+			<point x="71840" y="-128240"/>
+			<point x="71324" y="-128244"/>
+			<point x="70896" y="-128712"/>
+			<point x="70944" y="-129100"/>
+			<point x="71348" y="-129452"/>
+			<point x="71900" y="-129400"/>
+		</shape>
+	</zone>
+	<zone id="15024" name="22_14_camp_02_pc_1_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3342" zMax="-2742">
+			<point x="77184" y="-127180"/>
+			<point x="76764" y="-126524"/>
+			<point x="75916" y="-126308"/>
+			<point x="75176" y="-126700"/>
+			<point x="75072" y="-127552"/>
+			<point x="75484" y="-128376"/>
+			<point x="76492" y="-128520"/>
+			<point x="77052" y="-128036"/>
+		</shape>
+	</zone>
+	<zone id="15025" name="22_14_camp_02_pc_1_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3342" zMax="-2742">
+			<point x="77184" y="-127180"/>
+			<point x="76764" y="-126524"/>
+			<point x="75916" y="-126308"/>
+			<point x="75176" y="-126700"/>
+			<point x="75072" y="-127552"/>
+			<point x="75484" y="-128376"/>
+			<point x="76492" y="-128520"/>
+			<point x="77052" y="-128036"/>
+		</shape>
+	</zone>
+	<zone id="15026" name="22_14_camp_02_pc_1_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3342" zMax="-2742">
+			<point x="77184" y="-127180"/>
+			<point x="76764" y="-126524"/>
+			<point x="75916" y="-126308"/>
+			<point x="75176" y="-126700"/>
+			<point x="75072" y="-127552"/>
+			<point x="75484" y="-128376"/>
+			<point x="76492" y="-128520"/>
+			<point x="77052" y="-128036"/>
+		</shape>
+	</zone>
+	<zone id="15027" name="22_14_camp_02_pc_1_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3342" zMax="-2742">
+			<point x="77184" y="-127180"/>
+			<point x="76764" y="-126524"/>
+			<point x="75916" y="-126308"/>
+			<point x="75176" y="-126700"/>
+			<point x="75072" y="-127552"/>
+			<point x="75484" y="-128376"/>
+			<point x="76492" y="-128520"/>
+			<point x="77052" y="-128036"/>
+		</shape>
+	</zone>
+	<zone id="15028" name="22_14_camp_02_npc_1_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3342" zMax="-2742">
+			<point x="77184" y="-127180"/>
+			<point x="76764" y="-126524"/>
+			<point x="75916" y="-126308"/>
+			<point x="75176" y="-126700"/>
+			<point x="75072" y="-127552"/>
+			<point x="75484" y="-128376"/>
+			<point x="76492" y="-128520"/>
+			<point x="77052" y="-128036"/>
+		</shape>
+	</zone>
+	<zone id="15029" name="22_14_camp_02_npc_1_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3342" zMax="-2742">
+			<point x="77184" y="-127180"/>
+			<point x="76764" y="-126524"/>
+			<point x="75916" y="-126308"/>
+			<point x="75176" y="-126700"/>
+			<point x="75072" y="-127552"/>
+			<point x="75484" y="-128376"/>
+			<point x="76492" y="-128520"/>
+			<point x="77052" y="-128036"/>
+		</shape>
+	</zone>
+	<zone id="15030" name="22_14_camp_02_npc_1_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3342" zMax="-2742">
+			<point x="77184" y="-127180"/>
+			<point x="76764" y="-126524"/>
+			<point x="75916" y="-126308"/>
+			<point x="75176" y="-126700"/>
+			<point x="75072" y="-127552"/>
+			<point x="75484" y="-128376"/>
+			<point x="76492" y="-128520"/>
+			<point x="77052" y="-128036"/>
+		</shape>
+	</zone>
+	<zone id="15031" name="22_14_camp_02_npc_1_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3342" zMax="-2742">
+			<point x="77184" y="-127180"/>
+			<point x="76764" y="-126524"/>
+			<point x="75916" y="-126308"/>
+			<point x="75176" y="-126700"/>
+			<point x="75072" y="-127552"/>
+			<point x="75484" y="-128376"/>
+			<point x="76492" y="-128520"/>
+			<point x="77052" y="-128036"/>
+		</shape>
+	</zone>
+	<zone id="15032" name="22_14_camp_02_pc_2_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3342" zMax="-2742">
+			<point x="77184" y="-127180"/>
+			<point x="76764" y="-126524"/>
+			<point x="75916" y="-126308"/>
+			<point x="75176" y="-126700"/>
+			<point x="75072" y="-127552"/>
+			<point x="75484" y="-128376"/>
+			<point x="76492" y="-128520"/>
+			<point x="77052" y="-128036"/>
+		</shape>
+	</zone>
+	<zone id="15033" name="22_14_camp_02_pc_2_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3342" zMax="-2742">
+			<point x="77184" y="-127180"/>
+			<point x="76764" y="-126524"/>
+			<point x="75916" y="-126308"/>
+			<point x="75176" y="-126700"/>
+			<point x="75072" y="-127552"/>
+			<point x="75484" y="-128376"/>
+			<point x="76492" y="-128520"/>
+			<point x="77052" y="-128036"/>
+		</shape>
+	</zone>
+	<zone id="15034" name="22_14_camp_02_pc_2_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3342" zMax="-2742">
+			<point x="77184" y="-127180"/>
+			<point x="76764" y="-126524"/>
+			<point x="75916" y="-126308"/>
+			<point x="75176" y="-126700"/>
+			<point x="75072" y="-127552"/>
+			<point x="75484" y="-128376"/>
+			<point x="76492" y="-128520"/>
+			<point x="77052" y="-128036"/>
+		</shape>
+	</zone>
+	<zone id="15035" name="22_14_camp_02_pc_2_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3342" zMax="-2742">
+			<point x="77184" y="-127180"/>
+			<point x="76764" y="-126524"/>
+			<point x="75916" y="-126308"/>
+			<point x="75176" y="-126700"/>
+			<point x="75072" y="-127552"/>
+			<point x="75484" y="-128376"/>
+			<point x="76492" y="-128520"/>
+			<point x="77052" y="-128036"/>
+		</shape>
+	</zone>
+	<zone id="15036" name="22_14_camp_02_npc_2_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3342" zMax="-2742">
+			<point x="77184" y="-127180"/>
+			<point x="76764" y="-126524"/>
+			<point x="75916" y="-126308"/>
+			<point x="75176" y="-126700"/>
+			<point x="75072" y="-127552"/>
+			<point x="75484" y="-128376"/>
+			<point x="76492" y="-128520"/>
+			<point x="77052" y="-128036"/>
+		</shape>
+	</zone>
+	<zone id="15037" name="22_14_camp_02_npc_2_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3342" zMax="-2742">
+			<point x="77184" y="-127180"/>
+			<point x="76764" y="-126524"/>
+			<point x="75916" y="-126308"/>
+			<point x="75176" y="-126700"/>
+			<point x="75072" y="-127552"/>
+			<point x="75484" y="-128376"/>
+			<point x="76492" y="-128520"/>
+			<point x="77052" y="-128036"/>
+		</shape>
+	</zone>
+	<zone id="15038" name="22_14_camp_02_npc_2_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3342" zMax="-2742">
+			<point x="77184" y="-127180"/>
+			<point x="76764" y="-126524"/>
+			<point x="75916" y="-126308"/>
+			<point x="75176" y="-126700"/>
+			<point x="75072" y="-127552"/>
+			<point x="75484" y="-128376"/>
+			<point x="76492" y="-128520"/>
+			<point x="77052" y="-128036"/>
+		</shape>
+	</zone>
+	<zone id="15039" name="22_14_camp_02_npc_2_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3342" zMax="-2742">
+			<point x="77184" y="-127180"/>
+			<point x="76764" y="-126524"/>
+			<point x="75916" y="-126308"/>
+			<point x="75176" y="-126700"/>
+			<point x="75072" y="-127552"/>
+			<point x="75484" y="-128376"/>
+			<point x="76492" y="-128520"/>
+			<point x="77052" y="-128036"/>
+		</shape>
+	</zone>
+	<zone id="15040" name="22_14_camp_02_pc_3_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3342" zMax="-2742">
+			<point x="77184" y="-127180"/>
+			<point x="76764" y="-126524"/>
+			<point x="75916" y="-126308"/>
+			<point x="75176" y="-126700"/>
+			<point x="75072" y="-127552"/>
+			<point x="75484" y="-128376"/>
+			<point x="76492" y="-128520"/>
+			<point x="77052" y="-128036"/>
+		</shape>
+	</zone>
+	<zone id="15041" name="22_14_camp_02_pc_3_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3342" zMax="-2742">
+			<point x="77184" y="-127180"/>
+			<point x="76764" y="-126524"/>
+			<point x="75916" y="-126308"/>
+			<point x="75176" y="-126700"/>
+			<point x="75072" y="-127552"/>
+			<point x="75484" y="-128376"/>
+			<point x="76492" y="-128520"/>
+			<point x="77052" y="-128036"/>
+		</shape>
+	</zone>
+	<zone id="15042" name="22_14_camp_02_pc_3_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3342" zMax="-2742">
+			<point x="77184" y="-127180"/>
+			<point x="76764" y="-126524"/>
+			<point x="75916" y="-126308"/>
+			<point x="75176" y="-126700"/>
+			<point x="75072" y="-127552"/>
+			<point x="75484" y="-128376"/>
+			<point x="76492" y="-128520"/>
+			<point x="77052" y="-128036"/>
+		</shape>
+	</zone>
+	<zone id="15043" name="22_14_camp_02_pc_3_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3342" zMax="-2742">
+			<point x="77184" y="-127180"/>
+			<point x="76764" y="-126524"/>
+			<point x="75916" y="-126308"/>
+			<point x="75176" y="-126700"/>
+			<point x="75072" y="-127552"/>
+			<point x="75484" y="-128376"/>
+			<point x="76492" y="-128520"/>
+			<point x="77052" y="-128036"/>
+		</shape>
+	</zone>
+	<zone id="15044" name="22_14_camp_02_npc_3_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3342" zMax="-2742">
+			<point x="77184" y="-127180"/>
+			<point x="76764" y="-126524"/>
+			<point x="75916" y="-126308"/>
+			<point x="75176" y="-126700"/>
+			<point x="75072" y="-127552"/>
+			<point x="75484" y="-128376"/>
+			<point x="76492" y="-128520"/>
+			<point x="77052" y="-128036"/>
+		</shape>
+	</zone>
+	<zone id="15045" name="22_14_camp_02_npc_3_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3342" zMax="-2742">
+			<point x="77184" y="-127180"/>
+			<point x="76764" y="-126524"/>
+			<point x="75916" y="-126308"/>
+			<point x="75176" y="-126700"/>
+			<point x="75072" y="-127552"/>
+			<point x="75484" y="-128376"/>
+			<point x="76492" y="-128520"/>
+			<point x="77052" y="-128036"/>
+		</shape>
+	</zone>
+	<zone id="15046" name="22_14_camp_02_npc_3_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3342" zMax="-2742">
+			<point x="77184" y="-127180"/>
+			<point x="76764" y="-126524"/>
+			<point x="75916" y="-126308"/>
+			<point x="75176" y="-126700"/>
+			<point x="75072" y="-127552"/>
+			<point x="75484" y="-128376"/>
+			<point x="76492" y="-128520"/>
+			<point x="77052" y="-128036"/>
+		</shape>
+	</zone>
+	<zone id="15047" name="22_14_camp_02_npc_3_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3342" zMax="-2742">
+			<point x="77184" y="-127180"/>
+			<point x="76764" y="-126524"/>
+			<point x="75916" y="-126308"/>
+			<point x="75176" y="-126700"/>
+			<point x="75072" y="-127552"/>
+			<point x="75484" y="-128376"/>
+			<point x="76492" y="-128520"/>
+			<point x="77052" y="-128036"/>
+		</shape>
+	</zone>
+	<zone id="15048" name="22_14_camp_03_pc_1_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3242" zMax="-2642">
+			<point x="71464" y="-126372"/>
+			<point x="71788" y="-125476"/>
+			<point x="71416" y="-124724"/>
+			<point x="70552" y="-124492"/>
+			<point x="69876" y="-125136"/>
+			<point x="69776" y="-125980"/>
+			<point x="70556" y="-126688"/>
+		</shape>
+	</zone>
+	<zone id="15049" name="22_14_camp_03_pc_1_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3242" zMax="-2642">
+			<point x="71464" y="-126372"/>
+			<point x="71788" y="-125476"/>
+			<point x="71416" y="-124724"/>
+			<point x="70552" y="-124492"/>
+			<point x="69876" y="-125136"/>
+			<point x="69776" y="-125980"/>
+			<point x="70556" y="-126688"/>
+		</shape>
+	</zone>
+	<zone id="15050" name="22_14_camp_03_pc_1_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3242" zMax="-2642">
+			<point x="71464" y="-126372"/>
+			<point x="71788" y="-125476"/>
+			<point x="71416" y="-124724"/>
+			<point x="70552" y="-124492"/>
+			<point x="69876" y="-125136"/>
+			<point x="69776" y="-125980"/>
+			<point x="70556" y="-126688"/>
+		</shape>
+	</zone>
+	<zone id="15051" name="22_14_camp_03_pc_1_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3242" zMax="-2642">
+			<point x="71464" y="-126372"/>
+			<point x="71788" y="-125476"/>
+			<point x="71416" y="-124724"/>
+			<point x="70552" y="-124492"/>
+			<point x="69876" y="-125136"/>
+			<point x="69776" y="-125980"/>
+			<point x="70556" y="-126688"/>
+		</shape>
+	</zone>
+	<zone id="15052" name="22_14_camp_03_npc_1_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3242" zMax="-2642">
+			<point x="71464" y="-126372"/>
+			<point x="71788" y="-125476"/>
+			<point x="71416" y="-124724"/>
+			<point x="70552" y="-124492"/>
+			<point x="69876" y="-125136"/>
+			<point x="69776" y="-125980"/>
+			<point x="70556" y="-126688"/>
+		</shape>
+	</zone>
+	<zone id="15053" name="22_14_camp_03_npc_1_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3242" zMax="-2642">
+			<point x="71464" y="-126372"/>
+			<point x="71788" y="-125476"/>
+			<point x="71416" y="-124724"/>
+			<point x="70552" y="-124492"/>
+			<point x="69876" y="-125136"/>
+			<point x="69776" y="-125980"/>
+			<point x="70556" y="-126688"/>
+		</shape>
+	</zone>
+	<zone id="15054" name="22_14_camp_03_npc_1_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3242" zMax="-2642">
+			<point x="71464" y="-126372"/>
+			<point x="71788" y="-125476"/>
+			<point x="71416" y="-124724"/>
+			<point x="70552" y="-124492"/>
+			<point x="69876" y="-125136"/>
+			<point x="69776" y="-125980"/>
+			<point x="70556" y="-126688"/>
+		</shape>
+	</zone>
+	<zone id="15055" name="22_14_camp_03_npc_1_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3242" zMax="-2642">
+			<point x="71464" y="-126372"/>
+			<point x="71788" y="-125476"/>
+			<point x="71416" y="-124724"/>
+			<point x="70552" y="-124492"/>
+			<point x="69876" y="-125136"/>
+			<point x="69776" y="-125980"/>
+			<point x="70556" y="-126688"/>
+		</shape>
+	</zone>
+	<zone id="15056" name="22_14_camp_03_pc_2_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3242" zMax="-2642">
+			<point x="71464" y="-126372"/>
+			<point x="71788" y="-125476"/>
+			<point x="71416" y="-124724"/>
+			<point x="70552" y="-124492"/>
+			<point x="69876" y="-125136"/>
+			<point x="69776" y="-125980"/>
+			<point x="70556" y="-126688"/>
+		</shape>
+	</zone>
+	<zone id="15057" name="22_14_camp_03_pc_2_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3242" zMax="-2642">
+			<point x="71464" y="-126372"/>
+			<point x="71788" y="-125476"/>
+			<point x="71416" y="-124724"/>
+			<point x="70552" y="-124492"/>
+			<point x="69876" y="-125136"/>
+			<point x="69776" y="-125980"/>
+			<point x="70556" y="-126688"/>
+		</shape>
+	</zone>
+	<zone id="15058" name="22_14_camp_03_pc_2_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3242" zMax="-2642">
+			<point x="71464" y="-126372"/>
+			<point x="71788" y="-125476"/>
+			<point x="71416" y="-124724"/>
+			<point x="70552" y="-124492"/>
+			<point x="69876" y="-125136"/>
+			<point x="69776" y="-125980"/>
+			<point x="70556" y="-126688"/>
+		</shape>
+	</zone>
+	<zone id="15059" name="22_14_camp_03_pc_2_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3242" zMax="-2642">
+			<point x="71464" y="-126372"/>
+			<point x="71788" y="-125476"/>
+			<point x="71416" y="-124724"/>
+			<point x="70552" y="-124492"/>
+			<point x="69876" y="-125136"/>
+			<point x="69776" y="-125980"/>
+			<point x="70556" y="-126688"/>
+		</shape>
+	</zone>
+	<zone id="15060" name="22_14_camp_03_npc_2_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3242" zMax="-2642">
+			<point x="71464" y="-126372"/>
+			<point x="71788" y="-125476"/>
+			<point x="71416" y="-124724"/>
+			<point x="70552" y="-124492"/>
+			<point x="69876" y="-125136"/>
+			<point x="69776" y="-125980"/>
+			<point x="70556" y="-126688"/>
+		</shape>
+	</zone>
+	<zone id="15061" name="22_14_camp_03_npc_2_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3242" zMax="-2642">
+			<point x="71464" y="-126372"/>
+			<point x="71788" y="-125476"/>
+			<point x="71416" y="-124724"/>
+			<point x="70552" y="-124492"/>
+			<point x="69876" y="-125136"/>
+			<point x="69776" y="-125980"/>
+			<point x="70556" y="-126688"/>
+		</shape>
+	</zone>
+	<zone id="15062" name="22_14_camp_03_npc_2_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3242" zMax="-2642">
+			<point x="71464" y="-126372"/>
+			<point x="71788" y="-125476"/>
+			<point x="71416" y="-124724"/>
+			<point x="70552" y="-124492"/>
+			<point x="69876" y="-125136"/>
+			<point x="69776" y="-125980"/>
+			<point x="70556" y="-126688"/>
+		</shape>
+	</zone>
+	<zone id="15063" name="22_14_camp_03_npc_2_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3242" zMax="-2642">
+			<point x="71464" y="-126372"/>
+			<point x="71788" y="-125476"/>
+			<point x="71416" y="-124724"/>
+			<point x="70552" y="-124492"/>
+			<point x="69876" y="-125136"/>
+			<point x="69776" y="-125980"/>
+			<point x="70556" y="-126688"/>
+		</shape>
+	</zone>
+	<zone id="15064" name="22_14_camp_03_pc_3_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3242" zMax="-2642">
+			<point x="71464" y="-126372"/>
+			<point x="71788" y="-125476"/>
+			<point x="71416" y="-124724"/>
+			<point x="70552" y="-124492"/>
+			<point x="69876" y="-125136"/>
+			<point x="69776" y="-125980"/>
+			<point x="70556" y="-126688"/>
+		</shape>
+	</zone>
+	<zone id="15065" name="22_14_camp_03_pc_3_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3242" zMax="-2642">
+			<point x="71464" y="-126372"/>
+			<point x="71788" y="-125476"/>
+			<point x="71416" y="-124724"/>
+			<point x="70552" y="-124492"/>
+			<point x="69876" y="-125136"/>
+			<point x="69776" y="-125980"/>
+			<point x="70556" y="-126688"/>
+		</shape>
+	</zone>
+	<zone id="15066" name="22_14_camp_03_pc_3_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3242" zMax="-2642">
+			<point x="71464" y="-126372"/>
+			<point x="71788" y="-125476"/>
+			<point x="71416" y="-124724"/>
+			<point x="70552" y="-124492"/>
+			<point x="69876" y="-125136"/>
+			<point x="69776" y="-125980"/>
+			<point x="70556" y="-126688"/>
+		</shape>
+	</zone>
+	<zone id="15067" name="22_14_camp_03_pc_3_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3242" zMax="-2642">
+			<point x="71464" y="-126372"/>
+			<point x="71788" y="-125476"/>
+			<point x="71416" y="-124724"/>
+			<point x="70552" y="-124492"/>
+			<point x="69876" y="-125136"/>
+			<point x="69776" y="-125980"/>
+			<point x="70556" y="-126688"/>
+		</shape>
+	</zone>
+	<zone id="15068" name="22_14_camp_03_npc_3_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3242" zMax="-2642">
+			<point x="71464" y="-126372"/>
+			<point x="71788" y="-125476"/>
+			<point x="71416" y="-124724"/>
+			<point x="70552" y="-124492"/>
+			<point x="69876" y="-125136"/>
+			<point x="69776" y="-125980"/>
+			<point x="70556" y="-126688"/>
+		</shape>
+	</zone>
+	<zone id="15069" name="22_14_camp_03_npc_3_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3242" zMax="-2642">
+			<point x="71464" y="-126372"/>
+			<point x="71788" y="-125476"/>
+			<point x="71416" y="-124724"/>
+			<point x="70552" y="-124492"/>
+			<point x="69876" y="-125136"/>
+			<point x="69776" y="-125980"/>
+			<point x="70556" y="-126688"/>
+		</shape>
+	</zone>
+	<zone id="15070" name="22_14_camp_03_npc_3_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3242" zMax="-2642">
+			<point x="71464" y="-126372"/>
+			<point x="71788" y="-125476"/>
+			<point x="71416" y="-124724"/>
+			<point x="70552" y="-124492"/>
+			<point x="69876" y="-125136"/>
+			<point x="69776" y="-125980"/>
+			<point x="70556" y="-126688"/>
+		</shape>
+	</zone>
+	<zone id="15071" name="22_14_camp_03_npc_3_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3242" zMax="-2642">
+			<point x="71464" y="-126372"/>
+			<point x="71788" y="-125476"/>
+			<point x="71416" y="-124724"/>
+			<point x="70552" y="-124492"/>
+			<point x="69876" y="-125136"/>
+			<point x="69776" y="-125980"/>
+			<point x="70556" y="-126688"/>
+		</shape>
+	</zone>
+	<zone id="15072" name="22_14_camp_04_pc_1_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3102" zMax="-2502">
+			<point x="68524" y="-122780"/>
+			<point x="68444" y="-121724"/>
+			<point x="67708" y="-121192"/>
+			<point x="66844" y="-121364"/>
+			<point x="66404" y="-122176"/>
+			<point x="66568" y="-122952"/>
+			<point x="67232" y="-123400"/>
+			<point x="68012" y="-123296"/>
+		</shape>
+	</zone>
+	<zone id="15073" name="22_14_camp_04_pc_1_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3102" zMax="-2502">
+			<point x="68524" y="-122780"/>
+			<point x="68444" y="-121724"/>
+			<point x="67708" y="-121192"/>
+			<point x="66844" y="-121364"/>
+			<point x="66404" y="-122176"/>
+			<point x="66568" y="-122952"/>
+			<point x="67232" y="-123400"/>
+			<point x="68012" y="-123296"/>
+		</shape>
+	</zone>
+	<zone id="15074" name="22_14_camp_04_pc_1_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3102" zMax="-2502">
+			<point x="68524" y="-122780"/>
+			<point x="68444" y="-121724"/>
+			<point x="67708" y="-121192"/>
+			<point x="66844" y="-121364"/>
+			<point x="66404" y="-122176"/>
+			<point x="66568" y="-122952"/>
+			<point x="67232" y="-123400"/>
+			<point x="68012" y="-123296"/>
+		</shape>
+	</zone>
+	<zone id="15075" name="22_14_camp_04_pc_1_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3102" zMax="-2502">
+			<point x="68524" y="-122780"/>
+			<point x="68444" y="-121724"/>
+			<point x="67708" y="-121192"/>
+			<point x="66844" y="-121364"/>
+			<point x="66404" y="-122176"/>
+			<point x="66568" y="-122952"/>
+			<point x="67232" y="-123400"/>
+			<point x="68012" y="-123296"/>
+		</shape>
+	</zone>
+	<zone id="15076" name="22_14_camp_04_npc_1_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3102" zMax="-2502">
+			<point x="68524" y="-122780"/>
+			<point x="68444" y="-121724"/>
+			<point x="67708" y="-121192"/>
+			<point x="66844" y="-121364"/>
+			<point x="66404" y="-122176"/>
+			<point x="66568" y="-122952"/>
+			<point x="67232" y="-123400"/>
+			<point x="68012" y="-123296"/>
+		</shape>
+	</zone>
+	<zone id="15077" name="22_14_camp_04_npc_1_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3102" zMax="-2502">
+			<point x="68524" y="-122780"/>
+			<point x="68444" y="-121724"/>
+			<point x="67708" y="-121192"/>
+			<point x="66844" y="-121364"/>
+			<point x="66404" y="-122176"/>
+			<point x="66568" y="-122952"/>
+			<point x="67232" y="-123400"/>
+			<point x="68012" y="-123296"/>
+		</shape>
+	</zone>
+	<zone id="15078" name="22_14_camp_04_npc_1_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3102" zMax="-2502">
+			<point x="68524" y="-122780"/>
+			<point x="68444" y="-121724"/>
+			<point x="67708" y="-121192"/>
+			<point x="66844" y="-121364"/>
+			<point x="66404" y="-122176"/>
+			<point x="66568" y="-122952"/>
+			<point x="67232" y="-123400"/>
+			<point x="68012" y="-123296"/>
+		</shape>
+	</zone>
+	<zone id="15079" name="22_14_camp_04_npc_1_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3102" zMax="-2502">
+			<point x="68524" y="-122780"/>
+			<point x="68444" y="-121724"/>
+			<point x="67708" y="-121192"/>
+			<point x="66844" y="-121364"/>
+			<point x="66404" y="-122176"/>
+			<point x="66568" y="-122952"/>
+			<point x="67232" y="-123400"/>
+			<point x="68012" y="-123296"/>
+		</shape>
+	</zone>
+	<zone id="15080" name="22_14_camp_04_pc_2_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3102" zMax="-2502">
+			<point x="68524" y="-122780"/>
+			<point x="68444" y="-121724"/>
+			<point x="67708" y="-121192"/>
+			<point x="66844" y="-121364"/>
+			<point x="66404" y="-122176"/>
+			<point x="66568" y="-122952"/>
+			<point x="67232" y="-123400"/>
+			<point x="68012" y="-123296"/>
+		</shape>
+	</zone>
+	<zone id="15081" name="22_14_camp_04_pc_2_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3102" zMax="-2502">
+			<point x="68524" y="-122780"/>
+			<point x="68444" y="-121724"/>
+			<point x="67708" y="-121192"/>
+			<point x="66844" y="-121364"/>
+			<point x="66404" y="-122176"/>
+			<point x="66568" y="-122952"/>
+			<point x="67232" y="-123400"/>
+			<point x="68012" y="-123296"/>
+		</shape>
+	</zone>
+	<zone id="15082" name="22_14_camp_04_pc_2_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3102" zMax="-2502">
+			<point x="68524" y="-122780"/>
+			<point x="68444" y="-121724"/>
+			<point x="67708" y="-121192"/>
+			<point x="66844" y="-121364"/>
+			<point x="66404" y="-122176"/>
+			<point x="66568" y="-122952"/>
+			<point x="67232" y="-123400"/>
+			<point x="68012" y="-123296"/>
+		</shape>
+	</zone>
+	<zone id="15083" name="22_14_camp_04_pc_2_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3102" zMax="-2502">
+			<point x="68524" y="-122780"/>
+			<point x="68444" y="-121724"/>
+			<point x="67708" y="-121192"/>
+			<point x="66844" y="-121364"/>
+			<point x="66404" y="-122176"/>
+			<point x="66568" y="-122952"/>
+			<point x="67232" y="-123400"/>
+			<point x="68012" y="-123296"/>
+		</shape>
+	</zone>
+	<zone id="15084" name="22_14_camp_04_npc_2_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3102" zMax="-2502">
+			<point x="68524" y="-122780"/>
+			<point x="68444" y="-121724"/>
+			<point x="67708" y="-121192"/>
+			<point x="66844" y="-121364"/>
+			<point x="66404" y="-122176"/>
+			<point x="66568" y="-122952"/>
+			<point x="67232" y="-123400"/>
+			<point x="68012" y="-123296"/>
+		</shape>
+	</zone>
+	<zone id="15085" name="22_14_camp_04_npc_2_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3102" zMax="-2502">
+			<point x="68524" y="-122780"/>
+			<point x="68444" y="-121724"/>
+			<point x="67708" y="-121192"/>
+			<point x="66844" y="-121364"/>
+			<point x="66404" y="-122176"/>
+			<point x="66568" y="-122952"/>
+			<point x="67232" y="-123400"/>
+			<point x="68012" y="-123296"/>
+		</shape>
+	</zone>
+	<zone id="15086" name="22_14_camp_04_npc_2_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3102" zMax="-2502">
+			<point x="68524" y="-122780"/>
+			<point x="68444" y="-121724"/>
+			<point x="67708" y="-121192"/>
+			<point x="66844" y="-121364"/>
+			<point x="66404" y="-122176"/>
+			<point x="66568" y="-122952"/>
+			<point x="67232" y="-123400"/>
+			<point x="68012" y="-123296"/>
+		</shape>
+	</zone>
+	<zone id="15087" name="22_14_camp_04_npc_2_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3102" zMax="-2502">
+			<point x="68524" y="-122780"/>
+			<point x="68444" y="-121724"/>
+			<point x="67708" y="-121192"/>
+			<point x="66844" y="-121364"/>
+			<point x="66404" y="-122176"/>
+			<point x="66568" y="-122952"/>
+			<point x="67232" y="-123400"/>
+			<point x="68012" y="-123296"/>
+		</shape>
+	</zone>
+	<zone id="15088" name="22_14_camp_04_pc_3_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3102" zMax="-2502">
+			<point x="68524" y="-122780"/>
+			<point x="68444" y="-121724"/>
+			<point x="67708" y="-121192"/>
+			<point x="66844" y="-121364"/>
+			<point x="66404" y="-122176"/>
+			<point x="66568" y="-122952"/>
+			<point x="67232" y="-123400"/>
+			<point x="68012" y="-123296"/>
+		</shape>
+	</zone>
+	<zone id="15089" name="22_14_camp_04_pc_3_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3102" zMax="-2502">
+			<point x="68524" y="-122780"/>
+			<point x="68444" y="-121724"/>
+			<point x="67708" y="-121192"/>
+			<point x="66844" y="-121364"/>
+			<point x="66404" y="-122176"/>
+			<point x="66568" y="-122952"/>
+			<point x="67232" y="-123400"/>
+			<point x="68012" y="-123296"/>
+		</shape>
+	</zone>
+	<zone id="15090" name="22_14_camp_04_pc_3_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3102" zMax="-2502">
+			<point x="68524" y="-122780"/>
+			<point x="68444" y="-121724"/>
+			<point x="67708" y="-121192"/>
+			<point x="66844" y="-121364"/>
+			<point x="66404" y="-122176"/>
+			<point x="66568" y="-122952"/>
+			<point x="67232" y="-123400"/>
+			<point x="68012" y="-123296"/>
+		</shape>
+	</zone>
+	<zone id="15091" name="22_14_camp_04_pc_3_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3102" zMax="-2502">
+			<point x="68524" y="-122780"/>
+			<point x="68444" y="-121724"/>
+			<point x="67708" y="-121192"/>
+			<point x="66844" y="-121364"/>
+			<point x="66404" y="-122176"/>
+			<point x="66568" y="-122952"/>
+			<point x="67232" y="-123400"/>
+			<point x="68012" y="-123296"/>
+		</shape>
+	</zone>
+	<zone id="15092" name="22_14_camp_04_npc_3_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3102" zMax="-2502">
+			<point x="68524" y="-122780"/>
+			<point x="68444" y="-121724"/>
+			<point x="67708" y="-121192"/>
+			<point x="66844" y="-121364"/>
+			<point x="66404" y="-122176"/>
+			<point x="66568" y="-122952"/>
+			<point x="67232" y="-123400"/>
+			<point x="68012" y="-123296"/>
+		</shape>
+	</zone>
+	<zone id="15093" name="22_14_camp_04_npc_3_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3102" zMax="-2502">
+			<point x="68524" y="-122780"/>
+			<point x="68444" y="-121724"/>
+			<point x="67708" y="-121192"/>
+			<point x="66844" y="-121364"/>
+			<point x="66404" y="-122176"/>
+			<point x="66568" y="-122952"/>
+			<point x="67232" y="-123400"/>
+			<point x="68012" y="-123296"/>
+		</shape>
+	</zone>
+	<zone id="15094" name="22_14_camp_04_npc_3_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3102" zMax="-2502">
+			<point x="68524" y="-122780"/>
+			<point x="68444" y="-121724"/>
+			<point x="67708" y="-121192"/>
+			<point x="66844" y="-121364"/>
+			<point x="66404" y="-122176"/>
+			<point x="66568" y="-122952"/>
+			<point x="67232" y="-123400"/>
+			<point x="68012" y="-123296"/>
+		</shape>
+	</zone>
+	<zone id="15095" name="22_14_camp_04_npc_3_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3102" zMax="-2502">
+			<point x="68524" y="-122780"/>
+			<point x="68444" y="-121724"/>
+			<point x="67708" y="-121192"/>
+			<point x="66844" y="-121364"/>
+			<point x="66404" y="-122176"/>
+			<point x="66568" y="-122952"/>
+			<point x="67232" y="-123400"/>
+			<point x="68012" y="-123296"/>
+		</shape>
+	</zone>
+	<zone id="15096" name="22_14_camp_05_pc_1_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3202" zMax="-2602">
+			<point x="75916" y="-121416"/>
+			<point x="75136" y="-120628"/>
+			<point x="74040" y="-120200"/>
+			<point x="72960" y="-121040"/>
+			<point x="72864" y="-122056"/>
+			<point x="74087" y="-122960"/>
+			<point x="75231" y="-122500"/>
+		</shape>
+	</zone>
+	<zone id="15097" name="22_14_camp_05_pc_1_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3202" zMax="-2602">
+			<point x="75916" y="-121416"/>
+			<point x="75136" y="-120628"/>
+			<point x="74040" y="-120200"/>
+			<point x="72960" y="-121040"/>
+			<point x="72864" y="-122056"/>
+			<point x="74087" y="-122960"/>
+			<point x="75231" y="-122500"/>
+		</shape>
+	</zone>
+	<zone id="15098" name="22_14_camp_05_pc_1_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3202" zMax="-2602">
+			<point x="75916" y="-121416"/>
+			<point x="75136" y="-120628"/>
+			<point x="74040" y="-120200"/>
+			<point x="72960" y="-121040"/>
+			<point x="72864" y="-122056"/>
+			<point x="74087" y="-122960"/>
+			<point x="75231" y="-122500"/>
+		</shape>
+	</zone>
+	<zone id="15099" name="22_14_camp_05_pc_1_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3202" zMax="-2602">
+			<point x="75916" y="-121416"/>
+			<point x="75136" y="-120628"/>
+			<point x="74040" y="-120200"/>
+			<point x="72960" y="-121040"/>
+			<point x="72864" y="-122056"/>
+			<point x="74087" y="-122960"/>
+			<point x="75231" y="-122500"/>
+		</shape>
+	</zone>
+	<zone id="15100" name="22_14_camp_05_npc_1_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3202" zMax="-2602">
+			<point x="75916" y="-121416"/>
+			<point x="75136" y="-120628"/>
+			<point x="74040" y="-120200"/>
+			<point x="72960" y="-121040"/>
+			<point x="72864" y="-122056"/>
+			<point x="74087" y="-122960"/>
+			<point x="75231" y="-122500"/>
+		</shape>
+	</zone>
+	<zone id="15101" name="22_14_camp_05_npc_1_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3202" zMax="-2602">
+			<point x="75916" y="-121416"/>
+			<point x="75136" y="-120628"/>
+			<point x="74040" y="-120200"/>
+			<point x="72960" y="-121040"/>
+			<point x="72864" y="-122056"/>
+			<point x="74087" y="-122960"/>
+			<point x="75231" y="-122500"/>
+		</shape>
+	</zone>
+	<zone id="15102" name="22_14_camp_05_npc_1_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3202" zMax="-2602">
+			<point x="75916" y="-121416"/>
+			<point x="75136" y="-120628"/>
+			<point x="74040" y="-120200"/>
+			<point x="72960" y="-121040"/>
+			<point x="72864" y="-122056"/>
+			<point x="74087" y="-122960"/>
+			<point x="75231" y="-122500"/>
+		</shape>
+	</zone>
+	<zone id="15103" name="22_14_camp_05_npc_1_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3202" zMax="-2602">
+			<point x="75916" y="-121416"/>
+			<point x="75136" y="-120628"/>
+			<point x="74040" y="-120200"/>
+			<point x="72960" y="-121040"/>
+			<point x="72864" y="-122056"/>
+			<point x="74087" y="-122960"/>
+			<point x="75231" y="-122500"/>
+		</shape>
+	</zone>
+	<zone id="15104" name="22_14_camp_05_pc_2_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3202" zMax="-2602">
+			<point x="75916" y="-121416"/>
+			<point x="75136" y="-120628"/>
+			<point x="74040" y="-120200"/>
+			<point x="72960" y="-121040"/>
+			<point x="72864" y="-122056"/>
+			<point x="74087" y="-122960"/>
+			<point x="75231" y="-122500"/>
+		</shape>
+	</zone>
+	<zone id="15105" name="22_14_camp_05_pc_2_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3202" zMax="-2602">
+			<point x="75916" y="-121416"/>
+			<point x="75136" y="-120628"/>
+			<point x="74040" y="-120200"/>
+			<point x="72960" y="-121040"/>
+			<point x="72864" y="-122056"/>
+			<point x="74087" y="-122960"/>
+			<point x="75231" y="-122500"/>
+		</shape>
+	</zone>
+	<zone id="15106" name="22_14_camp_05_pc_2_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3202" zMax="-2602">
+			<point x="75916" y="-121416"/>
+			<point x="75136" y="-120628"/>
+			<point x="74040" y="-120200"/>
+			<point x="72960" y="-121040"/>
+			<point x="72864" y="-122056"/>
+			<point x="74087" y="-122960"/>
+			<point x="75231" y="-122500"/>
+		</shape>
+	</zone>
+	<zone id="15107" name="22_14_camp_05_pc_2_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3202" zMax="-2602">
+			<point x="75916" y="-121416"/>
+			<point x="75136" y="-120628"/>
+			<point x="74040" y="-120200"/>
+			<point x="72960" y="-121040"/>
+			<point x="72864" y="-122056"/>
+			<point x="74087" y="-122960"/>
+			<point x="75231" y="-122500"/>
+		</shape>
+	</zone>
+	<zone id="15108" name="22_14_camp_05_npc_2_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3202" zMax="-2602">
+			<point x="75916" y="-121416"/>
+			<point x="75136" y="-120628"/>
+			<point x="74040" y="-120200"/>
+			<point x="72960" y="-121040"/>
+			<point x="72864" y="-122056"/>
+			<point x="74087" y="-122960"/>
+			<point x="75231" y="-122500"/>
+		</shape>
+	</zone>
+	<zone id="15109" name="22_14_camp_05_npc_2_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3202" zMax="-2602">
+			<point x="75916" y="-121416"/>
+			<point x="75136" y="-120628"/>
+			<point x="74040" y="-120200"/>
+			<point x="72960" y="-121040"/>
+			<point x="72864" y="-122056"/>
+			<point x="74087" y="-122960"/>
+			<point x="75231" y="-122500"/>
+		</shape>
+	</zone>
+	<zone id="15110" name="22_14_camp_05_npc_2_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3202" zMax="-2602">
+			<point x="75916" y="-121416"/>
+			<point x="75136" y="-120628"/>
+			<point x="74040" y="-120200"/>
+			<point x="72960" y="-121040"/>
+			<point x="72864" y="-122056"/>
+			<point x="74087" y="-122960"/>
+			<point x="75231" y="-122500"/>
+		</shape>
+	</zone>
+	<zone id="15111" name="22_14_camp_05_npc_2_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3202" zMax="-2602">
+			<point x="75916" y="-121416"/>
+			<point x="75136" y="-120628"/>
+			<point x="74040" y="-120200"/>
+			<point x="72960" y="-121040"/>
+			<point x="72864" y="-122056"/>
+			<point x="74087" y="-122960"/>
+			<point x="75231" y="-122500"/>
+		</shape>
+	</zone>
+	<zone id="15112" name="22_14_camp_05_pc_3_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3202" zMax="-2602">
+			<point x="75916" y="-121416"/>
+			<point x="75136" y="-120628"/>
+			<point x="74040" y="-120200"/>
+			<point x="72960" y="-121040"/>
+			<point x="72864" y="-122056"/>
+			<point x="74087" y="-122960"/>
+			<point x="75231" y="-122500"/>
+		</shape>
+	</zone>
+	<zone id="15113" name="22_14_camp_05_pc_3_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3202" zMax="-2602">
+			<point x="75916" y="-121416"/>
+			<point x="75136" y="-120628"/>
+			<point x="74040" y="-120200"/>
+			<point x="72960" y="-121040"/>
+			<point x="72864" y="-122056"/>
+			<point x="74087" y="-122960"/>
+			<point x="75231" y="-122500"/>
+		</shape>
+	</zone>
+	<zone id="15114" name="22_14_camp_05_pc_3_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3202" zMax="-2602">
+			<point x="75916" y="-121416"/>
+			<point x="75136" y="-120628"/>
+			<point x="74040" y="-120200"/>
+			<point x="72960" y="-121040"/>
+			<point x="72864" y="-122056"/>
+			<point x="74087" y="-122960"/>
+			<point x="75231" y="-122500"/>
+		</shape>
+	</zone>
+	<zone id="15115" name="22_14_camp_05_pc_3_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3202" zMax="-2602">
+			<point x="75916" y="-121416"/>
+			<point x="75136" y="-120628"/>
+			<point x="74040" y="-120200"/>
+			<point x="72960" y="-121040"/>
+			<point x="72864" y="-122056"/>
+			<point x="74087" y="-122960"/>
+			<point x="75231" y="-122500"/>
+		</shape>
+	</zone>
+	<zone id="15116" name="22_14_camp_05_npc_3_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3202" zMax="-2602">
+			<point x="75916" y="-121416"/>
+			<point x="75136" y="-120628"/>
+			<point x="74040" y="-120200"/>
+			<point x="72960" y="-121040"/>
+			<point x="72864" y="-122056"/>
+			<point x="74087" y="-122960"/>
+			<point x="75231" y="-122500"/>
+		</shape>
+	</zone>
+	<zone id="15117" name="22_14_camp_05_npc_3_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3202" zMax="-2602">
+			<point x="75916" y="-121416"/>
+			<point x="75136" y="-120628"/>
+			<point x="74040" y="-120200"/>
+			<point x="72960" y="-121040"/>
+			<point x="72864" y="-122056"/>
+			<point x="74087" y="-122960"/>
+			<point x="75231" y="-122500"/>
+		</shape>
+	</zone>
+	<zone id="15118" name="22_14_camp_05_npc_3_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3202" zMax="-2602">
+			<point x="75916" y="-121416"/>
+			<point x="75136" y="-120628"/>
+			<point x="74040" y="-120200"/>
+			<point x="72960" y="-121040"/>
+			<point x="72864" y="-122056"/>
+			<point x="74087" y="-122960"/>
+			<point x="75231" y="-122500"/>
+		</shape>
+	</zone>
+	<zone id="15119" name="22_14_camp_05_npc_3_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3202" zMax="-2602">
+			<point x="75916" y="-121416"/>
+			<point x="75136" y="-120628"/>
+			<point x="74040" y="-120200"/>
+			<point x="72960" y="-121040"/>
+			<point x="72864" y="-122056"/>
+			<point x="74087" y="-122960"/>
+			<point x="75231" y="-122500"/>
+		</shape>
+	</zone>
+	<zone id="15120" name="22_14_camp_06_pc_1_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2758" zMax="-2158">
+			<point x="69187" y="-119774"/>
+			<point x="70093" y="-120120"/>
+			<point x="71017" y="-119331"/>
+			<point x="71171" y="-118853"/>
+			<point x="70857" y="-117824"/>
+			<point x="69432" y="-117941"/>
+			<point x="68884" y="-118969"/>
+		</shape>
+	</zone>
+	<zone id="15121" name="22_14_camp_06_pc_1_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2758" zMax="-2158">
+			<point x="69187" y="-119774"/>
+			<point x="70093" y="-120120"/>
+			<point x="71017" y="-119331"/>
+			<point x="71171" y="-118853"/>
+			<point x="70857" y="-117824"/>
+			<point x="69432" y="-117941"/>
+			<point x="68884" y="-118969"/>
+		</shape>
+	</zone>
+	<zone id="15122" name="22_14_camp_06_pc_1_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2758" zMax="-2158">
+			<point x="69187" y="-119774"/>
+			<point x="70093" y="-120120"/>
+			<point x="71017" y="-119331"/>
+			<point x="71171" y="-118853"/>
+			<point x="70857" y="-117824"/>
+			<point x="69432" y="-117941"/>
+			<point x="68884" y="-118969"/>
+		</shape>
+	</zone>
+	<zone id="15123" name="22_14_camp_06_pc_1_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2758" zMax="-2158">
+			<point x="69187" y="-119774"/>
+			<point x="70093" y="-120120"/>
+			<point x="71017" y="-119331"/>
+			<point x="71171" y="-118853"/>
+			<point x="70857" y="-117824"/>
+			<point x="69432" y="-117941"/>
+			<point x="68884" y="-118969"/>
+		</shape>
+	</zone>
+	<zone id="15124" name="22_14_camp_06_npc_1_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2758" zMax="-2158">
+			<point x="69187" y="-119774"/>
+			<point x="70093" y="-120120"/>
+			<point x="71017" y="-119331"/>
+			<point x="71171" y="-118853"/>
+			<point x="70857" y="-117824"/>
+			<point x="69432" y="-117941"/>
+			<point x="68884" y="-118969"/>
+		</shape>
+	</zone>
+	<zone id="15125" name="22_14_camp_06_npc_1_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2758" zMax="-2158">
+			<point x="69187" y="-119774"/>
+			<point x="70093" y="-120120"/>
+			<point x="71017" y="-119331"/>
+			<point x="71171" y="-118853"/>
+			<point x="70857" y="-117824"/>
+			<point x="69432" y="-117941"/>
+			<point x="68884" y="-118969"/>
+		</shape>
+	</zone>
+	<zone id="15126" name="22_14_camp_06_npc_1_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2758" zMax="-2158">
+			<point x="69187" y="-119774"/>
+			<point x="70093" y="-120120"/>
+			<point x="71017" y="-119331"/>
+			<point x="71171" y="-118853"/>
+			<point x="70857" y="-117824"/>
+			<point x="69432" y="-117941"/>
+			<point x="68884" y="-118969"/>
+		</shape>
+	</zone>
+	<zone id="15127" name="22_14_camp_06_npc_1_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2758" zMax="-2158">
+			<point x="69187" y="-119774"/>
+			<point x="70093" y="-120120"/>
+			<point x="71017" y="-119331"/>
+			<point x="71171" y="-118853"/>
+			<point x="70857" y="-117824"/>
+			<point x="69432" y="-117941"/>
+			<point x="68884" y="-118969"/>
+		</shape>
+	</zone>
+	<zone id="15128" name="22_14_camp_06_pc_2_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2758" zMax="-2158">
+			<point x="69187" y="-119774"/>
+			<point x="70093" y="-120120"/>
+			<point x="71017" y="-119331"/>
+			<point x="71171" y="-118853"/>
+			<point x="70857" y="-117824"/>
+			<point x="69432" y="-117941"/>
+			<point x="68884" y="-118969"/>
+		</shape>
+	</zone>
+	<zone id="15129" name="22_14_camp_06_pc_2_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2758" zMax="-2158">
+			<point x="69187" y="-119774"/>
+			<point x="70093" y="-120120"/>
+			<point x="71017" y="-119331"/>
+			<point x="71171" y="-118853"/>
+			<point x="70857" y="-117824"/>
+			<point x="69432" y="-117941"/>
+			<point x="68884" y="-118969"/>
+		</shape>
+	</zone>
+	<zone id="15130" name="22_14_camp_06_pc_2_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2758" zMax="-2158">
+			<point x="69187" y="-119774"/>
+			<point x="70093" y="-120120"/>
+			<point x="71017" y="-119331"/>
+			<point x="71171" y="-118853"/>
+			<point x="70857" y="-117824"/>
+			<point x="69432" y="-117941"/>
+			<point x="68884" y="-118969"/>
+		</shape>
+	</zone>
+	<zone id="15131" name="22_14_camp_06_pc_2_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2758" zMax="-2158">
+			<point x="69187" y="-119774"/>
+			<point x="70093" y="-120120"/>
+			<point x="71017" y="-119331"/>
+			<point x="71171" y="-118853"/>
+			<point x="70857" y="-117824"/>
+			<point x="69432" y="-117941"/>
+			<point x="68884" y="-118969"/>
+		</shape>
+	</zone>
+	<zone id="15132" name="22_14_camp_06_npc_2_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2758" zMax="-2158">
+			<point x="69187" y="-119774"/>
+			<point x="70093" y="-120120"/>
+			<point x="71017" y="-119331"/>
+			<point x="71171" y="-118853"/>
+			<point x="70857" y="-117824"/>
+			<point x="69432" y="-117941"/>
+			<point x="68884" y="-118969"/>
+		</shape>
+	</zone>
+	<zone id="15133" name="22_14_camp_06_npc_2_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2758" zMax="-2158">
+			<point x="69187" y="-119774"/>
+			<point x="70093" y="-120120"/>
+			<point x="71017" y="-119331"/>
+			<point x="71171" y="-118853"/>
+			<point x="70857" y="-117824"/>
+			<point x="69432" y="-117941"/>
+			<point x="68884" y="-118969"/>
+		</shape>
+	</zone>
+	<zone id="15134" name="22_14_camp_06_npc_2_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2758" zMax="-2158">
+			<point x="69187" y="-119774"/>
+			<point x="70093" y="-120120"/>
+			<point x="71017" y="-119331"/>
+			<point x="71171" y="-118853"/>
+			<point x="70857" y="-117824"/>
+			<point x="69432" y="-117941"/>
+			<point x="68884" y="-118969"/>
+		</shape>
+	</zone>
+	<zone id="15135" name="22_14_camp_06_npc_2_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2758" zMax="-2158">
+			<point x="69187" y="-119774"/>
+			<point x="70093" y="-120120"/>
+			<point x="71017" y="-119331"/>
+			<point x="71171" y="-118853"/>
+			<point x="70857" y="-117824"/>
+			<point x="69432" y="-117941"/>
+			<point x="68884" y="-118969"/>
+		</shape>
+	</zone>
+	<zone id="15136" name="22_14_camp_06_pc_3_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2758" zMax="-2158">
+			<point x="69187" y="-119774"/>
+			<point x="70093" y="-120120"/>
+			<point x="71017" y="-119331"/>
+			<point x="71171" y="-118853"/>
+			<point x="70857" y="-117824"/>
+			<point x="69432" y="-117941"/>
+			<point x="68884" y="-118969"/>
+		</shape>
+	</zone>
+	<zone id="15137" name="22_14_camp_06_pc_3_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2758" zMax="-2158">
+			<point x="69187" y="-119774"/>
+			<point x="70093" y="-120120"/>
+			<point x="71017" y="-119331"/>
+			<point x="71171" y="-118853"/>
+			<point x="70857" y="-117824"/>
+			<point x="69432" y="-117941"/>
+			<point x="68884" y="-118969"/>
+		</shape>
+	</zone>
+	<zone id="15138" name="22_14_camp_06_pc_3_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2758" zMax="-2158">
+			<point x="69187" y="-119774"/>
+			<point x="70093" y="-120120"/>
+			<point x="71017" y="-119331"/>
+			<point x="71171" y="-118853"/>
+			<point x="70857" y="-117824"/>
+			<point x="69432" y="-117941"/>
+			<point x="68884" y="-118969"/>
+		</shape>
+	</zone>
+	<zone id="15139" name="22_14_camp_06_pc_3_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2758" zMax="-2158">
+			<point x="69187" y="-119774"/>
+			<point x="70093" y="-120120"/>
+			<point x="71017" y="-119331"/>
+			<point x="71171" y="-118853"/>
+			<point x="70857" y="-117824"/>
+			<point x="69432" y="-117941"/>
+			<point x="68884" y="-118969"/>
+		</shape>
+	</zone>
+	<zone id="15140" name="22_14_camp_06_npc_3_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2758" zMax="-2158">
+			<point x="69187" y="-119774"/>
+			<point x="70093" y="-120120"/>
+			<point x="71017" y="-119331"/>
+			<point x="71171" y="-118853"/>
+			<point x="70857" y="-117824"/>
+			<point x="69432" y="-117941"/>
+			<point x="68884" y="-118969"/>
+		</shape>
+	</zone>
+	<zone id="15141" name="22_14_camp_06_npc_3_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2758" zMax="-2158">
+			<point x="69187" y="-119774"/>
+			<point x="70093" y="-120120"/>
+			<point x="71017" y="-119331"/>
+			<point x="71171" y="-118853"/>
+			<point x="70857" y="-117824"/>
+			<point x="69432" y="-117941"/>
+			<point x="68884" y="-118969"/>
+		</shape>
+	</zone>
+	<zone id="15142" name="22_14_camp_06_npc_3_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2758" zMax="-2158">
+			<point x="69187" y="-119774"/>
+			<point x="70093" y="-120120"/>
+			<point x="71017" y="-119331"/>
+			<point x="71171" y="-118853"/>
+			<point x="70857" y="-117824"/>
+			<point x="69432" y="-117941"/>
+			<point x="68884" y="-118969"/>
+		</shape>
+	</zone>
+	<zone id="15143" name="22_14_camp_06_npc_3_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2758" zMax="-2158">
+			<point x="69187" y="-119774"/>
+			<point x="70093" y="-120120"/>
+			<point x="71017" y="-119331"/>
+			<point x="71171" y="-118853"/>
+			<point x="70857" y="-117824"/>
+			<point x="69432" y="-117941"/>
+			<point x="68884" y="-118969"/>
+		</shape>
+	</zone>
+	<zone id="15144" name="22_14_camp_07_pc_1_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="75116" y="-117044"/>
+			<point x="74824" y="-116300"/>
+			<point x="74292" y="-116200"/>
+			<point x="73732" y="-116476"/>
+			<point x="73736" y="-117096"/>
+			<point x="73952" y="-117580"/>
+			<point x="74524" y="-117616"/>
+		</shape>
+	</zone>
+	<zone id="15145" name="22_14_camp_07_pc_1_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="75116" y="-117044"/>
+			<point x="74824" y="-116300"/>
+			<point x="74292" y="-116200"/>
+			<point x="73732" y="-116476"/>
+			<point x="73736" y="-117096"/>
+			<point x="73952" y="-117580"/>
+			<point x="74524" y="-117616"/>
+		</shape>
+	</zone>
+	<zone id="15146" name="22_14_camp_07_pc_1_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="75116" y="-117044"/>
+			<point x="74824" y="-116300"/>
+			<point x="74292" y="-116200"/>
+			<point x="73732" y="-116476"/>
+			<point x="73736" y="-117096"/>
+			<point x="73952" y="-117580"/>
+			<point x="74524" y="-117616"/>
+		</shape>
+	</zone>
+	<zone id="15147" name="22_14_camp_07_pc_1_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="75116" y="-117044"/>
+			<point x="74824" y="-116300"/>
+			<point x="74292" y="-116200"/>
+			<point x="73732" y="-116476"/>
+			<point x="73736" y="-117096"/>
+			<point x="73952" y="-117580"/>
+			<point x="74524" y="-117616"/>
+		</shape>
+	</zone>
+	<zone id="15148" name="22_14_camp_07_npc_1_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="75116" y="-117044"/>
+			<point x="74824" y="-116300"/>
+			<point x="74292" y="-116200"/>
+			<point x="73732" y="-116476"/>
+			<point x="73736" y="-117096"/>
+			<point x="73952" y="-117580"/>
+			<point x="74524" y="-117616"/>
+		</shape>
+	</zone>
+	<zone id="15149" name="22_14_camp_07_npc_1_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="75116" y="-117044"/>
+			<point x="74824" y="-116300"/>
+			<point x="74292" y="-116200"/>
+			<point x="73732" y="-116476"/>
+			<point x="73736" y="-117096"/>
+			<point x="73952" y="-117580"/>
+			<point x="74524" y="-117616"/>
+		</shape>
+	</zone>
+	<zone id="15150" name="22_14_camp_07_npc_1_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="75116" y="-117044"/>
+			<point x="74824" y="-116300"/>
+			<point x="74292" y="-116200"/>
+			<point x="73732" y="-116476"/>
+			<point x="73736" y="-117096"/>
+			<point x="73952" y="-117580"/>
+			<point x="74524" y="-117616"/>
+		</shape>
+	</zone>
+	<zone id="15151" name="22_14_camp_07_npc_1_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="75116" y="-117044"/>
+			<point x="74824" y="-116300"/>
+			<point x="74292" y="-116200"/>
+			<point x="73732" y="-116476"/>
+			<point x="73736" y="-117096"/>
+			<point x="73952" y="-117580"/>
+			<point x="74524" y="-117616"/>
+		</shape>
+	</zone>
+	<zone id="15152" name="22_14_camp_07_pc_2_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="75116" y="-117044"/>
+			<point x="74824" y="-116300"/>
+			<point x="74292" y="-116200"/>
+			<point x="73732" y="-116476"/>
+			<point x="73736" y="-117096"/>
+			<point x="73952" y="-117580"/>
+			<point x="74524" y="-117616"/>
+		</shape>
+	</zone>
+	<zone id="15153" name="22_14_camp_07_pc_2_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="75116" y="-117044"/>
+			<point x="74824" y="-116300"/>
+			<point x="74292" y="-116200"/>
+			<point x="73732" y="-116476"/>
+			<point x="73736" y="-117096"/>
+			<point x="73952" y="-117580"/>
+			<point x="74524" y="-117616"/>
+		</shape>
+	</zone>
+	<zone id="15154" name="22_14_camp_07_pc_2_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="75116" y="-117044"/>
+			<point x="74824" y="-116300"/>
+			<point x="74292" y="-116200"/>
+			<point x="73732" y="-116476"/>
+			<point x="73736" y="-117096"/>
+			<point x="73952" y="-117580"/>
+			<point x="74524" y="-117616"/>
+		</shape>
+	</zone>
+	<zone id="15155" name="22_14_camp_07_pc_2_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="75116" y="-117044"/>
+			<point x="74824" y="-116300"/>
+			<point x="74292" y="-116200"/>
+			<point x="73732" y="-116476"/>
+			<point x="73736" y="-117096"/>
+			<point x="73952" y="-117580"/>
+			<point x="74524" y="-117616"/>
+		</shape>
+	</zone>
+	<zone id="15156" name="22_14_camp_07_npc_2_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="75116" y="-117044"/>
+			<point x="74824" y="-116300"/>
+			<point x="74292" y="-116200"/>
+			<point x="73732" y="-116476"/>
+			<point x="73736" y="-117096"/>
+			<point x="73952" y="-117580"/>
+			<point x="74524" y="-117616"/>
+		</shape>
+	</zone>
+	<zone id="15157" name="22_14_camp_07_npc_2_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="75116" y="-117044"/>
+			<point x="74824" y="-116300"/>
+			<point x="74292" y="-116200"/>
+			<point x="73732" y="-116476"/>
+			<point x="73736" y="-117096"/>
+			<point x="73952" y="-117580"/>
+			<point x="74524" y="-117616"/>
+		</shape>
+	</zone>
+	<zone id="15158" name="22_14_camp_07_npc_2_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="75116" y="-117044"/>
+			<point x="74824" y="-116300"/>
+			<point x="74292" y="-116200"/>
+			<point x="73732" y="-116476"/>
+			<point x="73736" y="-117096"/>
+			<point x="73952" y="-117580"/>
+			<point x="74524" y="-117616"/>
+		</shape>
+	</zone>
+	<zone id="15159" name="22_14_camp_07_npc_2_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="75116" y="-117044"/>
+			<point x="74824" y="-116300"/>
+			<point x="74292" y="-116200"/>
+			<point x="73732" y="-116476"/>
+			<point x="73736" y="-117096"/>
+			<point x="73952" y="-117580"/>
+			<point x="74524" y="-117616"/>
+		</shape>
+	</zone>
+	<zone id="15160" name="22_14_camp_07_pc_3_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="75116" y="-117044"/>
+			<point x="74824" y="-116300"/>
+			<point x="74292" y="-116200"/>
+			<point x="73732" y="-116476"/>
+			<point x="73736" y="-117096"/>
+			<point x="73952" y="-117580"/>
+			<point x="74524" y="-117616"/>
+		</shape>
+	</zone>
+	<zone id="15161" name="22_14_camp_07_pc_3_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="75116" y="-117044"/>
+			<point x="74824" y="-116300"/>
+			<point x="74292" y="-116200"/>
+			<point x="73732" y="-116476"/>
+			<point x="73736" y="-117096"/>
+			<point x="73952" y="-117580"/>
+			<point x="74524" y="-117616"/>
+		</shape>
+	</zone>
+	<zone id="15162" name="22_14_camp_07_pc_3_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="75116" y="-117044"/>
+			<point x="74824" y="-116300"/>
+			<point x="74292" y="-116200"/>
+			<point x="73732" y="-116476"/>
+			<point x="73736" y="-117096"/>
+			<point x="73952" y="-117580"/>
+			<point x="74524" y="-117616"/>
+		</shape>
+	</zone>
+	<zone id="15163" name="22_14_camp_07_pc_3_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="75116" y="-117044"/>
+			<point x="74824" y="-116300"/>
+			<point x="74292" y="-116200"/>
+			<point x="73732" y="-116476"/>
+			<point x="73736" y="-117096"/>
+			<point x="73952" y="-117580"/>
+			<point x="74524" y="-117616"/>
+		</shape>
+	</zone>
+	<zone id="15164" name="22_14_camp_07_npc_3_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="75116" y="-117044"/>
+			<point x="74824" y="-116300"/>
+			<point x="74292" y="-116200"/>
+			<point x="73732" y="-116476"/>
+			<point x="73736" y="-117096"/>
+			<point x="73952" y="-117580"/>
+			<point x="74524" y="-117616"/>
+		</shape>
+	</zone>
+	<zone id="15165" name="22_14_camp_07_npc_3_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="75116" y="-117044"/>
+			<point x="74824" y="-116300"/>
+			<point x="74292" y="-116200"/>
+			<point x="73732" y="-116476"/>
+			<point x="73736" y="-117096"/>
+			<point x="73952" y="-117580"/>
+			<point x="74524" y="-117616"/>
+		</shape>
+	</zone>
+	<zone id="15166" name="22_14_camp_07_npc_3_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="75116" y="-117044"/>
+			<point x="74824" y="-116300"/>
+			<point x="74292" y="-116200"/>
+			<point x="73732" y="-116476"/>
+			<point x="73736" y="-117096"/>
+			<point x="73952" y="-117580"/>
+			<point x="74524" y="-117616"/>
+		</shape>
+	</zone>
+	<zone id="15167" name="22_14_camp_07_npc_3_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="75116" y="-117044"/>
+			<point x="74824" y="-116300"/>
+			<point x="74292" y="-116200"/>
+			<point x="73732" y="-116476"/>
+			<point x="73736" y="-117096"/>
+			<point x="73952" y="-117580"/>
+			<point x="74524" y="-117616"/>
+		</shape>
+	</zone>
+	<zone id="15168" name="22_14_camp_08_pc_1_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2298" zMax="-1698">
+			<point x="69332" y="-116324"/>
+			<point x="68952" y="-115328"/>
+			<point x="68240" y="-114852"/>
+			<point x="67500" y="-114968"/>
+			<point x="66908" y="-115888"/>
+			<point x="67004" y="-116766"/>
+			<point x="67740" y="-117315"/>
+			<point x="68774" y="-117127"/>
+		</shape>
+	</zone>
+	<zone id="15169" name="22_14_camp_08_pc_1_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2298" zMax="-1698">
+			<point x="69332" y="-116324"/>
+			<point x="68952" y="-115328"/>
+			<point x="68240" y="-114852"/>
+			<point x="67500" y="-114968"/>
+			<point x="66908" y="-115888"/>
+			<point x="67004" y="-116766"/>
+			<point x="67740" y="-117315"/>
+			<point x="68774" y="-117127"/>
+		</shape>
+	</zone>
+	<zone id="15170" name="22_14_camp_08_pc_1_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2298" zMax="-1698">
+			<point x="69332" y="-116324"/>
+			<point x="68952" y="-115328"/>
+			<point x="68240" y="-114852"/>
+			<point x="67500" y="-114968"/>
+			<point x="66908" y="-115888"/>
+			<point x="67004" y="-116766"/>
+			<point x="67740" y="-117315"/>
+			<point x="68774" y="-117127"/>
+		</shape>
+	</zone>
+	<zone id="15171" name="22_14_camp_08_pc_1_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2298" zMax="-1698">
+			<point x="69332" y="-116324"/>
+			<point x="68952" y="-115328"/>
+			<point x="68240" y="-114852"/>
+			<point x="67500" y="-114968"/>
+			<point x="66908" y="-115888"/>
+			<point x="67004" y="-116766"/>
+			<point x="67740" y="-117315"/>
+			<point x="68774" y="-117127"/>
+		</shape>
+	</zone>
+	<zone id="15172" name="22_14_camp_08_npc_1_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2298" zMax="-1698">
+			<point x="69332" y="-116324"/>
+			<point x="68952" y="-115328"/>
+			<point x="68240" y="-114852"/>
+			<point x="67500" y="-114968"/>
+			<point x="66908" y="-115888"/>
+			<point x="67004" y="-116766"/>
+			<point x="67740" y="-117315"/>
+			<point x="68774" y="-117127"/>
+		</shape>
+	</zone>
+	<zone id="15173" name="22_14_camp_08_npc_1_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2298" zMax="-1698">
+			<point x="69332" y="-116324"/>
+			<point x="68952" y="-115328"/>
+			<point x="68240" y="-114852"/>
+			<point x="67500" y="-114968"/>
+			<point x="66908" y="-115888"/>
+			<point x="67004" y="-116766"/>
+			<point x="67740" y="-117315"/>
+			<point x="68774" y="-117127"/>
+		</shape>
+	</zone>
+	<zone id="15174" name="22_14_camp_08_npc_1_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2298" zMax="-1698">
+			<point x="69332" y="-116324"/>
+			<point x="68952" y="-115328"/>
+			<point x="68240" y="-114852"/>
+			<point x="67500" y="-114968"/>
+			<point x="66908" y="-115888"/>
+			<point x="67004" y="-116766"/>
+			<point x="67740" y="-117315"/>
+			<point x="68774" y="-117127"/>
+		</shape>
+	</zone>
+	<zone id="15175" name="22_14_camp_08_npc_1_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2298" zMax="-1698">
+			<point x="69332" y="-116324"/>
+			<point x="68952" y="-115328"/>
+			<point x="68240" y="-114852"/>
+			<point x="67500" y="-114968"/>
+			<point x="66908" y="-115888"/>
+			<point x="67004" y="-116766"/>
+			<point x="67740" y="-117315"/>
+			<point x="68774" y="-117127"/>
+		</shape>
+	</zone>
+	<zone id="15176" name="22_14_camp_08_pc_2_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2298" zMax="-1698">
+			<point x="69332" y="-116324"/>
+			<point x="68952" y="-115328"/>
+			<point x="68240" y="-114852"/>
+			<point x="67500" y="-114968"/>
+			<point x="66908" y="-115888"/>
+			<point x="67004" y="-116766"/>
+			<point x="67740" y="-117315"/>
+			<point x="68774" y="-117127"/>
+		</shape>
+	</zone>
+	<zone id="15177" name="22_14_camp_08_pc_2_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2298" zMax="-1698">
+			<point x="69332" y="-116324"/>
+			<point x="68952" y="-115328"/>
+			<point x="68240" y="-114852"/>
+			<point x="67500" y="-114968"/>
+			<point x="66908" y="-115888"/>
+			<point x="67004" y="-116766"/>
+			<point x="67740" y="-117315"/>
+			<point x="68774" y="-117127"/>
+		</shape>
+	</zone>
+	<zone id="15178" name="22_14_camp_08_pc_2_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2298" zMax="-1698">
+			<point x="69332" y="-116324"/>
+			<point x="68952" y="-115328"/>
+			<point x="68240" y="-114852"/>
+			<point x="67500" y="-114968"/>
+			<point x="66908" y="-115888"/>
+			<point x="67004" y="-116766"/>
+			<point x="67740" y="-117315"/>
+			<point x="68774" y="-117127"/>
+		</shape>
+	</zone>
+	<zone id="15179" name="22_14_camp_08_pc_2_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2298" zMax="-1698">
+			<point x="69332" y="-116324"/>
+			<point x="68952" y="-115328"/>
+			<point x="68240" y="-114852"/>
+			<point x="67500" y="-114968"/>
+			<point x="66908" y="-115888"/>
+			<point x="67004" y="-116766"/>
+			<point x="67740" y="-117315"/>
+			<point x="68774" y="-117127"/>
+		</shape>
+	</zone>
+	<zone id="15180" name="22_14_camp_08_npc_2_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2298" zMax="-1698">
+			<point x="69332" y="-116324"/>
+			<point x="68952" y="-115328"/>
+			<point x="68240" y="-114852"/>
+			<point x="67500" y="-114968"/>
+			<point x="66908" y="-115888"/>
+			<point x="67004" y="-116766"/>
+			<point x="67740" y="-117315"/>
+			<point x="68774" y="-117127"/>
+		</shape>
+	</zone>
+	<zone id="15181" name="22_14_camp_08_npc_2_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2298" zMax="-1698">
+			<point x="69332" y="-116324"/>
+			<point x="68952" y="-115328"/>
+			<point x="68240" y="-114852"/>
+			<point x="67500" y="-114968"/>
+			<point x="66908" y="-115888"/>
+			<point x="67004" y="-116766"/>
+			<point x="67740" y="-117315"/>
+			<point x="68774" y="-117127"/>
+		</shape>
+	</zone>
+	<zone id="15182" name="22_14_camp_08_npc_2_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2298" zMax="-1698">
+			<point x="69332" y="-116324"/>
+			<point x="68952" y="-115328"/>
+			<point x="68240" y="-114852"/>
+			<point x="67500" y="-114968"/>
+			<point x="66908" y="-115888"/>
+			<point x="67004" y="-116766"/>
+			<point x="67740" y="-117315"/>
+			<point x="68774" y="-117127"/>
+		</shape>
+	</zone>
+	<zone id="15183" name="22_14_camp_08_npc_2_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2298" zMax="-1698">
+			<point x="69332" y="-116324"/>
+			<point x="68952" y="-115328"/>
+			<point x="68240" y="-114852"/>
+			<point x="67500" y="-114968"/>
+			<point x="66908" y="-115888"/>
+			<point x="67004" y="-116766"/>
+			<point x="67740" y="-117315"/>
+			<point x="68774" y="-117127"/>
+		</shape>
+	</zone>
+	<zone id="15184" name="22_14_camp_08_pc_3_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2298" zMax="-1698">
+			<point x="69332" y="-116324"/>
+			<point x="68952" y="-115328"/>
+			<point x="68240" y="-114852"/>
+			<point x="67500" y="-114968"/>
+			<point x="66908" y="-115888"/>
+			<point x="67004" y="-116766"/>
+			<point x="67740" y="-117315"/>
+			<point x="68774" y="-117127"/>
+		</shape>
+	</zone>
+	<zone id="15185" name="22_14_camp_08_pc_3_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2298" zMax="-1698">
+			<point x="69332" y="-116324"/>
+			<point x="68952" y="-115328"/>
+			<point x="68240" y="-114852"/>
+			<point x="67500" y="-114968"/>
+			<point x="66908" y="-115888"/>
+			<point x="67004" y="-116766"/>
+			<point x="67740" y="-117315"/>
+			<point x="68774" y="-117127"/>
+		</shape>
+	</zone>
+	<zone id="15186" name="22_14_camp_08_pc_3_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2298" zMax="-1698">
+			<point x="69332" y="-116324"/>
+			<point x="68952" y="-115328"/>
+			<point x="68240" y="-114852"/>
+			<point x="67500" y="-114968"/>
+			<point x="66908" y="-115888"/>
+			<point x="67004" y="-116766"/>
+			<point x="67740" y="-117315"/>
+			<point x="68774" y="-117127"/>
+		</shape>
+	</zone>
+	<zone id="15187" name="22_14_camp_08_pc_3_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2298" zMax="-1698">
+			<point x="69332" y="-116324"/>
+			<point x="68952" y="-115328"/>
+			<point x="68240" y="-114852"/>
+			<point x="67500" y="-114968"/>
+			<point x="66908" y="-115888"/>
+			<point x="67004" y="-116766"/>
+			<point x="67740" y="-117315"/>
+			<point x="68774" y="-117127"/>
+		</shape>
+	</zone>
+	<zone id="15188" name="22_14_camp_08_npc_3_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2298" zMax="-1698">
+			<point x="69332" y="-116324"/>
+			<point x="68952" y="-115328"/>
+			<point x="68240" y="-114852"/>
+			<point x="67500" y="-114968"/>
+			<point x="66908" y="-115888"/>
+			<point x="67004" y="-116766"/>
+			<point x="67740" y="-117315"/>
+			<point x="68774" y="-117127"/>
+		</shape>
+	</zone>
+	<zone id="15189" name="22_14_camp_08_npc_3_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2298" zMax="-1698">
+			<point x="69332" y="-116324"/>
+			<point x="68952" y="-115328"/>
+			<point x="68240" y="-114852"/>
+			<point x="67500" y="-114968"/>
+			<point x="66908" y="-115888"/>
+			<point x="67004" y="-116766"/>
+			<point x="67740" y="-117315"/>
+			<point x="68774" y="-117127"/>
+		</shape>
+	</zone>
+	<zone id="15190" name="22_14_camp_08_npc_3_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2298" zMax="-1698">
+			<point x="69332" y="-116324"/>
+			<point x="68952" y="-115328"/>
+			<point x="68240" y="-114852"/>
+			<point x="67500" y="-114968"/>
+			<point x="66908" y="-115888"/>
+			<point x="67004" y="-116766"/>
+			<point x="67740" y="-117315"/>
+			<point x="68774" y="-117127"/>
+		</shape>
+	</zone>
+	<zone id="15191" name="22_14_camp_08_npc_3_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2298" zMax="-1698">
+			<point x="69332" y="-116324"/>
+			<point x="68952" y="-115328"/>
+			<point x="68240" y="-114852"/>
+			<point x="67500" y="-114968"/>
+			<point x="66908" y="-115888"/>
+			<point x="67004" y="-116766"/>
+			<point x="67740" y="-117315"/>
+			<point x="68774" y="-117127"/>
+		</shape>
+	</zone>
+	<zone id="15192" name="22_14_camp_09_pc_1_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-1302" zMax="-702">
+			<point x="68656" y="-108107"/>
+			<point x="69063" y="-107170"/>
+			<point x="68628" y="-106337"/>
+			<point x="67744" y="-106032"/>
+			<point x="67090" y="-106616"/>
+			<point x="66910" y="-107145"/>
+			<point x="67038" y="-107810"/>
+			<point x="67700" y="-108282"/>
+		</shape>
+	</zone>
+	<zone id="15193" name="22_14_camp_09_pc_1_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-1302" zMax="-702">
+			<point x="68656" y="-108107"/>
+			<point x="69063" y="-107170"/>
+			<point x="68628" y="-106337"/>
+			<point x="67744" y="-106032"/>
+			<point x="67090" y="-106616"/>
+			<point x="66910" y="-107145"/>
+			<point x="67038" y="-107810"/>
+			<point x="67700" y="-108282"/>
+		</shape>
+	</zone>
+	<zone id="15194" name="22_14_camp_09_pc_1_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-1302" zMax="-702">
+			<point x="68656" y="-108107"/>
+			<point x="69063" y="-107170"/>
+			<point x="68628" y="-106337"/>
+			<point x="67744" y="-106032"/>
+			<point x="67090" y="-106616"/>
+			<point x="66910" y="-107145"/>
+			<point x="67038" y="-107810"/>
+			<point x="67700" y="-108282"/>
+		</shape>
+	</zone>
+	<zone id="15195" name="22_14_camp_09_pc_1_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-1302" zMax="-702">
+			<point x="68656" y="-108107"/>
+			<point x="69063" y="-107170"/>
+			<point x="68628" y="-106337"/>
+			<point x="67744" y="-106032"/>
+			<point x="67090" y="-106616"/>
+			<point x="66910" y="-107145"/>
+			<point x="67038" y="-107810"/>
+			<point x="67700" y="-108282"/>
+		</shape>
+	</zone>
+	<zone id="15196" name="22_14_camp_09_npc_1_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-1302" zMax="-702">
+			<point x="68656" y="-108107"/>
+			<point x="69063" y="-107170"/>
+			<point x="68628" y="-106337"/>
+			<point x="67744" y="-106032"/>
+			<point x="67090" y="-106616"/>
+			<point x="66910" y="-107145"/>
+			<point x="67038" y="-107810"/>
+			<point x="67700" y="-108282"/>
+		</shape>
+	</zone>
+	<zone id="15197" name="22_14_camp_09_npc_1_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-1302" zMax="-702">
+			<point x="68656" y="-108107"/>
+			<point x="69063" y="-107170"/>
+			<point x="68628" y="-106337"/>
+			<point x="67744" y="-106032"/>
+			<point x="67090" y="-106616"/>
+			<point x="66910" y="-107145"/>
+			<point x="67038" y="-107810"/>
+			<point x="67700" y="-108282"/>
+		</shape>
+	</zone>
+	<zone id="15198" name="22_14_camp_09_npc_1_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-1302" zMax="-702">
+			<point x="68656" y="-108107"/>
+			<point x="69063" y="-107170"/>
+			<point x="68628" y="-106337"/>
+			<point x="67744" y="-106032"/>
+			<point x="67090" y="-106616"/>
+			<point x="66910" y="-107145"/>
+			<point x="67038" y="-107810"/>
+			<point x="67700" y="-108282"/>
+		</shape>
+	</zone>
+	<zone id="15199" name="22_14_camp_09_npc_1_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-1302" zMax="-702">
+			<point x="68656" y="-108107"/>
+			<point x="69063" y="-107170"/>
+			<point x="68628" y="-106337"/>
+			<point x="67744" y="-106032"/>
+			<point x="67090" y="-106616"/>
+			<point x="66910" y="-107145"/>
+			<point x="67038" y="-107810"/>
+			<point x="67700" y="-108282"/>
+		</shape>
+	</zone>
+	<zone id="15200" name="22_14_camp_09_pc_2_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-1302" zMax="-702">
+			<point x="68656" y="-108107"/>
+			<point x="69063" y="-107170"/>
+			<point x="68628" y="-106337"/>
+			<point x="67744" y="-106032"/>
+			<point x="67090" y="-106616"/>
+			<point x="66910" y="-107145"/>
+			<point x="67038" y="-107810"/>
+			<point x="67700" y="-108282"/>
+		</shape>
+	</zone>
+	<zone id="15201" name="22_14_camp_09_pc_2_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-1302" zMax="-702">
+			<point x="68656" y="-108107"/>
+			<point x="69063" y="-107170"/>
+			<point x="68628" y="-106337"/>
+			<point x="67744" y="-106032"/>
+			<point x="67090" y="-106616"/>
+			<point x="66910" y="-107145"/>
+			<point x="67038" y="-107810"/>
+			<point x="67700" y="-108282"/>
+		</shape>
+	</zone>
+	<zone id="15202" name="22_14_camp_09_pc_2_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-1302" zMax="-702">
+			<point x="68656" y="-108107"/>
+			<point x="69063" y="-107170"/>
+			<point x="68628" y="-106337"/>
+			<point x="67744" y="-106032"/>
+			<point x="67090" y="-106616"/>
+			<point x="66910" y="-107145"/>
+			<point x="67038" y="-107810"/>
+			<point x="67700" y="-108282"/>
+		</shape>
+	</zone>
+	<zone id="15203" name="22_14_camp_09_pc_2_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-1302" zMax="-702">
+			<point x="68656" y="-108107"/>
+			<point x="69063" y="-107170"/>
+			<point x="68628" y="-106337"/>
+			<point x="67744" y="-106032"/>
+			<point x="67090" y="-106616"/>
+			<point x="66910" y="-107145"/>
+			<point x="67038" y="-107810"/>
+			<point x="67700" y="-108282"/>
+		</shape>
+	</zone>
+	<zone id="15204" name="22_14_camp_09_npc_2_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-1302" zMax="-702">
+			<point x="68656" y="-108107"/>
+			<point x="69063" y="-107170"/>
+			<point x="68628" y="-106337"/>
+			<point x="67744" y="-106032"/>
+			<point x="67090" y="-106616"/>
+			<point x="66910" y="-107145"/>
+			<point x="67038" y="-107810"/>
+			<point x="67700" y="-108282"/>
+		</shape>
+	</zone>
+	<zone id="15205" name="22_14_camp_09_npc_2_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-1302" zMax="-702">
+			<point x="68656" y="-108107"/>
+			<point x="69063" y="-107170"/>
+			<point x="68628" y="-106337"/>
+			<point x="67744" y="-106032"/>
+			<point x="67090" y="-106616"/>
+			<point x="66910" y="-107145"/>
+			<point x="67038" y="-107810"/>
+			<point x="67700" y="-108282"/>
+		</shape>
+	</zone>
+	<zone id="15206" name="22_14_camp_09_npc_2_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-1302" zMax="-702">
+			<point x="68656" y="-108107"/>
+			<point x="69063" y="-107170"/>
+			<point x="68628" y="-106337"/>
+			<point x="67744" y="-106032"/>
+			<point x="67090" y="-106616"/>
+			<point x="66910" y="-107145"/>
+			<point x="67038" y="-107810"/>
+			<point x="67700" y="-108282"/>
+		</shape>
+	</zone>
+	<zone id="15207" name="22_14_camp_09_npc_2_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-1302" zMax="-702">
+			<point x="68656" y="-108107"/>
+			<point x="69063" y="-107170"/>
+			<point x="68628" y="-106337"/>
+			<point x="67744" y="-106032"/>
+			<point x="67090" y="-106616"/>
+			<point x="66910" y="-107145"/>
+			<point x="67038" y="-107810"/>
+			<point x="67700" y="-108282"/>
+		</shape>
+	</zone>
+	<zone id="15208" name="22_14_camp_09_pc_3_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-1302" zMax="-702">
+			<point x="68656" y="-108107"/>
+			<point x="69063" y="-107170"/>
+			<point x="68628" y="-106337"/>
+			<point x="67744" y="-106032"/>
+			<point x="67090" y="-106616"/>
+			<point x="66910" y="-107145"/>
+			<point x="67038" y="-107810"/>
+			<point x="67700" y="-108282"/>
+		</shape>
+	</zone>
+	<zone id="15209" name="22_14_camp_09_pc_3_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-1302" zMax="-702">
+			<point x="68656" y="-108107"/>
+			<point x="69063" y="-107170"/>
+			<point x="68628" y="-106337"/>
+			<point x="67744" y="-106032"/>
+			<point x="67090" y="-106616"/>
+			<point x="66910" y="-107145"/>
+			<point x="67038" y="-107810"/>
+			<point x="67700" y="-108282"/>
+		</shape>
+	</zone>
+	<zone id="15210" name="22_14_camp_09_pc_3_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-1302" zMax="-702">
+			<point x="68656" y="-108107"/>
+			<point x="69063" y="-107170"/>
+			<point x="68628" y="-106337"/>
+			<point x="67744" y="-106032"/>
+			<point x="67090" y="-106616"/>
+			<point x="66910" y="-107145"/>
+			<point x="67038" y="-107810"/>
+			<point x="67700" y="-108282"/>
+		</shape>
+	</zone>
+	<zone id="15211" name="22_14_camp_09_pc_3_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-1302" zMax="-702">
+			<point x="68656" y="-108107"/>
+			<point x="69063" y="-107170"/>
+			<point x="68628" y="-106337"/>
+			<point x="67744" y="-106032"/>
+			<point x="67090" y="-106616"/>
+			<point x="66910" y="-107145"/>
+			<point x="67038" y="-107810"/>
+			<point x="67700" y="-108282"/>
+		</shape>
+	</zone>
+	<zone id="15212" name="22_14_camp_09_npc_3_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-1302" zMax="-702">
+			<point x="68656" y="-108107"/>
+			<point x="69063" y="-107170"/>
+			<point x="68628" y="-106337"/>
+			<point x="67744" y="-106032"/>
+			<point x="67090" y="-106616"/>
+			<point x="66910" y="-107145"/>
+			<point x="67038" y="-107810"/>
+			<point x="67700" y="-108282"/>
+		</shape>
+	</zone>
+	<zone id="15213" name="22_14_camp_09_npc_3_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-1302" zMax="-702">
+			<point x="68656" y="-108107"/>
+			<point x="69063" y="-107170"/>
+			<point x="68628" y="-106337"/>
+			<point x="67744" y="-106032"/>
+			<point x="67090" y="-106616"/>
+			<point x="66910" y="-107145"/>
+			<point x="67038" y="-107810"/>
+			<point x="67700" y="-108282"/>
+		</shape>
+	</zone>
+	<zone id="15214" name="22_14_camp_09_npc_3_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-1302" zMax="-702">
+			<point x="68656" y="-108107"/>
+			<point x="69063" y="-107170"/>
+			<point x="68628" y="-106337"/>
+			<point x="67744" y="-106032"/>
+			<point x="67090" y="-106616"/>
+			<point x="66910" y="-107145"/>
+			<point x="67038" y="-107810"/>
+			<point x="67700" y="-108282"/>
+		</shape>
+	</zone>
+	<zone id="15215" name="22_14_camp_09_npc_3_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-1302" zMax="-702">
+			<point x="68656" y="-108107"/>
+			<point x="69063" y="-107170"/>
+			<point x="68628" y="-106337"/>
+			<point x="67744" y="-106032"/>
+			<point x="67090" y="-106616"/>
+			<point x="66910" y="-107145"/>
+			<point x="67038" y="-107810"/>
+			<point x="67700" y="-108282"/>
+		</shape>
+	</zone>
+	<zone id="15216" name="22_14_camp_10_pc_1_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3290" zMax="-2690">
+			<point x="61654" y="-117461"/>
+			<point x="62204" y="-118131"/>
+			<point x="63330" y="-117768"/>
+			<point x="63171" y="-116750"/>
+			<point x="62481" y="-116277"/>
+			<point x="62481" y="-116277"/>
+			<point x="61598" y="-116550"/>
+		</shape>
+	</zone>
+	<zone id="15217" name="22_14_camp_10_pc_1_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3290" zMax="-2690">
+			<point x="61654" y="-117461"/>
+			<point x="62204" y="-118131"/>
+			<point x="63330" y="-117768"/>
+			<point x="63171" y="-116750"/>
+			<point x="62481" y="-116277"/>
+			<point x="62481" y="-116277"/>
+			<point x="61598" y="-116550"/>
+		</shape>
+	</zone>
+	<zone id="15218" name="22_14_camp_10_pc_1_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3290" zMax="-2690">
+			<point x="61654" y="-117461"/>
+			<point x="62204" y="-118131"/>
+			<point x="63330" y="-117768"/>
+			<point x="63171" y="-116750"/>
+			<point x="62481" y="-116277"/>
+			<point x="62481" y="-116277"/>
+			<point x="61598" y="-116550"/>
+		</shape>
+	</zone>
+	<zone id="15219" name="22_14_camp_10_pc_1_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3290" zMax="-2690">
+			<point x="61654" y="-117461"/>
+			<point x="62204" y="-118131"/>
+			<point x="63330" y="-117768"/>
+			<point x="63171" y="-116750"/>
+			<point x="62481" y="-116277"/>
+			<point x="62481" y="-116277"/>
+			<point x="61598" y="-116550"/>
+		</shape>
+	</zone>
+	<zone id="15220" name="22_14_camp_10_npc_1_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3290" zMax="-2690">
+			<point x="61654" y="-117461"/>
+			<point x="62204" y="-118131"/>
+			<point x="63330" y="-117768"/>
+			<point x="63171" y="-116750"/>
+			<point x="62481" y="-116277"/>
+			<point x="62481" y="-116277"/>
+			<point x="61598" y="-116550"/>
+		</shape>
+	</zone>
+	<zone id="15221" name="22_14_camp_10_npc_1_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3290" zMax="-2690">
+			<point x="61654" y="-117461"/>
+			<point x="62204" y="-118131"/>
+			<point x="63330" y="-117768"/>
+			<point x="63171" y="-116750"/>
+			<point x="62481" y="-116277"/>
+			<point x="62481" y="-116277"/>
+			<point x="61598" y="-116550"/>
+		</shape>
+	</zone>
+	<zone id="15222" name="22_14_camp_10_npc_1_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3290" zMax="-2690">
+			<point x="61654" y="-117461"/>
+			<point x="62204" y="-118131"/>
+			<point x="63330" y="-117768"/>
+			<point x="63171" y="-116750"/>
+			<point x="62481" y="-116277"/>
+			<point x="62481" y="-116277"/>
+			<point x="61598" y="-116550"/>
+		</shape>
+	</zone>
+	<zone id="15223" name="22_14_camp_10_npc_1_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3290" zMax="-2690">
+			<point x="61654" y="-117461"/>
+			<point x="62204" y="-118131"/>
+			<point x="63330" y="-117768"/>
+			<point x="63171" y="-116750"/>
+			<point x="62481" y="-116277"/>
+			<point x="62481" y="-116277"/>
+			<point x="61598" y="-116550"/>
+		</shape>
+	</zone>
+	<zone id="15224" name="22_14_camp_10_pc_2_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3290" zMax="-2690">
+			<point x="61654" y="-117461"/>
+			<point x="62204" y="-118131"/>
+			<point x="63330" y="-117768"/>
+			<point x="63171" y="-116750"/>
+			<point x="62481" y="-116277"/>
+			<point x="62481" y="-116277"/>
+			<point x="61598" y="-116550"/>
+		</shape>
+	</zone>
+	<zone id="15225" name="22_14_camp_10_pc_2_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3290" zMax="-2690">
+			<point x="61654" y="-117461"/>
+			<point x="62204" y="-118131"/>
+			<point x="63330" y="-117768"/>
+			<point x="63171" y="-116750"/>
+			<point x="62481" y="-116277"/>
+			<point x="62481" y="-116277"/>
+			<point x="61598" y="-116550"/>
+		</shape>
+	</zone>
+	<zone id="15226" name="22_14_camp_10_pc_2_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3290" zMax="-2690">
+			<point x="61654" y="-117461"/>
+			<point x="62204" y="-118131"/>
+			<point x="63330" y="-117768"/>
+			<point x="63171" y="-116750"/>
+			<point x="62481" y="-116277"/>
+			<point x="62481" y="-116277"/>
+			<point x="61598" y="-116550"/>
+		</shape>
+	</zone>
+	<zone id="15227" name="22_14_camp_10_pc_2_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3290" zMax="-2690">
+			<point x="61654" y="-117461"/>
+			<point x="62204" y="-118131"/>
+			<point x="63330" y="-117768"/>
+			<point x="63171" y="-116750"/>
+			<point x="62481" y="-116277"/>
+			<point x="62481" y="-116277"/>
+			<point x="61598" y="-116550"/>
+		</shape>
+	</zone>
+	<zone id="15228" name="22_14_camp_10_npc_2_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3290" zMax="-2690">
+			<point x="61654" y="-117461"/>
+			<point x="62204" y="-118131"/>
+			<point x="63330" y="-117768"/>
+			<point x="63171" y="-116750"/>
+			<point x="62481" y="-116277"/>
+			<point x="62481" y="-116277"/>
+			<point x="61598" y="-116550"/>
+		</shape>
+	</zone>
+	<zone id="15229" name="22_14_camp_10_npc_2_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3290" zMax="-2690">
+			<point x="61654" y="-117461"/>
+			<point x="62204" y="-118131"/>
+			<point x="63330" y="-117768"/>
+			<point x="63171" y="-116750"/>
+			<point x="62481" y="-116277"/>
+			<point x="62481" y="-116277"/>
+			<point x="61598" y="-116550"/>
+		</shape>
+	</zone>
+	<zone id="15230" name="22_14_camp_10_npc_2_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3290" zMax="-2690">
+			<point x="61654" y="-117461"/>
+			<point x="62204" y="-118131"/>
+			<point x="63330" y="-117768"/>
+			<point x="63171" y="-116750"/>
+			<point x="62481" y="-116277"/>
+			<point x="62481" y="-116277"/>
+			<point x="61598" y="-116550"/>
+		</shape>
+	</zone>
+	<zone id="15231" name="22_14_camp_10_npc_2_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3290" zMax="-2690">
+			<point x="61654" y="-117461"/>
+			<point x="62204" y="-118131"/>
+			<point x="63330" y="-117768"/>
+			<point x="63171" y="-116750"/>
+			<point x="62481" y="-116277"/>
+			<point x="62481" y="-116277"/>
+			<point x="61598" y="-116550"/>
+		</shape>
+	</zone>
+	<zone id="15232" name="22_14_camp_10_pc_3_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3290" zMax="-2690">
+			<point x="61654" y="-117461"/>
+			<point x="62204" y="-118131"/>
+			<point x="63330" y="-117768"/>
+			<point x="63171" y="-116750"/>
+			<point x="62481" y="-116277"/>
+			<point x="62481" y="-116277"/>
+			<point x="61598" y="-116550"/>
+		</shape>
+	</zone>
+	<zone id="15233" name="22_14_camp_10_pc_3_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3290" zMax="-2690">
+			<point x="61654" y="-117461"/>
+			<point x="62204" y="-118131"/>
+			<point x="63330" y="-117768"/>
+			<point x="63171" y="-116750"/>
+			<point x="62481" y="-116277"/>
+			<point x="62481" y="-116277"/>
+			<point x="61598" y="-116550"/>
+		</shape>
+	</zone>
+	<zone id="15234" name="22_14_camp_10_pc_3_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3290" zMax="-2690">
+			<point x="61654" y="-117461"/>
+			<point x="62204" y="-118131"/>
+			<point x="63330" y="-117768"/>
+			<point x="63171" y="-116750"/>
+			<point x="62481" y="-116277"/>
+			<point x="62481" y="-116277"/>
+			<point x="61598" y="-116550"/>
+		</shape>
+	</zone>
+	<zone id="15235" name="22_14_camp_10_pc_3_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3290" zMax="-2690">
+			<point x="61654" y="-117461"/>
+			<point x="62204" y="-118131"/>
+			<point x="63330" y="-117768"/>
+			<point x="63171" y="-116750"/>
+			<point x="62481" y="-116277"/>
+			<point x="62481" y="-116277"/>
+			<point x="61598" y="-116550"/>
+		</shape>
+	</zone>
+	<zone id="15236" name="22_14_camp_10_npc_3_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3290" zMax="-2690">
+			<point x="61654" y="-117461"/>
+			<point x="62204" y="-118131"/>
+			<point x="63330" y="-117768"/>
+			<point x="63171" y="-116750"/>
+			<point x="62481" y="-116277"/>
+			<point x="62481" y="-116277"/>
+			<point x="61598" y="-116550"/>
+		</shape>
+	</zone>
+	<zone id="15237" name="22_14_camp_10_npc_3_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3290" zMax="-2690">
+			<point x="61654" y="-117461"/>
+			<point x="62204" y="-118131"/>
+			<point x="63330" y="-117768"/>
+			<point x="63171" y="-116750"/>
+			<point x="62481" y="-116277"/>
+			<point x="62481" y="-116277"/>
+			<point x="61598" y="-116550"/>
+		</shape>
+	</zone>
+	<zone id="15238" name="22_14_camp_10_npc_3_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3290" zMax="-2690">
+			<point x="61654" y="-117461"/>
+			<point x="62204" y="-118131"/>
+			<point x="63330" y="-117768"/>
+			<point x="63171" y="-116750"/>
+			<point x="62481" y="-116277"/>
+			<point x="62481" y="-116277"/>
+			<point x="61598" y="-116550"/>
+		</shape>
+	</zone>
+	<zone id="15239" name="22_14_camp_10_npc_3_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3290" zMax="-2690">
+			<point x="61654" y="-117461"/>
+			<point x="62204" y="-118131"/>
+			<point x="63330" y="-117768"/>
+			<point x="63171" y="-116750"/>
+			<point x="62481" y="-116277"/>
+			<point x="62481" y="-116277"/>
+			<point x="61598" y="-116550"/>
+		</shape>
+	</zone>
+	<zone id="15240" name="22_14_camp_11_pc_1_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="62815" y="-107085"/>
+			<point x="63776" y="-107069"/>
+			<point x="63702" y="-106262"/>
+			<point x="62981" y="-105977"/>
+			<point x="62303" y="-106514"/>
+			<point x="62303" y="-106514"/>
+		</shape>
+	</zone>
+	<zone id="15241" name="22_14_camp_11_pc_1_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="62815" y="-107085"/>
+			<point x="63776" y="-107069"/>
+			<point x="63702" y="-106262"/>
+			<point x="62981" y="-105977"/>
+			<point x="62303" y="-106514"/>
+			<point x="62303" y="-106514"/>
+		</shape>
+	</zone>
+	<zone id="15242" name="22_14_camp_11_pc_1_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="62815" y="-107085"/>
+			<point x="63776" y="-107069"/>
+			<point x="63702" y="-106262"/>
+			<point x="62981" y="-105977"/>
+			<point x="62303" y="-106514"/>
+			<point x="62303" y="-106514"/>
+		</shape>
+	</zone>
+	<zone id="15243" name="22_14_camp_11_pc_1_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6150" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="62815" y="-107085"/>
+			<point x="63776" y="-107069"/>
+			<point x="63702" y="-106262"/>
+			<point x="62981" y="-105977"/>
+			<point x="62303" y="-106514"/>
+			<point x="62303" y="-106514"/>
+		</shape>
+	</zone>
+	<zone id="15244" name="22_14_camp_11_npc_1_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="62815" y="-107085"/>
+			<point x="63776" y="-107069"/>
+			<point x="63702" y="-106262"/>
+			<point x="62981" y="-105977"/>
+			<point x="62303" y="-106514"/>
+			<point x="62303" y="-106514"/>
+		</shape>
+	</zone>
+	<zone id="15245" name="22_14_camp_11_npc_1_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="62815" y="-107085"/>
+			<point x="63776" y="-107069"/>
+			<point x="63702" y="-106262"/>
+			<point x="62981" y="-105977"/>
+			<point x="62303" y="-106514"/>
+			<point x="62303" y="-106514"/>
+		</shape>
+	</zone>
+	<zone id="15246" name="22_14_camp_11_npc_1_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="62815" y="-107085"/>
+			<point x="63776" y="-107069"/>
+			<point x="63702" y="-106262"/>
+			<point x="62981" y="-105977"/>
+			<point x="62303" y="-106514"/>
+			<point x="62303" y="-106514"/>
+		</shape>
+	</zone>
+	<zone id="15247" name="22_14_camp_11_npc_1_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6151" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="62815" y="-107085"/>
+			<point x="63776" y="-107069"/>
+			<point x="63702" y="-106262"/>
+			<point x="62981" y="-105977"/>
+			<point x="62303" y="-106514"/>
+			<point x="62303" y="-106514"/>
+		</shape>
+	</zone>
+	<zone id="15248" name="22_14_camp_11_pc_2_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="62815" y="-107085"/>
+			<point x="63776" y="-107069"/>
+			<point x="63702" y="-106262"/>
+			<point x="62981" y="-105977"/>
+			<point x="62303" y="-106514"/>
+			<point x="62303" y="-106514"/>
+		</shape>
+	</zone>
+	<zone id="15249" name="22_14_camp_11_pc_2_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="62815" y="-107085"/>
+			<point x="63776" y="-107069"/>
+			<point x="63702" y="-106262"/>
+			<point x="62981" y="-105977"/>
+			<point x="62303" y="-106514"/>
+			<point x="62303" y="-106514"/>
+		</shape>
+	</zone>
+	<zone id="15250" name="22_14_camp_11_pc_2_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="62815" y="-107085"/>
+			<point x="63776" y="-107069"/>
+			<point x="63702" y="-106262"/>
+			<point x="62981" y="-105977"/>
+			<point x="62303" y="-106514"/>
+			<point x="62303" y="-106514"/>
+		</shape>
+	</zone>
+	<zone id="15251" name="22_14_camp_11_pc_2_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6152" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="62815" y="-107085"/>
+			<point x="63776" y="-107069"/>
+			<point x="63702" y="-106262"/>
+			<point x="62981" y="-105977"/>
+			<point x="62303" y="-106514"/>
+			<point x="62303" y="-106514"/>
+		</shape>
+	</zone>
+	<zone id="15252" name="22_14_camp_11_npc_2_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="62815" y="-107085"/>
+			<point x="63776" y="-107069"/>
+			<point x="63702" y="-106262"/>
+			<point x="62981" y="-105977"/>
+			<point x="62303" y="-106514"/>
+			<point x="62303" y="-106514"/>
+		</shape>
+	</zone>
+	<zone id="15253" name="22_14_camp_11_npc_2_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="62815" y="-107085"/>
+			<point x="63776" y="-107069"/>
+			<point x="63702" y="-106262"/>
+			<point x="62981" y="-105977"/>
+			<point x="62303" y="-106514"/>
+			<point x="62303" y="-106514"/>
+		</shape>
+	</zone>
+	<zone id="15254" name="22_14_camp_11_npc_2_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="62815" y="-107085"/>
+			<point x="63776" y="-107069"/>
+			<point x="63702" y="-106262"/>
+			<point x="62981" y="-105977"/>
+			<point x="62303" y="-106514"/>
+			<point x="62303" y="-106514"/>
+		</shape>
+	</zone>
+	<zone id="15255" name="22_14_camp_11_npc_2_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6153" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="62815" y="-107085"/>
+			<point x="63776" y="-107069"/>
+			<point x="63702" y="-106262"/>
+			<point x="62981" y="-105977"/>
+			<point x="62303" y="-106514"/>
+			<point x="62303" y="-106514"/>
+		</shape>
+	</zone>
+	<zone id="15256" name="22_14_camp_11_pc_3_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="62815" y="-107085"/>
+			<point x="63776" y="-107069"/>
+			<point x="63702" y="-106262"/>
+			<point x="62981" y="-105977"/>
+			<point x="62303" y="-106514"/>
+			<point x="62303" y="-106514"/>
+		</shape>
+	</zone>
+	<zone id="15257" name="22_14_camp_11_pc_3_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="62815" y="-107085"/>
+			<point x="63776" y="-107069"/>
+			<point x="63702" y="-106262"/>
+			<point x="62981" y="-105977"/>
+			<point x="62303" y="-106514"/>
+			<point x="62303" y="-106514"/>
+		</shape>
+	</zone>
+	<zone id="15258" name="22_14_camp_11_pc_3_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="62815" y="-107085"/>
+			<point x="63776" y="-107069"/>
+			<point x="63702" y="-106262"/>
+			<point x="62981" y="-105977"/>
+			<point x="62303" y="-106514"/>
+			<point x="62303" y="-106514"/>
+		</shape>
+	</zone>
+	<zone id="15259" name="22_14_camp_11_pc_3_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6154" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="62815" y="-107085"/>
+			<point x="63776" y="-107069"/>
+			<point x="63702" y="-106262"/>
+			<point x="62981" y="-105977"/>
+			<point x="62303" y="-106514"/>
+			<point x="62303" y="-106514"/>
+		</shape>
+	</zone>
+	<zone id="15260" name="22_14_camp_11_npc_3_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="62815" y="-107085"/>
+			<point x="63776" y="-107069"/>
+			<point x="63702" y="-106262"/>
+			<point x="62981" y="-105977"/>
+			<point x="62303" y="-106514"/>
+			<point x="62303" y="-106514"/>
+		</shape>
+	</zone>
+	<zone id="15261" name="22_14_camp_11_npc_3_lv2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="62815" y="-107085"/>
+			<point x="63776" y="-107069"/>
+			<point x="63702" y="-106262"/>
+			<point x="62981" y="-105977"/>
+			<point x="62303" y="-106514"/>
+			<point x="62303" y="-106514"/>
+		</shape>
+	</zone>
+	<zone id="15262" name="22_14_camp_11_npc_3_lv3">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="62815" y="-107085"/>
+			<point x="63776" y="-107069"/>
+			<point x="63702" y="-106262"/>
+			<point x="62981" y="-105977"/>
+			<point x="62303" y="-106514"/>
+			<point x="62303" y="-106514"/>
+		</shape>
+	</zone>
+	<zone id="15263" name="22_14_camp_11_npc_3_lv4">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="15" probe="100">
+				<skill id="6155" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="62815" y="-107085"/>
+			<point x="63776" y="-107069"/>
+			<point x="63702" y="-106262"/>
+			<point x="62981" y="-105977"/>
+			<point x="62303" y="-106514"/>
+			<point x="62303" y="-106514"/>
+		</shape>
+	</zone>
+
+
+	<zone id="5701" name="Buff place 1">
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="91" probe="100">
+				<skill id="6235" level="1"/>
+			</effect>
+		</effects>
+		<listener name="PlayerChangedZonesListener"/>
+		<shape type="Poly" zMin="-3738" zMax="-3000">
+			<point x="49915" y="-119323"/>
+			<point x="49839" y="-119145"/>
+			<point x="49843" y="-119092"/>
+			<point x="49914" y="-118924"/>
+			<point x="49959" y="-118874"/>
+			<point x="50128" y="-118810"/>
+			<point x="50185" y="-118809"/>
+			<point x="50363" y="-118879"/>
+			<point x="50404" y="-118916"/>
+			<point x="50473" y="-119093"/>
+			<point x="50478" y="-119147"/>
+			<point x="50407" y="-119311"/>
+			<point x="50358" y="-119368"/>
+			<point x="50177" y="-119444"/>
+			<point x="50135" y="-119443"/>
+			<point x="49960" y="-119368"/>
+		</shape>
+	</zone>
+
+	<zone id="5702" name="Buff place 2">
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="91" probe="100">
+				<skill id="6235" level="1"/>
+			</effect>
+		</effects>
+		<listener name="PlayerChangedZonesListener"/>
+		<shape type="Poly" zMin="-3450" zMax="-3000">
+			<point x="52016" y="-121772"/>
+			<point x="52184" y="-121704"/>
+			<point x="52261" y="-121708"/>
+			<point x="52408" y="-121768"/>
+			<point x="52460" y="-121823"/>
+			<point x="52532" y="-121990"/>
+			<point x="52527" y="-122049"/>
+			<point x="52450" y="-122216"/>
+			<point x="52414" y="-122257"/>
+			<point x="52248" y="-122328"/>
+			<point x="52187" y="-122319"/>
+			<point x="52020" y="-122254"/>
+			<point x="51983" y="-122212"/>
+			<point x="51909" y="-122040"/>
+			<point x="51912" y="-121986"/>
+			<point x="51982" y="-121812"/>
+		</shape>
+	</zone>
+
+	<zone id="5703" name="Buff place 3">
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="91" probe="100">
+				<skill id="6235" level="1"/>
+			</effect>
+		</effects>
+		<listener name="PlayerChangedZonesListener"/>
+		<shape type="Poly" zMin="-3220" zMax="-3000">
+			<point x="53682" y="-124675"/>
+			<point x="53914" y="-124590"/>
+			<point x="54088" y="-124664"/>
+			<point x="54126" y="-124731"/>
+			<point x="54197" y="-124893"/>
+			<point x="54194" y="-124945"/>
+			<point x="54128" y="-125120"/>
+			<point x="53910" y="-125224"/>
+			<point x="53865" y="-125226"/>
+			<point x="53685" y="-125156"/>
+			<point x="53649" y="-125115"/>
+			<point x="53576" y="-124952"/>
+			<point x="53583" y="-124883"/>
+			<point x="53656" y="-124728"/>
+		</shape>
+	</zone>
+
+	<zone id="5704" name="Buff place 4">
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="91" probe="100">
+				<skill id="6235" level="1"/>
+			</effect>
+		</effects>
+		<listener name="PlayerChangedZonesListener"/>
+		<shape type="Poly" zMin="-3250" zMax="-3000">
+			<point x="50471" y="-124946"/>
+			<point x="50392" y="-125112"/>
+			<point x="50363" y="-125158"/>
+			<point x="50209" y="-125217"/>
+			<point x="50106" y="-125220"/>
+			<point x="49976" y="-125160"/>
+			<point x="49915" y="-125110"/>
+			<point x="49844" y="-124935"/>
+			<point x="49843" y="-124891"/>
+			<point x="49922" y="-124708"/>
+			<point x="50141" y="-124610"/>
+			<point x="50198" y="-124607"/>
+			<point x="50361" y="-124686"/>
+			<point x="50411" y="-124726"/>
+			<point x="50472" y="-124888"/>
+		</shape>
+	</zone>
+
+	<zone id="5705" name="Buff place 5">
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="91" probe="100">
+				<skill id="6235" level="1"/>
+			</effect>
+		</effects>
+		<listener name="PlayerChangedZonesListener"/>
+		<shape type="Poly" zMin="-3250" zMax="-3000">
+			<point x="46776" y="-124718"/>
+			<point x="46856" y="-124888"/>
+			<point x="46835" y="-124949"/>
+			<point x="46766" y="-125118"/>
+			<point x="46722" y="-125165"/>
+			<point x="46566" y="-125228"/>
+			<point x="46499" y="-125224"/>
+			<point x="46333" y="-125153"/>
+			<point x="46287" y="-125109"/>
+			<point x="46216" y="-124952"/>
+			<point x="46228" y="-124883"/>
+			<point x="46296" y="-124728"/>
+			<point x="46344" y="-124669"/>
+			<point x="46499" y="-124609"/>
+			<point x="46567" y="-124608"/>
+			<point x="46718" y="-124674"/>
+		</shape>
+	</zone>
+
+	<zone id="5706" name="Buff place 6">
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="91" probe="100">
+				<skill id="6235" level="1"/>
+			</effect>
+		</effects>
+		<listener name="PlayerChangedZonesListener"/>
+		<shape type="Poly" zMin="-3450" zMax="-3000">
+			<point x="47898" y="-122204"/>
+			<point x="47826" y="-122043"/>
+			<point x="47821" y="-121987"/>
+			<point x="47903" y="-121811"/>
+			<point x="47950" y="-121774"/>
+			<point x="48116" y="-121712"/>
+			<point x="48335" y="-121783"/>
+			<point x="48385" y="-121810"/>
+			<point x="48450" y="-121991"/>
+			<point x="48446" y="-122058"/>
+			<point x="48376" y="-122200"/>
+			<point x="48348" y="-122257"/>
+			<point x="48172" y="-122326"/>
+			<point x="48110" y="-122323"/>
+			<point x="47922" y="-122252"/>
+		</shape>
+	</zone>
+
+
+	<zone id="5600" name="Stakato Nest Buff/Debuff Zone">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<shape type="Rect" zMin="-8000" zMax="-4000">
+			<point x="74312" y="-41640"/>
+			<point x="89912" y="-58520"/>
+		</shape>
+	</zone>
+
+	<zone id="5801" name="Isle of Prayer debuff">
+		<attr name="target" val="pc"/>
+		<attr name="type" val="altered"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="5037" level="3"/>
+			</effect>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4145" level="3"/>
+			</effect>
+		</effects>
+		<listener name="PlayerChangedZonesListener"/>
+		<shape type="Poly" zMin="-4500" zMax="1000">
+			<point x="150456" y="159368"/>
+			<point x="149848" y="158760"/>
+			<point x="148814" y="158308"/>
+			<point x="147512" y="156136"/>
+			<point x="146504" y="152776"/>
+			<point x="147432" y="151400"/>
+			<point x="149207" y="149078"/>
+			<point x="150376" y="146408"/>
+			<point x="152104" y="144696"/>
+			<point x="159272" y="147656"/>
+			<point x="158776" y="149464"/>
+			<point x="161112" y="151256"/>
+			<point x="161528" y="152056"/>
+			<point x="161352" y="152856"/>
+			<point x="160680" y="155784"/>
+			<point x="159775" y="156572"/>
+			<point x="159160" y="156984"/>
+			<point x="158436" y="158875"/>
+			<point x="158152" y="162232"/>
+			<point x="157288" y="162008"/>
+			<point x="157304" y="158952"/>
+			<point x="156264" y="158792"/>
+			<point x="155832" y="159336"/>
+			<point x="154696" y="160520"/>
+			<point x="154696" y="163800"/>
+			<point x="152440" y="162344"/>
+		</shape>
+	</zone>
+
+</list>

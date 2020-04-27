@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="12900" name="Demon Splinter - Thunder {PvP} - Critical Stun">
+		<for>
+			<skill id="3571" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="12903" name="Draconic Bow - Earth {PvP} - Crt. Slow">
+		<for>
+			<skill id="3574" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="12915" name="Sarunga - Earth {PvP} - Crt. Slow">
+		<for>
+			<skill id="3574" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="12927" name="Imperial Staff - Nature {PvP} - Magic Hold">
+		<for>
+			<skill id="3577" level="1" chance="20" action="magic" />
+		</for>
+	</item>
+	<item id="12976" name="Dynasty Halberd - Earth {PvP} - Critical Stun">
+		<for>
+			<skill id="3070" level="4" chance="100" action="crit" />
+		</for>
+	</item>
+</list>

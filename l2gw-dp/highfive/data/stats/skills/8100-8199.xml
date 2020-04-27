@@ -1,0 +1,1597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<skill id="8100" levels="1" name="Augment Option - Water Attack">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="attackWater" val="4"/>
+		</for>
+	</skill>
+	<skill id="8101" levels="1" name="Augment Option - Wind Attack">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="attackWind" val="4"/>
+		</for>
+	</skill>
+	<skill id="8102" levels="1" name="Augment Option - Earth Attack">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="attackEarth" val="4"/>
+		</for>
+	</skill>
+	<skill id="8103" levels="1" name="Augment Option - Divine Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="holyAttr" val="4"/>
+		</for>
+	</skill>
+	<skill id="8104" levels="1" name="Augment Option - Dark Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="darkAttr" val="4"/>
+		</for>
+	</skill>
+	<skill id="8105" levels="1" name="Augment Option - Fire Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="fireAttr" val="4"/>
+		</for>
+	</skill>
+	<skill id="8106" levels="1" name="Augment Option - Water Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="waterAttr" val="4"/>
+		</for>
+	</skill>
+	<skill id="8107" levels="1" name="Augment Option - Wind Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="windAttr" val="4"/>
+		</for>
+	</skill>
+	<skill id="8108" levels="1" name="Augment Option - Earth Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="earthAttr" val="4"/>
+		</for>
+	</skill>
+	<skill id="8109" levels="1" name="Augment Option - Divine Attack">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="attackHoly" val="4"/>
+		</for>
+	</skill>
+	<skill id="8110" levels="1" name="Augment Option - Dark Attack">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="attackDark" val="4"/>
+		</for>
+	</skill>
+	<skill id="8111" levels="1" name="Augment Option - Fire Attack">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="attackFire" val="4"/>
+		</for>
+	</skill>
+	<skill id="8112" levels="1" name="Augment Option - Water Attack">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="attackWater" val="4"/>
+		</for>
+	</skill>
+	<skill id="8113" levels="1" name="Augment Option - Wind Attack">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="attackWind" val="4"/>
+		</for>
+	</skill>
+	<skill id="8114" levels="1" name="Augment Option - Earth Attack">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="attackEarth" val="4"/>
+		</for>
+	</skill>
+	<skill id="8115" levels="1" name="Augment Option - Divine Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="holyAttr" val="4"/>
+		</for>
+	</skill>
+	<skill id="8116" levels="1" name="Augment Option - Dark Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="darkAttr" val="4"/>
+		</for>
+	</skill>
+	<skill id="8117" levels="1" name="Augment Option - Fire Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="fireAttr" val="4"/>
+		</for>
+	</skill>
+	<skill id="8118" levels="1" name="Augment Option - Water Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="waterAttr" val="4"/>
+		</for>
+	</skill>
+	<skill id="8119" levels="1" name="Augment Option - Wind Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="windAttr" val="4"/>
+		</for>
+	</skill>
+	<skill id="8120" levels="1" name="Augment Option - Earth Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="earthAttr" val="4"/>
+		</for>
+	</skill>
+	<skill id="8121" levels="1" name="Augment Option - Divine Attack">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="attackHoly" val="4"/>
+		</for>
+	</skill>
+	<skill id="8122" levels="1" name="Augment Option - Dark Attack">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="attackDark" val="4"/>
+		</for>
+	</skill>
+	<skill id="8123" levels="1" name="Augment Option - Fire Attack">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="attackFire" val="4"/>
+		</for>
+	</skill>
+	<skill id="8124" levels="1" name="Augment Option - Water Attack">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="attackWater" val="4"/>
+		</for>
+	</skill>
+	<skill id="8125" levels="1" name="Augment Option - Wind Attack">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="attackWind" val="4"/>
+		</for>
+	</skill>
+	<skill id="8126" levels="1" name="Augment Option - Earth Attack">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="attackEarth" val="4"/>
+		</for>
+	</skill>
+	<skill id="8127" levels="1" name="Augment Option - Divine Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="holyAttr" val="4"/>
+		</for>
+	</skill>
+	<skill id="8128" levels="1" name="Augment Option - Dark Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="darkAttr" val="4"/>
+		</for>
+	</skill>
+	<skill id="8129" levels="1" name="Augment Option - Fire Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="fireAttr" val="4"/>
+		</for>
+	</skill>
+	<skill id="8130" levels="1" name="Augment Option - Water Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="waterAttr" val="4"/>
+		</for>
+	</skill>
+	<skill id="8131" levels="1" name="Augment Option - Wind Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="windAttr" val="4"/>
+		</for>
+	</skill>
+	<skill id="8132" levels="1" name="Augment Option - Earth Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="earthAttr" val="4"/>
+		</for>
+	</skill>
+	<skill id="8133" levels="1" name="Augment Option - Divine Attack">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="attackHoly" val="4"/>
+		</for>
+	</skill>
+	<skill id="8134" levels="1" name="Augment Option - Dark Attack">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="attackDark" val="4"/>
+		</for>
+	</skill>
+	<skill id="8135" levels="1" name="Augment Option - Fire Attack">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="attackFire" val="4"/>
+		</for>
+	</skill>
+	<skill id="8136" levels="1" name="Augment Option - Water Attack">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="attackWater" val="4"/>
+		</for>
+	</skill>
+	<skill id="8137" levels="1" name="Augment Option - Wind Attack">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="attackWind" val="4"/>
+		</for>
+	</skill>
+	<skill id="8138" levels="1" name="Augment Option - Earth Attack">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="attackEarth" val="4"/>
+		</for>
+	</skill>
+	<skill id="8139" levels="1" name="Augment Option - Divine Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="holyAttr" val="4"/>
+		</for>
+	</skill>
+	<skill id="8140" levels="1" name="Augment Option - Dark Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="darkAttr" val="4"/>
+		</for>
+	</skill>
+	<skill id="8141" levels="1" name="Augment Option - Fire Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="fireAttr" val="4"/>
+		</for>
+	</skill>
+	<skill id="8142" levels="1" name="Augment Option - Water Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="waterAttr" val="4"/>
+		</for>
+	</skill>
+	<skill id="8143" levels="1" name="Augment Option - Wind Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="windAttr" val="4"/>
+		</for>
+	</skill>
+	<skill id="8144" levels="1" name="Augment Option - Earth Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="earthAttr" val="4"/>
+		</for>
+	</skill>
+	<skill id="8145" levels="1" name="Augment Option - Stun Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="stunRcpt" val="0.96"/>
+		</for>
+	</skill>
+	<skill id="8146" levels="1" name="Augment Option - Bleed Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="bleedRcpt" val="0.96"/>
+		</for>
+	</skill>
+	<skill id="8147" levels="1" name="Augment Option - Poison Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="poisonRcpt" val="0.96"/>
+		</for>
+	</skill>
+	<skill id="8148" levels="1" name="Augment Option - Sleep Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="sleepRcpt" val="0.96"/>
+		</for>
+	</skill>
+	<skill id="8149" levels="1" name="Augment Option - Paralysis Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="paralyzeRcpt" val="0.96"/>
+		</for>
+	</skill>
+	<skill id="8150" levels="1" name="Augment Option - Mental Attack Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="fearRcpt" val="0.96"/>
+			<mul order="0x30" stat="rootRcpt" val="0.96"/>
+			<mul order="0x30" stat="silenceRcpt" val="0.96"/>
+		</for>
+	</skill>
+	<skill id="8151" levels="1" name="Augment Option - Stun Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="stunPower" val="1.04"/>
+		</for>
+	</skill>
+	<skill id="8152" levels="1" name="Augment Option - Bleed Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="bleedPower" val="1.04"/>
+		</for>
+	</skill>
+	<skill id="8153" levels="1" name="Augment Option - Poison Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="poisonPower" val="1.04"/>
+		</for>
+	</skill>
+	<skill id="8154" levels="1" name="Augment Option - Sleep Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="sleepPower" val="1.04"/>
+		</for>
+	</skill>
+	<skill id="8155" levels="1" name="Augment Option - Paralysis Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="paralyzePower" val="1.04"/>
+		</for>
+	</skill>
+	<skill id="8156" levels="1" name="Augment Option - Mental Attack Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="fearPower" val="1.04"/>
+			<mul order="0x30" stat="rootPower" val="1.04"/>
+			<mul order="0x30" stat="silencePower" val="1.04"/>
+		</for>
+	</skill>
+	<skill id="8157" levels="1" name="Augment Option - Stun Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="stunRcpt" val="0.96"/>
+		</for>
+	</skill>
+	<skill id="8158" levels="1" name="Augment Option - Bleed Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="bleedRcpt" val="0.96"/>
+		</for>
+	</skill>
+	<skill id="8159" levels="1" name="Augment Option - Poison Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="poisonRcpt" val="0.96"/>
+		</for>
+	</skill>
+	<skill id="8160" levels="1" name="Augment Option - Sleep Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="sleepRcpt" val="0.96"/>
+		</for>
+	</skill>
+	<skill id="8161" levels="1" name="Augment Option - Paralysis Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="paralyzeRcpt" val="0.96"/>
+		</for>
+	</skill>
+	<skill id="8162" levels="1" name="Augment Option - Mental Attack Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="fearRcpt" val="0.96"/>
+			<mul order="0x30" stat="rootRcpt" val="0.96"/>
+			<mul order="0x30" stat="silenceRcpt" val="0.96"/>
+		</for>
+	</skill>
+	<skill id="8163" levels="1" name="Augment Option - Stun Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="stunPower" val="1.04"/>
+		</for>
+	</skill>
+	<skill id="8164" levels="1" name="Augment Option - Bleed Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="bleedPower" val="1.04"/>
+		</for>
+	</skill>
+	<skill id="8165" levels="1" name="Augment Option - Poison Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="poisonPower" val="1.04"/>
+		</for>
+	</skill>
+	<skill id="8166" levels="1" name="Augment Option - Sleep Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="sleepPower" val="1.04"/>
+		</for>
+	</skill>
+	<skill id="8167" levels="1" name="Augment Option - Paralysis Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="paralyzePower" val="1.04"/>
+		</for>
+	</skill>
+	<skill id="8168" levels="1" name="Augment Option - Mental Attack Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="fearPower" val="1.04"/>
+			<mul order="0x30" stat="rootPower" val="1.04"/>
+			<mul order="0x30" stat="silencePower" val="1.04"/>
+		</for>
+	</skill>
+	<skill id="8169" levels="1" name="Augment Option - Stun Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="stunRcpt" val="0.96"/>
+		</for>
+	</skill>
+	<skill id="8170" levels="1" name="Augment Option - Bleed Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="bleedRcpt" val="0.96"/>
+		</for>
+	</skill>
+	<skill id="8171" levels="1" name="Augment Option - Poison Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="poisonRcpt" val="0.96"/>
+		</for>
+	</skill>
+	<skill id="8172" levels="1" name="Augment Option - Sleep Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="sleepRcpt" val="0.96"/>
+		</for>
+	</skill>
+	<skill id="8173" levels="1" name="Augment Option - Paralysis Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="paralyzeRcpt" val="0.96"/>
+		</for>
+	</skill>
+	<skill id="8174" levels="1" name="Augment Option - Mental Attack Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="fearRcpt" val="0.96"/>
+			<mul order="0x30" stat="rootRcpt" val="0.96"/>
+			<mul order="0x30" stat="silenceRcpt" val="0.96"/>
+		</for>
+	</skill>
+	<skill id="8175" levels="1" name="Augment Option - Stun Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="stunPower" val="1.04"/>
+		</for>
+	</skill>
+	<skill id="8176" levels="1" name="Augment Option - Bleed Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="bleedPower" val="1.04"/>
+		</for>
+	</skill>
+	<skill id="8177" levels="1" name="Augment Option - Poison Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="poisonPower" val="1.04"/>
+		</for>
+	</skill>
+	<skill id="8178" levels="1" name="Augment Option - Sleep Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="sleepPower" val="1.04"/>
+		</for>
+	</skill>
+	<skill id="8179" levels="1" name="Augment Option - Paralysis Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="paralyzePower" val="1.04"/>
+		</for>
+	</skill>
+	<skill id="8180" levels="1" name="Augment Option - Mental Attack Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="fearPower" val="1.04"/>
+			<mul order="0x30" stat="rootPower" val="1.04"/>
+			<mul order="0x30" stat="silencePower" val="1.04"/>
+		</for>
+	</skill>
+	<skill id="8181" levels="1" name="Augment Option - Stun Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="stunRcpt" val="0.96"/>
+		</for>
+	</skill>
+	<skill id="8182" levels="1" name="Augment Option - Bleed Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="bleedRcpt" val="0.96"/>
+		</for>
+	</skill>
+	<skill id="8183" levels="1" name="Augment Option - Poison Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="poisonRcpt" val="0.96"/>
+		</for>
+	</skill>
+	<skill id="8184" levels="1" name="Augment Option - Sleep Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="sleepRcpt" val="0.96"/>
+		</for>
+	</skill>
+	<skill id="8185" levels="1" name="Augment Option - Paralysis Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="paralyzeRcpt" val="0.96"/>
+		</for>
+	</skill>
+	<skill id="8186" levels="1" name="Augment Option - Mental Attack Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="fearRcpt" val="0.96"/>
+			<mul order="0x30" stat="rootRcpt" val="0.96"/>
+			<mul order="0x30" stat="silenceRcpt" val="0.96"/>
+		</for>
+	</skill>
+	<skill id="8187" levels="1" name="Augment Option - Stun Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="stunPower" val="1.04"/>
+		</for>
+	</skill>
+	<skill id="8188" levels="1" name="Augment Option - Bleed Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="bleedPower" val="1.04"/>
+		</for>
+	</skill>
+	<skill id="8189" levels="1" name="Augment Option - Poison Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="poisonPower" val="1.04"/>
+		</for>
+	</skill>
+	<skill id="8190" levels="1" name="Augment Option - Sleep Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="sleepPower" val="1.04"/>
+		</for>
+	</skill>
+	<skill id="8191" levels="1" name="Augment Option - Paralysis Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="paralyzePower" val="1.04"/>
+		</for>
+	</skill>
+	<skill id="8192" levels="1" name="Augment Option - Mental Attack Resistance">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Accessory that displays the master's skill.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="fearPower" val="1.04"/>
+			<mul order="0x30" stat="rootPower" val="1.04"/>
+			<mul order="0x30" stat="silencePower" val="1.04"/>
+		</for>
+	</skill>
+	<skill id="8193" levels="1" name="Heavy Armor of Nightmare Set - PvP">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Increases resistance to sleep/hold attacks and P. Atk. Decreases damage received during PvP and has a chance to decrease all the attacker's speeds. CON+2, DEX-2
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="pAtk" val="1.04"/>
+			<mul order="0x30" stat="rootRcpt" val="0.3"/>
+			<mul order="0x30" stat="sleepRcpt" val="0.3"/>
+			<add order="0x40" stat="CON" val="2"/>
+			<sub order="0x40" stat="DEX" val="2"/>
+			<mul order="0x30" stat="pDef" val="1.05">
+				<target pvp="true"/>
+			</mul>
+			<mul order="0x30" stat="mDef" val="1.05">
+				<target pvp="true"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="8194" levels="1" name="Heavy Majestic Plate Armor Set - PvP">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Increases resistance to shock attacks and P. Atk./accuracy. Decreases damage received during PvP and has a chance to decrease all the attacker's speeds. STR+2. CON-2
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="pAtk" val="1.04"/>
+			<add order="0x40" stat="accCombat" val="3"/>
+			<add order="0x40" stat="STR" val="2"/>
+			<sub order="0x40" stat="CON" val="2"/>
+			<mul order="0x30" stat="stunRcpt" val="0.5"/>
+			<mul order="0x30" stat="pDef" val="1.05">
+				<target pvp="true"/>
+			</mul>
+			<mul order="0x30" stat="mDef" val="1.05">
+				<target pvp="true"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="8195" levels="1" name="Light Nightmarish Leather Armor Set - PvP">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Increases resistance to sleep/hold attacks and magic resistance. A portion of the damage inflicted on the enemy is used to recover one's own HP. Excludes damage caused by skills and long-range attacks. Decreases damage received during PvP and has a chance to cancel the opponent's target when being attacked. DEX+1, CON-1
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="mDef" val="1.04"/>
+			<add order="0x40" stat="absorbDam" val="3"/>
+			<add order="0x40" stat="DEX" val="1"/>
+			<sub order="0x40" stat="CON" val="1"/>
+			<mul order="0x30" stat="sleepRcpt" val="0.3"/>
+			<mul order="0x30" stat="rootRcpt" val="0.3"/>
+			<mul order="0x30" stat="pDef" val="1.05">
+				<target pvp="true"/>
+			</mul>
+			<mul order="0x30" stat="mDef" val="1.05">
+				<target pvp="true"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="8196" levels="1" name="Light Majestic Leather Armor Set - PvP">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Increases resistance to shock attacks and bow or crossbow P. Atk./maximum MP/weight limit. Decreases damage received during PvP and has a chance to cancel the opponent's target when being attacked. DEX+1, CON-1
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="pAtk" val="1.08">
+				<using kind="Bow, Crossbow"/>
+			</mul>
+			<add order="0x40" stat="maxMp" val="240"/>
+			<add order="0x40" stat="DEX" val="1"/>
+			<sub order="0x40" stat="CON" val="1"/>
+			<mul order="0x30" stat="stunRcpt" val="0.5"/>
+			<sub order="0x40" stat="currLoad" val="5759"/>
+			<mul order="0x30" stat="pDef" val="1.05">
+				<target pvp="true"/>
+			</mul>
+			<mul order="0x30" stat="mDef" val="1.05">
+				<target pvp="true"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="8197" levels="1" name="Nightmare Robe Set - PvP">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Increases resistance to sleep/hold attacks and MP regeneration/magic power. Decreases damage received during PvP, and has a chance to decrease critical rate and critical damage when being attacked. INT+2, WIT-2
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="mAtk" val="1.08"/>
+			<mul order="0x30" stat="regMp" val="1.04"/>
+			<add order="0x40" stat="INT" val="2"/>
+			<sub order="0x40" stat="WIT" val="2"/>
+			<mul order="0x30" stat="sleepRcpt" val="0.3"/>
+			<mul order="0x30" stat="rootRcpt" val="0.3"/>
+			<mul order="0x30" stat="pDef" val="1.05">
+				<target pvp="true"/>
+			</mul>
+			<mul order="0x30" stat="mDef" val="1.05">
+				<target pvp="true"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="8198" levels="1" name="Majestic Robe Set - PvP">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Increases resistance to shock attacks and maximum MP/Casting Spd./MP regeneration. Decreases damage received during PvP, and has a chance to decrease critical rate and critical damage when being attacked. MEN+1, INT-1
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="maxMp" val="240"/>
+			<mul order="0x30" stat="mAtkSpd" val="1.15"/>
+			<mul order="0x30" stat="regMp" val="1.08"/>
+			<add order="0x40" stat="MEN" val="1"/>
+			<sub order="0x40" stat="INT" val="1"/>
+			<mul order="0x30" stat="stunRcpt" val="0.5"/>
+			<mul order="0x30" stat="pDef" val="1.05">
+				<target pvp="true"/>
+			</mul>
+			<mul order="0x30" stat="mDef" val="1.05">
+				<target pvp="true"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="8199" levels="1" name="Heavy Imperial Crusader Breastplate Set - PvP">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Increases resistance to sleep/hold attacks and Max. HP/P. Def. Decreases damage received during PvP and has a chance to decrease all the attacker's speeds. STR+2, DEX-2
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<set name="magicLevel" val="76"/>
+		<for>
+			<sub order="0x40" stat="DEX" val="2"/>
+			<add order="0x40" stat="maxHp" val="445"/>
+			<mul order="0x30" stat="pDef" val="1.08"/>
+			<add order="0x40" stat="STR" val="2"/>
+			<mul order="0x30" stat="sleepRcpt" val="0.3"/>
+			<mul order="0x30" stat="rootRcpt" val="0.3"/>
+			<mul order="0x30" stat="pDef" val="1.05">
+				<target pvp="true"/>
+			</mul>
+			<mul order="0x30" stat="mDef" val="1.05">
+				<target pvp="true"/>
+			</mul>
+		</for>
+	</skill>
+</list>

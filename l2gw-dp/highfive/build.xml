@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="l2gw" default="dist" basedir=".">
+	<property name="build" location="build"/>
+	<property name="build.dist" location="build/dist"/>
+	<property name="build.dist.sql" location="${build.dist}/sql"/>
+	<property name="build.dist.game" location="${build.dist}/gameserver"/>
+	<property name="build.dist.game.data" location="${build.dist.game}/data"/>
+
+	<target name="clean">
+		<delete dir="${build}"/>
+	</target>
+
+	<target name="init" depends="clean">
+		<mkdir dir="${build}"/>
+		<mkdir dir="${build.dist}"/>
+		<mkdir dir="${build.dist.sql}" />
+		<mkdir dir="${build.dist.game}"/>
+		<mkdir dir="${build.dist.game.data}"/>
+	</target>
+
+	<target name="dist" depends="init">
+		<copy todir="${build.dist.sql}">
+			<fileset dir="sql">
+				<include name="**/*.*"/>
+				<exclude name="optional/board/**/*.*"/>
+			</fileset>
+		</copy>
+
+		<copy todir="${build.dist.game.data}">
+			<fileset dir="data">
+				<include name="**/*.*"/>
+			</fileset>
+		</copy>
+
+		<zip destfile="${build}/l2-dp.zip" basedir="${build.dist}" />
+	</target>
+</project>

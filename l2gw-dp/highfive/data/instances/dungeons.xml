@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<instances>
+
+	<!-- Fortress Dungeon -->
+	<instance id="22" name="Fortress Camp" max="1" type="22" premiumReuse="* * * * *" reuseReset="* * * * *">
+		<party min="2" max="9"/>
+		<level min="1" max="86"/>
+		<timeLimit min="60"/>
+		<noUserTimeout min="20"/>
+		<startLoc x="53322" y="246331" z="-6550"/>
+		<spawnlist>
+			<spawn randomNpcId="25572,25575,25578,25579" delay="120" respawn="0" x="53317" y="246060" z="-6550" heading="16384"/>
+		</spawnlist>
+	</instance>
+
+	<!-- Castle Dungeon -->
+	<instance id="13" name="Castle Prison" max="1" type="13" premiumReuse="* * * * *" reuseReset="* * * * *">
+		<party min="2" max="9"/>
+		<level min="1" max="86"/>
+		<timeLimit min="60"/>
+		<noUserTimeout min="20"/>
+		<startLoc x="12589" y="-49044" z="-2950"/>
+		<spawnlist>
+			<spawn randomNpcId="25546,25549,25552,25553" delay="120" respawn="0" x="12272" y="-49108" z="-3000" heading="50500"/>
+		</spawnlist>
+	</instance>
+
+	<!-- Castle Pailaka -->
+	<instance id="80" name="Pailaka (Rune Castle)" class="CastlePailaka" max="9" type="80" reuseReset="-1">
+		<party min="2" max="9"/>
+		<level min="1" max="86"/>
+		<timeLimit min="30"/>
+		<noUserTimeout min="10"/>
+		<startLoc x="48163" y="-12195" z="-9140"/>
+		<spawnlist>
+			<!-- Nothing to spawn :( -->
+		</spawnlist>
+	</instance>
+
+	<!-- Fortress Pailaka -->
+	<instance id="89" name="Pailaka (Rune Castle)" class="CastlePailaka" max="9" type="89" reuseReset="-1">
+		<party min="2" max="9"/>
+		<level min="1" max="86"/>
+		<timeLimit min="30"/>
+		<noUserTimeout min="10"/>
+		<startLoc x="48163" y="-12195" z="-9140"/>
+		<spawnlist>
+			<!-- Nothing to spawn :( -->
+		</spawnlist>
+	</instance>
+
+</instances>

@@ -1,0 +1,412 @@
+<?xml version='1.0' encoding='utf-8'?>
+<instances>
+	<!-- Seed of Infinity (Hall of Suffering) Attack stage -->
+	<instance id="115" name="Seed of Infinity (Hall of Suffering)" max="20" type="5" premiumReuse="30 6 * * *" reuseReset="30 6 * * *">
+		<party min="2" max="9"/>
+		<level min="75" max="82"/>
+		<checkQuest id="694"/>
+		<timeLimit min="60"/>
+		<noUserTimeout min="10"/>
+		<startLoc x="-187781" y="205897" z="-9528"/>
+	</instance>
+
+	<!-- Seed of Infinity (Hall of Suffering) Defence stage -->
+	<instance id="116" name="Seed of Infinity (Hall of Suffering)" max="20" type="5" premiumReuse="30 6 * * *" reuseReset="30 6 * * *">
+		<party min="2" max="9"/>
+		<level min="75" max="82"/>
+		<checkQuest id="695"/>
+		<timeLimit min="60"/>
+		<noUserTimeout min="10"/>
+		<startLoc x="-174053" y="218075" z="-9560"/>
+	</instance>
+
+	<!-- Seed of Infinity (Hall of Erosion) Attack stage -->
+	<instance id="119" name="Seed of Infinity (Hall of Erosion)" max="3" type="119" premiumReuse="30 6 * * *" reuseReset="30 6 * * *" dispel="false">
+		<party min="18" max="27"/>
+		<level min="75" max="85"/>
+		<checkQuest id="696"/>
+		<timeLimit min="40"/>
+		<cooltime min="15"/>
+		<noUserTimeout min="10"/>
+		<startLoc x="-179659" y="211061" z="-12784"/>
+		<areaList>
+			<area name="14_24_undying_z2a_r212_atk_up1"/>
+			<area name="14_24_undying_z2a_r222_atk_up1"/>
+			<area name="14_24_undying_z2a_r232_atk_up1"/>
+			<area name="14_24_undying_z2a_r242_atk_up1"/>
+			<area name="14_24_undying_z2a_r211_atk_up1"/>
+			<area name="14_24_undying_z2a_r221_atk_up1"/>
+			<area name="14_24_undying_z2a_r231_atk_up1"/>
+			<area name="14_24_undying_z2a_r241_atk_up1"/>
+			<area name="14_24_undying_z2a_r241_atk_up1"/>
+			<area name="14_24_undying_z2a_r212_atk_up2"/>
+			<area name="14_24_undying_z2a_r222_atk_up2"/>
+			<area name="14_24_undying_z2a_r232_atk_up2"/>
+			<area name="14_24_undying_z2a_r242_atk_up2"/>
+			<area name="14_24_undying_z2a_r211_atk_up2"/>
+			<area name="14_24_undying_z2a_r221_atk_up2"/>
+			<area name="14_24_undying_z2a_r231_atk_up2"/>
+			<area name="14_24_undying_z2a_r241_atk_up2"/>
+			<area name="14_24_undying_z2a_r241_atk_up2"/>
+			<area name="14_24_undying_z2a_r212_atk_up3"/>
+			<area name="14_24_undying_z2a_r222_atk_up3"/>
+			<area name="14_24_undying_z2a_r232_atk_up3"/>
+			<area name="14_24_undying_z2a_r242_atk_up3"/>
+			<area name="14_24_undying_z2a_r211_atk_up3"/>
+			<area name="14_24_undying_z2a_r221_atk_up3"/>
+			<area name="14_24_undying_z2a_r231_atk_up3"/>
+			<area name="14_24_undying_z2a_r241_atk_up3"/>
+			<area name="14_24_undying_z2a_r241_atk_up3"/>
+			<area name="14_24_undying_z2a_r212_atk_up4"/>
+			<area name="14_24_undying_z2a_r222_atk_up4"/>
+			<area name="14_24_undying_z2a_r232_atk_up4"/>
+			<area name="14_24_undying_z2a_r242_atk_up4"/>
+			<area name="14_24_undying_z2a_r211_atk_up4"/>
+			<area name="14_24_undying_z2a_r221_atk_up4"/>
+			<area name="14_24_undying_z2a_r231_atk_up4"/>
+			<area name="14_24_undying_z2a_r241_atk_up4"/>
+			<area name="14_24_undying_z2a_r241_atk_up4"/>
+			<area name="14_24_undying_z2a_r212_atk_up5"/>
+			<area name="14_24_undying_z2a_r222_atk_up5"/>
+			<area name="14_24_undying_z2a_r232_atk_up5"/>
+			<area name="14_24_undying_z2a_r242_atk_up5"/>
+			<area name="14_24_undying_z2a_r211_atk_up5"/>
+			<area name="14_24_undying_z2a_r221_atk_up5"/>
+			<area name="14_24_undying_z2a_r231_atk_up5"/>
+			<area name="14_24_undying_z2a_r241_atk_up5"/>
+			<area name="14_24_undying_z2a_r241_atk_up5"/>
+			<area name="14_24_undying_z2a_r212_def_up1"/>
+			<area name="14_24_undying_z2a_r222_def_up1"/>
+			<area name="14_24_undying_z2a_r232_def_up1"/>
+			<area name="14_24_undying_z2a_r242_def_up1"/>
+			<area name="14_24_undying_z2a_r211_def_up1"/>
+			<area name="14_24_undying_z2a_r221_def_up1"/>
+			<area name="14_24_undying_z2a_r231_def_up1"/>
+			<area name="14_24_undying_z2a_r241_def_up1"/>
+			<area name="14_24_undying_z2a_r241_def_up1"/>
+			<area name="14_24_undying_z2a_r212_def_up2"/>
+			<area name="14_24_undying_z2a_r222_def_up2"/>
+			<area name="14_24_undying_z2a_r232_def_up2"/>
+			<area name="14_24_undying_z2a_r242_def_up2"/>
+			<area name="14_24_undying_z2a_r211_def_up2"/>
+			<area name="14_24_undying_z2a_r221_def_up2"/>
+			<area name="14_24_undying_z2a_r231_def_up2"/>
+			<area name="14_24_undying_z2a_r241_def_up2"/>
+			<area name="14_24_undying_z2a_r241_def_up2"/>
+			<area name="14_24_undying_z2a_r212_def_up3"/>
+			<area name="14_24_undying_z2a_r222_def_up3"/>
+			<area name="14_24_undying_z2a_r232_def_up3"/>
+			<area name="14_24_undying_z2a_r242_def_up3"/>
+			<area name="14_24_undying_z2a_r211_def_up3"/>
+			<area name="14_24_undying_z2a_r221_def_up3"/>
+			<area name="14_24_undying_z2a_r231_def_up3"/>
+			<area name="14_24_undying_z2a_r241_def_up3"/>
+			<area name="14_24_undying_z2a_r241_def_up3"/>
+			<area name="14_24_undying_z2a_r212_def_up4"/>
+			<area name="14_24_undying_z2a_r222_def_up4"/>
+			<area name="14_24_undying_z2a_r232_def_up4"/>
+			<area name="14_24_undying_z2a_r242_def_up4"/>
+			<area name="14_24_undying_z2a_r211_def_up4"/>
+			<area name="14_24_undying_z2a_r221_def_up4"/>
+			<area name="14_24_undying_z2a_r231_def_up4"/>
+			<area name="14_24_undying_z2a_r241_def_up4"/>
+			<area name="14_24_undying_z2a_r241_def_up4"/>
+			<area name="14_24_undying_z2a_r212_def_up5"/>
+			<area name="14_24_undying_z2a_r222_def_up5"/>
+			<area name="14_24_undying_z2a_r232_def_up5"/>
+			<area name="14_24_undying_z2a_r242_def_up5"/>
+			<area name="14_24_undying_z2a_r211_def_up5"/>
+			<area name="14_24_undying_z2a_r221_def_up5"/>
+			<area name="14_24_undying_z2a_r231_def_up5"/>
+			<area name="14_24_undying_z2a_r241_def_up5"/>
+			<area name="14_24_undying_z2a_r241_def_up5"/>
+			<area name="14_24_undying_z2a_loop01_01"/>
+			<area name="14_24_undying_z2a_loop02_02"/>
+			<area name="14_24_undying_z2a_loop03_03"/>
+			<area name="14_24_undying_z2a_loop04_04"/>
+			<area name="14_24_undying_z2a_loop05_01"/>
+			<area name="14_24_undying_z2a_loop06_02"/>
+			<area name="14_24_undying_z2a_loop07_03"/>
+			<area name="14_24_undying_z2a_loop08_04"/>
+			<area name="14_24_undying_z2a_loop09_01"/>
+			<area name="14_24_undying_z2a_loop10_02"/>
+			<area name="14_24_undying_z2a_loop11_03"/>
+			<area name="14_24_undying_z2a_loop12_04"/>
+		</areaList>
+	</instance>
+
+	<!-- Seed of Infinity (Hall of Erosion) Defence stage -->
+	<instance id="120" name="Seed of Infinity (Hall of Erosion)" max="3" type="119" premiumReuse="30 6 * * *" reuseReset="30 6 * * *" dispel="false">
+		<party min="18" max="27"/>
+		<level min="75" max="85"/>
+		<checkQuest id="697"/>
+		<timeLimit min="40"/>
+		<cooltime min="15"/>
+		<noUserTimeout min="10"/>
+		<startLoc x="-179659" y="211061" z="-12784"/>
+		<areaList>
+			<area name="14_24_undying_z2a_r212_atk_up1"/>
+			<area name="14_24_undying_z2a_r222_atk_up1"/>
+			<area name="14_24_undying_z2a_r232_atk_up1"/>
+			<area name="14_24_undying_z2a_r242_atk_up1"/>
+			<area name="14_24_undying_z2a_r211_atk_up1"/>
+			<area name="14_24_undying_z2a_r221_atk_up1"/>
+			<area name="14_24_undying_z2a_r231_atk_up1"/>
+			<area name="14_24_undying_z2a_r241_atk_up1"/>
+			<area name="14_24_undying_z2a_r241_atk_up1"/>
+			<area name="14_24_undying_z2a_r212_atk_up2"/>
+			<area name="14_24_undying_z2a_r222_atk_up2"/>
+			<area name="14_24_undying_z2a_r232_atk_up2"/>
+			<area name="14_24_undying_z2a_r242_atk_up2"/>
+			<area name="14_24_undying_z2a_r211_atk_up2"/>
+			<area name="14_24_undying_z2a_r221_atk_up2"/>
+			<area name="14_24_undying_z2a_r231_atk_up2"/>
+			<area name="14_24_undying_z2a_r241_atk_up2"/>
+			<area name="14_24_undying_z2a_r241_atk_up2"/>
+			<area name="14_24_undying_z2a_r212_atk_up3"/>
+			<area name="14_24_undying_z2a_r222_atk_up3"/>
+			<area name="14_24_undying_z2a_r232_atk_up3"/>
+			<area name="14_24_undying_z2a_r242_atk_up3"/>
+			<area name="14_24_undying_z2a_r211_atk_up3"/>
+			<area name="14_24_undying_z2a_r221_atk_up3"/>
+			<area name="14_24_undying_z2a_r231_atk_up3"/>
+			<area name="14_24_undying_z2a_r241_atk_up3"/>
+			<area name="14_24_undying_z2a_r241_atk_up3"/>
+			<area name="14_24_undying_z2a_r212_atk_up4"/>
+			<area name="14_24_undying_z2a_r222_atk_up4"/>
+			<area name="14_24_undying_z2a_r232_atk_up4"/>
+			<area name="14_24_undying_z2a_r242_atk_up4"/>
+			<area name="14_24_undying_z2a_r211_atk_up4"/>
+			<area name="14_24_undying_z2a_r221_atk_up4"/>
+			<area name="14_24_undying_z2a_r231_atk_up4"/>
+			<area name="14_24_undying_z2a_r241_atk_up4"/>
+			<area name="14_24_undying_z2a_r241_atk_up4"/>
+			<area name="14_24_undying_z2a_r212_atk_up5"/>
+			<area name="14_24_undying_z2a_r222_atk_up5"/>
+			<area name="14_24_undying_z2a_r232_atk_up5"/>
+			<area name="14_24_undying_z2a_r242_atk_up5"/>
+			<area name="14_24_undying_z2a_r211_atk_up5"/>
+			<area name="14_24_undying_z2a_r221_atk_up5"/>
+			<area name="14_24_undying_z2a_r231_atk_up5"/>
+			<area name="14_24_undying_z2a_r241_atk_up5"/>
+			<area name="14_24_undying_z2a_r241_atk_up5"/>
+			<area name="14_24_undying_z2a_r212_def_up1"/>
+			<area name="14_24_undying_z2a_r222_def_up1"/>
+			<area name="14_24_undying_z2a_r232_def_up1"/>
+			<area name="14_24_undying_z2a_r242_def_up1"/>
+			<area name="14_24_undying_z2a_r211_def_up1"/>
+			<area name="14_24_undying_z2a_r221_def_up1"/>
+			<area name="14_24_undying_z2a_r231_def_up1"/>
+			<area name="14_24_undying_z2a_r241_def_up1"/>
+			<area name="14_24_undying_z2a_r241_def_up1"/>
+			<area name="14_24_undying_z2a_r212_def_up2"/>
+			<area name="14_24_undying_z2a_r222_def_up2"/>
+			<area name="14_24_undying_z2a_r232_def_up2"/>
+			<area name="14_24_undying_z2a_r242_def_up2"/>
+			<area name="14_24_undying_z2a_r211_def_up2"/>
+			<area name="14_24_undying_z2a_r221_def_up2"/>
+			<area name="14_24_undying_z2a_r231_def_up2"/>
+			<area name="14_24_undying_z2a_r241_def_up2"/>
+			<area name="14_24_undying_z2a_r241_def_up2"/>
+			<area name="14_24_undying_z2a_r212_def_up3"/>
+			<area name="14_24_undying_z2a_r222_def_up3"/>
+			<area name="14_24_undying_z2a_r232_def_up3"/>
+			<area name="14_24_undying_z2a_r242_def_up3"/>
+			<area name="14_24_undying_z2a_r211_def_up3"/>
+			<area name="14_24_undying_z2a_r221_def_up3"/>
+			<area name="14_24_undying_z2a_r231_def_up3"/>
+			<area name="14_24_undying_z2a_r241_def_up3"/>
+			<area name="14_24_undying_z2a_r241_def_up3"/>
+			<area name="14_24_undying_z2a_r212_def_up4"/>
+			<area name="14_24_undying_z2a_r222_def_up4"/>
+			<area name="14_24_undying_z2a_r232_def_up4"/>
+			<area name="14_24_undying_z2a_r242_def_up4"/>
+			<area name="14_24_undying_z2a_r211_def_up4"/>
+			<area name="14_24_undying_z2a_r221_def_up4"/>
+			<area name="14_24_undying_z2a_r231_def_up4"/>
+			<area name="14_24_undying_z2a_r241_def_up4"/>
+			<area name="14_24_undying_z2a_r241_def_up4"/>
+			<area name="14_24_undying_z2a_r212_def_up5"/>
+			<area name="14_24_undying_z2a_r222_def_up5"/>
+			<area name="14_24_undying_z2a_r232_def_up5"/>
+			<area name="14_24_undying_z2a_r242_def_up5"/>
+			<area name="14_24_undying_z2a_r211_def_up5"/>
+			<area name="14_24_undying_z2a_r221_def_up5"/>
+			<area name="14_24_undying_z2a_r231_def_up5"/>
+			<area name="14_24_undying_z2a_r241_def_up5"/>
+			<area name="14_24_undying_z2a_r241_def_up5"/>
+			<area name="14_24_undying_z2a_loop01_01"/>
+			<area name="14_24_undying_z2a_loop02_02"/>
+			<area name="14_24_undying_z2a_loop03_03"/>
+			<area name="14_24_undying_z2a_loop04_04"/>
+			<area name="14_24_undying_z2a_loop05_01"/>
+			<area name="14_24_undying_z2a_loop06_02"/>
+			<area name="14_24_undying_z2a_loop07_03"/>
+			<area name="14_24_undying_z2a_loop08_04"/>
+			<area name="14_24_undying_z2a_loop09_01"/>
+			<area name="14_24_undying_z2a_loop10_02"/>
+			<area name="14_24_undying_z2a_loop11_03"/>
+			<area name="14_24_undying_z2a_loop12_04"/>
+		</areaList>
+	</instance>
+
+	<!-- Seed of Infinity (Heart of Infinity) Attack stage -->
+	<instance id="121" name="Seed of Infinity (Heart of Infinity)" max="3" type="121" premiumReuse="30 6 * * *" reuseReset="30 6 * * *" dispel="false">
+		<party min="18" max="27"/>
+		<level min="75" max="85"/>
+		<timeLimit min="40"/>
+		<cooltime min="15"/>
+		<noUserTimeout min="10"/>
+		<startLoc x="-179284" y="205990" z="-15520"/>
+		<spawnlist>
+			<door id="14240102"/>
+		</spawnlist>
+		<areaList>
+			<area name="14_24_undying_z3a_r301_atk_up1"/>
+			<area name="14_24_undying_z3a_r302_atk_up1"/>
+			<area name="14_24_undying_z3a_r303_atk_up1"/>
+			<area name="14_24_undying_z3a_r304_atk_up1"/>
+			<area name="14_24_undying_z3a_r305_atk_up1"/>
+			<area name="14_24_undying_z3a_r306_atk_up1"/>
+			<area name="14_24_undying_z3a_r301_atk_up2"/>
+			<area name="14_24_undying_z3a_r302_atk_up2"/>
+			<area name="14_24_undying_z3a_r303_atk_up2"/>
+			<area name="14_24_undying_z3a_r304_atk_up2"/>
+			<area name="14_24_undying_z3a_r305_atk_up2"/>
+			<area name="14_24_undying_z3a_r306_atk_up2"/>
+			<area name="14_24_undying_z3a_r301_atk_up3"/>
+			<area name="14_24_undying_z3a_r302_atk_up3"/>
+			<area name="14_24_undying_z3a_r303_atk_up3"/>
+			<area name="14_24_undying_z3a_r304_atk_up3"/>
+			<area name="14_24_undying_z3a_r305_atk_up3"/>
+			<area name="14_24_undying_z3a_r306_atk_up3"/>
+			<area name="14_24_undying_z3a_r301_atk_up4"/>
+			<area name="14_24_undying_z3a_r302_atk_up4"/>
+			<area name="14_24_undying_z3a_r303_atk_up4"/>
+			<area name="14_24_undying_z3a_r304_atk_up4"/>
+			<area name="14_24_undying_z3a_r305_atk_up4"/>
+			<area name="14_24_undying_z3a_r306_atk_up4"/>
+			<area name="14_24_undying_z3a_r301_atk_up5"/>
+			<area name="14_24_undying_z3a_r302_atk_up5"/>
+			<area name="14_24_undying_z3a_r303_atk_up5"/>
+			<area name="14_24_undying_z3a_r304_atk_up5"/>
+			<area name="14_24_undying_z3a_r305_atk_up5"/>
+			<area name="14_24_undying_z3a_r306_atk_up5"/>
+			<area name="14_24_undying_z3a_r301_def_up1"/>
+			<area name="14_24_undying_z3a_r302_def_up1"/>
+			<area name="14_24_undying_z3a_r303_def_up1"/>
+			<area name="14_24_undying_z3a_r304_def_up1"/>
+			<area name="14_24_undying_z3a_r305_def_up1"/>
+			<area name="14_24_undying_z3a_r306_def_up1"/>
+			<area name="14_24_undying_z3a_r301_def_up2"/>
+			<area name="14_24_undying_z3a_r302_def_up2"/>
+			<area name="14_24_undying_z3a_r303_def_up2"/>
+			<area name="14_24_undying_z3a_r304_def_up2"/>
+			<area name="14_24_undying_z3a_r305_def_up2"/>
+			<area name="14_24_undying_z3a_r306_def_up2"/>
+			<area name="14_24_undying_z3a_r301_def_up3"/>
+			<area name="14_24_undying_z3a_r302_def_up3"/>
+			<area name="14_24_undying_z3a_r303_def_up3"/>
+			<area name="14_24_undying_z3a_r304_def_up3"/>
+			<area name="14_24_undying_z3a_r305_def_up3"/>
+			<area name="14_24_undying_z3a_r306_def_up3"/>
+			<area name="14_24_undying_z3a_r301_def_up4"/>
+			<area name="14_24_undying_z3a_r302_def_up4"/>
+			<area name="14_24_undying_z3a_r303_def_up4"/>
+			<area name="14_24_undying_z3a_r304_def_up4"/>
+			<area name="14_24_undying_z3a_r305_def_up4"/>
+			<area name="14_24_undying_z3a_r306_def_up4"/>
+			<area name="14_24_undying_z3a_r301_def_up5"/>
+			<area name="14_24_undying_z3a_r302_def_up5"/>
+			<area name="14_24_undying_z3a_r303_def_up5"/>
+			<area name="14_24_undying_z3a_r304_def_up5"/>
+			<area name="14_24_undying_z3a_r305_def_up5"/>
+			<area name="14_24_undying_z3a_r306_def_up5"/>
+			<area name="14_24_undying_ech_debuff1"/>
+			<area name="14_24_undying_ech_debuff2"/>
+			<area name="14_24_undying_ech_debuff3"/>
+			<area name="14_24_undying_ech_debuff4"/>
+		</areaList>
+	</instance>
+
+	<!-- Seed of Infinity (Heart of Infinity) Defence stage -->
+	<instance id="122" name="Seed of Infinity (Heart of Infinity)" max="3" type="121" premiumReuse="30 6 * * *" reuseReset="30 6 * * *" dispel="false">
+		<party min="18" max="27"/>
+		<level min="75" max="85"/>
+		<checkQuest id="698"/>
+		<timeLimit min="40"/>
+		<cooltime min="15"/>
+		<noUserTimeout min="10"/>
+		<startLoc x="-179284" y="205990" z="-15520"/>
+		<spawnlist>
+			<door id="14240102"/>
+		</spawnlist>
+		<areaList>
+			<area name="14_24_undying_z3a_r301_atk_up1"/>
+			<area name="14_24_undying_z3a_r302_atk_up1"/>
+			<area name="14_24_undying_z3a_r303_atk_up1"/>
+			<area name="14_24_undying_z3a_r304_atk_up1"/>
+			<area name="14_24_undying_z3a_r305_atk_up1"/>
+			<area name="14_24_undying_z3a_r306_atk_up1"/>
+			<area name="14_24_undying_z3a_r301_atk_up2"/>
+			<area name="14_24_undying_z3a_r302_atk_up2"/>
+			<area name="14_24_undying_z3a_r303_atk_up2"/>
+			<area name="14_24_undying_z3a_r304_atk_up2"/>
+			<area name="14_24_undying_z3a_r305_atk_up2"/>
+			<area name="14_24_undying_z3a_r306_atk_up2"/>
+			<area name="14_24_undying_z3a_r301_atk_up3"/>
+			<area name="14_24_undying_z3a_r302_atk_up3"/>
+			<area name="14_24_undying_z3a_r303_atk_up3"/>
+			<area name="14_24_undying_z3a_r304_atk_up3"/>
+			<area name="14_24_undying_z3a_r305_atk_up3"/>
+			<area name="14_24_undying_z3a_r306_atk_up3"/>
+			<area name="14_24_undying_z3a_r301_atk_up4"/>
+			<area name="14_24_undying_z3a_r302_atk_up4"/>
+			<area name="14_24_undying_z3a_r303_atk_up4"/>
+			<area name="14_24_undying_z3a_r304_atk_up4"/>
+			<area name="14_24_undying_z3a_r305_atk_up4"/>
+			<area name="14_24_undying_z3a_r306_atk_up4"/>
+			<area name="14_24_undying_z3a_r301_atk_up5"/>
+			<area name="14_24_undying_z3a_r302_atk_up5"/>
+			<area name="14_24_undying_z3a_r303_atk_up5"/>
+			<area name="14_24_undying_z3a_r304_atk_up5"/>
+			<area name="14_24_undying_z3a_r305_atk_up5"/>
+			<area name="14_24_undying_z3a_r306_atk_up5"/>
+			<area name="14_24_undying_z3a_r301_def_up1"/>
+			<area name="14_24_undying_z3a_r302_def_up1"/>
+			<area name="14_24_undying_z3a_r303_def_up1"/>
+			<area name="14_24_undying_z3a_r304_def_up1"/>
+			<area name="14_24_undying_z3a_r305_def_up1"/>
+			<area name="14_24_undying_z3a_r306_def_up1"/>
+			<area name="14_24_undying_z3a_r301_def_up2"/>
+			<area name="14_24_undying_z3a_r302_def_up2"/>
+			<area name="14_24_undying_z3a_r303_def_up2"/>
+			<area name="14_24_undying_z3a_r304_def_up2"/>
+			<area name="14_24_undying_z3a_r305_def_up2"/>
+			<area name="14_24_undying_z3a_r306_def_up2"/>
+			<area name="14_24_undying_z3a_r301_def_up3"/>
+			<area name="14_24_undying_z3a_r302_def_up3"/>
+			<area name="14_24_undying_z3a_r303_def_up3"/>
+			<area name="14_24_undying_z3a_r304_def_up3"/>
+			<area name="14_24_undying_z3a_r305_def_up3"/>
+			<area name="14_24_undying_z3a_r306_def_up3"/>
+			<area name="14_24_undying_z3a_r301_def_up4"/>
+			<area name="14_24_undying_z3a_r302_def_up4"/>
+			<area name="14_24_undying_z3a_r303_def_up4"/>
+			<area name="14_24_undying_z3a_r304_def_up4"/>
+			<area name="14_24_undying_z3a_r305_def_up4"/>
+			<area name="14_24_undying_z3a_r306_def_up4"/>
+			<area name="14_24_undying_z3a_r301_def_up5"/>
+			<area name="14_24_undying_z3a_r302_def_up5"/>
+			<area name="14_24_undying_z3a_r303_def_up5"/>
+			<area name="14_24_undying_z3a_r304_def_up5"/>
+			<area name="14_24_undying_z3a_r305_def_up5"/>
+			<area name="14_24_undying_z3a_r306_def_up5"/>
+			<area name="14_24_undying_ech_debuff1"/>
+			<area name="14_24_undying_ech_debuff2"/>
+			<area name="14_24_undying_ech_debuff3"/>
+			<area name="14_24_undying_ech_debuff4"/>
+		</areaList>
+	</instance>
+
+</instances>

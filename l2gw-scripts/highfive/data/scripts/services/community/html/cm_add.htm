@@ -1,0 +1,70 @@
+<html><body><center><br><br> <br1><br1><table border=0 cellspacing=0 cellpadding=0><tr><td FIXWIDTH=15>&nbsp;</td><td width=745 height=30 align=left><a action="bypass -h _bbshome"> HOME </a>&nbsp;&gt; <a action="bypass -h _cmlist_1_0_1_0_">Col Market</a></td></tr></table>
+<table border=0 cellspacing=0 cellpadding=0 width=755 bgcolor=A7A19A>
+<tr><td WIDTH=5></td><td height=10 WIDTH=750></td></tr>
+<tr><td></td>
+<td height=20>
+Items to add:
+</td>
+</tr>
+<tr><td></td><td height=10></td></tr>
+</table>
+
+<!--TEMPLET1
+<br>
+<table border=0 cellspacing=0 cellpadding=2 width=755>
+<tr>
+<td FIXWIDTH=10></td>
+<td FIXWIDTH=20 align=center valign=top><img width=32 height=32 src="<?icon?>"></td>
+<td FIXWIDTH=645 valign=top><?cm_title?><br1>
+<font color="AAAAAA"><?cm_descr?></font></td>
+<td FIXWIDTH=70 align=right valign=top><button value="&$654;" action="bypass -h _cmadditem_<?object_id?>" back="l2ui_ct1.button.button_df_small_down" width=70 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td FIXWIDTH=10></td>
+</tr>
+</table>
+<table border=0 cellspacing=0 cellpadding=0>
+<tr><td width=755><img src="l2ui.squaregray" width="750" height="1"></td></tr>
+</table>
+TEMPLET-->
+<?ITEM_LIST?>
+<img src="L2UI.SquareBlank" width="755" height="2">
+<br>
+<table border=0 cellspacing=0 cellpadding=0 width=755 bgcolor=A7A19A>
+<tr><td WIDTH=5></td><td height=10 WIDTH=750></td></tr>
+<tr><td></td>
+<td height=20>
+Added items:
+</td>
+</tr>
+<tr><td></td><td height=10></td></tr>
+</table>
+<!--TEMPLET2
+<br>
+<table border=0 cellspacing=0 cellpadding=2 width=755>
+<tr>
+<td FIXWIDTH=10></td>
+<td FIXWIDTH=20 align=center valign=top><img width=32 height=32 src="<?icon?>"></td>
+<td FIXWIDTH=645 valign=top><?cm_title?><br1>
+<font color="AAAAAA"><?cm_descr?></font></td>
+<td FIXWIDTH=70 align=right valign=top><button action="bypass -h _cmdelitem_<?object_id?>" back="L2UI_CT1.Button_DF_Delete_Down" width=15 height=15 fore="L2UI_CT1.Button_DF_Delete" ></td>
+<td FIXWIDTH=10></td>
+</tr>
+</table>
+<table border=0 cellspacing=0 cellpadding=0>
+<tr><td width=755><img src="l2ui.squaregray" width="750" height="1"></td></tr>
+</table>
+TEMPLET-->
+<?SEL_LIST?>
+
+<table border=0 cellspacing=0 cellpadding=0>
+<tr><td width=755 height=20></td></tr>
+</table>
+
+<table border=0><tr><td fixwidth=100>Package Price:</td><td fixwidth=100><?pack_price?> Adena.</td></tr></table>
+
+<table border=0><tr><td fixwidth=70>Price (CoL):</td><td><edit var="Price" type=number width=130 height=15 length="16"></td>
+<td><button value="Add to market" action="Write _cmaddpack -1 0 Price Price Price" back="l2ui_ct1.button.button_df_small_down" width=125 height=25 fore="l2ui_ct1.button.button_df_small"> </td> </tr></table>
+
+<br> <br>
+</center>
+</body>
+</html>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- gludio_feud_product -->
+<list>
+	<config showall="true" notax="true" keepenchanted="false" />
+	<item>
+		<production id="13731" count="1"/>	<!-- Blessed Scroll of Escape: Gludio -->
+		<ingredient id="57" count="250000"/>	<!-- Adena -->
+		<ingredient id="13757" count="40"/>	<!-- Gludio Territory Badge -->
+	</item>
+	<item>
+		<production id="13713" count="1"/>	<!-- Gludio Supply Box - Belt -->
+		<ingredient id="57" count="40000"/>	<!-- Adena -->
+		<ingredient id="13757" count="7"/>	<!-- Gludio Territory Badge -->
+	</item>
+	<item>
+		<production id="13704" count="1"/>	<!-- Gludio Supply Box - Magic Pouch -->
+		<ingredient id="57" count="20000"/>	<!-- Adena -->
+		<ingredient id="13757" count="4"/>	<!-- Gludio Territory Badge -->
+	</item>
+	<item>
+		<production id="13695" count="1"/>	<!-- Gludio Supply Box - Magic Pin -->
+		<ingredient id="57" count="40000"/>	<!-- Adena -->
+		<ingredient id="13757" count="8"/>	<!-- Gludio Territory Badge -->
+	</item>
+	<item>
+		<production id="14549" count="1"/>	<!-- Gludio Supply Box - Belt -->
+		<ingredient id="57" count="400000"/>	<!-- Adena -->
+		<ingredient id="13757" count="70"/>	<!-- Gludio Territory Badge -->
+	</item>
+	<item>
+		<production id="14540" count="1"/>	<!-- Gludio Supply Box - Magic Pouch -->
+		<ingredient id="57" count="80000"/>	<!-- Adena -->
+		<ingredient id="13757" count="16"/>	<!-- Gludio Territory Badge -->
+	</item>
+	<item>
+		<production id="14531" count="1"/>	<!-- Gludio Supply Box - Magic Pin -->
+		<ingredient id="57" count="120000"/>	<!-- Adena -->
+		<ingredient id="13757" count="32"/>	<!-- Gludio Territory Badge -->
+	</item>
+	<item>
+		<production id="14893" count="1"/>	<!-- Gludio Supply Box - Magic Ornament -->
+		<ingredient id="57" count="80000"/>	<!-- Adena -->
+		<ingredient id="13757" count="16"/>	<!-- Gludio Territory Badge -->
+	</item>
+	<item>
+		<production id="14884" count="1"/>	<!-- Gludio Supply Box - Magic Rune Clip -->
+		<ingredient id="57" count="120000"/>	<!-- Adena -->
+		<ingredient id="13757" count="32"/>	<!-- Gludio Territory Badge -->
+	</item>
+	<item>
+		<production id="13740" count="1"/>	<!-- Gludio Water Resistance Necklace -->
+		<ingredient id="57" count="3596400"/>	<!-- Adena -->
+		<ingredient id="13757" count="160"/>	<!-- Gludio Territory Badge -->
+	</item>
+	<item>
+		<production id="14592" count="1"/>	<!-- Gludio Earth Resistance Ring -->
+		<ingredient id="57" count="1798200"/>	<!-- Adena -->
+		<ingredient id="13757" count="80"/>	<!-- Gludio Territory Badge -->
+	</item>
+	<item>
+		<production id="14664" count="1"/>	<!-- Gludio Protection Earring -->
+		<ingredient id="57" count="2696400"/>	<!-- Adena -->
+		<ingredient id="13757" count="120"/>	<!-- Gludio Territory Badge -->
+	</item>
+	<item>
+		<production id="15282" count="1"/>	<!-- Gludio Water Royal Guard Necklace -->
+		<ingredient id="57" count="3596400"/>	<!-- Adena -->
+		<ingredient id="13757" count="160"/>	<!-- Gludio Territory Badge -->
+	</item>
+	<item>
+		<production id="15291" count="1"/>	<!-- Gludio Earth Royal Guard Ring -->
+		<ingredient id="57" count="1798200"/>	<!-- Adena -->
+		<ingredient id="13757" count="80"/>	<!-- Gludio Territory Badge -->
+	</item>
+	<item>
+		<production id="14801" count="1"/>	<!-- Gludio Guard Earring -->
+		<ingredient id="57" count="2696400"/>	<!-- Adena -->
+		<ingredient id="13757" count="120"/>	<!-- Gludio Territory Badge -->
+	</item>
+	<item>
+		<production id="14810" count="1"/>	<!-- Blue Talisman - Buff Cancel -->
+		<ingredient id="57" count="14500"/>	<!-- Adena -->
+		<ingredient id="13757" count="13"/>	<!-- Gludio Territory Badge -->
+	</item>
+	<item>
+		<production id="14811" count="1"/>	<!-- Blue Talisman - Buff Steal -->
+		<ingredient id="57" count="15600"/>	<!-- Adena -->
+		<ingredient id="13757" count="14"/>	<!-- Gludio Territory Badge -->
+	</item>
+	<item>
+		<production id="14815" count="1"/>	<!-- Territory Health Recovery Potion -->
+		<ingredient id="57" count="21000"/>	<!-- Adena -->
+		<ingredient id="13757" count="8"/>	<!-- Gludio Territory Badge -->
+	</item>
+	<item>
+		<production id="14816" count="1"/>	<!-- Territory Mana Recovery Potion -->
+		<ingredient id="57" count="21000"/>	<!-- Adena -->
+		<ingredient id="13757" count="8"/>	<!-- Gludio Territory Badge -->
+	</item>
+	<item>
+		<production id="14817" count="1"/>	<!-- Territory CP Recovery Potion -->
+		<ingredient id="57" count="21000"/>	<!-- Adena -->
+		<ingredient id="13757" count="8"/>	<!-- Gludio Territory Badge -->
+	</item>
+	<item>
+		<production id="9625" count="1"/>	<!-- Giant's Codex - Oblivion -->
+		<ingredient id="57" count="1000000"/>	<!-- Adena -->
+		<ingredient id="13757" count="20"/>	<!-- Gludio Territory Badge -->
+	</item>
+	<item>
+		<production id="9626" count="1"/>	<!-- Giant's Codex - Discipline -->
+		<ingredient id="57" count="1260000"/>	<!-- Adena -->
+		<ingredient id="13757" count="54"/>	<!-- Gludio Territory Badge -->
+	</item>
+	<item>
+		<production id="9627" count="1"/>	<!-- Giant's Codex - Mastery -->
+		<ingredient id="57" count="1800000"/>	<!-- Adena -->
+		<ingredient id="13757" count="80"/>	<!-- Gludio Territory Badge -->
+	</item>
+	<item>
+		<production id="14962" count="1"/>	<!-- Gold Skeleton Circlet -->
+		<ingredient id="57" count="2100000"/>	<!-- Adena -->
+		<ingredient id="13757" count="80"/>	<!-- Gludio Territory Badge -->
+	</item>
+	<item>
+		<production id="13478" count="1"/>	<!-- Circlet of Gludio Sage -->
+		<ingredient id="57" count="2100000"/>	<!-- Adena -->
+		<ingredient id="13757" count="80"/>	<!-- Gludio Territory Badge -->
+	</item>
+	<item>
+		<production id="13484" count="1"/>	<!-- Gludio Circlet Silence -->
+		<ingredient id="57" count="2100000"/>	<!-- Adena -->
+		<ingredient id="13757" count="80"/>	<!-- Gludio Territory Badge -->
+	</item>
+	<item>
+		<production id="14582" count="1"/>	<!-- Apella Combat Helmet -->
+		<ingredient id="57" count="801600"/>	<!-- Adena -->
+		<ingredient id="13757" count="107"/>	<!-- Gludio Territory Badge -->
+	</item>
+	<item>
+		<production id="14588" count="1"/>	<!-- Apella Combat Shoes -->
+		<ingredient id="57" count="534000"/>	<!-- Adena -->
+		<ingredient id="13757" count="71"/>	<!-- Gludio Territory Badge -->
+	</item>
+	<item>
+		<production id="14584" count="1"/>	<!-- Apella Combat Gauntlet -->
+		<ingredient id="57" count="534000"/>	<!-- Adena -->
+		<ingredient id="13757" count="71"/>	<!-- Gludio Territory Badge -->
+	</item>
+	<item>
+		<production id="14560" count="1"/>	<!-- Dagger of Val Turner Family -->
+		<ingredient id="57" count="21000000"/>	<!-- Adena -->
+		<ingredient id="13757" count="800"/>	<!-- Gludio Territory Badge -->
+	</item>
+	<item>
+		<production id="14561" count="1"/>	<!-- Slasher of Val Turner Family -->
+		<ingredient id="57" count="21000000"/>	<!-- Adena -->
+		<ingredient id="13757" count="800"/>	<!-- Gludio Territory Badge -->
+	</item>
+</list>

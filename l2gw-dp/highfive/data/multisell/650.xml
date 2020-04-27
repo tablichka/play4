@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- cloak_trade -->
+<list>
+	<config showall="true" notax="true" keepenchanted="false" />
+	<item>
+		<production id="13890" count="1"/>	<!-- Holy Spirit's Cloak -->
+		<ingredient id="13893" count="1"/>	<!-- Sealed Holy Spirit's Cloak -->
+		<ingredient id="57" count="1146840"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13687" count="1"/>	<!-- Knight's Cloak -->
+		<ingredient id="13686" count="1"/>	<!-- Sealed Knight's Cloak -->
+		<ingredient id="57" count="573420"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14609" count="1"/>	<!-- Ancient Cloak -->
+		<ingredient id="14603" count="1"/>	<!-- Sealed Ancient Cloak -->
+		<ingredient id="57" count="917470"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="21716" count="1"/>	<!-- Cloak of Zaken -->
+		<ingredient id="21713" count="1"/>	<!-- Sealed Cloak of Zaken -->
+		<ingredient id="57" count="1186980"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="21718" count="1"/>	<!-- Cloak of Frintezza -->
+		<ingredient id="21715" count="1"/>	<!-- Sealed Cloak of Frintezza -->
+		<ingredient id="57" count="1186980"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="21717" count="1"/>	<!-- Cloak of Freya -->
+		<ingredient id="21714" count="1"/>	<!-- Sealed Cloak of Freya -->
+		<ingredient id="57" count="1318800"/>	<!-- Adena -->
+	</item>
+</list>

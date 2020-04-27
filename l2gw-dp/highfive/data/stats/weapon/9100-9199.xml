@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="9129" name="Shadow Item: Shield of Nightmare">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+</list>

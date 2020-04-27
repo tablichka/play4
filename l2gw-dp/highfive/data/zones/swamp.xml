@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<zone id="100" name="[spore_boss_swamp_zone]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<!-- loc_id: 40100 -->
+		<shape type="Poly" zMin="-4468" zMax="-4118">
+			<point x="43084" y="15944"/>
+			<point x="45140" y="15816"/>
+			<point x="45748" y="17200"/>
+			<point x="44504" y="18780"/>
+			<point x="43284" y="18952"/>
+			<point x="42476" y="18164"/>
+			<point x="42480" y="16448"/>
+		</shape>
+	</zone>
+</list>

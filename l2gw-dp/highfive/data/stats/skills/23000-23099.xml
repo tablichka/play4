@@ -1,0 +1,1793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<skill id="23000" levels="1" name="Majo Agathion Cute Trick">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="staticReuse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="hitTime" val="3000"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond msgId="113">
+			<agathion/>
+		</cond>
+		<for/>
+	</skill>
+	<skill id="23001" levels="1" name="Gold Majo Agathion Cute Trick">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="staticReuse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="hitTime" val="3000"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond msgId="113">
+			<agathion/>
+		</cond>
+		<for/>
+	</skill>
+	<skill id="23002" levels="1" name="Black Majo Agathion Cute Trick">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="staticReuse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="hitTime" val="3000"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond msgId="113">
+			<agathion/>
+		</cond>
+		<for/>
+	</skill>
+	<skill id="23003" levels="1" name="Plaipitak Agathion Cute Trick">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="staticReuse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="hitTime" val="3000"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond msgId="113">
+			<agathion/>
+		</cond>
+		<for/>
+	</skill>
+	<skill id="23004" levels="1" name="Majo Agathion Special Skill - Mysterious Power">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="abnormal_ve" val="bighead"/>
+		<set name="abnormal_type" val="BigHead"/>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormalLevel" val="1"/>
+		<!--
+			Description: Summoned Spirit's Special Skill : Enlarges Head.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="staticReuse" val="true"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="reuseDelay" val="30000"/>
+		<cond msgId="113">
+			<agathion/>
+		</cond>
+		<for/>
+	</skill>
+	<skill id="23005" levels="1" name="Gold Majo Agathion Special Skill - Power of Blessed Resurrection">
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#effectPoint">624</table>
+		<set name="effectPoint" val="#effectPoint"/>
+		<set name="target_type" val="pc_body"/>
+		<set name="reuseDelay" val="300000"/>
+		<set name="hitTime" val="3000"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="400"/>
+		<set name="isValidateable" val="false"/>
+		<set name="staticReuse" val="true"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="nextAction" val="none"/>
+		<cond msgId="113">
+			<and>
+				<agathion/>
+				<CanResurrect/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_resurrection" val="200"/>
+		</for>
+	</skill>
+	<skill id="23006" levels="1" name="Black Majo Agathion Special Skill - Power of Blessed Return">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!--
+			Description: Summoned Spirit's Special Skill : Engages Blessed Return Ability.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="hitTime" val="200"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isValidateable" val="false"/>
+		<set name="staticReuse" val="true"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="reuseDelay" val="300000"/>
+		<cond msgId="113">
+			<and>
+				<CanEscape/>
+				<agathion/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_escape" type="town"/>
+		</for>
+	</skill>
+	<skill id="23007" levels="1" name="Plaipitak Agathion Special Skill - Mysterious Power">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="abnormal_ve" val="bighead"/>
+		<set name="abnormal_type" val="BigHead"/>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormalLevel" val="1"/>
+		<!--
+			Description: Summoned Spirit's Special Skill : Enlarges Head.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="staticReuse" val="true"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="reuseDelay" val="30000"/>
+		<cond msgId="113">
+			<agathion/>
+		</cond>
+		<for/>
+	</skill>
+	<skill id="23008" levels="1" name="Plaipitak Agathion Special Skill - Power of Blessed Return">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!--
+			Description: Summoned Spirit's Special Skill : Engages Blessed Return Ability.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="hitTime" val="200"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isValidateable" val="false"/>
+		<set name="staticReuse" val="true"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="reuseDelay" val="300000"/>
+		<cond msgId="113">
+			<and>
+				<CanEscape/>
+				<agathion/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_escape" type="town"/>
+		</for>
+	</skill>
+	<skill id="23009" levels="1" name="Plaipitak Agathion Special Skill - Power of Blessed Resurrection">
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#effectPoint">624</table>
+		<set name="effectPoint" val="#effectPoint"/>
+		<set name="target_type" val="pc_body"/>
+		<set name="reuseDelay" val="300000"/>
+		<set name="hitTime" val="3000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="400"/>
+		<set name="isValidateable" val="false"/>
+		<set name="staticReuse" val="true"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="nextAction" val="none"/>
+		<cond msgId="113">
+			<and>
+				<CanResurrect/>
+				<agathion/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_resurrection" val="200"/>
+		</for>
+	</skill>
+	<skill id="23010" levels="1" name="Baby Panda Agathion Cute Trick">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- 
+			Generated from client by rage
+			Able to see the summoned spirit perform cute tricks.
+		-->
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23011" levels="1" name="Bamboo Panda Agathion Cute Trick">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- 
+			Generated from client by rage
+			Able to see the summoned spirit perform cute tricks.
+		-->
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23012" levels="1" name="Sexy Panda Agathion Cute Trick">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- 
+			Generated from client by rage
+			Able to see the summoned spirit perform cute tricks.
+		-->
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23013" levels="1" name="Baby Panda Agathion Special Skill - Mysterious Power">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			A mysterious power that no one knows. Use with caution!
+		-->
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23014" levels="1" name="Bamboo Panda Agathion Special Skill - Power of Blessed Resurrection">
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="hitTime" val="3000"/>
+		<!-- 
+			Generated from client by rage
+			Power of Blessed Resurrection is available.
+		-->
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="400"/>
+		<for/>
+	</skill>
+	<skill id="23015" levels="1" name="Sexy Panda Agathion Special Skill - Power of Blessed Return">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="200"/>
+		<!-- 
+			Generated from client by rage
+			Power of Blessed Return is available.
+		-->
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23016" levels="1" name="Rudolph Agathion Special Skill - Ability of Energy">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			You can recover Vitality as you gain Experience Points.
+		-->
+		<set name="magicLevel" val="-1"/>
+		<set name="reuseDelay" val="43200000"/>
+		<set name="staticReuse" val="true"/>
+		<set name="abnormal_time" val="1200"/>
+		<set name="abnormalLevel" val="3"/>
+		<set name="abnormal_type" val="vitality"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond msgId="113">
+			<agathion/>
+		</cond>
+		<for>
+			<effect>
+				<set order="0x20" stat="recovery_vp" val="1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="23017" levels="1" name="Holiday Festival">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<!-- 
+			Generated from client by rage
+			Max HP, MP and CP are increased; P. Def., Movement Speed, P. Atk., and M. Atk. are increased; MP consumption for skills is decreased. Effect 1.
+		-->
+		<set name="magicLevel" val="-1"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="abnormal_type" val="br_event_buf1"/>
+		<set name="target_type" val="target"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="maxHp" val="1.4"/>
+				<mul order="0x30" stat="maxMp" val="1.4"/>
+				<mul order="0x30" stat="maxCp" val="1.4"/>
+				<mul order="0x30" stat="pDef" val="1.2"/>
+				<mul order="0x30" stat="mDef" val="1.2"/>
+				<add order="0x40" stat="runSpd" val="20"/>
+				<mul order="0x30" stat="pAtk" val="1.1"/>
+				<mul order="0x30" stat="mAtk" val="1.15"/>
+				<mul order="0x30" stat="mpConsumePhysical" val="0.95"/>
+				<mul order="0x30" stat="mpConsume" val="0.95"/>
+				<mul order="0x30" stat="mpDanceConsume" val="0.95"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="23018" levels="1" name="Thomas D. Turkey's Mistake">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="4000"/>
+		<!-- 
+			Generated from client by rage
+			Max HP, MP and CP are increased; P. Def., Movement Speed, P. Atk., and M. Atk. are increased; MP consumption for skills is decreased. Effect 2.
+		-->
+		<set name="magicLevel" val="-1"/>
+		<set name="coolTime" val="500"/>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_type" val="br_event_buf1"/>
+		<set name="abnormalLevel" val="2"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="around"/>
+		<set name="affect_limit" val="0;0"/>
+		<set name="affect_object" val="not_friend"/>
+		<set name="skillRadius" val="500"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="maxHp" val="1.4"/>
+				<mul order="0x30" stat="maxMp" val="1.4"/>
+				<mul order="0x30" stat="maxCp" val="1.4"/>
+				<mul order="0x30" stat="pDef" val="1.2"/>
+				<mul order="0x30" stat="mDef" val="1.2"/>
+				<add order="0x40" stat="runSpd" val="20"/>
+				<mul order="0x30" stat="pAtk" val="1.2"/>
+				<mul order="0x30" stat="mAtk" val="1.3"/>
+				<mul order="0x30" stat="mpConsume" val="0.9"/>
+				<mul order="0x30" stat="mpConsumePhysical" val="0.9"/>
+				<mul order="0x30" stat="mpDanceConsume" val="0.9"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="23019" levels="3" name="Paper">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<table name="#mpConsume2">
+			0 0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<!-- 
+			Generated from client by rage
+			Challenge opponent with "Paper." Cannot move.
+		-->
+		<table name="#magicLevel">1 2 3</table>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="abnormal_type" val="br_event_buf2"/>
+		<set name="isSaveable" val="false"/>
+		<set name="target_type" val="target"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="500"/>
+		<for>
+			<effect>
+				<add order="0x10" stat="block_move" val="1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="23020" levels="1" name="Challenge the Turkey">
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="8000"/>
+		<!-- 
+			Generated from client by rage
+			You challenge Thomas D. Turkey.
+		-->
+		<set name="magicLevel" val="1"/>
+		<set name="coolTime" val="500"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="around"/>
+		<set name="affect_limit" val="0;0"/>
+		<set name="affect_object" val="not_friend"/>
+		<set name="skillRadius" val="500"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23021" levels="3" name="Turkey's Attack Papaer">
+		<set name="hitCancelTime" val="0"/>
+		<table name="#mpConsume2">
+			0 0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1 -1 -1</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Thomas D. Turkey chooses "Paper."
+		-->
+		<set name="magicLevel" val="1"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23022" levels="10" name="Tenth Consecutive Win">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<table name="#mpConsume2">
+			0 0 0 0 0 0 0 0 0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<!-- 
+			Generated from client by rage
+			You've won your tenth consecutive "Rock-Paper-Scissors" match.
+		-->
+		<set name="magicLevel" val="1"/>
+		<set name="abnormal_time" val="120"/>
+		<table name="#abnormalLevel">1 2 3 4 5 6 7 8 9 10</table>
+		<set name="abnormalLevel" val="#abnormalLevel"/>
+		<set name="abnormal_type" val="br_event_buf3"/>
+		<set name="isSaveable" val="false"/>
+		<set name="target_type" val="target"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="500"/>
+		<for>
+			<effect/>
+		</for>
+	</skill>
+	<skill id="23023" levels="1" name="Reset Consecutive Wins">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<!-- 
+			Generated from client by rage
+			Reset Consecutive Wins
+		-->
+		<set name="magicLevel" val="1"/>
+		<set name="target_type" val="target"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="500"/>
+		<for>
+			<effect name="i_dispel_by_slot" slotType="br_event_buf3" maxAbnormalLevel="10"/>
+		</for>
+	</skill>
+	<skill id="23024" levels="1" name="Agathion of Love Special Skill - Energy Recovery Ability">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- 
+			Generated from client by rage
+			Vitality recovery ability. The use of this skill will enable the recipient to regenerate Vitality while the skill is active. Vitality is recovered as Exp. points are acquired. 12 hour reuse delay applies.
+		-->
+		<set name="reuseDelay" val="3000"/>
+		<set name="staticReuse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="hitTime" val="3000"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond msgId="113">
+			<agathion/>
+		</cond>
+		<for/>
+	</skill>
+	<skill id="23025" levels="1" name="Charming Cupid Agathion Cute Trick">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- 
+			Generated from client by rage
+			Lets you watch the summoned spirit perform cute tricks.
+		-->
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23026" levels="1" name="Naughty Cupid Agathion Cute Trick">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- 
+			Generated from client by rage
+			Lets you watch the summoned spirit perform cute tricks.
+		-->
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23027" levels="1" name="White Maneki Neko Agathion Cute Trick I">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- 
+			Generated from client by rage
+			Lets you watch the summoned spirit perform cute tricks.
+		-->
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23028" levels="1" name="Black Maneki Neko Agathion Cute Trick I">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- 
+			Generated from client by rage
+			Lets you watch the summoned spirit perform cute tricks.
+		-->
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23029" levels="1" name="Brown Maneki Neko Agathion Cute Trick I">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- 
+			Generated from client by rage
+			Lets you watch the summoned spirit perform cute tricks.
+		-->
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23030" levels="1" name="White Maneki Neko Agathion Special Skill - Blessed Resurrection Ability">
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="hitTime" val="3000"/>
+		<!-- 
+			Generated from client by rage
+			Allows you to use the Blessed Resurrection ability. Reuse Delay: 12 hours.
+		-->
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="400"/>
+		<for/>
+	</skill>
+	<skill id="23031" levels="1" name="Black Maneki Neko Agathion Special Skill - Ability of Blessed Return">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="200"/>
+		<!-- 
+			Generated from client by rage
+			Allows you to use the Blessed Return ability. Reuse Delay: 12 hours.
+		-->
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23032" levels="1" name="Brown Maneki Neko Agathion Special Skill - Ability of Energy Recovery">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- 
+			Generated from client by rage
+			Allows you to recover vitality as Exp. points are acquired. Reuse Delay: 1 hour.
+		-->
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23033" levels="1" name="One-Eyed Bat Drove Agathion Cute Trick">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- 
+			Generated from client by rage
+			Lets you watch the summoned spirit perform cute tricks.
+		-->
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23034" levels="1" name="One-eyed Bat Drove Agathion Special Skill - Ability of Resist Unholy">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- 
+			Generated from client by rage
+			Allows you to use the Resist Unholy ability. Resistance to Infernal attacks is increased. Reuse Delay: 1 hour.
+		-->
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23035" levels="1" name="One-eyed Bat Drove Agathion Special Skill - Ability of Energy Recovery">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- 
+			Generated from client by rage
+			Allows you to recover vitality as Exp. points are acquired. Reuse Delay: 1 hour.
+		-->
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23036" levels="1" name="Pegasus Agathion Cute Trick">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- 
+			Generated from client by rage
+			Lets you watch the summoned spirit perform cute tricks.
+		-->
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23037" levels="1" name="Pegasus Agathion Special Skill - Ability of Wind Walk">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- 
+			Generated from client by rage
+			Allows you to use the Wind Walk ability. Movement speed is increased. Reuse Delay: 4 hours.
+		-->
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23038" levels="1" name="Pegasus Agathion Special Skill - Blessed Return Ability">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="200"/>
+		<!-- 
+			Generated from client by rage
+			Allows you to use the Blessed Resurrection ability. Reuse Delay: 12 hours.
+		-->
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23039" levels="1" name="Yellow-Robed Tojigong Agathion Cute Trick">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- 
+			Generated from client by rage
+			Lets you watch the summoned spirit perform cute tricks.
+		-->
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23040" levels="1" name="Blue-Robed Tojigong Agathion Cute Trick">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- 
+			Generated from client by rage
+			Lets you watch the summoned spirit perform cute tricks.
+		-->
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23041" levels="1" name="Green-Robed Tojigong Agathion Cute Trick">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- 
+			Generated from client by rage
+			Lets you watch the summoned spirit perform cute tricks.
+		-->
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23042" levels="1" name="Yellow-robed Tojigong Agathion Special Skill - Ability of Greater Heal">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- 
+			Generated from client by rage
+			Allows you to use the Greater Heal ability. HP is recovered and HP regeneration is increased. Reuse Delay: 4 hours.
+		-->
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23043" levels="1" name="Blue-robed Tojigong Agathion Special Skill - Ability of Reflect Damage">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- 
+			Generated from client by rage
+			Allows you to use the Reflect Damage ability to reflect a portion of the damage received in an attack back to the enemy. Excludes skill-based and long-range attacks. Reuse Delay: 1 hour.
+		-->
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23044" levels="1" name="Green-robed Tojigong Agathion Special Skill - Ability of Mana Regeneration">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- 
+			Generated from client by rage
+			Allows you to use the Mana Regeneration ability. MP regeneration is increased. Reuse Delay: 1 hour.
+		-->
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23045" levels="1" name="Bugbear Agathion Cute Trick">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- 
+			Generated from client by rage
+			Lets you watch the summoned spirit perform cute tricks.
+		-->
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23046" levels="1" name="White Maneki Neko Agathion Cute Trick II">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- 
+			Generated from client by rage
+			Lets you watch the summoned spirit perform cute tricks.
+		-->
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23047" levels="1" name="Black Maneki Neko Agathion Cute Trick II">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- 
+			Generated from client by rage
+			Lets you watch the summoned spirit perform cute tricks.
+		-->
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23048" levels="1" name="Brown Maneki Neko Agathion Cute Trick II">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- 
+			Generated from client by rage
+			Lets you watch the summoned spirit perform cute tricks.
+		-->
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23049" levels="1" name="Red Sumo Wrestler Agathion Cute Trick">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Able to see the summoned spirit perform cute tricks. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23050" levels="1" name="Blue Sumo Wrestler Agathion Cute Trick">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Able to see the summoned spirit perform cute tricks. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23051" levels="1" name="Great Sumo Match Agathion Cute Trick">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Able to see the summoned spirit perform cute tricks. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23052" levels="1" name="Button-Eyed Bear Doll Agathion Cute Trick">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Able to see the summoned spirit perform cute tricks. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23053" levels="1" name="God of Fortune Agathion Cute Trick">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Able to see the summoned spirit perform cute tricks. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23054" levels="1" name="Dryad Agathion Cute Trick">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Able to see the summoned spirit perform cute tricks. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23055" levels="1" name="Wonboso Agathion Cute Trick">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Able to see the summoned spirit perform cute tricks. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23056" levels="1" name="Daewoonso Agathion Cute Trick">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Able to see the summoned spirit perform cute tricks. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23057" levels="1" name="Red Sumo Wrestler Agathion Special Skill - Death Whisper Ability">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases Critical attack power by 35% for 5 minutes. Reuse Delay 1 hours. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23058" levels="1" name="Blue Sumo Wrestler Agathion Special Skill - Wild Magic Ability">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- For 5 minutes, increases by 2% the occurrence rate of damage that is caused by damage magic. Reuse Delay 1 hours. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23059" levels="1" name="Great Sumo Match Agathion Special Skill - Mysterious Power">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- A mysterious power that no one knows. Use with caution! Reuse Delay 1 hour. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23060" levels="1" name="Great Sumo Match Agathion Special Skill - Ability of Firework">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Set off firecrackers. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23061" levels="1" name="Button-Eyed Bear Doll Agathion Special Skill - Ability of Blessed Return">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="200"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Can use the ability of Blessed Return. Reuse Delay 12 hours. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23062" levels="1" name="Button-Eyed Bear Doll Agathion Special Skill - Ability of Blessed Resurrection">
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> 400
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Can use the ability of Blessed Resurrection. Reuse Delay 12 hours. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23063" levels="1" name="Button-Eyed Bear Doll Agathion Special Skill - Ability of Energy Recovery">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Recovers energy when acquiring Exp. for 5 minutes. Reuse Delay 1 hours. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23064" levels="1" name="God of Fortune Agathion Special Skill - Energy Recovery Ability">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Recovers energy when acquiring Exp. for 5 minutes. Reuse Delay 1 hours. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23065" levels="1" name="Wonboso Agathion Special Skill - Wind Walk Ability">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases moving speed by 20 for 5 minutes. Reuse Delay 1 hours. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23066" levels="1" name="Daewoonso Agathion Special Skill - New Year's Gift Ability">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Can receive a New Year's Gift. Reuse Delay 1 hours. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23067" levels="1" name="Pomona Agathion Cute Trick">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Able to see the summoned spirit perform cute tricks. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23068" levels="1" name="Pomona Agathion Special Skill - Mental Shield Ability">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="6000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Able to see the summoned spirit perform cute tricks. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23069" levels="1" name="Threatening Roar">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> 600
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="7000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Spirit's power: Decreases moving speed and Atk. Spd. by 80% for 10 seconds. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23070" levels="1" name="Red Flame">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> 600
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="7000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Spirit's power: Cannot damage the spirit for 10 seconds. Exclusive use for the Reckless Spirit of Fire. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23071" levels="1" name="Blue Flame">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> 600
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="7000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Spirit's power: Cannot damage the spirit for 8 seconds. Exclusive use for the Spirit of Fire. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23072" levels="1" name="Eva's Wrath">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="500"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- You are endowed with the spirit of Eva's Wrath for the next 70 seconds. This allows you to do damage to a Spirit of Fire. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23073" levels="1" name="Switch Mode">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> 600
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="500"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- State to switch the spirit's mode. Switches to counter-attack mode or deadly mode. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23074" levels="1" name="Icy Air Explosion">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> 600
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="500"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- For 4 seconds, damage inflicted on the spirit doubles. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23075" levels="1" name="Flame Shock">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> 600
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="500"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Spirit's power: Loses the target. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23076" levels="1" name="Weaver Agathion Cute Trick">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Able to see the summoned spirit perform cute tricks. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23077" levels="1" name="Weaver Agathion Special Skill - Power of the Golden Calf">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="itemConsumeId" val="20597"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- For 20 minutes, receives help from the Golden Calf. Increases party members' Max HP by 60%, Max MP by 60%, Max CP by 60%, physical P. Def. by 30%, magic M. Def. by 30%, moving speed by 30, and physical P. Atk. by 20%. Decreases MP consumption during skill use by 10%. Reuse delay 5 minutes. Consumes 1 Girl's Soul Ore during skill use. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23078" levels="1" name="Weaver Agathion Special Skill - Flute Sound">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="itemConsumeId" val="20597"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- For 20 minutes, through the magic of the mysterious flute sound, increases Max HP by 40%, Max MP by 40%, Max CP by 40%, physical P. Def. by 30%, magic M. Def. by 30%, moving speed by 20, and M. Atk. by 45%. Decreases MP consumption during skill use by 10%. Reuse delay 5 minutes. Consumes 1 Girl's Soul Ore during skill use. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23079" levels="1" name="Chon-chon Agathion Cute Trick">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Able to see the summoned spirit perform cute tricks. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23080" levels="1" name="Chon-chon Agathion Special Skill - Great Warrior Soul Power">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="4000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- For five minutes, the Great Spirit increases critical attack damage by 20%, P.Atk. by 10% and moving speed by 20%.  Decreases the MP consumption of skills by 5%. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23081" levels="1" name="Tang-tang Agathion Cute Trick">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Able to see the summoned spirit perform cute tricks. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23082" levels="1" name="Tang-tang Agathion Special Skill - Great Wizard Soul Power">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="4000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- For five minutes, the Great Spirit increases the casting speed by 20%, M.Atk. by 20%, M.Def. by 20% . Increases the probability of critical hits with magic attacks by 2% -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23083" levels="1" name="Dancing Kid Agathion Cute Trick">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Able to see the summoned spirit perform cute tricks. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23084" levels="1" name="Dancing Kid Agathion Special Skill - Great Adventurer Soul Power">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="4000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- For five minutes, the Great Spirit increases maximum HP by 20%, maximum MP by 20%, MP recovery bonus by 20%, HP recovery bonus by 20% and moving speed by 20% -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23085" levels="1" name="Monkey King Agathion Cute Trick">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Able to see the summoned spirit perform cute tricks. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23086" levels="1" name="Monkey King Agathion Special Skill - Great Wizard Soul Power">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="4000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- For five minutes, the Great Spirit increases the casting speed by 20%, M.Atk. by 20%, M.Def. by 20% . Increases the probability of critical magic attacks by 2% -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23087" levels="1" name="Utanka Agathion Cute Trick">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Able to see the summoned spirit perform cute tricks. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23088" levels="1" name="Utanka Agathion Special Skill - Great Warrior Soul Power">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="4000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- For five minutes, the Great Spirit increases critical attack damage by 20%, P.Atk. by 10% and P.Def. by 20%.  Bestows the ability to recover HP equal to 5% of the melee damage -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23089" levels="1" name="Bonus B Agathion Cute Trick">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Able to see the summoned spirit perform cute tricks. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23090" levels="1" name="Bonus B Agathion Special Skill - Great Adventurer Soul Power">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="4000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- For five minutes, the Great Spirit increases maximum HP by 20%, maximum MP by 20%, MP recovery bonus by 20%, HP recovery bonus by 20% and moving speed by 20% -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23091" levels="1" name="Trick of Halloween Children">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> 600
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="500"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- By trick of Halloween Children, increase max HP/MP/CP by 40% for 10 seconds. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23092" levels="1" name="Jack O'Lantern Card">
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="2000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Halloween Ghost Skill Presentation -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23093" levels="1" name="Rotten Jack O'Lantern Card">
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="2000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Halloween Ghost Skill Presentation -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23094" levels="1" name="Jack O'Lantern Card - Confirm Skill">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> 500
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Halloween Ghost Skill Presentation -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23095" levels="1" name="Rotten Jack O'Lantern Card - Confirm Skill">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> 500
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Halloween Ghost Skill Presentation -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23096" levels="1" name="Halloween Defeat">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> 500
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Halloween Defeat Effect -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23097" levels="1" name="First Consecutive Win">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> 500
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- 1st Consecutive Win in Jack Game. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23098" levels="1" name="2nd Consecutive Win">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> 500
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- 2nd Consecutive Win in Jack Game. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="23099" levels="1" name="Third Consecutive Win">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> 500
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- 3rd Consecutive Win in Jack Game. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+</list>

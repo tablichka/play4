@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="8104" name="Pa'agrian Sword - Critical Drain">
+		<for>
+			<skill id="3022" level="3" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="8105" name="Guardian Sword - Critical Drain">
+		<for>
+			<skill id="3022" level="6" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="8107" name="Guardian Sword - Critical Bleed">
+		<for>
+			<skill id="3055" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="8113" name="Mysterious Sword - Magic Weakness">
+		<for>
+			<skill id="1164" level="7" chance="8" action="magic" />
+		</for>
+	</item>
+	<item id="8116" name="Ecliptic Sword - Magic Silence">
+		<for>
+			<skill id="3078" level="4" chance="10" action="magic" />
+		</for>
+	</item>
+	<item id="8122" name="Dwarven Hammer - Critical Bleed">
+		<for>
+			<skill id="3021" level="4" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="8125" name="Karik Horn - Critical Drain">
+		<for>
+			<skill id="3039" level="3" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="8128" name="Destroyer Hammer - Critical Drain">
+		<for>
+			<skill id="3059" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="8131" name="Ice Storm Hammer - Critical Bleed">
+		<for>
+			<skill id="3021" level="5" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="8134" name="Star Buster - Rsk. Focus">
+		<for>
+			<add val="99" order="0x40" stat="rCrit">
+				<player percentHP="60" />
+			</add>
+		</for>
+	</item>
+	<item id="8140" name="Ecliptic Axe - Magic Hold">
+		<for>
+			<!-- Magic Hold -->
+			<skill id="1201" level="23" chance="10" action="magic" />
+		</for>
+	</item>
+	<item id="8142" name="Spell Breaker - Magic Mental Shield">
+		<for>
+			<skill id="1035" level="4" chance="50" action="magic" />
+		</for>
+	</item>
+	<item id="8143" name="Spell Breaker - Magic Hold">
+		<for>
+			<skill id="1201" level="25" chance="10" action="magic" />
+		</for>
+	</item>
+	<item id="8145" name="Kaim Vanul's Bones - Magic Silence">
+		<for>
+			<skill id="3078" level="6" chance="10" action="magic" />
+		</for>
+	</item>
+	<item id="8148" name="Spiritual Eye - Magic Poison">
+		<for>
+			<!-- Magic Poison -->
+			<skill id="1168" level="6" chance="10" action="magic" />
+		</for>
+	</item>
+	<item id="8152" name="Flaming Dragon Skull - Magic Silence">
+		<for>
+			<!-- Magic Silence -->
+			<skill id="3074" level="2" chance="10" action="magic" />
+		</for>
+	</item>
+</list>

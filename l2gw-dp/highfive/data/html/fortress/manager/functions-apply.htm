@@ -1,0 +1,15 @@
+*[Manage Fortress]*
+
+<table width=275 cellspacing=3 cellpadding=0><tr>
+<td FIXWIDTH=45><font color="999999">Name</font></td><td FIXWIDTH=230>%name%</td></tr>
+<tr><td><font color="999999">Cost</font></td><td>%cost% adena</td></tr>
+<tr><td valign=top><font color="999999">Use</font></td><td>%use%</td></tr></table>
+
+The fee for using this feature must be paid in advance.%%
+The initial fee will be deducted from the clan lord's *inventory*, and subsequent fees will be withdrawn from the *clan warehouse*.%%
+If there is not sufficient Adena in the clan warehouse, *the facility will be reset*.
+
+<center><table width=200><tr>
+<td align=center><button action="bypass -h npc_%objectId%_manage %apply%" value="OK" width=80 height=27 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+<td align=center><button action="bypass -h npc_%objectId%_manage" value="Cancel" width=80 height=27 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+</tr></table></center>

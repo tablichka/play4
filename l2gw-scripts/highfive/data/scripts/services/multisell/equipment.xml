@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<armorPrice grade="A" itemId="57" price="1000000"/>
+	<armorPrice grade="S" itemId="57" price="10000000"/>
+	<armorPrice grade="S80" itemId="57" price="100000000"/>
+	<armorPrice grade="S84" itemId="57" price="1000000000"/>
+	<weaponPrice grade="A" itemId="57" price="5000000"/>
+	<weaponPrice grade="S" itemId="57" price="50000000"/>
+	<weaponPrice grade="S80" itemId="57" price="500000000"/>
+	<weaponPrice grade="S84" itemId="57" price="5000000000"/>
+	<category id="5,6,90,91,20,99,33,106,21,100">
+		<armor grade="A">
+			2418 374 5783 5771 2498
+		</armor>
+		<armor grade="S">
+			9422 10228 9421 9424 9423 9441
+		</armor>
+		<armor grade="S80">
+			15606 15609 15612 15618 15615 15621
+		</armor>
+		<armor grade="S84">
+			15589 15592 15595 15601 15598 15604
+		</armor>
+		<weapon grade="A">8789 8800 8794 8807</weapon>
+		<weapon grade="S">9854 9873 6592 9865</weapon>
+		<weapon grade="S80">10434 10453 10446 10445</weapon>
+		<weapon grade="S84">15871 15879 15874 15903</weapon>
+	</category>
+	<category id="9,92,24,102,37,109,130,134">
+		<armor grade="A">2395 2419 5787 5775</armor>
+		<armor grade="S">10234 9428 9429 9431 9430</armor>
+		<armor grade="S80">15610 15613 15607 15616 15619</armor>
+		<armor grade="S84">15576 15579 15573 15582 15585</armor>
+		<weapon grade="A">8807</weapon>
+		<weapon grade="S">9865</weapon>
+		<weapon grade="S80">10445</weapon>
+		<weapon grade="S84">15903</weapon>
+	</category>
+	<category id="12,13,14,27,28,40,41,94,95,96,103,104,110,111">
+		<armor grade="A">512 2407 5779 5767</armor>
+		<armor grade="S">6386 6383 6384 6385</armor>
+		<armor grade="S80">15611 15608 15614 15620 15617</armor>
+		<armor grade="S84">15577 15574 15580 15586 15583</armor>
+		<weapon grade="A">5643</weapon>
+		<weapon grade="S">9860</weapon>
+		<weapon grade="S80">10440</weapon>
+		<weapon grade="S84">15900</weapon>
+	</category>
+	<category id="8,93,23,101,36,108">
+		<armor grade="A">2395 2419 5787 5775</armor>
+		<armor grade="S">10233 9428 9429 9431 9430</armor>
+		<armor grade="S80">15610 15613 15607 15616 15619</armor>
+		<armor grade="S84">15576 15579 15573 15582 15585</armor>
+		<weapon grade="A">8801</weapon>
+		<weapon grade="S">9868</weapon>
+		<weapon grade="S80">10448</weapon>
+		<weapon grade="S84">15875</weapon>
+	</category>
+	<category id="34,107">
+		<armor grade="A">
+			2418 374 5783 5771 2498
+		</armor>
+		<armor grade="S">
+			9422 10231 9421 9424 9423 9441
+		</armor>
+		<armor grade="S80">
+			15606 15609 15612 15618 15615 15621
+		</armor>
+		<armor grade="S84">
+			15589 15592 15595 15601 15598 15604
+		</armor>
+		<weapon grade="A">8938 8794 8807</weapon>
+		<weapon grade="S">10004 6592 9865</weapon>
+		<weapon grade="S80">10451 10446 10445</weapon>
+		<weapon grade="S84">16158 15874 15903</weapon>
+	</category>
+	<category id="3,89">
+		<armor grade="A">
+			2418 374 5783 5771 2498
+		</armor>
+		<armor grade="S">
+			9422 10229 9421 9424 9423 9441
+		</armor>
+		<armor grade="S80">
+			15606 15609 15612 15618 15615 15621
+		</armor>
+		<armor grade="S84">
+			15572 15575 15578 15584 15581
+		</armor>
+		<weapon grade="A">8805</weapon>
+		<weapon grade="S">9870</weapon>
+		<weapon grade="S80">10450</weapon>
+		<weapon grade="S84">15890</weapon>
+	</category>
+	<category id="2,88">
+		<armor grade="A">
+			2418 374 5783 5771 2498
+		</armor>
+		<armor grade="S">
+			9422 10229 9421 9424 9423 9441
+		</armor>
+		<armor grade="S80">
+			15606 15609 15612 15618 15615 15621
+		</armor>
+		<armor grade="S84">
+			15572 15575 15578 15584 15581
+		</armor>
+		<weapon grade="A">8938</weapon>
+		<weapon grade="S">10004</weapon>
+		<weapon grade="S80">10451</weapon>
+		<weapon grade="S84">16158</weapon>
+	</category>
+	<category id="16,17,30,43,97,98,105,112">
+		<armor grade="A">512 2407 5779 5767</armor>
+		<armor grade="S">6386 6383 6384 6385</armor>
+		<armor grade="S80">15611 15608 15614 15620 15617</armor>
+		<armor grade="S84">15577 15574 15580 15586 15583</armor>
+		<weapon grade="A">5643</weapon>
+		<weapon grade="S">9860</weapon>
+		<weapon grade="S80">10440</weapon>
+		<weapon grade="S84">15900</weapon>
+	</category>
+	<category id="46,113">
+		<armor grade="A">
+			547 2382 5780 5768
+		</armor>
+		<armor grade="S">
+			9422 10229 9421 9424 9423 9441
+		</armor>
+		<armor grade="S80">
+			15606 15609 15612 15618 15615 15621
+		</armor>
+		<armor grade="S84">
+			15572 15575 15578 15584 15581
+		</armor>
+		<weapon grade="A">8805 8791 8798</weapon>
+		<weapon grade="S">9870 9857 10530</weapon>
+		<weapon grade="S80">10450 10437 10530</weapon>
+		<weapon grade="S84">15890 15883 15882</weapon>
+	</category>
+	<category id="48,114">
+		<armor grade="A">
+			547 2382 5780 5768
+		</armor>
+		<armor grade="S">
+			9429 10487 9428 9431 9430
+		</armor>
+		<armor grade="S80">
+			15607 15610 15613 15619 15616
+		</armor>
+		<armor grade="S84">
+			15576 15579 15573 15582 15585
+		</armor>
+		<weapon grade="A">8809</weapon>
+		<weapon grade="S">9879</weapon>
+		<weapon grade="S80">10459</weapon>
+		<weapon grade="S84">15887</weapon>
+	</category>
+	<category id="51,52,115,116">
+		<armor grade="A">
+			512 2407 5779 5767
+		</armor>
+		<armor grade="S">
+			6386 6383 6385 6384
+		</armor>
+		<armor grade="S80">
+			15608 15611 15614 15620 15617
+		</armor>
+		<armor grade="S84">
+			15577 15574 15580 15586 15583
+		</armor>
+		<weapon grade="A">8150</weapon>
+		<weapon grade="S">9877</weapon>
+		<weapon grade="S80">10457</weapon>
+		<weapon grade="S84">15893</weapon>
+	</category>
+	<category id="55,57,117,118">
+		<armor grade="A">
+			547 2382 5780 5768
+		</armor>
+		<armor grade="S">
+			9422 10229 9421 9424 9423 9441
+		</armor>
+		<armor grade="S80">
+			15606 15609 15612 15618 15615 15621
+		</armor>
+		<armor grade="S84">
+			15572 15575 15578 15584 15581
+		</armor>
+		<weapon grade="A">8805 8794 8801</weapon>
+		<weapon grade="S">9870 9873 9868</weapon>
+		<weapon grade="S80">10450 10453 10448</weapon>
+		<weapon grade="S84">15890 15879 15875</weapon>
+	</category>
+	<category id="135,136">
+		<armor grade="A">
+			512 2385 2389 5778 5766
+		</armor>
+		<armor grade="S">
+			9429 10489 9428 9431 9430
+		</armor>
+		<armor grade="S80">
+			15610 15613 15607 15616 15619
+		</armor>
+		<weapon grade="A">9354</weapon>
+		<weapon grade="S">9378</weapon>
+		<weapon grade="S80">10462</weapon>
+	</category>
+	<category id="127,128,129,131,132,133">
+		<armor grade="A">
+			512 2385 2389 5778 5766
+		</armor>
+		<armor grade="S">
+			9429 10488 9428 9431 9430
+		</armor>
+		<armor grade="S80">
+			15610 15613 15607 15616 15619
+		</armor>
+		<armor grade="S84">
+			15576 15579 15573 15582 15585
+		</armor>
+		<weapon grade="A">9354 9359</weapon>
+		<weapon grade="S">9378 9382</weapon>
+		<weapon grade="S80">10462 10465</weapon>
+		<weapon grade="S84">15906 15909</weapon>
+	</category>
+</list>

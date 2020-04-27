@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<item id='7582' name="pet_food_baby_spice">
+		<cond msgId="113">
+			<uc category="baby_pet_group"/>
+		</cond>
+		<for/>
+	</item>
+	<item id='7598' name="Crimson Moss">
+	<!-- Crimson Moss obtained from Swamp of Screams -->
+		<for/>
+	</item>
+
+	<item id='7599' name="Rahorakti's Miraculous Medicine">
+	<!-- Remedy prescribed by Grand Seer Rahorakti for Dwarf Girl Kassandra -->
+		<for/>
+	</item>
+
+</list>

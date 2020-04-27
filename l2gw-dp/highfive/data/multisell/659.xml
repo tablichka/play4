@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- schuttgart_feud_product -->
+<list>
+	<config showall="true" notax="true" keepenchanted="false" />
+	<item>
+		<production id="13739" count="1"/>	<!-- Blessed Scroll of Escape: Schuttgart -->
+		<ingredient id="57" count="250000"/>	<!-- Adena -->
+		<ingredient id="13765" count="40"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+	<item>
+		<production id="13721" count="1"/>	<!-- Schuttgart Supply Box - Belt -->
+		<ingredient id="57" count="40000"/>	<!-- Adena -->
+		<ingredient id="13765" count="7"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+	<item>
+		<production id="13712" count="1"/>	<!-- Schuttgart Supply Box - Magic Pouch -->
+		<ingredient id="57" count="20000"/>	<!-- Adena -->
+		<ingredient id="13765" count="4"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+	<item>
+		<production id="13703" count="1"/>	<!-- Schuttgart Supply Box - Magic Pin -->
+		<ingredient id="57" count="40000"/>	<!-- Adena -->
+		<ingredient id="13765" count="8"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+	<item>
+		<production id="14557" count="1"/>	<!-- Schuttgart Supply Box - Belt -->
+		<ingredient id="57" count="400000"/>	<!-- Adena -->
+		<ingredient id="13765" count="70"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+	<item>
+		<production id="14548" count="1"/>	<!-- Schuttgart Supply Box - Magic Pouch -->
+		<ingredient id="57" count="80000"/>	<!-- Adena -->
+		<ingredient id="13765" count="16"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+	<item>
+		<production id="14539" count="1"/>	<!-- Schuttgart Supply Box - Magic Pin -->
+		<ingredient id="57" count="120000"/>	<!-- Adena -->
+		<ingredient id="13765" count="32"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+	<item>
+		<production id="14901" count="1"/>	<!-- Schuttgart Supply Box - Magic Ornament -->
+		<ingredient id="57" count="80000"/>	<!-- Adena -->
+		<ingredient id="13765" count="16"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+	<item>
+		<production id="14892" count="1"/>	<!-- Schuttgart Supply Box - Magic Rune Clip -->
+		<ingredient id="57" count="120000"/>	<!-- Adena -->
+		<ingredient id="13765" count="32"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+	<item>
+		<production id="13748" count="1"/>	<!-- Schuttgart Wind Resistance Necklace -->
+		<ingredient id="57" count="3596400"/>	<!-- Adena -->
+		<ingredient id="13765" count="160"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+	<item>
+		<production id="14600" count="1"/>	<!-- Schuttgart Dark Resistance Ring -->
+		<ingredient id="57" count="1798200"/>	<!-- Adena -->
+		<ingredient id="13765" count="80"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+	<item>
+		<production id="14672" count="1"/>	<!-- Schuttgart Protection Earring -->
+		<ingredient id="57" count="2696400"/>	<!-- Adena -->
+		<ingredient id="13765" count="120"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+	<item>
+		<production id="15290" count="1"/>	<!-- Schuttgart Wind Royal Guard Necklace -->
+		<ingredient id="57" count="3596400"/>	<!-- Adena -->
+		<ingredient id="13765" count="160"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+	<item>
+		<production id="15299" count="1"/>	<!-- Schuttgart Dark Royal Guard Ring -->
+		<ingredient id="57" count="1798200"/>	<!-- Adena -->
+		<ingredient id="13765" count="80"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+	<item>
+		<production id="14809" count="1"/>	<!-- Schuttgart Guard Earring -->
+		<ingredient id="57" count="2696400"/>	<!-- Adena -->
+		<ingredient id="13765" count="120"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+	<item>
+		<production id="14810" count="1"/>	<!-- Blue Talisman - Buff Cancel -->
+		<ingredient id="57" count="14500"/>	<!-- Adena -->
+		<ingredient id="13765" count="13"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+	<item>
+		<production id="14811" count="1"/>	<!-- Blue Talisman - Buff Steal -->
+		<ingredient id="57" count="15600"/>	<!-- Adena -->
+		<ingredient id="13765" count="14"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+	<item>
+		<production id="14815" count="1"/>	<!-- Territory Health Recovery Potion -->
+		<ingredient id="57" count="21000"/>	<!-- Adena -->
+		<ingredient id="13765" count="8"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+	<item>
+		<production id="14816" count="1"/>	<!-- Territory Mana Recovery Potion -->
+		<ingredient id="57" count="21000"/>	<!-- Adena -->
+		<ingredient id="13765" count="8"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+	<item>
+		<production id="14817" count="1"/>	<!-- Territory CP Recovery Potion -->
+		<ingredient id="57" count="21000"/>	<!-- Adena -->
+		<ingredient id="13765" count="8"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+	<item>
+		<production id="9625" count="1"/>	<!-- Giant's Codex - Oblivion -->
+		<ingredient id="57" count="1000000"/>	<!-- Adena -->
+		<ingredient id="13765" count="20"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+	<item>
+		<production id="9626" count="1"/>	<!-- Giant's Codex - Discipline -->
+		<ingredient id="57" count="1260000"/>	<!-- Adena -->
+		<ingredient id="13765" count="54"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+	<item>
+		<production id="9627" count="1"/>	<!-- Giant's Codex - Mastery -->
+		<ingredient id="57" count="1800000"/>	<!-- Adena -->
+		<ingredient id="13765" count="80"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+	<item>
+		<production id="14963" count="1"/>	<!-- Silver Skeleton Circlet -->
+		<ingredient id="57" count="2100000"/>	<!-- Adena -->
+		<ingredient id="13765" count="80"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+	<item>
+		<production id="13482" count="1"/>	<!-- Circlet of Schuttgart Combat -->
+		<ingredient id="57" count="2100000"/>	<!-- Adena -->
+		<ingredient id="13765" count="80"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+	<item>
+		<production id="13485" count="1"/>	<!-- Circlet of Schuttgart Silence -->
+		<ingredient id="57" count="2100000"/>	<!-- Adena -->
+		<ingredient id="13765" count="80"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+	<item>
+		<production id="14582" count="1"/>	<!-- Apella Combat Helmet -->
+		<ingredient id="57" count="801600"/>	<!-- Adena -->
+		<ingredient id="13765" count="107"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+	<item>
+		<production id="14583" count="1"/>	<!-- Apella Combat Armor -->
+		<ingredient id="57" count="3472800"/>	<!-- Adena -->
+		<ingredient id="13765" count="463"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+	<item>
+		<production id="14588" count="1"/>	<!-- Apella Combat Shoes -->
+		<ingredient id="57" count="534000"/>	<!-- Adena -->
+		<ingredient id="13765" count="71"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+	<item>
+		<production id="14576" count="1"/>	<!-- Mace of Orwen Family -->
+		<ingredient id="57" count="21000000"/>	<!-- Adena -->
+		<ingredient id="13765" count="800"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+	<item>
+		<production id="14577" count="1"/>	<!-- Claw of Orwen Family -->
+		<ingredient id="57" count="21000000"/>	<!-- Adena -->
+		<ingredient id="13765" count="800"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+</list>

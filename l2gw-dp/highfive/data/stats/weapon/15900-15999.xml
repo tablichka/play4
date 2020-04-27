@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="15901" name="Recurve Thorne Bow - Critical Slow">
+		<for>
+			<skill id="3574" level="3" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="15910" name="Thorne Crossbow - Critical Slow">
+		<for>
+			<skill id="3574" level="2" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="15957" name="Octo Claw {PvP}- Critical Stun">
+		<for>
+			<skill id="3571" level="2" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="15966" name="Black Visage {PvP}- Magic Hold">
+		<for>
+			<skill id="3577" level="2" chance="20" action="magic" />
+		</for>
+	</item>
+	<item id="15969" name="Veniplant Sword {PvP}- Magic Hold">
+		<for>
+			<skill id="3577" level="2" chance="20" action="magic" />
+		</for>
+	</item>
+	<item id="15972" name="Skull Carnium Bow {PvP}- Critical Slow">
+		<for>
+			<skill id="3574" level="3" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="15981" name="Dominion Crossbow {PvP}- Critical Slow">
+		<for>
+			<skill id="3574" level="2" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="15998" name="Jade Claw {PvP}- Critical Stun">
+		<for>
+			<skill id="3571" level="2" chance="100" action="crit" />
+		</for>
+	</item>
+</list>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<skill id="14156" levels="1" name="Snake">
+		<set name="hitCancelTime" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: none
+		<table name="#mpConsume">
+		1 
+		</table>
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="castRange" val="150"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="1500"/>
+		<for/>
+	</skill>
+	<skill id="14157" levels="1" name="Long Snake">
+		<set name="hitCancelTime" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: none
+		<table name="#mpConsume">
+		1 
+		</table>
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="castRange" val="400"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="2000"/>
+		<for/>
+	</skill>
+	<skill id="14158" levels="1" name="Crawler Spear">
+		<set name="hitCancelTime" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: none
+		<table name="#mpConsume">
+		1 
+		</table>
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="castRange" val="200"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="2000"/>
+		<for/>
+	</skill>
+	<skill id="14164" levels="1" name="Akain Jet">
+		<set name="hitCancelTime" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: none
+		<table name="#mpConsume">
+		2 
+		</table>
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="castRange" val="300"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="2500"/>
+		<for/>
+	</skill>
+	<skill id="14165" levels="1" name="Akain Burst">
+		<set name="hitCancelTime" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: none
+		<table name="#mpConsume">
+		2 
+		</table>
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="castRange" val="300"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="2500"/>
+		<for/>
+	</skill>
+	<skill id="14167" levels="1" name="Black Powder">
+		<set name="hitCancelTime" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: none
+		<table name="#mpConsume">
+		0 
+		</table>
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="castRange" val="400"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="1500"/>
+		<for/>
+	</skill>
+	<skill id="14168" levels="1" name="Throw Granade">
+		<set name="hitCancelTime" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: none
+		<table name="#mpConsume">
+		0 
+		</table>
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="castRange" val="400"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="1500"/>
+		<for/>
+	</skill>
+</list>

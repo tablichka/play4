@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="13137" name="Vesper Helmet">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="13139" name="Vesper Circlet">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="13140" name="Vesper Noble Helmet">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="13142" name="Vesper Noble Circlet">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="13143" name="Sealed Vesper Helmet">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="13145" name="Sealed Vesper Circlet">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="13146" name="Sealed Vesper Noble Helmet">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="13147" name="Sealed Vesper Noble Leather Helmet">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="13148" name="Sealed Vesper Noble Circlet">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+</list>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="4237" name="Hatchling's Level 65 Weapon">
+		<cond msgId="600">
+			<uc category="hatchling_group" />
+		</cond>
+	</item>
+	<item id="4238" name="Hatchling's Level 75 Weapon">
+		<cond msgId="600">
+			<uc category="hatchling_group" />
+		</cond>
+	</item>
+</list>

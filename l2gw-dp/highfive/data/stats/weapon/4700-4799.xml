@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="4759" name="Cursed Dagger - Critical Bleed">
+		<for>
+			<skill id="3020" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="4760" name="Cursed Dagger - Critical Poison">
+		<for>
+			<skill id="3041" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="4765" name="Stiletto - Critical Bleed">
+		<for>
+			<skill id="3020" level="2" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="4766" name="Stiletto - Critical Poison">
+		<for>
+			<skill id="3041" level="2" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="4773" name="Dark Screamer - Critical Bleed">
+		<for>
+			<skill id="3020" level="3" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="4774" name="Crystal Dagger - Critical Bleed">
+		<for>
+			<skill id="3020" level="4" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="4775" name="Crystal Dagger - Critical Poison">
+		<for>
+			<skill id="3041" level="4" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="4780" name="Demon Dagger - Critical Bleed">
+		<for>
+			<skill id="3020" level="6" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="4781" name="Demon Dagger - Critical Poison">
+		<for>
+			<skill id="3041" level="6" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="4789" name="Chakram - Critical Drain">
+		<for>
+			<skill id="3039" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="4790" name="Chakram - Critical Poison">
+		<for>
+			<skill id="3040" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="4795" name="Great Pata - Critical Drain">
+		<for>
+			<skill id="3039" level="4" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="4796" name="Great Pata - Critical Poison">
+		<for>
+			<skill id="3040" level="4" chance="100" action="crit" />
+		</for>
+	</item>
+</list>

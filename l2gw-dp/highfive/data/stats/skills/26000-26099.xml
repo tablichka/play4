@@ -1,0 +1,1238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<skill id="26000" levels="1" name="Small Fortuna Box">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="22006,3;20.55555;22007,2;14.01515;22008,1;6.16666;22014,1;0.86999;22022,3;3.19444;22023,3;6.38888;22024,1;5.75;8743,1;10;8744,1;8.33333;8745,1;6.94444;8753,1;2;8754,1;1.66666;8755,1;1.38888;22025,5;12.77777;"/>
+		</for>
+	</skill>
+	<skill id="26001" levels="1" name="Middle Fortuna Box">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="22007,3;27.27272;22008,2;9;22009,1;5;22014,1;0.93959;22015,1;0.32467;22022,5;3.75;22023,5;7.5;22024,2;5.625;8746,1;9.11458;8747,1;7.875;8748,1;6.5625;8756,1;1.82291;8757,1;1.575;8758,1;1.3125;22025,10;12.5;"/>
+		</for>
+	</skill>
+	<skill id="26002" levels="1" name="Large Fortuna Box">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="22008,2;27;22009,1;15;22014,1;0.78299;22015,1;0.27056;22018,1;0.00775;22019,1;0.0027;22022,10;3.75;22023,10;7.5;22024,5;4.5;8749,1;9.75;8750,1;8.125;8751,1;6.77083;8759,1;1.95;8760,1;1.625;8761,1;1.35416;22025,20;12.5;"/>
+		</for>
+	</skill>
+	<skill id="26003" levels="1" name="Small Fortuna Cube">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="22010,3;20.22222;22011,2;13.78787;22012,1;6.06666;22016,1;0.69599;22022,3;3.47222;22023,3;6.94444;22024,1;6.25;8743,1;9.5;8744,1;7.91666;8745,1;6.59722;8753,1;1.9;8754,1;1.58333;8755,1;1.31944;22025,5;13.88888;"/>
+		</for>
+	</skill>
+	<skill id="26004" levels="1" name="Middle Fortuna Cube">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="22011,3;26.51515;22012,2;8.75;22013,1;4.86111;22016,1;0.91349;22017,1;0.31565;22022,5;3.75;22023,5;7.5;22024,2;5.625;8746,1;9.54861;8747,1;8.25;8748,1;6.875;8756,1;1.90972;8757,1;1.65;8758,1;1.375;22025,10;12.5;"/>
+		</for>
+	</skill>
+	<skill id="26005" levels="1" name="Large Fortuna Cube">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="22012,2;26.25;22013,1;14.58333;22016,1;0.69599;22017,1;0.24049;22020,1;0.00638;22021,1;0.0022;22022,10;3.95833;22023,10;7.91666;22024,5;4.75;8749,1;9.58333;8750,1;7.98611;8751,1;6.65509;8759,1;1.91666;8760,1;1.59722;8761,1;1.33101;22025,20;13.19444;"/>
+		</for>
+	</skill>
+	<skill id="26006" levels="1" name="Weapon Enchant Scroll - D Grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26007" levels="1" name="Weapon Enchant Scroll - C Grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26008" levels="1" name="Weapon Enchant Scroll - B Grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26009" levels="1" name="Weapon Enchant Scroll - A Grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26010" levels="1" name="Armor Enchant Scroll - D Grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26011" levels="1" name="Armor Enchant Scroll - C Grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26012" levels="1" name="Armor Enchant Scroll - B Grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26013" levels="1" name="Armor Enchant Scroll - A Grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26014" levels="1" name="Ancient Weapon Enchant Crystal - B grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26015" levels="1" name="Ancient Weapon Enchant Crystal - A grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26016" levels="1" name="Ancient Weapon Enchant Crystal - B grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26017" levels="1" name="Ancient Armor Enchant Crystal - B grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26018" levels="1" name="Divine Weapon Enchant Crystal - B grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26019" levels="1" name="Divine Weapon Enchant Crystal - A grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26020" levels="1" name="Divine Armor Enchant Crystal - B grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26021" levels="1" name="Divine Armor Enchant Crystal - A grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26022" levels="1" name="High grade potion which improves attack speed">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="itemConsumeId" val="22022"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="abnormal_time" val="1200"/>
+		<set name="abnormal_type" val="attack_time_down"/>
+		<set name="abnormalLevel" val="2"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="pAtkSpd" val="1.33"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26023" levels="1" name="High grade potion which improves moving speed">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="itemConsumeId" val="22023"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases moving speed by 20 for 33 minutes. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26024" levels="1" name="Temporary Healing Potion">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="itemConsumeId" val="13750"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="magicLevel" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="reuseDelay" val="2000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect name="i_hp_per_max" val="30"/>
+		</for>
+	</skill>
+	<skill id="26025" levels="1" name="Powerful Healing Potion">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases HP Regeneration by 50 for 15 seconds. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26026" levels="1" name="High-grade Healing Potion">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases HP Regeneration by 24 for 15 seconds. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26027" levels="6" name="Secret medicine of Will - S grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases HP Regeneration by 24 for 15 seconds. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26028" levels="6" name="Secret medicine of Life - S grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases HP Regeneration by 24 for 15 seconds. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26029" levels="1" name="Potion of Will">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26030" levels="1" name="Healing medicine for Mana">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26031" levels="1" name="Wind Walk Scroll">
+		<set name="buff_protect_level" val="1"/>
+		<set name="itemConsumeId" val="22039"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="4000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases moving speed by 33 for 1 hour. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26032" levels="1" name="Haste Scroll">
+		<set name="buff_protect_level" val="1"/>
+		<set name="itemConsumeId" val="22040"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_type" val="attack_time_down"/>
+		<set name="abnormalLevel" val="26"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="hitTime" val="4000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="pAtkSpd" val="1.33"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="26033" levels="1" name="Might Scroll">
+		<set name="buff_protect_level" val="1"/>
+		<set name="itemConsumeId" val="22041"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="4000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases P. Atk. by 15% for 1 hour. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26034" levels="1" name="Shield Scroll">
+		<set name="buff_protect_level" val="1"/>
+		<set name="itemConsumeId" val="22042"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="4000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases P. Def. by 15% for 1 hour. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26035" levels="1" name="Death Whisper Scroll">
+		<set name="buff_protect_level" val="1"/>
+		<set name="itemConsumeId" val="22043"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="4000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases Critical attack power by 35% for 1 hour. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26036" levels="1" name="Guidance Scroll">
+		<set name="buff_protect_level" val="1"/>
+		<set name="itemConsumeId" val="22044"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="4000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases accuracy by 4 for 1 hour. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26037" levels="1" name="Empower Scroll">
+		<set name="buff_protect_level" val="1"/>
+		<set name="itemConsumeId" val="22045"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="4000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases M. Atk. by 75% for 1 hour. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26038" levels="1" name="Grater Acumen Scroll">
+		<set name="buff_protect_level" val="1"/>
+		<set name="itemConsumeId" val="22046"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="4000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases Casting Spd. by 30% for 1 hour. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26039" levels="1" name="Vampiric Rage Scroll">
+		<set name="buff_protect_level" val="1"/>
+		<set name="itemConsumeId" val="22047"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="4000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- For 1 hour, 9% of the standard short-range physical damage inflicted on the enemy is recovered as HP. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26040" levels="1" name="Bless the Body Scroll">
+		<set name="buff_protect_level" val="1"/>
+		<set name="itemConsumeId" val="22048"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="4000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases Max HP by 35% for 1 hour. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26041" levels="1" name="Berserker Spirit Scroll">
+		<set name="buff_protect_level" val="1"/>
+		<set name="itemConsumeId" val="22049"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="4000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Decreases a party member's P. Def. by 8%, M. Def. by 16%, and evasion by 4, and increases P. Atk. by 8%, M. Atk. by 16%, Atk. Spd. by 8%, Casting Spd. by 8%, and moving speed by 8 for 1 hour. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26042" levels="1" name="Magic Barrier Scroll">
+		<set name="buff_protect_level" val="1"/>
+		<set name="itemConsumeId" val="22050"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="4000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases magic resistance by 30% for 1 hour. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26043" levels="1" name="Bless the Soul Scroll">
+		<set name="buff_protect_level" val="1"/>
+		<set name="itemConsumeId" val="22051"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="4000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases Max MP by 35% for 1 hour. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26044" levels="1" name="Clarity Scroll">
+		<set name="buff_protect_level" val="1"/>
+		<set name="itemConsumeId" val="22052"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="4000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- For 1 hour, decreases physical skill MP consumption by 20%, magic skill's MP consumption by 10%, and song/dance skill's MP consumption by 20%. Consumes 3 Runestones. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26045" levels="1" name="Wild Magic Scroll">
+		<set name="buff_protect_level" val="1"/>
+		<set name="itemConsumeId" val="22053"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="4000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- For 1 hour, increases by 2 the occurrence rate of damage that is caused by damage magic. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26046" levels="5" name="Rune of Experience Points 5th Phase">
+		<table name="#exp">1.10 1.20 1.30 1.40 1.50</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<set stat="exp_modify" order="0x50" val="#exp"/>
+		</for>
+	</skill>
+	<skill id="26047" levels="5" name="Rune of SP 5th Phase">
+		<table name="#sp">1.10 1.20 1.30 1.40 1.50</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<set order="0x50" stat="sp_modify" val="#sp"/>
+		</for>
+	</skill>
+	<skill id="26048" levels="5" name="Rune of Crystal Form 5th Phase">
+		<table name="#grade">1 2 3 4 5</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<set order="0x50" stat="grade_modify" val="#grade"/>
+		</for>
+	</skill>
+	<skill id="26049" levels="1" name="Rune of Feather">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x50" stat="currLoad" val="0.80"/>
+		</for>
+	</skill>
+	<skill id="26050" levels="1" name="Blessed Spiritshot - D grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26051" levels="1" name="Blessed Spiritshot - C grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26052" levels="1" name="Blessed Spiritshot - B grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26053" levels="1" name="Blessed Spiritshot - A grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26054" levels="1" name="Blessed Spiritshot - S grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26055" levels="1" name="Spiritshot - D grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26056" levels="1" name="Spiritshot - C grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26057" levels="1" name="Spiritshot -  B grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26058" levels="1" name="Spiritshot - A grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26059" levels="1" name="Spiritshot - S grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26060" levels="1" name="Soulshot - D grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26061" levels="1" name="Soulshot - C grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26062" levels="1" name="Soulshot -  B grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26063" levels="1" name="Soulshot - A grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26064" levels="1" name="Soulshot - S grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="26065" levels="1" name="Fighter's Scroll Bundle">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="22039,1,22040,1,22047,1,22041,1,22042,1,22043,1,22044,1,22048,1;100;"/>
+		</for>
+	</skill>
+	<skill id="26066" levels="1" name="Mage's Scroll Bundle">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="22049,1,22050,1,22051,1,22045,1,22046,1,22052,1,22048,1,22053,1;100;"/>
+		</for>
+	</skill>
+	<skill id="26067" levels="5" name="Quiver of Light">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration" skillLevel="1" options="22067;10000"/>
+			<effect name="i_restoration" skillLevel="2" options="22068;10000"/>
+			<effect name="i_restoration" skillLevel="3" options="22069;10000"/>
+			<effect name="i_restoration" skillLevel="4" options="22070;10000"/>
+			<effect name="i_restoration" skillLevel="5" options="22071;10000"/>
+		</for>
+	</skill>
+	<skill id="26068" levels="10" name="Blessed Spiritshot Large Pack - S grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration" skillLevel="1" options="22072;5000"/>
+			<effect name="i_restoration" skillLevel="2" options="22073;5000"/>
+			<effect name="i_restoration" skillLevel="3" options="22074;5000"/>
+			<effect name="i_restoration" skillLevel="4" options="22075;5000"/>
+			<effect name="i_restoration" skillLevel="5" options="22076;5000"/>
+			<effect name="i_restoration" skillLevel="6" options="22072;10000"/>
+			<effect name="i_restoration" skillLevel="7" options="22073;10000"/>
+			<effect name="i_restoration" skillLevel="8" options="22074;10000"/>
+			<effect name="i_restoration" skillLevel="9" options="22075;10000"/>
+			<effect name="i_restoration" skillLevel="10" options="22076;10000"/>
+		</for>
+	</skill>
+	<skill id="26069" levels="10" name="Spiritshot Large Pack - S grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration" skillLevel="1" options="22077;5000"/>
+			<effect name="i_restoration" skillLevel="2" options="22078;5000"/>
+			<effect name="i_restoration" skillLevel="3" options="22079;5000"/>
+			<effect name="i_restoration" skillLevel="4" options="22080;5000"/>
+			<effect name="i_restoration" skillLevel="5" options="22081;5000"/>
+			<effect name="i_restoration" skillLevel="6" options="22077;10000"/>
+			<effect name="i_restoration" skillLevel="7" options="22078;10000"/>
+			<effect name="i_restoration" skillLevel="8" options="22079;10000"/>
+			<effect name="i_restoration" skillLevel="9" options="22080;10000"/>
+			<effect name="i_restoration" skillLevel="10" options="22081;10000"/>
+		</for>
+	</skill>
+	<skill id="26070" levels="10" name="Soulshot Large Pack - S grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration" skillLevel="1" options="22082;5000"/>
+			<effect name="i_restoration" skillLevel="2" options="22083;5000"/>
+			<effect name="i_restoration" skillLevel="3" options="22084;5000"/>
+			<effect name="i_restoration" skillLevel="4" options="22085;5000"/>
+			<effect name="i_restoration" skillLevel="5" options="22086;5000"/>
+			<effect name="i_restoration" skillLevel="6" options="22082;10000"/>
+			<effect name="i_restoration" skillLevel="7" options="22083;10000"/>
+			<effect name="i_restoration" skillLevel="8" options="22084;10000"/>
+			<effect name="i_restoration" skillLevel="9" options="22085;10000"/>
+			<effect name="i_restoration" skillLevel="10" options="22086;10000"/>
+		</for>
+	</skill>
+	<skill id="26071" levels="17" name="Wrapped Artisan's Goggles">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration" skillLevel="1" options="22156;1"/>
+			<effect name="i_restoration" skillLevel="2" options="22157;1"/>
+			<effect name="i_restoration" skillLevel="3" options="22158;1"/>
+			<effect name="i_restoration" skillLevel="4" options="22159;1"/>
+			<effect name="i_restoration" skillLevel="5" options="22160;1"/>
+			<effect name="i_restoration" skillLevel="6" options="22161;1"/>
+			<effect name="i_restoration" skillLevel="7" options="22162;1"/>
+			<effect name="i_restoration" skillLevel="8" options="22163;1"/>
+			<effect name="i_restoration" skillLevel="9" options="22164;1"/>
+			<effect name="i_restoration" skillLevel="10" options="22165;1"/>
+			<effect name="i_restoration" skillLevel="11" options="22166;1"/>
+			<effect name="i_restoration" skillLevel="12" options="22167;1"/>
+			<effect name="i_restoration" skillLevel="13" options="22168;1"/>
+			<effect name="i_restoration" skillLevel="14" options="22169;1"/>
+			<effect name="i_restoration" skillLevel="15" options="22170;1"/>
+			<effect name="i_restoration" skillLevel="16" options="22171;1"/>
+			<effect name="i_restoration" skillLevel="17" options="22172;1"/>
+		</for>
+	</skill>
+	<skill id="26072" levels="3" name="Wrapped Pet Exchange Ticket - Kookaburra">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration" skillLevel="1" options="7583;1"/>
+			<effect name="i_restoration" skillLevel="2" options="7584;1"/>
+			<effect name="i_restoration" skillLevel="3" options="7585;1"/>
+		</for>
+	</skill>
+	<skill id="26073" levels="5" name="Bolt Container of Light">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration" skillLevel="1" options="22144;10000"/>
+			<effect name="i_restoration" skillLevel="2" options="22145;10000"/>
+			<effect name="i_restoration" skillLevel="3" options="22146;10000"/>
+			<effect name="i_restoration" skillLevel="4" options="22147;10000"/>
+			<effect name="i_restoration" skillLevel="5" options="22148;10000"/>
+		</for>
+	</skill>
+</list>

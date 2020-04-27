@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- chaotic_throne2_coin_trade -->
+<list>
+	<config showall="true" notax="true"/>
+	<item>
+		<production id="13693" count="1"/>	<!-- Gracian Anniversary Coins -->
+		<ingredient id="13757" count="30"/>	<!-- Gludio Territory Badge -->
+	</item>
+	<item>
+		<production id="13693" count="1"/>	<!-- Gracian Anniversary Coins -->
+		<ingredient id="13758" count="30"/>	<!-- Dion Territory Badge -->
+	</item>
+	<item>
+		<production id="13693" count="1"/>	<!-- Gracian Anniversary Coins -->
+		<ingredient id="13759" count="30"/>	<!-- Giran Territory Badge -->
+	</item>
+	<item>
+		<production id="13693" count="1"/>	<!-- Gracian Anniversary Coins -->
+		<ingredient id="13760" count="30"/>	<!-- Oren Territory Badge -->
+	</item>
+	<item>
+		<production id="13693" count="1"/>	<!-- Gracian Anniversary Coins -->
+		<ingredient id="13761" count="30"/>	<!-- Aden Territory Badge -->
+	</item>
+	<item>
+		<production id="13693" count="1"/>	<!-- Gracian Anniversary Coins -->
+		<ingredient id="13762" count="30"/>	<!-- Innadril Territory Badge -->
+	</item>
+	<item>
+		<production id="13693" count="1"/>	<!-- Gracian Anniversary Coins -->
+		<ingredient id="13763" count="30"/>	<!-- Goddard Territory Badge -->
+	</item>
+	<item>
+		<production id="13693" count="1"/>	<!-- Gracian Anniversary Coins -->
+		<ingredient id="13764" count="30"/>	<!-- Rune Territory Badge -->
+	</item>
+	<item>
+		<production id="13693" count="1"/>	<!-- Gracian Anniversary Coins -->
+		<ingredient id="13765" count="30"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+	<item>
+		<production id="13693" count="1"/>	<!-- Gracian Anniversary Coins -->
+		<ingredient id="13722" count="5000"/>	<!-- Olympiad Token -->
+		<ingredient id="13749" count="5"/>	<!-- Emery Piece -->
+	</item>
+</list>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="10669" name="Sirra's Blade {PvP} - Critical Poison">
+		<for>
+			<!-- Critical Poison -->
+			<skill id="3061" level="3" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="10682" name="Tiphon's Spear {PvP} - Critical Stun">
+		<for>
+			<!-- Critical Stun -->
+			<skill id="3070" level="3" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="10685" name="Shyeed's Bow {PvP} - Cheap Shot">
+		<for>
+			<!-- SA: Cheap Shot -->
+			<set val="2" order="0x08" stat="cheapShot" />
+			<set val="0.38" order="0x08" stat="cheapShotChance" />
+		</for>
+	</item>
+	<item id="10690" name="Sobekk's Hurricane {PvP} - Critical Drain">
+		<for>
+			<!-- Critical Drain -->
+			<skill id="3039" level="7" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="10692" name="Themis' Tongue {PvP} Mental Shield">
+		<for>
+			<skill id="1035" level="4" chance="50" action="magic" />
+		</for>
+	</item>
+	<item id="10693" name="Themis' Tongue {PvP} - Magic Focus">
+		<for>
+			<skill id="1077" level="3" chance="20" action="magic" />
+		</for>
+	</item>
+	<item id="10696" name="Cabrio's Hand {PvP} - Magic Silence">
+		<for>
+			<!-- Magic Silence -->
+			<skill id="3074" level="2" chance="10" action="magic" />
+		</for>
+	</item>
+	<item id="10699" name="Daimon Crystal {PvP} - Mental Shield">
+		<for>
+			<skill id="1035" level="4" chance="50" action="magic" />
+		</for>
+	</item>
+</list>

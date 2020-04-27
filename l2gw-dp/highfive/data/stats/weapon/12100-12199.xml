@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="12102" name="Common Item - Dwarven Chain Shield">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12107" name="Common Item - Knight's Shield">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12126" name="Common Item - Composite Shield">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12129" name="Common Item - Tower Shield">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12143" name="Common Item - Full Plate Shield">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12159" name="Common Item - Zubei's Shield">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12171" name="Common Item - Avadon Shield">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12183" name="Common Item - Doom Shield">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12215" name="Standard Item - Dark Crystal Shield">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12225" name="Standard Item - Sealed Dark Crystal Shield">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12268" name="Standard Item - Sealed Shield of Nightmare">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12279" name="Standard Item - Shield of Nightmare">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+</list>

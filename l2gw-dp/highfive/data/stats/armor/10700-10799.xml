@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="10793" name="Armor of Nightmare {PvP}">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="10794" name="Majestic Plate Armor {PvP}">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="10797" name="Robe of Nightmare {PvP}">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="10799" name="Imperial Crusader Breastplate {PvP}">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+</list>

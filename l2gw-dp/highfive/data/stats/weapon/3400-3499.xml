@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="3439" name="Shining Canine">
+		<cond msgId="600">
+			<uc category="all_wolf_group" />
+		</cond>
+	</item>
+</list>

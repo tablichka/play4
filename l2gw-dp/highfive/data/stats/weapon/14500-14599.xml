@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="14507" name="Vesper Singer {PvP}- Magic Hold">
+		<for>
+			<skill id="3577" level="2" chance="20" action="magic" />
+		</for>
+	</item>
+	<item id="14510" name="Vesper Thrower {PvP}- Critical Slow">
+		<for>
+			<skill id="3574" level="3" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="14516" name="Vesper Shooter {PvP}- Critical Slow">
+		<for>
+			<skill id="3574" level="3" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="14526" name="Dynasty Dual Daggers - Great Gale">
+		<cond msgId="1518">
+			<target hasSkill="923" />
+		</cond>
+	</item>
+	<item id="14527" name="Icarus Dual Daggers - Confusion">
+		<cond msgId="1518">
+			<target hasSkill="923" />
+		</cond>
+	</item>
+	<item id="14528" name="Dynasty Dual Daggers - Great Gale {PvP}">
+		<cond msgId="1518">
+			<target hasSkill="923" />
+		</cond>
+	</item>
+	<item id="14529" name="Icarus Dual Daggers - Confusion {PvP}">
+		<cond msgId="1518">
+			<target hasSkill="923" />
+		</cond>
+	</item>
+	<item id="14558" name="Dynasty Dual Daggers {PvP}">
+		<cond msgId="1518">
+			<target hasSkill="923" />
+		</cond>
+	</item>
+</list>

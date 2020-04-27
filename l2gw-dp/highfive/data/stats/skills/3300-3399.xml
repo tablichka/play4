@@ -1,0 +1,1164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<skill id="3300" levels="1" name="Yellow Talisman of Speed">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="runSpd" val="5"/>
+		</for>
+	</skill>
+	<skill id="3301" levels="1" name="Yellow Talisman of Violent Haste">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="pAtkSpd" val="10"/>
+		</for>
+	</skill>
+	<skill id="3302" levels="1" name="Yellow Talisman of Arcane Haste">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="mAtkSpd" val="8"/>
+		</for>
+	</skill>
+	<skill id="3303" levels="1" name="White Talisman of Bandages">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="bleedRcpt" val="0.9"/>
+		</for>
+	</skill>
+	<skill id="3304" levels="1" name="White Talisman of Attention">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="sleepRcpt" val="0.9"/>
+		</for>
+	</skill>
+	<skill id="3305" levels="1" name="White Talisman of Grounding">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="stunRcpt" val="0.9"/>
+		</for>
+	</skill>
+	<skill id="3306" levels="1" name="White Talisman of Bravery">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="fearRcpt" val="0.9"/>
+		</for>
+	</skill>
+	<skill id="3307" levels="1" name="White Talisman of Motion">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="paralyzeRcpt" val="0.9"/>
+		</for>
+	</skill>
+	<skill id="3308" levels="1" name="White Talisman of Freedom">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="rootRcpt" val="0.9"/>
+		</for>
+	</skill>
+	<skill id="3309" levels="1" name="White Talisman of Protection">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="cancelRcpt" val="0"/>
+		</for>
+	</skill>
+	<skill id="3310" levels="1" name="Yellow Talisman of Physical Regeneration">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="regHp" val="1.03"/>
+		</for>
+	</skill>
+	<skill id="3311" levels="1" name="Yellow Talisman of CP Regeneration">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="regCp" val="1.03"/>
+		</for>
+	</skill>
+	<skill id="3312" levels="1" name="Yellow Talisman of Healing">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="hpEff" val="40"/>
+		</for>
+	</skill>
+	<skill id="3313" levels="1" name="Yellow Talisman of Alacrity">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="pAtkSpd" val="5"/>
+			<add order="0x40" stat="mAtkSpd" val="4"/>
+			<add order="0x40" stat="runSpd" val="3"/>
+		</for>
+	</skill>
+	<skill id="3314" levels="1" name="Grey Talisman of Weight Training">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="currLoad" val="0.9"/>
+		</for>
+	</skill>
+	<skill id="3315" levels="1" name="Grey Talisman of Fishing">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<set name="isCommon" val="true"/>
+		<for/>
+	</skill>
+	<skill id="3316" levels="1" name="Yellow Talisman of Critical Dodging">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="critChanceRcpt" val="0.97"/>
+		</for>
+	</skill>
+	<skill id="3317" levels="1" name="Yellow Talisman of Critical Reduction">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="critDamRcpt" val="0.9"/> <!-- TODO: critDamRcptStatic stat-->
+		</for>
+	</skill>
+	<skill id="3318" levels="1" name="Flag Display">
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="effectPoint" val="1000"/>
+		<set name="castRange" val="85"/>
+		<set name="mpConsum" val="0"/>
+		<set name="target_type" val="flagpole"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="hitTime" val="180000"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond msgId="113">
+			<possessFlagpole/>
+		</cond>
+		<for>
+			<effect name="i_flagpole_possess"/>
+		</for>
+	</skill>
+	<skill id="3319" levels="1" name="Divine Protection of Ring">
+		<!--  Automatically generated from The Kamael client files.
+		      Description: Immune to gust when equipped with ring. 
+		      Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		      created 22-11-2007  20:55
+		-->
+		<set name="target" val="TARGET_NONE"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="3320" levels="1" name="Yellow Talisman of Mental Regeneration">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="regMp" val="1.03"/>
+		</for>
+	</skill>
+	<skill id="3321" levels="1" name="Blue Talisman of Evasion">
+		<table name="#mpConsume1">
+			4
+		</table>
+		<table name="#mpConsume2">
+			14
+		</table>
+		<set name="mpConsume1" val="#mpConsume1"/>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="1"/>
+		<set name="staticReuse" val="true"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_type" val="talisman"/>
+		<set name="mpUsage" val="6"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="effectPoint" val="379"/>
+		<set name="magicLevel" val="40"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="360000"/>
+		<set name="minReuseDelayOnSkillAdd" val="30"/>
+		<set name="hitTime" val="4000"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="rEvas" val="2"/>
+				<mul order="0x30" stat="critChanceRcpt" val="0.95"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="3322" levels="1" name="Brass Bracelet">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="3323" levels="1" name="Bronze Bracelet">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="3324" levels="1" name="Steel Bracelet">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="3325" levels="1" name="Mithril Bracelet">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="3326" levels="1" name="Jewerly Bracelet">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="3327" levels="1" name="Oriharukon Bracelet">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="3328" levels="1" name="Double Stab">
+		<table name="#mpConsume2">
+			140
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="0"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="effectPoint" val="720"/>
+		<set name="magicLevel" val="78"/>
+		<set name="power" val="11500"/>
+		<set name="target_type" val="enemy"/>
+		<set name="reuseDelay" val="60000"/>
+		<set name="hitTime" val="1667"/>
+		<set name="isValidateable" val="false"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="40"/>
+		<set name="nextAction" val="attack"/>
+		<for>
+			<effect name="i_p_attack"/>
+		</for>
+	</skill>
+	<skill id="3329" levels="1" name="Power Slash">
+		<table name="#mpConsume2">
+			140
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="0"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="effectPoint" val="720"/>
+		<set name="magicLevel" val="78"/>
+		<set name="power" val="11500"/>
+		<set name="target_type" val="enemy"/>
+		<set name="reuseDelay" val="60000"/>
+		<set name="hitTime" val="1667"/>
+		<set name="isValidateable" val="false"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="40"/>
+		<set name="nextAction" val="attack"/>
+		<for>
+			<effect name="i_p_attack"/>
+		</for>
+	</skill>
+	<skill id="3330" levels="1" name="Air Blade">
+		<table name="#mpConsume2">
+			140
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="0"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="effectPoint" val="720"/>
+		<set name="magicLevel" val="80"/>
+		<set name="power" val="15000"/>
+		<set name="target_type" val="enemy"/>
+		<set name="reuseDelay" val="60000"/>
+		<set name="hitTime" val="1080"/>
+		<set name="isValidateable" val="false"/>
+		<set name="affect_scope" val="sector"/>
+		<set name="affect_object" val="not_friend"/>
+		<set name="affect_limit" val="5;12"/>
+		<set name="sector_range" val="0;0;200;180"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="40"/>
+		<set name="nextAction" val="attack"/>
+		<for>
+			<effect name="i_p_attack"/>
+		</for>
+	</skill>
+	<skill id="3331" levels="1" name="Enslave">
+		<table name="#mpConsume2">
+			200
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="0"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormal_type" val="pAtkSpdDown"/>
+		<set name="abnormalLevel" val="3"/>
+		<set name="power" val="200"/>
+		<set name="magicLevel" val="78"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="around"/>
+		<set name="affect_object" val="not_friend"/>
+		<set name="affect_limit" val="10;10"/>
+		<set name="skillRadius" val="200"/>
+		<set name="reuseDelay" val="8000"/>
+		<set name="hitTime" val="3000"/>
+		<set name="isDebuff" val="true"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="effectPoint" val="720"/>
+		<set name="activateRate" val="60"/>
+		<set name="baseStat" val="MEN"/>
+		<for>
+			<effect name="i_hp_drain" absorbPart="5"/>
+			<effect/>
+		</for>
+	</skill>
+	<skill id="3332" levels="1" name="Orange Talisman - Hot Springs Recovery">
+		<set name="itemConsumeId" val="1785"/>
+		<set name="itemConsumeCount" val="16"/>
+		<table name="#mpConsume1">
+			10
+		</table>
+		<table name="#mpConsume2">
+			40
+		</table>
+		<set name="mpConsume1" val="#mpConsume1"/>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="1"/>
+		<set name="magicLevel" val="1"/>
+		<set name="staticReuse" val="true"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="hitTime" val="20000"/>
+		<set name="mpUsage" val="5"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="reuseDelay" val="300000"/>
+		<set name="minReuseDelayOnSkillAdd" val="30"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration" options="10166;1"/>
+		</for>
+	</skill>
+	<skill id="3333" levels="1" name="Orange Talisman - A Grade Elixir of Life">
+		<set name="itemConsumeId" val="1785"/>
+		<set name="itemConsumeCount" val="50"/>
+		<table name="#mpConsume1">
+			10
+		</table>
+		<table name="#mpConsume2">
+			40
+		</table>
+		<set name="mpConsume1" val="#mpConsume1"/>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="1"/>
+		<set name="magicLevel" val="1"/>
+		<set name="staticReuse" val="true"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="mpUsage" val="5"/>
+		<set name="hitTime" val="20000"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="reuseDelay" val="600000"/>
+		<set name="minReuseDelayOnSkillAdd" val="30"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration" options="8626;1"/>
+		</for>
+	</skill>
+	<skill id="3334" levels="1" name="Orange Talisman - A Grade Elixir of Mental Strength">
+		<set name="itemConsumeId" val="1785"/>
+		<set name="itemConsumeCount" val="57"/>
+		<table name="#mpConsume1">
+			10
+		</table>
+		<table name="#mpConsume2">
+			40
+		</table>
+		<set name="mpConsume1" val="#mpConsume1"/>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="1"/>
+		<set name="magicLevel" val="1"/>
+		<set name="staticReuse" val="true"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="hitTime" val="20000"/>
+		<set name="mpUsage" val="6"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="reuseDelay" val="600000"/>
+		<set name="minReuseDelayOnSkillAdd" val="30"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration" options="8632;1"/>
+		</for>
+	</skill>
+	<skill id="3335" levels="1" name="Transform Yeti">
+		<set name="hitCancelTime" val="0"/>
+		<table name="#mpConsume1">
+			0
+		</table>
+		<table name="#mpConsume2">
+			0
+		</table>
+		<set name="mpConsume1" val="#mpConsume1"/>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="1"/>
+		<set name="magicLevel" val="56"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="effectPoint" val="1"/>
+		<set name="mpConsum2" val="0"/>
+		<set name="mpUsage" val="3"/>
+		<set name="minReuseDelayOnSkillAdd" val="30"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="cancelable" val="false"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="addSkills" val="5437;1"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<target hasBuffId="1411;false" msgId="2064"/>
+				<player olympiad="false" msgId="1509"/>
+				<player riding="none" msgId="2063"/>
+				<player zoneType="water" msgId="2060"/>
+				<target playerOnly="true"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="t_transform" val="102" npcId="13091" femaleNpcId="13091"/>
+		</for>
+	</skill>
+	<skill id="3336" levels="1" name="Transform Buffalo">
+		<set name="hitCancelTime" val="0"/>
+		<table name="#mpConsume1">
+			0
+		</table>
+		<table name="#mpConsume2">
+			0
+		</table>
+		<set name="mpConsume1" val="#mpConsume1"/>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="1"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="magicLevel" val="56"/>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="effectPoint" val="1"/>
+		<set name="mpConsum2" val="0"/>
+		<set name="mpUsage" val="3"/>
+		<set name="minReuseDelayOnSkillAdd" val="30"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="cancelable" val="false"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="addSkills" val="5437;1"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<target hasBuffId="1411;false" msgId="2064"/>
+				<player olympiad="false" msgId="1509"/>
+				<player riding="none" msgId="2063"/>
+				<player zoneType="water" msgId="2060"/>
+				<target playerOnly="true"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_dispel_by_slot" slotType="big_head" maxAbnormalLevel="9"/>
+			<effect name="t_transform" val="103" npcId="13092" femaleNpcId="13092"/>
+		</for>
+	</skill>
+	<skill id="3337" levels="1" name="Transform Cutie Pig">
+		<set name="hitCancelTime" val="0"/>
+		<table name="#mpConsume1">
+			0
+		</table>
+		<table name="#mpConsume2">
+			0
+		</table>
+		<set name="mpConsume1" val="#mpConsume1"/>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="1"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="effectPoint" val="333"/>
+		<set name="mpConsum2" val="0"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="cancelable" val="false"/>
+		<set name="reuseDelay" val="14400000"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="addSkills" val="5437;1"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isCommon" val="true"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<target hasBuffId="1411;false" msgId="2064"/>
+				<player olympiad="false" msgId="1509"/>
+				<player riding="none" msgId="2063"/>
+				<player zoneType="water" msgId="2060"/>
+				<target playerOnly="true"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="t_transform" val="104" npcId="13093" femaleNpcId="13093"/>
+		</for>
+	</skill>
+	<skill id="3338" levels="1" name="Shield Master">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="3339" levels="1" name="Bard">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="3340" levels="1" name="Weapon Master">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="3341" levels="1" name="Force Master">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="3342" levels="1" name="Bow Master">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="3343" levels="1" name="Dagger Master">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="3344" levels="1" name="Wizard">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="3345" levels="1" name="Summoner">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="3346" levels="1" name="Healer">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="3347" levels="1" name="Enchanter">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="3348" levels="1" name="Dynasty Breast Plate">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="CON" val="2"/>
+			<sub order="0x40" stat="STR" val="2"/>
+			<mul order="0x30" stat="pDef" val="1.054"/>
+			<add order="0x40" stat="maxHp" val="492"/>
+			<add order="0x40" stat="darkAttr" val="8"/>
+			<mul order="0x30" stat="hpEff" val="1.03"/>
+			<mul order="0x30" stat="stunRcpt" val="0.5"/>
+			<add order="0x10" stat="cloak" val="1"/>
+		</for>
+	</skill>
+	<skill id="3349" levels="1" name="Dynasty Breast Plate">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<sub order="0x40" stat="CON" val="2"/>
+			<add order="0x40" stat="STR" val="2"/>
+			<mul order="0x30" stat="pAtk" val="1.054"/>
+			<add order="0x40" stat="maxHp" val="492"/>
+			<add order="0x40" stat="darkAttr" val="8"/>
+			<add order="0x40" stat="cAtkStatic" val="234"/>
+			<mul order="0x30" stat="rCrit" val="1.0246"/>
+			<add order="0x10" stat="cloak" val="1"/>
+		</for>
+	</skill>
+	<skill id="3350" levels="1" name="Dynasty Breast Plate">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<sub order="0x40" stat="CON" val="2"/>
+			<add order="0x40" stat="STR" val="2"/>
+			<mul order="0x30" stat="pAtk" val="1.054"/>
+			<add order="0x40" stat="maxHp" val="492"/>
+			<mul order="0x30" stat="mpConsumePhysical" val="0.95"/>
+			<add order="0x40" stat="darkAttr" val="8"/>
+			<add order="0x10" stat="cloak" val="1"/>
+		</for>
+	</skill>
+	<skill id="3351" levels="1" name="Dynasty Breast Plate">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<sub order="0x40" stat="CON" val="2"/>
+			<add order="0x40" stat="STR" val="2"/>
+			<mul order="0x30" stat="pDef" val="1.054"/>
+			<add order="0x40" stat="maxHp" val="492"/>
+			<mul order="0x30" stat="mpDanceConsume" val="0.95"/>
+			<add order="0x40" stat="darkAttr" val="8"/>
+			<add order="0x10" stat="cloak" val="1"/>
+		</for>
+	</skill>
+	<skill id="3352" levels="1" name="Dynasty Leather Armor">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<sub order="0x40" stat="CON" val="2"/>
+			<add order="0x40" stat="DEX" val="2"/>
+			<add order="0x40" stat="rEvas" val="4.3"/>
+			<add order="0x40" stat="maxHp" val="492"/>
+			<add order="0x40" stat="darkAttr" val="8"/>
+			<mul order="0x30" stat="rootRcpt" val="0.87"/>
+			<mul order="0x30" stat="pAtkSpd" val="1.0266"/>
+			<add order="0x10" stat="cloak" val="1"/>
+		</for>
+	</skill>
+	<skill id="3353" levels="1" name="Dynasty Leather Armor">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<sub order="0x40" stat="CON" val="2"/>
+			<add order="0x40" stat="DEX" val="2"/>
+			<add order="0x40" stat="accCombat" val="4.3"/>
+			<add order="0x40" stat="maxMp" val="321"/>
+			<add order="0x40" stat="darkAttr" val="8"/>
+			<mul order="0x30" stat="pAtkSpd" val="1.0266"/>
+			<add order="0x30" stat="regMp" val="1.72"/>
+			<add order="0x10" stat="cloak" val="1"/>
+		</for>
+	</skill>
+	<skill id="3354" levels="1" name="Dynasty Tunic">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<sub order="0x40" stat="INT" val="2"/>
+			<add order="0x40" stat="MEN" val="2"/>
+			<mul order="0x30" stat="mAtkSpd" val="1.15"/>
+			<add order="0x40" stat="maxMp" val="321"/>
+			<add order="0x40" stat="darkAttr" val="8"/>
+			<mul order="0x30" stat="healPowerStatic" val="20"/>
+			<sub order="0x40" stat="reduce_cancel" val="15"/>
+			<add order="0x10" stat="cloak" val="1"/>
+		</for>
+	</skill>
+	<skill id="3355" levels="1" name="Dynasty Tunic">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<sub order="0x40" stat="INT" val="2"/>
+			<add order="0x40" stat="MEN" val="2"/>
+			<mul order="0x30" stat="mAtkSpd" val="1.15"/>
+			<add order="0x40" stat="maxMp" val="321"/>
+			<add order="0x40" stat="darkAttr" val="8"/>
+			<mul order="0x30" stat="mpConsume" val="0.95"/>
+			<sub order="0x40" stat="reduce_cancel" val="15"/>
+			<add order="0x10" stat="cloak" val="1"/>
+		</for>
+	</skill>
+	<skill id="3356" levels="1" name="Dynasty Tunic">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<sub order="0x40" stat="INT" val="2"/>
+			<add order="0x40" stat="MEN" val="2"/>
+			<mul order="0x30" stat="mAtkSpd" val="1.15"/>
+			<add order="0x40" stat="maxMp" val="321"/>
+			<add order="0x40" stat="darkAttr" val="8"/>
+			<mul order="0x30" stat="pAtk" val="1.026"/>
+			<mul order="0x30" stat="pDef" val="1.026"/>
+			<add order="0x10" stat="cloak" val="1"/>
+		</for>
+	</skill>
+	<skill id="3357" levels="1" name="Dynasty Tunic">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="INT" val="1"/>
+			<add order="0x40" stat="WIT" val="1"/>
+			<sub order="0x40" stat="MEN" val="2"/>
+			<mul order="0x30" stat="mAtkSpd" val="1.15"/>
+			<add order="0x40" stat="maxMp" val="321"/>
+			<add order="0x40" stat="darkAttr" val="8"/>
+			<mul order="0x30" stat="mAtk" val="1.054"/>
+			<mul order="0x30" stat="stunRcpt" val="0.5"/>
+			<add order="0x10" stat="cloak" val="1"/>
+		</for>
+	</skill>
+	<skill id="3358" levels="1" name="Flag Equip">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="runSpd" val="0.5"/>
+			<mul order="0x30" stat="pAtkSpd" val="0.5"/>
+			<mul order="0x30" stat="mAtkSpd" val="0.5"/>
+			<mul order="0x30" stat="pAtk" val="0.5"/>
+			<mul order="0x30" stat="mAtk" val="0.5"/>
+		</for>
+	</skill>
+	<skill id="3359" levels="1" name="Transform Native">
+		<set name="hitCancelTime" val="0"/>
+		<table name="#mpConsume1">
+			0
+		</table>
+		<table name="#mpConsume2">
+			0
+		</table>
+		<set name="mpConsume1" val="#mpConsume1"/>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="1"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="effectPoint" val="0"/>
+		<set name="mpConsum2" val="0"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="cancelable" val="false"/>
+		<set name="reuseDelay" val="60000"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="addSkills" val="961;1;5437;1"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isCommon" val="true"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<target hasBuffId="1411;false" msgId="2064"/>
+				<player olympiad="false" msgId="1509"/>
+				<player riding="none" msgId="2063"/>
+				<player zoneType="water" msgId="2060"/>
+				<target playerOnly="true"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="t_transform" val="101" npcId="13090" femaleNpcId="13090"/>
+		</for>
+	</skill>
+	<skill id="3360" levels="1" name="Special Ability Cheap Shot">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="mpConsume" val="0.88"/>
+			<mul order="0x30" stat="mpConsumePhysical" val="0.88"/>
+			<mul order="0x30" stat="mpDanceConsume" val="0.88"/>
+		</for>
+	</skill>
+	<skill id="3361" levels="1" name="Summon Agathion - Fortress">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="hitTime" val="3000"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="npcId" val="16029"/>
+		<for>
+			<effect name="i_summon_agathion"/>
+		</for>
+	</skill>
+	<skill id="3362" levels="1" name="Traits Strengthen Necklace">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="stunPower" val="1.18"/>
+		</for>
+	</skill>
+	<skill id="3363" levels="1" name="Traits Strengthen Ring">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="stunPower" val="1.08"/>
+		</for>
+	</skill>
+	<skill id="3364" levels="1" name="Traits Strengthen Earring">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="stunPower" val="1.12"/>
+		</for>
+	</skill>
+	<skill id="3365" levels="1" name="Dynasty Resistance Necklace">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="stunRcpt" val="0.82"/>
+		</for>
+	</skill>
+	<skill id="3366" levels="1" name="Dynasty Resistance Ring">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="stunRcpt" val="0.92"/>
+		</for>
+	</skill>
+	<skill id="3367" levels="1" name="Dynasty Resistance Earring">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="stunRcpt" val="0.88"/>
+		</for>
+	</skill>
+	<skill id="3368" levels="1" name="Traits Strengthen Necklace">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="bleedPower" val="1.18"/>
+		</for>
+	</skill>
+	<skill id="3369" levels="1" name="Traits Strengthen Ring">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="bleedPower" val="1.08"/>
+		</for>
+	</skill>
+	<skill id="3370" levels="1" name="Traits Strengthen Earring">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="bleedPower" val="1.12"/>
+		</for>
+	</skill>
+	<skill id="3371" levels="1" name="Dynasty Resistance Necklace">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="bleedRcpt" val="0.89"/>
+		</for>
+	</skill>
+	<skill id="3372" levels="1" name="Dynasty Resistance Ring">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="bleedRcpt" val="0.95"/>
+		</for>
+	</skill>
+	<skill id="3373" levels="1" name="Dynasty Resistance Earring">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="bleedRcpt" val="0.92"/>
+		</for>
+	</skill>
+	<skill id="3374" levels="1" name="Traits Strengthen Necklace">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="poisonPower" val="1.16"/>
+		</for>
+	</skill>
+	<skill id="3375" levels="1" name="Traits Strengthen Ring">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="poisonPower" val="1.07"/>
+		</for>
+	</skill>
+	<skill id="3376" levels="1" name="Traits Strengthen Earring">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="poisonPower" val="1.11"/>
+		</for>
+	</skill>
+	<skill id="3377" levels="1" name="Dynasty Resistance Necklace">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="poisonRcpt" val="0.84"/>
+		</for>
+	</skill>
+	<skill id="3378" levels="1" name="Dynasty Resistance Ring">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="poisonRcpt" val="0.93"/>
+		</for>
+	</skill>
+	<skill id="3379" levels="1" name="Dynasty Resistance Earring">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="poisonRcpt" val="0.89"/>
+		</for>
+	</skill>
+	<skill id="3380" levels="1" name="Traits Strengthen Necklace">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="paralyzePower" val="1.09"/>
+		</for>
+	</skill>
+	<skill id="3381" levels="1" name="Traits Strengthen Ring">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="paralyzePower" val="1.04"/>
+		</for>
+	</skill>
+	<skill id="3382" levels="1" name="Traits Strengthen Earring">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="paralyzePower" val="1.06"/>
+		</for>
+	</skill>
+	<skill id="3383" levels="1" name="Dynasty Resistance Necklace">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="paralyzeRcpt" val="0.91"/>
+		</for>
+	</skill>
+	<skill id="3384" levels="1" name="Dynasty Resistance Ring">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="paralyzeRcpt" val="0.96"/>
+		</for>
+	</skill>
+	<skill id="3385" levels="1" name="Dynasty Resistance Earring">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="paralyzeRcpt" val="0.94"/>
+		</for>
+	</skill>
+	<skill id="3386" levels="1" name="Traits Strengthen Necklace">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="rootPower" val="1.18"/>
+		</for>
+	</skill>
+	<skill id="3387" levels="1" name="Traits Strengthen Ring">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="rootPower" val="1.08"/>
+		</for>
+	</skill>
+	<skill id="3388" levels="1" name="Traits Strengthen Earring">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="rootPower" val="1.12"/>
+		</for>
+	</skill>
+	<skill id="3389" levels="1" name="Dynasty Resistance Necklace">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="rootRcpt" val="0.82"/>
+		</for>
+	</skill>
+	<skill id="3390" levels="1" name="Dynasty Resistance Ring">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="rootRcpt" val="0.92"/>
+		</for>
+	</skill>
+	<skill id="3391" levels="1" name="Dynasty Resistance Earring">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="rootRcpt" val="0.88"/>
+		</for>
+	</skill>
+	<skill id="3392" levels="1" name="Traits Strengthen Necklace">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="sleepPower" val="1.18"/>
+		</for>
+	</skill>
+	<skill id="3393" levels="1" name="Traits Strengthen Ring">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="sleepPower" val="1.08"/>
+		</for>
+	</skill>
+	<skill id="3394" levels="1" name="Traits Strengthen Earring">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="sleepPower" val="1.12"/>
+		</for>
+	</skill>
+	<skill id="3395" levels="1" name="Dynasty Resistance Necklace">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="sleepRcpt" val="0.82"/>
+		</for>
+	</skill>
+	<skill id="3396" levels="1" name="Dynasty Resistance Ring">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="sleepRcpt" val="0.92"/>
+		</for>
+	</skill>
+	<skill id="3397" levels="1" name="Dynasty Resistance Earring">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="sleepRcpt" val="0.88"/>
+		</for>
+	</skill>
+	<skill id="3398" levels="1" name="Traits Strengthen Necklace">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="fearPower" val="1.09"/>
+		</for>
+	</skill>
+	<skill id="3399" levels="1" name="Traits Strengthen Ring">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="fearPower" val="1.04"/>
+		</for>
+	</skill>
+</list>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="15100" name="Avadon Boots of Friendship - Robe - 10 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="15102" name="Karmian Tunic of Friendship - 10 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="15103" name="Karmian Stockings of Friendship - 10 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="15106" name="Mithril Tunic of Friendship - 10 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="15107" name="Mithril Stockings of Friendship - 10 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="15116" name="Doom Gloves of Friendship - Heavy Armor - 10 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="15118" name="Doom Boots of Friendship - Heavy Armor - 10 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="15120" name="Doom Plate Armor of Friendship - 10 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="15127" name="Full Plate Armor of Friendship - 10 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="15135" name="Brigandine of Friendship - 10 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="15136" name="Brigandine Gaiters of Friendship - 10 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="15141" name="Friendship Armor of Nightmare - 10 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="15143" name="Friendship Gauntlet of Nightmare - Heavy Armor - 10 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="15144" name="Friendship Boots of Nightmare - Heavy Armor - 10 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+</list>

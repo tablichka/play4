@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="3900" name="Wolf's Luxury Plate">
+		<cond msgId="600">
+			<uc category="all_wolf_group" />
+		</cond>
+	</item>
+	<item id="3901" name="Wolf's Mithril Armor">
+		<cond msgId="600">
+			<uc category="all_wolf_group" />
+		</cond>
+	</item>
+	<item id="3912" name="Hatchling's Soft Leather">
+		<cond msgId="600">
+			<uc category="hatchling_group" />
+		</cond>
+	</item>
+	<item id="3913" name="Hatchling's Scale Mail">
+		<cond msgId="600">
+			<uc category="hatchling_group" />
+		</cond>
+	</item>
+	<item id="3914" name="Hatchling's Brigandine">
+		<cond msgId="600">
+			<uc category="hatchling_group" />
+		</cond>
+	</item>
+	<item id="3915" name="Hatchling's Bronze Coat">
+		<cond msgId="600">
+			<uc category="hatchling_group" />
+		</cond>
+	</item>
+	<item id="3916" name="Hatchling's Steel Coat">
+		<cond msgId="600">
+			<uc category="hatchling_group" />
+		</cond>
+	</item>
+	<item id="3917" name="Hatchling's Shadowplate">
+		<cond msgId="600">
+			<uc category="hatchling_group" />
+		</cond>
+	</item>
+	<item id="3918" name="Hatchling's Mithril Coat">
+		<cond msgId="600">
+			<uc category="hatchling_group" />
+		</cond>
+	</item>
+</list>

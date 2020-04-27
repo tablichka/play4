@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Event "JailSlave" shop -->
+<list>
+
+  <item>
+    <ingredient id="57" count="1"/>
+    <production id="6623" count="1"/>
+  </item>
+
+</list>

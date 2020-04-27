@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="12979" name="Zubei's Helmet - Robe Use">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12981" name="Avadon Circlet - Robe Use">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12983" name="Doom Helmet - Robe Use">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12985" name="Blue Wolf Helmet - Robe Use">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12987" name="Dark Crystal Helmet - Robe Use">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12989" name="Tallum Helmet - Robe Use">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12991" name="Majestic Circlet - Robe Use">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12993" name="Helm of Nightmare - Robe Use">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12995" name="Sealed Dark Crystal Helmet - Robe Use">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12997" name="Sealed Tallum Helmet - Robe Use">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12999" name="Sealed Majestic Circlet - Robe Use">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+</list>

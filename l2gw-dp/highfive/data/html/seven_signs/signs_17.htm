@@ -1,0 +1,14 @@
+<html> 
+<body> 
+%npcname%:<br>
+<br>
+<font color="LEVEL">[Exchange %stoneName%s for Ancient Adena]</font>
+<br> 
+You currently possess %stoneCount% %stoneName%s. How many do you want to exchange for Ancient Adena? One %stoneName% is worth %stoneValue% Ancient Adena.
+<br>
+[Enter the quantity you wish to exchange.]
+<br>
+<edit var="Amount" width="80">
+<button value="Exchange" action="bypass -h npc_%objectId%_SevenSigns 18 %stoneType% $Amount" width="60" height="15" back="L2UI_CT1.Button_DF" fore="L2UI_CT1.Button_DF">
+</body> 
+</html>

@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<instances>
+
+	<instance id="-1" name="Last Hero" max="10" type="-1" dispel="false">
+		<party min="2" max="100"/>
+		<level min="1" max="86"/>
+		<timeLimit min="15"/>
+		<spawnlist>
+			<door id="24190001"/>
+			<door id="24190002"/>
+			<door id="24190003"/>
+			<door id="24190004"/>
+		</spawnlist>
+	</instance>
+
+	<instance id="-2" name="TvT Event" max="10" type="-1" dispel="false">
+		<party min="2" max="100"/>
+		<level min="1" max="86"/>
+		<timeLimit min="35"/>
+		<restartPoints>
+			<point x="147521" y="46717" z="-3400"/>
+			<point x="151536" y="46717" z="-3400"/>
+		</restartPoints>
+		<spawnlist>
+			<door id="24190001"/>
+			<door id="24190002"/>
+			<door id="24190003"/>
+			<door id="24190004"/>
+			<spawn npcId="50000" delay="0" respawn="0" count="1" x="147508" y="47042" z="-3400" heading="49000"/>
+			<spawn npcId="50000" delay="0" respawn="0" count="1" x="151484" y="46383" z="-3400" heading="16000"/>
+		</spawnlist>
+	</instance>
+
+	<instance id="-3" name="Capture event" max="10" type="-1" dispel="false">
+		<party min="2" max="100"/>
+		<level min="1" max="86"/>
+		<timeLimit min="180"/>
+		<restartPoints>
+			<point x="147521" y="46717" z="-3400"/>
+			<point x="151536" y="46717" z="-3400"/>
+		</restartPoints>
+		<spawnlist>
+			<spawn npcId="37001" delay="0" respawn="0" count="1" x="137381" y="-73549" z="-3888" heading="0"/>
+			<spawn npcId="37002" delay="0" respawn="0" count="1" x="144782" y="-70981" z="-4128" heading="0"/>
+			<spawn npcId="37003" delay="0" respawn="0" count="1" x="142367" y="-75738" z="-4624" heading="0"/>
+			<spawn npcId="37004" delay="0" respawn="0" count="1" x="140824" y="-79842" z="-5136" heading="0"/>
+		</spawnlist>
+		<areaList>
+			<area name="capture_team1"/>
+			<area name="capture_team2"/>
+		</areaList>
+	</instance>
+	
+	<instance id="-5" name="egm" max="10" type="-1" dispel="false">
+        <level min="1" max="86"/>
+        <timeLimit min="300"/>
+        <startLoc x="48690" y="248459" z="-6160"/>
+        <areaList>
+                <area name="egm"/>
+        </areaList>
+	</instance>
+
+</instances>

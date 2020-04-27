@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- vitamin_items -->
+<list>
+	<config showall="true" notax="true"/>
+	<item>
+		<production id="13103" count="1"/>	<!-- My Teleport Spellbook 1-Book Pack -->
+		<ingredient id="57" count="2400000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13104" count="1"/>	<!-- My Teleport Scroll 30-Sheet Pack -->
+		<ingredient id="57" count="2400000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13106" count="1"/>	<!-- Feather of Blessing 3-Sheet Pack -->
+		<ingredient id="57" count="120000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13124" count="1"/>	<!-- Color Name 1-Sheet Pack -->
+		<ingredient id="57" count="1200000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13276" count="1"/>	<!-- Hunting Helper Exchange Coupon 1-Sheet Pack -->
+		<ingredient id="57" count="1200000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13121" count="1"/>	<!-- Purple-Maned Horse 7-Day Pack -->
+		<ingredient id="57" count="1200000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13090" count="1"/>	<!-- Fungus Hat 30-Day Pack -->
+		<ingredient id="57" count="2400000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14239" count="1"/>	<!-- High-Grade Hunting Helper Exchange Coupon 2-Sheet Pack -->
+		<ingredient id="57" count="2400000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14234" count="1"/>	<!-- Snow Kung Transformation Stick 30-Day Pack -->
+		<ingredient id="57" count="2400000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14231" count="1"/>	<!-- Gold Maned Lion Mount Bracelet 7-Day Pack -->
+		<ingredient id="57" count="2400000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14232" count="1"/>	<!-- Steam Beatle Mount Bracelet 7-Day Pack -->
+		<ingredient id="57" count="2400000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13091" count="1"/>	<!-- Skull Hat 30-Day Pack -->
+		<ingredient id="57" count="2400000"/>	<!-- Adena -->
+	</item>
+</list>

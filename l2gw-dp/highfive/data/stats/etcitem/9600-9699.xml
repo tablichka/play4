@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<item id='9668' name="revolution_wolf_food">
+		<cond msgId="113">
+			<uc category="grown_up_wolf_group"/>
+		</cond>
+		<for/>
+	</item>
+	<item id='9698' name="Blue Coral Key">
+	<!-- A key to open the Sapphire Gate. -->
+		<for/>
+	</item>
+
+	<item id='9699' name="Red Coral Key">
+	<!-- A key used to open the Gate that leads to the Steam Corridor. -->
+		<for/>
+	</item>
+
+</list>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="11502" name="Sealed Imperial Crusader Shield">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="11508" name="Imperial Crusader Shield">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="11532" name="Dynasty Shield">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="11569" name="Sealed Dynasty Shield">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+</list>

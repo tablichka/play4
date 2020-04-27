@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='utf-8'?>
+<instances>
+	<!-- Kamaloka 23 -->
+	<instance id="57" name="Kamaloka - The Hall of Abyss" max="10" type="1" premiumReuse="30 6,18 * * *" reuseReset="30 6 * * *">
+		<party min="2" max="6"/>
+		<level min="18" max="28"/>
+		<timeLimit min="30"/>
+		<noUserTimeout min="1"/>
+		<startLoc x="-88995" y="-220764" z="-7900"/>
+		<spawnlist>
+			<spawn npcId="18554" delay="0" respawn="0" x="-89000" y="-220000" z="-7900" heading="50500"/>
+		</spawnlist>
+	</instance>
+
+	<!-- Kamaloka 26 -->
+	<instance id="58" name="Kamaloka - The Hall of Abyss" max="10" type="1" premiumReuse="30 6,18 * * *" reuseReset="30 6 * * *">
+		<party min="2" max="6"/>
+		<level min="21" max="31"/>
+		<timeLimit min="30"/>
+		<noUserTimeout min="1"/>
+		<startLoc x="-81892" y="-220766" z="-7900"/>
+		<spawnlist>
+			<spawn npcId="18555" delay="0" respawn="0" x="-81900" y="-220000" z="-7900" heading="53662"/>
+		</spawnlist>
+	</instance>
+
+	<!-- Kamaloka 29 -->
+	<instance id="73" name="Kamaloka (The Labyrinth of Abyss)" max="5" type="4" premiumReuse="30 6,18 * * *" reuseReset="30 6 * * *">
+		<party min="2" max="9"/>
+		<level min="24" max="34"/>
+		<timeLimit min="45"/>
+		<noUserTimeout min="5"/>
+		<startLoc x="-10676" y="-174900" z="-10969"/>
+		<spawnlist>
+			<spawn npcId="22485" delay="0" respawn="0" x="-12196" y="-174900" z="-10973" heading="0"/>
+			<spawn npcId="22487" delay="0" respawn="0" x="-14545" y="-174900" z="-10710" heading="0" count="5" radius="120"/>
+			<spawn npcId="25616" delay="0" respawn="0" x="-16877" y="-174900" z="-10447" heading="0"/>
+			<spawn npcId="29129" delay="0" respawn="0" x="-20644" y="-174900" z="-10000" heading="0"/>
+			<spawn npcId="32496" delay="0" respawn="0" x="-10880" y="-174900" z="-10970" heading="0"/>
+		</spawnlist>
+	</instance>
+
+	<!-- Kamaloka 33 -->
+	<instance id="60" name="Kamaloka - The Hall of Abyss" max="10" type="1" premiumReuse="30 6,18 * * *" reuseReset="30 6 * * *">
+		<party min="2" max="6"/>
+		<level min="28" max="38"/>
+		<timeLimit min="30"/>
+		<noUserTimeout min="1"/>
+		<startLoc x="-89182" y="-214081" z="-8100"/>
+		<spawnlist>
+			<spawn npcId="18558" delay="0" respawn="0" x="-89186" y="-213573" z="-8100" heading="50874"/>
+		</spawnlist>
+	</instance>
+
+	<!-- Kamaloka 36 -->
+	<instance id="61" name="Kamaloka - The Hall of Abyss" max="10" type="1" premiumReuse="30 6,18 * * *" reuseReset="30 6 * * *">
+		<party min="2" max="6"/>
+		<level min="31" max="41"/>
+		<timeLimit min="30"/>
+		<noUserTimeout min="1"/>
+		<startLoc x="-81936" y="-214096" z="-8100"/>
+		<spawnlist>
+			<spawn npcId="18559" delay="0" respawn="0" x="-81937" y="-213571" z="-8100" heading="50874"/>
+		</spawnlist>
+	</instance>
+
+	<!-- Kamaloka 39 -->
+	<instance id="74" name="Kamaloka (The Labyrinth of Abyss)" max="5" type="4" premiumReuse="30 6,18 * * *" reuseReset="30 6 * * *">
+		<party min="2" max="9"/>
+		<level min="34" max="44"/>
+		<timeLimit min="45"/>
+		<noUserTimeout min="5"/>
+		<startLoc x="-10676" y="-185525" z="-10969"/>
+		<spawnlist>
+			<spawn npcId="22488" delay="0" respawn="0" x="-12196" y="-185525" z="-10973" heading="0"/>
+			<spawn npcId="22490" delay="0" respawn="0" x="-14545" y="-185525" z="-10710" heading="0" count="5" radius="120"/>
+			<spawn npcId="25617" delay="0" respawn="0" x="-16877" y="-185525" z="-10447" heading="0"/>
+			<spawn npcId="29132" delay="0" respawn="0" x="-20644" y="-185525" z="-10000" heading="0"/>
+			<spawn npcId="32496" delay="0" respawn="0" x="-10880" y="-185525" z="-10970" heading="0"/>
+		</spawnlist>
+	</instance>
+
+	<!-- Kamaloka 43 -->
+	<instance id="63" name="Kamaloka - The Hall of Abyss" max="10" type="1" premiumReuse="30 6,18 * * *" reuseReset="30 6 * * *">
+		<party min="2" max="6"/>
+		<level min="38" max="48"/>
+		<timeLimit min="30"/>
+		<noUserTimeout min="1"/>
+		<startLoc x="-89040" y="-206896" z="-8100"/>
+		<spawnlist>
+			<spawn npcId="18562" delay="0" respawn="0" x="-89133" y="-206300" z="-8100" heading="51905"/>
+		</spawnlist>
+	</instance>
+
+	<!-- Kamaloka 46 -->
+	<instance id="64" name="Kamaloka - The Hall of Abyss" max="10" type="1" premiumReuse="30 6,18 * * *" reuseReset="30 6 * * *">
+		<party min="2" max="6"/>
+		<level min="41" max="51"/>
+		<timeLimit min="30"/>
+		<noUserTimeout min="1"/>
+		<startLoc x="-81931" y="-205602" z="-8100"/>
+		<spawnlist>
+			<spawn npcId="18564" delay="0" respawn="0" x="-81935" y="-206075" z="-8100" heading="16214"/>
+		</spawnlist>
+	</instance>
+
+	<!-- Kamaloka 49 -->
+	<instance id="75" name="Kamaloka (The Labyrinth of Abyss)" max="10" type="4" premiumReuse="30 6,18 * * *" reuseReset="30 6 * * *">
+		<party min="2" max="9"/>
+		<level min="44" max="54"/>
+		<timeLimit min="45"/>
+		<noUserTimeout min="5"/>
+		<startLoc x="22033" y="-174886" z="-10937"/>
+		<spawnlist>
+			<spawn npcId="22491" delay="0" respawn="0" x="20490" y="-174886" z="-10941" heading="0"/>
+			<spawn npcId="22493" delay="0" respawn="0" x="18155" y="-174886" z="-10678" heading="0" count="5" radius="120"/>
+			<spawn npcId="25618" delay="0" respawn="0" x="15810" y="-174886" z="-10415" heading="0"/>
+			<spawn npcId="29135" delay="0" respawn="0" x="12040" y="-174886" z="-9971" heading="0"/>
+			<spawn npcId="32496" delay="0" respawn="0" x="21840" y="-174886" z="-10937" heading="0"/>
+		</spawnlist>
+	</instance>
+
+	<!-- Kamaloka 53 -->
+	<instance id="66" name="Kamaloka - The Hall of Abyss" max="15" type="1" premiumReuse="30 6,18 * * *" reuseReset="30 6 * * *">
+		<party min="2" max="6"/>
+		<level min="48" max="58"/>
+		<timeLimit min="30"/>
+		<noUserTimeout min="1"/>
+		<startLoc x="-55715" y="-219857" z="-8140"/>
+		<spawnlist>
+			<spawn npcId="18566" delay="0" respawn="0" x="-56330" y="-219860" z="-8040" heading="65082"/>
+		</spawnlist>
+	</instance>
+
+	<!-- Kamaloka 56 -->
+	<instance id="67" name="Kamaloka - The Hall of Abyss" max="20" type="1" premiumReuse="30 6,18 * * *" reuseReset="30 6 * * *">
+		<party min="2" max="6"/>
+		<level min="51" max="61"/>
+		<timeLimit min="30"/>
+		<noUserTimeout min="1"/>
+		<startLoc x="-48850" y="-212940" z="-8092"/>
+		<spawnlist>
+			<spawn npcId="18568" delay="0" respawn="0" x="-49330" y="-212935" z="-8092" heading="1298"/>
+		</spawnlist>
+	</instance>
+
+	<!-- Kamaloka 59 -->
+	<instance id="76" name="Kamaloka (The Labyrinth of Abyss)" max="10" type="4" premiumReuse="30 6,18 * * *" reuseReset="30 6 * * *">
+		<party min="2" max="9"/>
+		<level min="54" max="64"/>
+		<timeLimit min="45"/>
+		<noUserTimeout min="5"/>
+		<startLoc x="22033" y="-185515" z="-10937"/>
+		<spawnlist>
+			<spawn npcId="22494" delay="0" respawn="0" x="20490" y="-185515" z="-10941" heading="0"/>
+			<spawn npcId="22496" delay="0" respawn="0" x="18155" y="-185515" z="-10678" heading="0" count="5" radius="120"/>
+			<spawn npcId="25619" delay="0" respawn="0" x="15810" y="-185515" z="-10415" heading="0"/>
+			<spawn npcId="29138" delay="0" respawn="0" x="12040" y="-185515" z="-9971" heading="0"/>
+			<spawn npcId="32496" delay="0" respawn="0" x="21840" y="-185515" z="-10937" heading="0"/>
+		</spawnlist>
+	</instance>
+
+	<!-- Kamaloka 63 -->
+	<instance id="69" name="Kamaloka - The Hall of Abyss" max="10" type="1" premiumReuse="30 6,18 * * *" reuseReset="30 6 * * *">
+		<party min="2" max="6"/>
+		<level min="58" max="68"/>
+		<timeLimit min="30"/>
+		<noUserTimeout min="1"/>
+		<startLoc x="-55900" y="-212940" z="-8092"/>
+		<spawnlist>
+			<spawn npcId="18571" delay="0" respawn="0" x="-56406" y="-212949" z="-8092" heading="62180"/>
+		</spawnlist>
+	</instance>
+
+	<!-- Kamaloka 66 -->
+	<instance id="70" name="Kamaloka - The Hall of Abyss" max="10" type="1" premiumReuse="30 6,18 * * *" reuseReset="30 6 * * *">
+		<party min="2" max="6"/>
+		<level min="61" max="71"/>
+		<timeLimit min="30"/>
+		<noUserTimeout min="1"/>
+		<startLoc x="-56260" y="-205354" z="-8143"/>
+		<spawnlist>
+			<spawn npcId="18573" delay="0" respawn="0" x="-56247" y="-206140" z="-8143" heading="15613"/>
+		</spawnlist>
+	</instance>
+
+	<!-- Kamaloka 69 -->
+	<instance id="77" name="Kamaloka (The Labyrinth of Abyss)" max="4" type="4" premiumReuse="30 6,18 * * *" reuseReset="30 6 * * *">
+		<party min="2" max="9"/>
+		<level min="64" max="74"/>
+		<timeLimit min="45"/>
+		<noUserTimeout min="5"/>
+		<startLoc x="-76230" y="-174928" z="-11030"/>
+		<spawnlist>
+			<spawn npcId="22497" delay="0" respawn="0" x="-77777" y="-174928" z="-10941" heading="0"/>
+			<spawn npcId="22499" delay="0" respawn="0" x="-80100" y="-174928" z="-10678" heading="0" count="5" radius="120"/>
+			<spawn npcId="25620" delay="0" respawn="0" x="-82440" y="-174928" z="-10415" heading="0"/>
+			<spawn npcId="29141" delay="0" respawn="0" x="-86235" y="-174928" z="-9971" heading="0"/>
+			<spawn npcId="32496" delay="0" respawn="0" x="-76440" y="-174928" z="-10937" heading="0"/>
+		</spawnlist>
+	</instance>
+
+	<!-- Kamaloka 73 -->
+	<instance id="72" name="Kamaloka - The Hall of Abyss" max="10" type="1" premiumReuse="30 6,18 * * *" reuseReset="30 6 * * *">
+		<party min="2" max="6"/>
+		<level min="68" max="78"/>
+		<timeLimit min="30"/>
+		<noUserTimeout min="1"/>
+		<startLoc x="-42014" y="-205327" z="-8143"/>
+		<spawnlist>
+			<spawn npcId="18577" delay="0" respawn="0" x="-42032" y="-206134" z="-8143" heading="17156"/>
+		</spawnlist>
+	</instance>
+
+	<!-- Kamaloka 78 -->
+	<instance id="78" name="Kamaloka (The Labyrinth of Abyss)" max="7" type="4" premiumReuse="30 6,18 * * *" reuseReset="30 6 * * *">
+		<party min="2" max="9"/>
+		<level min="73" max="83"/>
+		<timeLimit min="45"/>
+		<noUserTimeout min="5"/>
+		<startLoc x="-76230" y="-185545" z="-11030"/>
+		<spawnlist>
+			<spawn npcId="22500" delay="0" respawn="0" x="-77777" y="-185545" z="-10941" heading="0"/>
+			<spawn npcId="22502" delay="0" respawn="0" x="-80100" y="-185545" z="-10678" heading="0" count="5" radius="120"/>
+			<spawn npcId="25621" delay="0" respawn="0" x="-82440" y="-185545" z="-10415" heading="0"/>
+			<spawn npcId="29144" delay="0" respawn="0" x="-86235" y="-185545" z="-9971" heading="0"/>
+			<spawn npcId="32496" delay="0" respawn="0" x="-76440" y="-185545" z="-10937" heading="0"/>
+		</spawnlist>
+	</instance>
+
+	<!-- Kamaloka 81 -->
+	<instance id="79" name="Kamaloka (The Labyrinth of Abyss)" max="10" type="4" premiumReuse="30 6,18 * * *" reuseReset="30 6 * * *">
+		<party min="2" max="9"/>
+		<level min="76" max="86"/>
+		<timeLimit min="45"/>
+		<noUserTimeout min="5"/>
+		<startLoc x="-43435" y="-174885" z="-11000"/>
+		<spawnlist>
+			<spawn npcId="22503" delay="0" respawn="0" x="-44980" y="-174885" z="-11000" heading="0"/>
+			<spawn npcId="22505" delay="0" respawn="0" x="-47310" y="-174885" z="-10740" heading="0" count="5" radius="120"/>
+			<spawn npcId="25622" delay="0" respawn="0" x="-49640" y="-174885" z="-10480" heading="0"/>
+			<spawn npcId="29147" delay="0" respawn="0" x="-53420" y="-174885" z="-10030" heading="0"/>
+			<spawn npcId="32496" delay="0" respawn="0" x="-43630" y="-174885" z="-11000" heading="0"/>
+		</spawnlist>
+	</instance>
+
+	<!-- Kamaloka 83 -->
+	<instance id="134" name="Kamaloka (Labyrinth of the Abyss)" max="20" type="4" dispel="true" premiumReuse="30 6,18 * * *" reuseReset="30 6 * * *">
+		<party min="2" max="9"/>
+		<level min="76" max="86"/>
+		<timeLimit min="45"/>
+		<noUserTimeout min="5"/>
+		<startLoc x="22001" y="-185511" z="-10900"/>
+	</instance>
+
+</instances>

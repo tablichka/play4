@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- exchange_nephentes_seed -->
+<list>
+	<config showall="false" notax="true" keepenchanted="false"/>
+	<item>
+		<production id="7629" count="1"/>	<!-- Looted Goods - White Cargo box -->
+		<ingredient id="7187" count="150"/>	<!-- Nepenthes Seed -->
+	</item>
+	<item>
+		<production id="7630" count="1"/>	<!-- Looted Goods - Blue Cargo box -->
+		<ingredient id="7187" count="60"/>	<!-- Nepenthes Seed -->
+	</item>
+	<item>
+		<production id="7631" count="1"/>	<!-- Looted Goods - Yellow Cargo box -->
+		<ingredient id="7187" count="60"/>	<!-- Nepenthes Seed -->
+	</item>
+	<item>
+		<production id="7632" count="1"/>	<!-- Looted Goods - Red Cargo Box -->
+		<ingredient id="7187" count="150"/>	<!-- Nepenthes Seed -->
+	</item>
+	<item>
+		<production id="7633" count="1"/>	<!-- Looted Goods - Purple Cargo Box -->
+		<ingredient id="7187" count="500"/>	<!-- Nepenthes Seed -->
+	</item>
+	<item>
+		<production id="7635" count="1"/>	<!-- Looted Goods - Gray Pouch -->
+		<ingredient id="7187" count="55"/>	<!-- Nepenthes Seed -->
+	</item>
+	<item>
+		<production id="7634" count="1"/>	<!-- Looted Goods - Brown Pouch -->
+		<ingredient id="7187" count="55"/>	<!-- Nepenthes Seed -->
+	</item>
+	<item>
+		<production id="7619" count="1"/>	<!-- Scroll of Escape: Varka Silenos Village -->
+		<ingredient id="7187" count="80"/>	<!-- Nepenthes Seed -->
+	</item>
+</list>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="7015" name="Shield of Castle Pledge">
+		<cond>
+			<and>
+				<OpHome type="castle" />
+				<not>
+					<player race="kamael" />
+				</not>
+			</and>
+		</cond>
+	</item>
+</list>

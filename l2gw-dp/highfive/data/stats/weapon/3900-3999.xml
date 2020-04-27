@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id='3902' name="Ghost Canine">
+		<cond msgId="600">
+			<uc category="all_wolf_group"/>
+		</cond>
+		<for>
+			<add val='11' order='0x08' stat='pAtk'/>
+			<add val='10' order='0x08' stat='mAtk'/>
+		</for>
+	</item>
+	<item id='3903' name="Mithril Canine">
+		<cond msgId="600">
+			<uc category="all_wolf_group"/>
+		</cond>
+		<for>
+			<add val='16' order='0x08' stat='pAtk'/>
+			<add val='14' order='0x08' stat='mAtk'/>
+		</for>
+	</item>
+	<item id='3904' name="Sylvan Canine">
+		<cond msgId="600">
+			<uc category="all_wolf_group"/>
+		</cond>
+		<for>
+			<add val='23' order='0x08' stat='pAtk'/>
+			<add val='18' order='0x08' stat='mAtk'/>
+		</for>
+	</item>
+	<item id='3905' name="Orikarukon Canine">
+		<cond msgId="600">
+			<uc category="all_wolf_group"/>
+		</cond>
+		<for>
+			<add val='31' order='0x08' stat='pAtk'/>
+			<add val='24' order='0x08' stat='mAtk'/>
+		</for>
+	</item>
+	<item id='3906' name="Fang of Saltydog">
+		<cond msgId="600">
+			<uc category="all_wolf_group"/>
+		</cond>
+		<for>
+			<add val='40' order='0x08' stat='pAtk'/>
+			<add val='30' order='0x08' stat='mAtk'/>
+		</for>
+	</item>
+	<item id='3907' name="Fang of Cerberus">
+		<cond msgId="600">
+			<uc category="all_wolf_group"/>
+		</cond>
+		<for>
+			<add val='49' order='0x08' stat='pAtk'/>
+			<add val='36' order='0x08' stat='mAtk'/>
+		</for>
+	</item>
+	<item id='3908' name="Fang of Coyote">
+		<cond msgId="600">
+			<uc category="all_wolf_group"/>
+		</cond>
+		<for>
+			<add val='58' order='0x08' stat='pAtk'/>
+			<add val='42' order='0x08' stat='mAtk'/>
+		</for>
+	</item>
+	<item id='3909' name="Crystalized Ice Canine">
+		<cond msgId="600">
+			<uc category="all_wolf_group"/>
+		</cond>
+		<for>
+			<add val='69' order='0x08' stat='pAtk'/>
+			<add val='50' order='0x08' stat='mAtk'/>
+		</for>
+	</item>
+	<item id='3910' name="Fang of the Blue Wolf">
+		<cond msgId="600">
+			<uc category="all_wolf_group"/>
+		</cond>
+		<for>
+			<add val='80' order='0x08' stat='pAtk'/>
+			<add val='58' order='0x08' stat='mAtk'/>
+		</for>
+	</item>
+	<item id='3911' name="Fang of Fenril">
+		<cond msgId="600">
+			<uc category="all_wolf_group"/>
+		</cond>
+		<for>
+			<add val='93' order='0x08' stat='pAtk'/>
+			<add val='66' order='0x08' stat='mAtk'/>
+		</for>
+	</item>
+	<item id='3919' name="Serpent Fang">
+		<cond msgId="600">
+			<uc category="hatchling_group"/>
+		</cond>
+		<for>
+			<add val='8' order='0x08' stat='pAtk'/>
+			<add val='7' order='0x08' stat='mAtk'/>
+		</for>
+	</item>
+	<item id='3920' name="Viperbite">
+		<cond msgId="600">
+			<uc category="hatchling_group"/>
+		</cond>
+		<for>
+			<add val='9' order='0x08' stat='pAtk'/>
+			<add val='10' order='0x08' stat='mAtk'/>
+		</for>
+	</item>
+	<item id='3921' name="Shadow Fang">
+		<cond msgId="600">
+			<uc category="hatchling_group"/>
+		</cond>
+		<for>
+			<add val='10' order='0x08' stat='pAtk'/>
+			<add val='11' order='0x08' stat='mAtk'/>
+		</for>
+	</item>
+	<item id='3922' name="Alya Fang">
+		<cond msgId="600">
+			<uc category="hatchling_group"/>
+		</cond>
+		<for>
+			<add val='12' order='0x08' stat='pAtk'/>
+			<add val='13' order='0x08' stat='mAtk'/>
+		</for>
+	</item>
+	<item id='3923' name="Torturer">
+		<cond msgId="600">
+			<uc category="hatchling_group"/>
+		</cond>
+		<for>
+			<add val='13' order='0x08' stat='pAtk'/>
+			<add val='16' order='0x08' stat='mAtk'/>
+		</for>
+	</item>
+	<item id='3924' name="Unuk Alhay Fang">
+		<cond msgId="600">
+			<uc category="hatchling_group"/>
+		</cond>
+		<for>
+			<add val='15' order='0x08' stat='pAtk'/>
+			<add val='18' order='0x08' stat='mAtk'/>
+		</for>
+	</item>
+	<item id='3925' name="Antiplague">
+		<cond msgId="600">
+			<uc category="hatchling_group"/>
+		</cond>
+		<for>
+			<add val='17' order='0x08' stat='pAtk'/>
+			<add val='21' order='0x08' stat='mAtk'/>
+		</for>
+	</item>
+</list>

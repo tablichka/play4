@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- gludio_merc_captain -->
+<list>
+	<config showall="true" notax="true" keepenchanted="false" />
+	<item>
+		<production id="14605" count="1"/>	<!-- Red Talisman - Territory Guard -->
+		<ingredient id="57" count="10000"/>	<!-- Adena -->
+		<ingredient id="13757" count="7"/>	<!-- Gludio Territory Badge -->
+	</item>
+	<item>
+		<production id="13569" count="1"/>	<!-- Transformation Scroll: Gludio Human Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13570" count="1"/>	<!-- Transformation Scroll: Gludio Elf Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13571" count="1"/>	<!-- Transformation Scroll: Gludio Dark Elf Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13572" count="1"/>	<!-- Transformation Scroll: Gludio Orc Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13573" count="1"/>	<!-- Transformation Scroll: Gludio Dwarf Mercenary  -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13574" count="1"/>	<!-- Transformation Scroll: Gludio Kamael Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13677" count="1"/>	<!-- Gludio Disguise Scroll -->
+		<ingredient id="57" count="70000"/>	<!-- Adena -->
+	</item>
+</list>

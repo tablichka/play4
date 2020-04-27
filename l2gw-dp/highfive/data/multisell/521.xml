@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- exchange_goldenram_coin -->
+<list>
+	<config showall="false" notax="true" keepenchanted="false"/>
+	<item>
+		<production id="7636" count="1"/>	<!-- Booty - Yellow Pouch -->
+		<ingredient id="7251" count="6"/>	<!-- Golden Ram Coin -->
+	</item>
+	<item>
+		<production id="7637" count="1"/>	<!-- Booty - Brown Pouch -->
+		<ingredient id="7251" count="28"/>	<!-- Golden Ram Coin -->
+	</item>
+	<item>
+		<production id="7725" count="1"/>	<!-- Booty - Gray Pouch -->
+		<ingredient id="7251" count="1"/>	<!-- Golden Ram Coin -->
+	</item>
+	<item>
+		<production id="7562" count="1"/>	<!-- Dimensional Diamond -->
+		<ingredient id="7251" count="10"/>	<!-- Golden Ram Coin -->
+	</item>
+</list>

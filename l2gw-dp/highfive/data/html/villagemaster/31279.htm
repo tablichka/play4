@@ -1,0 +1,20 @@
+High Priest Gregory:<br>
+
+Greetings, my child. It's nice to see someone with so much enthusiasm at a difficult time like this.
+Goddard has been going through some trying times lately. Varka Silenos and Ketra Orcs are on the verge of war.  And now I hear that Valakas, the fire dragon, has awoken... We desperately need young warriors like you!
+
+Times like these are when we disciples of the gods must be vigilant and persevere!
+
+[scripts_services.villagemasters.Occupation:onTalk30120|"Tell me about the second class transfer."]
+
+[npc_%objectId%_Subclass|Sub Class.]
+
+[npc_%objectId%_Link villagemaster/clan-01.htm|Clan]
+
+[npc_%objectId%_Link villagemaster/ally-01.htm|Alliance]
+
+[scripts_services.BuyShadow:getShadow|Shadow Weapon Ticket Exchange]
+
+[npc_%objectId%_Quest|Quest]
+<br>
+<a action="bypass -h scripts_events.ChooseYourDestiny.ChooseYourDestiny:beginDialog">Choose Your Destiny</a>

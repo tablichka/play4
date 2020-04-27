@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- improving_field_of_reeds -->
+<list>
+	<config showall="true" notax="true"/>
+	<item>
+		<production id="9985" count="1"/>	<!-- Recipe - Sealed Dynasty Earrings (70%) -->
+		<ingredient id="14872" count="96"/>	<!-- Awakened Mucrokian Hide -->
+	</item>
+	<item>
+		<production id="9985" count="1"/>	<!-- Recipe - Sealed Dynasty Earrings (70%) -->
+		<ingredient id="14871" count="192"/>	<!-- Mucrokian Hide -->
+	</item>
+	<item>
+		<production id="9986" count="1"/>	<!-- Recipe - Sealed Dynasty Necklace (70%) -->
+		<ingredient id="14872" count="128"/>	<!-- Awakened Mucrokian Hide -->
+	</item>
+	<item>
+		<production id="9986" count="1"/>	<!-- Recipe - Sealed Dynasty Necklace (70%) -->
+		<ingredient id="14871" count="256"/>	<!-- Mucrokian Hide -->
+	</item>
+	<item>
+		<production id="9987" count="1"/>	<!-- Recipe - Sealed Dynasty Ring (70%) -->
+		<ingredient id="14872" count="64"/>	<!-- Awakened Mucrokian Hide -->
+	</item>
+	<item>
+		<production id="9987" count="1"/>	<!-- Recipe - Sealed Dynasty Ring (70%) -->
+		<ingredient id="14871" count="128"/>	<!-- Mucrokian Hide -->
+	</item>
+	<item>
+		<production id="10115" count="1"/>	<!-- Recipe: Sealed Dynasty Sigil (60%) -->
+		<ingredient id="14872" count="103"/>	<!-- Awakened Mucrokian Hide -->
+	</item>
+	<item>
+		<production id="10115" count="1"/>	<!-- Recipe: Sealed Dynasty Sigil (60%) -->
+		<ingredient id="14871" count="206"/>	<!-- Mucrokian Hide -->
+	</item>
+	<item>
+		<production id="15777" count="1"/>	<!-- Recipe - Sealed Moirai Circlet (60%)  -->
+		<ingredient id="14872" count="90"/>	<!-- Awakened Mucrokian Hide -->
+	</item>
+	<item>
+		<production id="15777" count="1"/>	<!-- Recipe - Sealed Moirai Circlet (60%)  -->
+		<ingredient id="14871" count="180"/>	<!-- Mucrokian Hide -->
+	</item>
+	<item>
+		<production id="15780" count="1"/>	<!-- Recipe - Sealed Moirai Tunic (60%)  -->
+		<ingredient id="14872" count="90"/>	<!-- Awakened Mucrokian Hide -->
+	</item>
+	<item>
+		<production id="15780" count="1"/>	<!-- Recipe - Sealed Moirai Tunic (60%)  -->
+		<ingredient id="14871" count="180"/>	<!-- Mucrokian Hide -->
+	</item>
+	<item>
+		<production id="15783" count="1"/>	<!-- Recipe - Sealed Moirai Stockings (60%)  -->
+		<ingredient id="14872" count="90"/>	<!-- Awakened Mucrokian Hide -->
+	</item>
+	<item>
+		<production id="15783" count="1"/>	<!-- Recipe - Sealed Moirai Stockings (60%)  -->
+		<ingredient id="14871" count="180"/>	<!-- Mucrokian Hide -->
+	</item>
+	<item>
+		<production id="15786" count="1"/>	<!-- Recipe - Sealed Moirai Gloves (60%)  -->
+		<ingredient id="14872" count="90"/>	<!-- Awakened Mucrokian Hide -->
+	</item>
+	<item>
+		<production id="15786" count="1"/>	<!-- Recipe - Sealed Moirai Gloves (60%)  -->
+		<ingredient id="14871" count="180"/>	<!-- Mucrokian Hide -->
+	</item>
+	<item>
+		<production id="15789" count="1"/>	<!-- Recipe - Sealed Moirai Shoes (60%)  -->
+		<ingredient id="14872" count="90"/>	<!-- Awakened Mucrokian Hide -->
+	</item>
+	<item>
+		<production id="15789" count="1"/>	<!-- Recipe - Sealed Moirai Shoes (60%)  -->
+		<ingredient id="14871" count="180"/>	<!-- Mucrokian Hide -->
+	</item>
+	<item>
+		<production id="15790" count="1"/>	<!-- Recipe - Sealed Moirai Sigil (60%)  -->
+		<ingredient id="14872" count="90"/>	<!-- Awakened Mucrokian Hide -->
+	</item>
+	<item>
+		<production id="15790" count="1"/>	<!-- Recipe - Sealed Moirai Sigil (60%)  -->
+		<ingredient id="14871" count="180"/>	<!-- Mucrokian Hide -->
+	</item>
+	<item>
+		<production id="15812" count="1"/>	<!-- Recipe - Sealed Moirai Ring (70%)  -->
+		<ingredient id="14872" count="90"/>	<!-- Awakened Mucrokian Hide -->
+	</item>
+	<item>
+		<production id="15812" count="1"/>	<!-- Recipe - Sealed Moirai Ring (70%)  -->
+		<ingredient id="14871" count="180"/>	<!-- Mucrokian Hide -->
+	</item>
+	<item>
+		<production id="15813" count="1"/>	<!-- Recipe - Sealed Moirai Earring (70%)  -->
+		<ingredient id="14872" count="90"/>	<!-- Awakened Mucrokian Hide -->
+	</item>
+	<item>
+		<production id="15813" count="1"/>	<!-- Recipe - Sealed Moirai Earring (70%)  -->
+		<ingredient id="14871" count="180"/>	<!-- Mucrokian Hide -->
+	</item>
+	<item>
+		<production id="15814" count="1"/>	<!-- Recipe - Sealed Moirai Necklace (70%)  -->
+		<ingredient id="14872" count="90"/>	<!-- Awakened Mucrokian Hide -->
+	</item>
+	<item>
+		<production id="15814" count="1"/>	<!-- Recipe - Sealed Moirai Necklace (70%)  -->
+		<ingredient id="14871" count="180"/>	<!-- Mucrokian Hide -->
+	</item>
+</list>

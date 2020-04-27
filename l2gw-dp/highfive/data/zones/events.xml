@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<!-- Last hero event -->
+	<zone id="-1" name="[last_hero]">
+		<attr name="type" val="instance"/>
+		<attr name="type" val="no_escape"/>
+		<attr name="entityId" val="-1"/>
+		<attr name="active" val="false"/>
+		<attr name="blockedActions" val="resurrect"/>
+		<!-- loc_id: 41403 -->
+		<shape type='Poly' zMin='-3500' zMax='-3300'>
+			<point x='147768' y='47487'/>
+			<point x='148258' y='48083'/>
+			<point x='150750' y='48086'/>
+			<point x='151226' y='47483'/>
+			<point x='151225' y='47225'/>
+			<point x='150980' y='46939'/>
+			<point x='150978' y='46503'/>
+			<point x='151227' y='46215'/>
+			<point x='151222' y='45933'/>
+			<point x='150738' y='45343'/>
+			<point x='148268' y='45343'/>
+			<point x='147764' y='45946'/>
+			<point x='147769' y='46220'/>
+			<point x='148018' y='46498'/>
+			<point x='148017' y='46940'/>
+			<point x='147773' y='47229'/>
+		</shape>
+	</zone>
+
+	<!-- TvT event -->
+	<zone id="-2" name="[tvt_event]">
+		<attr name="type" val="instance"/>
+		<attr name="type" val="no_escape"/>
+		<attr name="entityId" val="-2"/>
+		<attr name="active" val="false"/>
+		<attr name="blockedActions" val="resurrect"/>
+		<!-- loc_id: 41403 -->
+		<shape type='Poly' zMin='-3500' zMax='-3300'>
+			<point x='147768' y='47487'/>
+			<point x='148258' y='48083'/>
+			<point x='150750' y='48086'/>
+			<point x='151226' y='47483'/>
+			<point x='151225' y='47225'/>
+			<point x='150980' y='46939'/>
+			<point x='150978' y='46503'/>
+			<point x='151227' y='46215'/>
+			<point x='151222' y='45933'/>
+			<point x='150738' y='45343'/>
+			<point x='148268' y='45343'/>
+			<point x='147764' y='45946'/>
+			<point x='147769' y='46220'/>
+			<point x='148018' y='46498'/>
+			<point x='148017' y='46940'/>
+			<point x='147773' y='47229'/>
+		</shape>
+		<shape type='Poly' zMin='-3468' zMax='-3268'>
+			<point x='147095' y='46240'/>
+			<point x='147774' y='46229'/>
+			<point x='148015' y='46505'/>
+			<point x='148014' y='46932'/>
+			<point x='147775' y='47215'/>
+			<point x='147095' y='47212'/>
+		</shape>
+		<shape type='Poly' zMin='-3468' zMax='-3268'>
+			<point x='151895' y='47211'/>
+			<point x='151225' y='47208'/>
+			<point x='150992' y='46937'/>
+			<point x='150976' y='46512'/>
+			<point x='151220' y='46228'/>
+			<point x='151895' y='46227'/>
+		</shape>
+	</zone>
+
+	<zone id="-3" name="capture_team1">
+		<attr name="entityId" val="1"/>
+		<attr name="active" val="false"/>
+		<attr name="type" val="no_escape"/>
+		<attr name="type" val="battle"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<restartPoints>
+			<point x="146060" y="-69013" z="-3728"/>
+		</restartPoints>
+		<shape type="Poly" zMin="-5300" zMax="-2900">
+			<point x="133512" y="-74584"/>
+			<point x="135261" y="-75067"/>
+			<point x="135198" y="-73519"/>
+			<point x="135919" y="-73100"/>
+			<point x="134999" y="-71477"/>
+			<point x="136104" y="-71085"/>
+			<point x="136720" y="-70381"/>
+			<point x="139096" y="-69032"/>
+			<point x="140429" y="-68840"/>
+			<point x="142152" y="-68643"/>
+			<point x="142933" y="-68708"/>
+			<point x="146088" y="-67320"/>
+			<point x="147416" y="-67864"/>
+			<point x="148099" y="-68401"/>
+			<point x="148509" y="-68904"/>
+			<point x="148661" y="-69204"/>
+			<point x="148299" y="-71145"/>
+			<point x="146700" y="-72564"/>
+			<point x="146365" y="-73400"/>
+			<point x="146309" y="-74692"/>
+			<point x="146420" y="-76225"/>
+			<point x="145842" y="-77554"/>
+			<point x="145510" y="-79632"/>
+			<point x="144906" y="-79949"/>
+			<point x="143957" y="-80389"/>
+			<point x="142610" y="-80655"/>
+			<point x="141471" y="-81126"/>
+			<point x="140638" y="-82050"/>
+			<point x="140647" y="-83336"/>
+			<point x="132762" y="-83367"/>
+			<point x="132845" y="-82888"/>
+			<point x="133139" y="-81554"/>
+			<point x="133651" y="-78909"/>
+			<point x="133207" y="-77474"/>
+			<point x="133240" y="-76024"/>
+		</shape>
+	</zone>
+
+	<zone id="-4" name="capture_team2">
+		<attr name="entityId" val="2"/>
+		<attr name="active" val="false"/>
+		<attr name="type" val="no_escape"/>
+		<attr name="type" val="battle"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<restartPoints>
+			<point x="134333" y="-73742" z="-3472"/>
+		</restartPoints>
+		<shape type="Poly" zMin="-5300" zMax="-2900">
+			<point x="133512" y="-74584"/>
+			<point x="132744" y="-73192"/>
+			<point x="133480" y="-72152"/>
+			<point x="134999" y="-71477"/>
+			<point x="136104" y="-71085"/>
+			<point x="136720" y="-70381"/>
+			<point x="139096" y="-69032"/>
+			<point x="140429" y="-68840"/>
+			<point x="142152" y="-68643"/>
+			<point x="142933" y="-68708"/>
+			<point x="144058" y="-69989"/>
+			<point x="145151" y="-69855"/>
+			<point x="146178" y="-70752"/>
+			<point x="148099" y="-68401"/>
+			<point x="148509" y="-68904"/>
+			<point x="148661" y="-69204"/>
+			<point x="148299" y="-71145"/>
+			<point x="146700" y="-72564"/>
+			<point x="146365" y="-73400"/>
+			<point x="146309" y="-74692"/>
+			<point x="146420" y="-76225"/>
+			<point x="145842" y="-77554"/>
+			<point x="145510" y="-79632"/>
+			<point x="144906" y="-79949"/>
+			<point x="143957" y="-80389"/>
+			<point x="142610" y="-80655"/>
+			<point x="141471" y="-81126"/>
+			<point x="140638" y="-82050"/>
+			<point x="140647" y="-83336"/>
+			<point x="132762" y="-83367"/>
+			<point x="132845" y="-82888"/>
+			<point x="133139" y="-81554"/>
+			<point x="133651" y="-78909"/>
+			<point x="133207" y="-77474"/>
+			<point x="133240" y="-76024"/>
+		</shape>
+	</zone>
+	
+	<zone id="-5" name="egm">
+        <attr name="active" val="false"/>
+        <attr name="type" val="no_escape"/>
+        <attr name="type" val="battle"/>
+        <listener name="PlayerChangedZonesListener"/>
+        <shape type="Poly" zMin="-6600" zMax="-5800">
+                <point x="49688" y="249672"/>
+                <point x="41320" y="249672"/>
+                <point x="41320" y="242728"/>
+                <point x="49688" y="242728"/>
+        </shape>
+	</zone>
+</list>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<item id='5168' name="Food For Strider">
+		<cond msgId="113">
+			<uc category="strider"/>
+		</cond>
+		<for/>
+	</item>
+	<item id='5169' name="Deluxe Food For Strider">
+		<cond msgId="113">
+			<uc category="strider"/>
+		</cond>
+		<for/>
+	</item>
+	<item id='5198' name="Chest Key - Grade 7">
+	<!-- Opens a level 10 treasure chest with a success rate of 60%. When opening a higher level treasure chest, the success rate will decrease. -->
+		<for/>
+	</item>
+
+	<item id='5199' name="Chest Key - Grade 6">
+	<!-- Opens a level 20 treasure chest with a success rate of 60%. When opening a higher level treasure chest, the success rate will decrease. -->
+		<for/>
+	</item>
+
+</list>

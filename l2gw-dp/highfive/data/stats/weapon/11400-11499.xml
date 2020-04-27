@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="11416" name="Dark Crystal Shield">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="11425" name="Sealed Dark Crystal Shield">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="11469" name="Sealed Shield of Nightmare">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="11480" name="Shield of Nightmare">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+</list>

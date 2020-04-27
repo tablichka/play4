@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<zone id="117" name="[gm_prison]">
+		<attr name="type" val="no_escape"/>
+		<attr name="type" val="no_summon"/>
+		<attr name="type" val="jail"/>
+		<attr name="blockedActions" val="private store;private workshop;drop item;"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<restartPoints>
+			<point x="-114645" y="-249244" z="-3015"/>
+		</restartPoints>
+		<!-- loc_id: 40117 -->
+		<shape type="Poly" zMin="-3200" zMax="-2500">
+			<point x="-116390" y="-251581"/>
+			<point x="-112756" y="-251617"/>
+			<point x="-112720" y="-248199"/>
+			<point x="-116354" y="-248217"/>
+		</shape>
+	</zone>
+</list>

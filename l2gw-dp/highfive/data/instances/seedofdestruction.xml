@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<instances>
+	<!-- Seed of Destruction -->
+	<instance id="110" name="Seed of Destruction" max="3" type="110" class="SeedOfDestructionInstance" dispel="false" premiumReuse="30 6 * * 4,7" reuseReset="30 6 * * 4,7">
+		<party min="36" max="45"/>
+		<level min="75" max="85"/>
+		<timeLimit min="130"/>
+		<coolTime min="15"/>
+		<noUserTimeout min="120"/>
+		<startLoc x="-242738" y="219995" z="-9984"/>
+		<spawnlist>
+			<door id="12240001"/>
+			<door id="12240002"/>
+			<door id="12240003"/>
+			<door id="12240004"/>
+			<door id="12240005"/>
+			<door id="12240006"/>
+			<door id="12240007"/>
+			<door id="12240008"/>
+			<door id="12240009"/>
+			<door id="12240010"/>
+			<door id="12240011"/>
+			<door id="12240012"/>
+			<door id="12240013"/>
+			<door id="12240014"/>
+			<door id="12240015"/>
+			<door id="12240016"/>
+			<door id="12240017"/>
+			<door id="12240018"/>
+			<door id="12240019"/>
+			<door id="12240020"/>
+			<door id="12240021"/>
+			<door id="12240022"/>
+			<door id="12240023"/>
+			<door id="12240024"/>
+			<door id="12240025"/>
+			<door id="12240026"/>
+			<door id="12240027"/>
+			<door id="12240028"/>
+			<door id="12240029"/>
+			<door id="12240030"/>
+			<door id="12240031"/>
+
+			<spawn event="sod1" delay="0"/>
+			<spawn event="sod2" delay="0"/>
+
+		</spawnlist>
+	</instance>
+</instances>

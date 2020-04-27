@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="9821" name="Shadow Item: Clan Oath Armor">
+		<cond msgId="1518">
+			<and>
+				<not>
+					<player race="kamael" />
+				</not>
+				<or>
+					<player pledgeType="academy" />
+					<player academyGraduated="true" />
+				</or>			</and>
+		</cond>
+	</item>
+	<item id="9822" name="Shadow Item: Clan Oath Gauntlets - Heavy Armor">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="9823" name="Shadow Item: Clan Oath Sabaton - Heavy Armor">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="9824" name="Shadow Item: Clan Oath Brigandine">
+		<cond msgId="1518">
+			<or>
+				<player pledgeType="academy" />
+				<player academyGraduated="true" />
+			</or>
+		</cond>
+	</item>
+	<item id="9827" name="Shadow Item: Clan Oath Aketon">
+		<cond msgId="1518">
+			<and>
+				<not>
+					<player race="kamael" />
+				</not>
+				<or>
+					<player pledgeType="academy" />
+					<player academyGraduated="true" />
+				</or>			</and>
+		</cond>
+	</item>
+	<item id="9828" name="Shadow Item: Clan Oath Padded Gloves - Robe">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="9829" name="Shadow Item: Clan Oath Sandals - Robe">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="9830" name="Improved Apella Helm">
+		<cond msgId="1518">
+			<player minPledgeRank="baron" />
+		</cond>
+	</item>
+	<item id="9831" name="Improved Apella Plate Armor">
+		<cond msgId="1518">
+			<and>
+				<not>
+					<player race="kamael" />
+				</not>
+				<player minPledgeRank="baron" />
+			</and>
+		</cond>
+	</item>
+	<item id="9832" name="Improved Apella Gauntlet - Heavy Armor">
+		<cond msgId="1518">
+			<and>
+				<not>
+					<player race="kamael" />
+				</not>
+				<player minPledgeRank="baron" />
+			</and>
+		</cond>
+	</item>
+	<item id="9833" name="Improved Apella Solleret - Heavy Armor">
+		<cond msgId="1518">
+			<and>
+				<not>
+					<player race="kamael" />
+				</not>
+				<player minPledgeRank="baron" />
+			</and>
+		</cond>
+	</item>
+	<item id="9834" name="Improved Apella Brigandine">
+		<cond msgId="1518">
+			<player minPledgeRank="baron" />
+		</cond>
+	</item>
+	<item id="9835" name="Improved Apella Leather Gloves - Light Armor">
+		<cond msgId="1518">
+			<player minPledgeRank="baron" />
+		</cond>
+	</item>
+	<item id="9836" name="Improved Apella Boots - Light Armor">
+		<cond msgId="1518">
+			<player minPledgeRank="baron" />
+		</cond>
+	</item>
+	<item id="9837" name="Improved Apella Doublet">
+		<cond msgId="1518">
+			<and>
+				<not>
+					<player race="kamael" />
+				</not>
+				<player minPledgeRank="baron" />
+			</and>
+		</cond>
+	</item>
+	<item id="9838" name="Improved Apella Silk Gloves - Robe">
+		<cond msgId="1518">
+			<and>
+				<not>
+					<player race="kamael" />
+				</not>
+				<player minPledgeRank="baron" />
+			</and>
+		</cond>
+	</item>
+	<item id="9839" name="Improved Apella Sandals - Robe">
+		<cond msgId="1518">
+			<and>
+				<not>
+					<player race="kamael" />
+				</not>
+				<player minPledgeRank="baron" />
+			</and>
+		</cond>
+	</item>
+</list>

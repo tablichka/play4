@@ -1,0 +1,53 @@
+<list>
+<!-- Greated by Bonux -->
+<config showall="true" notax="true" keepenchanted="false" />
+
+<item>
+	<ingredient id="57" count="12000" />	<!-- Adena -->
+	<production id="10533" count="1" />	<!-- Blue Talisman - Attack Power -->
+</item>
+<item>
+	<ingredient id="57" count="12000" />	<!-- Adena -->
+	<production id="10534" count="1" />	<!-- Blue Talisman - Shield Defense -->
+</item>
+<item>
+	<ingredient id="57" count="12000" />	<!-- Adena -->
+	<production id="10535" count="1" />	<!-- Yellow Talisman - Defense Power -->
+</item>
+<item>
+	<ingredient id="57" count="12000" />	<!-- Adena -->
+	<production id="10536" count="1" />	<!-- Yellow Talisman - Magic Power -->
+</item>
+<item>
+	<ingredient id="57" count="12000" />	<!-- Adena -->
+	<production id="10537" count="1" />	<!-- Yellow Talisman - Evasion -->
+</item>
+<item>
+	<ingredient id="57" count="12000" />	<!-- Adena -->
+	<production id="10538" count="1" />	<!-- Yellow Talisman - Healing Power -->
+</item>
+<item>
+	<ingredient id="57" count="12000" />	<!-- Adena -->
+	<production id="10539" count="1" />	<!-- Yellow Talisman - CP Recovery Rate -->
+</item>
+<item>
+	<ingredient id="57" count="12000" />	<!-- Adena -->
+	<production id="10540" count="1" />	<!-- Yellow Talisman - HP Recovery Rate -->
+</item>
+<item>
+	<ingredient id="57" count="12000" />	<!-- Adena -->
+	<production id="10541" count="1" />	<!-- Yellow Talisman - MP Recovery Rate -->
+</item>
+<item>
+	<ingredient id="57" count="12000" />	<!-- Adena -->
+	<production id="10542" count="1" />	<!-- Red Talisman - HP/CP Recovery -->
+</item>
+<item>
+	<ingredient id="57" count="12000" />	<!-- Adena -->
+	<production id="10543" count="1" />	<!-- Yellow Talisman - Moving Speed -->
+</item>
+<item>
+	<ingredient id="57" count="216000" />	<!-- Adena -->
+	<production id="9589" count="1" />	<!-- Iron Bracelet -->
+</item>
+</list>

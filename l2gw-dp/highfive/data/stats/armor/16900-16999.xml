@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="16901" name="Full Plate Armor of Friendship - 90 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="16909" name="Brigandine of Friendship - 90 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="16910" name="Brigandine Gaiters of Friendship - 90 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="16915" name="Friendship Armor of Nightmare - 90 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="16917" name="Friendship Gauntlet of Nightmare - Heavy Armor - 90 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="16918" name="Friendship Boots of Nightmare - Heavy Armor - 90 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+</list>

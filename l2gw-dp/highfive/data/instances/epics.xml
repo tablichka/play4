@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<instances>
+
+	<instance id="114" name="Cavern of the Pirate Captain (nightmare)" max="5" type="114" dispel="false" premiumReuse="30 6 * * 4" reuseReset="30 6 * * 4">
+		<party min="72" max="450"/>
+		<level min="1" max="86"/>
+		<timeLimit min="360"/>
+		<noUserTimeout min="60"/>
+		<coolTime min="5"/>
+		<startLoc x="54469" y="219798" z="-3488"/>
+		<spawnlist>
+			<spawn event="zaken_night" delay="0"/>
+		</spawnlist>
+	</instance>
+
+	<instance id="133" name="Cavern of the Pirate Captain (daydream)" max="20" type="133" dispel="true" premiumReuse="30 6 * * 2,4,6" reuseReset="30 6 * * 2,4,6">
+		<party min="9" max="27"/>
+		<level min="55" max="85"/>
+		<timeLimit min="60"/>
+		<noUserTimeout min="10"/>
+		<coolTime min="10"/>
+		<startPos type="random"/>
+		<startLoc x="52684" y="219989" z="-3496"/>
+		<startLoc x="52669" y="219120" z="-3224"/>
+		<startLoc x="52672" y="219439" z="-3312"/>
+		<spawnlist>
+			<spawn event="zaken_day" delay="0"/>
+		</spawnlist>
+	</instance>
+
+	<instance id="135" name="Cavern of the Pirate Captain (Daydream)" max="20" type="135" dispel="false" premiumReuse="30 6 * * 2,4,6" reuseReset="30 6 * * 2,4,6">
+		<party min="9" max="27"/>
+		<level min="78" max="85"/>
+		<timeLimit min="60"/>
+		<noUserTimeout min="10"/>
+		<coolTime min="10"/>
+		<startPos type="random"/>
+		<startLoc x="52684" y="219989" z="-3496"/>
+		<startLoc x="52669" y="219120" z="-3224"/>
+		<startLoc x="52672" y="219439" z="-3312"/>
+		<spawnlist>
+			<spawn event="zaken_day_83" delay="0"/>
+		</spawnlist>
+	</instance>
+
+	<!-- Frintezza -->
+	<instance id="136" name="Frintessa battle" max="5" type="136" class="FrintezzaBattleInstance" dispel="false" premiumReuse="30 6 * * 4,7" reuseReset="30 6 * * 4,7">
+		<party min="36" max="45"/>
+		<level min="80" max="85"/>
+		<timeLimit min="120"/>
+		<coolTime min="15"/>
+		<noUserTimeout min="120"/>
+		<startLoc x="-88015" y="-141153" z="-9168"/>
+		<spawnlist>
+			<door id="17130045"/>
+			<door id="17130051"/>
+			<door id="17130046"/>
+			<door id="17130043"/>
+			<door id="17130042"/>
+			<door id="17130052"/>
+			<door id="17130053"/>
+			<door id="17130054"/>
+			<door id="17130055"/>
+			<door id="17130056"/>
+			<door id="17130057"/>
+			<door id="17130058"/>
+			<door id="17130068"/>
+			<door id="17130069"/>
+			<door id="17130070"/>
+			<door id="17130066"/>
+			<door id="17130067"/>
+			<door id="17130063"/>
+			<door id="17130064"/>
+			<door id="17130065"/>
+			<door id="17130061"/>
+			<door id="17130062"/>
+		</spawnlist>
+	</instance>
+
+</instances>

@@ -1,0 +1,92 @@
+<html><body><br><br><br>
+<table border=0 width=755><tr><td width=10></td><td width=600 align=left>
+<a action="bypass -h _bbshome">HOME</a>&nbsp;>&nbsp;<a action="bypass -h _pvpbufflist">Мой список баффов</a>&nbsp;>&nbsp;<a action="bypass -h _pvpeditset_1">Редактирование <?set_name?></a>
+</td></tr>
+</table>
+<img src="L2UI.squareblank" width="1" height="10">
+<center>
+
+<table border=0 cellspacing=0 cellpadding=2 bgcolor=888888 width=755>
+<tr>
+<td FIXWIDTH=5></td>
+<td FIXWIDTH=100 align=right>Название:</td>
+<td FIXWIDTH=5></td>
+<td fixwidth=320><?set_name?></td>
+<td fixwidth=324><button value="Сохранить" action="bypass -h _pvpsaveset" back="l2ui_ct1.button.button_df_small_down" width=70 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+</tr>
+<tr>
+<td FIXWIDTH=5></td>
+<td FIXWIDTH=100 align=right>Стоймость:</td>
+<td FIXWIDTH=5></td>
+<td fixwidth=320><?set_cost?> Аден.</td>
+<td fixwidth=324></td>
+</tr>
+<!--TEMPLET3
+<tr>
+<td FIXWIDTH=5></td>
+<td FIXWIDTH=100 align=right>Автобафф:</td>
+<td FIXWIDTH=5></td>
+<td fixwidth=320><button value="<?autobuff_on?>" action="bypass -h _pvpabself" back="l2ui_ct1.button.button_df_small_down" width=100 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td fixwidth=324><button value="<?autobuffpet_on?>" action="bypass -h _pvpabpet" back="l2ui_ct1.button.button_df_small_down" width=130 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+</tr>
+TEMPLET-->
+<?AUTO_BUFF?>
+</table>
+<br>
+<table border=0 cellspacing=0 cellpadding=2 bgcolor=888888 width=755>
+<tr>
+<td FIXWIDTH=5></td>
+<td fixwidth=750>Список баффов:</td>
+</tr>
+</table>
+<br>
+<table border=0 cellspacing=0 cellpadding=2 width=755>
+<!--TEMPLET1
+<table border=0 cellspacing=0 cellpadding=0 width=251>
+<tr>
+<td FIXWIDTH=32 valign=top><img src="<?icon?>" width=32 height=32></td>
+<td FIXWIDTH=169 valign=top>&nbsp;<?buff_name?><br1>
+&nbsp;<?buff_premium?> <font color=AAAAAA>Цена: <?buff_price?> Аден.</font><br></td>
+<td FIXWIDTH=50 align=center><button action="bypass -h _pvpdelbuff_<?buff_id?>" back="L2UI_CT1.Button_DF_Delete_Down" width=15 height=15 fore="L2UI_CT1.Button_DF_Delete"></td>
+</tr>
+</table>
+TEMPLET-->
+<?SET_LIST?>
+</table>
+<br>
+<table border=0 cellspacing=0 cellpadding=2 bgcolor=888888 width=755>
+<tr>
+<td FIXWIDTH=5></td>
+<td fixwidth=750>Добавить бафф:</td>
+</tr>
+</table>
+<table border=0 cellspacing=0 cellpadding=2 width=755>
+<!--TEMPLET2
+<table border=0 cellspacing=0 cellpadding=0 width=251>
+<tr>
+<td FIXWIDTH=32 valign=top><img src="<?icon?>" width=32 height=32></td>
+<td FIXWIDTH=169 valign=top>&nbsp;<?buff_name?><br1>
+&nbsp;<?buff_premium?> <font color=AAAAAA>Цена: <?buff_price?> Аден.</font><br></td>
+<td FIXWIDTH=50 align=center><button value="Доб." action="bypass -h _pvpaddbuff_<?buff_id?>_<?page?>" back="l2ui_ct1.button.button_df_small_down" width=40 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+</tr>
+</table>
+TEMPLET-->
+<?BUFF_LIST?>
+</table>
+<br>
+<table border=0 cellspacing=0 cellpadding=0>
+<tr><td width=755><img src="l2ui.squaregray" width="750" height="1"></td></tr></table>
+<br> 
+<table cellpadding=0 cellspacing=2 border=0><tr>
+<td><table><tr><td></td></tr><tr><td><button action="<?ACTION_GO_LEFT?>" back="L2UI_CT1.Button_DF_Left_Down" fore="L2UI_CT1.Button_DF_Left" width=15 height=15 ></td></tr></table></td>
+ <?GO_LIST?>
+<td><?NPAGE?></td>
+ <?GO_LIST2?>
+<td><table><tr><td></td></tr><tr><td><button action="<?ACTION_GO_RIGHT?>" back="L2UI_CT1.Button_DF_Right_Down" fore="L2UI_CT1.Button_DF_Right" width=15 height=15 ></td></tr></table></td>
+</tr></table> 
+<br>
+Баффы помеченные как <font color=LEVEL>*</font> доступны только <font color=LEVEL>премиум</font> аккаунтам.
+<br>
+</center>
+</body>
+</html>

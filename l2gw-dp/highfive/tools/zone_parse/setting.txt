@@ -1,0 +1,3032 @@
+ //------------------------------------------------
+//                           
+//------------------------------------------------
+
+
+//                              
+initial_equipment_begin
+	human_fighter={[squire's_sword];[dagger];[squire's_shirt];[squire's_pants];[tutorial_guide]}
+	human_magician={[apprentice's_wand];[apprentice's_tunic];[apprentice's_hose];[tutorial_guide]}
+	elf_fighter={[squire's_sword];[dagger];[squire's_shirt];[squire's_pants];[tutorial_guide]}
+	elf_magician={[apprentice's_wand];[apprentice's_tunic];[apprentice's_hose];[tutorial_guide]}
+	darkelf_fighter={[squire's_sword];[dagger];[squire's_shirt];[squire's_pants];[tutorial_guide]}
+	darkelf_magician={[apprentice's_wand];[apprentice's_tunic];[apprentice's_hose];[tutorial_guide]}
+	orc_fighter={[squire's_sword];[training_gloves];[squire's_shirt];[squire's_pants];[tutorial_guide]}
+	orc_shaman={[training_gloves];[apprentice's_tunic];[apprentice's_hose];[tutorial_guide]}
+	dwarf_apprentice={[union_member's_club];[dagger];[squire's_shirt];[squire's_pants];[tutorial_guide]}
+initial_equipment_end
+
+//       /                
+initial_start_point_begin
+	point_begin
+		point={-71338;258271;-3104}
+		point={-71417;258270;-3104}
+		point={-71453;258305;-3104}
+		point={-71467;258378;-3104}
+		//       (17_25)
+		class={human_fighter}
+	point_end
+	
+	point_begin
+		point={-90875;248162;-3570}
+		point={-90954;248118;-3570}
+		point={-90918;248070;-3570}
+		point={-90890;248027;-3570}
+		//          (17_25)
+		class={human_magician}
+	point_end
+
+	point_begin
+		point={46045;41251;-3440}
+		point={46117;41247;-3440}
+		point={46182;41198;-3440}
+		point={46115;41141;-3440}
+		point={46048;41141;-3440}
+		point={45978;41196;-3440}
+		//       (21_19)
+		class={elf_fighter; elf_magician}
+	point_end
+
+	point_begin
+		point={28295;11063;-4224}
+		point={28302;11008;-4224}
+		point={28377;10916;-4224}
+		point={28456;10997;-4224}
+		point={28461;11044;-4224}
+		point={28395;11127;-4224}
+		//      (20_18)
+		class={darkelf_fighter; darkelf_magician}
+	point_end
+
+	point_begin
+		point={108644;-173947;-400}
+		point={108678;-174002;-400}
+		point={108505;-173964;-400}
+		point={108512;-174026;-400}
+		point={108549;-174075;-400}
+		point={108576;-174122;-400}
+		//   (23_12)
+		class={dwarf_apprentice}
+	point_end
+	
+	point_begin
+		point={-56733;-113459;-690}
+		point={-56686;-113470;-690}
+		point={-56728;-113610;-690}
+		point={-56693;-113610;-690}
+		point={-56743;-113757;-690}
+		point={-56682;-113730;-690}
+		//        (18_14)
+		class={orc_fighter; orc_shaman}
+	point_end
+initial_start_point_end
+
+//                   
+restart_point_begin
+
+	//       ,       _0(  )
+	area_begin 
+		range = {{11712;181566;-3596;-3396};{14407;181566;-3596;-3396};{14407;182676;-3596;-3396};{11712;182676;-3596;-3396}}
+		race={human;[monster_race]}
+		race={darkelf;[monster_race]}
+		race={orc;[monster_race]}
+		race={dwarf;[monster_race]}
+		race={elf;[monster_race]}
+	area_end
+
+	//       ,       _1(  Booth)
+	area_begin 
+		range = {{13308;181324;-3615;-3415};{14058;181324;-3615;-3415};{14059;181567;-3615;-3415};{13308;181567;-3615;-3415}}
+		race={human;[monster_race]}
+		race={darkelf;[monster_race]}
+		race={orc;[monster_race]}
+		race={dwarf;[monster_race]}
+		race={elf;[monster_race]}
+	area_end
+
+	//       ,       _2(  Booth)
+	area_begin 
+		range = {{13560;182677;-3610;-3410};{14071;182677;-3610;-3410};{14071;182918;-3610;-3410};{13561;182917;-3610;-3410}}
+		race={human;[monster_race]}
+		race={darkelf;[monster_race]}
+		race={orc;[monster_race]}
+		race={dwarf;[monster_race]}
+		race={elf;[monster_race]}
+	area_end
+
+	//       ,       _PVP
+	area_begin 
+		range = {{11699;182677;-3612;-3412};{13197;182677;-3612;-3412};{13197;184265;-3612;-3412};{11694;184265;-3612;-3412}}
+		race={human;[monster_race_PVP]}
+		race={darkelf;[monster_race_PVP]}
+		race={orc;[monster_race_PVP]}
+		race={dwarf;[monster_race_PVP]}
+		race={elf;[monster_race_PVP]}
+	area_end
+
+	//       ,       
+	area_begin 
+		range = {{-80523;108356;-5709;-4009};{-72583;108389;-5709;-4009};{-72539;115049;-5709;-4009};{-80511;114878;-5709;-4009}}
+		race={human;[oracle_of_dawn]}
+		race={darkelf;[oracle_of_dawn]}
+		race={orc;[oracle_of_dawn]}
+		race={dwarf;[oracle_of_dawn]}
+		race={elf;[oracle_of_dawn]}
+	area_end
+
+	//       ,       
+	area_begin 
+		range = {{-81548;83569;-5835;-4135};{-73649;83619;-5835;-4135};{-73685;90050;-5835;-4135};{-81556;90016;-5835;-4135}}
+		race={human;[oracle_of_dusk]}
+		race={darkelf;[oracle_of_dusk]}
+		race={orc;[oracle_of_dusk]}
+		race={dwarf;[oracle_of_dusk]}
+		race={elf;[oracle_of_dusk]}
+	area_end
+
+	//       , GM      1
+	area_begin 
+		range = {{-116299;-251426;-3049;-2849};{-115745;-251426;-3049;-2849};{-115745;-250840;-3049;-2849};{-116296;-250840;-3049;-2849}}
+		race={human;[gm_room_solo1]}
+		race={darkelf;[gm_room_solo1]}
+		race={orc;[gm_room_solo1]}
+		race={dwarf;[gm_room_solo1]}
+		race={elf;[gm_room_solo1]}
+	area_end
+
+	//       , GM      2
+	area_begin 
+		range = {{-113350;-251408;-3053;-2853};{-112797;-251407;-3053;-2853};{-112798;-250855;-3053;-2853};{-113353;-250857;-3053;-2853}} 
+		race={human;[gm_room_solo2]}
+		race={darkelf;[gm_room_solo2]}
+		race={orc;[gm_room_solo2]}
+		race={dwarf;[gm_room_solo2]}
+		race={elf;[gm_room_solo2]}
+	area_end
+
+	//       , GM   
+	area_begin 
+		range = {{-115727;-251652;-3050;-2850};{-113365;-251655;-3050;-2850};{-113365;-248191;-3050;-2850};{-115727;-248194;-3050;-2850}}
+		race={human;[gm_room]}
+		race={darkelf;[gm_room]}
+		race={orc;[gm_room]}
+		race={dwarf;[gm_room]}
+		race={elf;[gm_room]}
+	area_end
+
+	//       , add_23_17   (     )
+	area_begin 
+		range = {{116830;-12269;-4500;-597};{131272;-19475;-4500;-597};{131238;195;-4500;-597};{104496;195;-4500;-597};{106432;-2933;-4500;-597}}
+		race={human;[aden_town]}
+		race={darkelf;[aden_town]}
+		race={orc;[aden_town]}
+		race={dwarf;[aden_town]}
+		race={elf;[aden_town]}
+	area_end
+
+	//       , add_23_18_2   2
+	area_begin 
+		range = {{98126;18787;-3908;-2408};{102283;18620;-3908;-2408};{105152;24613;-3908;-2408};{104326;30622;-3908;-2408};{98088;30664;-3908;-2408}}
+		race={human;[oren_castle_town]}
+		race={darkelf;[oren_castle_town]}
+		race={orc;[oren_castle_town]}
+		race={dwarf;[oren_castle_town]}
+		race={elf;[oren_castle_town]}
+	area_end
+
+	//       , add_23_18_1   1
+	area_begin 
+		range = {{98122;-125;-4099;-2599};{104157;-125;-4099;-2599};{104780;5964;-4099;-2599};{104829;14388;-4099;-2599};{102556;19146;-4099;-2599};{98122;19207;-4099;-2599}}
+		race={human;[oren_castle_town]}
+		race={darkelf;[oren_castle_town]}
+		race={orc;[oren_castle_town]}
+		race={dwarf;[oren_castle_town]}
+		race={elf;[oren_castle_town]}
+	area_end
+
+	//       , add_22_20_4   4
+	area_begin 
+		range = {{65560;72724;-3966;-2466};{66998;75856;-3966;-2466};{67000;91140;-3966;-2466};{65546;91138;-3966;-2466}}
+		race={human;[giran_castle_town]}
+		race={darkelf;[giran_castle_town]}
+		race={orc;[giran_castle_town]}
+		race={dwarf;[giran_castle_town]}
+		race={elf;[giran_castle_town]}
+	area_end
+
+	//       , add_22_20_3   3
+	area_begin 
+		range = {{65541;89966;-3979;-2479};{72218;92923;-3979;-2479};{81223;98341;-3979;-2479};{65537;98341;-3979;-2479}}
+		race={human;[giran_castle_town]}
+		race={darkelf;[giran_castle_town]}
+		race={orc;[giran_castle_town]}
+		race={dwarf;[giran_castle_town]}
+		race={elf;[giran_castle_town]}
+	area_end
+
+	//       , add_22_20_2   2
+	area_begin 
+		range = {{73291;96517;-3953;-2453};{81049;95737;-3953;-2453};{90505;98448;-3953;-2453};{73307;98389;-3953;-2453}}
+		race={human;[giran_castle_town]}
+		race={darkelf;[giran_castle_town]}
+		race={orc;[giran_castle_town]}
+		race={dwarf;[giran_castle_town]}
+		race={elf;[giran_castle_town]}
+	area_end
+
+	//       , add_22_20_1   1
+	area_begin 
+		range = {{91486;94741;-3976;-2476};{98321;96310;-3976;-2476};{98342;98409;-3976;-2476};{83284;98399;-3976;-2476}}
+		race={human;[giran_castle_town]}
+		race={darkelf;[giran_castle_town]}
+		race={orc;[giran_castle_town]}
+		race={dwarf;[giran_castle_town]}
+		race={elf;[giran_castle_town]}
+	area_end
+
+	//       , add_23_19_3   3
+	area_begin 
+		range = {{127915;59088;-3671;3829};{128711;55378;-3671;3829};{131199;51613;-3671;3829};{131220;64225;-3671;3829};{128354;62776;-3671;3829}}
+		race={human;[aden_town]}
+		race={darkelf;[aden_town]}
+		race={orc;[aden_town]}
+		race={dwarf;[aden_town]}
+		race={elf;[aden_town]}
+	area_end
+
+	//       , add_23_19_2   2
+	area_begin 
+		range = {{127605;32531;-3826;-1326};{131035;32562;-3826;-1326};{131199;54562;-3826;-1326};{129347;49354;-3826;-1326}}
+		race={human;[aden_town]}
+		race={darkelf;[aden_town]}
+		race={orc;[aden_town]}
+		race={dwarf;[aden_town]}
+		race={elf;[aden_town]}
+	area_end
+
+	//       , add_23_19_1   1
+	area_begin 
+		range = {{98303;32680;-4089;-1589};{130873;32701;-4089;-1589};{130135;34492;-4089;-1589};{98304;34726;-4089;-1589}}
+		race={human;[aden_town]}
+		race={darkelf;[aden_town]}
+		race={orc;[aden_town]}
+		race={dwarf;[aden_town]}
+		race={elf;[aden_town]}
+	area_end
+
+	//       , add_23_20_4   2
+	area_begin 
+		range = {{98169;65360;-3758;1242};{104540;74468;-3758;1242};{100546;88083;-3758;1242};{98164;88355;-3758;1242}}
+		race={human;[oren_castle_town]}
+		race={darkelf;[oren_castle_town]}
+		race={orc;[oren_castle_town]}
+		race={dwarf;[oren_castle_town]}
+		race={elf;[oren_castle_town]}
+	area_end
+
+	//       , add_23_20_3   1
+	area_begin 
+		range = {{101128;88045;-3744;1256};{103560;91109;-3744;1256};{104597;95332;-3744;1256};{98191;96184;-3744;1256};{98183;86478;-3744;1256}}
+		race={human;[oren_castle_town]}
+		race={darkelf;[oren_castle_town]}
+		race={orc;[oren_castle_town]}
+		race={dwarf;[oren_castle_town]}
+		race={elf;[oren_castle_town]}
+	area_end
+
+	//       , add_23_20_2   2
+	area_begin 
+		range = {{115811;95756;-4053;1947};{119344;97057;-4053;1947};{119684;98434;-4053;1947};{98172;98417;-4053;1947};{98178;96262;-4053;1947};{108757;95049;-4053;1947}}
+		race={human;[giran_castle_town]}
+		race={darkelf;[giran_castle_town]}
+		race={orc;[giran_castle_town]}
+		race={dwarf;[giran_castle_town]}
+		race={elf;[giran_castle_town]}
+	area_end
+
+	//       , add_23_20_1   1
+	area_begin 
+		range = {{119393;97040;-2972;28};{131160;94553;-2972;28};{131170;98399;-2972;28};{117188;98403;-2972;28}}
+		race={human;[giran_castle_town]}
+		race={darkelf;[giran_castle_town]}
+		race={orc;[giran_castle_town]}
+		race={dwarf;[giran_castle_town]}
+		race={elf;[giran_castle_town]}
+	area_end
+
+	//       , add_23_22_2     2
+	area_begin 
+		range = {{123367;145103;-4572;-2072};{131151;141459;-4572;-2072};{131237;164129;-4572;-2072};{119229;164122;-4572;-2072};{119264;151714;-4572;-2072}}
+		race={human;[heiness_town]}
+		race={darkelf;[heiness_town]}
+		race={orc;[heiness_town]}
+		race={dwarf;[heiness_town]}
+		race={elf;[heiness_town]}
+	area_end
+
+	//       , add_23_22_1     1
+	area_begin 
+		range = {{108429;151108;-4578;-2078};{119577;151332;-4578;-2078};{119582;164120;-4578;-2078};{98099;164101;-4578;-2078};{98071;157216;-4578;-2078};{100683;154025;-4578;-2078}}
+		race={human;[heiness_town]}
+		race={darkelf;[heiness_town]}
+		race={orc;[heiness_town]}
+		race={dwarf;[heiness_town]}
+		race={elf;[heiness_town]}
+	area_end
+
+	//       , add_22_22     
+	area_begin 
+		range = {{93549;155049;-4331;-1831};{98410;156923;-4331;-1831};{98436;163903;-4331;-1831};{82360;163905;-4331;-1831};{82360;160215;-4331;-1831}}
+		race={human;[heiness_town]}
+		race={darkelf;[heiness_town]}
+		race={orc;[heiness_town]}
+		race={dwarf;[heiness_town]}
+		race={elf;[heiness_town]}
+	area_end
+
+	//       , add_21_24    
+	area_begin 
+		range = {{56950;199547;-5068;2932};{60975;202588;-5068;2932};{62108;216922;-5068;2932};{60328;223350;-5068;2932};{54144;226379;-5068;2932};{54144;226379;-5068;2932};{38239;225325;-5068;2932};{35730;217296;-5068;2932};{37613;199255;-5068;2932};{42442;196987;-5068;2932}}
+		race={human;[giran_castle_town]}
+		race={darkelf;[giran_castle_town]}
+		race={orc;[giran_castle_town]}
+		race={dwarf;[giran_castle_town]}
+		race={elf;[giran_castle_town]}
+	area_end
+
+	//       , add_21_23_3   3
+	area_begin 
+		range = {{43888;163713;-3779;-1279};{59933;163750;-3779;-1279};{46300;169538;-3779;-1279};{43883;167601;-3779;-1279}}
+		race={human;[dion_castle_town]}
+		race={darkelf;[dion_castle_town]}
+		race={orc;[dion_castle_town]}
+		race={dwarf;[dion_castle_town]}
+		race={elf;[dion_castle_town]}
+	area_end
+
+	//       , add_21_23_2   2
+	area_begin 
+		range = {{32568;171064;-3807;-1807};{32537;163466;-3807;-1807};{37814;167482;-3807;-1807}}
+		race={human;[dion_castle_town]}
+		race={darkelf;[dion_castle_town]}
+		race={orc;[dion_castle_town]}
+		race={dwarf;[dion_castle_town]}
+		race={elf;[dion_castle_town]}
+	area_end
+
+	//       , add_21_23_1   1
+	area_begin 
+		range = {{32803;163712;-3774;-1274};{43975;163696;-3774;-1274};{43957;167583;-3774;-1274};{36639;167546;-3774;-1274}}
+		race={human;[dion_castle_town]}
+		race={darkelf;[dion_castle_town]}
+		race={orc;[dion_castle_town]}
+		race={dwarf;[dion_castle_town]}
+		race={elf;[dion_castle_town]}
+	area_end
+
+	//       , add_20_22_2     2
+	area_begin 
+		range = {{-65;158365;-4656;-2656};{2775;158666;-4656;-2656};{5097;163843;-4656;-2656};{-76;163842;-4656;-2656}}
+		race={human;[gludio_castle_town]}
+		race={darkelf;[gludio_castle_town]}
+		race={orc;[gludio_castle_town]}
+		race={dwarf;[gludio_castle_town]}
+		race={elf;[gludio_castle_town]}
+	area_end
+
+	//       , add_20_22_1     1
+	area_begin 
+		range = {{-232;159206;-4340;-1740};{-214;129294;-4340;-1740};{2312;130658;-4340;-1740};{4612;138037;-4340;-1740};{3771;149080;-4340;-1740};{3771;149080;-4340;-1740};{2670;159177;-4340;-1740}}
+		race={human;[gludio_castle_town]}
+		race={darkelf;[gludio_castle_town]}
+		race={orc;[gludio_castle_town]}
+		race={dwarf;[gludio_castle_town]}
+		race={elf;[gludio_castle_town]}
+	area_end
+
+	//       , add_19_21   
+	area_begin 
+		range = {{-3165;119934;-4255;-2755};{-14;116025;-4255;-2755};{-32;129912;-4255;-2755};{-5069;126852;-4255;-2755}}
+		race={human;[dion_castle_town]}
+		race={darkelf;[dion_castle_town]}
+		race={orc;[dion_castle_town]}
+		race={dwarf;[dion_castle_town]}
+		race={elf;[dion_castle_town]}
+	area_end
+
+
+	//       , add_20_20   
+	area_begin 
+		range = {{2167;95956;-4426;-1176};{32848;96009;-4426;-1176};{32854;98489;-4426;-1176};{2161;98395;-4426;-1176}}
+		race={human;[dion_castle_town]}
+		race={darkelf;[dion_castle_town]}
+		race={orc;[dion_castle_town]}
+		race={dwarf;[dion_castle_town]}
+		race={elf;[dion_castle_town]}
+	area_end
+
+	//       , add_19_24     
+	area_begin 
+		range = {{-17049;204942;-4677;-3077};{-5035;196530;-4677;-3077};{-31401;196507;-4677;-3077};{-26564;204707;-4677;-3077}}
+		race={human;[gludio_castle_town]}
+		race={darkelf;[gludio_castle_town]}
+		race={orc;[gludio_castle_town]}
+		race={dwarf;[gludio_castle_town]}
+		race={elf;[gludio_castle_town]}
+	area_end
+
+	//       , add_18_23_2_2     2_2
+	area_begin 
+		range = {{-41226;187772;-4399;-2899};{-32594;182909;-4399;-2899};{-32931;194798;-4399;-2899};{-38750;192188;-4399;-2899}}
+		race={human;[gludio_castle_town]}
+		race={darkelf;[gludio_castle_town]}
+		race={orc;[gludio_castle_town]}
+		race={dwarf;[gludio_castle_town]}
+		race={elf;[gludio_castle_town]}
+	area_end
+
+	//       , add_18_23_2_1     2_1
+	area_begin 
+		range = {{-40885;176647;-4458;-2958};{-32588;179213;-4458;-2958};{-32722;183489;-4458;-2958};{-43651;189094;-4458;-2958};{-46942;180696;-4458;-2958}}
+		race={human;[gludio_castle_town]}
+		race={darkelf;[gludio_castle_town]}
+		race={orc;[gludio_castle_town]}
+		race={dwarf;[gludio_castle_town]}
+		race={elf;[gludio_castle_town]}
+	area_end
+
+	//       , add_18_23_1_2     1_2
+	area_begin 
+		range = {{-38529;173004;-4570;-3070};{-32775;176283;-4570;-3070};{-32819;179383;-4570;-3070};{-40960;176773;-4570;-3070}}
+		race={human;[gludio_castle_town]}
+		race={darkelf;[gludio_castle_town]}
+		race={orc;[gludio_castle_town]}
+		race={dwarf;[gludio_castle_town]}
+		race={elf;[gludio_castle_town]}
+	area_end
+
+	//       , add_18_23_1_1     1_1
+	area_begin 
+		range = {{-38501;173045;-4566;-3066};{-37525;168739;-4566;-3066};{-32679;166859;-4566;-3066};{-32794;176644;-4566;-3066}}
+		race={human;[gludio_castle_town]}
+		race={darkelf;[gludio_castle_town]}
+		race={orc;[gludio_castle_town]}
+		race={dwarf;[gludio_castle_town]}
+		race={elf;[gludio_castle_town]}
+	area_end
+
+	//       , add_18_22      
+	area_begin 
+		range = {{-42492;158681;-5552;-552};{-37596;130952;-5552;-552};{-32467;130795;-5552;-552};{-32467;164210;-5552;-552}}
+		race={human;[gludio_castle_town]}
+		race={darkelf;[gludio_castle_town]}
+		race={orc;[gludio_castle_town]}
+		race={dwarf;[gludio_castle_town]}
+		race={elf;[gludio_castle_town]}
+	area_end
+
+	//       , add_18_21_3    3
+	area_begin 
+		range = {{-41822;125676;-3376;-576};{-37841;127845;-3376;-576};{-38261;131102;-3376;-576};{-47575;131097;-3376;-576};{-47581;129088;-3376;-576};{-44709;126972;-3376;-576}}
+		race={human;[gludin_town]}
+		race={darkelf;[gludin_town]}
+		race={orc;[gludin_town]}
+		race={dwarf;[gludin_town]}
+		race={elf;[gludin_town]}
+	area_end
+
+	//       , add_18_21_2    2
+	area_begin 
+		range = {{-49822;129200;-3253;-1753};{-47530;129044;-3253;-1753};{-47537;131070;-3253;-1753};{-51845;131056;-3253;-1753};{-51562;130324;-3253;-1753};{-50890;129719;-3253;-1753}}
+		race={human;[gludin_town]}
+		race={darkelf;[gludin_town]}
+		race={orc;[gludin_town]}
+		race={dwarf;[gludin_town]}
+		race={elf;[gludin_town]}
+	area_end
+
+	//       , add_18_21_1    1
+	area_begin 
+		range = {{-65686;115819;-4184;-1184};{-62217;116733;-4184;-1184};{-57806;131186;-4184;-1184};{-65721;131145;-4184;-1184}}
+		race={human;[gludin_town]}
+		race={darkelf;[gludin_town]}
+		race={orc;[gludin_town]}
+		race={dwarf;[gludin_town]}
+		race={elf;[gludin_town]}
+	area_end
+
+	//       , add_        4-    
+	area_begin 
+		range = {{-33804;86223;-3777;-1277};{-26832;88453;-3777;-1277};{-32248;88884;-3777;-1277}}
+		race={human;[darkelf_town]}
+		race={darkelf;[darkelf_town]}
+		race={orc;[darkelf_town]}
+		race={dwarf;[darkelf_town]}
+		race={elf;[elf_town]}
+	area_end
+
+	//       , add_18_20     2
+	area_begin 
+		range = {{-66100;96130;-3772;-1272};{-65743;93025;-3772;-1272};{-61912;93677;-3772;-1272}}
+		race={human;[gludio_castle_town]}
+		race={darkelf;[gludio_castle_town]}
+		race={orc;[gludio_castle_town]}
+		race={dwarf;[gludio_castle_town]}
+		race={elf;[gludio_castle_town]}
+	area_end
+
+	//       , 20_19_               
+	area_begin 
+		range = {{-200;32455;-3680;1320};{7581;32533;-3680;1320};{5808;44237;-3680;1320};{-326;53864;-3680;1320}} 
+		race={human;[darkelf_town]}
+		race={darkelf;[darkelf_town]}
+		race={orc;[darkelf_town]}
+		race={dwarf;[darkelf_town]}
+		race={elf;[elf_town]}
+	area_end
+
+	//       , 21_18_     
+	area_begin 
+		range = {{34867;29737;-3698;302};{49579;29983;-3698;302};{51919;32784;-3698;302};{32566;32799;-3698;302};{32568;31367;-3698;302}} 
+		race={elf;[elf_town]}
+		race={human;[elf_town]}
+		race={orc;[elf_town]}
+		race={dwarf;[elf_town]}
+		race={darkelf;[darkelf_town]}
+	area_end
+
+	//       , 21_18_       1
+	area_begin 
+		range = {{35073;22896;-4871;129};{42560;12837;-4871;129};{45060;6876;-4871;129};{46205;165;-4871;129};{32511;42;-4871;129};{31632;23982;-4871;129}} 
+		race={human;[darkelf_town]}
+		race={darkelf;[darkelf_town]}
+		race={orc;[darkelf_town]}
+		race={dwarf;[darkelf_town]}
+		race={elf;[elf_town]}
+	area_end
+
+	//       , 21_18_       2
+	area_begin 
+		range = {{45334;-134;-4866;134};{65470;-112;-4866;134};{62362;5017;-4866;134};{53921;10445;-4866;134};{42419;13662;-4866;134}} 
+		race={human;[darkelf_town]}
+		race={darkelf;[darkelf_town]}
+		race={orc;[darkelf_town]}
+		race={dwarf;[darkelf_town]}
+		race={elf;[elf_town]}
+	area_end
+
+	//       , 21_20,   
+	area_begin 
+		range = {{32716;96377;-5137;-137};{63495;96374;-5137;-137};{63469;98620;-5137;-137};{32690;98678;-5137;-137}}
+		race={elf;[dion_castle_town]}
+		race={darkelf;[dion_castle_town]}
+		race={human;[dion_castle_town]}
+		race={orc;[dion_castle_town]}
+		race={dwarf;[dion_castle_town]}
+	area_end
+
+	//       , 21_19_  1
+	area_begin 
+		range = {{49993;31658;-4376;124};{66788;31695;-4376;124};{66820;36162;-4376;124};{59411;36539;-4376;124}} 
+		race={elf;[oren_castle_town]}
+		race={darkelf;[oren_castle_town]}
+		race={human;[oren_castle_town]}
+		race={orc;[oren_castle_town]}
+		race={dwarf;[oren_castle_town]}
+	area_end
+
+	//       , 21_19_  2
+	area_begin 
+		range = {{62307;35180;-4384;116};{66552;35203;-4384;116};{66663;52754;-4384;116};{63106;52710;-4384;116};{59696;47037;-4384;116}} 
+		race={elf;[oren_castle_town]}
+		race={darkelf;[oren_castle_town]}
+		race={human;[oren_castle_town]}
+		race={orc;[oren_castle_town]}
+		race={dwarf;[oren_castle_town]}
+	area_end
+
+	//       , 21_19_  3
+	area_begin 
+		range = {{61496;52325;-4325;175};{66528;52406;-4325;175};{66707;65500;-4325;175};{60825;65468;-4325;175}} 
+		race={elf;[oren_castle_town]}
+		race={darkelf;[oren_castle_town]}
+		race={human;[oren_castle_town]}
+		race={orc;[oren_castle_town]}
+		race={dwarf;[oren_castle_town]}
+	area_end
+
+	//       , 21_20_  
+	area_begin 
+		range = {{63480;64066;-4000;-2000};{66572;64059;-4000;-2000};{66572;74028;-4000;-2000};{63480;74028;-4000;-2000}} 
+		race={elf;[oren_castle_town]}
+		race={darkelf;[oren_castle_town]}
+		race={human;[oren_castle_town]}
+		race={orc;[oren_castle_town]}
+		race={dwarf;[oren_castle_town]}
+	area_end
+
+	//       , 21_20_  
+	area_begin 
+		range = {{63480;74029;-4000;-2000};{66572;74029;-4000;-2000};{66572;98294;-4000;-2000};{63480;98294;-4000;-2000}} 
+		race={elf;[giran_castle_town]}
+		race={human;[giran_castle_town]}
+		race={orc;[giran_castle_town]}
+		race={dwarf;[giran_castle_town]}
+		race={darkelf;[giran_castle_town]}
+	area_end
+
+	//       , 21_21,   1
+	area_begin 
+		range = {{63477;98288;-3931;-1931};{66559;98305;-3931;-1931};{66558;101836;-3931;-1931};{63478;101088;-3931;-1931}}
+		race={elf;[giran_castle_town]}
+		race={human;[giran_castle_town]}
+		race={orc;[giran_castle_town]}
+		race={dwarf;[giran_castle_town]}
+		race={darkelf;[giran_castle_town]}
+	area_end
+
+	//       , 21_21,   2
+	area_begin 
+		range = {{62610;100826;-4188;-1588};{66262;101390;-4188;-1588};{66577;131029;-4188;-1588};{63717;131034;-4188;-1588};{59876;103714;-4188;-1588}}
+		race={elf;[giran_castle_town]}
+		race={human;[giran_castle_town]}
+		race={orc;[giran_castle_town]}
+		race={dwarf;[giran_castle_town]}
+		race={darkelf;[giran_castle_town]}
+	area_end
+
+	//       , 21_23,           
+	area_begin 
+		range = {{42947;190296;-4735;-3235};{59746;181026;-4735;-3235};{65984;186045;-4735;-3235};{65968;196973;-4735;-3235};{32484;197014;-4735;-3235}}
+		race={elf;[giran_habor]}
+		race={darkelf;[giran_habor]}
+		race={human;[giran_habor]}
+		race={orc;[giran_habor]}
+		race={dwarf;[giran_habor]}
+	area_end
+
+	//       ,         (24_19)
+	area_begin 
+		range = {{151252;45918;-3498;-3298};{151253;47550;-3498;-3298};{150767;48129;-3498;-3298};{148252;48132;-3498;-3298};{147751;47545;-3498;-3298};{147744;45916;-3498;-3298};{148238;45301;-3498;-3298};{150781;45307;-3498;-3298}}
+		race={elf;[colosseum]}
+		race={darkelf;[colosseum]}
+		race={human;[colosseum]}
+		race={orc;[colosseum]}
+		race={dwarf;[colosseum]}
+	area_end
+
+	//       ,         1(24_19)
+	area_begin 
+		range = {{147779;46196;-3468;-3268};{148045;46481;-3468;-3268};{148047;46958;-3468;-3268};{147772;47256;-3468;-3268};{147078;47258;-3468;-3268};{147095;46203;-3468;-3268}}
+		race={elf;[colosseum]}
+		race={darkelf;[colosseum]}
+		race={human;[colosseum]}
+		race={orc;[colosseum]}
+		race={dwarf;[colosseum]}
+	area_end
+
+	//       ,         2(24_19)
+	area_begin 
+		range = {{151221;46184;-3472;-3272};{151928;46183;-3472;-3272};{151925;47248;-3472;-3272};{151222;47262;-3472;-3272};{150952;46956;-3472;-3272};{150954;46486;-3472;-3272}}
+		race={elf;[colosseum]}
+		race={darkelf;[colosseum]}
+		race={human;[colosseum]}
+		race={orc;[colosseum]}
+		race={dwarf;[colosseum]}
+	area_end
+
+	//       ,        1(17_20)
+	area_begin 
+		range = {{-71038;69341;-4088;-2088};{-64952;69392;-4088;-2088};{-64988;88249;-4088;-2088};{-77802;87398;-4088;-2088};{-80067;79054;-4088;-2088}} 
+		race={human;[darkelf_town]}
+		race={darkelf;[darkelf_town]}
+		race={orc;[darkelf_town]}
+		race={dwarf;[darkelf_town]}
+		race={elf;[elf_town]}
+	area_end
+
+	//       ,        2(17_20)
+	area_begin 
+		range = {{-72378;87505;-3992;-1992};{-65145;87772;-3992;-1992};{-65156;93195;-3992;-1992};{-67987;92410;-3992;-1992}} 
+		race={human;[darkelf_town]}
+		race={darkelf;[darkelf_town]}
+		race={orc;[darkelf_town]}
+		race={dwarf;[darkelf_town]}
+		race={elf;[elf_town]}
+	area_end
+
+	//       ,        3(17_20)
+	area_begin 
+		range = {{-76789;65422;-3968;-1968};{-64977;65400;-3968;-1968};{-64998;73322;-3968;-1968};{-76668;75810;-3968;-1968}} 
+		race={human;[darkelf_town]}
+		race={darkelf;[darkelf_town]}
+		race={orc;[darkelf_town]}
+		race={dwarf;[darkelf_town]}
+		race={elf;[elf_town]}
+	area_end
+
+	//       ,     1(18_20)
+	area_begin 
+		range = {{-39037;88126;-3767;-1767};{-32254;88906;-3767;-1767};{-32415;98751;-3767;-1767};{-66106;98654;-3767;-1767};{-66101;96123;-3767;-1767};{-62085;93624;-3767;-1767}} 
+		race={human;[gludio_castle_town]}
+		race={darkelf;[gludio_castle_town]}
+		race={orc;[gludio_castle_town]}
+		race={dwarf;[gludio_castle_town]}
+		race={elf;[gludio_castle_town]}
+	area_end
+
+	//       ,        1-    (19_20)
+	area_begin 
+		range = {{-33765;83315;-4100;-3100};{-21239;78502;-4100;-3100};{-21864;90121;-4100;-3100};{-33788;86463;-4100;-3100}} 
+		race={human;[darkelf_town]}
+		race={darkelf;[darkelf_town]}
+		race={orc;[darkelf_town]}
+		race={dwarf;[darkelf_town]}
+		race={elf;[elf_town]}
+	area_end
+
+	//       ,        2-    (19_20)
+	area_begin 
+		range = {{-33767;72902;-4235;-3235};{-17495;73285;-4235;-3235};{-22631;81481;-4235;-3235};{-33788;83737;-4235;-3235}} 
+		race={human;[darkelf_town]}
+		race={darkelf;[darkelf_town]}
+		race={orc;[darkelf_town]}
+		race={dwarf;[darkelf_town]}
+		race={elf;[elf_town]}
+	area_end
+
+	//       ,        3-    (19_20)
+	area_begin 
+		range = {{-33367;73183;-3932;-2932};{-12563;70545;-3932;-2932};{-19250;74975;-3932;-2932}} 
+		race={human;[darkelf_town]}
+		race={darkelf;[darkelf_town]}
+		race={orc;[darkelf_town]}
+		race={dwarf;[darkelf_town]}
+		race={elf;[elf_town]}
+	area_end
+
+	//       ,        4-    (19_20)
+	area_begin 
+		range = {{-33647;65118;-4017;-3017};{-10654;65187;-4017;-3017};{-10651;70698;-4017;-3017};{-33667;73395;-4017;-3017}}
+		race={human;[darkelf_town]}
+		race={darkelf;[darkelf_town]}
+		race={orc;[darkelf_town]}
+		race={dwarf;[darkelf_town]}
+		race={elf;[elf_town]}
+	area_end
+
+	//       ,      1-    (19_20)
+	area_begin 
+		range = {{-10631;65484;-4281;-3281};{147;65487;-4281;-3281};{153;75746;-4281;-3281};{-10630;70580;-4281;-3281}} 
+		race={elf;[elf_town]}
+		race={human;[elf_town]}
+		race={orc;[elf_town]}
+		race={dwarf;[elf_town]}
+		race={darkelf;[darkelf_town]}
+	area_end
+
+	//       ,      2-    (19_20)
+	area_begin 
+		range = {{-6043;72650;-4215;-3215};{172;73048;-4215;-3215};{153;79538;-4215;-3215}} 
+		race={elf;[elf_town]}
+		race={human;[elf_town]}
+		race={orc;[elf_town]}
+		race={dwarf;[elf_town]}
+		race={darkelf;[darkelf_town]}
+	area_end
+
+	//       ,     (20_20)
+	area_begin 
+		range = {{1367;79808;-4245;-3245};{2153;88057;-4245;-3245};{2111;98621;-4245;-3245};{-453;98621;-4245;-3245};{-458;78212;-4245;-3245}} 
+		race={elf;[DMZ]}
+		race={human;[DMZ]}
+		race={orc;[DMZ]}
+		race={dwarf;[DMZ]}
+		race={darkelf;[DMZ]}
+	area_end
+
+	//       ,   1-    (22_23)
+	area_begin 
+		range = {{65089;177671;-4483;-2483};{72528;175700;-4483;-2483};{69292;181077;-4483;-2483};{66188;185068;-4483;-2483};{65085;185040;-4483;-2483}} 
+		race={elf;[giran_castle_town]}
+		race={human;[giran_castle_town]}
+		race={orc;[giran_castle_town]}
+		race={dwarf;[giran_castle_town]}
+		race={darkelf;[giran_castle_town]}
+	area_end
+
+	//       ,   2-    (22_23)
+	area_begin 
+		range = {{65066;163463;-4390;-2000};{80879;163501;-4390;-2000};{76230;172053;-4390;-2000};{70568;177842;-4390;-2000};{65088;177785;-4390;-2000}}
+		race={elf;[giran_castle_town]}
+		race={human;[giran_castle_town]}
+		race={orc;[giran_castle_town]}
+		race={dwarf;[giran_castle_town]}
+		race={darkelf;[giran_castle_town]}
+	area_end
+
+	//       ,         (21_25)
+	area_begin 
+		range = {{41090;242210;-6874;-4874};{49934;242210;-6874;-4874};{49985;250489;-6874;-4874};{41141;250489;-6874;-4874}}
+		race={elf;[talking_island_town]}
+		race={human;[talking_island_town]}
+		race={orc;[talking_island_town]}
+		race={dwarf;[talking_island_town]}
+		race={darkelf;[talking_island_town]}
+	area_end
+
+	//       ,         (17_25)
+	area_begin 
+		range = {{-71944;258332;-3148;-2948};{-71316;257772;-3148;-2948};{-70728;258468;-3148;-2948};{-71364;259000;-3148;-2948}}
+		race={human;[Cedric's_Training_Hall]}
+		race={darkelf;[Cedric's_Training_Hall]}
+		race={orc;[Cedric's_Training_Hall]}
+		race={dwarf;[Cedric's_Training_Hall]}
+		race={elf;[Cedric's_Training_Hall]}
+	area_end
+
+	//       ,          (17_25)
+	area_begin 
+		range = {{-90831;247813;-3606;-3406};{-90011;248306;-3606;-3406};{-90341;248870;-3606;-3406};{-91170;248248;-3606;-3406}}
+		race={human;[Einhovant's_School_of_Magic]}
+		race={darkelf;[Einhovant's_School_of_Magic]}
+		race={orc;[Einhovant's_School_of_Magic]}
+		race={dwarf;[Einhovant's_School_of_Magic]}
+		race={elf;[Einhovant's_School_of_Magic]}
+	area_end
+
+	//       ,         (21_19)
+	area_begin 
+		range = {{44096;40595;-3555;-3355};{47903;41035;-3555;-3355};{46459;42066;-3555;-3355};{45948;42089;-3555;-3355}}
+		race={human;[Mothertree_Glade]}
+		race={darkelf;[Temple_of_Shilen]}
+		race={orc;[Mothertree_Glade]}
+		race={dwarf;[Mothertree_Glade]}
+		race={elf;[Mothertree_Glade]}
+	area_end
+
+
+	//       ,           (20_18)
+	area_begin 
+		range = {{27704;10253;-4276;-4076};{29165;10298;-4276;-4076};{29165;11811;-4276;-4076};{27748;11837;-4276;-4076}}
+		race={human;[Temple_of_Shilen]}
+		race={darkelf;[Temple_of_Shilen]}
+		race={orc;[Temple_of_Shilen]}
+		race={dwarf;[Temple_of_Shilen]}
+		race={elf;[Mothertree_Glade]}
+	area_end
+
+
+	//       ,         (18_14)
+	area_begin 
+		range = {{-56890;-114033;-718;-518};{-55620;-114048;-718;-518};{-55632;-113165;-718;-518};{-56882;-113175;-718;-518}}
+		race={human;[Temple_of_Paagrio]}
+		race={darkelf;[Temple_of_Paagrio]}
+		race={orc;[Temple_of_Paagrio]}
+		race={dwarf;[Temple_of_Paagrio]}
+		race={elf;[Temple_of_Paagrio]}
+	area_end
+
+
+	//       ,          (23_12)
+	area_begin 
+		range = {{108734;-175480;-623;-423};{109960;-174283;-623;-423};{108767;-172526;-623;-423};{107348;-173244;-623;-423}}
+		race={human;[Quarry]}
+		race={darkelf;[Quarry]}
+		race={orc;[Quarry]}
+		race={dwarf;[Quarry]}
+		race={elf;[Quarry]}
+	area_end
+
+
+	//       ,       1(23_17)
+	area_begin 
+		range = {{97820;-33007;-4624;2376};{130600;-33101;-4624;2376};{131029;-19205;-4624;2376};{114543;-17220;-4624;2376};{113312;-19027;-4624;2376};{97723;-24594;-4624;2376}}
+		race={human;[godard_town]}
+		race={darkelf;[godard_town]}
+		race={orc;[godard_town]}
+		race={dwarf;[godard_town]}
+		race={elf;[godard_town]}
+	area_end
+
+
+	//       ,       2(24_17)
+	area_begin 
+		range = {{152215;-33320;-3272;2272};{164125;-33133;-3272;2272};{163975;-26899;-3272;2272};{154963;-24228;-3272;2272}}
+		race={human;[godard_town]}
+		race={darkelf;[godard_town]}
+		race={orc;[godard_town]}
+		race={dwarf;[godard_town]}
+		race={elf;[godard_town]}
+	area_end
+
+
+	//       ,       3(23_15)
+	area_begin 
+		range = {{126132;-77416;-3600;1900};{131337;-73320;-3600;1900};{131831;-64941;-3600;1900};{116047;-64957;-3600;1900};{116275;-72919;-3600;1900};{119114;-77974;-3600;1900}}
+		race={human;[godard_town]}
+		race={darkelf;[godard_town]}
+		race={orc;[godard_town]}
+		race={dwarf;[godard_town]}
+		race={elf;[godard_town]}
+	area_end
+
+	//       ,       4(23_15)
+	area_begin 
+		range = {{103811;-71203;-3500;2508};{116328;-72794;-3500;2508};{116273;-64852;-3500;2508};{97888;-65039;-3500;2508};{97992;-72803;-3500;2508}}
+		race={human;[godard_town]}
+                race={darkelf;[godard_town]}
+		race={orc;[godard_town]}
+		race={dwarf;[godard_town]}
+		race={elf;[godard_town]}
+	area_end
+
+	//       ,       1(25_15)
+	area_begin 
+		range = {{181198;-86516;-7263;-7063};{192394;-86521;-7263;-7063};{192391;-84626;-7263;-7063};{181193;-84622;-7263;-7063}}		
+		race={human;[the_royal_family's_catacomb]}
+                race={darkelf;[the_royal_family's_catacomb]}
+		race={orc;[the_royal_family's_catacomb]}
+		race={dwarf;[the_royal_family's_catacomb]}
+		race={elf;[the_royal_family's_catacomb]}
+	area_end
+
+	//       ,       2(25_15)
+	area_begin 
+		range = {{179511;-89903;-7263;-7063};{190707;-89908;-7263;-7063};{190704;-88013;-7263;-7063};{179506;-88009;-7263;-7063}}
+		race={human;[the_royal_family's_catacomb]}
+                race={darkelf;[the_royal_family's_catacomb]}
+		race={orc;[the_royal_family's_catacomb]}
+		race={dwarf;[the_royal_family's_catacomb]}
+		race={elf;[the_royal_family's_catacomb]}
+	area_end
+
+	//       ,       3(25_15)
+	area_begin 
+		range = {{174498;-82751;-7263;-7063};{176622;-82751;-7263;-7063};{176616;-71304;-7263;-7063};{174489;-71303;-7263;-7063}}
+		race={human;[the_royal_family's_catacomb]}
+                race={darkelf;[the_royal_family's_catacomb]}
+		race={orc;[the_royal_family's_catacomb]}
+		race={dwarf;[the_royal_family's_catacomb]}
+		race={elf;[the_royal_family's_catacomb]}
+	area_end
+
+	//       ,       4(25_15)
+	area_begin 
+		range = {{172183;-86660;-7263;-7063};{174307;-86661;-7263;-7063};{174301;-75214;-7263;-7063};{172174;-75213;-7263;-7063}}		
+		race={human;[the_royal_family's_catacomb]}
+                race={darkelf;[the_royal_family's_catacomb]}
+		race={orc;[the_royal_family's_catacomb]}
+		race={dwarf;[the_royal_family's_catacomb]}
+		race={elf;[the_royal_family's_catacomb]}
+	area_end
+
+
+	//        
+	point_begin
+		point_name=[talking_island_town]
+		point={-83990;243336;-3700}
+		point={-83964;242680;-3700}
+		point={-84512;242679;-3700}
+		point={-84623;243193;-3700}
+		point={-83742;242214;-3700}
+		point={-83537;242537;-3700}
+		point={-83700;242896;-3700}
+		point={-83646;243397;-3700}
+		point={-83808;243637;-3700}
+		point={-84903;243489;-3700}
+		point={-84852;243174;-3700}
+		point={-84892;242479;-3700}
+		point={-84756;242155;-3700}
+		point={-83761;243620;-3700}
+		chao_point={-79411;240677;-3450}
+		chao_point={-80480;242640;-3690}
+		chao_point={-80336;244656;-3680}
+		chao_point={-82464;247248;-3570}
+		chao_point={-89522;241696;-3530}
+		chao_point={-87056;237952;-3580}
+		chao_point={-89536;240336;-3560}
+		chao_point={-88208;241360;-3560}
+		chao_point={-85328;238080;-3660}
+		chao_point={-89760;237408;-3660}
+		chao_point={-92976;240560;-3380}
+		chao_point={-94448;240944;-3300}
+		chao_point={-93552;245296;-3530}
+		chao_point={-91584;238480;-3650}
+		chao_point={-88720;238976;-3650}
+		chao_point={-91760;243664;-3440}
+		chao_point={-81680;249696;-3630}
+		chao_point={-83808;251264;-3630}
+		chao_point={-83328;238304;-3700}
+		chao_point={-91296;236272;-3690}
+		map={15;23}
+		map={15;24}
+		map={15;25}
+		map={16;23}
+		map={16;24}
+		map={16;25}
+		map={17;24}
+		map={17;25}
+		map={18;25}
+		banned_race={}
+		bbs=1
+		loc_name=910
+	point_end
+
+	//      
+	point_begin
+		point_name=[gludin_town]
+		point={-83520;150560;-3000}
+		point={-82464;150848;-3000}
+		point={-84064;150864;-3000}
+		point={-83408;151376;-3000}
+		point={-82195;150489;-3000}
+		point={-81787;150780;-3000}
+		point={-81721;151202;-3000}
+		point={-82241;151163;-3000}
+		point={-82575;151025;-3000}
+		point={-82909;150357;-3000}
+		point={-83584;150512;-3000}
+		point={-83529;151205;-3000}
+		point={-82035;152647;-3000}
+		point={-80053;154348;-3000}
+		chao_point={-81616;157104;-3150}
+		chao_point={-80688;157216;-3150}
+		chao_point={-79568;156960;-3150}
+		chao_point={-78800;157744;-3150}
+		chao_point={-80448;157968;-3130}
+		chao_point={-81712;159536;-3230}
+		chao_point={-79744;160592;-3330}
+		chao_point={-79584;159408;-3180}
+		chao_point={-74016;150656;-2800}
+		chao_point={-72720;149632;-2780}
+		chao_point={-75904;162000;-3300}
+		chao_point={-75488;161472;-3250}
+		chao_point={-74688;160736;-3200}
+		chao_point={-74352;161488;-3250}
+		chao_point={-76656;160768;-3280}
+		chao_point={-77472;160960;-3470}
+		chao_point={-77776;158752;-3270}
+		chao_point={-80448;161488;-3420}
+		chao_point={-75440;162672;-3350}
+		chao_point={-81760;161248;-3200}
+		map={16;20}
+		map={16;21}
+		map={16;22}
+		map={17;20}
+		map={17;21}
+		map={17;22}
+		map={17;23}
+		map={18;22}
+		map={18;23}
+		map={18;24}
+		map={19;24}
+		banned_race={}
+		bbs=2
+		loc_name=911
+	point_end
+
+	//        
+	point_begin
+		point_name=[gludio_castle_town]
+		point={-14288;122752;-3000}
+		point={-14592;123232;-3000}
+		point={-14704;122032;-3000}
+		point={-13904;123456;-3000}
+		point={-15314;124131;-3000}
+		point={-15564;123896;-3000}
+		point={-14279;124446;-3000}
+		point={-14465;124434;-3000}
+		point={-13709;123563;-3000}
+		point={-13513;123752;-3000}
+		point={-14683;121945;-3000}
+		point={-14491;121915;-3000}
+		chao_point={-17280;125392;-3120}
+		chao_point={-16128;126944;-3120}
+		chao_point={-14464;128288;-3250}
+		chao_point={-13040;128768;-3350}
+		chao_point={-15600;127904;-3150}
+		chao_point={-16128;128592;-3230}
+		chao_point={-15632;129456;-3400}
+		chao_point={-16960;127696;-3200}
+		chao_point={-17632;126320;-3150}
+		chao_point={-18704;124960;-3100}
+		chao_point={-17760;121888;-3140}
+		chao_point={-17472;122752;-3100}
+		chao_point={-18720;124080;-3130}
+		chao_point={-19008;122432;-3200}
+		chao_point={-20048;122432;-3280}
+		chao_point={-19008;126160;-3250}
+		chao_point={-18480;127184;-3300}
+		chao_point={-19664;125440;-3180}
+		chao_point={-20176;124512;-3350}
+		chao_point={-19040;121632;-3200}
+		map={18;21}
+		map={19;21}
+		map={19;22}
+		map={19;23}
+		banned_race={}
+		bbs=2
+		loc_name=912
+	point_end
+
+	//     -                      ,                         
+	point_begin
+		point_name=[DMZ]
+		point={-14288;122752;-3000}
+		point={-14592;123232;-3000}
+		point={-14704;122032;-3000}
+		point={-13904;123456;-3000}
+		point={-15314;124131;-3000}
+		point={-15564;123896;-3000}
+		point={-14279;124446;-3000}
+		point={-14465;124434;-3000}
+		point={-13709;123563;-3000}
+		point={-13513;123752;-3000}
+		point={-14683;121945;-3000}
+		point={-14491;121915;-3000}
+		chao_point={-17280;125392;-3120}
+		chao_point={-16128;126944;-3120}
+		chao_point={-14464;128288;-3250}
+		chao_point={-13040;128768;-3350}
+		chao_point={-15600;127904;-3150}
+		chao_point={-16128;128592;-3230}
+		chao_point={-15632;129456;-3400}
+		chao_point={-16960;127696;-3200}
+		chao_point={-17632;126320;-3150}
+		chao_point={-18704;124960;-3100}
+		chao_point={-17760;121888;-3140}
+		chao_point={-17472;122752;-3100}
+		chao_point={-18720;124080;-3130}
+		chao_point={-19008;122432;-3200}
+		chao_point={-20048;122432;-3280}
+		chao_point={-19008;126160;-3250}
+		chao_point={-18480;127184;-3300}
+		chao_point={-19664;125440;-3180}
+		chao_point={-20176;124512;-3350}
+		chao_point={-19040;121632;-3200}
+		map={19;20}
+		banned_race={}
+		bbs=7
+		loc_name=913
+	point_end
+
+	//     .            
+	point_begin
+		point_name=[elf_town]
+		point={45487;49767;-2950}
+		point={45080;49614;-2950}
+		point={45284;49309;-2950}
+		point={45576;49412;-2950}
+		point={45896;49831;-2950}
+		point={45463;50097;-2950}
+		point={44935;49798;-2950}
+		point={44798;49475;-2950}
+		point={45100;49025;-2950}
+		point={45912;49363;-2950}
+		point={45788;49861;-2950}
+		point={45325;50067;-2950}
+		chao_point={40720;56064;-3580}
+		chao_point={39760;55040;-3410}
+		chao_point={43152;55920;-3620}
+		chao_point={44192;56960;-3580}
+		chao_point={39328;56256;-3580}
+		chao_point={40448;57744;-3600}
+		chao_point={38080;52048;-3500}
+		chao_point={38784;51824;-3470}
+		chao_point={37088;51248;-3400}
+		chao_point={37952;49680;-3480}
+		chao_point={38848;47072;-3580}
+		chao_point={36688;49856;-3440}
+		chao_point={36096;46544;-3680}
+		chao_point={37200;45232;-3600}
+		chao_point={50128;55472;-3410}
+		chao_point={51856;54432;-3320}
+		chao_point={53136;54592;-3420}
+		chao_point={51824;58624;-3400}
+		chao_point={51232;59216;-3320}
+		chao_point={49808;56240;-3430}
+		map={21;19}
+		map={21;20}
+		map={20;19}
+		map={20;20}
+		banned_race={darkelf;[darkelf_town]}
+		bbs=4
+		loc_name=914
+	point_end
+
+	//       .              
+	point_begin
+		point_name=[darkelf_town]
+		point={11632;16812;-4500}
+		point={11217;16837;-4500}
+		point={11498;16979;-4500}
+		point={11404;16699;-4500}
+		point={12501;16768;-4500}
+		point={12104;17385;-4500}
+		point={11603;17770;-4500}
+		point={12519;16376;-4500}
+		point={10355;17270;-4500}
+		point={10146;16965;-4500}
+		point={10691;16343;-4500}
+		point={11193;15963;-4500}
+		chao_point={3040;24240;-3700}
+		chao_point={1184;21856;-3240}
+		chao_point={3760;25136;-3700}
+		chao_point={672;20096;-3350}
+		chao_point={1248;14512;-3180}
+		chao_point={-8176;23120;-3450}
+		chao_point={-10208;25408;-3560}
+		chao_point={-11456;23936;-3700}
+		chao_point={-9632;22624;-3650}
+		chao_point={-5776;22080;-3510}
+		chao_point={2224;11936;-3050}
+		chao_point={1744;8640;-3250}
+		chao_point={2784;7872;-3110}
+		chao_point={3216;10128;-2980}
+		chao_point={3584;6976;-3020}
+		chao_point={-10768;21952;-3600}
+		chao_point={-11360;22688;-3600}
+		chao_point={-12784;23232;-3630}
+		chao_point={-13632;21872;-3620}
+		chao_point={-11984;21232;-3600}
+		map={20;18}
+		map={19;18}
+		map={19;19}
+		map={18;19}
+		map={18;18}
+		map={18;20}
+		map={17;19}
+		banned_race={elf;[elf_town]}
+		bbs=3
+		loc_name=915
+	point_end
+
+	//      .                            
+	point_begin
+		point_name=[dion_castle_town]
+		point={19025;145245;-3107}
+		point={18576;145136;-3104}
+		point={18717;145711;-3097}
+		point={18512;145536;-3100}
+		point={18954;144428;-3000}
+		point={19150;143941;-3020}
+		point={19134;144847;-3020}
+		point={19613;145607;-3020}
+		point={18078;145925;-3020}
+		point={17398;145456;-3000}
+		point={17144;145055;-3000}
+		point={19012;145140;-3020}
+		chao_point={17555;170393;-3400}
+		chao_point={17699;170153;-3400}
+		chao_point={17315;170041;-3400}
+		chao_point={17283;170329;-3400}
+		chao_point={17536;170505;-3400}
+		chao_point={17299;170341;-3400}
+		chao_point={17085;170170;-3400}
+		chao_point={17421;169993;-3400}
+		chao_point={17820;170054;-3400}
+		chao_point={18054;170263;-3400}
+		chao_point={17931;170381;-3400}
+		map={20;21}
+		map={20;22}
+		map={21;21}
+		map={21;22}
+		banned_race={}
+		bbs=5
+		loc_name=916
+	point_end
+
+	//      .                  .   PC            
+	point_begin
+		point_name=[floran_town]
+		point={19025;145245;-3107}
+		point={18576;145136;-3104}
+		point={18717;145711;-3097}
+		point={18512;145536;-3100}
+		point={18954;144428;-3000}
+		point={19150;143941;-3020}
+		point={19134;144847;-3020}
+		point={19613;145607;-3020}
+		point={18078;145925;-3020}
+		point={17398;145456;-3000}
+		point={17144;145055;-3000}
+		point={19012;145140;-3020}
+		chao_point={17555;170393;-3451}
+		chao_point={17699;170153;-3451}
+		chao_point={17315;170041;-3451}
+		chao_point={17283;170329;-3451}
+		chao_point={17536;170505;-3451}
+		chao_point={17299;170341;-3451}
+		chao_point={17085;170170;-3451}
+		chao_point={17421;169993;-3451}
+		chao_point={17820;170054;-3451}
+		chao_point={18054;170263;-3451}
+		chao_point={17931;170381;-3451}
+		map={20;23}
+		banned_race={}
+		bbs=5
+		loc_name=917
+	point_end
+
+	//      .
+	point_begin
+		point_name=[giran_castle_town]
+		point={82480;149087;-3350}
+		point={81440;149119;-3350}
+		point={81376;148095;-3350}
+		point={82496;148095;-3350}
+		point={83473;149223;-3300}
+		point={83426;148835;-3300}
+		point={83409;148578;-3300}
+		point={83415;148235;-3300}
+		point={82272;147801;-3350}
+		point={81562;147782;-3350}
+		point={81062;148144;-3350}
+		point={81033;148883;-3350}
+		point={81637;149427;-3350}
+		point={82292;149450;-3350}
+		chao_point={74450;144238; -3730}
+		chao_point={74209;142395; -3730}
+		chao_point={77279;145045; -3630}
+		chao_point={74809;146119; -3600}
+		chao_point={75006;143520; -3700}
+		chao_point={81347;140579; -3520}
+		chao_point={79543;142050; -3500}
+		chao_point={86223;140993; -3400}
+		chao_point={78692;154573; -3450}
+		chao_point={77870;156209; -3430}
+		chao_point={79832;154009; -3500}
+		chao_point={75501;147178; -3530}
+		map={21;23}
+		map={22;21}
+		map={22;22}
+		map={23;21}
+		map={23;22}
+		map={24;21}
+		map={25;21}
+		banned_race={}
+		bbs=6
+		loc_name=918
+	point_end
+
+	//    ,               ,         (21_23)            
+	point_begin
+		point_name=[giran_habor]
+		point={46763;187041;-3451}
+		point={46471;186666;-3451}
+		point={47290;186842;-3451}
+		point={47038;186506;-3451}
+		point={47684;186682;-3451}
+		point={47450;186347;-3451}
+		point={48715;185873;-3451}
+		point={48363;185518;-3451}
+		point={48757;185124;-3451}
+		point={49034;185512;-3451}
+		point={49033;184647;-3451}
+		point={49372;185076;-3451}
+		chao_point={46763;187041;-3451}
+		chao_point={46471;186666;-3451}
+		chao_point={47290;186842;-3451}
+		chao_point={47038;186506;-3451}
+		chao_point={47684;186682;-3451}
+		chao_point={47450;186347;-3451}
+		chao_point={48715;185873;-3451}
+		chao_point={48363;185518;-3451}
+		chao_point={48757;185124;-3451}
+		chao_point={49034;185512;-3451}
+		chao_point={49033;184647;-3451}
+		chao_point={49372;185076;-3451}
+		map={20;24}
+		map={19;25}
+		map={20;25}
+		map={21;24}
+		map={21;25}
+		banned_race={}
+		bbs=6
+		loc_name=919
+	point_end
+
+	//     .
+	point_begin
+		point_name=[orc_town]
+		point={-44316;-113136;-80}
+		point={-44296;-114048;-80}
+		point={-44704;-112896;-80}
+		point={-44720;-114304;-80}
+		point={-44206;-113392;-80}
+		point={-43970;-114150;-80}
+		point={-44328;-114625;-80}
+		point={-44884;-115063;-80}
+		point={-44923;-114659;-80}
+		point={-44232;-113701;-80}
+		point={-44596;-112956;-80}
+		point={-44987;-112394;-80}
+		point={-45498;-111800;-80}
+		point={-44637;-112373;-80}
+		point={-44189;-113065;-80}
+		point={-44048;-113463;-80}
+		chao_point={-43552;-121488;-233}
+		chao_point={-42560;-121344;-188}
+		chao_point={-41536;-122960;-308}
+		chao_point={-40464;-122752;-364}
+		chao_point={-45568;-107296;-516}
+		chao_point={-46512;-106032;-700}
+		chao_point={-44304;-105888;-1156}
+		chao_point={-43728;-106688;-1304}
+		chao_point={-40000;-109200;-1736}
+		chao_point={-39792;-110832;-1860}
+		chao_point={-39136;-112688;-1844}
+		chao_point={-37888;-112608;-1772}
+		map={18;14}
+		map={19;13}
+		map={19;14}
+		map={19;15}
+		map={19;16}
+		map={20;13}
+		map={20;14}
+		map={20;15}
+		banned_race={}
+		bbs=8
+		loc_name=920
+	point_end
+
+	//      .
+	point_begin
+		point_name=[dwarf_town]
+		point={116176;-182448;-1400}
+		point={116476;-182904;-1500}
+		point={115248;-178816;-850}
+		point={116352;-179264;-1000}
+		point={115271;-178561;-820}
+		point={115249;-177859;-820}
+		point={115485;-178077;-820}
+		point={115790;-179146;-890}
+		point={116507;-179597;-1000}
+		point={116725;-180147;-1000}
+		point={116738;-181494;-1300}
+		point={116775;-182367;-1400}
+		point={116587;-183032;-1400}
+		point={116321;-182734;-1400}
+		chao_point={118160;-179328;-1578}
+		chao_point={119024;-180208;-2180}
+		chao_point={119728;-180912;-2649}
+		chao_point={119776;-181968;-2948}
+		chao_point={119392;-183968;-3125}
+		chao_point={119520;-184928;-3196}
+		chao_point={119568;-186016;-3220}
+		chao_point={119984;-187312;-3260}
+		chao_point={119632;-188352;-3260}
+		chao_point={119264;-188736;-3203}
+		chao_point={118656;-187760;-2828}
+		map={23;10}
+		map={23;11}
+		map={23;12}
+		map={24;10}
+		map={24;11}
+		map={24;12}
+		map={25;10}
+		map={25;11}
+		map={25;12}
+		banned_race={}
+		bbs=9
+		loc_name=921
+	point_end
+
+	//      
+	point_begin
+		point_name=[oren_castle_town]
+		point={80304;56241;-1500}
+		point={80594;55837;-1500}
+		point={79933;55752;-1500}
+		point={80267;55497;-1500}
+		point={80334;54400;-1500}
+		point={82445;56012;-1480}
+		point={82323;55466;-1480}
+		point={82880;55390;-1480}
+		point={82638;53885;-1440}
+		point={82552;53447;-1440}
+		point={82213;53964;-1440}
+		point={80054;53209;-1500}
+		point={79706;52986;-1500}
+		point={82123;53535;-1440}
+		chao_point={76576;50151;-3200}
+		chao_point={77310;50317;-3160}
+		chao_point={77250;51285;-3160}
+		chao_point={78811;51106;-3160}
+		chao_point={75755;51372;-3250}
+		chao_point={75613;52504;-3200}
+		chao_point={74459;52441;-3260}
+		chao_point={74467;53354;-3200}
+		chao_point={73600;53918;-3170}
+		chao_point={71102;57875;-3330}
+		chao_point={70052;59300;-3580}
+		chao_point={70420;57480;-3480}
+		chao_point={75474;60125;-2730}
+		chao_point={74880;60818;-2820}
+		chao_point={88011;56589;-3560}
+		chao_point={91239;53120;-3430}
+		chao_point={81785;46306;-3160}
+		chao_point={80708;44609;-3120}
+		chao_point={70139;55885;-3550}
+		chao_point={80236;45675;-3150}
+		map={21;18}
+		map={22;20}
+		map={22;19}
+		map={22;18}
+		map={22;17}
+		map={23;17}
+		banned_race={}
+		bbs=10
+		loc_name=922
+	point_end
+
+	//       
+	point_begin
+		point_name=[hunter_town]
+		point={116127;76015;-2729}
+		point={115683;77610;-2650}
+		point={117304;76318;-2670}
+		point={119862;76603;-2220}
+		point={117671;78998;-2210}
+		point={117189;78952;-2210}
+		point={115861;75200;-2550}
+		point={118275;74859;-2557}
+		point={118229;74677;-2450}
+		point={115685;75072;-2550}
+		point={116704;75695;-2680}
+		point={116737;76738;-2650}
+		point={115193;77594;-2670}
+		point={116158;77443;-2660}
+		chao_point={122098;70373;-2864}
+		chao_point={118674;71218;-2743}
+		chao_point={118040;67175;-2905}
+		chao_point={119300;70660;-2850}
+		chao_point={118851;70566;-2800}
+		chao_point={112655;70976;-3122}
+		chao_point={119712;66376;-2960}
+		chao_point={107511;82890;-2515}
+		chao_point={105702;82773;-2803}
+		chao_point={104257;82194;-2581}
+		chao_point={104474;81109;-2651}
+		map={23;20}
+		map={23;19}
+		map={24;20}
+		map={25;20}
+		banned_race={}
+		bbs=11
+		loc_name=923
+	point_end
+
+	//      
+	point_begin
+		point_name=[aden_town]
+		point={146494;30584;-2420}
+		point={146038;30519;-2420}
+		point={148112;30439;-2420}
+		point={148565;30463;-2420}
+		point={150227;29104;-2420}
+		point={144626;29145;-2420}
+		point={144635;26664;-2220}
+		point={144526;24661;-2100}
+		point={144559;22835;-2100}
+		point={145686;21114;-2100}
+		point={148946;21121;-2070}
+		point={148010;27996;-2256}
+		point={147970;27040;-2191}
+		point={146814;27108;-2189}
+		point={146819;28063;-2252}
+		chao_point={136398;28901;-3582}
+		chao_point={137292;28485;-3290}
+		chao_point={155925;28554;-3164}
+		chao_point={157608;23866;-3760}
+		chao_point={157463;28770;-3371}
+		chao_point={159348;28561;-3400}
+		chao_point={160236;14119;-3892}
+		chao_point={156764;13774;-3960}
+		chao_point={161426;23055;-3670}
+		chao_point={136380;21899;-3647}
+		chao_point={137708;15640;-3800}
+		chao_point={136629;28127;-3258}
+		map={23;18}
+		map={24;17}
+		map={24;18}
+		map={24;19}
+		map={25;17}
+		map={25;18}
+		map={25;19}
+		banned_race={}
+		bbs=13
+		loc_name=924
+	point_end
+
+	//    (24_19),                   
+	point_begin
+		point_name=[colosseum]
+		point={147420;46378;-3350}
+		point={147696;46416;-3350}
+		point={147248;47048;-3350}
+		point={147449;47051;-3350}
+		point={147680;47040;-3350}
+		point={147232;46352;-3350}
+		point={147696;46928;-3350}
+		point={147456;46928;-3350}
+		point={147232;46928;-3350}
+		point={147232;46464;-3350}
+		point={147424;46464;-3350}
+		point={147696;46512;-3350}
+		point={151294;46378;-3350}
+		point={151535;46353;-3350}
+		point={151712;46368;-3350}
+		point={151753;46500;-3405}
+		point={151760;46928;-3350}
+		point={151760;47104;-3350}
+		point={151536;46960;-3350}
+		point={151536;47104;-3350}
+		point={151264;47136;-3350}
+		point={151264;47008;-3350}
+		point={151536;46482;-3350}
+		point={151296;46480;-3350}
+		chao_point={147420;46378;-3350}
+		chao_point={147696;46416;-3350}
+		chao_point={147248;47048;-3350}
+		chao_point={147449;47051;-3350}
+		chao_point={147680;47040;-3350}
+		chao_point={147232;46352;-3350}
+		chao_point={147696;46928;-3350}
+		chao_point={147456;46928;-3350}
+		chao_point={147232;46928;-3350}
+		chao_point={147232;46464;-3350}
+		chao_point={147424;46464;-3350}
+		chao_point={147696;46512;-3350}
+		chao_point={151294;46378;-3350}
+		chao_point={151535;46353;-3350}
+		chao_point={151712;46368;-3350}
+		chao_point={151753;46500;-3405}
+		chao_point={151760;46928;-3350}
+		chao_point={151760;47104;-3350}
+		chao_point={151536;46960;-3350}
+		chao_point={151536;47104;-3350}
+		chao_point={151264;47136;-3350}
+		chao_point={151264;47008;-3350}
+		chao_point={151536;46482;-3350}
+		chao_point={151296;46480;-3350}
+		map={}
+		banned_race={}
+		bbs=13
+		loc_name=925
+	point_end
+
+	//         
+	point_begin
+		point_name=[heiness_town]
+		point={107568;218256;-3624}
+		point={107920;218240;-3624}
+		point={107808;217856;-3624}
+		point={108032;218048;-3624}
+		point={107552;218000;-3624}
+		point={110912;219584;-3624}
+		point={110768;219824;-3624}
+		point={110688;220576;-3624}
+		point={110896;220768;-3624}
+		point={111856;220752;-3624}
+		point={112112;220576;-3624}
+		point={112064;219792;-3624}
+		point={111888;219584;-3624}
+		chao_point={117872;225536;-3200}
+		chao_point={118064;225648;-3200}
+		chao_point={101696;221808;-3520}
+		chao_point={101552;221568;-3520}
+		chao_point={100784;218272;-3420}
+		chao_point={100928;218560;-3420}
+		map={22;23}
+		map={22;24}
+		map={22;25}
+		map={23;23}
+		map={23;24}
+		map={23;25}
+		banned_race={}
+		bbs=12
+		loc_name=926
+	point_end
+
+        //       (17_25),                (       )
+	point_begin
+		point_name=[Cedric's_Training_Hall]
+		point={-71338;258271;-3104}
+		point={-71417;258270;-3104}
+		point={-71453;258305;-3104}
+		point={-71467;258378;-3104}
+		chao_point={-79411;240677;-3450}
+		chao_point={-80480;242640;-3690}
+		chao_point={-80336;244656;-3680}
+		chao_point={-82464;247248;-3570}
+		chao_point={-89522;241696;-3530}
+		chao_point={-87056;237952;-3580}
+		chao_point={-89536;240336;-3560}
+		chao_point={-88208;241360;-3560}
+		chao_point={-85328;238080;-3660}
+		chao_point={-89760;237408;-3660}
+		chao_point={-92976;240560;-3380}
+		chao_point={-94448;240944;-3300}
+		chao_point={-93552;245296;-3530}
+		chao_point={-91584;238480;-3650}
+		chao_point={-88720;238976;-3650}
+		chao_point={-91760;243664;-3440}
+		chao_point={-81680;249696;-3630}
+		chao_point={-83808;251264;-3630}
+		chao_point={-83328;238304;-3700}
+		chao_point={-91296;236272;-3690}
+	        map={}
+		banned_race={}
+		bbs=1
+		loc_name=910
+	point_end
+
+        //          (17_25),                 (       )
+	point_begin
+		point_name=[Einhovant's_School_of_Magic]
+		point={-90875;248162;-3570}
+		point={-90954;248118;-3570}
+		point={-90918;248070;-3570}
+		point={-90890;248027;-3570}
+		chao_point={-79411;240677;-3450}
+		chao_point={-80480;242640;-3690}
+		chao_point={-80336;244656;-3680}
+		chao_point={-82464;247248;-3570}
+		chao_point={-89522;241696;-3530}
+		chao_point={-87056;237952;-3580}
+		chao_point={-89536;240336;-3560}
+		chao_point={-88208;241360;-3560}
+		chao_point={-85328;238080;-3660}
+		chao_point={-89760;237408;-3660}
+		chao_point={-92976;240560;-3380}
+		chao_point={-94448;240944;-3300}
+		chao_point={-93552;245296;-3530}
+		chao_point={-91584;238480;-3650}
+		chao_point={-88720;238976;-3650}
+		chao_point={-91760;243664;-3440}
+		chao_point={-81680;249696;-3630}
+		chao_point={-83808;251264;-3630}
+		chao_point={-83328;238304;-3700}
+		chao_point={-91296;236272;-3690}
+	        map={}
+		banned_race={}
+		bbs=1
+		loc_name=910
+	point_end
+
+        //       (21_19),              (       )
+	point_begin
+		point_name=[Mothertree_Glade]
+		point={46045;41251;-3440}
+		point={46117;41247;-3440}
+		point={46182;41198;-3440}
+		point={46115;41141;-3440}
+		point={46048;41141;-3440}
+		point={45978;41196;-3440}
+		chao_point={40720;56064;-3580}
+		chao_point={39760;55040;-3410}
+		chao_point={43152;55920;-3620}
+		chao_point={44192;56960;-3580}
+		chao_point={39328;56256;-3580}
+		chao_point={40448;57744;-3600}
+		chao_point={38080;52048;-3500}
+		chao_point={38784;51824;-3470}
+		chao_point={37088;51248;-3400}
+		chao_point={37952;49680;-3480}
+		chao_point={38848;47072;-3580}
+		chao_point={36688;49856;-3440}
+		chao_point={36096;46544;-3680}
+		chao_point={37200;45232;-3600}
+		chao_point={50128;55472;-3410}
+		chao_point={51856;54432;-3320}
+		chao_point={53136;54592;-3420}
+		chao_point={51824;58624;-3400}
+		chao_point={51232;59216;-3320}
+		chao_point={49808;56240;-3430}
+	        map={}
+		banned_race={darkelf;[darkelf_town]}
+		bbs=4
+		loc_name=914
+	point_end
+
+        //     (20_18),                (       )
+	point_begin
+		point_name=[Temple_of_Shilen]
+		point={28295;11063;-4224}
+		point={28302;11008;-4224}
+		point={28377;10916;-4224}
+		point={28456;10997;-4224}
+		point={28461;11044;-4224}
+		point={28395;11127;-4224}
+		chao_point={3040;24240;-3700}
+		chao_point={1184;21856;-3240}
+		chao_point={3760;25136;-3700}
+		chao_point={672;20096;-3350}
+		chao_point={1248;14512;-3180}
+		chao_point={-8176;23120;-3450}
+		chao_point={-10208;25408;-3560}
+		chao_point={-11456;23936;-3700}
+		chao_point={-9632;22624;-3650}
+		chao_point={-5776;22080;-3510}
+		chao_point={2224;11936;-3050}
+		chao_point={1744;8640;-3250}
+		chao_point={2784;7872;-3110}
+		chao_point={3216;10128;-2980}
+		chao_point={3584;6976;-3020}
+		chao_point={-10768;21952;-3600}
+		chao_point={-11360;22688;-3600}
+		chao_point={-12784;23232;-3630}
+		chao_point={-13632;21872;-3620}
+		chao_point={-11984;21232;-3600}
+	        map={}
+		banned_race={elf;[elf_town]}
+		bbs=3
+		loc_name=915
+	point_end
+
+        //        (18_14),               (       )
+	point_begin
+		point_name=[Temple_of_Paagrio]
+		point={-56733;-113459;-690}
+		point={-56686;-113470;-690}
+		point={-56728;-113610;-690}
+		point={-56693;-113610;-690}
+		point={-56743;-113757;-690}
+		point={-56682;-113730;-690}
+		chao_point={-43552;-121488;-233}
+		chao_point={-42560;-121344;-188}
+		chao_point={-41536;-122960;-308}
+		chao_point={-40464;-122752;-364}
+		chao_point={-45568;-107296;-516}
+		chao_point={-46512;-106032;-700}
+		chao_point={-44304;-105888;-1156}
+		chao_point={-43728;-106688;-1304}
+		chao_point={-40000;-109200;-1736}
+		chao_point={-39792;-110832;-1860}
+		chao_point={-39136;-112688;-1844}
+		chao_point={-37888;-112608;-1772}
+	        map={}
+		banned_race={}
+		bbs=8
+		loc_name=920
+	point_end
+
+        //   (23_12),               (       )
+	point_begin
+		point_name=[Quarry]
+		point={108644;-173947;-400}
+		point={108678;-174002;-400}
+		point={108505;-173964;-400}
+		point={108512;-174026;-400}
+		point={108549;-174075;-400}
+		point={108576;-174122;-400}
+		chao_point={118160;-179328;-1578}
+		chao_point={119024;-180208;-2180}
+		chao_point={119728;-180912;-2649}
+		chao_point={119776;-181968;-2948}
+		chao_point={119392;-183968;-3125}
+		chao_point={119520;-184928;-3196}
+		chao_point={119568;-186016;-3220}
+		chao_point={119984;-187312;-3260}
+		chao_point={119632;-188352;-3260}
+		chao_point={119264;-188736;-3203}
+		chao_point={118656;-187760;-2828}
+	        map={}
+		banned_race={}
+		bbs=9
+		loc_name=921
+	point_end
+
+//GM   _  ,          
+	point_begin
+		point_name=[gm_room]
+		point={-114598;-249431;-2984}
+		point={-114527;-249452;-2984}
+		point={-114567;-249517;-2984}
+		point={-114634;-249516;-2984}
+		point={-114665;-249440;-2984}	
+		point={-114626;-249397;-2984}
+		point={-114567;-249384;-2984}
+		point={-114566;-249470;-2984}
+		point={-114601;-249489;-2984}
+		point={-114630;-249465;-2984}
+		point={-114501;-249297;-2984}
+		point={-114475;-249273;-2984}
+		point={-114441;-249293;-2984}	
+		chao_point={-114598;-249431;-2984}
+		chao_point={-114527;-249452;-2984}
+		chao_point={-114567;-249517;-2984}
+		chao_point={-114634;-249516;-2984}
+		chao_point={-114665;-249440;-2984}	
+		chao_point={-114626;-249397;-2984}
+		chao_point={-114567;-249384;-2984}
+		chao_point={-114566;-249470;-2984}
+		chao_point={-114601;-249489;-2984}
+		chao_point={-114630;-249465;-2984}
+		chao_point={-114501;-249297;-2984}
+		chao_point={-114475;-249273;-2984}
+		chao_point={-114441;-249293;-2984}	
+		map={}	
+		banned_race={}
+		bbs=8
+		loc_name=1222
+	point_end
+
+//GM   _  _  1,          
+	point_begin
+		point_name=[gm_room_solo1]
+		point={-116059; -251145; -2992}
+		point={-116126; -251135; -2992}
+		point={-116050; -251210; -2992}
+		point={-116049; -251082; -2992}
+		chao_point={-116059; -251145; -2992}
+		chao_point={-116126; -251135; -2992}
+		chao_point={-116050; -251210; -2992}
+		chao_point={-116049; -251082; -2992}
+		map={}	
+		banned_race={}
+		bbs=8
+		loc_name=1222
+	point_end
+
+//GM   _  _  2,          
+	point_begin
+		point_name=[gm_room_solo2]
+		point={-112959; -251147; -2992}
+		point={-113157; -251149; -2992}
+		point={-113099; -251231; -2992}
+		point={-113097; -251033; -2992}
+		chao_point={-112959; -251147; -2992}
+		chao_point={-113157; -251149; -2992}
+		chao_point={-113099; -251231; -2992}
+		chao_point={-113097; -251033; -2992}	
+		map={}	
+		banned_race={}
+		bbs=8
+		loc_name=1222
+	point_end
+
+//       ,          
+	point_begin
+		point_name=[oracle_of_dawn]
+		point={-78853;111363;-4896}
+		point={-78819;111323;-4896}
+		point={-78859;111321;-4896}
+		point={-78900;111320;-4896}
+		point={-78900;111367;-4896}	
+		point={-78896;111406;-4896}
+		point={-78856;111400;-4896}
+		point={-78814;111402;-4896}
+		point={-78816;111358;-4896}
+		point={-78797;111301;-4896}
+		point={-78862;111297;-4896}
+		point={-78919;111299;-4896}
+		point={-78919;111370;-4896}
+		point={-78926;111417;-4896}
+		point={-78854;111425;-4896}
+		point={-78783;111429;-4896}
+		point={-78785;111362;-4896}
+		chao_point={-78853;111363;-4896}
+		chao_point={-78819;111323;-4896}
+		chao_point={-78859;111321;-4896}
+		chao_point={-78900;111320;-4896}
+		chao_point={-78900;111367;-4896}	
+		chao_point={-78896;111406;-4896}
+		chao_point={-78856;111400;-4896}
+		chao_point={-78814;111402;-4896}
+		chao_point={-78816;111358;-4896}
+		chao_point={-78797;111301;-4896}
+		chao_point={-78862;111297;-4896}
+		chao_point={-78919;111299;-4896}
+		chao_point={-78919;111370;-4896}
+		chao_point={-78926;111417;-4896}
+		chao_point={-78854;111425;-4896}
+		chao_point={-78783;111429;-4896}
+		chao_point={-78785;111362;-4896}
+		map={}	
+		banned_race={}
+		bbs=2
+		loc_name=911
+	point_end
+
+//       ,          
+	point_begin
+		point_name=[oracle_of_dusk]
+		point={-80070;86517;-5152}
+		point={-80113;86563;-5152}
+		point={-80069;86569;-5152}
+		point={-80029;86563;-5152}
+		point={-80035;86529;-5152}	
+		point={-80035;86468;-5152}
+		point={-80075;86487;-5152}
+		point={-80117;86485;-5152}
+		point={-80116;86525;-5152}
+		point={-80147;86594;-5152}
+		point={-80074;86596;-5152}
+		point={-80005;86607;-5152}
+		point={-80005;86520;-5152}
+		point={-80002;86477;-5152}
+		point={-80075;86466;-5152}
+		point={-80148;86462;-5152}
+		point={-80144;86520;-5152}
+		chao_point={-80070;86517;-5152}
+		chao_point={-80113;86563;-5152}
+		chao_point={-80069;86569;-5152}
+		chao_point={-80029;86563;-5152}
+		chao_point={-80035;86529;-5152}	
+		chao_point={-80035;86468;-5152}
+		chao_point={-80075;86487;-5152}
+		chao_point={-80117;86485;-5152}
+		chao_point={-80116;86525;-5152}
+		chao_point={-80147;86594;-5152}
+		chao_point={-80074;86596;-5152}
+		chao_point={-80005;86607;-5152}
+		chao_point={-80005;86520;-5152}
+		chao_point={-80002;86477;-5152}
+		chao_point={-80075;86466;-5152}
+		chao_point={-80148;86462;-5152}
+		chao_point={-80144;86520;-5152}
+		map={}	
+		banned_race={}
+		bbs=2
+		loc_name=911
+	point_end
+
+//       .          .                   .
+	point_begin
+		point_name=[monster_race]
+		point={11892; 181700; -3560}
+		point={14028; 181695; -3560}
+		point={13111; 181695; -3560}
+		point={12587; 181702; -3560}
+		point={13588; 181695; -3560}
+		point={14077; 182490; -3560}
+		point={13631; 182490; -3560}
+		point={13157; 182490; -3560}
+		point={12675; 182490; -3560}
+		point={11926; 182503; -3560}
+		point={12288; 182497; -3560}
+		point={12292; 181707; -3560}
+		point={11825; 181822; -3560}
+		point={11827; 182334; -3560}
+		point={11814; 181984; -3560}
+		point={11824; 182172; -3560}
+		chao_point={11892; 181700; -3560}
+		chao_point={14028; 181695; -3560}
+		chao_point={13111; 181695; -3560}
+		chao_point={12587; 181702; -3560}
+		chao_point={13588; 181695; -3560}
+		chao_point={14077; 182490; -3560}
+		chao_point={13631; 182490; -3560}
+		chao_point={13157; 182490; -3560}
+		chao_point={12675; 182490; -3560}
+		chao_point={11926; 182503; -3560}
+		chao_point={12288; 182497; -3560}
+		chao_point={12292; 181707; -3560}
+		chao_point={11825; 181822; -3560}
+		chao_point={11827; 182334; -3560}
+		chao_point={11814; 181984; -3560}
+		chao_point={11824; 182172; -3560}
+		map={}
+		banned_race={}
+		bbs=5
+		loc_name=917
+	point_end
+
+//              .          .               .
+	point_begin
+		point_name=[monster_race_PVP]
+		point={11817; 182897; -3560}
+		point={12438; 182887; -3560}
+		point={13047; 182902; -3560}
+		point={13061; 183518; -3560}
+		point={13059; 184123; -3560}
+		point={12430; 184133; -3560}
+		point={11822; 184143; -3560}
+		point={11803; 183473; -3560}
+		point={12115; 182896; -3560}
+		point={12740; 182901; -3560}
+		point={13059; 183199; -3560}
+		point={13049; 182796; -3560}
+		point={12740; 184138; -3560}
+		point={12172; 184133; -3560}
+		point={11820; 183806; -3560}
+		point={11811; 183209; -3560}
+		chao_point={11817; 182897; -3560}
+		chao_point={12438; 182887; -3560}
+		chao_point={13047; 182902; -3560}
+		chao_point={13061; 183518; -3560}
+		chao_point={13059; 184123; -3560}
+		chao_point={12430; 184133; -3560}
+		chao_point={11822; 184143; -3560}
+		chao_point={11803; 183473; -3560}
+		chao_point={12115; 182896; -3560}
+		chao_point={12740; 182901; -3560}
+		chao_point={13059; 183199; -3560}
+		chao_point={13049; 182796; -3560}
+		chao_point={12740; 184138; -3560}
+		chao_point={12172; 184133; -3560}
+		chao_point={11820; 183806; -3560}
+		chao_point={11811; 183209; -3560}
+		map={}
+		banned_race={}
+		bbs=5
+		loc_name=917
+	point_end
+
+//      
+	point_begin
+		point_name=[rune_town]
+		point={38096;-46976;899}
+		point={38608;-47168;899}
+		point={38752;-47792;899}
+		point={38848;-48640;899}
+		point={38272;-49008;899}
+		point={38112;-49792;899}
+		point={43408;-51120;-800}
+		point={43536;-50416;-800}
+		point={44368;-50592;-800}
+		point={44000;-49952;-800}
+		point={45072;-49936;-800}
+		point={45824;-49056;-800}
+		point={45632;-47968;-800}
+		point={44864;-47824;-800}
+		point={43744;-47920;-800}
+		point={43792;-48928;-800}
+		chao_point={42640;-54496;-2310}
+		chao_point={38304;-55440;-1136}
+		chao_point={40192;-57600;-2343}
+		chao_point={38400;-56832;-992}
+		chao_point={35632;-54800;-1744}
+		chao_point={37152;-56272;-272}
+		chao_point={43936;-56480;-3627}
+		chao_point={39440;-60080;-2870}
+		chao_point={41376;-55376;-1488}
+		chao_point={41920;-57760;-2392}
+		chao_point={42496;-58192;-3264}
+		chao_point={40784;-59888;-2600}
+		map={21;15}
+		map={21;16}
+		map={21;17}
+                map={22;15}
+		map={22;16}
+		map={23;15}
+		map={16;11}
+		map={17;10}
+		map={17;11}
+		map={19;17}
+		banned_race={}
+		bbs=14
+		loc_name=1537
+	point_end
+
+//       
+	point_begin
+		point_name=[godard_town]
+		point={148560;-55904;-2779}
+		point={150704;-55744;-2979}
+		point={150400;-56752;-2979}
+		point={149872;-57424;-2979}
+		point={149088;-56256;-2779}
+		point={147664;-56464;-2779}
+		point={147680;-56928;-2779}
+		point={146832;-55904;-2779}
+		point={146368;-56256;-2779}
+		point={149120;-58064;-2979}
+		point={148288;-58304;-2979}
+		point={147680;-58208;-2979}
+		point={147232;-58480;-2979}
+		point={146272;-58176;-2979}
+		point={145696;-57696;-2979}
+		point={145264;-57680;-2979}
+		point={145392;-56960;-2979}
+		point={144752;-56752;-2979}
+		point={144960;-56224;-2979}
+		point={144944;-55392;-2979}
+		point={144496;-55088;-2979}
+		chao_point={142656;-55008;-3024}
+		chao_point={142832;-55680;-3462}
+		chao_point={143152;-56368;-3456}
+		chao_point={145344;-59472;-3344}
+		chao_point={145872;-59744;-3328}
+		chao_point={150304;-59800;-3504}
+		chao_point={152080;-56576;-3415}
+		chao_point={142880;-56992;-3418}
+		chao_point={144544;-58976;-3440}
+		chao_point={146688;-60048;-3447}
+		chao_point={146000;-60704;-3450}
+		chao_point={145248;-60064;-3440}
+		chao_point={144368;-59616;-3512}
+		chao_point={143536;-57456;-3424}
+		chao_point={150576;-59024;-3488}
+		chao_point={149680;-59600;-3440}
+		chao_point={149360;-60576;-3520}
+		map={23;16}
+		map={24;14}
+		map={24;15}
+                map={24;16}
+		map={25;14}
+		map={25;15}
+		map={25;16}
+		map={26;14}
+		banned_race={}
+		bbs=15
+		loc_name=1538
+	point_end
+
+//      
+	point_begin
+		point_name=[rift_bitween_worlds]
+		point={-114444;-178322;-6752}
+		point={-114470;-178883;-6752}
+		point={-114449;-179708;-6752}
+		point={-114518;-180567;-6752}
+		point={-114537;-181419;-6752}
+		point={-114918;-181706;-6752}
+		point={-115072;-180844;-6752}
+		point={-115146;-179844;-6752}
+		point={-115160;-179060;-6752}
+		point={-114989;-178312;-6752}
+		point={-114434;-180128;-6752}
+		point={-114469;-179415;-6752}
+		point={-115139;-180236;-6752}
+		point={-115169;-178312;-6752}
+		chao_point={-114459;-178615;-6752}
+		chao_point={-114469;-179415;-6752}
+		chao_point={-114434;-180128;-6752}
+		chao_point={-114597;-181000;-6752}
+		chao_point={-114708;-181823;-6752}
+		chao_point={-115008;-181224;-6752}
+		chao_point={-115139;-180236;-6752}
+		chao_point={-115155;-179354;-6752}
+		chao_point={-115169;-178312;-6752}
+		map={16;12}
+		banned_race={}
+		bbs=14
+		loc_name=1643
+	point_end
+
+//      
+	point_begin
+		point_name=[the_royal_family's_catacomb]
+		point={181544;-80897;-2728}
+		point={181415;-80791;-2728}
+		point={181383;-80984;-2728}
+		point={181277;-81017;-2728}
+		point={181232;-80937;-2728}
+		point={181063;-81000;-2728}
+		point={181125;-80920;-2728}
+		point={181122;-80869;-2728}
+		point={181155;-80825;-2728}
+		point={181142;-80754;-2728}
+		point={181301;-80776;-2728}
+		point={181398;-80782;-2728}
+		point={181722;-80785;-2728}
+		point={181491;-80868;-2728}
+		chao_point={181544;-80897;-2728}
+		chao_point={181415;-80791;-2728}
+		chao_point={181383;-80984;-2728}
+		chao_point={181277;-81017;-2728}
+		chao_point={181232;-80937;-2728}
+		chao_point={181063;-81000;-2728}
+		chao_point={181125;-80920;-2728}
+		chao_point={181122;-80869;-2728}
+		chao_point={181155;-80825;-2728}
+		chao_point={181142;-80754;-2728}
+		chao_point={181301;-80776;-2728}
+		chao_point={181398;-80782;-2728}
+		chao_point={181722;-80785;-2728}
+		chao_point={181491;-80868;-2728}
+		map={}
+		banned_race={}
+		bbs=15
+		loc_name=1659
+	point_end
+
+restart_point_end
+
+//PC creation    /         /   /   
+//      INT / STR / CON / MEN / DEX/ WIT
+
+minimum_stat_begin
+	human_fighter={10;10;10;10;10;10}
+	human_magician={10;10;10;10;10;10}
+	elf_fighter={10;10;10;10;10;10}
+	elf_magician={10;10;10;10;10;10}
+	darkelf_fighter={10;10;10;10;10;10}
+	darkelf_magician={10;10;10;10;10;10}
+	orc_fighter={10;10;10;10;10;10}
+	orc_shaman={10;10;10;10;10;10}
+	dwarf_apprentice={10;10;10;10;10;10}
+minimum_stat_end
+
+maximum_stat_begin
+	human_fighter={70;70;70;70;70;70}
+	human_magician={70;70;70;70;70;70}
+	elf_fighter={70;70;70;70;70;70}
+	elf_magician={70;70;70;70;70;70}
+	darkelf_fighter={70;70;70;70;70;70}
+	darkelf_magician={70;70;70;70;70;70}
+	orc_fighter={70;70;70;70;70;70}
+	orc_shaman={70;70;70;70;70;70}
+	dwarf_apprentice={70;70;70;70;70;70}
+maximum_stat_end
+
+recommended_stat_begin
+	human_fighter={21;40;43;25;30;11}
+	human_magician={41;22;27;39;21;20}
+	elf_fighter={23;36;36;26;35;14}
+	elf_magician={37;21;25;40;24;23}
+	darkelf_fighter={25;41;32;26;34;12}
+	darkelf_magician={44;23;24;37;23;19}
+	orc_fighter={18;40;47;27;26;12}
+	orc_shaman={31;27;31;42;24;15}
+	dwarf_apprentice={20;39;45;27;29;10}
+recommended_stat_end
+
+//        
+cubic_data_begin
+	//DD           
+	//  ID;    ;    ;    ;     ;      ;      ID;         ;    
+	dd_cubic={1;1;900;12;10;30;4049;1;282.0}
+	dd_cubic={1;2;900;12;10;30;4049;2;434.0}
+	dd_cubic={1;3;900;12;10;30;4049;3;644.0}
+	dd_cubic={1;4;900;12;10;30;4049;4;919.0}
+	dd_cubic={1;5;900;12;10;30;4049;5;1141.0}
+	dd_cubic={1;6;900;12;10;30;4049;6;1394.0}
+	dd_cubic={1;7;900;12;10;30;4049;7;1673.0}
+	dd_cubic={1;8;900;12;10;30;4049;8;1975.0}
+	//HP            
+	//  ID;    ;    ;    ;     ;      ;      ID;         ;    
+	drain_cubic={2;1;900;8;15;20;4050;1;351.0}
+	drain_cubic={2;2;900;8;15;20;4050;2;531.0}
+	drain_cubic={2;3;900;8;15;20;4050;3;773.0}
+	drain_cubic={2;4;900;8;15;20;4050;4;1026.0}
+	drain_cubic={2;5;900;8;15;20;4050;5;1264.0}
+	drain_cubic={2;6;900;8;15;20;4050;6;1530.0}
+	drain_cubic={2;7;900;8;15;20;4050;7;1822.0}
+	//       
+	//  ID;    ;    ;    1;    2;    3
+	//;      ;     ;       ;      ID;         ;    
+	heal_cubic={3;1;900;13;33;53;10;13;20;4051;1;0.0}
+	heal_cubic={3;2;900;13;33;53;10;13;20;4051;2;0.0}
+	heal_cubic={3;3;900;13;33;53;10;13;20;4051;3;0.0}
+	heal_cubic={3;4;900;13;33;53;10;13;20;4051;4;0.0}
+	heal_cubic={3;5;900;13;33;53;10;13;20;4051;5;0.0}
+	heal_cubic={3;6;900;13;33;53;10;13;20;4051;6;0.0}
+	heal_cubic={3;7;900;13;33;53;10;13;20;4051;7;0.0}
+	//        
+	heal_cubic={3;20;3600;13;33;53;10;13;20;4051;20;0.0}
+	//        
+	//  ID;    ;    ;    ;     ;      ;      ID;          ;    
+	poison_cubic={4;1;900;30;20;15;4052;1;531.0}
+	poison_cubic={4;2;900;30;20;15;4052;2;773.0}
+	poison_cubic={4;3;900;30;20;15;4052;3;1026.0}
+	poison_cubic={4;4;900;30;20;15;4052;4;1264.0}
+	poison_cubic={4;5;900;30;20;15;4052;5;1530.0}
+	poison_cubic={4;6;900;30;20;15;4052;6;1822.0}
+	//   ;    ;               
+	//  ID;    ;        ;     ;      ;      ID1;         
+	//;      ID2;         2;      ID3;         3;    
+	debuff_cubic={5;1;900;30;8;30;4053;1;4054;1;4055;1;282.0}
+	debuff_cubic={5;2;900;30;8;30;4053;2;4054;2;4055;2;434.0}
+	debuff_cubic={5;3;900;30;8;30;4053;3;4054;3;4055;3;644.0}
+	debuff_cubic={5;4;900;30;8;30;4053;4;4054;4;4055;4;919.0}
+	debuff_cubic={5;5;900;30;8;30;4053;5;4054;5;4055;5;1141.0}
+	debuff_cubic={5;6;900;30;8;30;4053;6;4054;6;4055;6;1394.0}
+	debuff_cubic={5;7;900;30;8;30;4053;7;4054;7;4055;7;1673.0}
+	debuff_cubic={5;8;900;30;8;30;4053;8;4054;8;4055;8;1975.0}
+	//         
+	//  ID;    ;    ;    ;     ;      ;      ID;         ;    
+	paralyze_cubic={6;1;900;12;10;30;4164;1;282.0}
+	paralyze_cubic={6;2;900;12;10;30;4164;2;377.0}
+	paralyze_cubic={6;3;900;12;10;30;4164;3;497.0}
+	paralyze_cubic={6;4;900;12;10;30;4164;4;644.0}
+	paralyze_cubic={6;5;900;12;10;30;4164;5;820.0}
+	paralyze_cubic={6;6;900;12;10;30;4164;6;1026.0}
+	paralyze_cubic={6;7;900;12;10;30;4164;7;1264.0}
+	paralyze_cubic={6;8;900;12;10;30;4164;8;1530.0}
+	paralyze_cubic={6;9;900;12;10;30;4164;9;1822.0}
+	//    DOT       
+	//  ID;    ;    ;    ;     ;      ;      ID;          ;    
+	water_dot_cubic={7;1;900;20;30;10;4165;1;282.0}
+	water_dot_cubic={7;2;900;20;30;10;4165;2;377.0}
+	water_dot_cubic={7;3;900;20;30;10;4165;3;497.0}
+	water_dot_cubic={7;4;900;20;30;10;4165;4;644.0}
+	water_dot_cubic={7;5;900;20;30;10;4165;5;820.0}
+	water_dot_cubic={7;6;900;20;30;10;4165;6;1141.0}
+	water_dot_cubic={7;7;900;20;30;10;4165;7;1394.0}
+	water_dot_cubic={7;8;900;20;30;10;4165;8;1673.0}
+	water_dot_cubic={7;9;900;20;30;10;4165;9;1975.0}
+	//         
+	//  ID;    ;    ;    ;     ;      ;      ID;         ;    
+	shock_cubic={8;1;900;12;10;30;4166;1;282.0}
+	shock_cubic={8;2;900;12;10;30;4166;2;377.0}
+	shock_cubic={8;3;900;12;10;30;4166;3;497.0}
+	shock_cubic={8;4;900;12;10;30;4166;4;644.0}
+	shock_cubic={8;5;900;12;10;30;4166;5;820.0}
+	shock_cubic={8;6;900;12;10;30;4166;6;1026.0}
+	shock_cubic={8;7;900;12;10;30;4166;7;1264.0}
+	shock_cubic={8;8;900;12;10;30;4166;8;1530.0}
+	shock_cubic={8;9;900;12;10;30;4166;9;1822.0}
+cubic_data_end
+
+olympiad_arena_begin
+	arena_begin
+		id = 1
+		range = {{-23711;-23873;-3584;-584};{-18274;-23939;-3584;-584};{-18142;-18304;-3584;-584};{-23711;-18370;-3584;-584}}
+		//                   .
+		point1 = {-21453;-21058;-3051}
+		point2 = {-20254;-21058;-3051}
+	arena_end
+
+	arena_begin
+		id = 2
+		range = {{-112716;-221280;-3516;-516};{-107244;-221276;-3516;-516};{-107168;-215860;-3516;-516};{-112704;-215852;-3516;-516}}
+		//                   .
+		point1 = {-110508;-218674;-3357}
+		point2 = {-109311;-218674;-3357}
+	arena_end
+
+	arena_begin
+		id = 3
+		range = {{-123047;-227790;-3516;-516};{-117575;-227786;-3516;-516};{-117499;-222370;-3516;-516};{-123035;-222362;-3516;-516}}
+		//                   .
+		point1 = {-120939;-225041;-3357}
+		point2 = {-119718;-225041;-3357}
+	arena_end
+
+	arena_begin
+		id = 4
+		range = {{-129398;-220929;-3516;-516};{-123926;-220925;-3516;-516};{-123850;-215509;-3516;-516};{-129386;-215501;-3516;-516}}
+		//                   .
+		point1 = {-127235;-218275;-3357}
+		point2 = {-126041;-218275;-3357}
+	arena_end
+
+	arena_begin
+		id = 5
+		range = {{-117284;-215978;-3516;-516};{-111812;-215974;-3516;-516};{-111736;-210558;-3516;-516};{-117272;-210550;-3516;-516}}
+		//                   .
+		point1 = {-115162;-213201;-3357}
+		point2 = {-113968;-213201;-3357}
+	arena_end
+
+	arena_begin
+		id = 6
+		range = {{-122999;-210072;-3516;-516};{-117527;-210068;-3516;-516};{-117451;-204652;-3516;-516};{-122987;-204644;-3516;-516}}
+		//                   .
+		point1 = {-120870;-207398;-3357}
+		point2 = {-119718;-207398;-3357}
+	arena_end
+
+	arena_begin
+		id = 7
+		range = {{-105154;-211807;-3516;-516};{-99682;-211803;-3516;-516};{-99606;-206387;-3516;-516};{-105142;-206379;-3516;-516}}
+		//                   .
+		point1 = {-103125;-209047;-3357}
+		point2 = {-101933;-209047;-3357}
+	arena_end
+
+	arena_begin
+		id = 8
+		range = {{-112301;-203832;-3516;-516};{-106829;-203828;-3516;-516};{-106753;-198412;-3516;-516};{-112289;-198404;-3516;-516}}
+		//                   .
+		point1 = {-110237;-201243;-3357}
+		point2 = {-109022;-201243;-3357}
+	arena_end
+
+	arena_begin
+		id = 9
+		range = {{-90555;-260555;-3392;-392};{-84656;-260517;-3392;-392};{-84695;-255006;-3392;-392};{-90593;-255044;-3392;-392}}
+		//                   .
+		point1 = {-88209;-257844;-3356}
+		point2 = {-86981;-257844;-3356}
+	arena_end
+
+	arena_begin
+		id = 10
+		range = {{-96760;-253685;-3392;-392};{-90861;-253647;-3392;-392};{-90900;-248136;-3392;-392};{-96799;-248175;-3392;-392}}
+		//                   .
+		point1 = {-94489;-251053;-3356}
+		point2 = {-93289;-251053;-3356}
+	arena_end
+
+	arena_begin
+		id = 11
+		range = {{-79978;-254197;-3392;-392};{-74080;-254158;-3392;-392};{-74119;-248647;-3392;-392};{-80017;-248686;-3392;-392}}
+		//                   .
+		point1 = {-77780;-251509;-3356}
+		point2 = {-76544;-251509;-3356}
+	arena_end
+
+	arena_begin
+		id = 12
+		range = {{-84707;-248698;-3392;-392};{-78809;-248659;-3392;-392};{-78848;-243148;-3392;-392};{-84746;-243187;-3392;-392}}
+		//                   .
+		point1 = {-82415;-246024;-3356}
+		point2 = {-81206;-246024;-3356}
+	arena_end
+
+	arena_begin
+		id = 13
+		range = {{-90491;-242882;-3392;-392};{-84592;-242844;-3392;-392};{-84631;-237333;-3392;-392};{-90529;-237371;-3392;-392}} 
+		//                   .
+		point1 = {-88165;-240165;-3356}
+		point2 = {-86949;-240165;-3356}
+	arena_end
+
+	arena_begin
+		id = 14
+		range = {{-72760;-244659;-3392;-392};{-66862;-244620;-3392;-392};{-66900;-239109;-3392;-392};{-72799;-239148;-3392;-392}}
+		//                   .
+		point1 = {-70382;-241831;-3356}
+		point2 = {-69178;-241858;-3356}
+	arena_end
+
+	arena_begin
+		id = 15
+		range = {{-79703;-236629;-3392;-392};{-73805;-236590;-3392;-392};{-73844;-231080;-3392;-392};{-79742;-231118;-3392;-392}}
+		//                   .
+		point1 = {-77470;-234008;-3356}
+		point2 = {-76268;-234008;-3356}
+	arena_end
+
+	arena_begin
+		id = 16
+		range = {{-90549;-227734;-3388;-388};{-84559;-227734;-3388;-388};{-84559;-222143;-3388;-388};{-90549;-222143;-3388;-388}}
+		//                   .
+		point1 = {-88267;-225058;-3357}
+		point2 = {-86867;-225058;-3357}
+	arena_end
+
+	arena_begin
+		id = 17
+		range = {{-96681;-221043;-3388;-388};{-90691;-221043;-3388;-388};{-90691;-215452;-3388;-388};{-96681;-215452;-3388;-388}}
+		//                   .
+		point1 = {-94466;-218294;-3357}
+		point2 = {-93239;-218294;-3357}
+	arena_end
+
+	arena_begin
+		id = 18
+		range = {{-80153;-221554;-3388;-388};{-74163;-221554;-3388;-388};{-74163;-215963;-3388;-388};{-80153;-215963;-3388;-388}}
+		//                   .
+		point1 = {-77777;-218734;-3357}
+		point2 = {-76525;-218734;-3357}
+	arena_end
+
+	arena_begin
+		id = 19
+		range = {{-84880;-216093;-3388;-388};{-78890;-216093;-3388;-388};{-78890;-210502;-3388;-388};{-84880;-210502;-3388;-388}}
+		//                   .
+		point1 = {-82459;-213232;-3357}
+		point2 = {-81115;-213232;-3357}
+	arena_end
+
+	arena_begin
+		id = 20
+		range = {{-90661;-210104;-3388;-388};{-84671;-210104;-3388;-388};{-84671;-204513;-3388;-388};{-90661;-204513;-3388;-388}}
+		//                   .
+		point1 = {-88166;-207433;-3357}
+		point2 = {-86918;-207433;-3357}
+	arena_end
+
+	arena_begin
+		id = 21
+		range = {{-79754;-204116;-3388;-388};{-73764;-204116;-3388;-388};{-73764;-198525;-3388;-388};{-79754;-198525;-3388;-388}}
+		//                   .
+		point1 = {-77493;-201268;-3357}
+		point2 = {-76245;-201268;-3357}
+	arena_end
+
+	arena_begin
+		id = 22
+		range = {{-72712;-212004;-3388;-388};{-66722;-212004;-3388;-388};{-66722;-206414;-3388;-388};{-72712;-206414;-3388;-388}}
+		//                   .
+		point1 = {-70392;-209137;-3357}
+		point2 = {-69176;-209137;-3357}
+	arena_end
+
+olympiad_arena_end
+
+
+olympiad_genaral_setting_begin
+	forbidden_weapon = { 
+	[the_infinity_blade];
+	[the_infinity_cleaver];
+	[the_infinity_axe];
+	[the_infinity_rod];
+	[the_infinity_crusher];
+	[the_infinity_scepter];
+	[the_infinity_stinger];
+	[the_infinity_fangs];
+	[the_infinity_bow];
+	[the_infinity_wings];
+	[the_infinity_spear]
+}
+	//  ,      
+	forbidden_skill = {[s_party_recall1];[s_party_recall2];[s_return1];[s_return2];[s_escape_5min];[s_escape_1sec];[s_resurrection1];[s_resurrection2];[s_resurrection3];[s_resurrection4];[s_resurrection5];[s_resurrection6];[s_resurrection7];[s_resurrection8];[s_resurrection9];[s_mass_ressurection1];[s_mass_ressurection2];[s_mass_ressurection3];[s_mass_ressurection4];[s_mass_ressurection5];[s_mass_ressurection6]}
+	classless_bonus = {[nobless_gate_pass] = 50}
+	forbidden_item = {[blessed_spiritshot_none];
+[blessed_spiritshot_d];
+[blessed_spiritshot_c];
+[blessed_spiritshot_b];
+[blessed_spiritshot_a];
+[blessed_spiritshot_s];
+[blessed_beast_spirit_shot];
+[red_potion];
+[healing_drug];
+[mana_drug];
+[_healing_potion];
+[mana_potion];
+[scrl_of_ench_wp_a];
+[scrl_of_ench_am_a];
+[cry_scrl_of_ench_wp_a];
+[cry_scrl_of_ench_am_a];
+[endeavor_potion];
+[quick_step_potion];
+[swift_attack_potion];
+[scroll_of_escape];
+[scroll_of_resurrection];
+[scrl_of_ench_wp_b];
+[scrl_of_ench_am_b];
+[cry_scrl_of_ench_wp_b];
+[cry_scrl_of_ench_am_b];
+[scrl_of_ench_wp_c];
+[scrl_of_ench_am_c];
+[cry_scrl_of_ench_wp_c];
+[cry_scrl_of_ench_am_c];
+[scrl_of_ench_wp_d];
+[scrl_of_ench_am_d];
+[cry_scrl_of_ench_wp_d];
+[cry_scrl_of_ench_am_d];
+[scrl_of_ench_wp_s];
+[scrl_of_ench_am_s];
+[cry_scrl_of_ench_wp_s];
+[cry_scrl_of_ench_am_s];
+[lesser_healing_potion];
+[healing_potion];
+[haste_potion];
+[beginners_potion];
+[adv_quick_step_potion];
+[adv_swift_attack_potion];
+[blessed_scroll_of_escape];
+[greater_healing_potion];
+[quick_healing_potion];
+[scroll_of_escape_to_agit];
+[scroll_of_escape_to_castle];
+[antidote];
+[advanced_antidote];
+[bandage];
+[emergency_dressing];
+[food_for_wolves];
+[q_potion_of_recovery];
+[l2day_scroll_of_guidance];
+[l2day_scroll_of_death_whisper];
+[l2day_scroll_of_focus];
+[l2day_scroll_of_greater_acumen];
+[l2day_scroll_of_haste];
+[l2day_scroll_of_agility];
+[l2day_scroll_of_empower];
+[l2day_scroll_of_might];
+[l2day_scroll_of_wind_walk];
+[l2day_scroll_of_shield];
+[blessed_scroll_of_resurrection];
+[l2day_scroll_of_escape];
+[l2day_scroll_of_resurrection];
+[food_for_hatchling];
+[l2day_scroll_of_mana_regeneration];
+[red_soul_crystal_0];
+[red_soul_crystal_1];
+[red_soul_crystal_2];
+[red_soul_crystal_3];
+[red_soul_crystal_4];
+[red_soul_crystal_5];
+[red_soul_crystal_6];
+[red_soul_crystal_7];
+[red_soul_crystal_8];
+[red_soul_crystal_9];
+[red_soul_crystal_10];
+[green_soul_crystal_0];
+[green_soul_crystal_1];
+[green_soul_crystal_2];
+[green_soul_crystal_3];
+[green_soul_crystal_4];
+[green_soul_crystal_5];
+[green_soul_crystal_6];
+[green_soul_crystal_7];
+[green_soul_crystal_8];
+[green_soul_crystal_9];
+[green_soul_crystal_10];
+[blue_soul_crystal_0];
+[blue_soul_crystal_1];
+[blue_soul_crystal_2];
+[blue_soul_crystal_3];
+[blue_soul_crystal_4];
+[blue_soul_crystal_5];
+[blue_soul_crystal_6];
+[blue_soul_crystal_7];
+[blue_soul_crystal_8];
+[blue_soul_crystal_9];
+[blue_soul_crystal_10];
+[red_soul_crystal_x];
+[green_soul_crystal_x];
+[blue_soul_crystal_x];
+[potion_of_critical_escape];
+[decrease_hate_potion];
+[bless_of_eva];
+[rsk.damage_shield_potion];
+[food_for_strider];
+[deluxe_food_for_strider];
+[key_of_box0];
+[key_of_box1];
+[key_of_box2];
+[key_of_box3];
+[key_of_box4];
+[key_of_box5];
+[key_of_box6];
+[key_of_box7];
+[bighead_potion];
+[masktype_a_potion];
+[masktype_b_potion];
+[masktype_c_potion];
+[haircolor_a_potion];
+[haircolor_b_potion];
+[haircolor_c_potion];
+[haircolor_d_potion];
+[hairstyle_a_potion];
+[hairstyle_b_potion];
+[hairstyle_c_potion];
+[hairstyle_d_potion];
+[hairstyle_e_potion];
+[hairstyle_f_potion];
+[hairstyle_g_potion];
+[cake_mochi];
+[x_mas_tree1];
+[x_mas_tree2];
+[echo_crystal_carol1];
+[echo_crystal_carol2];
+[echo_crystal_carol3];
+[echo_crystal_carol4];
+[echo_crystal_carol5];
+[red_soul_crystal_11];
+[green_soul_crystal_11];
+[blue_soul_crystal_11];
+[red_soul_crystal_12];
+[green_soul_crystal_12];
+[blue_soul_crystal_12];
+[echo_crystal_carol6];
+[echo_crystal_carol7];
+[echo_crystal_carol8];
+[echo_crystal_carol9];
+[echo_crystal_carol10];
+[cp_potion];
+[adv_cp_potion];
+[sp_scroll1];
+[sp_scroll2];
+[sp_scroll3];
+[charm_of_luck_none];
+[charm_of_luck_d];
+[charm_of_luck_c];
+[charm_of_luck_b];
+[charm_of_luck_a];
+[charm_of_luck_s];
+[blessed_scroll_of_escape_to_agit];
+[blessed_scroll_of_escape_to_castle];
+[_red_soul_crystal_11];
+[_red_soul_crystal_12];
+[red_soul_crystal_13];
+[_green_soul_crystal_11];
+[_green_soul_crystal_12];
+[green_soul_crystal_13];
+[_blue_soul_crystal_11];
+[_blue_soul_crystal_12];
+[blue_soul_crystal_13];
+[potion_of_acumen2];
+[potion_of_acumen3];
+[scroll_of_awake];
+[advdeluxe_food_for_strider];
+[blessed_scroll_of_resurrection_pet];
+[small_gourd_seed];
+[big_gourd_seed];
+[gourd_nectar1];
+[fairy_fire];
+[adv_cp_potion_2005];
+[quick_healing_potion_2005];
+[small_green_swift_fish];
+[small_green_ugly_fish];
+[small_green_wide_fish];
+[green_swift_fish];
+[green_ugly_fish];
+[green_wide_fish];
+[big_green_swift_fish];
+[big_green_ugly_fish];
+[big_green_wide_fish];
+[small_jade_swift_fish];
+[small_jade_ugly_fish];
+[small_jade_wide_fish];
+[jade_swift_fish];
+[jade_ugly_fish];
+[jade_wide_fish];
+[big_jade_swift_fish];
+[big_jade_ugly_fish];
+[big_jade_wide_fish];
+[small_blue_swift_fish];
+[small_blue_ugly_fish];
+[small_blue_wide_fish];
+[blue_swift_fish];
+[blue_ugly_fish];
+[blue_wide_fish];
+[big_blue_swift_fish];
+[big_blue_ugly_fish];
+[big_blue_wide_fish];
+[small_yellow_swift_fish];
+[small_yellow_ugly_fish];
+[small_yellow_wide_fish];
+[yellow_swift_fish];
+[yellow_ugly_fish];
+[yellow_wide_fish];
+[big_yellow_swift_fish];
+[big_yellow_ugly_fish];
+[big_yellow_wide_fish];
+[small_orange_swift_fish];
+[small_orange_ugly_fish];
+[small_orange_wide_fish];
+[orange_swift_fish];
+[orange_ugly_fish];
+[orange_wide_fish];
+[big_orange_swift_fish];
+[big_orange_ugly_fish];
+[big_orange_wide_fish];
+[small_violet_swift_fish];
+[small_violet_ugly_fish];
+[small_violet_wide_fish];
+[violet_swift_fish];
+[violet_ugly_fish];
+[violet_wide_fish];
+[big_violet_swift_fish];
+[big_violet_ugly_fish];
+[big_violet_wide_fish];
+[small_red_swift_fish];
+[small_red_ugly_fish];
+[small_red_wide_fish];
+[red_swift_fish];
+[red_ugly_fish];
+[red_wide_fish];
+[big_red_swift_fish];
+[big_red_ugly_fish];
+[big_red_wide_fish];
+[small_white_swift_fish];
+[small_white_ugly_fish];
+[small_white_wide_fish];
+[white_swift_fish];
+[white_ugly_fish];
+[white_wide_fish];
+[big_white_swift_fish];
+[big_white_ugly_fish];
+[big_white_wide_fish];
+[small_black_swift_fish];
+[small_black_ugly_fish];
+[small_black_wide_fish];
+[black_swift_fish];
+[black_ugly_fish];
+[black_wide_fish];
+[big_black_swift_fish];
+[big_black_ugly_fish];
+[big_black_wide_fish];
+[small_green_treasure_box];
+[green_treasure_box];
+[big_green_treasure_box];
+[small_jade_treasure_box];
+[jade_treasure_box];
+[big_jade_treasure_box];
+[small_blue_treasure_box];
+[blue_treasure_box];
+[big_blue_treasure_box];
+[small_yellow_treasure_box];
+[yellow_treasure_box];
+[big_yellow_treasure_box];
+[small_orange_treasure_box];
+[orange_treasure_box];
+[big_orange_treasure_box];
+[small_violet_treasure_box];
+[violet_treasure_box];
+[big_violet_treasure_box];
+[small_red_treasure_box];
+[red_treasure_box];
+[big_red_treasure_box];
+[small_white_treasure_box];
+[white_treasure_box];
+[big_white_treasure_box];
+[small_black_treasure_box];
+[black_treasure_box];
+[big_black_treasure_box];
+[blessed_scrl_of_ench_wp_a];
+[blessed_scrl_of_ench_am_a];
+[blessed_scrl_of_ench_wp_b];
+[blessed_scrl_of_ench_am_b];
+[blessed_scrl_of_ench_wp_c];
+[blessed_scrl_of_ench_am_c];
+[blessed_scrl_of_ench_wp_d];
+[blessed_scrl_of_ench_am_d];
+[blessed_scrl_of_ench_wp_s];
+[blessed_scrl_of_ench_am_s];
+[golden_spice];
+[crystal_spice];
+[escape_scroll_talking];
+[escape_scroll_elf];
+[escape_scroll_darkelf];
+[escape_scroll_orc];
+[escape_scroll_dwarf];
+[escape_scroll_gludin];
+[escape_scroll_gludio];
+[escape_scroll_dion];
+[escape_scroll_floran];
+[escape_scroll_giran];
+[escape_scroll_hardin];
+[escape_scroll_heiness];
+[escape_scroll_oren];
+[escape_scroll_ivorytower];
+[escape_scroll_hunter];
+[escape_scroll_aden];
+[escape_scroll_godard];
+[escape_scroll_rune];
+[escape_scroll_schtgart];
+[q_escape_scroll_talking];
+[q_escape_scroll_elf];
+[q_escape_scroll_darkelf];
+[q_escape_scroll_orc];
+[q_escape_scroll_dwarf];
+[q_escape_scroll_giran];
+[pet_food_baby_spice];
+[escape_scroll_ketra];
+[escape_scroll_barka];
+[q_white_trbox];
+[q_blue_trbox];
+[q_yellow_trbox];
+[q_red_trbox];
+[q_purple_trbox];
+[q_clean_brown_pouch];
+[q_clean_gray_pouch];
+[q_dirty_yellow_sac];
+[q_dirty_brown_sac];
+[wolf_collar];
+[dragonflute_of_wind];
+[dragonflute_of_star];
+[dragonflute_of_twilight];
+[dragon_bugle_wind];
+[dragon_bugle_star];
+[dragon_bugle_dusk];
+[manacles_of_redemption];
+[the_infinity_blade];
+[the_infinity_cleaver];
+[the_infinity_axe];
+[the_infinity_rod];
+[the_infinity_crusher];
+[the_infinity_scepter];
+[the_infinity_stinger];
+[the_infinity_fangs];
+[the_infinity_bow];
+[the_infinity_wings];
+[the_infinity_spear];
+[baby_buffalo_panpipe];
+[baby_cougar_chime];
+[baby_kukaburo_ocarina]
+}
+	give_skill = {
+		duelist = {[s_haste2];[s_wind_walk1]}
+		dreadnought = {[s_haste2];[s_wind_walk1]}
+		phoenix_knight = {[s_haste2];[s_wind_walk1]}
+		hell_knight = {[s_haste2];[s_wind_walk1]}
+		sagittarius = {[s_haste2];[s_wind_walk1]}
+		adventurer = {[s_haste2];[s_wind_walk1]}
+		archmage = {[s_wind_walk2]}
+		soultaker = {[s_wind_walk2]}
+		arcana_lord = {[s_wind_walk2]}
+		cardinal = {[s_wind_walk2]}
+		hierophant = {[s_wind_walk2]}
+		evas_templar = {[s_haste2];[s_wind_walk1]}
+		sword_muse = {[s_haste2];[s_wind_walk1]}
+		wind_rider = {[s_haste2];[s_wind_walk1]}
+		moonlight_sentinel = {[s_haste2];[s_wind_walk1]}
+		mystic_muse = {[s_wind_walk2]}
+		elemental_master = {[s_wind_walk2]}
+		evas_saint = {[s_wind_walk2]}
+		shilien_templar = {[s_haste2];[s_wind_walk1]}
+		spectral_dancer = {[s_haste2];[s_wind_walk1]}
+		ghost_hunter = {[s_haste2];[s_wind_walk1]}
+		ghost_sentinel = {[s_haste2];[s_wind_walk1]}
+		storm_screamer = {[s_wind_walk2]}
+		spectral_master = {[s_wind_walk2]}
+		shilien_saint = {[s_wind_walk2]}
+		titan = {[s_haste2];[s_wind_walk1]}
+		grand_khavatari = {[s_haste2];[s_wind_walk1]}
+		dominator = {[s_wind_walk2]}
+		doomcryer = {[s_wind_walk2]}
+		fortune_seeker = {[s_haste2];[s_wind_walk1]}
+		maestro = {[s_haste2];[s_wind_walk1]}
+	}
+olympiad_general_setting_end

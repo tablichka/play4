@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+
+    <zone id="1401" name="Red Hot Spring 1">
+        <attr name="type" val="danger"/>
+        <listener name="PlayerChangedZonesListener"/>
+        <effects>
+            <effect action="add" event="schedule" unit_tick="5">
+                <skill id="4559" level="1"/>
+            </effect>
+            <effect action="remove" event="schedule" unit_tick="5">
+                <!-- Hot Springs Cholera -->
+                <skill id="4552" level="10"/>
+                <!-- Hot Springs Malaria -->
+                <skill id="4554" level="10"/>
+            </effect>
+        </effects>
+        <!-- Added Shape id 1401 -->
+        <shape type="Poly" zMin="-2160" zMax="-2050">
+            <point x="147237" y="-113111"/>
+            <point x="147360" y="-112993"/>
+            <point x="147512" y="-112969"/>
+            <point x="147664" y="-113022"/>
+            <point x="147743" y="-113108"/>
+            <point x="147799" y="-113242"/>
+            <point x="147755" y="-113403"/>
+            <point x="147720" y="-113503"/>
+            <point x="147464" y="-113625"/>
+            <point x="147344" y="-113574"/>
+            <point x="147203" y="-113384"/>
+        </shape>
+    </zone>
+
+    <zone id="1402" name="Red Hot Spring 2">
+        <attr name="type" val="danger"/>
+        <listener name="PlayerChangedZonesListener"/>
+        <effects>
+            <effect action="add" event="schedule" unit_tick="5">
+                <skill id="4559" level="1"/>
+            </effect>
+            <effect action="remove" event="schedule" unit_tick="5">
+                <!-- Hot Springs Cholera -->
+                <skill id="4552" level="10"/>
+                <!-- Hot Springs Malaria -->
+                <skill id="4554" level="10"/>
+            </effect>
+        </effects>
+        <!-- Added Shape id 1402 -->
+        <shape type="Poly" zMin="-3665" zMax="-3565">
+            <point x="141218" y="-109271"/>
+            <point x="141372" y="-109101"/>
+            <point x="141550" y="-109077"/>
+            <point x="141579" y="-108996"/>
+            <point x="141855" y="-109079"/>
+            <point x="142060" y="-109378"/>
+            <point x="141975" y="-109735"/>
+            <point x="141789" y="-109866"/>
+            <point x="141497" y="-109829"/>
+            <point x="141278" y="-109640"/>
+            <point x="141281" y="-109393"/>
+            <point x="141321" y="-109261"/>
+        </shape>
+    </zone>
+
+    <zone id="1403" name="Red Hot Spring 3">
+        <attr name="type" val="danger"/>
+        <listener name="PlayerChangedZonesListener"/>
+        <effects>
+            <effect action="add" event="schedule" unit_tick="5">
+                <skill id="4559" level="1"/>
+            </effect>
+            <effect action="remove" event="schedule" unit_tick="5">
+                <!-- Hot Springs Cholera -->
+                <skill id="4552" level="10"/>
+                <!-- Hot Springs Malaria -->
+                <skill id="4554" level="10"/>
+            </effect>
+        </effects>
+        <!-- Added Shape id 1403 -->
+        <shape type="Poly" zMin="-2740" zMax="-2640">
+            <point x="157415" y="-109901"/>
+            <point x="157233" y="-110041"/>
+            <point x="157103" y="-110050"/>
+            <point x="156878" y="-109943"/>
+            <point x="156749" y="-109773"/>
+            <point x="156682" y="-109565"/>
+            <point x="156675" y="-109520"/>
+            <point x="156742" y="-109447"/>
+            <point x="156795" y="-109295"/>
+            <point x="156868" y="-109239"/>
+            <point x="156903" y="-109238"/>
+            <point x="156938" y="-109292"/>
+            <point x="157024" y="-109296"/>
+            <point x="157065" y="-109232"/>
+            <point x="157089" y="-109176"/>
+            <point x="157201" y="-109155"/>
+            <point x="157341" y="-109219"/>
+            <point x="157444" y="-109314"/>
+            <point x="157444" y="-109376"/>
+            <point x="157479" y="-109418"/>
+            <point x="157501" y="-109509"/>
+            <point x="157479" y="-109537"/>
+            <point x="157502" y="-109562"/>
+            <point x="157453" y="-109797"/>
+            <point x="157401" y="-109912"/>
+        </shape>
+    </zone>
+
+    <zone id="1404" name="Red Hot Spring 4">
+        <attr name="type" val="danger"/>
+        <listener name="PlayerChangedZonesListener"/>
+        <effects>
+            <effect action="add" event="schedule" unit_tick="5">
+                <skill id="4559" level="1"/>
+            </effect>
+            <effect action="remove" event="schedule" unit_tick="5">
+                <!-- Hot Springs Cholera -->
+                <skill id="4552" level="10"/>
+                <!-- Hot Springs Malaria -->
+                <skill id="4554" level="10"/>
+            </effect>
+        </effects>
+        <!-- Added Shape id 1404 -->
+        <shape type="Poly" zMin="-1975" zMax="-1875">
+            <point x="158126" y="-115703"/>
+            <point x="158062" y="-115778"/>
+            <point x="158018" y="-115742"/>
+            <point x="157970" y="-115789"/>
+            <point x="157975" y="-115812"/>
+            <point x="157685" y="-115856"/>
+            <point x="157554" y="-115818"/>
+            <point x="157475" y="-115723"/>
+            <point x="157439" y="-115596"/>
+            <point x="157481" y="-115394"/>
+            <point x="157439" y="-115170"/>
+            <point x="157504" y="-115050"/>
+            <point x="157629" y="-114967"/>
+            <point x="157816" y="-114944"/>
+            <point x="157979" y="-115036"/>
+            <point x="157933" y="-115083"/>
+            <point x="157966" y="-115133"/>
+            <point x="157956" y="-115300"/>
+            <point x="157949" y="-115469"/>
+            <point x="158049" y="-115592"/>
+            <point x="158052" y="-115696"/>
+        </shape>
+    </zone>
+
+    <zone id="1405" name="Yellow Hot Spring 1">
+        <attr name="type" val="danger"/>
+        <listener name="PlayerChangedZonesListener"/>
+        <effects>
+            <effect action="add" event="schedule" unit_tick="5">
+                <skill id="4559" level="1"/>
+            </effect>
+            <effect action="remove" event="schedule" unit_tick="5">
+                <!-- Hot Springs Malaria -->
+                <skill id="4554" level="10"/>
+            </effect>
+        </effects>
+        <!-- Added Shape id 1405 -->
+        <shape type="Poly" zMin="-3705" zMax="-3605">
+            <point x="140921" y="-105211"/>
+            <point x="140998" y="-105337"/>
+            <point x="141011" y="-105471"/>
+            <point x="140975" y="-105514"/>
+            <point x="141006" y="-105567"/>
+            <point x="140967" y="-105659"/>
+            <point x="140854" y="-105745"/>
+            <point x="140740" y="-105733"/>
+            <point x="140554" y="-105798"/>
+            <point x="140512" y="-105843"/>
+            <point x="140333" y="-105856"/>
+            <point x="140221" y="-105803"/>
+            <point x="140134" y="-105298"/>
+            <point x="140388" y="-105285"/>
+            <point x="140582" y="-105277"/>
+            <point x="140766" y="-105200"/>
+        </shape>
+    </zone>
+
+    <zone id="1406" name="Yellow Hot Spring 2">
+        <attr name="type" val="danger"/>
+        <listener name="PlayerChangedZonesListener"/>
+        <effects>
+            <effect action="add" event="schedule" unit_tick="5">
+                <skill id="4559" level="1"/>
+            </effect>
+            <effect action="remove" event="schedule" unit_tick="5">
+                <!-- Hot Springs Malaria -->
+                <skill id="4554" level="10"/>
+            </effect>
+        </effects>
+        <!-- Added Shape id 1406 -->
+        <shape type="Poly" zMin="-2880" zMax="-2780">
+            <point x="152706" y="-107699"/>
+            <point x="152773" y="-107723"/>
+            <point x="152847" y="-107810"/>
+            <point x="152956" y="-108124"/>
+            <point x="152918" y="-108157"/>
+            <point x="152868" y="-108309"/>
+            <point x="152816" y="-108391"/>
+            <point x="152742" y="-108447"/>
+            <point x="152670" y="-108486"/>
+            <point x="152848" y="-108491"/>
+            <point x="152507" y="-108475"/>
+            <point x="152437" y="-108501"/>
+            <point x="152384" y="-108496"/>
+            <point x="152384" y="-108448"/>
+            <point x="152376" y="-108405"/>
+            <point x="152292" y="-108377"/>
+            <point x="152256" y="-108384"/>
+            <point x="152210" y="-108309"/>
+            <point x="152165" y="-108274"/>
+            <point x="152128" y="-108143"/>
+            <point x="152175" y="-108053"/>
+            <point x="152138" y="-107886"/>
+            <point x="152208" y="-107856"/>
+            <point x="152336" y="-107856"/>
+            <point x="152352" y="-107776"/>
+            <point x="152532" y="-107728"/>
+            <point x="152638" y="-107757"/>
+        </shape>
+    </zone>
+
+    <zone id="1407" name="Yellow Hot Spring 3">
+        <attr name="type" val="danger"/>
+        <listener name="PlayerChangedZonesListener"/>
+        <effects>
+            <effect action="add" event="schedule" unit_tick="5">
+                <skill id="4559" level="1"/>
+            </effect>
+            <effect action="remove" event="schedule" unit_tick="5">
+                <!-- Hot Springs Malaria -->
+                <skill id="4554" level="10"/>
+            </effect>
+        </effects>
+        <!-- Added Shape id 1407 -->
+        <shape type="Poly" zMin="-1645" zMax="-1545">
+            <point x="152144" y="-116656"/>
+            <point x="152131" y="-116476"/>
+            <point x="152184" y="-116420"/>
+            <point x="152256" y="-116400"/>
+            <point x="152295" y="-116352"/>
+            <point x="152292" y="-116242"/>
+            <point x="152347" y="-116162"/>
+            <point x="152657" y="-116121"/>
+            <point x="152639" y="-116247"/>
+            <point x="152733" y="-116286"/>
+            <point x="152790" y="-116251"/>
+            <point x="152814" y="-116174"/>
+            <point x="152892" y="-116243"/>
+            <point x="152978" y="-116534"/>
+            <point x="152863" y="-116630"/>
+            <point x="152895" y="-116739"/>
+            <point x="152812" y="-116906"/>
+            <point x="152572" y="-116912"/>
+            <point x="152672" y="-116800"/>
+            <point x="152576" y="-116800"/>
+            <point x="152496" y="-116864"/>
+            <point x="152364" y="-116816"/>
+            <point x="152270" y="-116811"/>
+            <point x="152225" y="-116698"/>
+        </shape>
+    </zone>
+
+    <zone id="1408" name="Green Hot Spring 1">
+        <attr name="type" val="danger"/>
+        <listener name="PlayerChangedZonesListener"/>
+        <effects>
+            <effect action="add" event="schedule" unit_tick="5">
+                <skill id="4559" level="1"/>
+            </effect>
+            <effect action="remove" event="schedule" unit_tick="5">
+                <!-- Hot Springs Malaria -->
+                <skill id="4554" level="10"/>
+            </effect>
+        </effects>
+        <!-- Added Shape id 1408 -->
+        <shape type="Poly" zMin="-3750" zMax="-3650">
+            <point x="145741" y="-105096"/>
+            <point x="145729" y="-105158"/>
+            <point x="145662" y="-105257"/>
+            <point x="145589" y="-105325"/>
+            <point x="145492" y="-105359"/>
+            <point x="145441" y="-105356"/>
+            <point x="145381" y="-105399"/>
+            <point x="145290" y="-105393"/>
+            <point x="145162" y="-105352"/>
+            <point x="145073" y="-105294"/>
+            <point x="145046" y="-105231"/>
+            <point x="145013" y="-105202"/>
+            <point x="145009" y="-105170"/>
+            <point x="144984" y="-105145"/>
+            <point x="144938" y="-105042"/>
+            <point x="144894" y="-104966"/>
+            <point x="144891" y="-104920"/>
+            <point x="144921" y="-104860"/>
+            <point x="144964" y="-104770"/>
+            <point x="145017" y="-104627"/>
+            <point x="145071" y="-104572"/>
+            <point x="145139" y="-104540"/>
+            <point x="145376" y="-104576"/>
+            <point x="145392" y="-104560"/>
+            <point x="145481" y="-104554"/>
+            <point x="145521" y="-104593"/>
+            <point x="145576" y="-104618"/>
+            <point x="145606" y="-104667"/>
+            <point x="145641" y="-104698"/>
+            <point x="145631" y="-104758"/>
+            <point x="145673" y="-104840"/>
+            <point x="145696" y="-104912"/>
+            <point x="145678" y="-105019"/>
+            <point x="145701" y="-105072"/>
+        </shape>
+    </zone>
+
+    <zone id="1409" name="Green Hot Spring 2">
+        <attr name="type" val="danger"/>
+        <listener name="PlayerChangedZonesListener"/>
+        <effects>
+            <effect action="add" event="schedule" unit_tick="5">
+                <skill id="4559" level="1"/>
+            </effect>
+            <effect action="remove" event="schedule" unit_tick="5">
+                <!-- Hot Springs Malaria -->
+                <skill id="4554" level="10"/>
+            </effect>
+        </effects>
+        <!-- Added Shape id 1409 -->
+        <shape type="Poly" zMin="-2825" zMax="-2725">
+            <point x="155338" y="-105406"/>
+            <point x="155392" y="-105326"/>
+            <point x="155474" y="-105273"/>
+            <point x="155593" y="-105284"/>
+            <point x="155598" y="-105348"/>
+            <point x="155620" y="-105381"/>
+            <point x="155651" y="-105391"/>
+            <point x="155687" y="-105371"/>
+            <point x="155748" y="-105293"/>
+            <point x="155892" y="-105226"/>
+            <point x="155984" y="-105264"/>
+            <point x="156032" y="-105408"/>
+            <point x="156112" y="-105440"/>
+            <point x="156080" y="-105552"/>
+            <point x="156160" y="-105664"/>
+            <point x="156186" y="-105750"/>
+            <point x="156119" y="-105880"/>
+            <point x="156034" y="-105893"/>
+            <point x="156013" y="-105945"/>
+            <point x="155879" y="-105953"/>
+            <point x="155735" y="-105887"/>
+            <point x="155555" y="-105860"/>
+            <point x="155452" y="-105867"/>
+            <point x="155352" y="-105784"/>
+            <point x="155321" y="-105578"/>
+            <point x="155347" y="-105447"/>
+        </shape>
+    </zone>
+    <zone id="1410" name="Green Hot Spring 3">
+        <attr name="type" val="danger"/>
+        <listener name="PlayerChangedZonesListener"/>
+        <effects>
+            <effect action="add" event="schedule" unit_tick="5">
+                <skill id="4559" level="1"/>
+            </effect>
+            <effect action="remove" event="schedule" unit_tick="5">
+                <!-- Hot Springs Malaria -->
+                <skill id="4554" level="10"/>
+            </effect>
+        </effects>
+        <!-- Added Shape id 1410 -->
+        <shape type="Poly" zMin="-1725" zMax="-1625">
+            <point x="153405" y="-113203"/>
+            <point x="153224" y="-113266"/>
+            <point x="153128" y="-113286"/>
+            <point x="152977" y="-113254"/>
+            <point x="152786" y="-113078"/>
+            <point x="152733" y="-112802"/>
+            <point x="152800" y="-112672"/>
+            <point x="153013" y="-112433"/>
+            <point x="153085" y="-112529"/>
+            <point x="153168" y="-112528"/>
+            <point x="153296" y="-112512"/>
+            <point x="153342" y="-112422"/>
+            <point x="153461" y="-112492"/>
+            <point x="153524" y="-112587"/>
+            <point x="153462" y="-112689"/>
+            <point x="153575" y="-112807"/>
+            <point x="153520" y="-113028"/>
+        </shape>
+    </zone>
+
+</list>

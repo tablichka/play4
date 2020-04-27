@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 0373_reagent_supplier_bandor -->
+<list>
+  <config showall="true" notax="true" keepenchanted="false" />
+	<item>
+		<production id="4042" count="1"/>	<!-- Enria -->
+		<ingredient id="6022" count="2"/>	<!-- Magma Dust -->
+	</item>
+	<item>
+		<production id="4043" count="1"/>	<!-- Asofe -->
+		<ingredient id="6021" count="6"/>	<!-- Dracoplasm -->
+	</item>
+	<item>
+		<production id="4044" count="1"/>	<!-- Thons -->
+		<ingredient id="6024" count="4"/>	<!-- Necroplasm -->
+	</item>
+	<item>
+		<production id="2508" count="100"/>	<!-- Cursed Bone -->
+		<ingredient id="6026" count="4"/>	<!-- Inferno Dust -->
+	</item>
+	<item>
+		<production id="735" count="10"/>	<!-- Alacrity Potion -->
+		<ingredient id="6025" count="7"/>	<!-- Demonplasm -->
+	</item>
+	<item>
+		<production id="737" count="10"/>	<!-- Scroll of Resurrection -->
+		<ingredient id="6023" count="8"/>	<!-- Moon Dust -->
+	</item>
+	<item>
+		<production id="4953" count="1"/>	<!-- Recipe: Sealed Avadon Gloves (60%) -->
+		<ingredient id="6027" count="1"/>	<!-- Draconic Essence -->
+	</item>
+	<item>
+		<production id="4960" count="1"/>	<!-- Recipe: Sealed Zubei's Gauntlets (60%) -->
+		<ingredient id="6027" count="1"/>	<!-- Draconic Essence -->
+	</item>
+	<item>
+		<production id="4959" count="1"/>	<!-- Recipe: Sealed Avadon Boots (60%) -->
+		<ingredient id="6030" count="1"/>	<!-- Midnight Oil -->
+	</item>
+	<item>
+		<production id="4958" count="1"/>	<!-- Recipe: Sealed Zubei's Boots (60%) -->
+		<ingredient id="6030" count="1"/>	<!-- Midnight Oil -->
+	</item>
+	<item>
+		<production id="4998" count="1"/>	<!-- Recipe: Sealed Blue Wolf Gloves (60%) -->
+		<ingredient id="6030" count="1"/>	<!-- Midnight Oil -->
+	</item>
+	<item>
+		<production id="4992" count="1"/>	<!-- Recipe: Sealed Blue Wolf Boots (60%) -->
+		<ingredient id="6030" count="1"/>	<!-- Midnight Oil -->
+	</item>
+	<item>
+		<production id="4993" count="1"/>	<!-- Recipe: Sealed Doom Gloves (60%) -->
+		<ingredient id="6030" count="1"/>	<!-- Midnight Oil -->
+	</item>
+	<item>
+		<production id="4999" count="1"/>	<!-- Recipe: Sealed Doom Boots (60%) -->
+		<ingredient id="6030" count="1"/>	<!-- Midnight Oil -->
+	</item>
+	<item>
+		<production id="5524" count="1"/>	<!-- Sealed Dark Crystal Gaiters Pattern -->
+		<ingredient id="6029" count="1"/>	<!-- Lunargent -->
+	</item>
+	<item>
+		<production id="5478" count="1"/>	<!-- Sealed Dark Crystal Leather Armor Pattern -->
+		<ingredient id="6029" count="1"/>	<!-- Lunargent -->
+	</item>
+	<item>
+		<production id="5520" count="1"/>	<!-- Sealed Dark Crystal Breastplate Pattern -->
+		<ingredient id="6031" count="1"/>	<!-- Demonic Essence -->
+	</item>
+	<item>
+		<production id="5479" count="1"/>	<!-- Sealed Tallum Leather Armor Pattern -->
+		<ingredient id="6031" count="1"/>	<!-- Demonic Essence -->
+	</item>
+	<item>
+		<production id="5521" count="1"/>	<!-- Sealed Tallum Plate Armor Pattern -->
+		<ingredient id="6032" count="1"/>	<!-- Abyss Oil -->
+	</item>
+	<item>
+		<production id="5480" count="1"/>	<!-- Sealed Leather Armor of Nightmare Fabric -->
+		<ingredient id="6032" count="1"/>	<!-- Abyss Oil -->
+	</item>
+	<item>
+		<production id="5481" count="1"/>	<!-- Sealed Majestic Leather Armor Fabric -->
+		<ingredient id="6032" count="1"/>	<!-- Abyss Oil -->
+	</item>
+	<item>
+		<production id="5522" count="1"/>	<!-- Sealed Armor of Nightmare Pattern -->
+		<ingredient id="6028" count="1"/>	<!-- Fire Essence -->
+	</item>
+	<item>
+		<production id="5523" count="1"/>	<!-- Sealed Majestic Plate Armor Pattern -->
+		<ingredient id="6028" count="1"/>	<!-- Fire Essence -->
+	</item>
+	<item>
+		<production id="103" count="1"/>	<!-- Tower Shield -->
+		<ingredient id="6031" count="8"/>	<!-- Demonic Essence -->
+	</item>
+	<item>
+		<production id="2437" count="1"/>	<!-- Drake Leather Boots -->
+		<ingredient id="6032" count="8"/>	<!-- Abyss Oil -->
+	</item>
+	<item>
+		<production id="630" count="1"/>	<!-- Square Shield -->
+		<ingredient id="6029" count="5"/>	<!-- Lunargent -->
+	</item>
+	<item>
+		<production id="612" count="1"/>	<!-- Sealed Zubei's Gauntlets -->
+		<ingredient id="6033" count="1"/>	<!-- Hellfire Oil -->
+	</item>
+	<item>
+		<production id="2464" count="1"/>	<!-- Sealed Avadon Gloves -->
+		<ingredient id="6033" count="1"/>	<!-- Hellfire Oil -->
+	</item>
+	<item>
+		<production id="554" count="1"/>	<!-- Sealed Zubei's Boots -->
+		<ingredient id="6033" count="1"/>	<!-- Hellfire Oil -->
+	</item>
+	<item>
+		<production id="600" count="1"/>	<!-- Sealed Avadon Boots -->
+		<ingredient id="6033" count="1"/>	<!-- Hellfire Oil -->
+	</item>
+	<item>
+		<production id="2439" count="1"/>	<!-- Sealed Blue Wolf Boots -->
+		<ingredient id="6034" count="4"/>	<!-- Nightmare Oil -->
+	</item>
+	<item>
+		<production id="601" count="1"/>	<!-- Sealed Doom Boots -->
+		<ingredient id="6034" count="4"/>	<!-- Nightmare Oil -->
+	</item>
+	<item>
+		<production id="2487" count="1"/>	<!-- Sealed Blue Wolf Gloves -->
+		<ingredient id="6034" count="4"/>	<!-- Nightmare Oil -->
+	</item>
+	<item>
+		<production id="2475" count="1"/>	<!-- Sealed Doom Gloves -->
+		<ingredient id="6034" count="4"/>	<!-- Nightmare Oil -->
+	</item>
+	<item>
+		<production id="7562" count="1"/>	<!-- Dimensional Diamond -->
+		<ingredient id="6024" count="5"/>	<!-- Necroplasm -->
+	</item>
+</list>

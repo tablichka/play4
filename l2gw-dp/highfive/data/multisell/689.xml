@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- oren_merc_captain2 -->
+<list>
+	<config showall="true" notax="true" keepenchanted="false" />
+	<item>
+		<production id="13605" count="1"/>	<!-- Transformation Scroll: Oren Human Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13606" count="1"/>	<!-- Transformation Scroll: Oren Elf Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13607" count="1"/>	<!-- Transformation Scroll: Oren Dark Elf Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13608" count="1"/>	<!-- Transformation Scroll: Oren Orc Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13609" count="1"/>	<!-- Transformation Scroll: Oren Dwarf Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13610" count="1"/>	<!-- Transformation Scroll: Oren Kamael Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13680" count="1"/>	<!-- Oren Disguise Scroll -->
+		<ingredient id="57" count="70000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14812" count="1"/>	<!-- Red Talisman - Territory Guard -->
+		<ingredient id="57" count="12200"/>	<!-- Adena -->
+		<ingredient id="13760" count="10"/>	<!-- Oren Territory Badge -->
+	</item>
+	<item>
+		<production id="14813" count="1"/>	<!-- Blue Talisman - Lord's Divine Protection -->
+		<ingredient id="57" count="14500"/>	<!-- Adena -->
+		<ingredient id="13760" count="13"/>	<!-- Oren Territory Badge -->
+	</item>
+	<item>
+		<production id="13612" count="1"/>	<!-- Transformation Scroll: Oren Archer Mercenary -->
+		<ingredient id="57" count="27800"/>	<!-- Adena -->
+		<ingredient id="13760" count="5"/>	<!-- Oren Territory Badge -->
+	</item>
+	<item>
+		<production id="13613" count="1"/>	<!-- Transformation Scroll: Oren Wizard Mercenary -->
+		<ingredient id="57" count="27800"/>	<!-- Adena -->
+		<ingredient id="13760" count="5"/>	<!-- Oren Territory Badge -->
+	</item>
+	<item>
+		<production id="13614" count="1"/>	<!-- Transformation Scroll: Oren Kamael Captain Mercenary -->
+		<ingredient id="57" count="27800"/>	<!-- Adena -->
+		<ingredient id="13760" count="5"/>	<!-- Oren Territory Badge -->
+	</item>
+	<item>
+		<production id="13615" count="1"/>	<!-- Transformation Scroll: Oren Knight Captain Mercenary -->
+		<ingredient id="57" count="55600"/>	<!-- Adena -->
+		<ingredient id="13760" count="10"/>	<!-- Oren Territory Badge -->
+	</item>
+	<item>
+		<production id="13616" count="1"/>	<!-- Transformation Scroll: Oren Commander Mercenary -->
+		<ingredient id="57" count="55600"/>	<!-- Adena -->
+		<ingredient id="13760" count="10"/>	<!-- Oren Territory Badge -->
+	</item>
+</list>

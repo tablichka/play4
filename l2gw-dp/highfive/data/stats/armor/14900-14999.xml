@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="14978" name="Dark Crystal Robe of Friendship - 30 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="14980" name="Dark Crystal Gloves of Friendship - Robe - 30 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="14981" name="Dark Crystal Boots of Friendship - Robe - 30 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="14983" name="Avadon Robe of Friendship - 30 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="14985" name="Avadon Gloves of Friendship - Robe - 30 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="14986" name="Avadon Boots of Friendship - Robe - 30 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="14988" name="Karmian Tunic of Friendship - 30 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="14989" name="Karmian Stockings of Friendship - 30 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="14992" name="Mithril Tunic of Friendship - 30 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="14993" name="Mithril Stockings of Friendship - 30 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+</list>

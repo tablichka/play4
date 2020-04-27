@@ -1,0 +1,222 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<fieldcycle>
+	<cycle id="1">
+		<step id="1" step_point="100000" lock_time="86400" drop_time="0" interval_time="0" interval_point="0">
+			<area_on name="area_magiccircle1"/>
+			<area_on name="area_iron_gate"/>
+			<restart range="{-32494;229691;-15000;9500};{-32488;261434;-15000;9500};{13778;261502;-15000;9500};{13611;229639;-15000;9500}">
+				<normal point="-16434;208803;-3691"/>
+				<chao point="-16434;208803;-3691"/>
+			</restart>
+		</step>
+		<step id="2" step_point="420000" lock_time="86400" drop_time="259200" interval_time="0" interval_point="0">
+			<area_on name="area_magiccircle1"/>
+			<area_on name="area_iron_gate"/>
+			<restart range="{-32494;229691;-15000;9500};{-32488;261434;-15000;9500};{13778;261502;-15000;9500};{13611;229639;-15000;9500}">
+				<normal point="-16434;208803;-3691"/>
+				<chao point="-16434;208803;-3691"/>
+			</restart>
+		</step>
+		<step id="3" step_point="512000" lock_time="86400" drop_time="259200" interval_time="0" interval_point="0">
+			<area_on name="area_magiccircle1"/>
+			<area_on name="area_iron_gate"/>
+			<restart range="{-32494;229691;-15000;9500};{-32488;261434;-15000;9500};{13778;261502;-15000;9500};{13611;229639;-15000;9500}">
+				<normal point="-16434;208803;-3691"/>
+				<chao point="-16434;208803;-3691"/>
+			</restart>
+		</step>
+		<step id="4" step_point="604000" lock_time="86400" drop_time="259200" interval_time="0" interval_point="0">
+			<area_on name="area_magiccircle1"/>
+			<area_on name="area_iron_gate"/>
+			<restart range="{-32494;229691;-15000;9500};{-32488;261434;-15000;9500};{13778;261502;-15000;9500};{13611;229639;-15000;9500}">
+				<normal point="-16434;208803;-3691"/>
+				<chao point="-16434;208803;-3691"/>
+			</restart>
+		</step>
+		<step id="5" step_point="696000" lock_time="86400" drop_time="259200" interval_time="0" interval_point="0">
+			<open_door name="hell_town_secret_door"/>
+			<area_on name="area_magiccircle2"/>
+			<area_on name="area_iron_gate"/>
+			<restart range="{-32494;229691;-15000;9500};{-32488;261434;-15000;9500};{13778;261502;-15000;9500};{13611;229639;-15000;9500}">
+				<normal point="-16434;208803;-3691"/>
+				<chao point="-16434;208803;-3691"/>
+			</restart>
+		</step>
+		<step id="6" step_point="788000" lock_time="86400" drop_time="259200" interval_time="0" interval_point="0">
+			<open_door name="hell_town_secret_door"/>
+			<area_on name="area_magiccircle2"/>
+			<area_on name="area_iron_gate"/>
+			<restart range="{-32494;229691;-15000;9500};{-32488;261434;-15000;9500};{13778;261502;-15000;9500};{13611;229639;-15000;9500}">
+				<normal point="-16434;208803;-3691"/>
+				<chao point="-16434;208803;-3691"/>
+			</restart>
+		</step>
+		<step id="7" step_point="880000" lock_time="86400" drop_time="259200" interval_time="0" interval_point="0">
+			<open_door name="hell_town_secret_door"/>
+			<open_door name="injury_earth_door"/>
+			<area_on name="area_iron_gate"/>
+			<restart range="{-32494;229691;-15000;9500};{-32488;261434;-15000;9500};{13778;261502;-15000;9500};{13611;229639;-15000;9500}">
+				<normal point="-16434;208803;-3691"/>
+				<chao point="-16434;208803;-3691"/>
+			</restart>
+		</step>
+		<step id="8" step_point="972000" lock_time="600" drop_time="86400" interval_time="0" interval_point="0">
+			<open_door name="hell_town_secret_door"/>
+			<open_door name="injury_earth_door"/>
+			<area_on name="area_iron_gate"/>
+			<restart range="{-32494;229691;-15000;9500};{-32488;261434;-15000;9500};{13778;261502;-15000;9500};{13611;229639;-15000;9500}">
+				<normal point="-16434;208803;-3691"/>
+				<chao point="-16434;208803;-3691"/>
+			</restart>
+		</step>
+		<step id="9" step_point="1064000" lock_time="86400" drop_time="259200" interval_time="0" interval_point="0">
+			<open_door name="hell_town_secret_door"/>
+			<open_door name="injury_earth_door"/>
+			<open_door name="iron_tower_out_door"/>
+			<restart range="{-32494;229691;-15000;9500};{-32488;261434;-15000;9500};{13778;261502;-15000;9500};{13611;229639;-15000;9500}">
+				<normal point="-16434;208803;-3691"/>
+				<chao point="-16434;208803;-3691"/>
+			</restart>
+		</step>
+		<step id="10" step_point="1156000" lock_time="86400" drop_time="259200" interval_time="0" interval_point="0">
+			<open_door name="hell_town_secret_door"/>
+			<open_door name="injury_earth_door"/>
+			<open_door name="iron_tower_out_door"/>
+			<restart range="{-32494;229691;-15000;9500};{-32488;261434;-15000;9500};{13778;261502;-15000;9500};{13611;229639;-15000;9500}">
+				<normal point="-16434;208803;-3691"/>
+				<chao point="-16434;208803;-3691"/>
+			</restart>
+		</step>
+		<step id="11" step_point="1248000" lock_time="86400" drop_time="259200" interval_time="0" interval_point="0">
+			<open_door name="hell_town_secret_door"/>
+			<open_door name="injury_earth_door"/>
+			<open_door name="iron_tower_out_door"/>
+			<restart range="{-32494;229691;-15000;9500};{-32488;261434;-15000;9500};{13778;261502;-15000;9500};{13611;229639;-15000;9500}">
+				<normal point="-16434;208803;-3691"/>
+				<chao point="-16434;208803;-3691"/>
+			</restart>
+		</step>
+		<step id="12" step_point="1340000" lock_time="86400" drop_time="259200" interval_time="0" interval_point="0">
+			<open_door name="hell_town_secret_door"/>
+			<open_door name="injury_earth_door"/>
+			<open_door name="iron_tower_out_door"/>
+			<restart range="{-32494;229691;-15000;9500};{-32488;261434;-15000;9500};{13778;261502;-15000;9500};{13611;229639;-15000;9500}">
+				<normal point="-16434;208803;-3691"/>
+				<chao point="-16434;208803;-3691"/>
+			</restart>
+		</step>
+		<step id="13" step_point="20000000" lock_time="86400" drop_time="259200" interval_time="0" interval_point="0">
+			<open_door name="hell_town_secret_door"/>
+			<open_door name="injury_earth_door"/>
+			<open_door name="iron_tower_out_door"/>
+			<restart range="{-32494;229691;-15000;9500};{-32488;261434;-15000;9500};{13778;261502;-15000;9500};{13611;229639;-15000;9500}">
+				<normal point="-16434;208803;-3691"/>
+				<chao point="-16434;208803;-3691"/>
+			</restart>
+		</step>
+	</cycle>
+
+	<cycle id="2">
+		<step id="1" step_point="100" lock_time="259200" drop_time="0" interval_time="0" interval_point="0">
+			<restart range="{-230562;228850;-15000;-3000};{-230652;198922;-15000;-3000};{-260568;198633;-15000;-3000};{-260853;228928;-15000;-3000}">
+				<normal point="-248373;250442;4318"/>
+				<chao point="-248373;250442;4318"/>
+			</restart>
+			<map point="-246857;251960;4331" string="2771"/>
+		</step>
+		<step id="2" step_point="100000" lock_time="3600" drop_time="0" interval_time="0" interval_point="0">
+			<restart range="{-230562;228850;-15000;-3000};{-230652;198922;-15000;-3000};{-260568;198633;-15000;-3000};{-260853;228928;-15000;-3000}">
+				<normal point="-248373;250442;4318"/>
+				<chao point="-248373;250442;4318"/>
+			</restart>
+			<map point="-246857;251960;4331" string="2772"/>
+		</step>
+		<step id="3" step_point="1000000" lock_time="10" drop_time="0" interval_time="0" interval_point="0">
+			<restart range="{-230562;228850;-15000;-3000};{-230652;198922;-15000;-3000};{-260568;198633;-15000;-3000};{-260853;228928;-15000;-3000}">
+				<normal point="-248373;250442;4318"/>
+				<chao point="-248373;250442;4318"/>
+			</restart>
+			<map point="-246857;251960;4331" string="2773"/>
+		</step>
+		<step id="4" step_point="2000000" lock_time="10" drop_time="0" interval_time="0" interval_point="0">
+			<restart range="{-230562;228850;-15000;-3000};{-230652;198922;-15000;-3000};{-260568;198633;-15000;-3000};{-260853;228928;-15000;-3000}">
+				<normal point="-248373;250442;4318"/>
+				<chao point="-248373;250442;4318"/>
+			</restart>
+			<map point="-246857;251960;4331" string="2773"/>
+		</step>
+		<step id="5" step_point="3000000" lock_time="10" drop_time="0" interval_time="0" interval_point="0">
+			<restart range="{-230562;228850;-15000;-3000};{-230652;198922;-15000;-3000};{-260568;198633;-15000;-3000};{-260853;228928;-15000;-3000}">
+				<normal point="-248373;250442;4318"/>
+				<chao point="-248373;250442;4318"/>
+			</restart>
+			<map point="-246857;251960;4331" string="2773"/>
+		</step>
+	</cycle>
+
+	<cycle id="3">
+		<step id="1" step_point="10" lock_time="10800" drop_time="0" interval_time="0" interval_point="0">
+			<area_on name="13_24_undying_cycle_a1"/>
+			<area_on name="13_24_undying_cycle_a2"/>
+			<area_on name="13_24_undying_cycle_a3"/>
+			<area_on name="13_24_undying_cycle_a4"/>
+			<area_on name="13_24_undying_cycle_a5"/>
+			<restart range="{-182265;204880;-16233;-6233};{-171874;204865;-16233;-6233};{-171884;220348;-16233;-6233};{-188714;220333;-16233;-6233};{-188581;204678;-16233;-6233};{-184537;204665;-16233;-6233};{-184536;206967;-16233;-6233};{-182259;206962;-16233;-6233}">
+				<normal point="-183285;205996;-12896"/>
+				<chao point="-183285;205996;-12896"/>
+			</restart>
+			<map point="-213770;210760;4400" string="2766"/>
+		</step>
+		<step id="2" step_point="1000000" lock_time="10800" drop_time="172800" interval_time="0" interval_point="0">
+			<area_on name="13_24_undying_cycle_a1"/>
+			<area_on name="13_24_undying_cycle_a2"/>
+			<area_on name="13_24_undying_cycle_a3"/>
+			<area_on name="13_24_undying_cycle_a4"/>
+			<area_on name="13_24_undying_cycle_a5"/>
+			<restart range="{-182265;204880;-16233;-6233};{-171874;204865;-16233;-6233};{-171884;220348;-16233;-6233};{-188714;220333;-16233;-6233};{-188581;204678;-16233;-6233};{-184537;204665;-16233;-6233};{-184536;206967;-16233;-6233};{-182259;206962;-16233;-6233}">
+				<normal point="-183285;205996;-12896"/>
+				<chao point="-183285;205996;-12896"/>
+			</restart>
+			<map point="-213770;210760;4400" string="2767"/>
+		</step>
+		<step id="3" step_point="2000000" lock_time="86400" drop_time="0" interval_time="3600000" interval_point="20833">
+			<area_on name="13_24_undying_cycle_s1"/>
+			<restart range="{-182265;204880;-16233;-6233};{-171874;204865;-16233;-6233};{-171884;220348;-16233;-6233};{-188714;220333;-16233;-6233};{-188581;204678;-16233;-6233};{-184537;204665;-16233;-6233};{-184536;206967;-16233;-6233};{-182259;206962;-16233;-6233}">
+				<normal point="-183285;205996;-12896"/>
+				<chao point="-183285;205996;-12896"/>
+			</restart>
+			<map point="-213770;210760;4400" string="2768"/>
+		</step>
+		<step id="4" step_point="3000000" lock_time="10800" drop_time="0" interval_time="3600000" interval_point="20833">
+			<area_on name="13_24_undying_cycle_d1"/>
+			<restart range="{-182265;204880;-16233;-6233};{-171874;204865;-16233;-6233};{-171884;220348;-16233;-6233};{-188714;220333;-16233;-6233};{-188581;204678;-16233;-6233};{-184537;204665;-16233;-6233};{-184536;206967;-16233;-6233};{-182259;206962;-16233;-6233}">
+				<normal point="-183285;205996;-12896"/>
+				<chao point="-183285;205996;-12896"/>
+			</restart>
+			<map point="-213770;210760;4400" string="2769"/>
+		</step>
+		<step id="5" step_point="4000000" lock_time="10800" drop_time="0" interval_time="3600000" interval_point="20833">
+			<area_on name="13_24_undying_cycle_d1"/>
+			<restart range="{-182265;204880;-16233;-6233};{-171874;204865;-16233;-6233};{-171884;220348;-16233;-6233};{-188714;220333;-16233;-6233};{-188581;204678;-16233;-6233};{-184537;204665;-16233;-6233};{-184536;206967;-16233;-6233};{-182259;206962;-16233;-6233}">
+				<normal point="-183285;205996;-12896"/>
+				<chao point="-183285;205996;-12896"/>
+			</restart>
+			<map point="-213770;210760;4400" string="2770"/>
+		</step>
+	</cycle>
+
+	<cycle id="4">
+		<step id="1" step_point="1" lock_time="0" drop_time="0" interval_time="0" interval_point="0" change_time="0 18 * * 5"/>
+		<step id="2" step_point="1000000" lock_time="0" drop_time="0" interval_time="0" interval_point="0" change_time="0 13 * * 1"/>
+	</cycle>
+
+	<cycle id="5">
+		<step id="1" step_point="1" lock_time="0" drop_time="0" interval_time="0" interval_point="0" change_time="0 18 * * 5"/>
+		<step id="2" step_point="1000000" lock_time="0" drop_time="0" interval_time="0" interval_point="0" change_time="0 13 * * 1"/>
+	</cycle>
+
+	<cycle id="6">
+		<step id="1" step_point="1" lock_time="0" drop_time="0" interval_time="0" interval_point="0" change_time="0 18 * * 5"/>
+		<step id="2" step_point="1000000" lock_time="0" drop_time="0" interval_time="0" interval_point="0" change_time="0 13 * * 1"/>
+	</cycle>
+</fieldcycle>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 0996_crest_of_fox -->
+<list>
+	<config showall="true" notax="true" keepenchanted="false"/>
+	<item>
+		<production id="1374" count="1"/>	<!-- Greater Haste Potion -->
+		<ingredient id="6392" count="5"/>	<!-- Event - Medal -->
+	</item>
+	<item>
+		<production id="1375" count="1"/>	<!-- Greater Swift Attack Potion -->
+		<ingredient id="6392" count="10"/>	<!-- Event - Medal -->
+	</item>
+	<item>
+		<production id="6036" count="1"/>	<!-- Greater Magic Haste Potion -->
+		<ingredient id="6392" count="10"/>	<!-- Event - Medal -->
+	</item>
+	<item>
+		<production id="1540" count="1"/>	<!-- Quick Healing Potion -->
+		<ingredient id="6392" count="17"/>	<!-- Event - Medal -->
+	</item>
+	<item>
+		<production id="1538" count="1"/>	<!-- Blessed Scroll of Escape -->
+		<ingredient id="6392" count="250"/>	<!-- Event - Medal -->
+	</item>
+	<item>
+		<production id="3936" count="1"/>	<!-- Blessed Scroll of Resurrection -->
+		<ingredient id="6392" count="667"/>	<!-- Event - Medal -->
+	</item>
+	<item>
+		<production id="956" count="1"/>	<!-- Scroll: Enchant Armor (D-Grade) -->
+		<ingredient id="6392" count="25"/>	<!-- Event - Medal -->
+	</item>
+	<item>
+		<production id="955" count="1"/>	<!-- Scroll: Enchant Weapon (D-Grade) -->
+		<ingredient id="6392" count="83"/>	<!-- Event - Medal -->
+	</item>
+	<item>
+		<production id="952" count="1"/>	<!-- Scroll: Enchant Armor (C-Grade) -->
+		<ingredient id="6392" count="67"/>	<!-- Event - Medal -->
+	</item>
+	<item>
+		<production id="951" count="1"/>	<!-- Scroll: Enchant Weapon (C-Grade) -->
+		<ingredient id="6392" count="183"/>	<!-- Event - Medal -->
+	</item>
+	<item>
+		<production id="948" count="1"/>	<!-- Scroll: Enchant Armor (B-Grade) -->
+		<ingredient id="6392" count="267"/>	<!-- Event - Medal -->
+	</item>
+	<item>
+		<production id="947" count="1"/>	<!-- Scroll: Enchant Weapon (B-Grade) -->
+		<ingredient id="6392" count="833"/>	<!-- Event - Medal -->
+	</item>
+	<item>
+		<production id="730" count="1"/>	<!-- Scroll: Enchant Armor (A-Grade) -->
+		<ingredient id="6392" count="833"/>	<!-- Event - Medal -->
+	</item>
+	<item>
+		<production id="729" count="1"/>	<!-- Scroll: Enchant Weapon (A-Grade) -->
+		<ingredient id="6392" count="3000"/>	<!-- Event - Medal -->
+	</item>
+	<item>
+		<production id="6394" count="1"/>	<!-- Red Party Mask -->
+		<ingredient id="6392" count="833"/>	<!-- Event - Medal -->
+	</item>
+</list>

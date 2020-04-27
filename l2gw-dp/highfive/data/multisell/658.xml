@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- rune_feud_product -->
+<list>
+	<config showall="true" notax="true" keepenchanted="false" />
+	<item>
+		<production id="13738" count="1"/>	<!-- Blessed Scroll of Escape: Rune -->
+		<ingredient id="57" count="250000"/>	<!-- Adena -->
+		<ingredient id="13764" count="40"/>	<!-- Rune Territory Badge -->
+	</item>
+	<item>
+		<production id="13720" count="1"/>	<!-- Rune Supply Box - Belt -->
+		<ingredient id="57" count="40000"/>	<!-- Adena -->
+		<ingredient id="13764" count="7"/>	<!-- Rune Territory Badge -->
+	</item>
+	<item>
+		<production id="13711" count="1"/>	<!-- Rune Supply Box - Magic Pouch -->
+		<ingredient id="57" count="20000"/>	<!-- Adena -->
+		<ingredient id="13764" count="4"/>	<!-- Rune Territory Badge -->
+	</item>
+	<item>
+		<production id="13702" count="1"/>	<!-- Rune Supply Box - Magic Pin -->
+		<ingredient id="57" count="40000"/>	<!-- Adena -->
+		<ingredient id="13764" count="8"/>	<!-- Rune Territory Badge -->
+	</item>
+	<item>
+		<production id="14556" count="1"/>	<!-- Rune Supply Box - Belt -->
+		<ingredient id="57" count="400000"/>	<!-- Adena -->
+		<ingredient id="13764" count="70"/>	<!-- Rune Territory Badge -->
+	</item>
+	<item>
+		<production id="14547" count="1"/>	<!-- Rune Supply Box - Magic Pouch -->
+		<ingredient id="57" count="80000"/>	<!-- Adena -->
+		<ingredient id="13764" count="16"/>	<!-- Rune Territory Badge -->
+	</item>
+	<item>
+		<production id="14538" count="1"/>	<!-- Rune Supply Box - Magic Pin -->
+		<ingredient id="57" count="120000"/>	<!-- Adena -->
+		<ingredient id="13764" count="32"/>	<!-- Rune Territory Badge -->
+	</item>
+	<item>
+		<production id="14900" count="1"/>	<!-- Rune Supply Box - Magic Ornament -->
+		<ingredient id="57" count="80000"/>	<!-- Adena -->
+		<ingredient id="13764" count="16"/>	<!-- Rune Territory Badge -->
+	</item>
+	<item>
+		<production id="14891" count="1"/>	<!-- Rune Supply Box - Magic Rune Clip -->
+		<ingredient id="57" count="120000"/>	<!-- Adena -->
+		<ingredient id="13764" count="32"/>	<!-- Rune Territory Badge -->
+	</item>
+	<item>
+		<production id="13747" count="1"/>	<!-- Rune Fire Resistance Necklace -->
+		<ingredient id="57" count="3596400"/>	<!-- Adena -->
+		<ingredient id="13764" count="160"/>	<!-- Rune Territory Badge -->
+	</item>
+	<item>
+		<production id="14599" count="1"/>	<!-- Rune Wind Resistance Ring -->
+		<ingredient id="57" count="1798200"/>	<!-- Adena -->
+		<ingredient id="13764" count="80"/>	<!-- Rune Territory Badge -->
+	</item>
+	<item>
+		<production id="14671" count="1"/>	<!-- Rune Protection Earring -->
+		<ingredient id="57" count="2696400"/>	<!-- Adena -->
+		<ingredient id="13764" count="120"/>	<!-- Rune Territory Badge -->
+	</item>
+	<item>
+		<production id="15289" count="1"/>	<!-- Rune Fire Royal Guard Necklace -->
+		<ingredient id="57" count="3596400"/>	<!-- Adena -->
+		<ingredient id="13764" count="160"/>	<!-- Rune Territory Badge -->
+	</item>
+	<item>
+		<production id="15298" count="1"/>	<!-- Rune Wind Royal Guard Ring -->
+		<ingredient id="57" count="1798200"/>	<!-- Adena -->
+		<ingredient id="13764" count="80"/>	<!-- Rune Territory Badge -->
+	</item>
+	<item>
+		<production id="14808" count="1"/>	<!-- Rune Guard Earring -->
+		<ingredient id="57" count="2696400"/>	<!-- Adena -->
+		<ingredient id="13764" count="120"/>	<!-- Rune Territory Badge -->
+	</item>
+	<item>
+		<production id="14810" count="1"/>	<!-- Blue Talisman - Buff Cancel -->
+		<ingredient id="57" count="14500"/>	<!-- Adena -->
+		<ingredient id="13764" count="13"/>	<!-- Rune Territory Badge -->
+	</item>
+	<item>
+		<production id="14811" count="1"/>	<!-- Blue Talisman - Buff Steal -->
+		<ingredient id="57" count="15600"/>	<!-- Adena -->
+		<ingredient id="13764" count="14"/>	<!-- Rune Territory Badge -->
+	</item>
+	<item>
+		<production id="14815" count="1"/>	<!-- Territory Health Recovery Potion -->
+		<ingredient id="57" count="21000"/>	<!-- Adena -->
+		<ingredient id="13764" count="8"/>	<!-- Rune Territory Badge -->
+	</item>
+	<item>
+		<production id="14816" count="1"/>	<!-- Territory Mana Recovery Potion -->
+		<ingredient id="57" count="21000"/>	<!-- Adena -->
+		<ingredient id="13764" count="8"/>	<!-- Rune Territory Badge -->
+	</item>
+	<item>
+		<production id="14817" count="1"/>	<!-- Territory CP Recovery Potion -->
+		<ingredient id="57" count="21000"/>	<!-- Adena -->
+		<ingredient id="13764" count="8"/>	<!-- Rune Territory Badge -->
+	</item>
+	<item>
+		<production id="9625" count="1"/>	<!-- Giant's Codex - Oblivion -->
+		<ingredient id="57" count="1000000"/>	<!-- Adena -->
+		<ingredient id="13764" count="20"/>	<!-- Rune Territory Badge -->
+	</item>
+	<item>
+		<production id="9626" count="1"/>	<!-- Giant's Codex - Discipline -->
+		<ingredient id="57" count="1260000"/>	<!-- Adena -->
+		<ingredient id="13764" count="54"/>	<!-- Rune Territory Badge -->
+	</item>
+	<item>
+		<production id="9627" count="1"/>	<!-- Giant's Codex - Mastery -->
+		<ingredient id="57" count="1800000"/>	<!-- Adena -->
+		<ingredient id="13764" count="80"/>	<!-- Rune Territory Badge -->
+	</item>
+	<item>
+		<production id="14965" count="1"/>	<!-- Black Skeleton Circlet -->
+		<ingredient id="57" count="2100000"/>	<!-- Adena -->
+		<ingredient id="13764" count="80"/>	<!-- Rune Territory Badge -->
+	</item>
+	<item>
+		<production id="13479" count="1"/>	<!-- Circlet of Rune Sage -->
+		<ingredient id="57" count="2100000"/>	<!-- Adena -->
+		<ingredient id="13764" count="80"/>	<!-- Rune Territory Badge -->
+	</item>
+	<item>
+		<production id="13487" count="1"/>	<!-- Circlet of Rune Silence -->
+		<ingredient id="57" count="2100000"/>	<!-- Adena -->
+		<ingredient id="13764" count="80"/>	<!-- Rune Territory Badge -->
+	</item>
+	<item>
+		<production id="14582" count="1"/>	<!-- Apella Combat Helmet -->
+		<ingredient id="57" count="801600"/>	<!-- Adena -->
+		<ingredient id="13764" count="107"/>	<!-- Rune Territory Badge -->
+	</item>
+	<item>
+		<production id="14584" count="1"/>	<!-- Apella Combat Gauntlet -->
+		<ingredient id="57" count="534000"/>	<!-- Adena -->
+		<ingredient id="13764" count="71"/>	<!-- Rune Territory Badge -->
+	</item>
+	<item>
+		<production id="14587" count="1"/>	<!-- Apella Combat Leather Gloves -->
+		<ingredient id="57" count="534000"/>	<!-- Adena -->
+		<ingredient id="13764" count="71"/>	<!-- Rune Territory Badge -->
+	</item>
+	<item>
+		<production id="14574" count="1"/>	<!-- Spear of Halter Family -->
+		<ingredient id="57" count="21000000"/>	<!-- Adena -->
+		<ingredient id="13764" count="800"/>	<!-- Rune Territory Badge -->
+	</item>
+	<item>
+		<production id="14575" count="1"/>	<!-- Dagger of Halter Family -->
+		<ingredient id="57" count="21000000"/>	<!-- Adena -->
+		<ingredient id="13764" count="800"/>	<!-- Rune Territory Badge -->
+	</item>
+</list>

@@ -1,0 +1,2125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<skill id="2900" levels="1" name="Ancient Herb - Slayer">
+		<set name="itemConsumeId" val="14824"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="abnormal_time" val="60"/>
+		<set name="abnormal_type" val="ancient_herb"/>
+		<set name="abnormalLevel" val="1"/>
+		<table name="#magicLevel">1</table>
+		<set name="hitTime" val="100"/>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="allowPetUse" val="true"/>
+		<set name="isHerb" val="true"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="pAtk" val="1000">
+					<or>
+						<target npcId="22650"/>
+						<target npcId="22651"/>
+						<target npcId="22652"/>
+						<target npcId="22653"/>
+						<target npcId="22654"/>
+						<target npcId="22655"/>
+						<target npcId="22656"/>
+						<target npcId="22657"/>
+						<target npcId="22658"/>
+						<target npcId="22659"/>
+					</or>
+				</mul>
+				<mul order="0x30" stat="mAtk" val="1000">
+					<or>
+						<target npcId="22650"/>
+						<target npcId="22651"/>
+						<target npcId="22652"/>
+						<target npcId="22653"/>
+						<target npcId="22654"/>
+						<target npcId="22655"/>
+						<target npcId="22656"/>
+						<target npcId="22657"/>
+						<target npcId="22658"/>
+						<target npcId="22659"/>
+					</or>
+				</mul>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2901" levels="1" name="Ancient Herb - Immortal">
+		<set name="itemConsumeId" val="14825"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<!-- Possessed by those spirits who existed during the beginning of the world, this herb makes you temporarily impervious to your enemy's attacks. -->
+		<table name="#castRange"> -1</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="abnormal_time" val="15"/>
+		<set name="abnormal_type" val="barrier"/>
+		<set name="abnormalLevel" val="1"/>
+		<table name="#magicLevel">1</table>
+		<set name="hitTime" val="100"/>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="allowPetUse" val="true"/>
+		<set name="isHerb" val="true"/>
+		<for>
+			<effect>
+				<add order="0x10" stat="block_hp" val="1"/>
+				<add order="0x10" stat="block_mp" val="1"/>
+				<add order="0x10" stat="block_debuff" val="1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2902" levels="1" name="Ancient Herb - Terminator">
+		<set name="itemConsumeId" val="14826"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<!-- Possessed by those spirits who existed during the beginning of the world, this herb allows you to cast as fast as the wind. -->
+		<table name="#castRange"> -1</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="abnormal_time" val="60"/>
+		<set name="abnormal_type" val="ancient_herb"/>
+		<set name="abnormalLevel" val="1"/>
+		<table name="#magicLevel">1</table>
+		<set name="hitTime" val="100"/>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="allowPetUse" val="true"/>
+		<set name="isHerb" val="true"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="mAtkSpd" val="2"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2903" levels="1" name="Ancient Herb - Guide">
+		<set name="itemConsumeId" val="14827"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<!-- Possessed by those spirits who existed during the beginning of the world, this herb allows you to move faster than any beast on the plains. -->
+		<table name="#castRange"> -1</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="abnormal_time" val="60"/>
+		<set name="abnormal_type" val="ancient_herb"/>
+		<set name="abnormalLevel" val="1"/>
+		<table name="#magicLevel">1</table>
+		<set name="hitTime" val="100"/>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="allowPetUse" val="true"/>
+		<set name="isHerb" val="true"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="runSpd" val="2"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="2904" levels="1" name="Guardian Spirit's Divine Protection">
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="100"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="2905" levels="1" name="Growth Accelerator">
+		<set name="itemConsumeId" val="14832"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<table name="#castRange"> 120</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="4000"/>
+		<table name="#magicLevel">1</table>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="target_type" val="enemy_only"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="effectPoint" val="0"/>
+		<cond msgId="113">
+			<or>
+				<player attackerNpcId="18793"/>
+				<player attackerNpcId="18794"/>
+				<player attackerNpcId="18795"/>
+				<player attackerNpcId="18796"/>
+				<player attackerNpcId="18797"/>
+				<player attackerNpcId="18798"/>
+			</or>
+		</cond>
+		<for/>
+	</skill>
+	<skill id="2906" levels="1" name="Incubation Accelerator">
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="4000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="2907" levels="5" name="Battlefield Use Secret Medicine of Life">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="14815"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="castRange" val="-1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="isPotion" val="true"/>
+		<set name="reuseDelay" val="300000"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond msgId="113">
+			<and>
+				<player minLevel="61"/>
+				<player maxLevel="75"/>
+				<TerritoryWarOnly/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_hp" math="diff" val="2000"/>
+		</for>
+	</skill>
+	<skill id="2908" levels="5" name="Battlefield Use Secret Medicine of Mind">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="14816"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="castRange" val="-1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="isPotion" val="true"/>
+		<set name="reuseDelay" val="300000"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond msgId="113">
+			<and>
+				<player minLevel="61"/>
+				<player maxLevel="75"/>
+				<TerritoryWarOnly/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_mp" math="diff" val="350"/>
+		</for>
+	</skill>
+	<skill id="2909" levels="5" name="Battlefield Use Secret Medicine of Will">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="14817"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="castRange" val="-1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="isPotion" val="true"/>
+		<set name="reuseDelay" val="300000"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond msgId="113">
+			<and>
+				<player minLevel="61"/>
+				<player maxLevel="75"/>
+				<TerritoryWarOnly/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_cp" math="diff" val="1000"/>
+		</for>
+	</skill>
+	<skill id="2910" levels="1" name="Skull Key of Pain">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="14820"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="2911" levels="1" name="Skull Key of Erosion">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="14821"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="2912" levels="1" name="Skull Key of the Heart">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="14822"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="2913" levels="1" name="Soul Extraction">
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> 40</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="4000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<set name="isHandler" val="true"/>
+		<set name="target_type" val="npc_body"/>
+		<set name="affect_scope" val="single"/>
+		<set name="reuseDelay" val="60000"/>
+		<set name="magicLevel" val="1"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond msgId="113">
+			<and>
+				<player instance="115,116,119,120,121,122"/>
+				<ConsumeBody/>
+			</and>
+		</cond>
+		<for>
+			<effect applyOnCaster="true" name="i_restoration_random" options="13797,1;30"/>
+			<effect name="i_consume_body"/>
+		</for>
+	</skill>
+	<skill id="2914" levels="2" name="Equipment Set 30 Day Pack">
+		<set name="hitCancelTime" val="0"/>
+		<table name="#mpConsume2">
+			0 0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		Wrong level count, must be 3: 
+		1: none
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1 -1 -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="2915" levels="1" name="Clear Five-Colored Crystal">
+		<set name="itemConsumeId" val="14835"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<!-- Added by ic from Gracia Final client -->
+		<table name="#castRange"> -1</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="20000"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="isHandler" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond msgId="113">
+			<CanEscape/>
+		</cond>
+		<for>
+			<effect name="i_teleport" loc="89329,-44901,-2136"/>
+		</for>
+	</skill>
+	<skill id="2916" levels="1" name="Feed for Enriched Enhanced Pets">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="2917" levels="1" name="Big Staccato Silk Cocoon">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14834"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="9575,1;2.77;10485,1;2.31;10577,1;3.2;14209,1;3.2;14208,1;3.2;14212,1;3.2;960,1;6.4;9625,1;3.2;9626,1;2.13;959,1;0.64;10373,1;1.54;10374,1;1.54;10375,1;1.54;10376,1;1.54;10377,1;1.54;10378,1;1.54;10379,1;1.54;10380,1;1.54;10381,1;1.54;"/>
+		</for>
+	</skill>
+	<skill id="2918" levels="1" name="Small Staccato Silk Cocoon">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14833"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="9575,1;2.36;10485,1;1.96;10577,1;2.72;14209,1;2.72;14208,1;2.72;14212,1;2.72;960,1;5.44;9625,1;2.72;9626,1;1.81;959,1;0.54;10373,1;1.31;10374,1;1.31;10375,1;1.31;10376,1;1.31;10377,1;1.31;10378,1;1.31;10379,1;1.31;10380,1;1.31;10381,1;1.31;"/>
+		</for>
+	</skill>
+	<skill id="2919" levels="1" name="Ancient Parchment">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14841"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="5942,1;40.0;5943,1;40.0;14836,1;4.0;14837,1;4.0;14838,1;4.0;14839,1;4.0;14840,1;4.0;"/>
+		</for>
+	</skill>
+	<skill id="2920" levels="1" name="Titan's Ancient Book">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14847"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="5942,1;40.0;5943,1;40.0;14842,1;4.0;14843,1;4.0;14844,1;4.0;14845,1;4.0;14846,1;4.0;"/>
+		</for>
+	</skill>
+	<skill id="2921" levels="1" name="Gludio Supply Box - magic pin">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="13695"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13898,1;30.0;13899,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2922" levels="1" name="Dion supply box - magic pin">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="13696"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13898,1;30.0;13899,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2923" levels="1" name="Giran supply box - magic pin">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="13697"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13898,1;30.0;13899,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2924" levels="1" name="Oren supply box - magic pin">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="13698"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13898,1;30.0;13899,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2925" levels="1" name="Aden supply box - magic pin">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="13699"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13898,1;30.0;13899,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2926" levels="1" name="Innadril supply box - magic pin">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="13700"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13898,1;30.0;13899,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2927" levels="1" name="Goddard supply box - magic pin">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="13701"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13898,1;30.0;13899,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2928" levels="1" name="Rune supply box - magic pin">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="13702"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13898,1;30.0;13899,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2929" levels="1" name="Schuttgart supply box - magic pin">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="13703"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13898,1;30.0;13899,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2930" levels="1" name="Gludio supply box - magic pouch">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="13704"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13918,1;30.0;13919,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2931" levels="1" name="Dion supply box - magic pouch">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="13705"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13918,1;30.0;13919,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2932" levels="1" name="Giran supply box - magic pouch">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="13706"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13918,1;30.0;13919,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2933" levels="1" name="Oren supply box - magic pouch">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="13707"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13918,1;30.0;13919,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2934" levels="1" name="Aden supply box - magic pouch">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="13708"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13918,1;30.0;13919,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2935" levels="1" name="Innadril supply box - magic pouch">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="13709"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13918,1;30.0;13919,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2936" levels="1" name="Goddard supply box - magic pouch">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="13710"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13918,1;30.0;13919,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2937" levels="1" name="Rune supply box - magic pouch">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="13711"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13918,1;30.0;13919,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2938" levels="1" name="Schuttgart supply box - magic pouch">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="13712"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13918,1;30.0;13919,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2939" levels="1" name="Gludio supply box - belt">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="13713"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13894,1;30.0;13895,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2940" levels="1" name="Dion supply box - belt">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="13714"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13894,1;30.0;13895,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2941" levels="1" name="Giran supply box - belt">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="13715"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13894,1;30.0;13895,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2942" levels="1" name="Oren supply box - belt">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="13716"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13894,1;30.0;13895,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2943" levels="1" name="Aden supply box - belt">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="13717"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13894,1;30.0;13895,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2944" levels="1" name="Innadril supply box - belt">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="13718"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13894,1;30.0;13895,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2945" levels="1" name="Goddard supply box - belt">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="13719"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13894,1;30.0;13895,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2946" levels="1" name="Rune supply box - belt">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="13720"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13894,1;30.0;13895,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2947" levels="1" name="Schuttgart supply box - belt">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="13721"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13894,1;30.0;13895,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2948" levels="1" name="Gludio Supply Box - magic pin">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14531"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13900,1;30.0;13901,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2949" levels="1" name="Dion supply box - magic pin">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14532"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13900,1;30.0;13901,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2950" levels="1" name="Giran supply box - magic pin">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14533"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13900,1;30.0;13901,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2951" levels="1" name="Oren supply box - magic pin">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14534"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13900,1;30.0;13901,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2952" levels="1" name="Aden supply box - magic pin">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14535"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13900,1;30.0;13901,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2953" levels="1" name="Innadril supply box - magic pin">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14536"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13900,1;30.0;13901,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2954" levels="1" name="Goddard supply box - magic pin">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14537"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13900,1;30.0;13901,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2955" levels="1" name="Rune supply box - magic pin">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14538"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13900,1;30.0;13901,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2956" levels="1" name="Schuttgart supply box - magic pin">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14539"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13900,1;30.0;13901,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2957" levels="1" name="Gludio supply box - magic pouch">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14540"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13920,1;30.0;13921,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2958" levels="1" name="Dion supply box - magic pouch">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14541"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13920,1;30.0;13921,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2959" levels="1" name="Giran supply box - magic pouch">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14542"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13920,1;30.0;13921,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2960" levels="1" name="Oren supply box - magic pouch">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14543"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13920,1;30.0;13921,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2961" levels="1" name="Aden supply box - magic pouch">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14544"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13920,1;30.0;13921,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2962" levels="1" name="Innadril supply box - magic pouch">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14545"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13920,1;30.0;13921,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2963" levels="1" name="Goddard supply box - magic pouch">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14546"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13920,1;30.0;13921,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2964" levels="1" name="Rune supply box - magic pouch">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14547"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13920,1;30.0;13921,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2965" levels="1" name="Schuttgart supply box - magic pouch">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14548"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13920,1;30.0;13921,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2966" levels="1" name="Gludio supply box - belt">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14549"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13896,1;30.0;13897,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2967" levels="1" name="Dion supply box - belt">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14550"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13896,1;30.0;13897,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2968" levels="1" name="Giran supply box - belt">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14551"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13896,1;30.0;13897,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2969" levels="1" name="Oren supply box - belt">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14552"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13896,1;30.0;13897,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2970" levels="1" name="Aden supply box - belt">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14553"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13896,1;30.0;13897,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2971" levels="1" name="Innadril supply box - belt">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14554"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13896,1;30.0;13897,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2972" levels="1" name="Goddard supply box - belt">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14555"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13896,1;30.0;13897,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2973" levels="1" name="Rune supply box - belt">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14556"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13896,1;30.0;13897,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2974" levels="1" name="Schuttgart supply box - belt">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14557"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13896,1;30.0;13897,1;15.0;"/>
+		</for>
+	</skill>
+	<skill id="2975" levels="1" name="Gludio supply box - magic rune clip">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14884"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="14902,1;21.0;14903,1;10.5;"/>
+		</for>
+	</skill>
+	<skill id="2976" levels="1" name="Dion supply box - magic rune clip">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14885"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="14902,1;21.0;14903,1;10.5;"/>
+		</for>
+	</skill>
+	<skill id="2977" levels="1" name="Giran supply box - magic rune clip">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14886"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="14902,1;21.0;14903,1;10.5;"/>
+		</for>
+	</skill>
+	<skill id="2978" levels="1" name="Oren supply box - magic rune clip">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14887"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="14902,1;21.0;14903,1;10.5;"/>
+		</for>
+	</skill>
+	<skill id="2979" levels="1" name="Aden supply box - magic rune clip">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14888"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="14902,1;21.0;14903,1;10.5;"/>
+		</for>
+	</skill>
+	<skill id="2980" levels="1" name="Innadril supply box - magic rune clip">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14889"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="14902,1;21.0;14903,1;10.5;"/>
+		</for>
+	</skill>
+	<skill id="2981" levels="1" name="Goddard supply box - magic rune clip">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14890"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="14902,1;21.0;14903,1;10.5;"/>
+		</for>
+	</skill>
+	<skill id="2982" levels="1" name="Rune supply box - magic rune clip">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14891"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="14902,1;21.0;14903,1;10.5;"/>
+		</for>
+	</skill>
+	<skill id="2983" levels="1" name="Schuttgart supply box - magic rune clip">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14892"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="14902,1;21.0;14903,1;10.5;"/>
+		</for>
+	</skill>
+	<skill id="2984" levels="1" name="Gludio supply box - magic ornament">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14893"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="14904,1;21.0;14905,1;10.5;"/>
+		</for>
+	</skill>
+	<skill id="2985" levels="1" name="Dion supply box - magic ornament">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14894"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="14904,1;21.0;14905,1;10.5;"/>
+		</for>
+	</skill>
+	<skill id="2986" levels="1" name="Giran supply box - magic ornament">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14895"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="14904,1;21.0;14905,1;10.5;"/>
+		</for>
+	</skill>
+	<skill id="2987" levels="1" name="Oren supply box - magic ornament">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14896"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="14904,1;21.0;14905,1;10.5;"/>
+		</for>
+	</skill>
+	<skill id="2988" levels="1" name="Aden supply box - magic ornament">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14897"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="14904,1;21.0;14905,1;10.5;"/>
+		</for>
+	</skill>
+	<skill id="2989" levels="1" name="Innadril supply box - magic ornament">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14898"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="14904,1;21.0;14905,1;10.5;"/>
+		</for>
+	</skill>
+	<skill id="2990" levels="1" name="Goddard supply box - magic ornament">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14899"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="14904,1;21.0;14905,1;10.5;"/>
+		</for>
+	</skill>
+	<skill id="2991" levels="1" name="Rune supply box - magic ornament">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14900"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="14904,1;21.0;14905,1;10.5;"/>
+		</for>
+	</skill>
+	<skill id="2992" levels="1" name="Schuttgart supply box - magic ornament">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="500"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="14901"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="14904,1;21.0;14905,1;10.5;"/>
+		</for>
+	</skill>
+	<skill id="2993" levels="1" name="Ancient herb - Deceiver">
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="100"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- You incur the wrath of the spirits who existed in the chaos of the beginning of the world by taking the ancient herb without permission. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="2994" levels="1" name="Disguised Half - Aqua Elf">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="abnormal_time" val="-1"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="cancelable" val="false"/>
+		<set name="staticReuse" val="true"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="isSaveable" val="false"/>
+		<set name="addSkills" val="5437;1;965;1;966;1;"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isCommon" val="true"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<target hasBuffId="1411;false" msgId="2064" />
+				<player olympiad="false" msgId="1509"/>
+				<player riding="none" msgId="2063"/>
+				<player zoneType="water" msgId="2060"/>
+				<target playerOnly="true"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="t_transform" val="125" npcId="13268" femaleNpcId="13268"/>
+		</for>
+	</skill>
+	<skill id="2995" levels="1" name="PC room private weapon strengthening order sheet - D grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="2996" levels="1" name="PC room private weapon strengthening order sheet - C grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="2997" levels="1" name="PC room private weapon strengthening order sheet - B grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="2998" levels="1" name="PC room private weapon strengthening order sheet - A grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="2999" levels="1" name="PC room private weapon strengthening order sheet - S grade">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+</list>

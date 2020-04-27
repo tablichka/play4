@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- fort_tshirts_list -->
+<list>
+	<config showall="true" notax="true"/>
+	<item>
+		<production id="9579" count="1"/>	<!-- Silk Shirt -->
+		<ingredient id="9912" count="80"/>	<!-- Knight's Epaulette -->
+	</item>
+	<item>
+		<production id="9585" count="1"/>	<!-- Striped Silk Shirt -->
+		<ingredient id="9912" count="180"/>	<!-- Knight's Epaulette -->
+	</item>
+	<item>
+		<production id="9580" count="1"/>	<!-- Thin Leather Shirt -->
+		<ingredient id="9912" count="260"/>	<!-- Knight's Epaulette -->
+	</item>
+	<item>
+		<production id="9586" count="1"/>	<!-- Thin Striped Leather Shirt -->
+		<ingredient id="9912" count="400"/>	<!-- Knight's Epaulette -->
+	</item>
+	<item>
+		<production id="9581" count="1"/>	<!-- Scale Shirt -->
+		<ingredient id="9912" count="588"/>	<!-- Knight's Epaulette -->
+	</item>
+	<item>
+		<production id="9587" count="1"/>	<!-- Striped Scale Shirt -->
+		<ingredient id="9912" count="880"/>	<!-- Knight's Epaulette -->
+	</item>
+	<item>
+		<production id="9582" count="1"/>	<!-- Mithril Shirt -->
+		<ingredient id="9912" count="1800"/>	<!-- Knight's Epaulette -->
+	</item>
+	<item>
+		<production id="9588" count="1"/>	<!-- Striped Mithril Shirt -->
+		<ingredient id="9912" count="2540"/>	<!-- Knight's Epaulette -->
+	</item>
+</list>

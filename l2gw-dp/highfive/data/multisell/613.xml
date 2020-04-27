@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- fort_item -->
+<list>
+	<config showall="true" notax="true"/>
+	<item>
+		<production id="9391" count="1"/>	<!-- Human Circlet -->
+		<ingredient id="9912" count="480"/>	<!-- Knight's Epaulette -->
+		<ingredient id="57" count="720000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="9392" count="1"/>	<!-- Elven Circlet -->
+		<ingredient id="9912" count="480"/>	<!-- Knight's Epaulette -->
+		<ingredient id="57" count="720000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="9393" count="1"/>	<!-- Dark Elven Circlet -->
+		<ingredient id="9912" count="480"/>	<!-- Knight's Epaulette -->
+		<ingredient id="57" count="720000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="9394" count="1"/>	<!-- Orcish Circlet -->
+		<ingredient id="9912" count="480"/>	<!-- Knight's Epaulette -->
+		<ingredient id="57" count="720000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="9395" count="1"/>	<!-- Dwarven Circlet -->
+		<ingredient id="9912" count="480"/>	<!-- Knight's Epaulette -->
+		<ingredient id="57" count="720000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="9396" count="1"/>	<!-- Kamaelic Circlet -->
+		<ingredient id="9912" count="480"/>	<!-- Knight's Epaulette -->
+		<ingredient id="57" count="720000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="10018" count="1"/>	<!-- Agathion Seal Bracelet - Fortress -->
+		<ingredient id="57" count="5000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="10129" count="1"/>	<!-- Scroll of Escape: Fortress -->
+		<ingredient id="57" count="500"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="6316" count="1"/>	<!-- Food for Wyvern -->
+		<ingredient id="57" count="300"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="10130" count="1"/>	<!-- Blessed Scroll of Escape: Fortress -->
+		<ingredient id="57" count="200000"/>	<!-- Adena -->
+	</item>
+</list>

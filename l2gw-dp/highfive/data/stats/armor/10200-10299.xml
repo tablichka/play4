@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="10214" name="Dynasty Leather Armor - Summoner">
+		<cond msgId="1518">
+			<not>
+				<target classId="96,104,111" />
+			</not>
+		</cond>
+	</item>
+	<item id="10227" name="Dynasty Platinum Plate">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="10228" name="Dynasty Platinum Plate - Shield Master">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="10229" name="Dynasty Platinum Plate - Weapon Master">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="10230" name="Dynasty Platinum Plate - Force Master">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="10231" name="Dynasty Platinum Plate - Bard">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="10233" name="Dynasty Jewel Leather Mail - Dagger Master">
+		<cond msgId="1518">
+			<not>
+				<target classId="93,101,108,117" />
+			</not>
+		</cond>
+	</item>
+	<item id="10234" name="Dynasty Jewel Leather Mail - Bow Master">
+		<cond msgId="1518">
+			<not>
+				<target classId="92,102,109,134" />
+			</not>
+		</cond>
+	</item>
+	<item id="10235" name="Dynasty Silver Satin Tunic">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="10236" name="Dynasty Silver Satin Tunic - Healer">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="10237" name="Dynasty Silver Satin Tunic - Enchanter">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="10238" name="Dynasty Silver Satin Tunic - Summoner">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="10239" name="Dynasty Silver Satin Tunic - Wizard">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+</list>

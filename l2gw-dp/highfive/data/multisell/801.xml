@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Coupon exchange for Shadow Items -->
+
+<list>
+	<config showall="false" nokey="true" notax="true" ignoreprice="true" keepenchanted="false"/>
+	<!-- Shadow Item: Two Handed Sword for 1 D Grade Coupon -->
+	<item>
+		<ingredient id="8869" count="1"/>
+		<production id="8821" count="1"/>
+	</item>
+	<!-- Shadow Item: Crimson Sword for 1 D Grade Coupon -->
+	<item>
+		<ingredient id="8869" count="1"/>
+		<production id="8822" count="1"/>
+	</item>
+	<!-- Shadow Item: Spiked Club for 1 D Grade Coupon -->
+	<item>
+		<ingredient id="8869" count="1"/>
+		<production id="8823" count="1"/>
+	</item>
+	<!-- Shadow Item: Staff of Magic for 1 D Grade Coupon -->
+	<item>
+		<ingredient id="8869" count="1"/>
+		<production id="8824" count="1"/>
+	</item>
+	<!-- Shadow Item: Kukuri for 1 D Grade Coupon -->
+	<item>
+		<ingredient id="8869" count="1"/>
+		<production id="8825" count="1"/>
+	</item>
+	<!-- Shadow Item: Dagger of Mana for 1 D Grade Coupon -->
+	<item>
+		<ingredient id="8869" count="1"/>
+		<production id="8826" count="1"/>
+	</item>
+	<!-- Shadow Item: Triple-Edged Jamadhr for 1 D Grade Coupon -->
+	<item>
+		<ingredient id="8869" count="1"/>
+		<production id="8827" count="1"/>
+	</item>
+	<!-- Shadow Item: Gastraphetes for 1 D Grade Coupon -->
+	<item>
+		<ingredient id="8869" count="1"/>
+		<production id="8828" count="1"/>
+	</item>
+	<!-- Shadow Item: War Hammer for 1 D Grade Coupon -->
+	<item>
+		<ingredient id="8869" count="1"/>
+		<production id="8829" count="1"/>
+	</item>
+	<!-- Shadow Item: Fleuret for 1 D Grade Coupon -->
+	<item>
+		<ingredient id="8869" count="1"/>
+		<production id="10005" count="1"/>
+	</item>
+	<!-- Shadow Item: Military Talwar for 1 D Grade Coupon -->
+	<item>
+		<ingredient id="8869" count="1"/>
+		<production id="10006" count="1"/>
+	</item>
+	<!-- Shadow Item: Hand Crossbow for 1 D Grade Coupon -->
+	<item>
+		<ingredient id="8869" count="1"/>
+		<production id="10007" count="1"/>
+	</item>
+	<item>
+		<ingredient id="8870" count="1"/>
+		<production id="8926" count="1"/>
+	</item>
+
+	<item>
+		<ingredient id="8870" count="1"/>
+		<production id="8927" count="1"/>
+	</item>
+
+	<item>
+		<ingredient id="8870" count="1"/>
+		<production id="8928" count="1"/>
+	</item>
+
+	<item>
+		<ingredient id="8870" count="1"/>
+		<production id="8929" count="1"/>
+	</item>
+
+	<item>
+		<ingredient id="8870" count="1"/>
+		<production id="8930" count="1"/>
+	</item>
+
+	<item>
+		<ingredient id="8870" count="1"/>
+		<production id="8931" count="1"/>
+	</item>
+
+	<item>
+		<ingredient id="8870" count="1"/>
+		<production id="8932" count="1"/>
+	</item>
+
+	<item>
+		<ingredient id="8870" count="1"/>
+		<production id="8933" count="1"/>
+	</item>
+
+	<item>
+		<ingredient id="8870" count="1"/>
+		<production id="8934" count="1"/>
+	</item>
+
+	<item>
+		<ingredient id="8870" count="1"/>
+		<production id="8937" count="1"/>
+	</item>
+
+	<item>
+		<ingredient id="8870" count="1"/>
+		<production id="10011" count="1"/>
+	</item>
+	<!-- Shadow Item: Blinzlasher for 1 C Grade Coupon -->
+	<item>
+		<ingredient id="8870" count="1"/>
+		<production id="10008" count="1"/>
+	</item>
+	<!-- Shadow Item: Immortal Edge for 1 C Grade Coupon -->
+	<item>
+		<ingredient id="8870" count="1"/>
+		<production id="10009" count="1"/>
+	</item>
+	<!-- Shadow Item: Tathlum for 1 C Grade Coupon -->
+	<item>
+		<ingredient id="8870" count="1"/>
+		<production id="10010" count="1"/>
+	</item>
+</list>

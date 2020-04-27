@@ -1,0 +1,230 @@
+<html>
+<body><br><br>
+<table border=0 width=755><tr><td width=10></td><td width=600 align=left>
+<a action="bypass -h _bbsaccount">Manage My Account</a>
+</td></tr>
+</table>
+<center>
+<img src="L2UI.squareblank" width="1" height="10">
+<table border=0 cellspacing=0 cellpadding=0 width=755 bgcolor=A7A19A>
+<tr><td WIDTH=5></td><td height=10 WIDTH=750></td></tr>
+<tr><td></td>
+<td height=20>
+Account general information:
+</td>
+</tr>
+<tr><td></td><td height=10></td></tr>
+</table>
+<br>
+<img src="L2UI.squaregray" width="755" height="1">
+<br>
+<table border=0 cellspacing=0 cellpadding=2 width=755>
+<tr>
+<td fixwidth=120><font color=b1b1af>Status:</font></td>
+<td fixwidth=18 align=center><?acc_icon?></td>
+<!--TEMPLET1
+<font color=b3966a>Standard</font>
+TEMPLET-->
+<!--TEMPLET2
+<font color=LEVEL>Premium</font> (expires <?premium_end?>)
+TEMPLET-->
+<!--TEMPLET5
+<img width=14 height=14 src="l2ui.bbs_boardmaster">
+TEMPLET-->
+<td fixwidth=120><?acc_status?></td>
+<td fixwidth=120><button value="Buy Premium" action="bypass -h _bbspremium" back="l2ui_ct1.button.button_df_small_down" width=140 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+</tr>
+
+<tr>
+<td fixwidth=120><font color=b1b1af>Rates:</font></td>
+<td fixwidth=18></td>
+<td fixwidth=120><font color=b3966a>+%rates%%</font></td>
+<td fixwidth=120>&nbsp;</td>
+</tr>
+<tr>
+<td fixwidth=120><font color=b1b1af>Inventory slots:</font></td>
+<td fixwidth=18></td>
+<td fixwidth=120><font color=b3966a>+%inv_slots%</font></td>
+<td fixwidth=120>&nbsp;</td>
+</tr>
+<tr>
+<td fixwidth=120><font color=b1b1af>Warehouse slots:</font></td>
+<td fixwidth=18></td>
+<td fixwidth=120><font color=b3966a>+%wh_slots%</font></td>
+<td fixwidth=120>&nbsp;</td>
+</tr>
+<tr>
+<td fixwidth=120><font color=b1b1af>Trade slots:</font></td>
+<td fixwidth=18></td>
+<td fixwidth=120><font color=b3966a>+%tr_slots%</font></td>
+<td fixwidth=120>&nbsp;</td>
+</tr>
+<tr>
+<td fixwidth=120><font color=b1b1af>Weight limit:</font></td>
+<td fixwidth=18 align=center><img width=18 height=14 src="l2ui_ct1.Icon_DF_Common_Weight"></td>
+<td fixwidth=120><font color=b3966a>+%weight_limit%</font></td>
+<td fixwidth=120>&nbsp;</td>
+</tr>
+<tr>
+<td fixwidth=120><font color=b1b1af>Title color:</font></td>
+<td fixwidth=18></td>
+<td fixwidth=120>%title_color%</td>
+<td fixwidth=120><button value="Change Title Color" action="bypass -h _bbscolor_1" back="l2ui_ct1.button.button_df_small_down" width=140 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+</tr>
+<tr>
+<td fixwidth=120><font color=b1b1af>Nickname:</font></td>
+<td fixwidth=18></td>
+<td fixwidth=120>%nick_color%</td>
+<td fixwidth=120><button value="Change Nick Color" action="bypass -h _bbscolor_0" back="l2ui_ct1.button.button_df_small_down" width=140 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+</tr>
+<tr>
+<td fixwidth=120><font color=b1b1af>Gender:</font></td>
+<td fixwidth=18></td>
+<td fixwidth=120><font color=b3966a>%gender%</font></td>
+<td fixwidth=120><button value="Switch Gender" action="bypass -h _bbsswgenderhtm" back="l2ui_ct1.button.button_df_small_down" width=140 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+</tr>
+</table>
+<br>
+<table border=0 cellspacing=0 cellpadding=0 width=755 bgcolor=A7A19A>
+<tr><td WIDTH=5></td><td height=10 WIDTH=750></td></tr>
+<tr><td></td>
+<td height=20>
+Account Services:
+</td>
+</tr>
+<tr><td></td><td height=10></td></tr>
+</table>
+<br>
+<img src="L2UI.squaregray" width="755" height="1">
+<br>
+<table border=0 cellspacing=0 cellpadding=2 width=755>
+<tr>
+<td fixwidth=120><font color=b1b1af>Auto loot:</font></td>
+<td fixwidth=18></td>
+<td fixwidth=120><font color=b3966a><?auto_loot?></font></td>
+<td fixwidth=30><button value="On" action="bypass -h _bbscfg_al_on" back="l2ui_ct1.button.button_df_small_down" width=40 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td fixwidth=30><button value="Off" action="bypass -h _bbscfg_al_of" back="l2ui_ct1.button.button_df_small_down" width=40 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td fixwidth=60></td>
+</tr>
+<tr>
+<td fixwidth=120><font color=b1b1af>Language:</font></td>
+<td fixwidth=18></td>
+<td fixwidth=120><font color=b3966a><?lang?></font></td>
+<td fixwidth=30><button value="RU" action="bypass -h _bbscfg_lg_ru" back="l2ui_ct1.button.button_df_small_down" width=40 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td fixwidth=30><button value="EN" action="bypass -h _bbscfg_lg_en" back="l2ui_ct1.button.button_df_small_down" width=40 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td fixwidth=60></td>
+</tr>
+<tr>
+<td fixwidth=120><font color=b1b1af>Block experience:</font></td>
+<td fixwidth=18></td>
+<td fixwidth=120><font color=b3966a><?noe?></font></td>
+<td fixwidth=30><button value="On" action="bypass -h _bbscfg_ne_on" back="l2ui_ct1.button.button_df_small_down" width=40 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td fixwidth=30><button value="Off" action="bypass -h _bbscfg_ne_of" back="l2ui_ct1.button.button_df_small_down" width=40 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td fixwidth=60></td>
+</tr>
+<tr>
+<td fixwidth=120><font color=b1b1af>Trace path:</font></td>
+<td fixwidth=18></td>
+<td fixwidth=120><font color=b3966a><?trace?></font></td>
+<td fixwidth=30><button value="On" action="bypass -h _bbscfg_tr_on" back="l2ui_ct1.button.button_df_small_down" width=40 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td fixwidth=30><button value="Off" action="bypass -h _bbscfg_tr_of" back="l2ui_ct1.button.button_df_small_down" width=40 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td fixwidth=60></td>
+</tr>
+<tr>
+<td fixwidth=120><font color=b1b1af>Do not show traders:</font></td>
+<td fixwidth=18></td>
+<td fixwidth=120><font color=b3966a><?notraders?></font></td>
+<td fixwidth=30><button value="On" action="bypass -h _bbscfg_nt_on" back="l2ui_ct1.button.button_df_small_down" width=40 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td fixwidth=30><button value="Off" action="bypass -h _bbscfg_nt_of" back="l2ui_ct1.button.button_df_small_down" width=40 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td fixwidth=60></td>
+</tr>
+<tr>
+<td fixwidth=120><font color=b1b1af>Disable Buffs Animation:</font></td>
+<td fixwidth=18></td>
+<td fixwidth=120><font color=b3966a><?nobuff?></font></td>
+<td fixwidth=30><button value="On" action="bypass -h _bbscfg_nb_on" back="l2ui_ct1.button.button_df_small_down" width=40 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td fixwidth=30><button value="Off" action="bypass -h _bbscfg_nb_of" back="l2ui_ct1.button.button_df_small_down" width=40 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td fixwidth=60></td>
+</tr>
+<tr>
+<td fixwidth=120><font color=b1b1af>Show drop shift+click:</font></td>
+<td fixwidth=18></td>
+<td fixwidth=120><font color=b3966a><?showdrop?></font></td>
+<td fixwidth=30><button value="On" action="bypass -h _bbscfg_sd_on" back="l2ui_ct1.button.button_df_small_down" width=40 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td fixwidth=30><button value="Off" action="bypass -h _bbscfg_sd_of" back="l2ui_ct1.button.button_df_small_down" width=40 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td fixwidth=60></td>
+</tr>
+<!--TEMPLET7
+<tr>
+<td fixwidth=120><font color=b1b1af>Include autoheal:</font></td>
+<td fixwidth=18></td>
+<td fixwidth=120><font color=b3966a><?autoheal?></font></td>
+<td fixwidth=30><button value="On" action="bypass -h _bbscfg_ah_on" back="l2ui_ct1.button.button_df_small_down" width=40 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td fixwidth=30><button value="Off" action="bypass -h _bbscfg_ah_of" back="l2ui_ct1.button.button_df_small_down" width=40 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td fixwidth=60></td>
+</tr>
+TEMPLET-->
+<?autoheal_tpl?>
+<!--TEMPLET6
+<tr>
+<td fixwidth=120><font color=b1b1af>PvP Announce:</font></td>
+<td fixwidth=18></td>
+<td fixwidth=120><font color=b3966a><?pvpan?></font></td>
+<td fixwidth=30><button value="On" action="bypass -h _bbscfg_pa_on" back="l2ui_ct1.button.button_df_small_down" width=40 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td fixwidth=30><button value="Off" action="bypass -h _bbscfg_pa_of" back="l2ui_ct1.button.button_df_small_down" width=40 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td fixwidth=60></td>
+</tr>
+TEMPLET-->
+<?pvp_an_tpl?>
+</table>
+<br>
+<table border=0 cellspacing=0 cellpadding=0 width=755 bgcolor=A7A19A>
+<tr><td WIDTH=5></td><td height=10 WIDTH=750></td></tr>
+<tr><td></td>
+<td height=20>
+Block Access by IP address:
+</td>
+</tr>
+<tr><td></td><td height=10></td></tr>
+</table>
+<br>
+<img src="L2UI.squaregray" width="755" height="1">
+<br>
+
+<table border=0 cellspacing=0 cellpadding=2 width=755>
+<tr>
+<td><font color=b1b1af>
+Caution! Add your IP address to the Access List ONLY if you are ABSOLUTELY sure that your IP is static and it won't change in the future.
+Otherwise, this may block access to your account FOREVER.
+</font></td>
+</tr>
+</table>
+<br>
+<img src="L2UI.squaregray" width="755" height="1">
+<br>
+
+<table border=0 cellspacing=0 cellpadding=2 width=755>
+<tr>
+<td fixwidth=120><font color=b1b1af>Current IP:</font></td>
+<td fixwidth=18></td>
+<td fixwidth=120><font color=b3966a><?curr_ip?></font></td>
+<td fixwidth=120><button value="Add to ACL" action="bypass -h _bbsaddip" back="l2ui_ct1.button.button_df_small_down" width=140 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+</tr>
+<!--TEMPLET3
+<tr>
+<td fixwidth=120></font></td>
+<td fixwidth=18></td>
+<td fixwidth=120><font color=b3966a><?acl_ip?></font></td>
+<td fixwidth=120><button action="bypass -h _bbsdelip_<?acl_ip?>" back="L2UI_CT1.Button_DF_Delete_Down" width=15 height=15 fore="L2UI_CT1.Button_DF_Delete" ></td>
+</tr>
+TEMPLET-->
+<?acl_list?>
+</table>
+<br>
+<img src="L2UI.squaregray" width="755" height="2">
+<br><br>
+
+</center>
+</body>
+</html>
+

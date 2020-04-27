@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- innadrille_merc_captain -->
+<list>
+	<config showall="true" notax="true" keepenchanted="false" />
+	<item>
+		<production id="14605" count="1"/>	<!-- Red Talisman - Territory Guard -->
+		<ingredient id="57" count="10000"/>	<!-- Adena -->
+		<ingredient id="13762" count="7"/>	<!-- Innadril Territory Badge -->
+	</item>
+	<item>
+		<production id="13629" count="1"/>	<!-- Transformation Scroll: Innadril Human Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13630" count="1"/>	<!-- Transformation Scroll: Innadril Elf Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13631" count="1"/>	<!-- Transformation Scroll: Innadril Dark Elf Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13632" count="1"/>	<!-- Transformation Scroll: Innadril Orc Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13633" count="1"/>	<!-- Transformation Scroll: Innadril Dwarf Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13634" count="1"/>	<!-- Transformation Scroll: Innadril Kamael Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13682" count="1"/>	<!-- Innadril Disguise Scroll -->
+		<ingredient id="57" count="70000"/>	<!-- Adena -->
+	</item>
+</list>

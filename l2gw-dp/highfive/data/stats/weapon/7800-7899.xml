@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="7811" name="Soulfire Dirk - Magic Hold">
+		<for>
+			<skill id="1201" level="18" chance="10" action="magic" />
+		</for>
+	</item>
+	<item id="7812" name="Soulfire Dirk - Magic Silence">
+		<for>
+			<skill id="3074" level="2" chance="10" action="magic" />
+		</for>
+	</item>
+	<item id="7813" name="Hell Knife - Magic Regeneration">
+		<for>
+			<skill id="1044" level="3" chance="30" action="magic" />
+		</for>
+	</item>
+	<item id="7814" name="Hell Knife - Mental Shield">
+		<for>
+			<skill id="1035" level="4" chance="50" action="magic" />
+		</for>
+	</item>
+	<item id="7815" name="Hell Knife - Magic Weakness">
+		<for>
+			<skill id="1164" level="11" chance="7" action="magic" />
+		</for>
+	</item>
+</list>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id='9656' name="Enchanted Wolf Fang">
+		<cond msgId="600">
+			<uc category="grown_up_wolf_group"/>
+		</cond>
+		<for>
+			<add val='233' order='0x08' stat='pAtk'/>
+			<add val='5' order='0x08' stat='mAtk'/>
+			<enchant val='0' order='0x0C' stat='pAtk'/>
+			<enchant val='0' order='0x0C' stat='mAtk'/>
+		</for>
+	</item>
+	<item id='9657' name="Enchanted Coyote Fang">
+		<cond msgId="600">
+			<uc category="grown_up_wolf_group"/>
+		</cond>
+		<for>
+			<add val='289' order='0x08' stat='pAtk'/>
+			<add val='5' order='0x08' stat='mAtk'/>
+			<enchant val='0' order='0x0C' stat='pAtk'/>
+			<enchant val='0' order='0x0C' stat='mAtk'/>
+		</for>
+	</item>
+	<item id='9658' name="Enchanted Saltydog Fang">
+		<cond msgId="600">
+			<uc category="grown_up_wolf_group"/>
+		</cond>
+		<for>
+			<add val='350' order='0x08' stat='pAtk'/>
+			<add val='5' order='0x08' stat='mAtk'/>
+			<enchant val='0' order='0x0C' stat='pAtk'/>
+			<enchant val='0' order='0x0C' stat='mAtk'/>
+		</for>
+	</item>
+	<item id='9659' name="Enchanted Cerberus Fang">
+		<cond msgId="600">
+			<uc category="grown_up_wolf_group"/>
+		</cond>
+		<for>
+			<add val='413' order='0x08' stat='pAtk'/>
+			<add val='5' order='0x08' stat='mAtk'/>
+			<enchant val='0' order='0x0C' stat='pAtk'/>
+			<enchant val='0' order='0x0C' stat='mAtk'/>
+		</for>
+	</item>
+	<item id='9660' name="Orichalcum Fang">
+		<cond msgId="600">
+			<uc category="grown_up_wolf_group"/>
+		</cond>
+		<for>
+			<add val='477' order='0x08' stat='pAtk'/>
+			<add val='5' order='0x08' stat='mAtk'/>
+			<enchant val='0' order='0x0C' stat='pAtk'/>
+			<enchant val='0' order='0x0C' stat='mAtk'/>
+		</for>
+	</item>
+	<item id='9661' name="Enchanted Fenril Fang">
+		<cond msgId="600">
+			<uc category="grown_up_wolf_group"/>
+		</cond>
+		<for>
+			<add val='537' order='0x08' stat='pAtk'/>
+			<add val='5' order='0x08' stat='mAtk'/>
+			<enchant val='0' order='0x0C' stat='pAtk'/>
+			<enchant val='0' order='0x0C' stat='mAtk'/>
+		</for>
+	</item>
+</list>

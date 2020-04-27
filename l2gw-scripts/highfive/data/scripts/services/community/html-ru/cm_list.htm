@@ -1,0 +1,61 @@
+<html><body><center><br><br> <br1><br1><table border=0 cellspacing=0 cellpadding=0><tr><td FIXWIDTH=15>&nbsp;</td><td width=745 height=30 align=left><a action="bypass -h _bbshome"> HOME </a>&nbsp;&gt; <a action="bypass -h _cmlist_1_0_1_0_">Col Market</a></td></tr></table>
+<table border=0 cellspacing=0 cellpadding=2 bgcolor=A7A19A width=755>
+<tr>
+<td FIXWIDTH=10></td>
+<td WIDTH=30 align=center>&$412;</td>
+<td WIDTH=480 align=center>&$413;</td>
+<td WIDTH=100 align=center>&$163;</td>
+<td WIDTH=50 align=center><a action="bypass <?cm_sort_p?>">&$142;</a></td>
+<td WIDTH=75 align=center><a action="bypass <?cm_sort_d?>">&$418;</a></td>
+<td FIXWIDTH=10></td>
+</tr>
+</table>
+<!--TEMPLET1
+<br>
+<table border=0 cellspacing=0 cellpadding=2 width=755>
+<tr>
+<td FIXWIDTH=10></td>
+<td WIDTH=20 align=center valign=top><img width=32 height=32 src="<?icon?>"></td>
+<td FIXWIDTH=480 valign=top><a action="bypass <?cm_view_bp?>"><?cm_title?></a><br1>
+<font color="AAAAAA"><?cm_descr?></font></td>
+<td WIDTH=100 align=center valign=top><a action="bypass -h _cmlist_1_0_1_1_<?name?>"><?name?></a></td>
+<td WIDTH=50 align=right valign=top><?price?></td>
+<td WIDTH=75 align=center valign=top><?date?></td>
+<td FIXWIDTH=10></td>
+</tr>
+</table>
+<table border=0 cellspacing=0 cellpadding=0>
+<tr><td width=755><img src="l2ui.squaregray" width="750" height="1"></td></tr>
+</table>
+TEMPLET-->
+<?CM_LIST?>
+<img src="L2UI.SquareBlank" width="755" height="2">
+
+<table cellpadding=0 cellspacing=2 border=0><tr>
+<td><table><tr><td></td></tr><tr><td><button action="<?ACTION_GO_LEFT?>" back="L2UI_CT1.Button_DF_Left_Down" fore="L2UI_CT1.Button_DF_Left" width=15 height=15 ></td></tr></table></td>
+ <?GO_LIST?>
+<td><?NPAGE?></td>
+ <?GO_LIST2?>
+<td><table><tr><td></td></tr><tr><td><button action="<?ACTION_GO_RIGHT?>" back="L2UI_CT1.Button_DF_Right_Down" fore="L2UI_CT1.Button_DF_Right" width=15 height=15 ></td></tr></table></td>
+</tr></table> 
+
+<table border=0 cellspacing=0 cellpadding=0>
+<tr><td width=755 height=20></td></tr>
+</table>
+
+<table border=0 cellspacing=0 cellpadding=2 width=755>
+<tr>
+<td FIXWIDTH=10></td>
+<td WIDTH=360 align=left><button value="Help" action="bypass -h _cmhelp" back="l2ui_ct1.button.button_df_small_down" width=70 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td WIDTH=375 align=right><button value="&$654; &$117;" action="bypass -h _cmadd" back="l2ui_ct1.button.button_df_small_down" width=70 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td FIXWIDTH=10></td>
+</tr>
+</table>
+
+<table border=0><tr><td><combobox width=65 var=keyword list="Item;Trader"></td><td><edit var = "Search" width=130 height=15 length="16"></td>
+<td><button value="&$420;" action="Write <?search_bypass?> -1 0 Search keyword keyword" back="l2ui_ct1.button.button_df_small_down" width=70 height=25 fore="l2ui_ct1.button.button_df_small"> </td> </tr></table>
+
+<br> <br>
+</center>
+</body>
+</html>

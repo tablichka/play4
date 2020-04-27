@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- rune_merc_captain1 -->
+<list>
+	<config showall="true" notax="true" keepenchanted="false" />
+	<item>
+		<production id="13653" count="1"/>	<!-- Transformation Scroll: Rune Human Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13654" count="1"/>	<!-- Transformation Scroll: Rune Elf Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13655" count="1"/>	<!-- Transformation Scroll: Rune Dark Elf Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13656" count="1"/>	<!-- Transformation Scroll: Rune Orc Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13657" count="1"/>	<!-- Transformation Scroll: Rune Dwarf Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13658" count="1"/>	<!-- Transformation Scroll: Rune Kamael Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13684" count="1"/>	<!-- Rune Disguise Scroll -->
+		<ingredient id="57" count="70000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14604" count="1"/>	<!-- Red Talisman - Territory Guardian -->
+		<ingredient id="57" count="11100"/>	<!-- Adena -->
+		<ingredient id="13764" count="8"/>	<!-- Rune Territory Badge -->
+	</item>
+	<item>
+		<production id="14814" count="1"/>	<!-- White Talisman -  All Resistance -->
+		<ingredient id="57" count="13300"/>	<!-- Adena -->
+		<ingredient id="13764" count="11"/>	<!-- Rune Territory Badge -->
+	</item>
+	<item>
+		<production id="13660" count="1"/>	<!-- Transformation Scroll: Rune Archer Mercenary -->
+		<ingredient id="57" count="27800"/>	<!-- Adena -->
+		<ingredient id="13764" count="5"/>	<!-- Rune Territory Badge -->
+	</item>
+	<item>
+		<production id="13661" count="1"/>	<!-- Transformation Scroll: Rune Wizard Mercenary -->
+		<ingredient id="57" count="27800"/>	<!-- Adena -->
+		<ingredient id="13764" count="5"/>	<!-- Rune Territory Badge -->
+	</item>
+	<item>
+		<production id="13662" count="1"/>	<!-- Transformation Scroll: Rune Kamael Captain Mercenary -->
+		<ingredient id="57" count="27800"/>	<!-- Adena -->
+		<ingredient id="13764" count="5"/>	<!-- Rune Territory Badge -->
+	</item>
+</list>

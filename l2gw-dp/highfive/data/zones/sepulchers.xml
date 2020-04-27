@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<!-- Debuff zones -->
+	<zone id="5001" name="conquerors_weakness">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="70">
+				<skill id="4146" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-7260" zMax="-7010">
+			<point x="186739" y="-86322"/>
+			<point x="190108" y="-86335"/>
+			<point x="190110" y="-84794"/>
+			<point x="186736" y="-84786"/>
+		</shape>
+	</zone>
+
+	<zone id="5002" name="conquerors_pddown">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="70">
+				<skill id="4145" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-7260" zMax="-7010">
+			<point x="186739" y="-86322"/>
+			<point x="190108" y="-86335"/>
+			<point x="190110" y="-84794"/>
+			<point x="186736" y="-84786"/>
+		</shape>
+	</zone>
+
+	<zone id="5003" name="conquerors_poison">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="70">
+				<skill id="4148" level="9"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-7260" zMax="-7010">
+			<point x="186739" y="-86322"/>
+			<point x="190108" y="-86335"/>
+			<point x="190110" y="-84794"/>
+			<point x="186736" y="-84786"/>
+		</shape>
+	</zone>
+
+	<zone id="5004" name="conquerors_nonheal">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="70">
+				<skill id="4624" level="9"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-7260" zMax="-7010">
+			<point x="186739" y="-86322"/>
+			<point x="190108" y="-86335"/>
+			<point x="190110" y="-84794"/>
+			<point x="186736" y="-84786"/>
+		</shape>
+	</zone>
+
+	<zone id="5005" name="lords_weakness">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="70">
+				<skill id="4146" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-7265" zMax="-7015">
+			<point x="185028" y="-89729"/>
+			<point x="188398" y="-89741"/>
+			<point x="188400" y="-88200"/>
+			<point x="185026" y="-88192"/>
+		</shape>
+	</zone>
+
+	<zone id="5006" name="lords_pddown">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="70">
+				<skill id="4145" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-7265" zMax="-7015">
+			<point x="185028" y="-89729"/>
+			<point x="188398" y="-89741"/>
+			<point x="188400" y="-88200"/>
+			<point x="185026" y="-88192"/>
+		</shape>
+	</zone>
+
+	<zone id="5007" name="lords_poison">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="70">
+				<skill id="4148" level="9"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-7265" zMax="-7015">
+			<point x="185028" y="-89729"/>
+			<point x="188398" y="-89741"/>
+			<point x="188400" y="-88200"/>
+			<point x="185026" y="-88192"/>
+		</shape>
+	</zone>
+
+	<zone id="5008" name="lords_nonheal">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="70">
+				<skill id="4624" level="9"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-7265" zMax="-7015">
+			<point x="185028" y="-89729"/>
+			<point x="188398" y="-89741"/>
+			<point x="188400" y="-88200"/>
+			<point x="185026" y="-88192"/>
+		</shape>
+	</zone>
+
+	<zone id="5009" name="savants_weakness">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="70">
+				<skill id="4146" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-7262" zMax="-7012">
+			<point x="172411" y="-81083"/>
+			<point x="173942" y="-81073"/>
+			<point x="173931" y="-77639"/>
+			<point x="172418" y="-77644"/>
+		</shape>
+	</zone>
+
+	<zone id="5010" name="savants_pddown">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="70">
+				<skill id="4145" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-7262" zMax="-7012">
+			<point x="172411" y="-81083"/>
+			<point x="173942" y="-81073"/>
+			<point x="173931" y="-77639"/>
+			<point x="172418" y="-77644"/>
+		</shape>
+	</zone>
+
+	<zone id="5011" name="savants_poison">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="70">
+				<skill id="4148" level="9"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-7262" zMax="-7012">
+			<point x="172411" y="-81083"/>
+			<point x="173942" y="-81073"/>
+			<point x="173931" y="-77639"/>
+			<point x="172418" y="-77644"/>
+		</shape>
+	</zone>
+
+	<zone id="5012" name="savants_nonheal">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="70">
+				<skill id="4624" level="9"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-7262" zMax="-7012">
+			<point x="172411" y="-81083"/>
+			<point x="173942" y="-81073"/>
+			<point x="173931" y="-77639"/>
+			<point x="172418" y="-77644"/>
+		</shape>
+	</zone>
+
+	<zone id="5013" name="magistrates_weakness">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="70">
+				<skill id="4146" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-7262" zMax="-7012">
+			<point x="174822" y="-77261"/>
+			<point x="176354" y="-77251"/>
+			<point x="176342" y="-73817"/>
+			<point x="174829" y="-73822"/>
+		</shape>
+	</zone>
+
+	<zone id="5014" name="magistrates_pddown">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="70">
+				<skill id="4145" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-7262" zMax="-7012">
+			<point x="174822" y="-77261"/>
+			<point x="176354" y="-77251"/>
+			<point x="176342" y="-73817"/>
+			<point x="174829" y="-73822"/>
+		</shape>
+	</zone>
+
+	<zone id="5015" name="magistrates_poison">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="70">
+				<skill id="4148" level="9"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-7262" zMax="-7012">
+			<point x="174822" y="-77261"/>
+			<point x="176354" y="-77251"/>
+			<point x="176342" y="-73817"/>
+			<point x="174829" y="-73822"/>
+		</shape>
+	</zone>
+
+	<zone id="5016" name="magistrates_nonheal">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="70">
+				<skill id="4624" level="9"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-7262" zMax="-7012">
+			<point x="174822" y="-77261"/>
+			<point x="176354" y="-77251"/>
+			<point x="176342" y="-73817"/>
+			<point x="174829" y="-73822"/>
+		</shape>
+	</zone>
+
+	<zone id="5017" name="royal_rush_no_restart1">
+		<attr name="type" val="no_restart"/>
+		<attr name="type" val="no_summon"/>
+		<attr name="restartTime" val="0"/>
+		<restartPoints>
+			<point x="181398" y="-80787" z="-2728"/>
+		</restartPoints>
+		<attr name="active" val="true"/>
+		<shape type="Poly" zMin="-7263" zMax="-7063">
+			<point x="181198" y="-86516"/>
+			<point x="192394" y="-86521"/>
+			<point x="192391" y="-84626"/>
+			<point x="181193" y="-84622"/>
+		</shape>
+	</zone>
+
+	<zone id="5018" name="royal_rush_no_restart2">
+		<attr name="type" val="no_restart"/>
+		<attr name="type" val="no_summon"/>
+		<attr name="restartTime" val="0"/>
+		<restartPoints>
+			<point x="181398" y="-80787" z="-2728"/>
+		</restartPoints>
+		<attr name="active" val="true"/>
+		<shape type="Poly" zMin="-7263" zMax="-7063">
+			<point x="179511" y="-89903"/>
+			<point x="190707" y="-89908"/>
+			<point x="190704" y="-88013"/>
+			<point x="179506" y="-88009"/>
+		</shape>
+	</zone>
+
+	<zone id="5019" name="royal_rush_no_restart3">
+		<attr name="type" val="no_restart"/>
+		<attr name="type" val="no_summon"/>
+		<attr name="restartTime" val="0"/>
+		<restartPoints>
+			<point x="181398" y="-80787" z="-2728"/>
+		</restartPoints>
+		<attr name="active" val="true"/>
+		<shape type="Poly" zMin="-7263" zMax="-7063">
+			<point x="174498" y="-82751"/>
+			<point x="176622" y="-82751"/>
+			<point x="176616" y="-71304"/>
+			<point x="174489" y="-71303"/>
+		</shape>
+	</zone>
+
+	<zone id="5020" name="royal_rush_no_restart4">
+		<attr name="type" val="no_restart"/>
+		<attr name="type" val="no_summon"/>
+		<attr name="restartTime" val="0"/>
+		<restartPoints>
+			<point x="181398" y="-80787" z="-2728"/>
+		</restartPoints>
+		<attr name="active" val="true"/>
+		<shape type="Poly" zMin="-7263" zMax="-7063">
+			<point x="172183" y="-86660"/>
+			<point x="174307" y="-86661"/>
+			<point x="174301" y="-75214"/>
+			<point x="172174" y="-75213"/>
+		</shape>
+	</zone>
+</list>

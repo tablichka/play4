@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<skill id="20000" levels="1" name="Treasure Hunter Search">
+		<set name="magicLevel" val="85"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="1500"/>
+		<set name="reuseDelay" val="5000"/>
+		<set name="effectPoint" val="1000"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="around"/>
+		<set name="skillRadius" val="200"/>
+		<set name="affect_object" val="not_friend"/>
+		<set name="affect_limit" val="6;12"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<!--
+		<cond msgId="113">
+			<player attackerNpcId="13097"/>
+		</cond>
+		-->
+		<for/>
+	</skill>
+	<skill id="20001" levels="1" name="Treasure Hunter Hammer Punch">
+		<set name="magicLevel" val="85"/>
+		<set name="isMagic" val="2"/>
+		<set name="castRange" val="40"/>
+		<set name="hitTime" val="1000"/>
+		<set name="reuseDelay" val="60000"/>
+		<set name="target_type" val="door_treasure"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<cond msgId="113">
+			<target unlockable="true"/>
+		</cond>
+		<for/>
+	</skill>
+	<skill id="20002" levels="1" name="Dragon Blow">
+		<set name="mpConsume2" val="55"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="magicLevel" val="85"/>
+		<set name="castRange" val="20"/>
+		<set name="target_type" val="enemy"/>
+		<set name="affect_scope" val="single"/>
+		<set name="power" val="3420"/>
+		<set name="critRate" val="5"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="2000"/>
+		<set name="coolTime" val="167"/>
+		<set name="reuseDelay" val="7000"/>
+		<set name="staticReuse" val="true"/>
+		<set name="nextAction" val="attack"/>
+		<for>
+			<effect name="i_p_attack"/>
+		</for>
+	</skill>
+	<skill id="20003" levels="1" name="Dragon Slash">
+		<set name="mpConsume2" val="55"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="magicLevel" val="85"/>
+		<set name="castRange" val="20"/>
+		<set name="target_type" val="enemy"/>
+		<set name="affect_scope" val="single"/>
+		<set name="power" val="3420"/>
+		<set name="critRate" val="5"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="2000"/>
+		<set name="coolTime" val="167"/>
+		<set name="reuseDelay" val="7000"/>
+		<set name="staticReuse" val="true"/>
+		<set name="nextAction" val="attack"/>
+		<for>
+			<effect name="i_p_attack"/>
+		</for>
+	</skill>
+	<skill id="20004" levels="1" name="Dragon Dash">
+		<table name="#mpConsume1">
+			8
+		</table>
+		<table name="#mpConsume2">
+			30
+		</table>
+		<set name="mpConsume1" val="#mpConsume1"/>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Increases Speed by 100% for 5 seconds with a dragon's strength.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="20005" levels="1" name="Dragon Aura">
+		<table name="#mpConsume1">
+			9
+		</table>
+		<table name="#mpConsume2">
+			38
+		</table>
+		<set name="mpConsume1" val="#mpConsume1"/>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Increases Critical Rate by 30% for 20 minutes with a dragon's strength.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="castRange" val="400"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="4000"/>
+		<for/>
+	</skill>
+	<skill id="20006" levels="1" name="Soul Roar">
+		<set name="isMagic" val="0"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="abnormal_time" val="600"/>
+		<set name="abnormal_type" val="max_hp_up_k"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="effectPoint" val="635"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="1500"/>
+		<set name="reuseDelay" val="240000"/>
+		<set name="mpConsume2" val="58"/>
+		<set name="magicLevel" val="62"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="maxHp" val="1.15"/>
+				<mul order="0x30" stat="maxCp" val="1.15"/>
+			</effect>
+			<effect name="i_hp_per_max" val="15"/>
+			<effect name="i_cp_per_max" val="15"/>
+		</for>
+	</skill>
+
+	<!-- Custom skills for board transform -->
+	<skill id="20010" levels="1" name="Jet board">
+		<set name="hitCancelTime" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="isMagic" val="3"/>
+		<set name="staticReuse" val="true"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="effectPoint" val="0"/>
+		<set name="magicLevel" val="79"/>
+		<set name="hpConsume" val="200"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="cancelable" val="false"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="hitTime" val="2500"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<player riding="none" msgId="2063"/>
+				<player zoneType="water" msgId="2060"/>
+				<target playerOnly="true"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="t_transform" val="40000" npcId="40000" femaleNpcId="40001"/>
+		</for>
+	</skill>
+
+	<skill id="20011" levels="1" name="Jet board">
+		<set name="hitCancelTime" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="isMagic" val="3"/>
+		<set name="staticReuse" val="true"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="effectPoint" val="0"/>
+		<set name="magicLevel" val="79"/>
+		<set name="hpConsume" val="200"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="cancelable" val="false"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="hitTime" val="2500"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<player riding="none" msgId="2063"/>
+				<player zoneType="water" msgId="2060"/>
+				<target playerOnly="true"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="t_transform" val="40008" npcId="40008" femaleNpcId="40009"/>
+		</for>
+	</skill>
+
+	<skill id="20012" levels="1" name="Jet board">
+		<set name="hitCancelTime" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="isMagic" val="3"/>
+		<set name="staticReuse" val="true"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="effectPoint" val="0"/>
+		<set name="magicLevel" val="79"/>
+		<set name="hpConsume" val="200"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="cancelable" val="false"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="hitTime" val="2500"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<player riding="none" msgId="2063"/>
+				<player zoneType="water" msgId="2060"/>
+				<target playerOnly="true"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="t_transform" val="40002" npcId="40002" femaleNpcId="40003"/>
+		</for>
+	</skill>
+
+	<skill id="20013" levels="1" name="Jet board">
+		<set name="hitCancelTime" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="isMagic" val="3"/>
+		<set name="staticReuse" val="true"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="effectPoint" val="0"/>
+		<set name="magicLevel" val="79"/>
+		<set name="hpConsume" val="200"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="cancelable" val="false"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="hitTime" val="2500"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<player riding="none" msgId="2063"/>
+				<player zoneType="water" msgId="2060"/>
+				<target playerOnly="true"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="t_transform" val="40004" npcId="40004" femaleNpcId="40005"/>
+		</for>
+	</skill>
+
+	<skill id="20014" levels="1" name="Jet board">
+		<set name="hitCancelTime" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="isMagic" val="3"/>
+		<set name="staticReuse" val="true"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="effectPoint" val="0"/>
+		<set name="magicLevel" val="79"/>
+		<set name="hpConsume" val="200"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="cancelable" val="false"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="hitTime" val="2500"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<player riding="none" msgId="2063"/>
+				<player zoneType="water" msgId="2060"/>
+				<target playerOnly="true"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="t_transform" val="40006" npcId="40006" femaleNpcId="40007"/>
+		</for>
+	</skill>
+
+	<skill id="20015" levels="1" name="Jet board">
+		<set name="hitCancelTime" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="isMagic" val="3"/>
+		<set name="staticReuse" val="true"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="effectPoint" val="0"/>
+		<set name="magicLevel" val="79"/>
+		<set name="hpConsume" val="200"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="cancelable" val="false"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="hitTime" val="2500"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<player riding="none" msgId="2063"/>
+				<player zoneType="water" msgId="2060"/>
+				<target playerOnly="true"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="t_transform" val="40010" npcId="40010" femaleNpcId="40011"/>
+		</for>
+	</skill>
+
+	<skill id="20016" levels="1" name="Jet board">
+		<set name="hitCancelTime" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="isMagic" val="3"/>
+		<set name="staticReuse" val="true"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="effectPoint" val="0"/>
+		<set name="magicLevel" val="79"/>
+		<set name="hpConsume" val="200"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="cancelable" val="false"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="hitTime" val="2500"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<player riding="none" msgId="2063"/>
+				<player zoneType="water" msgId="2060"/>
+				<target playerOnly="true"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="t_transform" val="40012" npcId="40012" femaleNpcId="40013"/>
+		</for>
+	</skill>
+
+	<skill id="20017" levels="1" name="Jet board">
+		<set name="hitCancelTime" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="isMagic" val="3"/>
+		<set name="staticReuse" val="true"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="effectPoint" val="0"/>
+		<set name="magicLevel" val="79"/>
+		<set name="hpConsume" val="200"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="cancelable" val="false"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="hitTime" val="2500"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<player riding="none" msgId="2063"/>
+				<player zoneType="water" msgId="2060"/>
+				<target playerOnly="true"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="t_transform" val="40014" npcId="40014" femaleNpcId="40015"/>
+		</for>
+	</skill>
+	<!-- Custom skills end -->
+
+</list>

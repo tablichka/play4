@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<auction brokerId="32321" day="2" hour="21" min="0" time="180"> <!-- Aden -->
+		<!--ENCHANTED NO-GRADE WEAPONS-->
+		<item id="9901" enchant="15" startBid="100000"/> <!-- Improved Falchion -->
+		<item id="9902" enchant="15" startBid="100000"/> <!-- Improved Great Spear -->
+		<item id="9903" enchant="15" startBid="100000"/> <!-- Improved Iron Hammer -->
+		<item id="9904" enchant="15" startBid="100000"/> <!-- Improved Sword Breaker -->
+		<item id="9905" enchant="15" startBid="100000"/> <!-- Improved Viper Fang -->
+		<item id="9906" enchant="15" startBid="100000"/> <!-- Improved Composite Bow -->
+		<item id="9907" enchant="15" startBid="100000"/> <!-- Improved Flanged Mace -->
+		<item id="9908" enchant="15" startBid="100000"/> <!-- Improved Mage Staff -->
+		<!--LIFE STONES-->
+		<item id="9575" startBid="100000"/> <!-- High-Grade Life Stone: level 80 -->
+		<item id="9576" startBid="100000"/> <!-- Top-Grade Life Stone: level 80 -->
+		<item id="10485" startBid="100000"/> <!-- High-Grade Life Stone: level 82 -->
+		<item id="10486" startBid="100000"/> <!-- Top-Grade Life Stone: level 82 -->
+		<!--SOUL STONES-->
+		<item id="10480" startBid="100000"/> <!-- Red Soul Crystal - Stage 15 -->
+		<item id="10481" startBid="100000"/> <!-- Blue Soul Crystal - Stage 15 -->
+		<item id="10482" startBid="100000"/> <!-- Green Soul Crystal - Stage 15 -->
+		<item id="13071" startBid="100000"/> <!-- Red Soul Crystal - Stage 16 -->
+		<item id="13072" startBid="100000"/> <!-- Blue Soul Crystal - Stage 16 -->
+		<item id="13073" startBid="100000"/> <!-- Green Soul Crystal - Stage 16 -->
+		<!--FORGOTTEN SCROLLS-->
+		<item id="10549" startBid="100000"/> <!-- Forgotten Scroll - Protection of Rune -->
+		<item id="10550" startBid="100000"/> <!-- Forgotten Scroll - Protection of Elemental -->
+		<item id="10551" startBid="100000"/> <!-- Forgotten Scroll - Protection of Alignment -->
+		<item id="10552" startBid="100000"/> <!-- Forgotten Scroll - Fighter's Will -->
+		<item id="10553" startBid="100000"/> <!-- Forgotten Scroll - Archer's Will -->
+		<item id="14219" startBid="100000"/> <!-- Forgotten Scroll - Magician's Will -->
+		<!--ACCESSORIES-->
+		<item id="13497" startBid="100000"/> <!-- Refined Chick Hat -->
+		<item id="13498" startBid="100000"/> <!-- Refined Wizard Hat -->
+		<item id="13500" startBid="100000"/> <!-- Refined Black Feather Mask -->
+		<item id="13501" startBid="100000"/> <!-- Refined Romantic Chapeau -->
+		<item id="13499" startBid="100000"/> <!-- Refined Jester Hat -->
+		<item id="13493" startBid="100000"/> <!-- Refined Carnival Circlet -->
+		<!--MID S84 WEAPONS-->
+		<item id="15561" startBid="100000"/> <!-- Devilish Maul -->
+		<item id="15569" startBid="100000"/> <!-- Gemtail Rapier -->
+		<item id="15571" startBid="100000"/> <!-- Dominion Crossbow -->
+		<item id="15568" startBid="100000"/> <!-- Skull Carnium Bow -->
+		<item id="15559" startBid="100000"/> <!-- Skull Edge -->
+		<item id="15562" startBid="100000"/> <!-- Feather Eye Blade -->
+		<item id="15570" startBid="100000"/> <!-- Finale Blade -->
+		<item id="15563" startBid="100000"/> <!-- Octo Claw -->
+		<item id="15567" startBid="100000"/> <!-- Veniplant Sword -->
+		<item id="15565" startBid="100000"/> <!-- Rising Star -->
+		<item id="15566" startBid="100000"/> <!-- Black Visage -->
+		<item id="15558" startBid="100000"/> <!-- Periel Sword -->
+		<item id="15564" startBid="100000"/> <!-- Doubletop Spear -->
+		<item id="15560" startBid="100000"/> <!-- Vigwik Axe -->
+		<!--TOP S84 WEAPONS-->
+		<item id="15557" startBid="100000"/> <!-- Thorne Crossbow -->
+		<item id="15546" startBid="100000"/> <!-- Eversor Mace -->
+		<item id="15545" startBid="100000"/> <!-- Mamba Edge -->
+		<item id="15556" startBid="100000"/> <!-- Pyseal Blade -->
+		<item id="15554" startBid="100000"/> <!-- Recurve Thorne Bow -->
+		<item id="15553" startBid="100000"/> <!-- Archangel Sword -->
+		<item id="15544" startBid="100000"/> <!-- Eternal Core Sword -->
+		<item id="15547" startBid="100000"/> <!-- Contristo Hammer -->
+		<item id="15549" startBid="100000"/> <!-- Jade Claw -->
+		<item id="15550" startBid="100000"/> <!-- Demitelum -->
+		<item id="15548" startBid="100000"/> <!-- Lava Saw -->
+		<item id="15555" startBid="100000"/> <!-- Heavenstare Rapier -->
+		<item id="15551" startBid="100000"/> <!-- Sacredium -->
+		<item id="15552" startBid="100000"/> <!-- Cyclic Cane -->
+		<!--ELEGIA ARMORS-->
+		<item id="15728" startBid="100000"/> <!-- Sealed Elegia Circlet -->
+		<item id="15729" startBid="100000"/> <!-- Sealed Elegia Breastplate -->
+		<item id="15730" startBid="100000"/> <!-- Sealed Elegia Leather Breastplate -->
+		<item id="15731" startBid="100000"/> <!-- Sealed Elegia Tunic -->
+		<item id="15740" startBid="100000"/> <!-- Sealed Elegia Shoes -->
+		<item id="15733" startBid="100000"/> <!-- Sealed Elegia Leather Legging -->
+		<item id="15736" startBid="100000"/> <!-- Sealed Elegia Leather Gloves -->
+		<item id="15739" startBid="100000"/> <!-- Sealed Elegia Leather Boots -->
+		<item id="15732" startBid="100000"/> <!-- Sealed Elegia Gaiter -->
+		<item id="15737" startBid="100000"/> <!-- Sealed Elegia Gloves -->
+		<item id="15735" startBid="100000"/> <!-- Sealed Elegia Gauntlet -->
+		<item id="15738" startBid="100000"/> <!-- Sealed Elegia Boots -->
+		<item id="15734" startBid="100000"/> <!-- Sealed Elegia Stockings -->
+		<item id="15727" startBid="100000"/> <!-- Sealed Elegia Leather Helmet -->
+		<item id="15742" startBid="100000"/> <!-- Sealed Elegia Sigil -->
+		<item id="15726" startBid="100000"/> <!-- Sealed Elegia Helmet -->
+		<item id="15741" startBid="100000"/> <!-- Sealed Elegia Shield -->
+		<!--IMPROVED RAID BOSS JEWELS-->
+		<item id="22175" startBid="100000"/> <!-- Improved Blessed Earring of Zake -->
+		<item id="22173" startBid="100000"/> <!-- Improved Ring of Baium -->
+		<item id="22174" startBid="100000"/> <!-- Improved Ring of Queen Ant -->
+	</auction>
+	<auction brokerId="32322" day="4" hour="21" min="0" time="180"> <!-- Rune -->
+		<!--ENCHANTED NO-GRADE WEAPONS-->
+		<item id="9901" enchant="15" startBid="100000"/> <!-- Improved Falchion -->
+		<item id="9902" enchant="15" startBid="100000"/> <!-- Improved Great Spear -->
+		<item id="9903" enchant="15" startBid="100000"/> <!-- Improved Iron Hammer -->
+		<item id="9904" enchant="15" startBid="100000"/> <!-- Improved Sword Breaker -->
+		<item id="9905" enchant="15" startBid="100000"/> <!-- Improved Viper Fang -->
+		<item id="9906" enchant="15" startBid="100000"/> <!-- Improved Composite Bow -->
+		<item id="9907" enchant="15" startBid="100000"/> <!-- Improved Flanged Mace -->
+		<item id="9908" enchant="15" startBid="100000"/> <!-- Improved Mage Staff -->
+		<!--LIFE STONES-->
+		<item id="9575" startBid="100000"/> <!-- High-Grade Life Stone: level 80 -->
+		<item id="9576" startBid="100000"/> <!-- Top-Grade Life Stone: level 80 -->
+		<item id="10485" startBid="100000"/> <!-- High-Grade Life Stone: level 82 -->
+		<item id="10486" startBid="100000"/> <!-- Top-Grade Life Stone: level 82 -->
+		<!--SOUL STONES-->
+		<item id="10480" startBid="100000"/> <!-- Red Soul Crystal - Stage 15 -->
+		<item id="10481" startBid="100000"/> <!-- Blue Soul Crystal - Stage 15 -->
+		<item id="10482" startBid="100000"/> <!-- Green Soul Crystal - Stage 15 -->
+		<item id="13071" startBid="100000"/> <!-- Red Soul Crystal - Stage 16 -->
+		<item id="13072" startBid="100000"/> <!-- Blue Soul Crystal - Stage 16 -->
+		<item id="13073" startBid="100000"/> <!-- Green Soul Crystal - Stage 16 -->
+		<!--FORGOTTEN SCROLLS-->
+		<item id="10549" startBid="100000"/> <!-- Forgotten Scroll - Protection of Rune -->
+		<item id="10550" startBid="100000"/> <!-- Forgotten Scroll - Protection of Elemental -->
+		<item id="10551" startBid="100000"/> <!-- Forgotten Scroll - Protection of Alignment -->
+		<item id="10552" startBid="100000"/> <!-- Forgotten Scroll - Fighter's Will -->
+		<item id="10553" startBid="100000"/> <!-- Forgotten Scroll - Archer's Will -->
+		<item id="14219" startBid="100000"/> <!-- Forgotten Scroll - Magician's Will -->
+		<!--ACCESSORIES-->
+		<item id="13497" startBid="100000"/> <!-- Refined Chick Hat -->
+		<item id="13498" startBid="100000"/> <!-- Refined Wizard Hat -->
+		<item id="13500" startBid="100000"/> <!-- Refined Black Feather Mask -->
+		<item id="13501" startBid="100000"/> <!-- Refined Romantic Chapeau -->
+		<item id="13499" startBid="100000"/> <!-- Refined Jester Hat -->
+		<item id="13493" startBid="100000"/> <!-- Refined Carnival Circlet -->
+		<!--MID S84 WEAPONS-->
+		<item id="15561" startBid="100000"/> <!-- Devilish Maul -->
+		<item id="15569" startBid="100000"/> <!-- Gemtail Rapier -->
+		<item id="15571" startBid="100000"/> <!-- Dominion Crossbow -->
+		<item id="15568" startBid="100000"/> <!-- Skull Carnium Bow -->
+		<item id="15559" startBid="100000"/> <!-- Skull Edge -->
+		<item id="15562" startBid="100000"/> <!-- Feather Eye Blade -->
+		<item id="15570" startBid="100000"/> <!-- Finale Blade -->
+		<item id="15563" startBid="100000"/> <!-- Octo Claw -->
+		<item id="15567" startBid="100000"/> <!-- Veniplant Sword -->
+		<item id="15565" startBid="100000"/> <!-- Rising Star -->
+		<item id="15566" startBid="100000"/> <!-- Black Visage -->
+		<item id="15558" startBid="100000"/> <!-- Periel Sword -->
+		<item id="15564" startBid="100000"/> <!-- Doubletop Spear -->
+		<item id="15560" startBid="100000"/> <!-- Vigwik Axe -->
+		<!--TOP S84 WEAPONS-->
+		<item id="15557" startBid="100000"/> <!-- Thorne Crossbow -->
+		<item id="15546" startBid="100000"/> <!-- Eversor Mace -->
+		<item id="15545" startBid="100000"/> <!-- Mamba Edge -->
+		<item id="15556" startBid="100000"/> <!-- Pyseal Blade -->
+		<item id="15554" startBid="100000"/> <!-- Recurve Thorne Bow -->
+		<item id="15553" startBid="100000"/> <!-- Archangel Sword -->
+		<item id="15544" startBid="100000"/> <!-- Eternal Core Sword -->
+		<item id="15547" startBid="100000"/> <!-- Contristo Hammer -->
+		<item id="15549" startBid="100000"/> <!-- Jade Claw -->
+		<item id="15550" startBid="100000"/> <!-- Demitelum -->
+		<item id="15548" startBid="100000"/> <!-- Lava Saw -->
+		<item id="15555" startBid="100000"/> <!-- Heavenstare Rapier -->
+		<item id="15551" startBid="100000"/> <!-- Sacredium -->
+		<item id="15552" startBid="100000"/> <!-- Cyclic Cane -->
+		<!--ELEGIA ARMORS-->
+		<item id="15728" startBid="100000"/> <!-- Sealed Elegia Circlet -->
+		<item id="15729" startBid="100000"/> <!-- Sealed Elegia Breastplate -->
+		<item id="15730" startBid="100000"/> <!-- Sealed Elegia Leather Breastplate -->
+		<item id="15731" startBid="100000"/> <!-- Sealed Elegia Tunic -->
+		<item id="15740" startBid="100000"/> <!-- Sealed Elegia Shoes -->
+		<item id="15733" startBid="100000"/> <!-- Sealed Elegia Leather Legging -->
+		<item id="15736" startBid="100000"/> <!-- Sealed Elegia Leather Gloves -->
+		<item id="15739" startBid="100000"/> <!-- Sealed Elegia Leather Boots -->
+		<item id="15732" startBid="100000"/> <!-- Sealed Elegia Gaiter -->
+		<item id="15737" startBid="100000"/> <!-- Sealed Elegia Gloves -->
+		<item id="15735" startBid="100000"/> <!-- Sealed Elegia Gauntlet -->
+		<item id="15738" startBid="100000"/> <!-- Sealed Elegia Boots -->
+		<item id="15734" startBid="100000"/> <!-- Sealed Elegia Stockings -->
+		<item id="15727" startBid="100000"/> <!-- Sealed Elegia Leather Helmet -->
+		<item id="15742" startBid="100000"/> <!-- Sealed Elegia Sigil -->
+		<item id="15726" startBid="100000"/> <!-- Sealed Elegia Helmet -->
+		<item id="15741" startBid="100000"/> <!-- Sealed Elegia Shield -->
+		<!--IMPROVED RAID BOSS JEWELS-->
+		<item id="22175" startBid="100000"/> <!-- Improved Blessed Earring of Zake -->
+		<item id="22173" startBid="100000"/> <!-- Improved Ring of Baium -->
+		<item id="22174" startBid="100000"/> <!-- Improved Ring of Queen Ant -->
+	</auction>
+	<auction brokerId="32320" day="6" hour="21" min="0" time="180"> <!-- Giran -->
+		<!--ENCHANTED NO-GRADE WEAPONS-->
+		<item id="9901" enchant="15" startBid="100000"/> <!-- Improved Falchion -->
+		<item id="9902" enchant="15" startBid="100000"/> <!-- Improved Great Spear -->
+		<item id="9903" enchant="15" startBid="100000"/> <!-- Improved Iron Hammer -->
+		<item id="9904" enchant="15" startBid="100000"/> <!-- Improved Sword Breaker -->
+		<item id="9905" enchant="15" startBid="100000"/> <!-- Improved Viper Fang -->
+		<item id="9906" enchant="15" startBid="100000"/> <!-- Improved Composite Bow -->
+		<item id="9907" enchant="15" startBid="100000"/> <!-- Improved Flanged Mace -->
+		<item id="9908" enchant="15" startBid="100000"/> <!-- Improved Mage Staff -->
+		<!--LIFE STONES-->
+		<item id="9575" startBid="100000"/> <!-- High-Grade Life Stone: level 80 -->
+		<item id="9576" startBid="100000"/> <!-- Top-Grade Life Stone: level 80 -->
+		<item id="10485" startBid="100000"/> <!-- High-Grade Life Stone: level 82 -->
+		<item id="10486" startBid="100000"/> <!-- Top-Grade Life Stone: level 82 -->
+		<!--SOUL STONES-->
+		<item id="10480" startBid="100000"/> <!-- Red Soul Crystal - Stage 15 -->
+		<item id="10481" startBid="100000"/> <!-- Blue Soul Crystal - Stage 15 -->
+		<item id="10482" startBid="100000"/> <!-- Green Soul Crystal - Stage 15 -->
+		<item id="13071" startBid="100000"/> <!-- Red Soul Crystal - Stage 16 -->
+		<item id="13072" startBid="100000"/> <!-- Blue Soul Crystal - Stage 16 -->
+		<item id="13073" startBid="100000"/> <!-- Green Soul Crystal - Stage 16 -->
+		<!--FORGOTTEN SCROLLS-->
+		<item id="10549" startBid="100000"/> <!-- Forgotten Scroll - Protection of Rune -->
+		<item id="10550" startBid="100000"/> <!-- Forgotten Scroll - Protection of Elemental -->
+		<item id="10551" startBid="100000"/> <!-- Forgotten Scroll - Protection of Alignment -->
+		<item id="10552" startBid="100000"/> <!-- Forgotten Scroll - Fighter's Will -->
+		<item id="10553" startBid="100000"/> <!-- Forgotten Scroll - Archer's Will -->
+		<item id="14219" startBid="100000"/> <!-- Forgotten Scroll - Magician's Will -->
+		<!--ACCESSORIES-->
+		<item id="13497" startBid="100000"/> <!-- Refined Chick Hat -->
+		<item id="13498" startBid="100000"/> <!-- Refined Wizard Hat -->
+		<item id="13500" startBid="100000"/> <!-- Refined Black Feather Mask -->
+		<item id="13501" startBid="100000"/> <!-- Refined Romantic Chapeau -->
+		<item id="13499" startBid="100000"/> <!-- Refined Jester Hat -->
+		<item id="13493" startBid="100000"/> <!-- Refined Carnival Circlet -->
+		<!--MID S84 WEAPONS-->
+		<item id="15561" startBid="100000"/> <!-- Devilish Maul -->
+		<item id="15569" startBid="100000"/> <!-- Gemtail Rapier -->
+		<item id="15571" startBid="100000"/> <!-- Dominion Crossbow -->
+		<item id="15568" startBid="100000"/> <!-- Skull Carnium Bow -->
+		<item id="15559" startBid="100000"/> <!-- Skull Edge -->
+		<item id="15562" startBid="100000"/> <!-- Feather Eye Blade -->
+		<item id="15570" startBid="100000"/> <!-- Finale Blade -->
+		<item id="15563" startBid="100000"/> <!-- Octo Claw -->
+		<item id="15567" startBid="100000"/> <!-- Veniplant Sword -->
+		<item id="15565" startBid="100000"/> <!-- Rising Star -->
+		<item id="15566" startBid="100000"/> <!-- Black Visage -->
+		<item id="15558" startBid="100000"/> <!-- Periel Sword -->
+		<item id="15564" startBid="100000"/> <!-- Doubletop Spear -->
+		<item id="15560" startBid="100000"/> <!-- Vigwik Axe -->
+		<!--TOP S84 WEAPONS-->
+		<item id="15557" startBid="100000"/> <!-- Thorne Crossbow -->
+		<item id="15546" startBid="100000"/> <!-- Eversor Mace -->
+		<item id="15545" startBid="100000"/> <!-- Mamba Edge -->
+		<item id="15556" startBid="100000"/> <!-- Pyseal Blade -->
+		<item id="15554" startBid="100000"/> <!-- Recurve Thorne Bow -->
+		<item id="15553" startBid="100000"/> <!-- Archangel Sword -->
+		<item id="15544" startBid="100000"/> <!-- Eternal Core Sword -->
+		<item id="15547" startBid="100000"/> <!-- Contristo Hammer -->
+		<item id="15549" startBid="100000"/> <!-- Jade Claw -->
+		<item id="15550" startBid="100000"/> <!-- Demitelum -->
+		<item id="15548" startBid="100000"/> <!-- Lava Saw -->
+		<item id="15555" startBid="100000"/> <!-- Heavenstare Rapier -->
+		<item id="15551" startBid="100000"/> <!-- Sacredium -->
+		<item id="15552" startBid="100000"/> <!-- Cyclic Cane -->
+		<!--ELEGIA ARMORS-->
+		<item id="15728" startBid="100000"/> <!-- Sealed Elegia Circlet -->
+		<item id="15729" startBid="100000"/> <!-- Sealed Elegia Breastplate -->
+		<item id="15730" startBid="100000"/> <!-- Sealed Elegia Leather Breastplate -->
+		<item id="15731" startBid="100000"/> <!-- Sealed Elegia Tunic -->
+		<item id="15740" startBid="100000"/> <!-- Sealed Elegia Shoes -->
+		<item id="15733" startBid="100000"/> <!-- Sealed Elegia Leather Legging -->
+		<item id="15736" startBid="100000"/> <!-- Sealed Elegia Leather Gloves -->
+		<item id="15739" startBid="100000"/> <!-- Sealed Elegia Leather Boots -->
+		<item id="15732" startBid="100000"/> <!-- Sealed Elegia Gaiter -->
+		<item id="15737" startBid="100000"/> <!-- Sealed Elegia Gloves -->
+		<item id="15735" startBid="100000"/> <!-- Sealed Elegia Gauntlet -->
+		<item id="15738" startBid="100000"/> <!-- Sealed Elegia Boots -->
+		<item id="15734" startBid="100000"/> <!-- Sealed Elegia Stockings -->
+		<item id="15727" startBid="100000"/> <!-- Sealed Elegia Leather Helmet -->
+		<item id="15742" startBid="100000"/> <!-- Sealed Elegia Sigil -->
+		<item id="15726" startBid="100000"/> <!-- Sealed Elegia Helmet -->
+		<item id="15741" startBid="100000"/> <!-- Sealed Elegia Shield -->
+		<!--IMPROVED RAID BOSS JEWELS-->
+		<item id="22175" startBid="100000"/> <!-- Improved Blessed Earring of Zake -->
+		<item id="22173" startBid="100000"/> <!-- Improved Ring of Baium -->
+		<item id="22174" startBid="100000"/> <!-- Improved Ring of Queen Ant -->
+	</auction>
+</list>

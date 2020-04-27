@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="10443" name="Icarus Spitter - Cheap Shot">
+		<for>
+			<set val="1" order="0x08" stat="cheapShot" />
+			<set val="0.26" order="0x08" stat="cheapShotChance" />
+		</for>
+	</item>
+	<item id="10450" name="Icarus Trident - Critical Stun">
+		<for>
+			<skill id="3070" level="4" chance="100" action="crit" />
+		</for>
+	</item>
+</list>

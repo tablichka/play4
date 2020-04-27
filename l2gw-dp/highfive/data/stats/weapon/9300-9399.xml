@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="9302" name="Sharpshooter - Miser">
+		<for>
+			<set val="5" order="0x08" stat="miser" />
+		</for>
+	</item>
+	<item id="9314" name="Peacemaker - Critical Bleed">
+		<for>
+			<skill id="3021" level="5" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="9315" name="Peacemaker - Miser">
+		<for>
+			<set val="2" order="0x08" stat="miser" />
+		</for>
+	</item>
+	<item id="9321" name="Dismantler - Critical Drain">
+		<for>
+			<skill id="3022" level="6" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="9323" name="Dismantler - Critical Bleed">
+		<for>
+			<skill id="3055" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="9329" name="White Lightning - Critical Poison">
+		<for>
+			<skill id="3061" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="9338" name="Doomchanter - Critical Bleed">
+		<for>
+			<skill id="3053" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="9346" name="Undertaker - Critical Bleed">
+		<for>
+			<skill id="3055" level="2" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="9347" name="Undertaker - Critical Drain">
+		<for>
+			<skill id="3060" level="2" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="9351" name="Reaper - Critical Poison">
+		<for>
+			<skill id="3062" level="2" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="9355" name="Éclair Bijou - Critical Poison">
+		<for>
+			<!-- Critical Poison -->
+			<skill id="3061" level="3" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="9375" name="Sarnga - Critical Slow">
+		<for>
+			<skill id="3574" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="9388" name="Infinity Rapier">
+		<cond msgId="1518">
+			<and>
+				<isHero/>
+				<player race="kamael" />
+			</and>
+		</cond>
+		<for>
+			<add val="250" order="0x40" stat="attackHoly" />
+			<skill id="3579" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="9389" name="Infinity Sword">
+		<cond msgId="1518">
+			<and>
+				<isHero/>
+				<player race="kamael" />
+			</and>
+		</cond>
+		<for>
+			<add val="250" order="0x40" stat="attackHoly" />
+		</for>
+	</item>
+	<item id="9390" name="Infinity Shooter">
+		<cond msgId="1518">
+			<and>
+				<isHero/>
+				<player race="kamael" />
+			</and>
+		</cond>
+		<for>
+			<add val="250" order="0x40" stat="attackHoly" />
+			<skill id="3594" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+</list>

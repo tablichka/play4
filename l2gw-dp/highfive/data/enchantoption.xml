@@ -1,0 +1,3430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<enchantoptions>
+	<enchantoption itemId="21580">	<!-- Power Shirt -->
+		<!--
+			M. Def. + 8.0;
+		-->
+		<enchant level="0" options="24965"/>
+		<!--
+			M. Def. + 9.0;
+		-->
+		<enchant level="1" options="24966"/>
+		<!--
+			M. Def. + 10.0;
+		-->
+		<enchant level="2" options="24967"/>
+		<!--
+			M. Def. + 11.0;
+		-->
+		<enchant level="3" options="24968"/>
+		<!--
+			M. Def. + 12.0;
+			CON +2;
+		-->
+		<enchant level="4" options="24969;24975"/>
+		<!--
+			M. Def. + 13.0;Increases Speed by 7.;
+			CON +2 and MEN +2;
+		-->
+		<enchant level="5" options="24970;24976"/>
+		<!--
+			M. Def. + 14.0;Increases Speed by 7.;
+			INT +2, STR +2, CON +2, MEN +2;
+		-->
+		<enchant level="6" options="24971;24977"/>
+		<!--
+			M. Def. + 15.0;Increases Speed by 7. Increases Physical Skill Damage by 93. Decreases skills' MP Consumption by 3%.;
+			INT +2, STR +2, CON +2, MEN +2;
+			Active Skill: Blessed Escape. Can be used every 20 hours.;
+		-->
+		<enchant level="7" options="24972;24978;24982"/>
+		<!--
+			M. Def. + 16.0;Increases Speed by 7. Increases P. Skill Damage by 93. Decreases skills' MP Consumption by 3%.;Increases P. Critical Damage by 41.3 and M. Critical Rate by 20.; 
+			STR +2, DEX +2, CON +2, INT +2, WIT +2, MEN +2;
+			Active Skill: Blessed Escape. Can be used every 20 hours.;
+		-->
+		<enchant level="8" options="24973;24979;24982"/>
+		<!--
+			M. Def. + 17.0;Increases Speed by 7. Increases P. Skill Damage by 93. Decreases skills' MP Consumption by 3%.;Increases P. Critical Damage by 41.3 and M. Critical Rate by 20.; 
+			STR +2, DEX +2, CON +3, INT +2, WIT +2, MEN +3;
+			Active Skill: Invincibility for 7 seconds. Can be used every 20 hours.;
+		-->
+		<enchant level="9" options="24974;24980;24983"/>
+		<!--
+			M. Def. + 18. Speed + 7.;Increases Speed by 7. Increases P. Skill Damage by 93. Decreases skills' MP Consumption by 3%.;Increases P. Critical Damage by 41.3 and M. Critical Rate by 20.; 
+			STR +3, DEX +2, CON +3, INT +3, WIT +2, MEN +3;
+			Active Skill: Invincibility for 7 seconds. Can be used every 20 hours.;
+		-->
+		<enchant level="10" options="24984;24985;24983"/>
+	</enchantoption>
+
+	<enchantoption itemId="21706">	<!-- Power Shirt -->
+		<!--
+			M. Def. + 8.0;
+		-->
+		<enchant level="0" options="24965"/>
+		<!--
+			M. Def. + 9.0;
+		-->
+		<enchant level="1" options="24966"/>
+		<!--
+			M. Def. + 10.0;
+		-->
+		<enchant level="2" options="24967"/>
+		<!--
+			M. Def. + 11.0;
+		-->
+		<enchant level="3" options="24968"/>
+		<!--
+			M. Def. + 12.0;
+			CON +2;
+		-->
+		<enchant level="4" options="24969;24975"/>
+		<!--
+			M. Def. + 13.0;Increases Speed by 7.;
+			CON +2 and MEN +2;
+		-->
+		<enchant level="5" options="24970;24976"/>
+		<!--
+			M. Def. + 14.0;Increases Speed by 7.;
+			INT +2, STR +2, CON +2, MEN +2;
+		-->
+		<enchant level="6" options="24971;24977"/>
+		<!--
+			M. Def. + 15.0;Increases Speed by 7. Increases Physical Skill Damage by 93. Decreases skills' MP Consumption by 3%.;
+			INT +2, STR +2, CON +2, MEN +2;
+			Active Skill: Blessed Escape. Can be used every 20 hours.;
+		-->
+		<enchant level="7" options="24972;24978;24982"/>
+		<!--
+			M. Def. + 16.0;Increases Speed by 7. Increases P. Skill Damage by 93. Decreases skills' MP Consumption by 3%.;Increases P. Critical Damage by 41.3 and M. Critical Rate by 20.; 
+			STR +2, DEX +2, CON +2, INT +2, WIT +2, MEN +2;
+			Active Skill: Blessed Escape. Can be used every 20 hours.;
+		-->
+		<enchant level="8" options="24973;24979;24982"/>
+		<!--
+			M. Def. + 17.0;Increases Speed by 7. Increases P. Skill Damage by 93. Decreases skills' MP Consumption by 3%.;Increases P. Critical Damage by 41.3 and M. Critical Rate by 20.; 
+			STR +2, DEX +2, CON +3, INT +2, WIT +2, MEN +3;
+			Active Skill: Invincibility for 7 seconds. Can be used every 20 hours.;
+		-->
+		<enchant level="9" options="24974;24980;24983"/>
+		<!--
+			M. Def. + 18. Speed + 7.;Increases Speed by 7. Increases P. Skill Damage by 93. Decreases skills' MP Consumption by 3%.;Increases P. Critical Damage by 41.3 and M. Critical Rate by 20.; 
+			STR +3, DEX +2, CON +3, INT +3, WIT +2, MEN +3;
+			Active Skill: Invincibility for 7 seconds. Can be used every 20 hours.;
+		-->
+		<enchant level="10" options="24984;24985;24983"/>
+	</enchantoption>
+
+	<enchantoption itemId="15383">	<!-- Weaver's Multi-colored Clothes -->
+		<!--
+			Increases P. Def. by 27.0;Increases Magic M. Def. by 8.0;
+		-->
+		<enchant level="0" options="24949"/>
+		<!--
+			Increase P. Def. 28.0;Increase Magic M. Def. 9.0;
+		-->
+		<enchant level="1" options="24805"/>
+		<!--
+			Increase P. Def. 29.0;Increase Magic M. Def. 10.0;
+		-->
+		<enchant level="2" options="24806"/>
+		<!--
+			Increase P. Def. 30.0;Increase Magic M. Def. 11.0;
+		-->
+		<enchant level="3" options="24807"/>
+		<!--
+			Increase P. Def. 31.0;Increase Magic M. Def. 12.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 5 each.;
+			CON +1 increase.;
+		-->
+		<enchant level="4" options="24808;24855;24902"/>
+		<!--
+			Increase P. Def. 32.0;Increase Magic M. Def. 13.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 7 each.;
+			CON +1 increase. MEN +1 increase.;
+		-->
+		<enchant level="5" options="24809;24856;24903"/>
+		<!--
+			Increase P. Def. 33.0;Increase Magic M. Def. 14.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 10 each.;
+			INT +1 increase. STR +1 increase. CON +1 increase. MEN +1 increase.;
+		-->
+		<enchant level="6" options="24810;24857;24904"/>
+		<!--
+			Increase P. Def. 34.0;Increase Magic M. Def. 15.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 13 each.;
+			INT +1 increase. STR +1 increase. CON +2 increase. MEN +1 increase.;
+		-->
+		<enchant level="7" options="24811;24858;24905"/>
+		<!--
+			Increase P. Def. 35.0;Increase Magic M. Def. 16.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 16 each.;
+			INT +1 increase. STR +1 increase. CON +2 increase. MEN +2 increase.;
+		-->
+		<enchant level="8" options="24812;24859;24906"/>
+		<!--
+			Increase P. Def. 36.0;Increase Magic M. Def. 17.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 20 each.;
+			INT +2 increase. STR +2 increase. CON +2 increase. MEN +2 increase.;
+		-->
+		<enchant level="9" options="24813;24860;24907"/>
+		<!--
+			Increase P. Def. 37.0;Increase Magic M. Def. 18.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 24 each.;
+			INT +2 increase. STR +2 increase. CON +3 increase. MEN +2 increase.;
+		-->
+		<enchant level="10" options="24814;24861;24908"/>
+		<!--
+			Increase P. Def. 38.0;Increase Magic M. Def. 19.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 28 each.;
+			INT +2 increase. STR +2 increase. CON +3 increase. MEN +3 increase.;
+		-->
+		<enchant level="11" options="24815;24862;24909"/>
+		<!--
+			Increase P. Def. 39.0;Increase Magic M. Def. 20.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 32 each.;
+			INT +3 increase. STR +3 increase. CON +3 increase. MEN +3 increase.;
+		-->
+		<enchant level="12" options="24816;24863;24910"/>
+		<!--
+			Increase P. Def. 40.0;Increase Magic M. Def. 21.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 36 each.;
+			INT +3 increase. STR +3 increase. CON +4 increase. MEN +3 increase.;
+		-->
+		<enchant level="13" options="24817;24864;24911"/>
+		<!--
+			Increase P. Def. 41.0;Increase Magic M. Def. 22.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 40 each.;
+			INT +3 increase. STR +3 increase. CON +4 increase. MEN +4 increase.;
+		-->
+		<enchant level="14" options="24818;24865;24912"/>
+		<!--
+			Increase P. Def. 42.0;Increase Magic M. Def. 23.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 45 each.;
+			INT +4 increase. STR +4 increase. CON +4 increase. MEN +4 increase.;
+		-->
+		<enchant level="15" options="24819;24866;24913"/>
+		<!--
+			Increase P. Def. 43.0;Increase Magic M. Def. 24.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="16" options="24820;24867;24914"/>
+		<!--
+			Increase P. Def. 44.0;Increase Magic M. Def. 25.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="17" options="24821;24868;24915"/>
+		<!--
+			Increase P. Def. 45.0;Increase Magic M. Def. 26.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="18" options="24822;24869;24916"/>
+		<!--
+			Increase P. Def. 46.0;Increase Magic M. Def. 27.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="19" options="24823;24870;24917"/>
+		<!--
+			Increase P. Def. 47.0;Increase Magic M. Def. 28.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="20" options="24824;24871;24918"/>
+		<!--
+			Increase P. Def. 48.0;Increase Magic M. Def. 29.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="21" options="24825;24872;24919"/>
+		<!--
+			Increase P. Def. 49.0;Increase Magic M. Def. 30.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="22" options="24826;24873;24920"/>
+		<!--
+			Increase P. Def. 50.0;Increase Magic M. Def. 31.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="23" options="24827;24874;24921"/>
+		<!--
+			Increase P. Def. 51.0;Increase Magic M. Def. 32.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="24" options="24828;24875;24922"/>
+		<!--
+			Increase P. Def. 52.0;Increase Magic M. Def. 33.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="25" options="24829;24876;24923"/>
+		<!--
+			Increase P. Def. 53.0;Increase Magic M. Def. 34.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="26" options="24830;24877;24924"/>
+		<!--
+			Increase P. Def. 54.0;Increase Magic M. Def. 35.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="27" options="24831;24878;24925"/>
+		<!--
+			Increase P. Def. 55.0;Increase Magic M. Def. 36.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="28" options="24832;24879;24926"/>
+		<!--
+			Increase P. Def. 56.0;Increase Magic M. Def. 37.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="29" options="24833;24880;24927"/>
+		<!--
+			Increase P. Def. 57.0;Increase Magic M. Def. 38.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="30" options="24834;24881;24928"/>
+		<!--
+			Increase P. Def. 58.0;Increase Magic M. Def. 39.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="31" options="24835;24882;24929"/>
+		<!--
+			Increase P. Def. 59.0;Increase Magic M. Def. 40.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="32" options="24836;24883;24930"/>
+		<!--
+			Increase P. Def. 60.0;Increase Magic M. Def. 41.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="33" options="24837;24884;24931"/>
+		<!--
+			Increase P. Def. 61.0;Increase Magic M. Def. 42.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="34" options="24838;24885;24932"/>
+		<!--
+			Increase P. Def. 62.0;Increase Magic M. Def. 43.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="35" options="24839;24886;24933"/>
+		<!--
+			Increase P. Def. 63.0;Increase Magic M. Def. 44.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="36" options="24840;24887;24934"/>
+		<!--
+			Increase P. Def. 64.0;Increase Magic M. Def. 45.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="37" options="24841;24888;24935"/>
+		<!--
+			Increase P. Def. 65.0;Increase Magic M. Def. 46.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="38" options="24842;24889;24936"/>
+		<!--
+			Increase P. Def. 66.0;Increase Magic M. Def. 47.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="39" options="24843;24890;24937"/>
+		<!--
+			Increase P. Def. 67.0;Increase Magic M. Def. 48.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="40" options="24844;24891;24938"/>
+		<!--
+			Increase P. Def. 68.0;Increase Magic M. Def. 49.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="41" options="24845;24892;24939"/>
+		<!--
+			Increase P. Def. 69.0;Increase Magic M. Def. 50.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="42" options="24846;24893;24940"/>
+		<!--
+			Increase P. Def. 70.0;Increase Magic M. Def. 51.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="43" options="24847;24894;24941"/>
+		<!--
+			Increase P. Def. 71.0;Increase Magic M. Def. 52.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="44" options="24848;24895;24942"/>
+		<!--
+			Increase P. Def. 72.0;Increase Magic M. Def. 53.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="45" options="24849;24896;24943"/>
+		<!--
+			Increase P. Def. 73.0;Increase Magic M. Def. 54.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="46" options="24850;24897;24944"/>
+		<!--
+			Increase P. Def. 74.0;Increase Magic M. Def. 55.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="47" options="24851;24898;24945"/>
+		<!--
+			Increase P. Def. 75.0;Increase Magic M. Def. 56.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="48" options="24852;24899;24946"/>
+		<!--
+			Increase P. Def. 76.0;Increase Magic M. Def. 57.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="49" options="24853;24900;24947"/>
+		<!--
+			Increase P. Def. 77.0;Increase Magic M. Def. 58.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="50" options="24854;24901;24948"/>
+	</enchantoption>
+
+	<enchantoption itemId="15384">	<!-- Weaver's Multi-colored Clothes -->
+		<!--
+			Increases P. Def. by 27.0;Increases Magic M. Def. by 8.0;
+		-->
+		<enchant level="0" options="24949"/>
+		<!--
+			Increase P. Def. 28.0;Increase Magic M. Def. 9.0;
+		-->
+		<enchant level="1" options="24805"/>
+		<!--
+			Increase P. Def. 29.0;Increase Magic M. Def. 10.0;
+		-->
+		<enchant level="2" options="24806"/>
+		<!--
+			Increase P. Def. 30.0;Increase Magic M. Def. 11.0;
+		-->
+		<enchant level="3" options="24807"/>
+		<!--
+			Increase P. Def. 31.0;Increase Magic M. Def. 12.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 5 each.;
+			CON +1 increase.;
+		-->
+		<enchant level="4" options="24808;24855;24902"/>
+		<!--
+			Increase P. Def. 32.0;Increase Magic M. Def. 13.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 7 each.;
+			CON +1 increase. MEN +1 increase.;
+		-->
+		<enchant level="5" options="24809;24856;24903"/>
+		<!--
+			Increase P. Def. 33.0;Increase Magic M. Def. 14.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 10 each.;
+			INT +1 increase. STR +1 increase. CON +1 increase. MEN +1 increase.;
+		-->
+		<enchant level="6" options="24810;24857;24904"/>
+		<!--
+			Increase P. Def. 34.0;Increase Magic M. Def. 15.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 13 each.;
+			INT +1 increase. STR +1 increase. CON +2 increase. MEN +1 increase.;
+		-->
+		<enchant level="7" options="24811;24858;24905"/>
+		<!--
+			Increase P. Def. 35.0;Increase Magic M. Def. 16.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 16 each.;
+			INT +1 increase. STR +1 increase. CON +2 increase. MEN +2 increase.;
+		-->
+		<enchant level="8" options="24812;24859;24906"/>
+		<!--
+			Increase P. Def. 36.0;Increase Magic M. Def. 17.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 20 each.;
+			INT +2 increase. STR +2 increase. CON +2 increase. MEN +2 increase.;
+		-->
+		<enchant level="9" options="24813;24860;24907"/>
+		<!--
+			Increase P. Def. 37.0;Increase Magic M. Def. 18.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 24 each.;
+			INT +2 increase. STR +2 increase. CON +3 increase. MEN +2 increase.;
+		-->
+		<enchant level="10" options="24814;24861;24908"/>
+		<!--
+			Increase P. Def. 38.0;Increase Magic M. Def. 19.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 28 each.;
+			INT +2 increase. STR +2 increase. CON +3 increase. MEN +3 increase.;
+		-->
+		<enchant level="11" options="24815;24862;24909"/>
+		<!--
+			Increase P. Def. 39.0;Increase Magic M. Def. 20.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 32 each.;
+			INT +3 increase. STR +3 increase. CON +3 increase. MEN +3 increase.;
+		-->
+		<enchant level="12" options="24816;24863;24910"/>
+		<!--
+			Increase P. Def. 40.0;Increase Magic M. Def. 21.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 36 each.;
+			INT +3 increase. STR +3 increase. CON +4 increase. MEN +3 increase.;
+		-->
+		<enchant level="13" options="24817;24864;24911"/>
+		<!--
+			Increase P. Def. 41.0;Increase Magic M. Def. 22.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 40 each.;
+			INT +3 increase. STR +3 increase. CON +4 increase. MEN +4 increase.;
+		-->
+		<enchant level="14" options="24818;24865;24912"/>
+		<!--
+			Increase P. Def. 42.0;Increase Magic M. Def. 23.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 45 each.;
+			INT +4 increase. STR +4 increase. CON +4 increase. MEN +4 increase.;
+		-->
+		<enchant level="15" options="24819;24866;24913"/>
+		<!--
+			Increase P. Def. 43.0;Increase Magic M. Def. 24.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="16" options="24820;24867;24914"/>
+		<!--
+			Increase P. Def. 44.0;Increase Magic M. Def. 25.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="17" options="24821;24868;24915"/>
+		<!--
+			Increase P. Def. 45.0;Increase Magic M. Def. 26.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="18" options="24822;24869;24916"/>
+		<!--
+			Increase P. Def. 46.0;Increase Magic M. Def. 27.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="19" options="24823;24870;24917"/>
+		<!--
+			Increase P. Def. 47.0;Increase Magic M. Def. 28.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="20" options="24824;24871;24918"/>
+		<!--
+			Increase P. Def. 48.0;Increase Magic M. Def. 29.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="21" options="24825;24872;24919"/>
+		<!--
+			Increase P. Def. 49.0;Increase Magic M. Def. 30.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="22" options="24826;24873;24920"/>
+		<!--
+			Increase P. Def. 50.0;Increase Magic M. Def. 31.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="23" options="24827;24874;24921"/>
+		<!--
+			Increase P. Def. 51.0;Increase Magic M. Def. 32.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="24" options="24828;24875;24922"/>
+		<!--
+			Increase P. Def. 52.0;Increase Magic M. Def. 33.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="25" options="24829;24876;24923"/>
+		<!--
+			Increase P. Def. 53.0;Increase Magic M. Def. 34.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="26" options="24830;24877;24924"/>
+		<!--
+			Increase P. Def. 54.0;Increase Magic M. Def. 35.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="27" options="24831;24878;24925"/>
+		<!--
+			Increase P. Def. 55.0;Increase Magic M. Def. 36.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="28" options="24832;24879;24926"/>
+		<!--
+			Increase P. Def. 56.0;Increase Magic M. Def. 37.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="29" options="24833;24880;24927"/>
+		<!--
+			Increase P. Def. 57.0;Increase Magic M. Def. 38.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="30" options="24834;24881;24928"/>
+		<!--
+			Increase P. Def. 58.0;Increase Magic M. Def. 39.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="31" options="24835;24882;24929"/>
+		<!--
+			Increase P. Def. 59.0;Increase Magic M. Def. 40.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="32" options="24836;24883;24930"/>
+		<!--
+			Increase P. Def. 60.0;Increase Magic M. Def. 41.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="33" options="24837;24884;24931"/>
+		<!--
+			Increase P. Def. 61.0;Increase Magic M. Def. 42.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="34" options="24838;24885;24932"/>
+		<!--
+			Increase P. Def. 62.0;Increase Magic M. Def. 43.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="35" options="24839;24886;24933"/>
+		<!--
+			Increase P. Def. 63.0;Increase Magic M. Def. 44.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="36" options="24840;24887;24934"/>
+		<!--
+			Increase P. Def. 64.0;Increase Magic M. Def. 45.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="37" options="24841;24888;24935"/>
+		<!--
+			Increase P. Def. 65.0;Increase Magic M. Def. 46.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="38" options="24842;24889;24936"/>
+		<!--
+			Increase P. Def. 66.0;Increase Magic M. Def. 47.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="39" options="24843;24890;24937"/>
+		<!--
+			Increase P. Def. 67.0;Increase Magic M. Def. 48.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="40" options="24844;24891;24938"/>
+		<!--
+			Increase P. Def. 68.0;Increase Magic M. Def. 49.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="41" options="24845;24892;24939"/>
+		<!--
+			Increase P. Def. 69.0;Increase Magic M. Def. 50.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="42" options="24846;24893;24940"/>
+		<!--
+			Increase P. Def. 70.0;Increase Magic M. Def. 51.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="43" options="24847;24894;24941"/>
+		<!--
+			Increase P. Def. 71.0;Increase Magic M. Def. 52.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="44" options="24848;24895;24942"/>
+		<!--
+			Increase P. Def. 72.0;Increase Magic M. Def. 53.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="45" options="24849;24896;24943"/>
+		<!--
+			Increase P. Def. 73.0;Increase Magic M. Def. 54.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="46" options="24850;24897;24944"/>
+		<!--
+			Increase P. Def. 74.0;Increase Magic M. Def. 55.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="47" options="24851;24898;24945"/>
+		<!--
+			Increase P. Def. 75.0;Increase Magic M. Def. 56.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="48" options="24852;24899;24946"/>
+		<!--
+			Increase P. Def. 76.0;Increase Magic M. Def. 57.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="49" options="24853;24900;24947"/>
+		<!--
+			Increase P. Def. 77.0;Increase Magic M. Def. 58.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="50" options="24854;24901;24948"/>
+	</enchantoption>
+
+	<enchantoption itemId="15385">	<!-- Weaver's Multi-colored Clothes -->
+		<!--
+			Increases P. Def. by 27.0;Increases Magic M. Def. by 8.0;
+		-->
+		<enchant level="0" options="24949"/>
+		<!--
+			Increase P. Def. 28.0;Increase Magic M. Def. 9.0;
+		-->
+		<enchant level="1" options="24805"/>
+		<!--
+			Increase P. Def. 29.0;Increase Magic M. Def. 10.0;
+		-->
+		<enchant level="2" options="24806"/>
+		<!--
+			Increase P. Def. 30.0;Increase Magic M. Def. 11.0;
+		-->
+		<enchant level="3" options="24807"/>
+		<!--
+			Increase P. Def. 31.0;Increase Magic M. Def. 12.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 5 each.;
+			CON +1 increase.;
+		-->
+		<enchant level="4" options="24808;24855;24902"/>
+		<!--
+			Increase P. Def. 32.0;Increase Magic M. Def. 13.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 7 each.;
+			CON +1 increase. MEN +1 increase.;
+		-->
+		<enchant level="5" options="24809;24856;24903"/>
+		<!--
+			Increase P. Def. 33.0;Increase Magic M. Def. 14.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 10 each.;
+			INT +1 increase. STR +1 increase. CON +1 increase. MEN +1 increase.;
+		-->
+		<enchant level="6" options="24810;24857;24904"/>
+		<!--
+			Increase P. Def. 34.0;Increase Magic M. Def. 15.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 13 each.;
+			INT +1 increase. STR +1 increase. CON +2 increase. MEN +1 increase.;
+		-->
+		<enchant level="7" options="24811;24858;24905"/>
+		<!--
+			Increase P. Def. 35.0;Increase Magic M. Def. 16.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 16 each.;
+			INT +1 increase. STR +1 increase. CON +2 increase. MEN +2 increase.;
+		-->
+		<enchant level="8" options="24812;24859;24906"/>
+		<!--
+			Increase P. Def. 36.0;Increase Magic M. Def. 17.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 20 each.;
+			INT +2 increase. STR +2 increase. CON +2 increase. MEN +2 increase.;
+		-->
+		<enchant level="9" options="24813;24860;24907"/>
+		<!--
+			Increase P. Def. 37.0;Increase Magic M. Def. 18.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 24 each.;
+			INT +2 increase. STR +2 increase. CON +3 increase. MEN +2 increase.;
+		-->
+		<enchant level="10" options="24814;24861;24908"/>
+		<!--
+			Increase P. Def. 38.0;Increase Magic M. Def. 19.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 28 each.;
+			INT +2 increase. STR +2 increase. CON +3 increase. MEN +3 increase.;
+		-->
+		<enchant level="11" options="24815;24862;24909"/>
+		<!--
+			Increase P. Def. 39.0;Increase Magic M. Def. 20.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 32 each.;
+			INT +3 increase. STR +3 increase. CON +3 increase. MEN +3 increase.;
+		-->
+		<enchant level="12" options="24816;24863;24910"/>
+		<!--
+			Increase P. Def. 40.0;Increase Magic M. Def. 21.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 36 each.;
+			INT +3 increase. STR +3 increase. CON +4 increase. MEN +3 increase.;
+		-->
+		<enchant level="13" options="24817;24864;24911"/>
+		<!--
+			Increase P. Def. 41.0;Increase Magic M. Def. 22.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 40 each.;
+			INT +3 increase. STR +3 increase. CON +4 increase. MEN +4 increase.;
+		-->
+		<enchant level="14" options="24818;24865;24912"/>
+		<!--
+			Increase P. Def. 42.0;Increase Magic M. Def. 23.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 45 each.;
+			INT +4 increase. STR +4 increase. CON +4 increase. MEN +4 increase.;
+		-->
+		<enchant level="15" options="24819;24866;24913"/>
+		<!--
+			Increase P. Def. 43.0;Increase Magic M. Def. 24.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="16" options="24820;24867;24914"/>
+		<!--
+			Increase P. Def. 44.0;Increase Magic M. Def. 25.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="17" options="24821;24868;24915"/>
+		<!--
+			Increase P. Def. 45.0;Increase Magic M. Def. 26.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="18" options="24822;24869;24916"/>
+		<!--
+			Increase P. Def. 46.0;Increase Magic M. Def. 27.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="19" options="24823;24870;24917"/>
+		<!--
+			Increase P. Def. 47.0;Increase Magic M. Def. 28.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="20" options="24824;24871;24918"/>
+		<!--
+			Increase P. Def. 48.0;Increase Magic M. Def. 29.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="21" options="24825;24872;24919"/>
+		<!--
+			Increase P. Def. 49.0;Increase Magic M. Def. 30.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="22" options="24826;24873;24920"/>
+		<!--
+			Increase P. Def. 50.0;Increase Magic M. Def. 31.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="23" options="24827;24874;24921"/>
+		<!--
+			Increase P. Def. 51.0;Increase Magic M. Def. 32.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="24" options="24828;24875;24922"/>
+		<!--
+			Increase P. Def. 52.0;Increase Magic M. Def. 33.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="25" options="24829;24876;24923"/>
+		<!--
+			Increase P. Def. 53.0;Increase Magic M. Def. 34.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="26" options="24830;24877;24924"/>
+		<!--
+			Increase P. Def. 54.0;Increase Magic M. Def. 35.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="27" options="24831;24878;24925"/>
+		<!--
+			Increase P. Def. 55.0;Increase Magic M. Def. 36.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="28" options="24832;24879;24926"/>
+		<!--
+			Increase P. Def. 56.0;Increase Magic M. Def. 37.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="29" options="24833;24880;24927"/>
+		<!--
+			Increase P. Def. 57.0;Increase Magic M. Def. 38.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="30" options="24834;24881;24928"/>
+		<!--
+			Increase P. Def. 58.0;Increase Magic M. Def. 39.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="31" options="24835;24882;24929"/>
+		<!--
+			Increase P. Def. 59.0;Increase Magic M. Def. 40.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="32" options="24836;24883;24930"/>
+		<!--
+			Increase P. Def. 60.0;Increase Magic M. Def. 41.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="33" options="24837;24884;24931"/>
+		<!--
+			Increase P. Def. 61.0;Increase Magic M. Def. 42.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="34" options="24838;24885;24932"/>
+		<!--
+			Increase P. Def. 62.0;Increase Magic M. Def. 43.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="35" options="24839;24886;24933"/>
+		<!--
+			Increase P. Def. 63.0;Increase Magic M. Def. 44.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="36" options="24840;24887;24934"/>
+		<!--
+			Increase P. Def. 64.0;Increase Magic M. Def. 45.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="37" options="24841;24888;24935"/>
+		<!--
+			Increase P. Def. 65.0;Increase Magic M. Def. 46.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="38" options="24842;24889;24936"/>
+		<!--
+			Increase P. Def. 66.0;Increase Magic M. Def. 47.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="39" options="24843;24890;24937"/>
+		<!--
+			Increase P. Def. 67.0;Increase Magic M. Def. 48.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="40" options="24844;24891;24938"/>
+		<!--
+			Increase P. Def. 68.0;Increase Magic M. Def. 49.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="41" options="24845;24892;24939"/>
+		<!--
+			Increase P. Def. 69.0;Increase Magic M. Def. 50.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="42" options="24846;24893;24940"/>
+		<!--
+			Increase P. Def. 70.0;Increase Magic M. Def. 51.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="43" options="24847;24894;24941"/>
+		<!--
+			Increase P. Def. 71.0;Increase Magic M. Def. 52.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="44" options="24848;24895;24942"/>
+		<!--
+			Increase P. Def. 72.0;Increase Magic M. Def. 53.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="45" options="24849;24896;24943"/>
+		<!--
+			Increase P. Def. 73.0;Increase Magic M. Def. 54.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="46" options="24850;24897;24944"/>
+		<!--
+			Increase P. Def. 74.0;Increase Magic M. Def. 55.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="47" options="24851;24898;24945"/>
+		<!--
+			Increase P. Def. 75.0;Increase Magic M. Def. 56.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="48" options="24852;24899;24946"/>
+		<!--
+			Increase P. Def. 76.0;Increase Magic M. Def. 57.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="49" options="24853;24900;24947"/>
+		<!--
+			Increase P. Def. 77.0;Increase Magic M. Def. 58.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="50" options="24854;24901;24948"/>
+	</enchantoption>
+
+	<enchantoption itemId="15386">	<!-- Weaver's Multi-colored Clothes -->
+		<!--
+			Increases P. Def. by 27.0;Increases Magic M. Def. by 8.0;
+		-->
+		<enchant level="0" options="24949"/>
+		<!--
+			Increase P. Def. 28.0;Increase Magic M. Def. 9.0;
+		-->
+		<enchant level="1" options="24805"/>
+		<!--
+			Increase P. Def. 29.0;Increase Magic M. Def. 10.0;
+		-->
+		<enchant level="2" options="24806"/>
+		<!--
+			Increase P. Def. 30.0;Increase Magic M. Def. 11.0;
+		-->
+		<enchant level="3" options="24807"/>
+		<!--
+			Increase P. Def. 31.0;Increase Magic M. Def. 12.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 5 each.;
+			CON +1 increase.;
+		-->
+		<enchant level="4" options="24808;24855;24902"/>
+		<!--
+			Increase P. Def. 32.0;Increase Magic M. Def. 13.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 7 each.;
+			CON +1 increase. MEN +1 increase.;
+		-->
+		<enchant level="5" options="24809;24856;24903"/>
+		<!--
+			Increase P. Def. 33.0;Increase Magic M. Def. 14.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 10 each.;
+			INT +1 increase. STR +1 increase. CON +1 increase. MEN +1 increase.;
+		-->
+		<enchant level="6" options="24810;24857;24904"/>
+		<!--
+			Increase P. Def. 34.0;Increase Magic M. Def. 15.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 13 each.;
+			INT +1 increase. STR +1 increase. CON +2 increase. MEN +1 increase.;
+		-->
+		<enchant level="7" options="24811;24858;24905"/>
+		<!--
+			Increase P. Def. 35.0;Increase Magic M. Def. 16.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 16 each.;
+			INT +1 increase. STR +1 increase. CON +2 increase. MEN +2 increase.;
+		-->
+		<enchant level="8" options="24812;24859;24906"/>
+		<!--
+			Increase P. Def. 36.0;Increase Magic M. Def. 17.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 20 each.;
+			INT +2 increase. STR +2 increase. CON +2 increase. MEN +2 increase.;
+		-->
+		<enchant level="9" options="24813;24860;24907"/>
+		<!--
+			Increase P. Def. 37.0;Increase Magic M. Def. 18.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 24 each.;
+			INT +2 increase. STR +2 increase. CON +3 increase. MEN +2 increase.;
+		-->
+		<enchant level="10" options="24814;24861;24908"/>
+		<!--
+			Increase P. Def. 38.0;Increase Magic M. Def. 19.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 28 each.;
+			INT +2 increase. STR +2 increase. CON +3 increase. MEN +3 increase.;
+		-->
+		<enchant level="11" options="24815;24862;24909"/>
+		<!--
+			Increase P. Def. 39.0;Increase Magic M. Def. 20.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 32 each.;
+			INT +3 increase. STR +3 increase. CON +3 increase. MEN +3 increase.;
+		-->
+		<enchant level="12" options="24816;24863;24910"/>
+		<!--
+			Increase P. Def. 40.0;Increase Magic M. Def. 21.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 36 each.;
+			INT +3 increase. STR +3 increase. CON +4 increase. MEN +3 increase.;
+		-->
+		<enchant level="13" options="24817;24864;24911"/>
+		<!--
+			Increase P. Def. 41.0;Increase Magic M. Def. 22.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 40 each.;
+			INT +3 increase. STR +3 increase. CON +4 increase. MEN +4 increase.;
+		-->
+		<enchant level="14" options="24818;24865;24912"/>
+		<!--
+			Increase P. Def. 42.0;Increase Magic M. Def. 23.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 45 each.;
+			INT +4 increase. STR +4 increase. CON +4 increase. MEN +4 increase.;
+		-->
+		<enchant level="15" options="24819;24866;24913"/>
+		<!--
+			Increase P. Def. 43.0;Increase Magic M. Def. 24.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="16" options="24820;24867;24914"/>
+		<!--
+			Increase P. Def. 44.0;Increase Magic M. Def. 25.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="17" options="24821;24868;24915"/>
+		<!--
+			Increase P. Def. 45.0;Increase Magic M. Def. 26.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="18" options="24822;24869;24916"/>
+		<!--
+			Increase P. Def. 46.0;Increase Magic M. Def. 27.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="19" options="24823;24870;24917"/>
+		<!--
+			Increase P. Def. 47.0;Increase Magic M. Def. 28.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="20" options="24824;24871;24918"/>
+		<!--
+			Increase P. Def. 48.0;Increase Magic M. Def. 29.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="21" options="24825;24872;24919"/>
+		<!--
+			Increase P. Def. 49.0;Increase Magic M. Def. 30.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="22" options="24826;24873;24920"/>
+		<!--
+			Increase P. Def. 50.0;Increase Magic M. Def. 31.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="23" options="24827;24874;24921"/>
+		<!--
+			Increase P. Def. 51.0;Increase Magic M. Def. 32.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="24" options="24828;24875;24922"/>
+		<!--
+			Increase P. Def. 52.0;Increase Magic M. Def. 33.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="25" options="24829;24876;24923"/>
+		<!--
+			Increase P. Def. 53.0;Increase Magic M. Def. 34.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="26" options="24830;24877;24924"/>
+		<!--
+			Increase P. Def. 54.0;Increase Magic M. Def. 35.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="27" options="24831;24878;24925"/>
+		<!--
+			Increase P. Def. 55.0;Increase Magic M. Def. 36.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="28" options="24832;24879;24926"/>
+		<!--
+			Increase P. Def. 56.0;Increase Magic M. Def. 37.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="29" options="24833;24880;24927"/>
+		<!--
+			Increase P. Def. 57.0;Increase Magic M. Def. 38.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="30" options="24834;24881;24928"/>
+		<!--
+			Increase P. Def. 58.0;Increase Magic M. Def. 39.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="31" options="24835;24882;24929"/>
+		<!--
+			Increase P. Def. 59.0;Increase Magic M. Def. 40.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="32" options="24836;24883;24930"/>
+		<!--
+			Increase P. Def. 60.0;Increase Magic M. Def. 41.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="33" options="24837;24884;24931"/>
+		<!--
+			Increase P. Def. 61.0;Increase Magic M. Def. 42.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="34" options="24838;24885;24932"/>
+		<!--
+			Increase P. Def. 62.0;Increase Magic M. Def. 43.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="35" options="24839;24886;24933"/>
+		<!--
+			Increase P. Def. 63.0;Increase Magic M. Def. 44.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="36" options="24840;24887;24934"/>
+		<!--
+			Increase P. Def. 64.0;Increase Magic M. Def. 45.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="37" options="24841;24888;24935"/>
+		<!--
+			Increase P. Def. 65.0;Increase Magic M. Def. 46.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="38" options="24842;24889;24936"/>
+		<!--
+			Increase P. Def. 66.0;Increase Magic M. Def. 47.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="39" options="24843;24890;24937"/>
+		<!--
+			Increase P. Def. 67.0;Increase Magic M. Def. 48.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="40" options="24844;24891;24938"/>
+		<!--
+			Increase P. Def. 68.0;Increase Magic M. Def. 49.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="41" options="24845;24892;24939"/>
+		<!--
+			Increase P. Def. 69.0;Increase Magic M. Def. 50.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="42" options="24846;24893;24940"/>
+		<!--
+			Increase P. Def. 70.0;Increase Magic M. Def. 51.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="43" options="24847;24894;24941"/>
+		<!--
+			Increase P. Def. 71.0;Increase Magic M. Def. 52.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="44" options="24848;24895;24942"/>
+		<!--
+			Increase P. Def. 72.0;Increase Magic M. Def. 53.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="45" options="24849;24896;24943"/>
+		<!--
+			Increase P. Def. 73.0;Increase Magic M. Def. 54.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="46" options="24850;24897;24944"/>
+		<!--
+			Increase P. Def. 74.0;Increase Magic M. Def. 55.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="47" options="24851;24898;24945"/>
+		<!--
+			Increase P. Def. 75.0;Increase Magic M. Def. 56.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="48" options="24852;24899;24946"/>
+		<!--
+			Increase P. Def. 76.0;Increase Magic M. Def. 57.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="49" options="24853;24900;24947"/>
+		<!--
+			Increase P. Def. 77.0;Increase Magic M. Def. 58.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="50" options="24854;24901;24948"/>
+	</enchantoption>
+
+	<enchantoption itemId="15387">	<!-- Weaver's Multi-colored Clothes -->
+		<!--
+			Increases P. Def. by 27.0;Increases Magic M. Def. by 8.0;
+		-->
+		<enchant level="0" options="24949"/>
+		<!--
+			Increase P. Def. 28.0;Increase Magic M. Def. 9.0;
+		-->
+		<enchant level="1" options="24805"/>
+		<!--
+			Increase P. Def. 29.0;Increase Magic M. Def. 10.0;
+		-->
+		<enchant level="2" options="24806"/>
+		<!--
+			Increase P. Def. 30.0;Increase Magic M. Def. 11.0;
+		-->
+		<enchant level="3" options="24807"/>
+		<!--
+			Increase P. Def. 31.0;Increase Magic M. Def. 12.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 5 each.;
+			CON +1 increase.;
+		-->
+		<enchant level="4" options="24808;24855;24902"/>
+		<!--
+			Increase P. Def. 32.0;Increase Magic M. Def. 13.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 7 each.;
+			CON +1 increase. MEN +1 increase.;
+		-->
+		<enchant level="5" options="24809;24856;24903"/>
+		<!--
+			Increase P. Def. 33.0;Increase Magic M. Def. 14.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 10 each.;
+			INT +1 increase. STR +1 increase. CON +1 increase. MEN +1 increase.;
+		-->
+		<enchant level="6" options="24810;24857;24904"/>
+		<!--
+			Increase P. Def. 34.0;Increase Magic M. Def. 15.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 13 each.;
+			INT +1 increase. STR +1 increase. CON +2 increase. MEN +1 increase.;
+		-->
+		<enchant level="7" options="24811;24858;24905"/>
+		<!--
+			Increase P. Def. 35.0;Increase Magic M. Def. 16.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 16 each.;
+			INT +1 increase. STR +1 increase. CON +2 increase. MEN +2 increase.;
+		-->
+		<enchant level="8" options="24812;24859;24906"/>
+		<!--
+			Increase P. Def. 36.0;Increase Magic M. Def. 17.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 20 each.;
+			INT +2 increase. STR +2 increase. CON +2 increase. MEN +2 increase.;
+		-->
+		<enchant level="9" options="24813;24860;24907"/>
+		<!--
+			Increase P. Def. 37.0;Increase Magic M. Def. 18.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 24 each.;
+			INT +2 increase. STR +2 increase. CON +3 increase. MEN +2 increase.;
+		-->
+		<enchant level="10" options="24814;24861;24908"/>
+		<!--
+			Increase P. Def. 38.0;Increase Magic M. Def. 19.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 28 each.;
+			INT +2 increase. STR +2 increase. CON +3 increase. MEN +3 increase.;
+		-->
+		<enchant level="11" options="24815;24862;24909"/>
+		<!--
+			Increase P. Def. 39.0;Increase Magic M. Def. 20.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 32 each.;
+			INT +3 increase. STR +3 increase. CON +3 increase. MEN +3 increase.;
+		-->
+		<enchant level="12" options="24816;24863;24910"/>
+		<!--
+			Increase P. Def. 40.0;Increase Magic M. Def. 21.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 36 each.;
+			INT +3 increase. STR +3 increase. CON +4 increase. MEN +3 increase.;
+		-->
+		<enchant level="13" options="24817;24864;24911"/>
+		<!--
+			Increase P. Def. 41.0;Increase Magic M. Def. 22.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 40 each.;
+			INT +3 increase. STR +3 increase. CON +4 increase. MEN +4 increase.;
+		-->
+		<enchant level="14" options="24818;24865;24912"/>
+		<!--
+			Increase P. Def. 42.0;Increase Magic M. Def. 23.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 45 each.;
+			INT +4 increase. STR +4 increase. CON +4 increase. MEN +4 increase.;
+		-->
+		<enchant level="15" options="24819;24866;24913"/>
+		<!--
+			Increase P. Def. 43.0;Increase Magic M. Def. 24.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="16" options="24820;24867;24914"/>
+		<!--
+			Increase P. Def. 44.0;Increase Magic M. Def. 25.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="17" options="24821;24868;24915"/>
+		<!--
+			Increase P. Def. 45.0;Increase Magic M. Def. 26.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="18" options="24822;24869;24916"/>
+		<!--
+			Increase P. Def. 46.0;Increase Magic M. Def. 27.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="19" options="24823;24870;24917"/>
+		<!--
+			Increase P. Def. 47.0;Increase Magic M. Def. 28.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="20" options="24824;24871;24918"/>
+		<!--
+			Increase P. Def. 48.0;Increase Magic M. Def. 29.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="21" options="24825;24872;24919"/>
+		<!--
+			Increase P. Def. 49.0;Increase Magic M. Def. 30.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="22" options="24826;24873;24920"/>
+		<!--
+			Increase P. Def. 50.0;Increase Magic M. Def. 31.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="23" options="24827;24874;24921"/>
+		<!--
+			Increase P. Def. 51.0;Increase Magic M. Def. 32.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="24" options="24828;24875;24922"/>
+		<!--
+			Increase P. Def. 52.0;Increase Magic M. Def. 33.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="25" options="24829;24876;24923"/>
+		<!--
+			Increase P. Def. 53.0;Increase Magic M. Def. 34.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="26" options="24830;24877;24924"/>
+		<!--
+			Increase P. Def. 54.0;Increase Magic M. Def. 35.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="27" options="24831;24878;24925"/>
+		<!--
+			Increase P. Def. 55.0;Increase Magic M. Def. 36.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="28" options="24832;24879;24926"/>
+		<!--
+			Increase P. Def. 56.0;Increase Magic M. Def. 37.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="29" options="24833;24880;24927"/>
+		<!--
+			Increase P. Def. 57.0;Increase Magic M. Def. 38.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="30" options="24834;24881;24928"/>
+		<!--
+			Increase P. Def. 58.0;Increase Magic M. Def. 39.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="31" options="24835;24882;24929"/>
+		<!--
+			Increase P. Def. 59.0;Increase Magic M. Def. 40.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="32" options="24836;24883;24930"/>
+		<!--
+			Increase P. Def. 60.0;Increase Magic M. Def. 41.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="33" options="24837;24884;24931"/>
+		<!--
+			Increase P. Def. 61.0;Increase Magic M. Def. 42.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="34" options="24838;24885;24932"/>
+		<!--
+			Increase P. Def. 62.0;Increase Magic M. Def. 43.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="35" options="24839;24886;24933"/>
+		<!--
+			Increase P. Def. 63.0;Increase Magic M. Def. 44.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="36" options="24840;24887;24934"/>
+		<!--
+			Increase P. Def. 64.0;Increase Magic M. Def. 45.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="37" options="24841;24888;24935"/>
+		<!--
+			Increase P. Def. 65.0;Increase Magic M. Def. 46.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="38" options="24842;24889;24936"/>
+		<!--
+			Increase P. Def. 66.0;Increase Magic M. Def. 47.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="39" options="24843;24890;24937"/>
+		<!--
+			Increase P. Def. 67.0;Increase Magic M. Def. 48.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="40" options="24844;24891;24938"/>
+		<!--
+			Increase P. Def. 68.0;Increase Magic M. Def. 49.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="41" options="24845;24892;24939"/>
+		<!--
+			Increase P. Def. 69.0;Increase Magic M. Def. 50.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="42" options="24846;24893;24940"/>
+		<!--
+			Increase P. Def. 70.0;Increase Magic M. Def. 51.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="43" options="24847;24894;24941"/>
+		<!--
+			Increase P. Def. 71.0;Increase Magic M. Def. 52.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="44" options="24848;24895;24942"/>
+		<!--
+			Increase P. Def. 72.0;Increase Magic M. Def. 53.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="45" options="24849;24896;24943"/>
+		<!--
+			Increase P. Def. 73.0;Increase Magic M. Def. 54.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="46" options="24850;24897;24944"/>
+		<!--
+			Increase P. Def. 74.0;Increase Magic M. Def. 55.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="47" options="24851;24898;24945"/>
+		<!--
+			Increase P. Def. 75.0;Increase Magic M. Def. 56.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="48" options="24852;24899;24946"/>
+		<!--
+			Increase P. Def. 76.0;Increase Magic M. Def. 57.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="49" options="24853;24900;24947"/>
+		<!--
+			Increase P. Def. 77.0;Increase Magic M. Def. 58.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="50" options="24854;24901;24948"/>
+	</enchantoption>
+
+	<enchantoption itemId="15388">	<!-- Weaver's Multi-colored Clothes (Event) -->
+		<!--
+			Increases P. Def. by 27.0;Increases Magic M. Def. by 8.0;
+		-->
+		<enchant level="0" options="24949"/>
+		<!--
+			Increase P. Def. 28.0;Increase Magic M. Def. 9.0;
+		-->
+		<enchant level="1" options="24805"/>
+		<!--
+			Increase P. Def. 29.0;Increase Magic M. Def. 10.0;
+		-->
+		<enchant level="2" options="24806"/>
+		<!--
+			Increase P. Def. 30.0;Increase Magic M. Def. 11.0;
+		-->
+		<enchant level="3" options="24807"/>
+		<!--
+			Increase P. Def. 31.0;Increase Magic M. Def. 12.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 5 each.;
+			CON +1 increase.;
+		-->
+		<enchant level="4" options="24808;24855;24902"/>
+		<!--
+			Increase P. Def. 32.0;Increase Magic M. Def. 13.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 7 each.;
+			CON +1 increase. MEN +1 increase.;
+		-->
+		<enchant level="5" options="24809;24856;24903"/>
+		<!--
+			Increase P. Def. 33.0;Increase Magic M. Def. 14.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 10 each.;
+			INT +1 increase. STR +1 increase. CON +1 increase. MEN +1 increase.;
+		-->
+		<enchant level="6" options="24810;24857;24904"/>
+		<!--
+			Increase P. Def. 34.0;Increase Magic M. Def. 15.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 13 each.;
+			INT +1 increase. STR +1 increase. CON +2 increase. MEN +1 increase.;
+		-->
+		<enchant level="7" options="24811;24858;24905"/>
+		<!--
+			Increase P. Def. 35.0;Increase Magic M. Def. 16.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 16 each.;
+			INT +1 increase. STR +1 increase. CON +2 increase. MEN +2 increase.;
+		-->
+		<enchant level="8" options="24812;24859;24906"/>
+		<!--
+			Increase P. Def. 36.0;Increase Magic M. Def. 17.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 20 each.;
+			INT +2 increase. STR +2 increase. CON +2 increase. MEN +2 increase.;
+		-->
+		<enchant level="9" options="24813;24860;24907"/>
+		<!--
+			Increase P. Def. 37.0;Increase Magic M. Def. 18.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 24 each.;
+			INT +2 increase. STR +2 increase. CON +3 increase. MEN +2 increase.;
+		-->
+		<enchant level="10" options="24814;24861;24908"/>
+		<!--
+			Increase P. Def. 38.0;Increase Magic M. Def. 19.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 28 each.;
+			INT +2 increase. STR +2 increase. CON +3 increase. MEN +3 increase.;
+		-->
+		<enchant level="11" options="24815;24862;24909"/>
+		<!--
+			Increase P. Def. 39.0;Increase Magic M. Def. 20.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 32 each.;
+			INT +3 increase. STR +3 increase. CON +3 increase. MEN +3 increase.;
+		-->
+		<enchant level="12" options="24816;24863;24910"/>
+		<!--
+			Increase P. Def. 40.0;Increase Magic M. Def. 21.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 36 each.;
+			INT +3 increase. STR +3 increase. CON +4 increase. MEN +3 increase.;
+		-->
+		<enchant level="13" options="24817;24864;24911"/>
+		<!--
+			Increase P. Def. 41.0;Increase Magic M. Def. 22.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 40 each.;
+			INT +3 increase. STR +3 increase. CON +4 increase. MEN +4 increase.;
+		-->
+		<enchant level="14" options="24818;24865;24912"/>
+		<!--
+			Increase P. Def. 42.0;Increase Magic M. Def. 23.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 45 each.;
+			INT +4 increase. STR +4 increase. CON +4 increase. MEN +4 increase.;
+		-->
+		<enchant level="15" options="24819;24866;24913"/>
+		<!--
+			Increase P. Def. 43.0;Increase Magic M. Def. 24.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="16" options="24820;24867;24914"/>
+		<!--
+			Increase P. Def. 44.0;Increase Magic M. Def. 25.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="17" options="24821;24868;24915"/>
+		<!--
+			Increase P. Def. 45.0;Increase Magic M. Def. 26.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="18" options="24822;24869;24916"/>
+		<!--
+			Increase P. Def. 46.0;Increase Magic M. Def. 27.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="19" options="24823;24870;24917"/>
+		<!--
+			Increase P. Def. 47.0;Increase Magic M. Def. 28.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="20" options="24824;24871;24918"/>
+		<!--
+			Increase P. Def. 48.0;Increase Magic M. Def. 29.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="21" options="24825;24872;24919"/>
+		<!--
+			Increase P. Def. 49.0;Increase Magic M. Def. 30.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="22" options="24826;24873;24920"/>
+		<!--
+			Increase P. Def. 50.0;Increase Magic M. Def. 31.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="23" options="24827;24874;24921"/>
+		<!--
+			Increase P. Def. 51.0;Increase Magic M. Def. 32.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="24" options="24828;24875;24922"/>
+		<!--
+			Increase P. Def. 52.0;Increase Magic M. Def. 33.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="25" options="24829;24876;24923"/>
+		<!--
+			Increase P. Def. 53.0;Increase Magic M. Def. 34.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="26" options="24830;24877;24924"/>
+		<!--
+			Increase P. Def. 54.0;Increase Magic M. Def. 35.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="27" options="24831;24878;24925"/>
+		<!--
+			Increase P. Def. 55.0;Increase Magic M. Def. 36.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="28" options="24832;24879;24926"/>
+		<!--
+			Increase P. Def. 56.0;Increase Magic M. Def. 37.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="29" options="24833;24880;24927"/>
+		<!--
+			Increase P. Def. 57.0;Increase Magic M. Def. 38.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="30" options="24834;24881;24928"/>
+		<!--
+			Increase P. Def. 58.0;Increase Magic M. Def. 39.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="31" options="24835;24882;24929"/>
+		<!--
+			Increase P. Def. 59.0;Increase Magic M. Def. 40.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="32" options="24836;24883;24930"/>
+		<!--
+			Increase P. Def. 60.0;Increase Magic M. Def. 41.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="33" options="24837;24884;24931"/>
+		<!--
+			Increase P. Def. 61.0;Increase Magic M. Def. 42.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="34" options="24838;24885;24932"/>
+		<!--
+			Increase P. Def. 62.0;Increase Magic M. Def. 43.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="35" options="24839;24886;24933"/>
+		<!--
+			Increase P. Def. 63.0;Increase Magic M. Def. 44.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="36" options="24840;24887;24934"/>
+		<!--
+			Increase P. Def. 64.0;Increase Magic M. Def. 45.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="37" options="24841;24888;24935"/>
+		<!--
+			Increase P. Def. 65.0;Increase Magic M. Def. 46.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="38" options="24842;24889;24936"/>
+		<!--
+			Increase P. Def. 66.0;Increase Magic M. Def. 47.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="39" options="24843;24890;24937"/>
+		<!--
+			Increase P. Def. 67.0;Increase Magic M. Def. 48.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="40" options="24844;24891;24938"/>
+		<!--
+			Increase P. Def. 68.0;Increase Magic M. Def. 49.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="41" options="24845;24892;24939"/>
+		<!--
+			Increase P. Def. 69.0;Increase Magic M. Def. 50.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="42" options="24846;24893;24940"/>
+		<!--
+			Increase P. Def. 70.0;Increase Magic M. Def. 51.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="43" options="24847;24894;24941"/>
+		<!--
+			Increase P. Def. 71.0;Increase Magic M. Def. 52.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="44" options="24848;24895;24942"/>
+		<!--
+			Increase P. Def. 72.0;Increase Magic M. Def. 53.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="45" options="24849;24896;24943"/>
+		<!--
+			Increase P. Def. 73.0;Increase Magic M. Def. 54.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="46" options="24850;24897;24944"/>
+		<!--
+			Increase P. Def. 74.0;Increase Magic M. Def. 55.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="47" options="24851;24898;24945"/>
+		<!--
+			Increase P. Def. 75.0;Increase Magic M. Def. 56.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="48" options="24852;24899;24946"/>
+		<!--
+			Increase P. Def. 76.0;Increase Magic M. Def. 57.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="49" options="24853;24900;24947"/>
+		<!--
+			Increase P. Def. 77.0;Increase Magic M. Def. 58.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="50" options="24854;24901;24948"/>
+	</enchantoption>
+
+	<enchantoption itemId="15389">	<!-- Weaver's Multi-colored Clothes (Event) -->
+		<!--
+			Increases P. Def. by 27.0;Increases Magic M. Def. by 8.0;
+		-->
+		<enchant level="0" options="24949"/>
+		<!--
+			Increase P. Def. 28.0;Increase Magic M. Def. 9.0;
+		-->
+		<enchant level="1" options="24805"/>
+		<!--
+			Increase P. Def. 29.0;Increase Magic M. Def. 10.0;
+		-->
+		<enchant level="2" options="24806"/>
+		<!--
+			Increase P. Def. 30.0;Increase Magic M. Def. 11.0;
+		-->
+		<enchant level="3" options="24807"/>
+		<!--
+			Increase P. Def. 31.0;Increase Magic M. Def. 12.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 5 each.;
+			CON +1 increase.;
+		-->
+		<enchant level="4" options="24808;24855;24902"/>
+		<!--
+			Increase P. Def. 32.0;Increase Magic M. Def. 13.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 7 each.;
+			CON +1 increase. MEN +1 increase.;
+		-->
+		<enchant level="5" options="24809;24856;24903"/>
+		<!--
+			Increase P. Def. 33.0;Increase Magic M. Def. 14.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 10 each.;
+			INT +1 increase. STR +1 increase. CON +1 increase. MEN +1 increase.;
+		-->
+		<enchant level="6" options="24810;24857;24904"/>
+		<!--
+			Increase P. Def. 34.0;Increase Magic M. Def. 15.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 13 each.;
+			INT +1 increase. STR +1 increase. CON +2 increase. MEN +1 increase.;
+		-->
+		<enchant level="7" options="24811;24858;24905"/>
+		<!--
+			Increase P. Def. 35.0;Increase Magic M. Def. 16.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 16 each.;
+			INT +1 increase. STR +1 increase. CON +2 increase. MEN +2 increase.;
+		-->
+		<enchant level="8" options="24812;24859;24906"/>
+		<!--
+			Increase P. Def. 36.0;Increase Magic M. Def. 17.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 20 each.;
+			INT +2 increase. STR +2 increase. CON +2 increase. MEN +2 increase.;
+		-->
+		<enchant level="9" options="24813;24860;24907"/>
+		<!--
+			Increase P. Def. 37.0;Increase Magic M. Def. 18.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 24 each.;
+			INT +2 increase. STR +2 increase. CON +3 increase. MEN +2 increase.;
+		-->
+		<enchant level="10" options="24814;24861;24908"/>
+		<!--
+			Increase P. Def. 38.0;Increase Magic M. Def. 19.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 28 each.;
+			INT +2 increase. STR +2 increase. CON +3 increase. MEN +3 increase.;
+		-->
+		<enchant level="11" options="24815;24862;24909"/>
+		<!--
+			Increase P. Def. 39.0;Increase Magic M. Def. 20.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 32 each.;
+			INT +3 increase. STR +3 increase. CON +3 increase. MEN +3 increase.;
+		-->
+		<enchant level="12" options="24816;24863;24910"/>
+		<!--
+			Increase P. Def. 40.0;Increase Magic M. Def. 21.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 36 each.;
+			INT +3 increase. STR +3 increase. CON +4 increase. MEN +3 increase.;
+		-->
+		<enchant level="13" options="24817;24864;24911"/>
+		<!--
+			Increase P. Def. 41.0;Increase Magic M. Def. 22.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 40 each.;
+			INT +3 increase. STR +3 increase. CON +4 increase. MEN +4 increase.;
+		-->
+		<enchant level="14" options="24818;24865;24912"/>
+		<!--
+			Increase P. Def. 42.0;Increase Magic M. Def. 23.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 45 each.;
+			INT +4 increase. STR +4 increase. CON +4 increase. MEN +4 increase.;
+		-->
+		<enchant level="15" options="24819;24866;24913"/>
+		<!--
+			Increase P. Def. 43.0;Increase Magic M. Def. 24.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="16" options="24820;24867;24914"/>
+		<!--
+			Increase P. Def. 44.0;Increase Magic M. Def. 25.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="17" options="24821;24868;24915"/>
+		<!--
+			Increase P. Def. 45.0;Increase Magic M. Def. 26.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="18" options="24822;24869;24916"/>
+		<!--
+			Increase P. Def. 46.0;Increase Magic M. Def. 27.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="19" options="24823;24870;24917"/>
+		<!--
+			Increase P. Def. 47.0;Increase Magic M. Def. 28.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="20" options="24824;24871;24918"/>
+		<!--
+			Increase P. Def. 48.0;Increase Magic M. Def. 29.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="21" options="24825;24872;24919"/>
+		<!--
+			Increase P. Def. 49.0;Increase Magic M. Def. 30.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="22" options="24826;24873;24920"/>
+		<!--
+			Increase P. Def. 50.0;Increase Magic M. Def. 31.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="23" options="24827;24874;24921"/>
+		<!--
+			Increase P. Def. 51.0;Increase Magic M. Def. 32.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="24" options="24828;24875;24922"/>
+		<!--
+			Increase P. Def. 52.0;Increase Magic M. Def. 33.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="25" options="24829;24876;24923"/>
+		<!--
+			Increase P. Def. 53.0;Increase Magic M. Def. 34.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="26" options="24830;24877;24924"/>
+		<!--
+			Increase P. Def. 54.0;Increase Magic M. Def. 35.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="27" options="24831;24878;24925"/>
+		<!--
+			Increase P. Def. 55.0;Increase Magic M. Def. 36.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="28" options="24832;24879;24926"/>
+		<!--
+			Increase P. Def. 56.0;Increase Magic M. Def. 37.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="29" options="24833;24880;24927"/>
+		<!--
+			Increase P. Def. 57.0;Increase Magic M. Def. 38.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="30" options="24834;24881;24928"/>
+		<!--
+			Increase P. Def. 58.0;Increase Magic M. Def. 39.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="31" options="24835;24882;24929"/>
+		<!--
+			Increase P. Def. 59.0;Increase Magic M. Def. 40.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="32" options="24836;24883;24930"/>
+		<!--
+			Increase P. Def. 60.0;Increase Magic M. Def. 41.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="33" options="24837;24884;24931"/>
+		<!--
+			Increase P. Def. 61.0;Increase Magic M. Def. 42.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="34" options="24838;24885;24932"/>
+		<!--
+			Increase P. Def. 62.0;Increase Magic M. Def. 43.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="35" options="24839;24886;24933"/>
+		<!--
+			Increase P. Def. 63.0;Increase Magic M. Def. 44.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="36" options="24840;24887;24934"/>
+		<!--
+			Increase P. Def. 64.0;Increase Magic M. Def. 45.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="37" options="24841;24888;24935"/>
+		<!--
+			Increase P. Def. 65.0;Increase Magic M. Def. 46.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="38" options="24842;24889;24936"/>
+		<!--
+			Increase P. Def. 66.0;Increase Magic M. Def. 47.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="39" options="24843;24890;24937"/>
+		<!--
+			Increase P. Def. 67.0;Increase Magic M. Def. 48.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="40" options="24844;24891;24938"/>
+		<!--
+			Increase P. Def. 68.0;Increase Magic M. Def. 49.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="41" options="24845;24892;24939"/>
+		<!--
+			Increase P. Def. 69.0;Increase Magic M. Def. 50.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="42" options="24846;24893;24940"/>
+		<!--
+			Increase P. Def. 70.0;Increase Magic M. Def. 51.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="43" options="24847;24894;24941"/>
+		<!--
+			Increase P. Def. 71.0;Increase Magic M. Def. 52.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="44" options="24848;24895;24942"/>
+		<!--
+			Increase P. Def. 72.0;Increase Magic M. Def. 53.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="45" options="24849;24896;24943"/>
+		<!--
+			Increase P. Def. 73.0;Increase Magic M. Def. 54.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="46" options="24850;24897;24944"/>
+		<!--
+			Increase P. Def. 74.0;Increase Magic M. Def. 55.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="47" options="24851;24898;24945"/>
+		<!--
+			Increase P. Def. 75.0;Increase Magic M. Def. 56.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="48" options="24852;24899;24946"/>
+		<!--
+			Increase P. Def. 76.0;Increase Magic M. Def. 57.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="49" options="24853;24900;24947"/>
+		<!--
+			Increase P. Def. 77.0;Increase Magic M. Def. 58.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="50" options="24854;24901;24948"/>
+	</enchantoption>
+
+	<enchantoption itemId="15390">	<!-- Weaver's Multi-colored Clothes (Event) -->
+		<!--
+			Increases P. Def. by 27.0;Increases Magic M. Def. by 8.0;
+		-->
+		<enchant level="0" options="24949"/>
+		<!--
+			Increase P. Def. 28.0;Increase Magic M. Def. 9.0;
+		-->
+		<enchant level="1" options="24805"/>
+		<!--
+			Increase P. Def. 29.0;Increase Magic M. Def. 10.0;
+		-->
+		<enchant level="2" options="24806"/>
+		<!--
+			Increase P. Def. 30.0;Increase Magic M. Def. 11.0;
+		-->
+		<enchant level="3" options="24807"/>
+		<!--
+			Increase P. Def. 31.0;Increase Magic M. Def. 12.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 5 each.;
+			CON +1 increase.;
+		-->
+		<enchant level="4" options="24808;24855;24902"/>
+		<!--
+			Increase P. Def. 32.0;Increase Magic M. Def. 13.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 7 each.;
+			CON +1 increase. MEN +1 increase.;
+		-->
+		<enchant level="5" options="24809;24856;24903"/>
+		<!--
+			Increase P. Def. 33.0;Increase Magic M. Def. 14.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 10 each.;
+			INT +1 increase. STR +1 increase. CON +1 increase. MEN +1 increase.;
+		-->
+		<enchant level="6" options="24810;24857;24904"/>
+		<!--
+			Increase P. Def. 34.0;Increase Magic M. Def. 15.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 13 each.;
+			INT +1 increase. STR +1 increase. CON +2 increase. MEN +1 increase.;
+		-->
+		<enchant level="7" options="24811;24858;24905"/>
+		<!--
+			Increase P. Def. 35.0;Increase Magic M. Def. 16.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 16 each.;
+			INT +1 increase. STR +1 increase. CON +2 increase. MEN +2 increase.;
+		-->
+		<enchant level="8" options="24812;24859;24906"/>
+		<!--
+			Increase P. Def. 36.0;Increase Magic M. Def. 17.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 20 each.;
+			INT +2 increase. STR +2 increase. CON +2 increase. MEN +2 increase.;
+		-->
+		<enchant level="9" options="24813;24860;24907"/>
+		<!--
+			Increase P. Def. 37.0;Increase Magic M. Def. 18.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 24 each.;
+			INT +2 increase. STR +2 increase. CON +3 increase. MEN +2 increase.;
+		-->
+		<enchant level="10" options="24814;24861;24908"/>
+		<!--
+			Increase P. Def. 38.0;Increase Magic M. Def. 19.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 28 each.;
+			INT +2 increase. STR +2 increase. CON +3 increase. MEN +3 increase.;
+		-->
+		<enchant level="11" options="24815;24862;24909"/>
+		<!--
+			Increase P. Def. 39.0;Increase Magic M. Def. 20.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 32 each.;
+			INT +3 increase. STR +3 increase. CON +3 increase. MEN +3 increase.;
+		-->
+		<enchant level="12" options="24816;24863;24910"/>
+		<!--
+			Increase P. Def. 40.0;Increase Magic M. Def. 21.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 36 each.;
+			INT +3 increase. STR +3 increase. CON +4 increase. MEN +3 increase.;
+		-->
+		<enchant level="13" options="24817;24864;24911"/>
+		<!--
+			Increase P. Def. 41.0;Increase Magic M. Def. 22.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 40 each.;
+			INT +3 increase. STR +3 increase. CON +4 increase. MEN +4 increase.;
+		-->
+		<enchant level="14" options="24818;24865;24912"/>
+		<!--
+			Increase P. Def. 42.0;Increase Magic M. Def. 23.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 45 each.;
+			INT +4 increase. STR +4 increase. CON +4 increase. MEN +4 increase.;
+		-->
+		<enchant level="15" options="24819;24866;24913"/>
+		<!--
+			Increase P. Def. 43.0;Increase Magic M. Def. 24.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="16" options="24820;24867;24914"/>
+		<!--
+			Increase P. Def. 44.0;Increase Magic M. Def. 25.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="17" options="24821;24868;24915"/>
+		<!--
+			Increase P. Def. 45.0;Increase Magic M. Def. 26.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="18" options="24822;24869;24916"/>
+		<!--
+			Increase P. Def. 46.0;Increase Magic M. Def. 27.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="19" options="24823;24870;24917"/>
+		<!--
+			Increase P. Def. 47.0;Increase Magic M. Def. 28.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="20" options="24824;24871;24918"/>
+		<!--
+			Increase P. Def. 48.0;Increase Magic M. Def. 29.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="21" options="24825;24872;24919"/>
+		<!--
+			Increase P. Def. 49.0;Increase Magic M. Def. 30.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="22" options="24826;24873;24920"/>
+		<!--
+			Increase P. Def. 50.0;Increase Magic M. Def. 31.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="23" options="24827;24874;24921"/>
+		<!--
+			Increase P. Def. 51.0;Increase Magic M. Def. 32.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="24" options="24828;24875;24922"/>
+		<!--
+			Increase P. Def. 52.0;Increase Magic M. Def. 33.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="25" options="24829;24876;24923"/>
+		<!--
+			Increase P. Def. 53.0;Increase Magic M. Def. 34.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="26" options="24830;24877;24924"/>
+		<!--
+			Increase P. Def. 54.0;Increase Magic M. Def. 35.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="27" options="24831;24878;24925"/>
+		<!--
+			Increase P. Def. 55.0;Increase Magic M. Def. 36.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="28" options="24832;24879;24926"/>
+		<!--
+			Increase P. Def. 56.0;Increase Magic M. Def. 37.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="29" options="24833;24880;24927"/>
+		<!--
+			Increase P. Def. 57.0;Increase Magic M. Def. 38.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="30" options="24834;24881;24928"/>
+		<!--
+			Increase P. Def. 58.0;Increase Magic M. Def. 39.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="31" options="24835;24882;24929"/>
+		<!--
+			Increase P. Def. 59.0;Increase Magic M. Def. 40.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="32" options="24836;24883;24930"/>
+		<!--
+			Increase P. Def. 60.0;Increase Magic M. Def. 41.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="33" options="24837;24884;24931"/>
+		<!--
+			Increase P. Def. 61.0;Increase Magic M. Def. 42.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="34" options="24838;24885;24932"/>
+		<!--
+			Increase P. Def. 62.0;Increase Magic M. Def. 43.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="35" options="24839;24886;24933"/>
+		<!--
+			Increase P. Def. 63.0;Increase Magic M. Def. 44.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="36" options="24840;24887;24934"/>
+		<!--
+			Increase P. Def. 64.0;Increase Magic M. Def. 45.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="37" options="24841;24888;24935"/>
+		<!--
+			Increase P. Def. 65.0;Increase Magic M. Def. 46.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="38" options="24842;24889;24936"/>
+		<!--
+			Increase P. Def. 66.0;Increase Magic M. Def. 47.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="39" options="24843;24890;24937"/>
+		<!--
+			Increase P. Def. 67.0;Increase Magic M. Def. 48.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="40" options="24844;24891;24938"/>
+		<!--
+			Increase P. Def. 68.0;Increase Magic M. Def. 49.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="41" options="24845;24892;24939"/>
+		<!--
+			Increase P. Def. 69.0;Increase Magic M. Def. 50.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="42" options="24846;24893;24940"/>
+		<!--
+			Increase P. Def. 70.0;Increase Magic M. Def. 51.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="43" options="24847;24894;24941"/>
+		<!--
+			Increase P. Def. 71.0;Increase Magic M. Def. 52.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="44" options="24848;24895;24942"/>
+		<!--
+			Increase P. Def. 72.0;Increase Magic M. Def. 53.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="45" options="24849;24896;24943"/>
+		<!--
+			Increase P. Def. 73.0;Increase Magic M. Def. 54.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="46" options="24850;24897;24944"/>
+		<!--
+			Increase P. Def. 74.0;Increase Magic M. Def. 55.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="47" options="24851;24898;24945"/>
+		<!--
+			Increase P. Def. 75.0;Increase Magic M. Def. 56.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="48" options="24852;24899;24946"/>
+		<!--
+			Increase P. Def. 76.0;Increase Magic M. Def. 57.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="49" options="24853;24900;24947"/>
+		<!--
+			Increase P. Def. 77.0;Increase Magic M. Def. 58.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="50" options="24854;24901;24948"/>
+	</enchantoption>
+
+	<enchantoption itemId="15391">	<!-- Weaver's Multi-colored Clothes (Event) -->
+		<!--
+			Increases P. Def. by 27.0;Increases Magic M. Def. by 8.0;
+		-->
+		<enchant level="0" options="24949"/>
+		<!--
+			Increase P. Def. 28.0;Increase Magic M. Def. 9.0;
+		-->
+		<enchant level="1" options="24805"/>
+		<!--
+			Increase P. Def. 29.0;Increase Magic M. Def. 10.0;
+		-->
+		<enchant level="2" options="24806"/>
+		<!--
+			Increase P. Def. 30.0;Increase Magic M. Def. 11.0;
+		-->
+		<enchant level="3" options="24807"/>
+		<!--
+			Increase P. Def. 31.0;Increase Magic M. Def. 12.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 5 each.;
+			CON +1 increase.;
+		-->
+		<enchant level="4" options="24808;24855;24902"/>
+		<!--
+			Increase P. Def. 32.0;Increase Magic M. Def. 13.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 7 each.;
+			CON +1 increase. MEN +1 increase.;
+		-->
+		<enchant level="5" options="24809;24856;24903"/>
+		<!--
+			Increase P. Def. 33.0;Increase Magic M. Def. 14.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 10 each.;
+			INT +1 increase. STR +1 increase. CON +1 increase. MEN +1 increase.;
+		-->
+		<enchant level="6" options="24810;24857;24904"/>
+		<!--
+			Increase P. Def. 34.0;Increase Magic M. Def. 15.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 13 each.;
+			INT +1 increase. STR +1 increase. CON +2 increase. MEN +1 increase.;
+		-->
+		<enchant level="7" options="24811;24858;24905"/>
+		<!--
+			Increase P. Def. 35.0;Increase Magic M. Def. 16.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 16 each.;
+			INT +1 increase. STR +1 increase. CON +2 increase. MEN +2 increase.;
+		-->
+		<enchant level="8" options="24812;24859;24906"/>
+		<!--
+			Increase P. Def. 36.0;Increase Magic M. Def. 17.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 20 each.;
+			INT +2 increase. STR +2 increase. CON +2 increase. MEN +2 increase.;
+		-->
+		<enchant level="9" options="24813;24860;24907"/>
+		<!--
+			Increase P. Def. 37.0;Increase Magic M. Def. 18.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 24 each.;
+			INT +2 increase. STR +2 increase. CON +3 increase. MEN +2 increase.;
+		-->
+		<enchant level="10" options="24814;24861;24908"/>
+		<!--
+			Increase P. Def. 38.0;Increase Magic M. Def. 19.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 28 each.;
+			INT +2 increase. STR +2 increase. CON +3 increase. MEN +3 increase.;
+		-->
+		<enchant level="11" options="24815;24862;24909"/>
+		<!--
+			Increase P. Def. 39.0;Increase Magic M. Def. 20.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 32 each.;
+			INT +3 increase. STR +3 increase. CON +3 increase. MEN +3 increase.;
+		-->
+		<enchant level="12" options="24816;24863;24910"/>
+		<!--
+			Increase P. Def. 40.0;Increase Magic M. Def. 21.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 36 each.;
+			INT +3 increase. STR +3 increase. CON +4 increase. MEN +3 increase.;
+		-->
+		<enchant level="13" options="24817;24864;24911"/>
+		<!--
+			Increase P. Def. 41.0;Increase Magic M. Def. 22.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 40 each.;
+			INT +3 increase. STR +3 increase. CON +4 increase. MEN +4 increase.;
+		-->
+		<enchant level="14" options="24818;24865;24912"/>
+		<!--
+			Increase P. Def. 42.0;Increase Magic M. Def. 23.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 45 each.;
+			INT +4 increase. STR +4 increase. CON +4 increase. MEN +4 increase.;
+		-->
+		<enchant level="15" options="24819;24866;24913"/>
+		<!--
+			Increase P. Def. 43.0;Increase Magic M. Def. 24.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="16" options="24820;24867;24914"/>
+		<!--
+			Increase P. Def. 44.0;Increase Magic M. Def. 25.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="17" options="24821;24868;24915"/>
+		<!--
+			Increase P. Def. 45.0;Increase Magic M. Def. 26.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="18" options="24822;24869;24916"/>
+		<!--
+			Increase P. Def. 46.0;Increase Magic M. Def. 27.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="19" options="24823;24870;24917"/>
+		<!--
+			Increase P. Def. 47.0;Increase Magic M. Def. 28.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="20" options="24824;24871;24918"/>
+		<!--
+			Increase P. Def. 48.0;Increase Magic M. Def. 29.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="21" options="24825;24872;24919"/>
+		<!--
+			Increase P. Def. 49.0;Increase Magic M. Def. 30.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="22" options="24826;24873;24920"/>
+		<!--
+			Increase P. Def. 50.0;Increase Magic M. Def. 31.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="23" options="24827;24874;24921"/>
+		<!--
+			Increase P. Def. 51.0;Increase Magic M. Def. 32.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="24" options="24828;24875;24922"/>
+		<!--
+			Increase P. Def. 52.0;Increase Magic M. Def. 33.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="25" options="24829;24876;24923"/>
+		<!--
+			Increase P. Def. 53.0;Increase Magic M. Def. 34.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="26" options="24830;24877;24924"/>
+		<!--
+			Increase P. Def. 54.0;Increase Magic M. Def. 35.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="27" options="24831;24878;24925"/>
+		<!--
+			Increase P. Def. 55.0;Increase Magic M. Def. 36.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="28" options="24832;24879;24926"/>
+		<!--
+			Increase P. Def. 56.0;Increase Magic M. Def. 37.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="29" options="24833;24880;24927"/>
+		<!--
+			Increase P. Def. 57.0;Increase Magic M. Def. 38.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="30" options="24834;24881;24928"/>
+		<!--
+			Increase P. Def. 58.0;Increase Magic M. Def. 39.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="31" options="24835;24882;24929"/>
+		<!--
+			Increase P. Def. 59.0;Increase Magic M. Def. 40.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="32" options="24836;24883;24930"/>
+		<!--
+			Increase P. Def. 60.0;Increase Magic M. Def. 41.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="33" options="24837;24884;24931"/>
+		<!--
+			Increase P. Def. 61.0;Increase Magic M. Def. 42.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="34" options="24838;24885;24932"/>
+		<!--
+			Increase P. Def. 62.0;Increase Magic M. Def. 43.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="35" options="24839;24886;24933"/>
+		<!--
+			Increase P. Def. 63.0;Increase Magic M. Def. 44.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="36" options="24840;24887;24934"/>
+		<!--
+			Increase P. Def. 64.0;Increase Magic M. Def. 45.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="37" options="24841;24888;24935"/>
+		<!--
+			Increase P. Def. 65.0;Increase Magic M. Def. 46.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="38" options="24842;24889;24936"/>
+		<!--
+			Increase P. Def. 66.0;Increase Magic M. Def. 47.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="39" options="24843;24890;24937"/>
+		<!--
+			Increase P. Def. 67.0;Increase Magic M. Def. 48.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="40" options="24844;24891;24938"/>
+		<!--
+			Increase P. Def. 68.0;Increase Magic M. Def. 49.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="41" options="24845;24892;24939"/>
+		<!--
+			Increase P. Def. 69.0;Increase Magic M. Def. 50.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="42" options="24846;24893;24940"/>
+		<!--
+			Increase P. Def. 70.0;Increase Magic M. Def. 51.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="43" options="24847;24894;24941"/>
+		<!--
+			Increase P. Def. 71.0;Increase Magic M. Def. 52.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="44" options="24848;24895;24942"/>
+		<!--
+			Increase P. Def. 72.0;Increase Magic M. Def. 53.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="45" options="24849;24896;24943"/>
+		<!--
+			Increase P. Def. 73.0;Increase Magic M. Def. 54.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="46" options="24850;24897;24944"/>
+		<!--
+			Increase P. Def. 74.0;Increase Magic M. Def. 55.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="47" options="24851;24898;24945"/>
+		<!--
+			Increase P. Def. 75.0;Increase Magic M. Def. 56.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="48" options="24852;24899;24946"/>
+		<!--
+			Increase P. Def. 76.0;Increase Magic M. Def. 57.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="49" options="24853;24900;24947"/>
+		<!--
+			Increase P. Def. 77.0;Increase Magic M. Def. 58.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="50" options="24854;24901;24948"/>
+	</enchantoption>
+
+	<enchantoption itemId="15392">	<!-- Weaver's Multi-colored Clothes (Event) -->
+		<!--
+			Increases P. Def. by 27.0;Increases Magic M. Def. by 8.0;
+		-->
+		<enchant level="0" options="24949"/>
+		<!--
+			Increase P. Def. 28.0;Increase Magic M. Def. 9.0;
+		-->
+		<enchant level="1" options="24805"/>
+		<!--
+			Increase P. Def. 29.0;Increase Magic M. Def. 10.0;
+		-->
+		<enchant level="2" options="24806"/>
+		<!--
+			Increase P. Def. 30.0;Increase Magic M. Def. 11.0;
+		-->
+		<enchant level="3" options="24807"/>
+		<!--
+			Increase P. Def. 31.0;Increase Magic M. Def. 12.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 5 each.;
+			CON +1 increase.;
+		-->
+		<enchant level="4" options="24808;24855;24902"/>
+		<!--
+			Increase P. Def. 32.0;Increase Magic M. Def. 13.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 7 each.;
+			CON +1 increase. MEN +1 increase.;
+		-->
+		<enchant level="5" options="24809;24856;24903"/>
+		<!--
+			Increase P. Def. 33.0;Increase Magic M. Def. 14.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 10 each.;
+			INT +1 increase. STR +1 increase. CON +1 increase. MEN +1 increase.;
+		-->
+		<enchant level="6" options="24810;24857;24904"/>
+		<!--
+			Increase P. Def. 34.0;Increase Magic M. Def. 15.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 13 each.;
+			INT +1 increase. STR +1 increase. CON +2 increase. MEN +1 increase.;
+		-->
+		<enchant level="7" options="24811;24858;24905"/>
+		<!--
+			Increase P. Def. 35.0;Increase Magic M. Def. 16.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 16 each.;
+			INT +1 increase. STR +1 increase. CON +2 increase. MEN +2 increase.;
+		-->
+		<enchant level="8" options="24812;24859;24906"/>
+		<!--
+			Increase P. Def. 36.0;Increase Magic M. Def. 17.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 20 each.;
+			INT +2 increase. STR +2 increase. CON +2 increase. MEN +2 increase.;
+		-->
+		<enchant level="9" options="24813;24860;24907"/>
+		<!--
+			Increase P. Def. 37.0;Increase Magic M. Def. 18.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 24 each.;
+			INT +2 increase. STR +2 increase. CON +3 increase. MEN +2 increase.;
+		-->
+		<enchant level="10" options="24814;24861;24908"/>
+		<!--
+			Increase P. Def. 38.0;Increase Magic M. Def. 19.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 28 each.;
+			INT +2 increase. STR +2 increase. CON +3 increase. MEN +3 increase.;
+		-->
+		<enchant level="11" options="24815;24862;24909"/>
+		<!--
+			Increase P. Def. 39.0;Increase Magic M. Def. 20.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 32 each.;
+			INT +3 increase. STR +3 increase. CON +3 increase. MEN +3 increase.;
+		-->
+		<enchant level="12" options="24816;24863;24910"/>
+		<!--
+			Increase P. Def. 40.0;Increase Magic M. Def. 21.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 36 each.;
+			INT +3 increase. STR +3 increase. CON +4 increase. MEN +3 increase.;
+		-->
+		<enchant level="13" options="24817;24864;24911"/>
+		<!--
+			Increase P. Def. 41.0;Increase Magic M. Def. 22.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 40 each.;
+			INT +3 increase. STR +3 increase. CON +4 increase. MEN +4 increase.;
+		-->
+		<enchant level="14" options="24818;24865;24912"/>
+		<!--
+			Increase P. Def. 42.0;Increase Magic M. Def. 23.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 45 each.;
+			INT +4 increase. STR +4 increase. CON +4 increase. MEN +4 increase.;
+		-->
+		<enchant level="15" options="24819;24866;24913"/>
+		<!--
+			Increase P. Def. 43.0;Increase Magic M. Def. 24.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="16" options="24820;24867;24914"/>
+		<!--
+			Increase P. Def. 44.0;Increase Magic M. Def. 25.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="17" options="24821;24868;24915"/>
+		<!--
+			Increase P. Def. 45.0;Increase Magic M. Def. 26.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="18" options="24822;24869;24916"/>
+		<!--
+			Increase P. Def. 46.0;Increase Magic M. Def. 27.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="19" options="24823;24870;24917"/>
+		<!--
+			Increase P. Def. 47.0;Increase Magic M. Def. 28.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="20" options="24824;24871;24918"/>
+		<!--
+			Increase P. Def. 48.0;Increase Magic M. Def. 29.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="21" options="24825;24872;24919"/>
+		<!--
+			Increase P. Def. 49.0;Increase Magic M. Def. 30.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="22" options="24826;24873;24920"/>
+		<!--
+			Increase P. Def. 50.0;Increase Magic M. Def. 31.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="23" options="24827;24874;24921"/>
+		<!--
+			Increase P. Def. 51.0;Increase Magic M. Def. 32.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="24" options="24828;24875;24922"/>
+		<!--
+			Increase P. Def. 52.0;Increase Magic M. Def. 33.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="25" options="24829;24876;24923"/>
+		<!--
+			Increase P. Def. 53.0;Increase Magic M. Def. 34.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="26" options="24830;24877;24924"/>
+		<!--
+			Increase P. Def. 54.0;Increase Magic M. Def. 35.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="27" options="24831;24878;24925"/>
+		<!--
+			Increase P. Def. 55.0;Increase Magic M. Def. 36.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="28" options="24832;24879;24926"/>
+		<!--
+			Increase P. Def. 56.0;Increase Magic M. Def. 37.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="29" options="24833;24880;24927"/>
+		<!--
+			Increase P. Def. 57.0;Increase Magic M. Def. 38.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="30" options="24834;24881;24928"/>
+		<!--
+			Increase P. Def. 58.0;Increase Magic M. Def. 39.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="31" options="24835;24882;24929"/>
+		<!--
+			Increase P. Def. 59.0;Increase Magic M. Def. 40.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="32" options="24836;24883;24930"/>
+		<!--
+			Increase P. Def. 60.0;Increase Magic M. Def. 41.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="33" options="24837;24884;24931"/>
+		<!--
+			Increase P. Def. 61.0;Increase Magic M. Def. 42.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="34" options="24838;24885;24932"/>
+		<!--
+			Increase P. Def. 62.0;Increase Magic M. Def. 43.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="35" options="24839;24886;24933"/>
+		<!--
+			Increase P. Def. 63.0;Increase Magic M. Def. 44.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="36" options="24840;24887;24934"/>
+		<!--
+			Increase P. Def. 64.0;Increase Magic M. Def. 45.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="37" options="24841;24888;24935"/>
+		<!--
+			Increase P. Def. 65.0;Increase Magic M. Def. 46.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="38" options="24842;24889;24936"/>
+		<!--
+			Increase P. Def. 66.0;Increase Magic M. Def. 47.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="39" options="24843;24890;24937"/>
+		<!--
+			Increase P. Def. 67.0;Increase Magic M. Def. 48.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="40" options="24844;24891;24938"/>
+		<!--
+			Increase P. Def. 68.0;Increase Magic M. Def. 49.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="41" options="24845;24892;24939"/>
+		<!--
+			Increase P. Def. 69.0;Increase Magic M. Def. 50.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="42" options="24846;24893;24940"/>
+		<!--
+			Increase P. Def. 70.0;Increase Magic M. Def. 51.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="43" options="24847;24894;24941"/>
+		<!--
+			Increase P. Def. 71.0;Increase Magic M. Def. 52.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="44" options="24848;24895;24942"/>
+		<!--
+			Increase P. Def. 72.0;Increase Magic M. Def. 53.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="45" options="24849;24896;24943"/>
+		<!--
+			Increase P. Def. 73.0;Increase Magic M. Def. 54.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="46" options="24850;24897;24944"/>
+		<!--
+			Increase P. Def. 74.0;Increase Magic M. Def. 55.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="47" options="24851;24898;24945"/>
+		<!--
+			Increase P. Def. 75.0;Increase Magic M. Def. 56.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="48" options="24852;24899;24946"/>
+		<!--
+			Increase P. Def. 76.0;Increase Magic M. Def. 57.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="49" options="24853;24900;24947"/>
+		<!--
+			Increase P. Def. 77.0;Increase Magic M. Def. 58.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="50" options="24854;24901;24948"/>
+	</enchantoption>
+
+	<enchantoption itemId="20759">	<!-- Christmas Shirt -->
+		<!--
+			Increases P. Def. by 27.0;Increases Magic M. Def. by 8.0;
+		-->
+		<enchant level="0" options="24949"/>
+		<!--
+			Increase P. Def. 28.0;Increase Magic M. Def. 9.0;
+		-->
+		<enchant level="1" options="24805"/>
+		<!--
+			Increase P. Def. 29.0;Increase Magic M. Def. 10.0;
+		-->
+		<enchant level="2" options="24806"/>
+		<!--
+			Increase P. Def. 30.0;Increase Magic M. Def. 11.0;
+		-->
+		<enchant level="3" options="24807"/>
+		<!--
+			Increase P. Def. 31.0;Increase Magic M. Def. 12.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 5 each.;
+			CON +1 increase.;
+		-->
+		<enchant level="4" options="24808;24855;24902"/>
+		<!--
+			Increase P. Def. 32.0;Increase Magic M. Def. 13.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 7 each.;
+			CON +1 increase. MEN +1 increase.;
+		-->
+		<enchant level="5" options="24809;24856;24903"/>
+		<!--
+			Increase P. Def. 33.0;Increase Magic M. Def. 14.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 10 each.;
+			INT +1 increase. STR +1 increase. CON +1 increase. MEN +1 increase.;
+		-->
+		<enchant level="6" options="24810;24857;24904"/>
+		<!--
+			Increase P. Def. 34.0;Increase Magic M. Def. 15.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 13 each.;
+			INT +1 increase. STR +1 increase. CON +2 increase. MEN +1 increase.;
+		-->
+		<enchant level="7" options="24811;24858;24905"/>
+		<!--
+			Increase P. Def. 35.0;Increase Magic M. Def. 16.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 16 each.;
+			INT +1 increase. STR +1 increase. CON +2 increase. MEN +2 increase.;
+		-->
+		<enchant level="8" options="24812;24859;24906"/>
+		<!--
+			Increase P. Def. 36.0;Increase Magic M. Def. 17.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 20 each.;
+			INT +2 increase. STR +2 increase. CON +2 increase. MEN +2 increase.;
+		-->
+		<enchant level="9" options="24813;24860;24907"/>
+		<!--
+			Increase P. Def. 37.0;Increase Magic M. Def. 18.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 24 each.;
+			INT +2 increase. STR +2 increase. CON +3 increase. MEN +2 increase.;
+		-->
+		<enchant level="10" options="24814;24861;24908"/>
+		<!--
+			Increase P. Def. 38.0;Increase Magic M. Def. 19.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 28 each.;
+			INT +2 increase. STR +2 increase. CON +3 increase. MEN +3 increase.;
+		-->
+		<enchant level="11" options="24815;24862;24909"/>
+		<!--
+			Increase P. Def. 39.0;Increase Magic M. Def. 20.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 32 each.;
+			INT +3 increase. STR +3 increase. CON +3 increase. MEN +3 increase.;
+		-->
+		<enchant level="12" options="24816;24863;24910"/>
+		<!--
+			Increase P. Def. 40.0;Increase Magic M. Def. 21.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 36 each.;
+			INT +3 increase. STR +3 increase. CON +4 increase. MEN +3 increase.;
+		-->
+		<enchant level="13" options="24817;24864;24911"/>
+		<!--
+			Increase P. Def. 41.0;Increase Magic M. Def. 22.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 40 each.;
+			INT +3 increase. STR +3 increase. CON +4 increase. MEN +4 increase.;
+		-->
+		<enchant level="14" options="24818;24865;24912"/>
+		<!--
+			Increase P. Def. 42.0;Increase Magic M. Def. 23.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 45 each.;
+			INT +4 increase. STR +4 increase. CON +4 increase. MEN +4 increase.;
+		-->
+		<enchant level="15" options="24819;24866;24913"/>
+		<!--
+			Increase P. Def. 43.0;Increase Magic M. Def. 24.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="16" options="24820;24867;24914"/>
+		<!--
+			Increase P. Def. 44.0;Increase Magic M. Def. 25.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="17" options="24821;24868;24915"/>
+		<!--
+			Increase P. Def. 45.0;Increase Magic M. Def. 26.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="18" options="24822;24869;24916"/>
+		<!--
+			Increase P. Def. 46.0;Increase Magic M. Def. 27.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="19" options="24823;24870;24917"/>
+		<!--
+			Increase P. Def. 47.0;Increase Magic M. Def. 28.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="20" options="24824;24871;24918"/>
+		<!--
+			Increase P. Def. 48.0;Increase Magic M. Def. 29.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="21" options="24825;24872;24919"/>
+		<!--
+			Increase P. Def. 49.0;Increase Magic M. Def. 30.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="22" options="24826;24873;24920"/>
+		<!--
+			Increase P. Def. 50.0;Increase Magic M. Def. 31.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="23" options="24827;24874;24921"/>
+		<!--
+			Increase P. Def. 51.0;Increase Magic M. Def. 32.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="24" options="24828;24875;24922"/>
+		<!--
+			Increase P. Def. 52.0;Increase Magic M. Def. 33.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="25" options="24829;24876;24923"/>
+		<!--
+			Increase P. Def. 53.0;Increase Magic M. Def. 34.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="26" options="24830;24877;24924"/>
+		<!--
+			Increase P. Def. 54.0;Increase Magic M. Def. 35.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="27" options="24831;24878;24925"/>
+		<!--
+			Increase P. Def. 55.0;Increase Magic M. Def. 36.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="28" options="24832;24879;24926"/>
+		<!--
+			Increase P. Def. 56.0;Increase Magic M. Def. 37.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="29" options="24833;24880;24927"/>
+		<!--
+			Increase P. Def. 57.0;Increase Magic M. Def. 38.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="30" options="24834;24881;24928"/>
+		<!--
+			Increase P. Def. 58.0;Increase Magic M. Def. 39.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="31" options="24835;24882;24929"/>
+		<!--
+			Increase P. Def. 59.0;Increase Magic M. Def. 40.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="32" options="24836;24883;24930"/>
+		<!--
+			Increase P. Def. 60.0;Increase Magic M. Def. 41.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="33" options="24837;24884;24931"/>
+		<!--
+			Increase P. Def. 61.0;Increase Magic M. Def. 42.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="34" options="24838;24885;24932"/>
+		<!--
+			Increase P. Def. 62.0;Increase Magic M. Def. 43.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="35" options="24839;24886;24933"/>
+		<!--
+			Increase P. Def. 63.0;Increase Magic M. Def. 44.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="36" options="24840;24887;24934"/>
+		<!--
+			Increase P. Def. 64.0;Increase Magic M. Def. 45.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="37" options="24841;24888;24935"/>
+		<!--
+			Increase P. Def. 65.0;Increase Magic M. Def. 46.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="38" options="24842;24889;24936"/>
+		<!--
+			Increase P. Def. 66.0;Increase Magic M. Def. 47.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="39" options="24843;24890;24937"/>
+		<!--
+			Increase P. Def. 67.0;Increase Magic M. Def. 48.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="40" options="24844;24891;24938"/>
+		<!--
+			Increase P. Def. 68.0;Increase Magic M. Def. 49.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="41" options="24845;24892;24939"/>
+		<!--
+			Increase P. Def. 69.0;Increase Magic M. Def. 50.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="42" options="24846;24893;24940"/>
+		<!--
+			Increase P. Def. 70.0;Increase Magic M. Def. 51.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="43" options="24847;24894;24941"/>
+		<!--
+			Increase P. Def. 71.0;Increase Magic M. Def. 52.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="44" options="24848;24895;24942"/>
+		<!--
+			Increase P. Def. 72.0;Increase Magic M. Def. 53.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="45" options="24849;24896;24943"/>
+		<!--
+			Increase P. Def. 73.0;Increase Magic M. Def. 54.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="46" options="24850;24897;24944"/>
+		<!--
+			Increase P. Def. 74.0;Increase Magic M. Def. 55.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="47" options="24851;24898;24945"/>
+		<!--
+			Increase P. Def. 75.0;Increase Magic M. Def. 56.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="48" options="24852;24899;24946"/>
+		<!--
+			Increase P. Def. 76.0;Increase Magic M. Def. 57.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="49" options="24853;24900;24947"/>
+		<!--
+			Increase P. Def. 77.0;Increase Magic M. Def. 58.0;
+			Increases Resistance to Water, Fire, Wind, Earth, Holy, and Dark attributes by 50 each.;
+			INT +5 increase. STR +5 increase. CON +5 increase. MEN +5 increase.;
+		-->
+		<enchant level="50" options="24854;24901;24948"/>
+	</enchantoption>
+
+</enchantoptions>

@@ -1,0 +1,1782 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<skill id="6200" levels="1" name="NPC Transform Dispel">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="0"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="magicLevel" val="1"/>
+		<set name="target_type" val="enemy_only"/>
+		<set name="affect_scope" val="single"/>
+		<set name="castRange" val="900"/>
+		<set name="hitTime" val="2500"/>
+		<set name="reuseDelay" val="60000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect name="i_dispel_by_slot" slotType="transformation" maxAbnormalLevel="10"/>
+		</for>
+	</skill>
+	<skill id="6201" levels="1" name="Transformation Condition - Frog">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="abnormal_time" val="600"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="effectPoint" val="0"/>
+		<set name="castRange" val="900"/>
+		<set name="magicLevel" val="70"/>
+		<set name="target_type" val="target"/>
+		<set name="affect_scope" val="single"/>
+		<set name="cancelable" val="false"/>
+		<set name="addSkills" val="959;1;5437;1;"/>
+		<set name="hitTime" val="2500"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isCommon" val="true"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<target hasBuffId="1411;false" msgId="2064" />
+				<player olympiad="false" msgId="1509"/>
+				<player riding="none" msgId="2063"/>
+				<player zoneType="water" msgId="2060"/>
+				<target playerOnly="true"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_dispel_by_slot_probability" slotType="SpeedUp" chance="100"/>
+			<effect name="t_transform" val="111" npcId="13157" femaleNpcId="13157">
+				<set order="0x40" stat="STR" val="40"/>
+				<set order="0x40" stat="DEX" val="30"/>
+				<set order="0x40" stat="CON" val="43"/>
+				<set order="0x40" stat="INT" val="21"/>
+				<set order="0x40" stat="WIT" val="11"/>
+				<set order="0x40" stat="MEN" val="25"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="6202" levels="1" name="Transformation Condition - Young Child">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="abnormal_time" val="420"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="effectPoint" val="0"/>
+		<set name="castRange" val="900"/>
+		<set name="magicLevel" val="70"/>
+		<set name="target_type" val="target"/>
+		<set name="affect_scope" val="single"/>
+		<set name="cancelable" val="false"/>
+		<set name="addSkills" val="960;1;5437;1;"/>
+		<set name="hitTime" val="2500"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isCommon" val="true"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<target hasBuffId="1411;false" msgId="2064" />
+				<player olympiad="false" msgId="1509"/>
+				<player riding="none" msgId="2063"/>
+				<player zoneType="water" msgId="2060"/>
+				<target playerOnly="true"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_dispel_by_slot_probability" slotType="SpeedUp" chance="100"/>
+			<effect name="t_transform" val="112" npcId="13158" femaleNpcId="13200">
+				<set order="0x40" stat="STR" val="40"/>
+				<set order="0x40" stat="DEX" val="30"/>
+				<set order="0x40" stat="CON" val="43"/>
+				<set order="0x40" stat="INT" val="21"/>
+				<set order="0x40" stat="WIT" val="11"/>
+				<set order="0x40" stat="MEN" val="25"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="6203" levels="1" name="Transformed Condition - Native">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="abnormal_time" val="180"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="effectPoint" val="0"/>
+		<set name="castRange" val="900"/>
+		<set name="magicLevel" val="70"/>
+		<set name="target_type" val="target"/>
+		<set name="affect_scope" val="single"/>
+		<set name="cancelable" val="false"/>
+		<set name="addSkills" val="961;1;5437;1"/>
+		<set name="hitTime" val="2500"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isCommon" val="true"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<target hasBuffId="1411;false" msgId="2064" />
+				<player olympiad="false" msgId="1509"/>
+				<player riding="none" msgId="2063"/>
+				<player zoneType="water" msgId="2060"/>
+				<target playerOnly="true"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_dispel_by_slot_probability" slotType="SpeedUp" chance="100"/>
+			<effect name="t_transform" val="124" npcId="13090" femaleNpcId="13199">
+				<set order="0x40" stat="STR" val="40"/>
+				<set order="0x40" stat="DEX" val="30"/>
+				<set order="0x40" stat="CON" val="43"/>
+				<set order="0x40" stat="INT" val="21"/>
+				<set order="0x40" stat="WIT" val="11"/>
+				<set order="0x40" stat="MEN" val="25"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="6204" levels="1" name="Transformed Condition - Guards of the Dawn">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="abnormal_type" val="transformation;SpeedUp"/>
+		<set name="abnormal_time" val="-1"/>
+		<set name="abnormalLevel" val="10"/>
+		<set name="castRange" val="900"/>
+		<set name="target_type" val="target"/>
+		<set name="affect_scope" val="single"/>
+		<set name="cancelable" val="false"/>
+		<set name="addSkills" val="5437;1;963;1;"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isCommon" val="true"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<target hasBuffId="1411;false" msgId="2064" />
+				<player olympiad="false" msgId="1509"/>
+				<player riding="none" msgId="2063"/>
+				<player zoneType="water" msgId="2060"/>
+				<target playerOnly="true"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_dispel_by_slot_probability" slotType="SpeedUp" chance="100"/>
+			<effect name="t_transform" val="113" npcId="13159" femaleNpcId="13201">
+				<set order="0x40" stat="STR" val="40"/>
+				<set order="0x40" stat="DEX" val="30"/>
+				<set order="0x40" stat="CON" val="43"/>
+				<set order="0x40" stat="INT" val="21"/>
+				<set order="0x40" stat="WIT" val="11"/>
+				<set order="0x40" stat="MEN" val="25"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="6205" levels="19" name="Strider Bite">
+		<table name="#mpConsume2">
+			68 76 82 89 91 94 96 98 100 100 101 102 103 103 104 104 105 105 105
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="0"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#power">
+			1649 2045 2476 2927 3108 3288 3464 3636 3801 3881 3959 4034 4107 4176 4243 4307 4367 4424 4477
+		</table>
+		<table name="#dmg">
+			-65 -75 -75 -82 -82 -82 -82 -82 -85 -85 -85 -85 -85 -85 -85 -85 -85 -85 -87
+		</table>
+		<set name="abnormal_ve" val="bleeding"/>
+		<set name="abnormal_time" val="20"/>
+		<set name="abnormal_type" val="bleeding"/>
+		<set name="abnormalLevel" val="8"/>
+		<set name="activateRate" val="60"/>
+		<set name="isDebuff" val="true"/>
+		<set name="baseStat" val="CON"/>
+		<set name="resistType" val="BLEED"/>
+		<set name="power" val="#power"/>
+		<set name="magicLevel" val="75"/>
+		<set name="effectPoint" val="100"/>
+		<set name="effectPoint" val="100"/>
+		<set name="target_type" val="enemy"/>
+		<set name="reuseDelay" val="3250"/>
+		<set name="coolTime" val="720"/>
+		<set name="hitTime" val="1080"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="40"/>
+		<set name="overHit" val="true"/>
+		<set name="nextAction" val="attack"/>
+		<for>
+			<effect name="i_p_attack"/>
+			<effect name="t_hp" ticks="5" val="#dmg"/>
+		</for>
+	</skill>
+	<skill id="6206" levels="19" name="Strider Fear">
+		<table name="#mpConsume1">
+			10 11 12 13 13 14 14 14 15 15 15 15 15 15 15 15 15 15 15
+		</table>
+		<table name="#mpConsume2">
+			40 44 48 52 54 55 56 58 58 58 59 59 60 60 60 62 62 62 62
+		</table>
+		<set name="mpConsume1" val="#mpConsume1"/>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="1"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="levelMod" val="1"/>
+		<table name="#effectPoint">
+			162 204 243 285 331 379 418 457 495 532 549 566 582 597 611 624 635 646 655
+		</table>
+		<table name="#magicLevel">
+			14 20 25 30 35 40 44 48 52 56 58 60 62 64 66 68 70 72 74
+		</table>
+		<table name="#activateRate">
+			40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40
+		</table>
+		<set name="abnormal_time" val="10"/>
+		<set name="abnormal_type" val="fear"/>
+		<set name="abnormal_ve" val="blue_mark"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="isDebuff" val="true"/>
+		<set name="effectPoint" val="#effectPoint"/>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="target_type" val="enemy_only"/>
+		<set name="reuseDelay" val="5000"/>
+		<set name="hitTime" val="4000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="resistType" val="FEAR"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="600"/>
+		<set name="activateRate" val="#activateRate"/>
+		<set name="baseStat" val="MEN"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect name="t_fear">
+				<mul order="0x30" stat="fearRcpt" val="0"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="6207" levels="1" name="Strider Dash">
+		<table name="#mpConsume2">
+			55
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="0"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="abnormal_time" val="15"/>
+		<set name="abnormal_type" val="speed_up_special"/>
+		<set name="abnormalLevel" val="2"/>
+		<set name="effectPoint" val="438"/>
+		<set name="magicLevel" val="46"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="15000"/>
+		<set name="hitTime" val="1000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="runSpd" val="66"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="6208" levels="1" name="Blessed Guidance">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="0"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Blessed Guidance. For 10 seconds, increases accuracy by 2. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6209" levels="4" name="Weapon Grade Penalty">
+		<table name="#mpConsume2">
+			0 0 0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#castRange"> -1 -1 -1 -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- The equipped weapon's grade doesn't match your level, so the following penalties are incurred: Decrease in accuracy by 16, Critical Rate by 10%, Critical Power by 10%, Atk. Spd. by 10%, and P. Atk. by 10%. -->
+		<table name="#accCombat">16 16 16 16</table>
+		<table name="#rCrit">0.9 0.8 0.7 0.6</table>
+		<table name="#cAtk">0.9 0.8 0.7 0.6</table>
+		<table name="#pAtkSpd">0.9 0.9 0.9 0.9</table>
+		<table name="#pAtk">0.9 0.9 0.9 0.9</table>
+		<table name="#mfail">20 40 60 80</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<sub order="0x40" stat="accCombat" val="#accCombat"/>
+			<mul order="0x30" stat="rCrit" val="#rCrit"/>
+			<mul order="0x50" stat="cAtk" val="#cAtk"/>
+			<mul order="0x50" stat="pAtkSpd" val="#pAtkSpd"/>
+			<mul order="0x50" stat="pAtk" val="#pAtk"/>
+			<set order="0x80" stat="magicFailRate" val="#mfail"/>
+		</for>
+	</skill>
+	<skill id="6213" levels="4" name="Armor Grade Penalty">
+		<table name="#mpConsume2">
+			0 0 0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#castRange"> -1 -1 -1 -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- When equipped with armor or accessories whose grade doesn't fit with your level, a penalty is incurred ith decreases in evasion by 2.5, Atk. Spd./Casting Spd./moving speed by 16.67%. -->
+		<table name="#rEvas">2.5 5 7.5 10</table>
+		<table name="#speed">0.8333 0.6944 0.5787 0.4823</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<sub order="0x40" stat="rEvas" val="#rEvas"/>
+			<mul order="0x50" stat="pAtkSpd" val="#speed"/>
+			<mul order="0x50" stat="mAtkSpd" val="#speed"/>
+			<mul order="0x50" stat="runSpd" val="#speed"/>
+		</for>
+	</skill>
+	<skill id="6217" levels="1" name="Raid Boss - Level 81">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Evil existence trying to invade the real world along the border between dreams and reality. It is recognized differently by different people, as if it were created by a collection of nightmares. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6218" levels="1" name="Raid Boss - Level 81">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Evil existence trying to invade the real world along the border between dreams and reality. It is recognized differently by different people, as if it were created by a collection of nightmares. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6219" levels="1" name="Raid Boss - Level 81">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Evil existence trying to invade the real world along the border between dreams and reality. It is recognized differently by different people, as if it were created by a collection of nightmares. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6220" levels="1" name="Raid Boss - Level 81">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Evil existence trying to invade the real world along the border between dreams and reality. It is recognized differently by different people, as if it were created by a collection of nightmares. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6221" levels="1" name="Raid Boss - Level 82">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Evil existence trying to invade the real world along the border between dreams and reality. It is recognized differently by different people, as if it were created by a collection of nightmares. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6222" levels="1" name="Raid Boss - Level 84">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Evil existence trying to invade the real world along the border between dreams and reality. It is recognized differently by different people, as if it were created by a collection of nightmares. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6223" levels="1" name="Raid Boss - Level 84">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Leader of the Cannibalistic Stakatos appointed by the Stakato Queen Shyeed to guard their nest. Unlike other Stakatos, it has the ability to jump through invisible space. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6224" levels="1" name="Raid Boss - Level 84">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Leader of the Cannibalistic Stakatos appointed by the Stakato Queen Shyeed to guard their nest. Unlike other Stakatos, it has the ability to jump through invisible space. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6225" levels="1" name="Raid Boss - Level 84">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Leader of the Cannibalistic Stakatos appointed by the Stakato Queen Shyeed to guard their nest. Unlike other Stakatos, it has the ability to jump through invisible space. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6226" levels="1" name="Raid Boss - Level 84">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Leader of the Cannibalistic Stakatos appointed by the Stakato Queen Shyeed to guard their nest. Unlike other Stakatos, it has the ability to jump through invisible space. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6227" levels="1" name="Raid Boss - Level 84">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Queen of the Spike Stakatos who commands and propagates the Spike Stakatos. It knows that its life is coming to an end, and it orders the nest guarded so that it is a good environment for the next Stakato Queen to grow up. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6228" levels="1" name="Raid Boss - Level 83">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- One of the monsters born of the Goddess Shilen. When the Great Sprite Gildor is weakened, it leads the Tasaba Lizardmen into the Reed Field, but when the Tasaba Lizardmen are wiped out by the appearance of the Mucrokians, it spews tremendous anger. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6229" levels="1" name="Raid Boss - Level 84">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Water sprite born from the powerful waters of Innadril. It is greatly beloved by the Goddess Eva. It's a trickster that does whatever it wants, like snatching babies or causing floods in the middle of the night. Eva fears retaliation one day because of Lian's severe tricks, and she puts him in the care of guardian spirits. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6230" levels="1" name="Raid Boss - Level 82">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Because of the item that was made in the image of the giants by the Ivory Tower magicians, it believes it is a giant itself. It is controlled by Hekaton Prime, and it guards the cave that was once the fortress of the giants. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6231" levels="1" name="Raid Boss - Level 82">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Lifeform created by the giants that were fleeing by night the wrath of Einhasad. It was improved with a Monster Eye as its foundation and it was created to exterminate the pursuers of the gods.  At one time, it broke free from the control of the giants and fought against them. Its mind is now controlled by Hekaton prime, and it again protects the giants. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6232" levels="1" name="Raid Boss - Level 83">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Last Lesser Giant hiding deep inside the Giant's Cave. Though it is physically the same as the other Lesser Giants, it contains the secret of the ancient lesser giant civilization, and it protects this secret. It is currently controlled by Hekaton Prime. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6233" levels="1" name="Raid Boss - Level 83">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Control device created by the ancient giants civilization. It has outgrown its original research goal. It's only goal now is to protect the cave. It is transforming it into a powerful protected fortress by controlling the minds of the other races and by maintaining the Giant's Cave. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6234" levels="1" name="Presentation - Adena Firework">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="6235" levels="1" name="Blessed Focus">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="0"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Blessing's Focus. Increases Critical Rate for 1 minute. -->
+		<set name="magicLevel" val="80"/>
+		<set name="abnormal_type" val="blessed_focus"/>
+		<set name="abnormal_time" val="60"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="target_type" val="target"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="rCrit" val="20"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="6236" levels="1" name="Presentation - Party Recall">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<table name="#castRange"> -1</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="2500"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="6237" levels="1" name="Moving Speed Decrease">
+		<set name="isMagic" val="0"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Moving Speed is reduced by 80% for 10 seconds. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6238" levels="1" name="Moving Speed Decrease">
+		<set name="isMagic" val="0"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="2000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Moving Speed/Casting Spd./Atk. Spd. are reduced by 50% for 20 seconds. -->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="around"/>
+		<set name="affect_object" val="not_friend"/>
+		<set name="affect_limit" val="0;0"/>
+		<set name="skillRadius" val="300"/>
+		<set name="isDebuff" val="true"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="abnormal_time" val="20"/>
+		<set name="abnormal_type" val="multi_debuff"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="runSpd" val="0.5"/>
+				<mul order="0x30" stat="mAtkSpd" val="0.5"/>
+				<mul order="0x30" stat="pAtkSpd" val="0.5"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="6239" levels="1" name="Proof of Space and Time">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="staticReuse" val="true"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="2700"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6240" levels="5" name="Heatstroke">
+		<table name="#mpConsume2">
+			0 0 0 0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="0"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> 300 300 300 300 300
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="1500"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Heatstroke stage 1. Inflicted with heatstroke. You are extremely hot and fatigued. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6241" levels="1" name="Heatstroke Prevention Effect - Gludio">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Heatstroke Prevention Effect - Prevention effect received in the Gludio region. Effect that minimizes the damage incurred from heatstroke. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6242" levels="1" name="Heatstroke Prevention Effect - Dion">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Heatstroke Prevention Effect - Prevention effect received in the Dion region. Effect that minimizes the damage incurred from heatstroke. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6243" levels="1" name="Heatstroke Prevention Effect - Giran">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Heatstroke Prevention Effect - Prevention effect received in the Giran region. Effect that minimizes the damage incurred from heatstroke. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6244" levels="1" name="Heatstroke Prevention Effect - Oren">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Heatstroke Prevention Effect - Prevention effect received in the Oren region. Effect that minimizes the damage incurred from heatstroke. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6245" levels="1" name="Heatstroke Prevention Effect - Aden">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Heatstroke Prevention Effect - Prevention effect received in the Aden region. Effect that minimizes the damage incurred from heatstroke. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6246" levels="1" name="Heatstroke Prevention Effect - Innadril">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Heatstroke Prevention Effect - Prevention effect received in the Innadril region. Effect that minimizes the damage incurred from heatstroke. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6247" levels="1" name="Heatstroke Prevention Effect - Goddard">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Heatstroke Prevention Effect - Prevention effect received in the Goddard region. Effect that minimizes the damage incurred from heatstroke. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6248" levels="1" name="Heatstroke Prevention Effect - Rune">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Heatstroke Prevention Effect - Prevention effect received in the Rune region. Effect that minimizes the damage incurred from heatstroke. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6249" levels="1" name="Heatstroke Prevention Effect -Schuttgart">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Heatstroke Prevention Effect - Prevention effect received in the Schuttgart region. Effect that minimizes the damage incurred from heatstroke. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6250" levels="1" name="Severe Heatstroke">
+		<set name="isMagic" val="0"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> 200
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="1500"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Severe heatstroke. Humidity is summoned. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6251" levels="1" name="Summon Humidity">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="0"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6252" levels="1" name="Humidity Attack">
+		<set name="isMagic" val="0"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="1500"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6253" levels="1" name="Heatstroke Prevention Effect - Gludio">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Heatstroke Prevention Effect - Prevention effect received in the Gludio region. Effect that minimizes the damage incurred from heatstroke. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6254" levels="1" name="Heatstroke Prevention Effect - Dion">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Heatstroke Prevention Effect - Prevention effect received in the Dion region. Effect that minimizes the damage incurred from heatstroke. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6255" levels="1" name="Heatstroke Prevention Effect - Giran">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Heatstroke Prevention Effect - Prevention effect received in the Giran region. Effect that minimizes the damage incurred from heatstroke. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6256" levels="1" name="Heatstroke Prevention Effect - Oren">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Heatstroke Prevention Effect - Prevention effect received in the Oren region. Effect that minimizes the damage incurred from heatstroke. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6257" levels="1" name="Heatstroke Prevention Effect - Aden">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Heatstroke Prevention Effect - Prevention effect received in the Aden region. Effect that minimizes the damage incurred from heatstroke. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6258" levels="1" name="Heatstroke Prevention Effect - Innadril">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Heatstroke Prevention Effect - Prevention effect received in the Innadril region. Effect that minimizes the damage incurred from heatstroke. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6259" levels="1" name="Heatstroke Prevention Effect - Goddard">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Heatstroke Prevention Effect - Prevention effect received in the Goddard region. Effect that minimizes the damage incurred from heatstroke. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6260" levels="1" name="Heatstroke Prevention Effect - Rune">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Heatstroke Prevention Effect - Prevention effect received in the Rune region. Effect that minimizes the damage incurred from heatstroke. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6261" levels="1" name="Heatstroke Prevention Effect -Schuttgart">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Heatstroke Prevention Effect - Prevention effect received in the Schuttgart region. Effect that minimizes the damage incurred from heatstroke. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="6262" levels="1" name="EMP Power">
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="magicLevel" val="76"/>
+		<set name="power" val="2959"/>
+		<set name="isMagic" val="0"/>
+		<set name="mpConsume2" val="78"/>
+		<set name="hitTime" val="2000"/>
+		<set name="coolTime" val="500"/>
+		<set name="reuseDelay" val="30000"/>
+		<set name="effectPoint" val="100"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="around"/>
+		<set name="skillRadius" val="150"/>
+		<set name="affect_object" val="not_friend"/>
+		<set name="affect_limit" val="0;0"/>
+		<set name="nextAction" val="none"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="true"/>
+		<for>
+			<effect name="i_p_attack"/>
+		</for>
+	</skill>
+	<skill id="6263" levels="1" name="EMP Shock">
+		<table name="#mpConsume2">
+			78
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Momentarily causes shock and stuns the enemy for 2 seconds.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="2000"/>
+		<for/>
+	</skill>
+	<skill id="6264" levels="1" name="Golem Boom">
+		<set name="isMagic" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: none
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="1000"/>
+		<for/>
+	</skill>
+	<skill id="6265" levels="1" name="Smoke">
+		<set name="isMagic" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: none
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="1000"/>
+		<for/>
+	</skill>
+	<skill id="6266" levels="1" name="Shock">
+		<table name="#mpConsume2">
+			82
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Momentarily causes shock and stuns the enemy for 30 seconds.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="castRange" val="2500"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="6267" levels="1" name="Power Attack">
+		<table name="#mpConsume2">
+			123
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: none
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="castRange" val="900"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="2500"/>
+		<for/>
+	</skill>
+	<skill id="6268" levels="1" name="Power Attack">
+		<table name="#mpConsume2">
+			164
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: none
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="castRange" val="250"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="5000"/>
+		<for/>
+	</skill>
+	<skill id="6269" levels="1" name="Poison Gas">
+		<set name="hitCancelTime" val="1500"/>
+		<table name="#mpConsume2">
+			117
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Poisons the enemy for 10 seconds and inflicts 345 HP damage per second.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="castRange" val="1100"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="2500"/>
+		<for/>
+	</skill>
+	<skill id="6270" levels="1" name="Grima Power Up">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: none
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="6271" levels="5" name="Grima Power Up">
+		<table name="#mpConsume1">
+			0 0 0 0 0
+		</table>
+		<table name="#mpConsume2">
+			0 0 0 0 0
+		</table>
+		<set name="mpConsume1" val="#mpConsume1"/>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="1"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Increase Physical Attack by 10%.
+		2: Increase Physical Attack by 20%.
+		3: Increase Physical Attack by 30%.
+		4: Increase Physical Attack by 40%.
+		5: Increase Physical Attack by 50%.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="1000"/>
+		<for/>
+	</skill>
+	<skill id="6272" levels="1" name="Underbug Defense Up">
+		<table name="#mpConsume1">
+			0
+		</table>
+		<table name="#mpConsume2">
+			0
+		</table>
+		<set name="mpConsume1" val="#mpConsume1"/>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="1"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Increase each of P. Def. and M. Def. by 30%.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="6273" levels="1" name="Underbug Self Blasting">
+		<set name="isMagic" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: none
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="10000"/>
+		<for/>
+	</skill>
+	<skill id="6274" levels="1" name="Eternal Blizzard">
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="magicLevel" val="85"/>
+		<set name="power" val="38976"/>
+		<set name="isMagic" val="0"/>
+		<set name="mpConsume2" val="165"/>
+		<set name="hitTime" val="10000"/>
+		<set name="coolTime" val="500"/>
+		<set name="reuseDelay" val="10000"/>
+		<set name="element" val="water"/>
+		<set name="elementPower" val="180"/>
+		<set name="effectPoint" val="1000"/>
+		<set name="target_type" val="self"/>
+		<set name="skillRadius" val="3000"/>
+		<set name="affect_scope" val="around"/>
+		<set name="affect_object" val="not_friend"/>
+		<set name="affect_limit" val="0;0"/>
+		<set name="nextAction" val="none"/>
+		<set name="ride_state" val="ride_none;"/>
+		<set name="olympiadUse" val="true"/>
+		<for>
+			<effect name="i_p_attack"/>
+			<effect name="i_cast_skill" skillId="6662" skillLvl="2"/>
+		</for>
+	</skill>
+	<skill id="6275" levels="1" name="Eternal Blizzard">
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="magicLevel" val="85"/>
+		<set name="power" val="45256"/>
+		<set name="isMagic" val="0"/>
+		<set name="mpConsume2" val="166"/>
+		<set name="hitTime" val="7000"/>
+		<set name="coolTime" val="500"/>
+		<set name="reuseDelay" val="10000"/>
+		<set name="element" val="water"/>
+		<set name="elementPower" val="180"/>
+		<set name="effectPoint" val="1000"/>
+		<set name="target_type" val="self"/>
+		<set name="skillRadius" val="3000"/>
+		<set name="affect_scope" val="around"/>
+		<set name="affect_object" val="not_friend"/>
+		<set name="affect_limit" val="0;0"/>
+		<set name="nextAction" val="none"/>
+		<set name="ride_state" val="ride_none;"/>
+		<set name="olympiadUse" val="true"/>
+		<for>
+			<effect name="i_p_attack"/>
+			<effect name="i_cast_skill" skillId="6662" skillLvl="2"/>
+		</for>
+	</skill>
+	<skill id="6276" levels="1" name="Eternal Blizzard">
+		<set name="isMagic" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: none
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="10000"/>
+		<for/>
+	</skill>
+	<skill id="6277" levels="1" name="Summon Spirits">
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="magicLevel" val="85"/>
+		<set name="isMagic" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="castRange" val="900"/>
+		<set name="hitTime" val="1500"/>
+		<set name="coolTime" val="500"/>
+		<set name="reuseDelay" val="10000"/>
+		<set name="effectPoint" val="689"/>
+		<set name="target_type" val="enemy_only"/>
+		<set name="affect_scope" val="single"/>
+		<set name="affect_limit" val="0;0"/>
+		<set name="nextAction" val="none"/>
+		<set name="ride_state" val="ride_none;"/>
+		<set name="olympiadUse" val="true"/>
+		<for/>
+	</skill>
+	<skill id="6278" levels="1" name="Ice Ball">
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="magicLevel" val="85"/>
+		<set name="power" val="18560"/>
+		<set name="isMagic" val="0"/>
+		<set name="mpConsume2" val="168"/>
+		<set name="castRange" val="800"/>
+		<set name="hitTime" val="3000"/>
+		<set name="coolTime" val="500"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="element" val="water"/>
+		<set name="elementPower" val="20"/>
+		<set name="effectPoint" val="689"/>
+		<set name="target_type" val="enemy_only"/>
+		<set name="skillRadius" val="250"/>
+		<set name="affect_scope" val="around"/>
+		<set name="affect_object" val="not_friend"/>
+		<set name="affect_limit" val="0;0"/>
+		<set name="nextAction" val="none"/>
+		<set name="ride_state" val="ride_none;"/>
+		<set name="olympiadUse" val="true"/>
+		<for>
+			<effect name="i_p_attack"/>
+		</for>
+	</skill>
+	<skill id="6279" levels="1" name="Attack Nearby Range">
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="magicLevel" val="85"/>
+		<set name="power" val="18560"/>
+		<set name="isMagic" val="0"/>
+		<set name="mpConsume2" val="168"/>
+		<set name="hitTime" val="5000"/>
+		<set name="coolTime" val="500"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="element" val="water"/>
+		<set name="elementPower" val="20"/>
+		<set name="effectPoint" val="689"/>
+		<set name="target_type" val="self"/>
+		<set name="skillRadius" val="450"/>
+		<set name="affect_scope" val="around"/>
+		<set name="affect_object" val="not_friend"/>
+		<set name="affect_limit" val="0;0"/>
+		<set name="nextAction" val="none"/>
+		<set name="ride_state" val="ride_none;"/>
+		<set name="olympiadUse" val="true"/>
+		<for>
+			<effect name="i_p_attack"/>
+		</for>
+	</skill>
+	<skill id="6280" levels="1" name="Death Clack">
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="magicLevel" val="85"/>
+		<set name="afterEffectSkillId" val="6281"/>
+		<set name="afterEffectSkillLvl" val="1"/>
+		<set name="isMagic" val="1"/>
+		<set name="mpConsume2" val="85"/>
+		<set name="castRange" val="1500"/>
+		<set name="hitTime" val="500"/>
+		<set name="coolTime" val="800"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="baseStat" val="CON"/>
+		<set name="abnormal_time" val="10"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="abnormal_type" val="death_clack"/>
+		<set name="effectPoint" val="100"/>
+		<set name="target_type" val="enemy_only"/>
+		<set name="affect_scope" val="single"/>
+		<set name="affect_limit" val="0;0"/>
+		<set name="abnormal_ve" val="bleeding"/>
+		<set name="isDebuff" val="true"/>
+		<set name="nextAction" val="none"/>
+		<set name="ride_state" val="ride_none;"/>
+		<set name="olympiadUse" val="true"/>
+		<for/>
+	</skill>
+	<skill id="6281" levels="1" name="Cold Judgement">
+		<set name="hitCancelTime" val="0"/>
+		<table name="#mpConsume1">
+			0
+		</table>
+		<table name="#mpConsume2">
+			0
+		</table>
+		<set name="mpConsume1" val="#mpConsume1"/>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="1"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: none
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="6282" levels="1" name="Reflect Magic">
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="magicLevel" val="85"/>
+		<set name="isMagic" val="0"/>
+		<set name="mpConsume2" val="85"/>
+		<set name="hitTime" val="500"/>
+		<set name="coolTime" val="0"/>
+		<set name="reuseDelay" val="45000"/>
+		<set name="abnormal_time" val="10"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="abnormal_type" val="reflect_magic_dd"/>
+		<set name="effectPoint" val="204"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="affect_limit" val="0;0"/>
+		<set name="nextAction" val="none"/>
+		<set name="ride_state" val="ride_none;"/>
+		<set name="olympiadUse" val="true"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="reflectMagicDam" val="100"/>
+				<add order="0x40" stat="reflectMagicDamChance" val="20"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="6283" levels="1" name="Ice Storm">
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="magicLevel" val="85"/>
+		<set name="power" val="18560"/>
+		<set name="isMagic" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="castRange" val="1100"/>
+		<set name="hitTime" val="3500"/>
+		<set name="coolTime" val="500"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="element" val="water"/>
+		<set name="elementPower" val="20"/>
+		<set name="effectPoint" val="689"/>
+		<set name="target_type" val="enemy_only"/>
+		<set name="affect_scope" val="single"/>
+		<set name="affect_limit" val="0;0"/>
+		<set name="nextAction" val="none"/>
+		<set name="ride_state" val="ride_none;"/>
+		<set name="olympiadUse" val="true"/>
+		<for>
+			<effect name="i_p_attack"/>
+		</for>
+	</skill>
+	<skill id="6284" levels="1" name="Freya's Bless">
+		<table name="#mpConsume1">
+			0
+		</table>
+		<table name="#mpConsume2">
+			0
+		</table>
+		<set name="mpConsume1" val="#mpConsume1"/>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="1"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Increase P.Atk, P.Def. and Atk. Spd. by 15%.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="1000"/>
+		<for/>
+	</skill>
+	<skill id="6285" levels="1" name="Rage of Ice">
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="magicLevel" val="85"/>
+		<set name="isMagic" val="1"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="abnormal_type" val="casting_time_down"/>
+		<set name="effectPoint" val="1"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="affect_limit" val="0;0"/>
+		<set name="nextAction" val="none"/>
+		<set name="ride_state" val="ride_none;"/>
+		<set name="olympiadUse" val="true"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="mAtkSpd" val="1.15"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="6286" levels="1" name="Bless of Sword">
+		<table name="#mpConsume1">
+			0
+		</table>
+		<table name="#mpConsume2">
+			0
+		</table>
+		<set name="mpConsume1" val="#mpConsume1"/>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="1"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Increase HP Recovery Bonus by 15% and P. Def by 10% for 20 minutes.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="castRange" val="650"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="2000"/>
+		<for/>
+	</skill>
+	<skill id="6287" levels="1" name="Bless of Sword">
+		<set name="hitCancelTime" val="0"/>
+		<table name="#mpConsume1">
+			0
+		</table>
+		<table name="#mpConsume2">
+			0
+		</table>
+		<set name="mpConsume1" val="#mpConsume1"/>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="1"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: none
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="2000"/>
+		<for/>
+	</skill>
+	<skill id="6288" levels="1" name="Jinia's Prayer">
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="magicLevel" val="85"/>
+		<set name="isMagic" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="hitTime" val="5000"/>
+		<set name="coolTime" val="0"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="abnormal_type" val="signal_a"/>
+		<set name="effectPoint" val="1"/>
+		<set name="target_type" val="self"/>
+		<set name="skillRadius" val="1000"/>
+		<set name="affect_scope" val="around"/>
+		<set name="affect_object" val="not_friend"/>
+		<set name="affect_limit" val="0;0"/>
+		<set name="nextAction" val="none"/>
+		<set name="ride_state" val="ride_none;"/>
+		<set name="olympiadUse" val="true"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="pDef" val="3"/>
+				<mul order="0x30" stat="mDef" val="3"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="6289" levels="1" name="Kegor's Courage">
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="magicLevel" val="85"/>
+		<set name="isMagic" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="hitTime" val="5000"/>
+		<set name="coolTime" val="0"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="abnormal_time" val="30"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="abnormal_type" val="signal_b"/>
+		<set name="effectPoint" val="1"/>
+		<set name="target_type" val="self"/>
+		<set name="skillRadius" val="1000"/>
+		<set name="affect_scope" val="around"/>
+		<set name="affect_object" val="not_friend"/>
+		<set name="affect_limit" val="0;0"/>
+		<set name="nextAction" val="none"/>
+		<set name="ride_state" val="ride_none;"/>
+		<set name="olympiadUse" val="true"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="pAtk" val="2"/>
+				<mul order="0x30" stat="mAtk" val="2"/>
+				<mul order="0x30" stat="pAtkSpd" val="1.25"/>
+				<mul order="0x30" stat="mAtkSpd" val="1.25"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="6290" levels="1" name="Power Strike">
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="magicLevel" val="85"/>
+		<set name="power" val="4563"/>
+		<set name="isMagic" val="0"/>
+		<set name="mpConsume2" val="123"/>
+		<set name="castRange" val="150"/>
+		<set name="hitTime" val="2500"/>
+		<set name="coolTime" val="0"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="element" val="water"/>
+		<set name="elementPower" val="20"/>
+		<set name="effectPoint" val="574"/>
+		<set name="target_type" val="enemy_only"/>
+		<set name="affect_scope" val="single"/>
+		<set name="affect_limit" val="0;0"/>
+		<set name="nextAction" val="none"/>
+		<set name="ride_state" val="ride_none;"/>
+		<set name="olympiadUse" val="true"/>
+		<for>
+			<effect name="i_p_attack"/>
+		</for>
+	</skill>
+	<skill id="6291" levels="1" name="Power Strike">
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="magicLevel" val="85"/>
+		<set name="power" val="4563"/>
+		<set name="isMagic" val="0"/>
+		<set name="mpConsume2" val="123"/>
+		<set name="hitTime" val="3500"/>
+		<set name="coolTime" val="0"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="element" val="water"/>
+		<set name="elementPower" val="20"/>
+		<set name="effectPoint" val="574"/>
+		<set name="target_type" val="self"/>
+		<set name="skillRadius" val="300"/>
+		<set name="affect_scope" val="around"/>
+		<set name="affect_object" val="not_friend"/>
+		<set name="affect_limit" val="0;0"/>
+		<set name="nextAction" val="none"/>
+		<set name="ride_state" val="ride_none;"/>
+		<set name="olympiadUse" val="true"/>
+		<for>
+			<effect name="i_p_attack"/>
+		</for>
+	</skill>
+	<skill id="6292" levels="1" name="Rush">
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="magicLevel" val="85"/>
+		<set name="power" val="4563"/>
+		<cond msgId="113">
+			<and>
+				<target minDistanceToTarget="250"/>
+			</and>
+		</cond>
+		<set name="isMagic" val="0"/>
+		<set name="mpConsume1" val="20"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="castRange" val="900"/>
+		<set name="hitTime" val="500"/>
+		<set name="coolTime" val="200"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="element" val="water"/>
+		<set name="elementPower" val="20"/>
+		<set name="effectPoint" val="574"/>
+		<set name="target_type" val="enemy_only"/>
+		<set name="affect_scope" val="single"/>
+		<set name="affect_limit" val="0;0"/>
+		<set name="flyType" val="DUMMY"/>
+		<set name="flyRadius" val="200"/>
+		<set name="nextAction" val="attack"/>
+		<set name="ride_state" val="ride_none;"/>
+		<set name="olympiadUse" val="true"/>
+		<for>
+			<effect name="i_p_attack"/>
+		</for>
+	</skill>
+	<skill id="6293" levels="1" name="Power Strike">
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="magicLevel" val="85"/>
+		<set name="power" val="4563"/>
+		<set name="isMagic" val="0"/>
+		<set name="mpConsume2" val="123"/>
+		<set name="castRange" val="40"/>
+		<set name="hitTime" val="2500"/>
+		<set name="coolTime" val="0"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="element" val="water"/>
+		<set name="elementPower" val="20"/>
+		<set name="effectPoint" val="574"/>
+		<set name="target_type" val="enemy_only"/>
+		<set name="affect_scope" val="sector"/>
+		<set name="affect_object" val="not_friend"/>
+		<set name="sector_range" val="0;0;250;60"/>
+		<set name="affect_limit" val="0;0"/>
+		<set name="nextAction" val="none"/>
+		<set name="ride_state" val="ride_none;"/>
+		<set name="olympiadUse" val="true"/>
+		<for>
+			<effect name="i_p_attack"/>
+		</for>
+	</skill>
+	<skill id="6294" levels="1" name="Leader's Roar">
+		<set name="magicLevel" val="85"/>
+		<set name="isMagic" val="1"/>
+		<set name="mpConsume1" val="17"/>
+		<set name="mpConsume2" val="66"/>
+		<set name="hitTime" val="34400"/>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_type" val="pAtk"/>
+		<set name="abnormalLevel" val="3"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="around"/>
+		<set name="affect_object" val="friend"/>
+		<set name="skillRadius" val="500"/>
+		<set name="affect_limit" val="0;0"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="pAtk" val="1.15"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="6295" levels="1" name="Point Target">
+		<set name="magicLevel" val="85"/>
+		<set name="isMagic" val="0"/>
+		<set name="castRange" val="800"/>
+		<set name="hitTime" val="2500"/>
+		<set name="coolTime" val="500"/>
+		<set name="effectPoint" val="689"/>
+		<set name="target_type" val="enemy_only"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="true"/>
+		<for/>
+	</skill>
+	<skill id="6296" levels="1" name="Rush">
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="magicLevel" val="85"/>
+		<set name="power" val="4563"/>
+		<cond msgId="113">
+			<and>
+				<target minDistanceToTarget="250"/>
+			</and>
+		</cond>
+		<set name="isMagic" val="0"/>
+		<set name="mpConsume1" val="20"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="castRange" val="900"/>
+		<set name="hitTime" val="500"/>
+		<set name="coolTime" val="200"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="element" val="water"/>
+		<set name="elementPower" val="20"/>
+		<set name="effectPoint" val="574"/>
+		<set name="target_type" val="enemy_only"/>
+		<set name="affect_scope" val="single"/>
+		<set name="affect_limit" val="0;0"/>
+		<set name="flyType" val="DUMMY"/>
+		<set name="flyRadius" val="200"/>
+		<set name="nextAction" val="attack"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="true"/>
+		<for>
+			<effect name="i_p_attack"/>
+		</for>
+	</skill>
+	<skill id="6297" levels="1" name="Cylinder Throw">
+		<set name="magicLevel" val="85"/>
+		<set name="power" val="4563"/>
+		<set name="isMagic" val="0"/>
+		<set name="mpConsume1" val="123"/>
+		<set name="castRange" val="1100"/>
+		<set name="hitTime" val="2500"/>
+		<set name="coolTime" val="200"/>
+		<set name="element" val="water"/>
+		<set name="elementPower" val="20"/>
+		<set name="effectPoint" val="689"/>
+		<set name="target_type" val="enemy_only"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="true"/>
+		<for>
+			<effect name="i_p_attack"/>
+		</for>
+	</skill>
+	<skill id="6298" levels="1" name="Summon Follower Knight">
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="magicLevel" val="85"/>
+		<set name="isMagic" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="castRange" val="900"/>
+		<set name="hitTime" val="1500"/>
+		<set name="coolTime" val="500"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="effectPoint" val="1"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="affect_limit" val="0;0"/>
+		<set name="nextAction" val="none"/>
+		<set name="ride_state" val="ride_none;"/>
+		<set name="olympiadUse" val="true"/>
+		<for/>
+	</skill>
+	<skill id="6299" levels="1" name="Breath of Ice Palace - Ice Storm">
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="magicLevel" val="85"/>
+		<set name="power" val="1547"/>
+		<set name="isMagic" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="hitTime" val="3000"/>
+		<set name="coolTime" val="500"/>
+		<set name="reuseDelay" val="15000"/>
+		<set name="element" val="water"/>
+		<set name="elementPower" val="20"/>
+		<set name="effectPoint" val="689"/>
+		<set name="target_type" val="self"/>
+		<set name="skillRadius" val="200"/>
+		<set name="affect_scope" val="around"/>
+		<set name="affect_object" val="not_friend"/>
+		<set name="affect_limit" val="0;0"/>
+		<set name="nextAction" val="none"/>
+		<set name="ride_state" val="ride_none;"/>
+		<set name="olympiadUse" val="true"/>
+		<for>
+			<effect name="i_p_attack"/>
+			<effect name="i_cast_skill" skillId="6662" skillLvl="1"/>
+		</for>
+	</skill>
+</list>

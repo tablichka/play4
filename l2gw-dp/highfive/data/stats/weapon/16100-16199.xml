@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="16148" name="Vesper Dual Daggers - Gale">
+		<cond msgId="1518">
+			<target hasSkill="923" />
+		</cond>
+	</item>
+	<item id="16149" name="Vesper Dual Daggers - Gale {PvP}">
+		<cond msgId="1518">
+			<target hasSkill="923" />
+		</cond>
+	</item>
+	<item id="16152" name="Skull Edge Dual Daggers">
+		<cond msgId="1518">
+			<target hasSkill="923" />
+		</cond>
+	</item>
+	<item id="16153" name="Skull Edge Dual Daggers {PvP}">
+		<cond msgId="1518">
+			<target hasSkill="923" />
+		</cond>
+	</item>
+	<item id="16156" name="Mamba Edge Dual Daggers">
+		<cond msgId="1518">
+			<target hasSkill="923" />
+		</cond>
+	</item>
+	<item id="16157" name="Mamba Edge Dual Daggers {PvP}">
+		<cond msgId="1518">
+			<target hasSkill="923" />
+		</cond>
+	</item>
+	<item id="16187" name="Vesper Buster - Cleverness {PvP} - Magic Hold">
+		<for>
+			<skill id="3577" level="2" chance="20" action="magic" />
+		</for>
+	</item>
+	<item id="16193" name="Vesper Fighter - Gale {PvP} - Critical Stun">
+		<for>
+			<skill id="3571" level="2" chance="100" action="crit" />
+		</for>
+	</item>
+</list>

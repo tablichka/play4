@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="10702" name="Eclair Bijou - PvP - Critical Poison">
+		<for>
+			<!-- Critical Poison -->
+			<skill id="3061" level="3" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="10730" name="Demon Splinter {PvP} - Critical Stun">
+		<for>
+			<skill id="3571" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="10736" name="Imperial Staff {PvP}- Magic Hold">
+		<for>
+			<skill id="3577" level="1" chance="20" action="magic" />
+		</for>
+	</item>
+	<item id="10737" name="Draconic Bow {PvP} - Cheap Shot">
+		<for>
+			<set val="1" order="0x08" stat="cheapShot" />
+			<set val="0.26" order="0x08" stat="cheapShotChance" />
+		</for>
+	</item>
+	<item id="10739" name="Draconic Bow {PvP} - Critical Slow">
+		<for>
+			<skill id="3574" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="10748" name="Sarunga - PvP - Critical Slow">
+		<for>
+			<skill id="3574" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="10766" name="Dynasty Halberd {PvP} - Critical Stun">
+		<for>
+			<skill id="3070" level="4" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="10780" name="Dynasty Bow {PvP} - Cheap Shot">
+		<for>
+			<set val="1" order="0x08" stat="cheapShot" />
+			<set val="0.26" order="0x08" stat="cheapShotChance" />
+		</for>
+	</item>
+</list>

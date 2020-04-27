@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="10487" name="Dynasty Jeweled Leather Armor - Force Master">
+		<cond msgId="1518">
+			<not>
+				<target classId="88,114" />
+			</not>
+		</cond>
+	</item>
+	<item id="10488" name="Dynasty Jeweled Leather Armor - Weapon Master">
+		<cond msgId="1518">
+			<not>
+				<target classId="89,113,117,118,131,132,133" />
+			</not>
+		</cond>
+	</item>
+	<item id="10489" name="Dynasty Jeweled Leather Armor - Enchanter">
+		<cond msgId="1518">
+			<not>
+				<target classId="98,115,116,136" />
+			</not>
+		</cond>
+	</item>
+	<item id="10490" name="Dynasty Jeweled Leather Armor - Summoner">
+		<cond msgId="1518">
+			<not>
+				<target classId="96,104,111" />
+			</not>
+		</cond>
+	</item>
+</list>

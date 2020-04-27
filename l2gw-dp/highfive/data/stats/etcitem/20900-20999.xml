@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<item id='20908' name="br_rose_necklace_dzelloff_a">
+		<cond msgId="113">
+            <and>
+			<player flying_transform="false"/>
+            <not>
+                <player transformId="111,112,113,121,122,124"/>
+            </not>
+            </and>
+		</cond>
+		<for/>
+	</item>
+
+    <item id='20909' name="br_rose_necklace_hume_a">
+        <cond msgId="113">
+            <and>
+            <player flying_transform="false"/>
+            <not>
+                <player transformId="111,112,113,121,122,124"/>
+            </not>
+            </and>
+        </cond>
+        <for/>
+    </item>
+    <item id='20910' name="br_rose_necklace_lekann_a">
+        <cond msgId="113">
+            <and>
+            <player flying_transform="false"/>
+            <not>
+                <player transformId="111,112,113,121,122,124"/>
+            </not>
+            </and>
+        </cond>
+        <for/>
+    </item>
+    <item id='20911' name="br_rose_necklace_liliath_a">
+        <cond msgId="113">
+            <and>
+            <player flying_transform="false"/>
+            <not>
+                <player transformId="111,112,113,121,122,124"/>
+            </not>
+            </and>
+        </cond>
+        <for/>
+    </item>
+    <item id='20912' name="br_rose_necklace_laffame_a">
+        <cond msgId="113">
+            <and>
+            <player flying_transform="false"/>
+            <not>
+                <player transformId="111,112,113,121,122,124"/>
+            </not>
+            </and>
+        </cond>
+        <for/>
+    </item>
+    <item id='20913' name="br_rose_necklace_maffume_a">
+        <cond msgId="113">
+            <and>
+            <player flying_transform="false"/>
+            <not>
+                <player transformId="111,112,113,121,122,124"/>
+            </not>
+            </and>
+        </cond>
+        <for/>
+    </item>
+
+    <item id='20915' name="br_rose_necklace_dzelloff_b">
+        <cond msgId="113">
+            <and>
+            <player flying_transform="false"/>
+            <not>
+                <player transformId="111,112,113,121,122,124"/>
+            </not>
+            </and>
+        </cond>
+        <for/>
+    </item>
+    <item id='20916' name="br_rose_necklace_hume_b">
+        <cond msgId="113">
+            <and>
+            <player flying_transform="false"/>
+            <not>
+                <player transformId="111,112,113,121,122,124"/>
+            </not>
+            </and>
+        </cond>
+        <for/>
+    </item>
+    <item id='20917' name="br_rose_necklace_lekann_b">
+        <cond msgId="113">
+            <and>
+            <player flying_transform="false"/>
+            <not>
+                <player transformId="111,112,113,121,122,124"/>
+            </not>
+            </and>
+        </cond>
+        <for/>
+    </item>
+    <item id='20918' name="br_rose_necklace_liliath_b">
+        <cond msgId="113">
+            <and>
+            <player flying_transform="false"/>
+            <not>
+                <player transformId="111,112,113,121,122,124"/>
+            </not>
+            </and>
+        </cond>
+        <for/>
+    </item>
+    <item id='20919' name="br_rose_necklace_laffame_b">
+        <cond msgId="113">
+            <and>
+            <player flying_transform="false"/>
+            <not>
+                <player transformId="111,112,113,121,122,124"/>
+            </not>
+            </and>
+        </cond>
+        <for/>
+    </item>
+    <item id='20920' name="br_rose_necklace_maffume_b">
+        <cond msgId="113">
+            <and>
+            <player flying_transform="false"/>
+            <not>
+                <player transformId="111,112,113,121,122,124"/>
+            </not>
+            </and>
+        </cond>
+        <for/>
+    </item>
+
+</list>

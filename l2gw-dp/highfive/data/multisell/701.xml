@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<config showall="true" notax="true" ignoreprice="true" keepenchanted="false" />
+    <item>
+        <production id="9514" count="1"/>
+        <ingredient id="15341" count="62"/>
+    </item>
+    <item>
+        <production id="9515" count="1"/>
+        <ingredient id="15341" count="40"/>
+    </item>
+    <item>
+        <production id="9516" count="1"/>
+        <ingredient id="15341" count="24"/>
+    </item>
+    <item>
+        <production id="9517" count="1"/>
+        <ingredient id="15341" count="16"/>
+    </item>
+    <item>
+        <production id="9518" count="1"/>
+        <ingredient id="15341" count="16"/>
+    </item>
+    <item>
+        <production id="9519" count="1"/>
+        <ingredient id="15341" count="46"/>
+    </item>
+    <item>
+        <production id="9520" count="1"/>
+        <ingredient id="15341" count="28"/>
+    </item>
+    <item>
+        <production id="9521" count="1"/>
+        <ingredient id="15341" count="24"/>
+    </item>
+    <item>
+        <production id="9522" count="1"/>
+        <ingredient id="15341" count="16"/>
+    </item>
+    <item>
+        <production id="9523" count="1"/>
+        <ingredient id="15341" count="16"/>
+    </item>
+    <item>
+        <production id="9524" count="1"/>
+        <ingredient id="15341" count="46"/>
+    </item>
+    <item>
+        <production id="9525" count="1"/>
+        <ingredient id="15341" count="28"/>
+    </item>
+    <item>
+        <production id="9526" count="1"/>
+        <ingredient id="15341" count="24"/>
+    </item>
+    <item>
+        <production id="9527" count="1"/>
+        <ingredient id="15341" count="16"/>
+    </item>
+    <item>
+        <production id="9528" count="1"/>
+        <ingredient id="15341" count="16"/>
+    </item>
+    <item>
+        <production id="9452" count="1"/>
+        <ingredient id="15341" count="10"/>
+    </item>
+    <item>
+        <production id="9453" count="1"/>
+        <ingredient id="15341" count="14"/>
+    </item>
+    <item>
+        <production id="9454" count="1"/>
+        <ingredient id="15341" count="6"/>
+    </item>
+<!-- Grabbed from NPC ID: 32661. Delusion Chamber exchange. -->
+</list>

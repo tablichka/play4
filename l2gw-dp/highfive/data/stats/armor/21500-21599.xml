@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="21583" name="Festival's Cloak - True Black">
+		<cond msgId="2453">
+			<OpCloak/>
+		</cond>
+		<for>
+			<add val="7" order="0x40" stat="fireAttr" />
+			<add val="7" order="0x40" stat="waterAttr" />
+			<add val="7" order="0x40" stat="earthAttr" />
+			<add val="7" order="0x40" stat="windAttr" />
+			<add val="7" order="0x40" stat="holyAttr" />
+			<add val="7" order="0x40" stat="darkAttr" />
+		</for>
+	</item>
+	<item id="21585" name="Festival's Cloak - True Black">
+		<cond msgId="2453">
+			<OpCloak/>
+		</cond>
+		<for>
+			<add val="7" order="0x40" stat="fireAttr" />
+			<add val="7" order="0x40" stat="waterAttr" />
+			<add val="7" order="0x40" stat="earthAttr" />
+			<add val="7" order="0x40" stat="windAttr" />
+			<add val="7" order="0x40" stat="holyAttr" />
+			<add val="7" order="0x40" stat="darkAttr" />
+		</for>
+	</item>
+	<item id="21587" name="Festival's Cloak - Bloody Red">
+		<cond msgId="2453">
+			<OpCloak/>
+		</cond>
+		<for>
+			<add val="7" order="0x40" stat="fireAttr" />
+			<add val="7" order="0x40" stat="waterAttr" />
+			<add val="7" order="0x40" stat="earthAttr" />
+			<add val="7" order="0x40" stat="windAttr" />
+			<add val="7" order="0x40" stat="holyAttr" />
+			<add val="7" order="0x40" stat="darkAttr" />
+		</for>
+	</item>
+	<item id="21588" name="Festival's Cloak - Pearl White">
+		<cond msgId="2453">
+			<OpCloak/>
+		</cond>
+		<for>
+			<add val="7" order="0x40" stat="fireAttr" />
+			<add val="7" order="0x40" stat="waterAttr" />
+			<add val="7" order="0x40" stat="earthAttr" />
+			<add val="7" order="0x40" stat="windAttr" />
+			<add val="7" order="0x40" stat="holyAttr" />
+			<add val="7" order="0x40" stat="darkAttr" />
+		</for>
+	</item>
+	<item id="21590" name="Festival's Cloak - Pearl White">
+		<cond msgId="2453">
+			<OpCloak/>
+		</cond>
+		<for>
+			<add val="7" order="0x40" stat="fireAttr" />
+			<add val="7" order="0x40" stat="waterAttr" />
+			<add val="7" order="0x40" stat="earthAttr" />
+			<add val="7" order="0x40" stat="windAttr" />
+			<add val="7" order="0x40" stat="holyAttr" />
+			<add val="7" order="0x40" stat="darkAttr" />
+		</for>
+	</item>
+</list>

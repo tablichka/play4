@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SSQ2th_Quest_Reward -->
+<list>
+	<config showall="true" notax="true"/>
+	<item>
+		<production id="14207" count="1"/>	<!-- Forgotten Scroll - Deflect Magic -->
+		<ingredient id="17265" count="1"/>	<!-- Certificate of Dawn -->
+	</item>
+	<item>
+		<production id="10554" count="1"/>	<!-- Forgotten Scroll - Anti-Magic Armor -->
+		<ingredient id="17265" count="1"/>	<!-- Certificate of Dawn -->
+	</item>
+	<item>
+		<production id="10559" count="1"/>	<!-- Forgotten Scroll - Sixth Sense -->
+		<ingredient id="17265" count="1"/>	<!-- Certificate of Dawn -->
+	</item>
+	<item>
+		<production id="10560" count="1"/>	<!-- Forgotten Scroll - Expose Weak Point -->
+		<ingredient id="17265" count="1"/>	<!-- Certificate of Dawn -->
+	</item>
+	<item>
+		<production id="14209" count="1"/>	<!-- Forgotten Scroll - Hide -->
+		<ingredient id="17265" count="1"/>	<!-- Certificate of Dawn -->
+	</item>
+	<item>
+		<production id="14210" count="1"/>	<!-- Forgotten Scroll - Dual Dagger Mastery -->
+		<ingredient id="17265" count="1"/>	<!-- Certificate of Dawn -->
+	</item>
+	<item>
+		<production id="14220" count="1"/>	<!-- Forgotten Scroll - Silent Mind -->
+		<ingredient id="17265" count="1"/>	<!-- Certificate of Dawn -->
+	</item>
+	<item>
+		<production id="14211" count="1"/>	<!-- Forgotten Scroll - Seven Arrow -->
+		<ingredient id="17265" count="1"/>	<!-- Certificate of Dawn -->
+	</item>
+	<item>
+		<production id="14208" count="1"/>	<!-- Forgotten Scroll - Final Secret -->
+		<ingredient id="17265" count="1"/>	<!-- Certificate of Dawn -->
+	</item>
+	<item>
+		<production id="14212" count="1"/>	<!-- Forgotten Scroll - Enlightenment - Wizard -->
+		<ingredient id="17265" count="1"/>	<!-- Certificate of Dawn -->
+	</item>
+	<item>
+		<production id="10576" count="1"/>	<!-- Forgotten Scroll - Servitor Barrier -->
+		<ingredient id="17265" count="1"/>	<!-- Certificate of Dawn -->
+	</item>
+	<item>
+		<production id="10577" count="1"/>	<!-- Forgotten Scroll - Excessive Loyalty -->
+		<ingredient id="17265" count="1"/>	<!-- Certificate of Dawn -->
+	</item>
+	<item>
+		<production id="10578" count="1"/>	<!-- Forgotten Scroll - Mutual Response -->
+		<ingredient id="17265" count="1"/>	<!-- Certificate of Dawn -->
+	</item>
+	<item>
+		<production id="14191" count="1"/>	<!-- Forgotten Scroll - Meteor -->
+		<ingredient id="17265" count="1"/>	<!-- Certificate of Dawn -->
+	</item>
+	<item>
+		<production id="14192" count="1"/>	<!-- Forgotten Scroll - Star Fall -->
+		<ingredient id="17265" count="1"/>	<!-- Certificate of Dawn -->
+	</item>
+	<item>
+		<production id="14213" count="1"/>	<!-- Forgotten Scroll - Enlightenment - Healer -->
+		<ingredient id="17265" count="1"/>	<!-- Certificate of Dawn -->
+	</item>
+	<item>
+		<production id="14221" count="1"/>	<!-- Forgotten Scroll - Turn Stone -->
+		<ingredient id="17265" count="1"/>	<!-- Certificate of Dawn -->
+	</item>
+</list>

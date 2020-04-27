@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="15845" name="Octo Claw - Critical Stun">
+		<for>
+			<skill id="3571" level="2" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="15854" name="Black Visage - Magic Hold">
+		<for>
+			<skill id="3577" level="2" chance="20" action="magic" />
+		</for>
+	</item>
+	<item id="15857" name="Veniplant Sword - Magic Hold">
+		<for>
+			<skill id="3577" level="2" chance="20" action="magic" />
+		</for>
+	</item>
+	<item id="15860" name="Skull Carnium Bow - Critical Slow">
+		<for>
+			<skill id="3574" level="3" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="15869" name="Dominion Crossbow - Critical Slow">
+		<for>
+			<skill id="3574" level="3" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="15886" name="Jade Claw - Critical Stun">
+		<for>
+			<skill id="3571" level="2" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="15895" name="Cyclic Cane - Magic Hold">
+		<for>
+			<skill id="3577" level="2" chance="20" action="magic" />
+		</for>
+	</item>
+	<item id="15898" name="Archangel Sword - Magic Hold">
+		<for>
+			<skill id="3577" level="2" chance="20" action="magic" />
+		</for>
+	</item>
+</list>

@@ -1,0 +1,194 @@
+# <skillId>;<skillLvl>;<cost>;<icon> - defaults to icon.skillNNNN;<true|false - premium only>
+###### Attack
+# Might
+4345;3;1000000;icon.skill1068;false
+# Acumen
+4355;3;1000000;icon.skill1085;false
+# Empower
+4356;3;1000000;icon.skill1059;false
+# Haste
+4357;2;1000000;icon.skill1086;false
+# Guidance
+4358;3;1000000;icon.skill1240;false
+# Focus
+4359;3;1000000;icon.skill1077;false
+# Death Whisper
+4360;3;1000000;icon.skill1242;false
+# Wild Magic
+1303;2;1000000;;false
+# Greater Might
+1388;3;1000000;;false
+
+####### Defence
+# Shield
+4344;3;1000000;icon.skill1040;false
+# Greater Shield
+1389;3;1000000;;false
+# Magic Barrier
+4349;2;1000000;icon.skill1036;false
+# Agility
+1087;3;1000000;;false
+# Advanced Block
+1304;3;1000000;;false
+# Bless Shield
+1243;6;1000000;;false
+# Chant of Protection
+1461;1;1000000;;false
+
+######## Resist
+# Mental Shield
+4346;4;1000000;icon.skill1035;false
+# Resist Shock
+4350;4;1000000;icon.skill1259;false
+# Invigor
+1032;3;1000000;;false
+# Resist Poison
+1033;3;1000000;;false
+# Resist Aqua
+1182;3;1000000;;false
+# Resist Wind
+1189;3;1000000;;false
+# Resist Fire
+1191;3;1000000;;false
+# Elemental Protection
+1352;1;1000000;;false
+# Divine Protection
+1353;1;1000000;;false
+# Arcane Protection
+1354;1;1000000;;false
+# Holy Resistance
+1392;3;1000000;;false
+# Unholy Resistance
+1393;3;1000000;;false
+
+######## Other
+# Wind Walk
+4342;2;1000000;icon.skill1204;false
+# Bless the Body
+4347;6;1000000;icon.skill1045;false
+# Bless the Soul
+4348;6;1000000;icon.skill1048;false
+# Concentration
+4351;6;1000000;icon.skill1078;false
+# Berserker Spirit
+4352;2;1000000;icon.skill1062;false
+# Vampiric Rage
+4354;4;1000000;icon.skill1268;false
+# Chant of Revenge
+1284;3;1000000;;false
+# Clarity
+1397;3;1000000;;false
+# Decrease Weight
+1257;3;1000000;;false
+# Regeneration
+1044;3;1000000;;false
+# Prayer
+1307;3;1000000;;false
+# Mana Gain
+1460;1;1000000;;false
+# Kiss of Eva
+1073;2;1000000;;false
+
+######### Songs
+# Song of Earth
+264;1;1000000;;true
+# Song of Life
+265;1;1000000;;true
+# Song of Water
+266;1;1000000;;true
+# Song of Warding
+267;1;1000000;;true
+# Song of Wind
+268;1;1000000;;true
+# Song of Hunter
+269;1;1000000;;true
+# Song of Invocation
+270;1;1000000;;true
+# Song of Vitality
+304;1;1000000;;true
+# Song of Vengeance
+305;1;1000000;;true
+# Song of Flame Guard
+306;1;1000000;;true
+# Song of Storm Guard
+308;1;1000000;;true
+# Song of Renewal
+349;1;1000000;;true
+# Song of Meditation
+363;1;1000000;;true
+# Song of Champion
+364;1;1000000;;true
+# Song of Elemental
+529;1;1000000;;true
+# Song of Wind Storm
+764;1;1000000;;true
+
+########### Dances
+# Dance of Warrior
+271;1;1000000;;true
+# Dance of Inspiration
+272;1;1000000;;true
+# Dance of Mystic
+273;1;1000000;;true
+# Dance of Fire
+274;1;1000000;;true
+# Dance of Fury
+275;1;1000000;;true
+# Dance of Concentration
+276;1;1000000;;true
+# Dance of Light
+277;1;1000000;;true
+# Dance of Aqua Guard
+307;1;1000000;;true
+# Dance of Earth Guard
+309;1;1000000;;true
+# Dance of Vampire
+310;1;1000000;;true
+# Dance of Protection
+311;1;1000000;;true
+# Dance of Siren
+365;1;1000000;;true
+# Dance of Shadows
+366;1;1000000;;true
+# Dance of Alignment
+530;1;1000000;;true
+# Dance of Blade Storm
+#765;1;1000000;;true
+
+######## Extended
+# Improved Combat
+1499;1;1000000;;false
+# Improved Magic
+1500;1;1000000;;false
+# Improved Condition
+1501;1;1000000;;false
+# Improved Critical
+1502;1;1000000;;false
+# Improved Shield Defense
+1503;1;1000000;;false
+# Improved Movement
+1504;1;1000000;;false
+# War Chant
+1390;3;1000000;;false
+# Earth Chant
+1391;3;1000000;;false
+# Chant of Blood Awakening
+1519;1;1000000;;false
+# Prophecy of Water
+1355;1;1000000;;false
+# Prophecy of Fire
+1356;1;1000000;;false
+# Prophecy of Wind
+1357;1;1000000;;false
+# Chant of Victory
+1363;1;1000000;;false
+# Magnus' Chant
+1413;1;1000000;;false
+# Blessing of Queen
+4699;3;1000000;icon.skill1331;false
+# Gift of Queen
+4700;3;1000000;icon.skill1331;false
+# Blessing of Seraphim
+4702;3;1000000;icon.skill1332;false
+# Gift of Seraphim
+4703;3;1000000;icon.skill1332;false

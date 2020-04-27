@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="9010" name="Shadow Item: Great Axe">
+		<for>
+			<set val="66" order="0x08" stat="pAtkRange" />
+		</for>
+	</item>
+	<item id="9028" name="Shadow Item: Tallum Glaive">
+		<for>
+			<set val="66" order="0x08" stat="pAtkRange" />
+		</for>
+	</item>
+	<item id="9036" name="Shadow Item: Bone Shield">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="9044" name="Shadow Item: Hoplon">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="9056" name="Shadow Item: Composite Shield">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="9070" name="Shadow Item: Zubei's Shield">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="9084" name="Shadow Item: Dark Crystal Shield">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+</list>

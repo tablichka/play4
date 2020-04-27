@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="21716" name="Cloak of Zaken">
+		<cond msgId="2453">
+			<OpCloak/>
+		</cond>
+		<for>
+			<add val="5" order="0x40" stat="fireAttr" />
+			<add val="15" order="0x40" stat="waterAttr" />
+			<add val="15" order="0x40" stat="earthAttr" />
+			<add val="5" order="0x40" stat="windAttr" />
+			<add val="5" order="0x40" stat="holyAttr" />
+			<add val="15" order="0x40" stat="darkAttr" />
+		</for>
+	</item>
+	<item id="21717" name="Cloak of Freya">
+		<cond msgId="2453">
+			<OpCloak/>
+		</cond>
+		<for>
+			<add val="10" order="0x40" stat="fireAttr" />
+			<add val="20" order="0x40" stat="waterAttr" />
+			<add val="20" order="0x40" stat="earthAttr" />
+			<add val="10" order="0x40" stat="windAttr" />
+			<add val="20" order="0x40" stat="holyAttr" />
+			<add val="10" order="0x40" stat="darkAttr" />
+		</for>
+	</item>
+	<item id="21718" name="Cloak of Frintezza">
+		<cond msgId="2453">
+			<OpCloak/>
+		</cond>
+		<for>
+			<add val="15" order="0x40" stat="fireAttr" />
+			<add val="5" order="0x40" stat="waterAttr" />
+			<add val="5" order="0x40" stat="earthAttr" />
+			<add val="15" order="0x40" stat="windAttr" />
+			<add val="5" order="0x40" stat="holyAttr" />
+			<add val="15" order="0x40" stat="darkAttr" />
+		</for>
+	</item>
+	<item id="21719" name="Soul Cloak of Zaken">
+		<cond msgId="2453">
+			<OpCloak/>
+		</cond>
+		<for>
+			<add val="5" order="0x40" stat="fireAttr" />
+			<add val="10" order="0x40" stat="waterAttr" />
+			<add val="10" order="0x40" stat="earthAttr" />
+			<add val="5" order="0x40" stat="windAttr" />
+			<add val="5" order="0x40" stat="holyAttr" />
+			<add val="10" order="0x40" stat="darkAttr" />
+		</for>
+	</item>
+	<item id="21720" name="Soul Cloak of Freya">
+		<cond msgId="2453">
+			<OpCloak/>
+		</cond>
+		<for>
+			<add val="5" order="0x40" stat="fireAttr" />
+			<add val="15" order="0x40" stat="waterAttr" />
+			<add val="15" order="0x40" stat="earthAttr" />
+			<add val="5" order="0x40" stat="windAttr" />
+			<add val="15" order="0x40" stat="holyAttr" />
+			<add val="5" order="0x40" stat="darkAttr" />
+		</for>
+	</item>
+	<item id="21721" name="Soul Cloak of Frintezza">
+		<cond msgId="2453">
+			<OpCloak/>
+		</cond>
+		<for>
+			<add val="10" order="0x40" stat="fireAttr" />
+			<add val="5" order="0x40" stat="waterAttr" />
+			<add val="5" order="0x40" stat="earthAttr" />
+			<add val="10" order="0x40" stat="windAttr" />
+			<add val="5" order="0x40" stat="holyAttr" />
+			<add val="10" order="0x40" stat="darkAttr" />
+		</for>
+	</item>
+	<item id="21780" name="Imperial Crusader Shield of Fortune - 90-day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+</list>

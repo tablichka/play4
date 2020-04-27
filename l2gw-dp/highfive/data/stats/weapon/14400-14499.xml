@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="14461" name="Icarus Dual Daggers {PvP}">
+		<cond msgId="1518">
+			<target hasSkill="923" />
+		</cond>
+	</item>
+	<item id="14477" name="Vesper Dual Daggers {PvP}">
+		<cond msgId="1518">
+			<target hasSkill="923" />
+		</cond>
+	</item>
+	<item id="14486" name="Vesper Buster {PvP}- Magic Hold">
+		<for>
+			<skill id="3577" level="2" chance="20" action="magic" />
+		</for>
+	</item>
+	<item id="14492" name="Vesper Fighter {PvP}- Critical Stun">
+		<for>
+			<skill id="3571" level="2" chance="100" action="crit" />
+		</for>
+	</item>
+</list>

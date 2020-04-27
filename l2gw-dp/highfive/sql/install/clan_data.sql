@@ -1,0 +1,23 @@
+DROP TABLE IF EXISTS `clan_data`;
+CREATE TABLE `clan_data` (
+clan_id INT UNSIGNED NOT NULL DEFAULT 0,
+clan_name VARCHAR(45),
+clan_level TINYINT UNSIGNED NOT NULL DEFAULT 0,
+hasCastle TINYINT UNSIGNED NOT NULL DEFAULT 0,
+hasFortress TINYINT UNSIGNED NOT NULL DEFAULT 0,
+hasHideout TINYINT UNSIGNED NOT NULL DEFAULT 0,
+ally_id INT UNSIGNED NOT NULL DEFAULT 0,
+leader_id INT UNSIGNED NOT NULL DEFAULT 0,
+crest VARBINARY(256) NULL DEFAULT NULL,
+largecrest VARBINARY(8192) NULL DEFAULT NULL,
+reputation_score INT NOT NULL default 0,
+expelled_member INT UNSIGNED NOT NULL DEFAULT 0,
+leaved_ally INT UNSIGNED NOT NULL DEFAULT 0,
+dissolved_ally INT UNSIGNED NOT NULL DEFAULT 0,
+auction_bid_at INT NOT NULL default '0',
+auction_cancel_time decimal(20,0) NOT NULL default '0',
+airship SMALLINT NOT NULL DEFAULT -1,
+PRIMARY KEY (clan_id),
+KEY `leader_id` (`leader_id`),
+KEY `ally_id` (`ally_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

@@ -1,0 +1,2048 @@
+ castle_siege_music_begin		
+{0; [B01_F]; 91}; 	//	          (  : );     ; playtime( )
+{2; [B02_S01]; 78};		
+{4; [B03_F]; 124};		
+{6; [B04_F]; 87};		
+{8; [B01_S01]; 90};		
+{10; [B02_F]; 97};		
+{12; [B03_S02]; 123};		
+{14; [B04_S01]; 88};		
+{16; [B01_S02]; 90};		
+{18; [B02_S02]; 88};		
+{20; [B03_S01]; 124};		
+{22; [B04_S02]; 88};		
+{24; [B01_F]; 91}; 		
+{26; [B02_S01]; 78};		
+{28; [B03_F]; 124};		
+{30; [B04_F]; 87};
+{32; [B01_S01]; 90};
+{34; [B02_F]; 97};
+{36; [B03_S02]; 123};
+{38; [B04_S01]; 88};
+{40; [B01_S02]; 90};
+{42; [B02_S02]; 88};
+{44; [B03_S01]; 124};
+{46; [B04_S02]; 88};
+{48; [B01_F]; 91}; 
+{50; [B02_S01]; 78};
+{52; [B03_F]; 124};
+{54; [B04_F]; 87};
+{56; [B01_S01]; 90};
+{58; [B02_F]; 97};
+{60; [B03_S02]; 123};
+{62; [B04_S01]; 88};
+{64; [B01_S02]; 90};
+{66; [B02_S02]; 88};
+{68; [B03_S01]; 124};
+{70; [B04_S02]; 88};
+{72; [B01_F]; 91}; 
+{74; [B02_S01]; 78};
+{76; [B03_F]; 124};
+{78; [B04_F]; 87};
+{80; [B01_S01]; 90};
+{82; [B02_F]; 97};
+{84; [B03_S02]; 123};
+{86; [B04_S01]; 88};
+{88; [B01_S02]; 90};
+{90; [B02_S02]; 88};
+{92; [B03_S01]; 124};
+{94; [B04_S02]; 88};
+{96; [B01_F]; 91}; 
+{98; [B02_S01]; 78};
+{100; [B03_F]; 124};
+{102; [B04_F]; 87};
+{104; [B01_S01]; 90};
+{106; [B02_F]; 97};
+{108; [B03_S02]; 123};
+{110; [B04_S01]; 88};
+{112; [B01_S02]; 90};
+{114; [B02_S02]; 88};
+{116; [B03_S01]; 124};
+{118; [B04_S02]; 88}
+castle_siege_music_end
+
+castle_begin
+[gludio_castle]
+1
+siege
+residence_territory = {{{-20060;106912;-4452;3547};{-15820;106912;-4452;3547};{-15816;113449;-4452;3547};{-20061;113413;-4452;3547}}}
+battlefield_territory = {{{-22615;104510;-4448;3551};{-13290;104564;-4448;3551};{-13313;116950;-4448;3551};{-22638;116896;-4448;3551}}}
+headquarter_territory = {{{-22052;114025;-4484;3515};{-14221;114007;-4484;3515};{-14197;116558;-4484;3515};{-22032;116566;-4484;3515}};{{-22030;104809;-4420;3579};{-20270;104817;-4420;3579};{-20266;113735;-4420;3579};{-22031;113732;-4420;3579}};{{-15554;104834;-4388;3611};{-13917;104839;-4388;3611};{-13914;113757;-4388;3611};{-15554;113757;-4388;3611}}}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{-16554;109382;-1799};{-16869;109375;-1799};{-16659;109261;-1799};{-16618;109485;-1799}}
+other_restart_village_list = {{-81447;152760;-3170};{-81447;152880;-3170};{-81447;152640;-3170};{-82186;152760;-3170};{-82186;152880;-3170};{-82186;152640;-3170};{-81780;152760;-3170};{-81780;152880;-3170};{-81780;152640;-3170}}
+chao_restart_point_list = {{-81616;157104;-3150};{-80688;157216;-3150};{-79568;156960;-3150};{-78800;157744;-3150};{-80448;157968;-3130};{-81712;159536;-3230};{-79744;160592;-3330};{-79584;159408;-3180};{-74016;150656;-2800};{-72720;149632;-2780};{-75904;162000;-3300};{-75488;161472;-3250};{-74688;160736;-3200};{-74352;161488;-3250};{-76656;160768;-3280};{-77472;160960;-3470};{-77776;158752;-3270};{-80448;161488;-3420};{-75440;162672;-3350};{-81760;161248;-3200}}
+banish_point_list = {{-15881;110651;-2770};{-15679;110168;-2770};{-15553;110780;-2770};{-15281;110142;-2770}}
+mercenary_point_list  = {}
+residence_guard_mapping = {{6038;sword;notmove;12732;2;{ssq_normal;ssq_dawn}};{6039;pole;notmove;12733;2;{ssq_normal;ssq_dawn}};{6040;bow;notmove;12734;5;{ssq_normal;ssq_dawn}};{6041;cleric;notmove;12735;1;{ssq_normal;ssq_dawn}};{6042;wizard;notmove;12736;1;{ssq_normal;ssq_dawn}};{6043;sword;move;12737;2;{ssq_normal;ssq_dawn}};{6044;pole;move;12738;2;{ssq_normal;ssq_dawn}};{6045;bow;move;12739;5;{ssq_normal;ssq_dawn}};{6046;cleric;move;12740;1;{ssq_normal;ssq_dawn}};{6047;wizard;move;12741;1;{ssq_normal;ssq_dawn}};{6115;sword;notmove;12722;5;{ssq_dawn}};{6116;pole;notmove;12723;2;{ssq_dawn}};{6117;bow;notmove;12724;10;{ssq_dawn}};{6118;cleric;notmove;12725;2;{ssq_dawn}};{6119;wizard;notmove;12726;2;{ssq_dawn}};{6120;sword;move;12727;5;{ssq_dawn}};{6121;pole;move;12728;2;{ssq_dawn}};{6122;bow;move;12729;10;{ssq_dawn}};{6123;cleric;move;12730;2;{ssq_dawn}};{6124;wizard;move;12731;2;{ssq_dawn}};{6175;sword;notmove;12742;2;{ssq_twilight}};{6176;pole;notmove;12743;2;{ssq_twilight}};{6177;bow;notmove;12744;5;{ssq_twilight}};{6178;cleric;notmove;12745;1;{ssq_twilight}};{6179;wizard;notmove;12746;1;{ssq_twilight}};{6180;sword;move;12747;2;{ssq_twilight}};{6181;pole;move;12748;2;{ssq_twilight}};{6182;bow;move;12749;5;{ssq_twilight}};{6183;cleric;move;12750;1;{ssq_twilight}};{6184;wizard;move;12751;1;{ssq_twilight}};{6235;sword;notmove;12752;5;{ssq_twilight}};{6236;pole;notmove;12753;3;{ssq_twilight}};{6237;bow;notmove;12754;10;{ssq_twilight}};{6238;cleric;notmove;12755;2;{ssq_twilight}};{6239;wizard;notmove;12756;2;{ssq_twilight}};{6240;sword;move;12757;5;{ssq_twilight}};{6241;pole;move;12758;3;{ssq_twilight}};{6242;bow;move;12759;10;{ssq_twilight}};{6243;cleric;move;12760;2;{ssq_twilight}};{6244;wizard;move;12761;2;{ssq_twilight}};{6295;sword;move;12762;1;{ssq_dawn}};{6296;wizard;move;12763;1;{ssq_dawn}};{3960;sword;notmove;12301;5;{ssq_normal;ssq_dawn}};{3961;pole;notmove;12302;3;{ssq_normal;ssq_dawn}};{3962;bow;notmove;12303;10;{ssq_normal;ssq_dawn}};{3963;cleric;notmove;12304;2;{ssq_normal;ssq_dawn}};{3964;wizard;notmove;12305;2;{ssq_normal;ssq_dawn}};{3965;sword;move;12306;5;{ssq_normal;ssq_dawn}};{3966;pole;move;12307;3;{ssq_normal;ssq_dawn}};{3967;bow;move;12308;10;{ssq_normal;ssq_dawn}};{3968;cleric;move;12309;2;{ssq_normal;ssq_dawn}};{3969;wizard;move;12310;2;{ssq_normal;ssq_dawn}};{3970;teleporter;notmove;12838;1;{ssq_normal;ssq_dawn;ssq_twilight}};{3971;teleporter;notmove;12839;1;{ssq_normal;ssq_dawn;ssq_twilight}};{3972;teleporter;notmove;12840;1;{ssq_normal;ssq_dawn;ssq_twilight}}}
+owning_npc_list = {{[chamberlain_saius];0};{[sir_tyron];0};{[gludio_mass_teleporter];0};{[gludio_df_teleporter1];0};{[gludio_df_teleporter2];0};{[gludio_df_teleporter3];0};{[gludio_outter_doorman];0};{[gludio_inner_doorman];0};{[marius];0};{[mesella];0};{[edmond];0};{[ramus];0};{[summoner_almors];0};{[sir_collin_windawood];0};{[daurin_hammercrush];0};{[hermit_santiago];0};{[turek_chief_burai];0};{[piotur];0};{[khavatari_toruku];0};{[trader_arodin];0};{[trader_daeronees];0};{[pet_manager_martin];0};{[neti];0};{[high_summoner_galatea];0};{[drunkard_treaf];0};{[head_blacksmith_tapoy];0};{[ein];0};{[grandmaster_ramos];0};{[master_baenedes];0};{[celma];0};{[master_rhodiell];0};{[priest_adonius];0};{[gigon];0};{[iris];0};{[magister_nell];0};{[levian];0};{[high_prefect_osborn];0};{[seer_umos];0};{[prefect_kasman];0};{[warehouse_chief_moke];0};{[warehouse_keeper_norman];0};{[warehouse_keeper_raut];0};{[blacksmith_kluto];0};{[dudamara_totem_spirit];0};{[parina];0};{[magister_talbot];0};{[kalinta];0};{[allana];0};{[perrin];0};{[bishop_raimund];0};{[vivi];0};{[magister_ramoniell];0};{[magister_rohmer];0};{[father_manuell];0};{[head_blacksmith_mendio];0};{[warehouse_chief_rikadio];0};{[high_prefect_drikus];0};{[seer_racoy];0};{[prefect_buka];0};{[trader_poesia];0};{[master_escar];0};{[master_xenos];0};{[sir_karrel_vasper];0};{[trader_nestle];0};{[trader_acellopy];0};{[trader_cullinas];0};{[guard_weisz];0};{[gatekeeper_richlin];0};{[guard_luis];0};{[captain_bezique];0};{[guard_plink];0};{[wharf_manager_clancy];0};{[guard_leikan];0};{[guard_scott];0};{[guard_lynchuss];0};{[guard_alvah];0};{[leopold];0};{[bowman];0};{[roien];0};{[carl];0};{[guide_human_cnacelot];0};{[rylith];0};{[quilt];0};{[ken];0};{[hank];0};{[chip];0};{[johnson];0};{[arnold];0};{[abel];0};{[lee];0};{[gilbert];0};{[bitz];0};{[gwyn];0};{[pin];0};{[minx];0};{[matheo];0};{[gallin];0};{[doff];0};{[philly];0};{[silvia];0};{[wilph];0};{[rant];0};{[rollfnan];0};{[blacksmith_alltran];0};{[rapunzel];0};{[yohan];0};{[harry];0};{[potter];0};{[baul];0};{[daring];0};{[cristel];0};{[elias];0};{[voni];0};{[rockswell];0};{[lector];0};{[jackson];0};{[katrine];0};{[gatekeeper_ciffon];0};{[gatekeeper_tiramisu];0};{[flame_salamander];0};{[water_undine];0};{[earth_snake];0};{[lizardman_of_wasteland];0};{[wind_sylph];0};{[lennunt_chief_harak];0};{[renny];0};{[pet_manager_lundy];0};{[father_gupu];0};{[orphan_girl];0};{[vuku_chief_driko];0};{[drunkard_borys];0};{[guard_moretti];0};{[guard_melville];0};{[captain_bathia];0};{[guard_thoma];0};{[guard_praga];0};{[guard_babenco];0};{[guard_brynner];0};{[guard_curtiz];0};{[blacksmith_pinter];0};{[trader_harmony];0};{[trader_varanket];0};{[trader_simplon];0};{[trader_sydney];0};{[master_rains];0};{[master_sorius];0};{[master_tobias];0};{[master_virgil];0};{[master_sidra];0};{[triskel];0};{[harprock];0};{[warehouse_keeper_balcon];0};{[gatekeeper_belladonna];0};{[master_audiberti];0};{[master_leona];0};{[master_reoria];0};{[samed];0};{[varsak];0};{[gatekeeper_tiramisu];0};{[preacher_sla];0};{[windy_shaoring];0};{[sage_kasian];0};{[sir_aron_tanford];0};{[bodyguard_jax];0};{[summoner_basillia];0};{[trader_salient];0};{[trader_rolento];0};{[greenspan];0};{[gludio_wizard_s];0};{[gludio_cleric_s];0};{[gludio_bow_guard_s_e];0};{[gludio_smith];0};{[manor_manager_1];0};{[symbol_maker_kelly];0};{[symbol_maker_marsden];0};{[grad];0};{[dawn_priest_gludio];0};{[dusk_priestess_gludio];0};{[dawn_priest_gludin];0};{[dusk_priestessess_gludin];0};{[fisher_klufe];0};{[fisher_bleaker];0};{[fisher_pamfus];0};{[fisher_cyano];0};{[scroll_seller_antonio];0};{[scroll_seller_aren];0};{[scroll_seller_berynel];0};{[amulet_seller_koram];0};{[amulet_seller_jaka];0};{[blueprint_seller_reeya];0};{[blueprint_seller_ronaldo];0};{[mineral_trader_rogen];0};{[mineral_trader_lanna];0};{[porter_remy];0};{[scribe_leandro];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/00
+siege_term = 7200
+residence_state = initial
+residence_gate_list = {{[gludio_castle_outter_001];0};{[gludio_castle_outter_002];0};{[gludio_castle_inner_001];0};{[gludio_castle_inner_002];0};{[gludio_castle_station];0};{[gludio_castle_small_001];0};{[gludio_castle_small_002];0};{[gludio_castle_wall_001];0};{[gludio_castle_wall_002];0}}
+breakable_wall_list = {}
+control_tower_list = {[gludio_life1_ctrltower];[gludio_life2_ctrltower];[gludio_life3_ctrltower];[gludio_damage1_ctrltower];[gludio_damage2_ctrltower]}
+holything = {{[gludio_holything];{-18113;107972;-2480};16384;25.0;98.0}}
+residence_grade = 2
+tax_rate = 15
+tax_sysget_rate = 40
+tribute_rate = 25
+agit_auction_min = 0
+agit_deposit = 0
+agit_lease = 0
+agit_size = 0
+agit_parent_castleid = 5
+agit_auction = 0
+next_auction = 0/0/0/0
+owner_restart_territory = {{-17198;109185;-1840;-1540};{-16244;109185;-1840;-1540};{-16244;109538;-1840;-1540};{-17197;109539;-1840;-1540}}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+castle_end
+
+castle_begin
+[dion_castle]
+2
+siege
+residence_territory = {{{24020;162838;-4646;4000};{19780;162838;-4646;4000};{19776;156301;-4646;4000};{24021;156337;-4646;4000}}}
+battlefield_territory = {{{26575;165240;-4642;4000};{17250;165186;-4642;4000};{17273;152800;-4642;4000};{26598;152854;-4642;4000}}}
+headquarter_territory = {{{26012;155725;-4678;4000};{18181;155743;-4678;4000};{18157;153192;-4678;4000};{25992;153184;-4678;4000}};{{25990;164941;-4614;4000};{24230;164933;-4614;4000};{24226;156015;-4614;4000};{25991;156018;-4614;4000}};{{19514;164916;-4582;4000};{17877;164911;-4582;4000};{17874;155993;-4582;4000};{19514;155993;-4582;4000}}}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{20514;160368;-1993};{20829;160375;-1993};{20619;160489;-1993};{20578;160265;-1993}}
+other_restart_village_list = {{-81447;152760;-3170};{-81447;152880;-3170};{-81447;152640;-3170};{-82186;152760;-3170};{-82186;152880;-3170};{-82186;152640;-3170};{-81780;152760;-3170};{-81780;152880;-3170};{-81780;152640;-3170}}
+chao_restart_point_list = {{-81616;157104;-3150};{-80688;157216;-3150};{-79568;156960;-3150};{-78800;157744;-3150};{-80448;157968;-3130};{-81712;159536;-3230};{-79744;160592;-3330};{-79584;159408;-3180};{-74016;150656;-2800};{-72720;149632;-2780};{-75904;162000;-3300};{-75488;161472;-3250};{-74688;160736;-3200};{-74352;161488;-3250};{-76656;160768;-3280};{-77472;160960;-3470};{-77776;158752;-3270};{-80448;161488;-3420};{-75440;162672;-3350};{-81760;161248;-3200}}
+banish_point_list = {{19852;159170;-2770};{19650;159653;-2770};{19524;159041;-2770};{19252;159679;-2770}}
+mercenary_point_list  = {}
+residence_guard_mapping = {{6051;sword;notmove;12732;2;{ssq_normal;ssq_dawn}};{6052;pole;notmove;12733;2;{ssq_normal;ssq_dawn}};{6053;bow;notmove;12734;5;{ssq_normal;ssq_dawn}};{6054;cleric;notmove;12735;1;{ssq_normal;ssq_dawn}};{6055;wizard;notmove;12736;1;{ssq_normal;ssq_dawn}};{6056;sword;move;12737;2;{ssq_normal;ssq_dawn}};{6057;pole;move;12738;2;{ssq_normal;ssq_dawn}};{6058;bow;move;12739;5;{ssq_normal;ssq_dawn}};{6059;cleric;move;12740;1;{ssq_normal;ssq_dawn}};{6060;wizard;move;12741;1;{ssq_normal;ssq_dawn}};{6125;sword;notmove;12722;5;{ssq_dawn}};{6126;pole;notmove;12723;2;{ssq_dawn}};{6127;bow;notmove;12724;10;{ssq_dawn}};{6128;cleric;notmove;12725;2;{ssq_dawn}};{6129;wizard;notmove;12726;2;{ssq_dawn}};{6130;sword;move;12727;5;{ssq_dawn}};{6131;pole;move;12728;2;{ssq_dawn}};{6132;bow;move;12729;10;{ssq_dawn}};{6133;cleric;move;12730;2;{ssq_dawn}};{6134;wizard;move;12731;2;{ssq_dawn}};{6185;sword;notmove;12742;2;{ssq_twilight}};{6186;pole;notmove;12743;2;{ssq_twilight}};{6187;bow;notmove;12744;5;{ssq_twilight}};{6188;cleric;notmove;12745;1;{ssq_twilight}};{6189;wizard;notmove;12746;1;{ssq_twilight}};{6190;sword;move;12747;2;{ssq_twilight}};{6191;pole;move;12748;2;{ssq_twilight}};{6192;bow;move;12749;5;{ssq_twilight}};{6193;cleric;move;12750;1;{ssq_twilight}};{6194;wizard;move;12751;1;{ssq_twilight}};{6245;sword;notmove;12752;5;{ssq_twilight}};{6246;pole;notmove;12753;3;{ssq_twilight}};{6247;bow;notmove;12754;10;{ssq_twilight}};{6248;cleric;notmove;12755;2;{ssq_twilight}};{6249;wizard;notmove;12756;2;{ssq_twilight}};{6250;sword;move;12757;5;{ssq_twilight}};{6251;pole;move;12758;3;{ssq_twilight}};{6252;bow;move;12759;10;{ssq_twilight}};{6253;cleric;move;12760;2;{ssq_twilight}};{6254;wizard;move;12761;2;{ssq_twilight}};{6297;sword;move;12762;1;{ssq_dawn}};{6298;wizard;move;12763;1;{ssq_dawn}};{3973;sword;notmove;12301;5;{ssq_normal;ssq_dawn}};{3974;pole;notmove;12302;3;{ssq_normal;ssq_dawn}};{3975;bow;notmove;12303;10;{ssq_normal;ssq_dawn}};{3976;cleric;notmove;12304;2;{ssq_normal;ssq_dawn}};{3977;wizard;notmove;12305;2;{ssq_normal;ssq_dawn}};{3978;sword;move;12306;5;{ssq_normal;ssq_dawn}};{3979;pole;move;12307;3;{ssq_normal;ssq_dawn}};{3980;bow;move;12308;10;{ssq_normal;ssq_dawn}};{3981;cleric;move;12309;2;{ssq_normal;ssq_dawn}};{3982;wizard;move;12310;2;{ssq_normal;ssq_dawn}};{3983;teleporter;notmove;12155;1;{ssq_normal;ssq_dawn;ssq_twilight}};{3984;teleporter;notmove;12156;1;{ssq_normal;ssq_dawn;ssq_twilight}};{3985;teleporter;notmove;12157;1;{ssq_normal;ssq_dawn;ssq_twilight}}}
+owning_npc_list = {{[chamberlain_crosby];0};{[sir_gibbson];0};{[dion_mass_teleporter];0};{[dion_defend_teleporter1];0};{[dion_defend_teleporter2];0};{[dion_defend_teleporter3];0};{[dion_outter_doorman];0};{[dion_inner_doorman];0};{[summoner_belthus];0};{[researcher_lorain];0};{[box_of_titan];0};{[maestro_nikola];0};{[gatekeeper_mozzarella];0};{[gatekeeper_pontina];0};{[gatekeeper_penne];0};{[gatekeeper_capellini];0};{[gatekeeper_havarti];0};{[sophia];0};{[redfoot];0};{[morgan];0};{[pet_manager_waters];0};{[tree_q0225];0};{[kash];0};{[sir_kiel_nighthawk];0};{[bard_rukal];0};{[gandi_chief_chianta];0};{[mason];0};{[emilly];0};{[marya];0};{[head_blacksmith_opix];0};{[warehouse_chief_ranspo];0};{[high_prefect_cional];0};{[seer_somak];0};{[prefect_dowki];0};{[glyvka];0};{[shegfield];0};{[magister_mirien];0};{[rollant];0};{[sylvain];0};{[amidol];0};{[holvas];0};{[jonas];0};{[terry];0};{[pabris];0};{[master_wandius];0};{[arne];0};{[master_cardien];0};{[sonia];0};{[lars];0};{[sabrin];0};{[kc];0};{[master_ixia];0};{[magister_clayton];0};{[grandmaster_tronix];0};{[trishya];0};{[metty];0};{[lucas];0};{[guard_bright];0};{[guard_herven];0};{[xaber];0};{[listto];0};{[hitsran];0};{[jaycub];0};{[blacksmith_poitan];0};{[alankell];0};{[militiaman_leirynn];0};{[fisher_evert];0};{[sagittarius_hamil];0};{[astrologer_creta];0};{[enku_chief_kepra];0};{[summoner_camoniell];0};{[barder];0};{[pano];0};{[wyrm_suzet];0};{[partisan_doorman_harkel];0};{[warden_roderik];0};{[warden_endrigo];0};{[sanford];0};{[dion_wizard_s];0};{[dion_cleric_s];0};{[dion_bow_guard_s_e];0};{[dion_smith];0};{[manor_manager_2];0};{[muzyko];0};{[symbol_maker_mcdermott];0};{[hodler];0};{[dawn_priest_dion];0};{[dusk_priestess_dion];0};{[fisher_lanosco];0};{[fisher_hufs];0};{[scroll_seller_rouke];0};{[amulet_seller_urgal];0};{[blueprint_seller_shaling];0};{[mineral_trader_giordo];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/00
+siege_term = 7200
+residence_state = initial
+residence_gate_list = {{[dion_castle_outter_001];0};{[dion_castle_outter_002];0};{[dion_castle_inner_001];0};{[dion_castle_inner_002];0};{[dion_castle_wall_001];0};{[dion_castle_wall_002];0};{[dion_castle_station];0};{[dion_castle_small_001];0};{[dion_castle_small_002];0}}
+breakable_wall_list = {}
+control_tower_list = {[dion_life1_ctrltower];[dion_life2_ctrltower];[dion_life3_ctrltower];[dion_damage1_ctrltower];[dion_damage2_ctrltower]}
+holything = {{[dion_holything];{22073;161778;-2674};49152;25.0;98.0}}
+residence_grade = 2
+tax_rate = 15
+tax_sysget_rate = 40
+tribute_rate = 25
+agit_auction_min = 0
+agit_deposit = 0
+agit_lease = 0
+agit_size = 0
+agit_parent_castleid = 5
+agit_auction = 0
+next_auction = 0/0/0/0
+owner_restart_territory = {{21169;160636;-2034;31228};{20215;160636;-2034;31228};{20215;160283;-2034;31228};{21168;160282;-2034;31228}}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+castle_end
+
+castle_begin
+[giran_castle]
+3
+siege
+residence_territory = {{{119010;143149;-4519;19931};{119010;147389;-4519;19931};{112473;147393;-4519;19931};{112509;143148;-4519;19931}}}
+battlefield_territory = {{{121412;140594;-4515;19935};{121358;149919;-4515;19935};{108972;149896;-4515;19935};{109026;140571;-4515;19935}}}
+headquarter_territory = {{{111897;141157;-4551;19899};{111915;148988;-4551;19899};{109364;149012;-4551;19899};{109356;141177;-4551;19899}};{{121113;141179;-4487;19963};{121105;142939;-4487;19963};{112187;142943;-4487;19963};{112190;141178;-4487;19963}};{{121088;147655;-4455;19995};{121083;149292;-4455;19995};{112165;149295;-4455;19995};{112165;147655;-4455;19995}}}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{116540;146655;-1866};{116547;146340;-1866};{116661;146550;-1866};{116437;146591;-1866}}
+other_restart_village_list = {{116127;76015;-2729};{115683;77610;-2650};{117304;76318;-2670};{119862;76603;-2220};{117671;78998;-2210};{117189;78952;-2210};{115861;75200;-2550};{118275;74859;-2557};{118229;74677;-2450};{115685;75072;-2550};{116704;75695;-2680};{116737;76738;-2650};{115193;77594;-2670};{116158;77443;-2660}}
+chao_restart_point_list = {{122098;70373;-2864};{118674;71218;-2743};{118040;67175;-2905};{119300;70660;-2850};{118851;70566;-2800};{112655;70976;-3122};{119712;66376;-2960};{107511;82890;-2515};{105702;82773;-2803};{104257;82194;-2581};{104474;81109;-2651}}
+banish_point_list = {{115275;147273;-2770};{115758;147475;-2770};{115146;147601;-2770};{115784;147873;-2770}}
+mercenary_point_list  = {}
+residence_guard_mapping = {{6064;sword;notmove;12732;2;{ssq_normal;ssq_dawn}};{6065;pole;notmove;12733;2;{ssq_normal;ssq_dawn}};{6066;bow;notmove;12734;5;{ssq_normal;ssq_dawn}};{6067;cleric;notmove;12735;1;{ssq_normal;ssq_dawn}};{6068;wizard;notmove;12736;1;{ssq_normal;ssq_dawn}};{6069;sword;move;12737;2;{ssq_normal;ssq_dawn}};{6070;pole;move;12738;2;{ssq_normal;ssq_dawn}};{6071;bow;move;12739;5;{ssq_normal;ssq_dawn}};{6072;cleric;move;12740;1;{ssq_normal;ssq_dawn}};{6073;wizard;move;12741;1;{ssq_normal;ssq_dawn}};{6135;sword;notmove;12722;5;{ssq_dawn}};{6136;pole;notmove;12723;2;{ssq_dawn}};{6137;bow;notmove;12724;10;{ssq_dawn}};{6138;cleric;notmove;12725;2;{ssq_dawn}};{6139;wizard;notmove;12726;2;{ssq_dawn}};{6140;sword;move;12727;5;{ssq_dawn}};{6141;pole;move;12728;2;{ssq_dawn}};{6142;bow;move;12729;10;{ssq_dawn}};{6143;cleric;move;12730;2;{ssq_dawn}};{6144;wizard;move;12731;2;{ssq_dawn}};{6195;sword;notmove;12742;2;{ssq_twilight}};{6196;pole;notmove;12743;2;{ssq_twilight}};{6197;bow;notmove;12744;5;{ssq_twilight}};{6198;cleric;notmove;12745;1;{ssq_twilight}};{6199;wizard;notmove;12746;1;{ssq_twilight}};{6200;sword;move;12747;2;{ssq_twilight}};{6201;pole;move;12748;2;{ssq_twilight}};{6202;bow;move;12749;5;{ssq_twilight}};{6203;cleric;move;12750;1;{ssq_twilight}};{6204;wizard;move;12751;1;{ssq_twilight}};{6255;sword;notmove;12752;5;{ssq_twilight}};{6256;pole;notmove;12753;3;{ssq_twilight}};{6257;bow;notmove;12754;10;{ssq_twilight}};{6258;cleric;notmove;12755;2;{ssq_twilight}};{6259;wizard;notmove;12756;2;{ssq_twilight}};{6260;sword;move;12757;5;{ssq_twilight}};{6261;pole;move;12758;3;{ssq_twilight}};{6262;bow;move;12759;10;{ssq_twilight}};{6263;cleric;move;12760;2;{ssq_twilight}};{6264;wizard;move;12761;2;{ssq_twilight}};{6299;sword;move;12762;1;{ssq_dawn}};{6300;wizard;move;12763;1;{ssq_dawn}};{3986;sword;notmove;12301;5;{ssq_normal;ssq_dawn}};{3987;pole;notmove;12302;3;{ssq_normal;ssq_dawn}};{3988;bow;notmove;12303;10;{ssq_normal;ssq_dawn}};{3989;cleric;notmove;12304;2;{ssq_normal;ssq_dawn}};{3990;wizard;notmove;12305;2;{ssq_normal;ssq_dawn}};{3991;sword;move;12306;5;{ssq_normal;ssq_dawn}};{3992;pole;move;12307;3;{ssq_normal;ssq_dawn}};{3993;bow;move;12308;10;{ssq_normal;ssq_dawn}};{3994;cleric;move;12309;2;{ssq_normal;ssq_dawn}};{3995;wizard;move;12310;2;{ssq_normal;ssq_dawn}};{3996;teleporter;notmove;12162;1;{ssq_normal;ssq_dawn;ssq_twilight}};{3997;teleporter;notmove;12163;1;{ssq_normal;ssq_dawn;ssq_twilight}};{3998;teleporter;notmove;12164;1;{ssq_normal;ssq_dawn;ssq_twilight}}}
+owning_npc_list = {{[chamberlain_saul];0};{[sir_holmes];0};{[giran_mass_teleporter];0};{[giran_defend_teleporter1];0};{[giran_defend_teleporter2];0};{[giran_defend_teleporter3];0};{[giran_outter_doorman];0};{[giran_inner_doorman];0};{[wharf_manager_felton];0};{[gatekeeper_angelina];0};{[wyrm_shamhai];0};{[watcher_antaras_gilmore];0};{[orim_the_shadow];0};{[breka_chief_voltar];0};{[torai];0};{[helvetia];0};{[denkus];0};{[grabner];0};{[stany];0};{[phojett];0};{[radia];0};{[groot];0};{[gentler];0};{[warehouse_chief_gesto];0};{[valkon];0};{[parman];0};{[head_blacksmith_kusto];0};{[blacksmith_pushkin];0};{[blacksmith_rupio];0};{[jurek];0};{[iker];0};{[dieter];0};{[clinch];0};{[juria];0};{[roa];0};{[pet_manager_cooper];0};{[sir_kristof_rodemai];0};{[gabrielle];0};{[maximilian];0};{[dustin];0};{[pupina];0};{[primoz];0};{[priest_bandellos];0};{[isabellin];0};{[macken];0};{[hannavalt];0};{[genwiter];0};{[goldian];0};{[dufner];0};{[master_riberia];0};{[high_prefect_penatus];0};{[seer_manakia];0};{[prefect_vokiyan];0};{[martian];0};{[veteran_ascalon];0};{[brother_metheus];0};{[sandra];0};{[elliany];0};{[grandmaster_angus];0};{[master_stapiin];0};{[magister_kaira];0};{[galladuchi];0};{[alexandria];0};{[atanas];0};{[guard_reikin];0};{[rarshints];0};{[beltkem];0};{[vesa];0};{[zerome];0};{[guard_kurtys];0};{[sir_ortho_lancer];0};{[jeronin];0};{[blas];0};{[pochi];0};{[taurin];0};{[collob];0};{[landolf];0};{[clavier];0};{[hardin];0};{[lich_king_icarus];0};{[master_kaspar];0};{[magic_trader_cema];0};{[gatekeeper_minevea];0};{[witch_athrea];0};{[corpse_of_fritz];0};{[corpse_of_lutz];0};{[corpse_of_kurtz];0};{[summoner_brynthea];0};{[arvid];0};{[giran_wizard_s];0};{[giran_cleric_s];0};{[giran_bow_guard_s_e];0};{[giran_smith];0};{[manor_manager_3];0};{[gaiman];0};{[kitzka];0};{[symbol_maker_pepper];0};{[bryce];0};{[dawn_priest_giran];0};{[dusk_priestess_giran];0};{[fisher_ofulle];0};{[fisher_monakan];0};{[scroll_seller_lorel];0};{[scroll_seller_tomanel];0};{[amulet_seller_shafa];0};{[blueprint_seller_daeger];0};{[mineral_trader_kiki];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/00
+siege_term = 7200
+residence_state = initial
+residence_gate_list = {{[giran_castle_outter_001];0};{[giran_castle_outter_002];0};{[giran_castle_inner_001];0};{[giran_castle_inner_002];0};{[giran_castle_wall_001];0};{[giran_castle_wall_002];0};{[giran_castle_station];0};{[giran_castle_small_001];0};{[giran_castle_small_002];0}}
+breakable_wall_list = {}
+control_tower_list = {[giran_life1_ctrltower];[giran_life2_ctrltower];[giran_life3_ctrltower];[giran_damage1_ctrltower];[giran_damage2_ctrltower]}
+holything = {{[giran_holything];{117950;145096;-2547};32768;25.0;98.0}}
+residence_grade = 2
+tax_rate = 15
+tax_sysget_rate = 75
+tribute_rate = 50
+agit_auction_min = 0
+agit_deposit = 0
+agit_lease = 0
+agit_size = 0
+agit_parent_castleid = 5
+agit_auction = 0
+next_auction = 0/0/0/0
+owner_restart_territory = {{116741;145956;-1909;14844};{116741;146910;-1909;14844};{116388;146910;-1909;14844};{116387;145957;-1909;14844}}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+castle_end
+
+castle_begin
+[oren_castle]
+4
+siege
+residence_territory = {{{85086;35244;-4246;19931};{85086;39484;-4246;19931};{78549;39488;-4246;19931};{78585;35243;-4246;19931}}}
+battlefield_territory = {{{87488;32689;-4242;19935};{87434;42014;-4242;19935};{75048;41991;-4242;19935};{75102;32666;-4242;19935}}}
+headquarter_territory = {{{77973;33252;-4278;19899};{77991;41083;-4278;19899};{75440;41107;-4278;19899};{75432;33272;-4278;19899}};{{87189;33274;-4214;19963};{87181;35034;-4214;19963};{78263;35038;-4214;19963};{78266;33273;-4214;19963}};{{87164;39750;-4182;19995};{87159;41387;-4182;19995};{78241;41390;-4182;19995};{78241;39750;-4182;19995}}}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{82616;38750;-1593};{82623;38435;-1593};{82737;38645;-1593};{82513;38686;-1593}}
+other_restart_village_list = {{116127;76015;-2729};{115683;77610;-2650};{117304;76318;-2670};{119862;76603;-2220};{117671;78998;-2210};{117189;78952;-2210};{115861;75200;-2550};{118275;74859;-2557};{118229;74677;-2450};{115685;75072;-2550};{116704;75695;-2680};{116737;76738;-2650};{115193;77594;-2670};{116158;77443;-2660}}
+chao_restart_point_list = {{122098;70373;-2864};{118674;71218;-2743};{118040;67175;-2905};{119300;70660;-2850};{118851;70566;-2800};{112655;70976;-3122};{119712;66376;-2960};{107511;82890;-2515};{105702;82773;-2803};{104257;82194;-2581};{104474;81109;-2651}}
+banish_point_list = {{81353;39421;-2770};{81836;39623;-2770};{81224;39749;-2770};{81862;40021;-2770}}
+mercenary_point_list  = {}
+residence_guard_mapping = {{6077;sword;notmove;12732;2;{ssq_normal;ssq_dawn}};{6078;pole;notmove;12733;2;{ssq_normal;ssq_dawn}};{6079;bow;notmove;12734;5;{ssq_normal;ssq_dawn}};{6080;cleric;notmove;12735;1;{ssq_normal;ssq_dawn}};{6081;wizard;notmove;12736;1;{ssq_normal;ssq_dawn}};{6082;sword;move;12737;2;{ssq_normal;ssq_dawn}};{6083;pole;move;12738;2;{ssq_normal;ssq_dawn}};{6084;bow;move;12739;5;{ssq_normal;ssq_dawn}};{6085;cleric;move;12740;1;{ssq_normal;ssq_dawn}};{6086;wizard;move;12741;1;{ssq_normal;ssq_dawn}};{6145;sword;notmove;12722;5;{ssq_dawn}};{6146;pole;notmove;12723;2;{ssq_dawn}};{6147;bow;notmove;12724;10;{ssq_dawn}};{6148;cleric;notmove;12725;2;{ssq_dawn}};{6149;wizard;notmove;12726;2;{ssq_dawn}};{6150;sword;move;12727;5;{ssq_dawn}};{6151;pole;move;12728;2;{ssq_dawn}};{6152;bow;move;12729;10;{ssq_dawn}};{6153;cleric;move;12730;2;{ssq_dawn}};{6154;wizard;move;12731;2;{ssq_dawn}};{6205;sword;notmove;12742;2;{ssq_twilight}};{6206;pole;notmove;12743;2;{ssq_twilight}};{6207;bow;notmove;12744;5;{ssq_twilight}};{6208;cleric;notmove;12745;1;{ssq_twilight}};{6209;wizard;notmove;12746;1;{ssq_twilight}};{6210;sword;move;12747;2;{ssq_twilight}};{6211;pole;move;12748;2;{ssq_twilight}};{6212;bow;move;12749;5;{ssq_twilight}};{6213;cleric;move;12750;1;{ssq_twilight}};{6214;wizard;move;12751;1;{ssq_twilight}};{6265;sword;notmove;12752;5;{ssq_twilight}};{6266;pole;notmove;12753;3;{ssq_twilight}};{6267;bow;notmove;12754;10;{ssq_twilight}};{6268;cleric;notmove;12755;2;{ssq_twilight}};{6269;wizard;notmove;12756;2;{ssq_twilight}};{6270;sword;move;12757;5;{ssq_twilight}};{6271;pole;move;12758;3;{ssq_twilight}};{6272;bow;move;12759;10;{ssq_twilight}};{6273;cleric;move;12760;2;{ssq_twilight}};{6274;wizard;move;12761;2;{ssq_twilight}};{6301;sword;move;12762;1;{ssq_dawn}};{6302;wizard;move;12763;1;{ssq_dawn}};{3999;sword;notmove;12301;5;{ssq_normal;ssq_dawn}};{4000;pole;notmove;12302;3;{ssq_normal;ssq_dawn}};{4001;bow;notmove;12303;10;{ssq_normal;ssq_dawn}};{4002;cleric;notmove;12304;2;{ssq_normal;ssq_dawn}};{4003;wizard;notmove;12305;2;{ssq_normal;ssq_dawn}};{4004;sword;move;12306;5;{ssq_normal;ssq_dawn}};{4005;pole;move;12307;3;{ssq_normal;ssq_dawn}};{4006;bow;move;12308;10;{ssq_normal;ssq_dawn}};{4007;cleric;move;12309;2;{ssq_normal;ssq_dawn}};{4008;wizard;move;12310;2;{ssq_normal;ssq_dawn}};{4009;teleporter;notmove;12243;1;{ssq_normal;ssq_dawn;ssq_twilight}};{4010;teleporter;notmove;12244;1;{ssq_normal;ssq_dawn;ssq_twilight}};{4011;teleporter;notmove;12245;1;{ssq_normal;ssq_dawn;ssq_twilight}}}
+owning_npc_list = {{[chamberlain_brasseur];0};{[messenger_sherwood];0};{[oren_mass_teleporter];0};{[oren_defend_teleporter1];0};{[oren_defend_teleporter2];0};{[oren_defend_teleporter3];0};{[oren_outter_doorman];0};{[oren_inner_doorman];0};{[annsery];0};{[slein_shining_blade];0};{[mystery_darkelf];0};{[saint_kristina];0};{[mystery_darkelf];0};{[kein_flying_knife];0};{[varika];0};{[arkenia];0};{[tweety];0};{[uruha];0};{[mystery_darkelf];0};{[piper_longbow];0};{[katari];0};{[charkeren];0};{[prigun];0};{[sentry_irine];0};{[sentry_cathyday];0};{[sentinel_trionell];0};{[sentinel_eriel];0};{[pixy_murika];0};{[jundin];0};{[guide_delf_frankia];0};{[redry];0};{[tetrarch_kaitar];0};{[harne];0};{[master_harant];0};{[trudy];0};{[tetrarch_thifiell];0};{[tetrarch_vellior];0};{[vlasti];0};{[calculain];0};{[ervic];0};{[doran];0};{[paint];0};{[blacksmith_karoyd];0};{[iria];0};{[vollodos];0};{[mina];0};{[sentry_marion];0};{[sentry_kayleen];0};{[karta];0};{[cecon];0};{[prakia];0};{[poeny];0};{[undres];0};{[sentry_nelsya];0};{[sentry_jenine];0};{[astaron];0};{[jasmine];0};{[karinar];0};{[jewel];0};{[jughead];0};{[sentry_krpion];0};{[sentry_altimees];0};{[sentry_roseline];0};{[sentry_knight_railra];0};{[markus];0};{[chad];0};{[jud];0};{[blacksmith_aios];0};{[ozzy];0};{[cob];0};{[grain];0};{[elliasin];0};{[eso];0};{[summoner_celestiel];0};{[northwindel];0};{[ariel];0};{[bri_mec_tran];0};{[guide_elf_roios];0};{[rogellia];0};{[green];0};{[cel];0};{[uno];0};{[arujien];0};{[moneylender_alshupes];0};{[rizraell];0};{[andellria];0};{[mother_temp_b];0};{[nerupa];0};{[mother_temp_d];0};{[mother_temp_c];0};{[mother_temp_a];0};{[sentinel_wheelendel];0};{[sentinel_berryos];0};{[sentinel_stardyen];0};{[sentinel_rayjien];0};{[alberryus];0};{[sentinel_gartrandell];0};{[mint];0};{[sentinel_kendnell];0};{[sentinel_veltress];0};{[drake_zwov];0};{[thalya];0};{[drake_exarion];0};{[alchemist_matild];0};{[statue_of_offering];0};{[witch_kalis];0};{[marty];0};{[radic];0};{[karin];0};{[bandor];0};{[rapin];0};{[iz];0};{[rex];0};{[gatekeeper_verona];0};{[gatekeeper_cecile];0};{[az];0};{[yan];0};{[magister_marina];0};{[magister_gauen];0};{[biralri];0};{[magister_joan];0};{[gatekeeper_mariell];0};{[fairen];0};{[magister_kaiena];0};{[magister_ladd];0};{[gatekeeper_merian];0};{[guard_tebose];0};{[guard_yening];0};{[captain_roy];0};{[guard_tavillian];0};{[drake_kalibran];0};{[sir_gustaf_athebaldt];0};{[pet_manager_joey];0};{[cardinal_seresin];0};{[dudamara_chief_takuna];0};{[duelist_kaien];0};{[zenkin];0};{[raudia];0};{[sara];0};{[galicbredo];0};{[warehouse_chief_croop];0};{[cliff];0};{[hagger];0};{[head_blacksmith_flutter];0};{[blacksmith_helton];0};{[valentina];0};{[kai];0};{[taniac];0};{[bhan];0};{[master_roameria];0};{[rigol];0};{[hollin];0};{[vadin];0};{[rovia];0};{[priest_egnos];0};{[phanovia];0};{[brecson];0};{[darvi];0};{[guyder];0};{[prefect_daunt];0};{[high_prefect_karia];0};{[seer_pekiron];0};{[heiac];0};{[mouen];0};{[yaik];0};{[jerin];0};{[pinaps];0};{[stan];0};{[rowan];0};{[bowman];0};{[trent];0};{[harlow];0};{[calder];0};{[dino];0};{[venedict];0};{[biktor_van_dake];0};{[sanders];0};{[oskar_blackbird];0};{[sutton];0};{[morrison];0};{[oren_wizard_s];0};{[oren_cleric_s];0};{[oren_bow_guard_s_e];0};{[oren_smith];0};{[manor_manager_6];0};{[manor_manager_7];0};{[manor_manager_8];0};{[symbol_maker_heid];0};{[finrod];0};{[dawn_priest_oren];0};{[dusk_priestess_oren];0};{[fisher_perelin];0};{[fisher_mishini];0};{[fisher_willeri];0};{[scroll_seller_migel];0};{[amulet_seller_donai];0};{[blueprint_seller_luka];0};{[mineral_trader_cona];0};{[scroll_seller_lynn];0};{[scroll_seller_triya];0};{[viktor_van_deik];0};{[aden_border_patrol1];0};{[bard_casiel];0};{[treekeeper_jaradine];0};{[tetrarch_agent_alhena];0};{[tetrarch_exec_kreed];0};{[kinsley];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/00
+siege_term = 7200
+residence_state = initial
+residence_gate_list = {{[oren_castle_outter_001];0};{[oren_castle_outter_002];0};{[oren_castle_inner_001];0};{[oren_castle_inner_002];0};{[oren_castle_wall_001];0};{[oren_castle_wall_002];0};{[oren_castle_station];0};{[oren_castle_small_001];0};{[oren_castle_small_002];0}}
+breakable_wall_list = {}
+control_tower_list = {[oren_life1_ctrltower];[oren_life2_ctrltower];[oren_life3_ctrltower];[oren_damage1_ctrltower];[oren_damage2_ctrltower]}
+holything = {{[oren_holything];{84026;37191;-2274};32768;25.0;98.0}}
+residence_grade = 2
+tax_rate = 15
+tax_sysget_rate = 40
+tribute_rate = 25
+agit_auction_min = 0
+agit_deposit = 0
+agit_lease = 0
+agit_size = 0
+agit_parent_castleid = 5
+agit_auction = 0
+next_auction = 0/0/0/0
+owner_restart_territory = {{82819;38104;-1630;14844};{82819;39058;-1630;14844};{82466;39058;-1630;14844};{82465;38105;-1630;14844}}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+castle_end
+
+castle_begin
+[aden_castle]
+5
+siege
+residence_territory = {{{144599;577;-3328;6672};{150295;577;-3328;6672};{150295;8521;-3328;6672};{144599;8521;-3328;6672}}}
+battlefield_territory = {{{142431;362;-3184;6816};{152319;344;-3184;6816};{152282;15197;-3184;6816};{142393;15215;-3184;6816}}}
+headquarter_territory = {{{144365;9902;-1158;42};{150572;9919;-1158;42};{150816;4925;-1158;42};{151831;4916;-1158;42};{151833;7955;-1158;42};{150754;9839;-1158;42};{150281;10385;-1158;42};{151282;12184;-1158;42};{151280;13248;-1158;42};{143668;13224;-1158;42};{143698;12185;-1158;42};{144657;10353;-1158;42};{144156;9821;-1158;42};{143148;7939;-1158;42};{143155;4824;-1158;42};{144053;4830;-1158;42}}}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{147700;4608;-2784};{147705;4865;-2784};{147200;4865;-2784};{147200;4350;-2784};{147705;4350;-2784}}
+other_restart_village_list = {{116127;76015;-2729};{115683;77610;-2650};{117304;76318;-2670};{119862;76603;-2220};{117671;78998;-2210};{117189;78952;-2210};{115861;75200;-2550};{118275;74859;-2557};{118229;74677;-2450};{115685;75072;-2550};{116704;75695;-2680};{116737;76738;-2650};{115193;77594;-2670};{116158;77443;-2660}}
+chao_restart_point_list = {{122098;70373;-2864};{118674;71218;-2743};{118040;67175;-2905};{119300;70660;-2850};{118851;70566;-2800};{112655;70976;-3122};{119712;66376;-2960};{107511;82890;-2515};{105702;82773;-2803};{104257;82194;-2581};{104474;81109;-2651}}
+banish_point_list = {{151765;4175;-592};{151555;2660;-592};{151065;1813;-592};{150952;2615;-592}}
+mercenary_point_list  = {}
+residence_guard_mapping = {{6090;sword;notmove;12732;4;{ssq_normal;ssq_dawn}};{6091;pole;notmove;12733;4;{ssq_normal;ssq_dawn}};{6092;bow;notmove;12734;10;{ssq_normal;ssq_dawn}};{6093;cleric;notmove;12735;2;{ssq_normal;ssq_dawn}};{6094;wizard;notmove;12736;2;{ssq_normal;ssq_dawn}};{6095;sword;move;12737;4;{ssq_normal;ssq_dawn}};{6096;pole;move;12738;4;{ssq_normal;ssq_dawn}};{6097;bow;move;12739;10;{ssq_normal;ssq_dawn}};{6098;cleric;move;12740;2;{ssq_normal;ssq_dawn}};{6099;wizard;move;12741;2;{ssq_normal;ssq_dawn}};{6155;sword;notmove;12722;10;{ssq_dawn}};{6156;pole;notmove;12723;4;{ssq_dawn}};{6157;bow;notmove;12724;20;{ssq_dawn}};{6158;cleric;notmove;12725;4;{ssq_dawn}};{6159;wizard;notmove;12726;4;{ssq_dawn}};{6160;sword;move;12727;10;{ssq_dawn}};{6161;pole;move;12728;4;{ssq_dawn}};{6162;bow;move;12729;20;{ssq_dawn}};{6163;cleric;move;12730;4;{ssq_dawn}};{6164;wizard;move;12731;4;{ssq_dawn}};{6215;sword;notmove;12742;4;{ssq_twilight}};{6216;pole;notmove;12743;4;{ssq_twilight}};{6217;bow;notmove;12744;10;{ssq_twilight}};{6218;cleric;notmove;12745;2;{ssq_twilight}};{6219;wizard;notmove;12746;2;{ssq_twilight}};{6220;sword;move;12747;4;{ssq_twilight}};{6221;pole;move;12748;4;{ssq_twilight}};{6222;bow;move;12749;10;{ssq_twilight}};{6223;cleric;move;12750;2;{ssq_twilight}};{6224;wizard;move;12751;2;{ssq_twilight}};{6275;sword;notmove;12752;10;{ssq_twilight}};{6276;pole;notmove;12753;6;{ssq_twilight}};{6277;bow;notmove;12754;20;{ssq_twilight}};{6278;cleric;notmove;12755;4;{ssq_twilight}};{6279;wizard;notmove;12756;4;{ssq_twilight}};{6280;sword;move;12757;10;{ssq_twilight}};{6281;pole;move;12758;6;{ssq_twilight}};{6282;bow;move;12759;20;{ssq_twilight}};{6283;cleric;move;12760;4;{ssq_twilight}};{6284;wizard;move;12761;4;{ssq_twilight}};{6303;sword;move;12762;2;{ssq_dawn}};{6304;wizard;move;12763;2;{ssq_dawn}};{4012;sword;notmove;12301;10;{ssq_normal;ssq_dawn}};{4013;pole;notmove;12302;6;{ssq_normal;ssq_dawn}};{4014;bow;notmove;12303;20;{ssq_normal;ssq_dawn}};{4015;cleric;notmove;12304;4;{ssq_normal;ssq_dawn}};{4016;wizard;notmove;12305;4;{ssq_normal;ssq_dawn}};{4017;sword;move;12306;10;{ssq_normal;ssq_dawn}};{4018;pole;move;12307;6;{ssq_normal;ssq_dawn}};{4019;bow;move;12308;20;{ssq_normal;ssq_dawn}};{4020;cleric;move;12309;4;{ssq_normal;ssq_dawn}};{4021;wizard;move;12310;4;{ssq_normal;ssq_dawn}};{4022;teleporter;notmove;12292;1;{ssq_normal;ssq_dawn;ssq_twilight}};{4023;teleporter;notmove;12293;1;{ssq_normal;ssq_dawn;ssq_twilight}};{4024;teleporter;notmove;12294;1;{ssq_normal;ssq_dawn;ssq_twilight}};{4025;teleporter;notmove;12295;1;{ssq_normal;ssq_dawn;ssq_twilight}};{4026;teleporter;notmove;12296;1;{ssq_normal;ssq_dawn;ssq_twilight}}}
+owning_npc_list = {{[king_amadeo_cadmus];0};{[chamberlain_logan];0};{[chamberlain_radcliff];0};{[sir_shamus];0};{[sir_morpheus];0};{[sir_ruford];0};{[event_human];0};{[event_elf];0};{[event_darkelf];0};{[event_dwarf];0};{[event_orc];0};{[aden_knight];0};{[aden_wizard];0};{[aden_cleric];0};{[aden_court_guard];0};{[aden_spear_guard_e];0};{[aden_sword_guard_e];0};{[aden_bow_guard_e];0};{[aden_spear_guard_de];0};{[aden_sword_guard_de];0};{[aden_bow_guard_de];0};{[aden_spear_guard_hu];0};{[aden_sword_guard_hu];0};{[aden_bow_guard_hu];0};{[aden_knight_s];0};{[aden_wizard_s];0};{[aden_cleric_s];0};{[aden_court_guard_s];0};{[aden_spear_guard_s_e];0};{[aden_sword_guard_s_e];0};{[aden_bow_guard_s_e];0};{[aden_spear_guard_s_de];0};{[aden_sword_guard_s_de];0};{[aden_bow_guard_s_de];0};{[aden_spear_guard_s_hu];0};{[aden_sword_guard_s_hu];0};{[aden_bow_guard_s_hu];0};{[aden_holything];0};{[aden_defend_teleporter1];0};{[aden_defend_teleporter2];0};{[aden_defend_teleporter3];0};{[aden_defend_teleporter4];0};{[aden_defend_teleporter5];0};{[aden_mass_teleporter];0};{[aden_outter_doorman];0};{[aden_inner_doorman];0};{[aden_inner_doorman2];0};{[aden_hall_doorman];0};{[balthazar];0};{[pet_manager_nelson];0};{[tor];0};{[grey];0};{[cybellin];0};{[isael_silvershadow];0};{[sage_cronos];0};{[trader_edroc];0};{[trader_viktor];0};{[trader_garette];0};{[trader_hallypia];0};{[warehouse_chief_baxt];0};{[warehouse_keeper_sorint];0};{[warehouse_keeper_silva];0};{[head_blacksmith_vergara];0};{[blacksmith_duning];0};{[gatekeeper_esmeralda];0};{[grandmaster_siria];0};{[master_luther];0};{[master_aren_atebalt];0};{[master_stedmiel];0};{[master_queenien];0};{[grandmagister_scraide];0};{[magister_moses];0};{[magister_page];0};{[magister_videlrien];0};{[magister_evelyn];0};{[grandmaster_medown];0};{[master_prestan];0};{[magister_errickin];0};{[union_president_bernard];0};{[union_member_colin];0};{[high_prefect_garvarentz];0};{[prefect_chakiris];0};{[seer_lazenby];0};{[captain_raigen];0};{[guard_nasign];0};{[guard_norton];0};{[guard_wesley];0};{[guard_byron];0};{[guard_makhis];0};{[guard_gardner];0};{[guard_paros];0};{[witch_cleo];0};{[trader_woodrow];0};{[trader_woodley];0};{[trader_alexis];0};{[trader_carson];0};{[trader_holly];0};{[trader_lorenzo];0};{[warehouse_chief_klump];0};{[warehouse_keeper_romp];0};{[whouse_keeper_walderal];0};{[head_blacksmith_ferris];0};{[blacksmith_wilbert];0};{[gatekeeper_elisabeth];0};{[grandmaster_sedrick];0};{[master_aiken];0};{[master_sidnen];0};{[master_kendra];0};{[trainer_raien];0};{[grandmagister_drikiyan];0};{[magister_desmond];0};{[magister_winonin];0};{[highpriest_orven];0};{[priest_ross];0};{[priestess_flownia];0};{[priest_linette];0};{[priestess_vivian];0};{[master_ghest];0};{[grandmaster_oltlin];0};{[magister_hanellin];0};{[high_prefect_ladanza];0};{[prefect_marestella];0};{[seer_reva];0};{[sir_eric_rodemai];0};{[pet_manager_lemper];0};{[guard_conroy];0};{[guard_coleman];0};{[captain_kurtis];0};{[guard_bret];0};{[guard_aldis];0};{[guard_carlton];0};{[guard_grayson];0};{[guard_eastan];0};{[watcher_antaras_theodric];0};{[heart_of_warding];0};{[eldon];0};{[aden_wizard_s];0};{[aden_cleric_s];0};{[aden_bow_guard_s_e];0};{[aden_smith];0};{[manor_manager_5];0};{[symbol_maker_kidder];0};{[symbol_maker_keach];0};{[kruger];0};{[dawn_priest_aden];0};{[dusk_priestess_aden];0};{[dawn_priest_hunter];0};{[dusk_priestess_hunter];0};{[aden_station_doorman];0};{[fisher_berix];0};{[fisher_linneaus];0};{[scroll_seller_lumen];0};{[scroll_seller_burns];0};{[amulet_seller_raik];0};{[blueprint_seller_tangen];0};{[mineral_trader_onyx];0};{[scroll_seller_romas];0};{[amulet_seller_karai];0};{[blueprint_seller_lara];0};{[mineral_trader_shutner];0};{[gregor_athebaldt];0};{[aden_border_patrol2];0};{[leikar];0};{[talien];0};{[noctisse];0};{[radyss];0};{[black_kat];0};{[grimst];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/00
+siege_term = 7200
+residence_state = initial
+residence_gate_list = {{[aden_castle_outter_001];0};{[aden_castle_outter_002];0};{[aden_castle_left_001];0};{[aden_castle_left_002];0};{[aden_castle_right_001];0};{[aden_castle_right_002];0};{[aden_castle_inner_001];0};{[aden_castle_inner_002];0};{[aden_castle_terrace];0};{[aden_castle_left_003];0};{[aden_castle_left_004];0};{[aden_castle_right_003];0};{[aden_castle_right_004];0};{[aden_castle_wall_in];0};{[aden_castle_wall_left];0};{[aden_castle_wall_right];0};{[aden_castle_side_door1];0};{[aden_castle_side_door2];0};{[aden_castle_side_door3];0};{[aden_castle_side_door4];0}}
+breakable_wall_list = {}
+control_tower_list = {[aden_damage1_ctrltower];[aden_damage2_ctrltower];[aden_life1_ctrltower];[aden_life2_ctrltower];[aden_life3_ctrltower]}
+holything = {{[aden_holything];{147463;1529;-373};16384;25.0;98.0}}
+residence_grade = 1
+tax_rate = 15
+tax_sysget_rate = 40
+tribute_rate = 0
+agit_auction_min = 0
+agit_deposit = 0
+agit_lease = 0
+agit_size = 0
+agit_parent_castleid = 0
+agit_auction = 0
+next_auction = 0/0/0/0
+owner_restart_territory = {{146934;4082;-2844;-2544};{147982;4082;-2844;-2544};{147982;5134;-2844;-2544};{146934;5134;-2844;-2544}}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+castle_end
+
+castle_begin
+[innadrile_castle]
+6
+siege
+residence_territory = {{{117971;251617;-2742;4000};{113731;251617;-2742;4000};{113727;245080;-2742;4000};{117972;245116;-2742;4000}}}
+battlefield_territory = {{{120526;254019;-2738;4000};{111201;253965;-2738;4000};{111224;241579;-2738;4000};{120549;241633;-2738;4000}}}
+headquarter_territory = {{{119963;244504;-2774;4000};{112132;244522;-2774;4000};{112108;241971;-2774;4000};{119943;241963;-2774;4000}};{{119941;253720;-2710;4000};{118181;253712;-2710;4000};{118177;244794;-2710;4000};{119942;244797;-2710;4000}};{{113465;253695;-2678;4000};{111828;253690;-2678;4000};{111825;244772;-2678;4000};{113465;244772;-2678;4000}}}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{114465;249147;-89};{114780;249154;-89};{114570;249268;-89};{114529;249044;-89}}
+other_restart_village_list = {{116127;76015;-2729};{115683;77610;-2650};{117304;76318;-2670};{119862;76603;-2220};{117671;78998;-2210};{117189;78952;-2210};{115861;75200;-2550};{118275;74859;-2557};{118229;74677;-2450};{115685;75072;-2550};{116704;75695;-2680};{116737;76738;-2650};{115193;77594;-2670};{116158;77443;-2660}}
+chao_restart_point_list = {{122098;70373;-2864};{118674;71218;-2743};{118040;67175;-2905};{119300;70660;-2850};{118851;70566;-2800};{112655;70976;-3122};{119712;66376;-2960};{107511;82890;-2515};{105702;82773;-2803};{104257;82194;-2581};{104474;81109;-2651}}
+banish_point_list = {{118730;243416;-1060};{118932;242933;-1060};{119058;243545;-1060};{119330;242907;-1060}}
+mercenary_point_list  = {}
+residence_guard_mapping = {{6105;sword;notmove;12732;2;{ssq_normal;ssq_dawn}};{6106;pole;notmove;12733;2;{ssq_normal;ssq_dawn}};{6107;bow;notmove;12734;5;{ssq_normal;ssq_dawn}};{6108;cleric;notmove;12735;1;{ssq_normal;ssq_dawn}};{6109;wizard;notmove;12736;1;{ssq_normal;ssq_dawn}};{6110;sword;move;12737;2;{ssq_normal;ssq_dawn}};{6111;pole;move;12738;2;{ssq_normal;ssq_dawn}};{6112;bow;move;12739;5;{ssq_normal;ssq_dawn}};{6113;cleric;move;12740;1;{ssq_normal;ssq_dawn}};{6114;wizard;move;12741;1;{ssq_normal;ssq_dawn}};{6165;sword;notmove;12722;5;{ssq_dawn}};{6166;pole;notmove;12723;2;{ssq_dawn}};{6167;bow;notmove;12724;10;{ssq_dawn}};{6168;cleric;notmove;12725;2;{ssq_dawn}};{6169;wizard;notmove;12726;2;{ssq_dawn}};{6170;sword;move;12727;5;{ssq_dawn}};{6171;pole;move;12728;2;{ssq_dawn}};{6172;bow;move;12729;10;{ssq_dawn}};{6173;cleric;move;12730;2;{ssq_dawn}};{6174;wizard;move;12731;2;{ssq_dawn}};{6225;sword;notmove;12742;2;{ssq_twilight}};{6226;pole;notmove;12743;2;{ssq_twilight}};{6227;bow;notmove;12744;5;{ssq_twilight}};{6228;cleric;notmove;12745;1;{ssq_twilight}};{6229;wizard;notmove;12746;1;{ssq_twilight}};{6230;sword;move;12747;2;{ssq_twilight}};{6231;pole;move;12748;2;{ssq_twilight}};{6232;bow;move;12749;5;{ssq_twilight}};{6233;cleric;move;12750;1;{ssq_twilight}};{6234;wizard;move;12751;1;{ssq_twilight}};{6285;sword;notmove;12752;5;{ssq_twilight}};{6286;pole;notmove;12753;3;{ssq_twilight}};{6287;bow;notmove;12754;10;{ssq_twilight}};{6288;cleric;notmove;12755;2;{ssq_twilight}};{6289;wizard;notmove;12756;2;{ssq_twilight}};{6290;sword;move;12757;5;{ssq_twilight}};{6291;pole;move;12758;3;{ssq_twilight}};{6292;bow;move;12759;10;{ssq_twilight}};{6293;cleric;move;12760;2;{ssq_twilight}};{6294;wizard;move;12761;2;{ssq_twilight}};{6305;sword;move;12762;1;{ssq_dawn}};{6306;wizard;move;12763;1;{ssq_dawn}};{5205;sword;notmove;12301;5;{ssq_normal;ssq_dawn}};{5206;pole;notmove;12302;3;{ssq_normal;ssq_dawn}};{5207;bow;notmove;12303;10;{ssq_normal;ssq_dawn}};{5208;cleric;notmove;12304;2;{ssq_normal;ssq_dawn}};{5209;wizard;notmove;12305;2;{ssq_normal;ssq_dawn}};{5210;sword;move;12306;5;{ssq_normal;ssq_dawn}};{5211;pole;move;12307;3;{ssq_normal;ssq_dawn}};{5212;bow;move;12308;10;{ssq_normal;ssq_dawn}};{5213;cleric;move;12309;2;{ssq_normal;ssq_dawn}};{5214;wizard;move;12310;2;{ssq_normal;ssq_dawn}};{5215;teleporter;notmove;12603;1;{ssq_normal;ssq_dawn;ssq_twilight}};{5218;teleporter;notmove;12604;1;{ssq_normal;ssq_dawn;ssq_twilight}};{5219;teleporter;notmove;12605;1;{ssq_normal;ssq_dawn;ssq_twilight}}}
+owning_npc_list = {{[chamberlain_neurath];0};{[sir_raybell];0};{[innadrile_m_teleporter];0};{[innadrile_df_teleporter1];0};{[innadrile_df_teleporter2];0};{[innadrile_df_teleporter3];0};{[innadrile_outter_doorman];0};{[innadrile_inner_doorman];0};{[innadrile_wizard_s];0};{[innadrile_cleric_s];0};{[innadrile_bow_guard_s_e];0};{[innadrile_smith];0};{[solinus];0};{[guard_kent];0};{[guard_rodic];0};{[captain_gosta];0};{[guard_duphis];0};{[manor_manager_4];0};{[guard_timos];0};{[guard_kraisen];0};{[manor_manager_4];0};{[guard_cage];0};{[guard_dunst];0};{[trader_espen];0};{[trader_verona];0};{[symbol_maker_thora];0};{[trader_enverun];0};{[trader_payel];0};{[muzyk];0};{[ticket_seller_human];0};{[warehouse_keeper_kluck];0};{[warehouse_chief_natools];0};{[warehouse_keeper_mia];0};{[iason_haine];0};{[head_blacksmith_roman];0};{[blacksmith_morning];0};{[gatekeeper_flauen];0};{[grandmaster_marcus];0};{[master_arti];0};{[master_karuna];0};{[master_traus];0};{[master_naiel];0};{[highpriest_squillari];0};{[priest_ranton];0};{[priest_tanios];0};{[magister_minevia];0};{[magister_anabel];0};{[grandmaster_xairakin];0};{[master_brikus];0};{[magister_xenovia];0};{[medium_jar];0};{[high_prefect_tushku];0};{[prefect_sorbo];0};{[seer_takina];0};{[wharf_manager_nedy];0};{[highpriestess_morelyn];0};{[priestess_restina];0};{[priestess_alicia];0};{[dorothy_the_locksmith];0};{[mad_doctor_orpheus];0};{[pet_manager_rood];0};{[symbol_maker_thora];0};{[tate];0};{[dawn_priest_heiness];0};{[dusk_priestess_heiness];0};{[fisher_litulon];0};{[scroll_seller_ratriya];0};{[amulet_seller_shitara];0};{[blueprint_seller_dani];0};{[mineral_trader_raban];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/00
+siege_term = 7200
+residence_state = initial
+residence_gate_list = {{[innadrile_castle_outter_001];0};{[innadrile_castle_outter_002];0};{[innadrile_castle_inner_001];0};{[innadrile_castle_inner_002];0};{[innadrile_castle_wall_001];0};{[innadrile_castle_wall_002];0};{[innadrile_castle_station];0};{[innadrile_castle_small_001];0};{[innadrile_castle_small_002];0}}
+breakable_wall_list = {}
+control_tower_list = {[innadrile_life1_ctrltower];[innadrile_life2_ctrltower];[innadrile_life3_ctrltower];[innadrile_damage1_ctrltower];[innadrile_damage2_ctrltower]}
+holything = {{[innadrile_holything];{116024;250557;-770};-16384;25.0;98.0}}
+residence_grade = 2
+tax_rate = 15
+tax_sysget_rate = 0
+tribute_rate = 25
+agit_auction_min = 0
+agit_deposit = 0
+agit_lease = 0
+agit_size = 0
+agit_parent_castleid = 5
+agit_auction = 0
+next_auction = 0/0/0/0
+owner_restart_territory = {{115109;249344;-130;31228};{114155;249344;-130;31228};{114155;248991;-130;31228};{115108;248990;-130;31228}}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+castle_end
+
+castle_begin
+[godad_castle]
+7
+siege
+residence_territory = {{{144023;-51298;-3670;1830};{150893;-51298;-3670;1830};{150743;-48031;-3670;1830};{150075;-46567;-3670;1830};{149381;-45932;-3670;1830};{149767;-45321;-3670;1830};{149628;-45254;-3670;1830};{149204;-45845;-3670;1830};{147805;-45106;-3670;1830};{147108;-45106;-3670;1830};{145714;-45845;-3670;1830};{145288;-45254;-3670;1830};{145143;-45321;-3670;1830};{145557;-45932;-3670;1830};{144721;-46567;-3670;1830};{144212;-48031;-3670;1830}}}
+battlefield_territory = {{{141457;-51510;-3397;2103};{151949;-51510;-3397;2103};{151949;-39107;-3397;2103};{145899;-39107;-3397;2103};{141457;-44407;-3397;2103}}}
+headquarter_territory = {{{144715;-43884;-2625;1875};{150045;-43884;-2625;1875};{150037;-43064;-2625;1875};{148924;-42723;-2625;1875};{148512;-41841;-2625;1875};{148496;-40907;-2625;1875};{147063;-40920;-2625;1875};{145883;-42805;-2625;1875};{144692;-42822;-2625;1875}}}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{147408;-46448;-963};{147520;-46432;-963};{147408;-46896;-963};{147536;-46896;-963}}
+other_restart_village_list = {{38096;-46976;899};{38608;-47168;899};{38752;-47792;899};{38848;-48640;899};{38272;-49008;899};{38112;-49792;899};{43408;-51120;-800};{43536;-50416;-800};{44368;-50592;-800};{44000;-49952;-800};{45072;-49936;-800};{45824;-49056;-800};{45632;-47968;-800};{44864;-47824;-800};{43744;-47920;-800};{43792;-48928;-800}}
+chao_restart_point_list = {{42640;-54496;-2310};{38304;-55440;-1136};{40192;-57600;-2343};{38400;-56832;-992};{35632;-54800;-1744};{36407;-54245;-1224};{43936;-56480;-3627};{39440;-60080;-2870};{41376;-55376;-1488};{41920;-57760;-2392};{41409;-58699;-2848};{40784;-59888;-2600}}
+banish_point_list = {{154848;-52608;-2962};{156400;-53808;-2873};{138439;-45153;-2064};{140871;-55380;-3224}}
+mercenary_point_list  = {}
+residence_guard_mapping = {{6792;sword;notmove;12732;2;{ssq_normal;ssq_dawn}};{6793;pole;notmove;12733;2;{ssq_normal;ssq_dawn}};{6794;bow;notmove;12734;5;{ssq_normal;ssq_dawn}};{6795;cleric;notmove;12735;1;{ssq_normal;ssq_dawn}};{6796;wizard;notmove;12736;1;{ssq_normal;ssq_dawn}};{6797;sword;move;12737;2;{ssq_normal;ssq_dawn}};{6798;pole;move;12738;2;{ssq_normal;ssq_dawn}};{6799;bow;move;12739;5;{ssq_normal;ssq_dawn}};{6800;cleric;move;12740;1;{ssq_normal;ssq_dawn}};{6801;wizard;move;12741;1;{ssq_normal;ssq_dawn}};{6802;sword;notmove;12722;5;{ssq_dawn}};{6803;pole;notmove;12723;2;{ssq_dawn}};{6804;bow;notmove;12724;10;{ssq_dawn}};{6805;cleric;notmove;12725;2;{ssq_dawn}};{6806;wizard;notmove;12726;2;{ssq_dawn}};{6807;sword;move;12727;5;{ssq_dawn}};{6808;pole;move;12728;2;{ssq_dawn}};{6809;bow;move;12729;10;{ssq_dawn}};{6810;cleric;move;12730;2;{ssq_dawn}};{6811;wizard;move;12731;2;{ssq_dawn}};{6812;sword;notmove;12742;2;{ssq_twilight}};{6813;pole;notmove;12743;2;{ssq_twilight}};{6814;bow;notmove;12744;5;{ssq_twilight}};{6815;cleric;notmove;12745;1;{ssq_twilight}};{6816;wizard;notmove;12746;1;{ssq_twilight}};{6817;sword;move;12747;2;{ssq_twilight}};{6818;pole;move;12748;2;{ssq_twilight}};{6819;bow;move;12749;5;{ssq_twilight}};{6820;cleric;move;12750;1;{ssq_twilight}};{6821;wizard;move;12751;1;{ssq_twilight}};{6822;sword;notmove;12752;5;{ssq_twilight}};{6823;pole;notmove;12753;3;{ssq_twilight}};{6824;bow;notmove;12754;10;{ssq_twilight}};{6825;cleric;notmove;12755;2;{ssq_twilight}};{6826;wizard;notmove;12756;2;{ssq_twilight}};{6827;sword;move;12757;5;{ssq_twilight}};{6828;pole;move;12758;3;{ssq_twilight}};{6829;bow;move;12759;10;{ssq_twilight}};{6830;cleric;move;12760;2;{ssq_twilight}};{6831;wizard;move;12761;2;{ssq_twilight}};{6832;sword;move;12762;1;{ssq_dawn}};{6833;wizard;move;12763;1;{ssq_dawn}};{6779;sword;notmove;12301;5;{ssq_normal;ssq_dawn}};{6780;pole;notmove;12302;3;{ssq_normal;ssq_dawn}};{6781;bow;notmove;12303;10;{ssq_normal;ssq_dawn}};{6782;cleric;notmove;12304;2;{ssq_normal;ssq_dawn}};{6783;wizard;notmove;12305;2;{ssq_normal;ssq_dawn}};{6784;sword;move;12306;5;{ssq_normal;ssq_dawn}};{6785;pole;move;12307;3;{ssq_normal;ssq_dawn}};{6786;bow;move;12308;10;{ssq_normal;ssq_dawn}};{6787;cleric;move;12309;2;{ssq_normal;ssq_dawn}};{6788;wizard;move;12310;2;{ssq_normal;ssq_dawn}};{6789;teleporter;notmove;12821;1;{ssq_normal;ssq_dawn;ssq_twilight}};{6790;teleporter;notmove;12822;1;{ssq_normal;ssq_dawn;ssq_twilight}};{6791;teleporter;notmove;12823;1;{ssq_normal;ssq_dawn;ssq_twilight}}}
+owning_npc_list = {{[chamberlain_alfred];0};{[merc_manager_lowell];0};{[wyvern_keeper_hadley];0};{[sir_davin];0};{[godad_smith];0};{[godad_keeper];0};{[manor_manager_9];0};{[trader_leon];0};{[trader_veronika];0};{[trader_helmut];0};{[trader_janne];0};{[trader_judith];0};{[trader_rene];0};{[trader_rupert];0};{[trader_liesel];0};{[symbol_maker_olson];0};{[pet_manager_annette];0};{[warehouse_keeper_lietta];0};{[warehouse_keeper_hakon];0};{[warehouse_chief_mona];0};{[freighter_stefano];0};{[blacksmith_hilda];0};{[head_blacksmith_noel];0};{[blueprint_seller_borodin];0};{[mineral_trader_fundin];0};{[gatekeeper_tatiana];0};{[grandmaster_bernhard];0};{[master_felix];0};{[master_bronwyn];0};{[highpriest_gregor];0};{[priest_bastian];0};{[priest_cerenas];0};{[magister_justin];0};{[magister_arminas];0};{[scroll_seller_elena];0};{[grandmaster_samael];0};{[master_drakon];0};{[magister_kamilen];0};{[high_prefect_aklan];0};{[prefect_rakan];0};{[seer_skahi];0};{[amulet_seller_terava];0};{[captain_andrei];0};{[guard_gunter];0};{[guard_sven];0};{[guard_henrik];0};{[guard_cadmon];0};{[guard_bayard];0};{[guard_ulrich];0};{[guard_eugen];0};{[fisher_klaw];0};{[godad_df_teleporter1];0};{[godad_df_teleporter2];0};{[godad_df_teleporter3];0};{[godad_m_teleporter];0};{[godad_outter_doorman];0};{[godad_side_doorman1];0};{[godad_side_doorman2];0};{[godad_station_doorman1];0};{[godad_station_doorman2];0};{[godad_bow_guard_s_hu];0};{[godad_wizard_s];0};{[felming_van_issen];0};{[elmore_border_guard2];0};{[dawn_priest_godard];0};{[dusk_priestessess_godard];0};{[agnes_follower_1];0};{[agnes_follower_2];0};{[agnes_follower_3];0};{[agnes_follower_a];0};{[agnes_follower_b];0};{[caradine];0};{[ossian];0};{[preacher_of_doom_17];0};{[preacher_of_doom_18];0};{[preacher_of_doom_19];0};{[preacher_of_doom_20];0};{[orator_of_revelations_17];0};{[orator_of_revelations_18];0};{[orator_of_revelations_19];0};{[orator_of_revelations_20];0};{[dawn_priest_godard];0};{[dusk_priestessess_godard];0};{[bellinda];0};{[pamela_aprodia_npc];0};{[master_tobald_npc];0};{[gemcutter_gedrik];0};{[saint_agnes];0};{[dudamara_ghost];0};{[blacksmith_feynn];0};{[brewer_valentine];0};{[fisher_eindarkner];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/00
+siege_term = 7200
+residence_state = initial
+residence_gate_list = {{[godad_castle_outter_001];0};{[godad_castle_outter_002];0};{[godad_castle_ctr_001];0};{[godad_castle_ctr_002];0};{[godad_castle_station_001];0};{[godad_castle_station_002];0};{[godad_castle_side_door_001];0};{[godad_castle_side_door_002];0};{[godad_castle_side_door_003];0};{[godad_castle_side_door_004];0};{[godad_castle_inner_001];1};{[godad_castle_inner_002];1};{[godad_castle_inner_003];1};{[godad_castle_wall_001];0};{[godad_castle_wall_002];0}}
+breakable_wall_list = {}
+control_tower_list = {[godad_life1_ctrltower];[godad_life2_ctrltower];[godad_life3_ctrltower];[godad_damage1_ctrltower];[godad_damage2_ctrltower]}
+holything = {{[godad_holything_r];{146601;-50441;-1505};32768;24.0;65.0};{[godad_holything_l];{148353;-50457;-1505};0;24.0;65.0}}
+residence_grade = 2
+tax_rate = 15
+tax_sysget_rate = 40
+tribute_rate = 25
+agit_auction_min = 0
+agit_deposit = 0
+agit_lease = 0
+agit_size = 0
+agit_parent_castleid = 8
+agit_auction = 0
+next_auction = 0/0/0/0
+owner_restart_territory = {{147296;-47092;-1002;-802};{147651;-47092;-1002;-802};{147651;-46272;-1002;-802};{147296;-46272;-1002;-802}}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+castle_end
+
+castle_begin
+[rune_castle]
+8
+siege
+residence_territory = {}
+battlefield_territory = {}
+headquarter_territory = {}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {}
+other_restart_village_list = {}
+chao_restart_point_list = {}
+banish_point_list = {}
+mercenary_point_list  = {}
+residence_guard_mapping = {}
+owning_npc_list = {{[eustace_van_issen];0};{[elmore_border_guard1];0};{[trader_drumond];0};{[trader_nils];0};{[trader_vladimir];0};{[trader_alisha];0};{[trader_astrid];0};{[trader_candice];0};{[trader_natasha];0};{[trader_weber];0};{[symbol_maker_achim];0};{[pet_manager_woods];0};{[warehouse_keeper_hugin];0};{[warehouse_keeper_durin];0};{[warehouse_keeper_lunin];0};{[warehouse_chief_donal];0};{[freighter_daisy];0};{[blacksmith_vincenz];0};{[head_blacksmith_lombert];0};{[blueprint_seller_greta];0};{[mineral_trader_hans];0};{[gatekeeper_ilyana];0};{[grandmaster_siegmund];0};{[master_erian];0};{[master_beryl];0};{[grandmaster_andromeda];0};{[master_themis];0};{[high_prefect_lambac];0};{[prefect_tazki];0};{[highpriest_innocentin];0};{[priest_eliyah];0};{[priest_wagner];0};{[grandmagister_valdis];0};{[magister_amelia];0};{[magister_rumiel];0};{[grandmagister_tifaren];0};{[magister_kayan];0};{[highseer_rahorakti];0};{[seer_mekara];0};{[scroll_seller_anton];0};{[amulet_seller_hakran];0};{[captain_mathias];0};{[guard_richtor];0};{[guard_dimitri];0};{[guard_ballard];0};{[guard_schmidt];0};{[guard_ian];0};{[guard_sirius];0};{[guard_burke];0};{[falsepriest_agripel];0};{[falsepriest_benedict];0};{[falsepriest_dominic];0};{[wharf_manager_volker];0};{[fisher_hilgendorf];0};{[dawn_priest_rune];0};{[dusk_priestessess_rune];0};{[fisher_platis];0};{[gatekeeper_arisha];0};{[gatekeeper_stanislava];0};{[virgil];0};{[kasandra];0};{[ogmar];0};{[preacher_of_doom_21];0};{[preacher_of_doom_22];0};{[preacher_of_doom_23];0};{[preacher_of_doom_24];0};{[orator_of_revelations_21];0};{[orator_of_revelations_22];0};{[orator_of_revelations_23];0};{[orator_of_revelations_24];0};{[dawn_priest_rune];0};{[dusk_priestessess_rune];0};{[inspector_mond];0};{[farm_feed_seller];0};{[day_violet];0};{[day_kurstin];0};{[day_mina];0};{[day_dorian];0};{[golem_crafter_telson];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/00
+siege_term = 7200
+residence_state = initial
+residence_gate_list = {}
+breakable_wall_list = {}
+control_tower_list = {}
+holything = {}
+residence_grade = 1
+tax_rate = 15
+tax_sysget_rate = 40
+tribute_rate = 0
+agit_auction_min = 0
+agit_deposit = 0
+agit_lease = 0
+agit_size = 0
+agit_parent_castleid = 0
+agit_auction = 0
+next_auction = 0/0/0/0
+owner_restart_territory = {}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+castle_end
+
+agit_begin
+[partisan_agit001]
+21
+npc_battle
+residence_territory = {{{43048;108832;-2104;-1104};{43692;108204;-2104;-1104};{44052;108604;-2104;-1104};{43976;109180;-2104;-1104};{43684;109496;-2104;-1104}}}
+battlefield_territory = {{{42768;109156;-2344;-1544};{44460;107584;-2344;-1544};{47219;108081;-2344;-1544};{48281;109544;-2344;-1544};{47600;112400;-2344;-1544};{44092;113504;-2344;-1544};{43180;112736;-2344;-1544}}}
+headquarter_territory = {}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{43370;108839;-1980}}
+other_restart_village_list = {{51952;111060;-1970}}
+chao_restart_point_list = {}
+banish_point_list = {{51952;111060;-1970}}
+mercenary_point_list  = {}
+residence_guard_mapping = {}
+owning_npc_list = {{[ol_mahum_steward_tamutak];0};{[partisan_ordery_brakel];0};{[partisan_doorman_harkel];0}}
+additional_npc_list = {}
+boss_npc_list = {[bloody_lord_nurka1];[bloody_lord_nurka2]}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/00
+siege_term = 7200
+residence_state = initial
+residence_gate_list = {{[partisan001];0};{[partisan002];0}}
+breakable_wall_list = {}
+control_tower_list = {}
+holything = {{[];{;;};;;}}
+residence_grade = 33
+tax_rate = 0
+tax_sysget_rate = 0
+tribute_rate = 50
+agit_auction_min = 0
+agit_deposit = 0
+agit_lease = 0
+agit_size = 0
+agit_parent_castleid = -1
+agit_auction = 0
+next_auction = 0/0/0/0
+owner_restart_territory = {}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+agit_end
+
+agit_begin
+[gludio_castle_agit_001]
+22
+auction
+residence_territory = {{{-16362;123496;-3598;-2098};{-15748;123315;-3598;-2098};{-15645;123655;-3598;-2098};{-16234;123831;-3598;-2098}}}
+battlefield_territory = {}
+headquarter_territory = {}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{-16029;123642;-3101}}
+other_restart_village_list = {{-15872;123824;-3116}}
+chao_restart_point_list = {}
+banish_point_list = {{-15872;123824;-3116}}
+mercenary_point_list  = {}
+residence_guard_mapping = {}
+owning_npc_list = {{[black];0};{[renny];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/00
+siege_term = 0
+residence_state = initial
+residence_gate_list = {{[gludio_castle_agit_001_001];0};{[gludio_castle_agit_001_002];0}}
+breakable_wall_list = {}
+control_tower_list = {}
+holything = {{[];{;;};;;}}
+residence_grade = 22
+tax_rate = 10
+tax_sysget_rate = 0
+tribute_rate = 50
+agit_auction_min = 20000000
+agit_deposit = 1000000
+agit_lease = 500000
+agit_size = 30
+agit_parent_castleid = 1
+agit_auction = 1
+next_auction = 2004/1/2/10
+owner_restart_territory = {}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+agit_end
+
+agit_begin
+[gludio_castle_agit_002]
+23
+auction
+residence_territory = {{{-15098;125352;-3777;-2277};{-14789;125352;-3777;-2277};{-14789;125816;-3777;-2277};{-15098;125816;-3777;-2277}}}
+battlefield_territory = {}
+headquarter_territory = {}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{-14848;125552;-3128}}
+other_restart_village_list = {{-14684;125655;-3142}}
+chao_restart_point_list = {}
+banish_point_list = {{-14684;125655;-3142}}
+mercenary_point_list  = {}
+residence_guard_mapping = {}
+owning_npc_list = {{[boyer];0};{[baback];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/00
+siege_term = 0
+residence_state = initial
+residence_gate_list = {{[gludio_castle_agit_002_001];0};{[gludio_castle_agit_002_002];0}}
+breakable_wall_list = {}
+control_tower_list = {}
+holything = {{[];{;;};;;}}
+residence_grade = 22
+tax_rate = 10
+tax_sysget_rate = 0
+tribute_rate = 50
+agit_auction_min = 20000000
+agit_deposit = 1000000
+agit_lease = 500000
+agit_size = 30
+agit_parent_castleid = 1
+agit_auction = 1
+next_auction = 2004/1/2/10
+owner_restart_territory = {}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+agit_end
+
+agit_begin
+[gludio_castle_agit_003]
+24
+auction
+residence_territory = {{{-14028;125062;-3745;-2245};{-13695;125070;-3745;-2245};{-13695;125671;-3745;-2245};{-14028;125663;-3745;-2245}}}
+battlefield_territory = {}
+headquarter_territory = {}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{-13879;125413;-3128}}
+other_restart_village_list = {{-14192;125584;-3139}}
+chao_restart_point_list = {}
+banish_point_list = {{-14192;125584;-3139}}
+mercenary_point_list  = {}
+residence_guard_mapping = {}
+owning_npc_list = {{[tim];0};{[loring];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/00
+siege_term = 0
+residence_state = initial
+residence_gate_list = {{[gludio_castle_agit_003_001];0};{[gludio_castle_agit_003_002];0}}
+breakable_wall_list = {}
+control_tower_list = {}
+holything = {{[];{;;};;;}}
+residence_grade = 22
+tax_rate = 10
+tax_sysget_rate = 0
+tribute_rate = 50
+agit_auction_min = 20000000
+agit_deposit = 1000000
+agit_lease = 500000
+agit_size = 30
+agit_parent_castleid = 1
+agit_auction = 1
+next_auction = 2004/1/2/10
+owner_restart_territory = {}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+agit_end
+
+agit_begin
+[gludio_castle_agit_004]
+25
+auction
+residence_territory = {{{-12942;123872;-3809;-2309};{-12327;123872;-3809;-2309};{-12327;124231;-3809;-2309};{-12942;124231;-3809;-2309}}}
+battlefield_territory = {}
+headquarter_territory = {}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{-12710;124029;-3096}}
+other_restart_village_list = {{-12688;123760;-3115}}
+chao_restart_point_list = {}
+banish_point_list = {{-12688;123760;-3115}}
+mercenary_point_list  = {}
+residence_guard_mapping = {}
+owning_npc_list = {{[dillon];0};{[latif];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/00
+siege_term = 0
+residence_state = initial
+residence_gate_list = {{[gludio_castle_agit_004_001];0};{[gludio_castle_agit_004_002];0}}
+breakable_wall_list = {}
+control_tower_list = {}
+holything = {{[];{;;};;;}}
+residence_grade = 22
+tax_rate = 10
+tax_sysget_rate = 0
+tribute_rate = 50
+agit_auction_min = 20000000
+agit_deposit = 1000000
+agit_lease = 500000
+agit_size = 30
+agit_parent_castleid = 1
+agit_auction = 1
+next_auction = 2004/1/2/10
+owner_restart_territory = {}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+agit_end
+
+agit_begin
+[gludin_agit_001]
+26
+auction
+residence_territory = {{{-84691;151557;-4076;-2576};{-84261;151557;-4076;-2576};{-84260;152333;-4076;-2576};{-84690;152330;-4076;-2576}};{{-84325;151962;-4076;-2576};{-83819;151959;-4076;-2576};{-83819;152328;-4076;-2576};{-84325;152328;-4076;-2576}}}
+battlefield_territory = {}
+headquarter_territory = {}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{-84416;152192;-3123}}
+other_restart_village_list = {{-84080;151744;-3127}}
+chao_restart_point_list = {}
+banish_point_list = {{-84080;151744;-3127}}
+mercenary_point_list  = {}
+residence_guard_mapping = {}
+owning_npc_list = {{[bremmer];0};{[faolan];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/00
+siege_term = 0
+residence_state = initial
+residence_gate_list = {{[gludin_agit_001_001];0};{[gludin_agit_001_002];0}}
+breakable_wall_list = {}
+control_tower_list = {}
+holything = {{[];{;;};;;}}
+residence_grade = 22
+tax_rate = 10
+tax_sysget_rate = 0
+tribute_rate = 50
+agit_auction_min = 20000000
+agit_deposit = 1000000
+agit_lease = 500000
+agit_size = 30
+agit_parent_castleid = 1
+agit_auction = 1
+next_auction = 2004/1/2/10
+owner_restart_territory = {}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+agit_end
+
+agit_begin
+[gludin_agit_002]
+27
+auction
+residence_territory = {{{-84367;153086;-4012;-2512};{-83983;153086;-4012;-2512};{-83977;154046;-4012;-2512};{-84367;154054;-4012;-2512}};{{-84160;153086;-4012;-2512};{-83586;153085;-4012;-2512};{-83585;153564;-4012;-2512};{-84160;153561;-4012;-2512}}}
+battlefield_territory = {}
+headquarter_territory = {}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{-84171;153385;-3159}}
+other_restart_village_list = {{-83860;153744;-3176}}
+chao_restart_point_list = {}
+banish_point_list = {{-83860;153744;-3176}}
+mercenary_point_list  = {}
+residence_guard_mapping = {}
+owning_npc_list = {{[calis];0};{[kogan];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/00
+siege_term = 0
+residence_state = initial
+residence_gate_list = {{[gludin_agit_002_001];0};{[gludin_agit_002_002];0};{[gludin_agit_002_003];0};{[gludin_agit_002_004];0}}
+breakable_wall_list = {}
+control_tower_list = {}
+holything = {{[];{;;};;;}}
+residence_grade = 22
+tax_rate = 10
+tax_sysget_rate = 0
+tribute_rate = 50
+agit_auction_min = 20000000
+agit_deposit = 1000000
+agit_lease = 500000
+agit_size = 30
+agit_parent_castleid = 1
+agit_auction = 1
+next_auction = 2004/1/2/10
+owner_restart_territory = {}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+agit_end
+
+agit_begin
+[gludin_agit_003]
+28
+auction
+residence_territory = {{{-84463;154941;-4044;-2544};{-83987;154941;-4044;-2544};{-83986;155688;-4044;-2544};{-84463;155685;-4044;-2544}};{{-84098;155318;-4044;-2544};{-83523;155317;-4044;-2544};{-83523;155686;-4044;-2544};{-84098;155684;-4044;-2544}}}
+battlefield_territory = {}
+headquarter_territory = {}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{-84236;155520;-3160}}
+other_restart_village_list = {{-83824;155216;-3176}}
+chao_restart_point_list = {}
+banish_point_list = {{-83824;155216;-3176}}
+mercenary_point_list  = {}
+residence_guard_mapping = {}
+owning_npc_list = {{[winker];0};{[merton];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/00
+siege_term = 0
+residence_state = initial
+residence_gate_list = {{[gludin_agit_003_001];0};{[gludin_agit_003_002];0}}
+breakable_wall_list = {}
+control_tower_list = {}
+holything = {{[];{;;};;;}}
+residence_grade = 22
+tax_rate = 10
+tax_sysget_rate = 0
+tribute_rate = 50
+agit_auction_min = 20000000
+agit_deposit = 1000000
+agit_lease = 500000
+agit_size = 30
+agit_parent_castleid = 1
+agit_auction = 1
+next_auction = 2004/1/2/10
+owner_restart_territory = {}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+agit_end
+
+agit_begin
+[gludin_agit_004]
+29
+auction
+residence_territory = {{{-79657;149419;-3948;-2448};{-79290;149424;-3948;-2448};{-79284;150296;-3948;-2448};{-79656;150298;-3948;-2448}};{{-80066;149420;-3948;-2448};{-79491;149419;-3948;-2448};{-79491;149859;-3948;-2448};{-80066;149857;-3948;-2448}}}
+battlefield_territory = {}
+headquarter_territory = {}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{-79544;150181;-3038}}
+other_restart_village_list = {{-79856;150144;-3042}}
+chao_restart_point_list = {}
+banish_point_list = {{-79856;150144;-3042}}
+mercenary_point_list  = {}
+residence_guard_mapping = {}
+owning_npc_list = {{[ruben];0};{[luce];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/00
+siege_term = 0
+residence_state = initial
+residence_gate_list = {{[gludin_agit_004_001];0};{[gludin_agit_004_002];0}}
+breakable_wall_list = {}
+control_tower_list = {}
+holything = {{[];{;;};;;}}
+residence_grade = 22
+tax_rate = 10
+tax_sysget_rate = 0
+tribute_rate = 50
+agit_auction_min = 20000000
+agit_deposit = 1000000
+agit_lease = 500000
+agit_size = 30
+agit_parent_castleid = 1
+agit_auction = 1
+next_auction = 2004/1/2/10
+owner_restart_territory = {}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+agit_end
+
+agit_begin
+[gludin_agit_005]
+30
+auction
+residence_territory = {{{-79663;151367;-3980;-2480};{-79296;151372;-3980;-2480};{-79290;152244;-3980;-2480};{-79663;152246;-3980;-2480}};{{-80067;151809;-3980;-2480};{-79493;151808;-3980;-2480};{-79493;152247;-3980;-2480};{-80067;152245;-3980;-2480}}}
+battlefield_territory = {}
+headquarter_territory = {}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{-79513;151506;-3041}}
+other_restart_village_list = {{-79854;151602;-3042}}
+chao_restart_point_list = {}
+banish_point_list = {{-79854;151602;-3042}}
+mercenary_point_list  = {}
+residence_guard_mapping = {}
+owning_npc_list = {{[horner];0};{[amiel];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/00
+siege_term = 0
+residence_state = initial
+residence_gate_list = {{[gludin_agit_005_001];0};{[gludin_agit_005_002];0}}
+breakable_wall_list = {}
+control_tower_list = {}
+holything = {{[];{;;};;;}}
+residence_grade = 22
+tax_rate = 10
+tax_sysget_rate = 0
+tribute_rate = 50
+agit_auction_min = 20000000
+agit_deposit = 1000000
+agit_lease = 500000
+agit_size = 30
+agit_parent_castleid = 1
+agit_auction = 1
+next_auction = 2004/1/2/10
+owner_restart_territory = {}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+agit_end
+
+agit_begin
+[dion_castle_agit_001]
+31
+auction
+residence_territory = {{{17597;144823;-3365;-1865};{17989;145089;-3365;-1865};{17828;145333;-3365;-1865};{17433;145067;-3365;-1865}}}
+battlefield_territory = {}
+headquarter_territory = {}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{17760;145200;-3036}}
+other_restart_village_list = {{17552;145248;-3050}}
+chao_restart_point_list = {}
+banish_point_list = {{17552;145248;-3050}}
+mercenary_point_list  = {}
+residence_guard_mapping = {}
+owning_npc_list = {{[ron];0};{[borna];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/00
+siege_term = 0
+residence_state = initial
+residence_gate_list = {{[dion_castle_agit_001_001];0};{[dion_castle_agit_001_002];0}}
+breakable_wall_list = {}
+control_tower_list = {}
+holything = {{[];{;;};;;}}
+residence_grade = 23
+tax_rate = 10
+tax_sysget_rate = 0
+tribute_rate = 50
+agit_auction_min = 8000000
+agit_deposit = 500000
+agit_lease = 200000
+agit_size = 30
+agit_parent_castleid = 2
+agit_auction = 1
+next_auction = 2004/1/2/10
+owner_restart_territory = {}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+agit_end
+
+agit_begin
+[dion_castle_agit_002]
+32
+auction
+residence_territory = {{{18849;143099;-3333;-1833};{18897;143562;-3333;-1833};{18615;143588;-3333;-1833};{18571;143128;-3333;-1833}}}
+battlefield_territory = {}
+headquarter_territory = {}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{18800;143248;-3010}}
+other_restart_village_list = {{18976;143360;-3033}}
+chao_restart_point_list = {}
+banish_point_list = {{18976;143360;-3033}}
+mercenary_point_list  = {}
+residence_guard_mapping = {}
+owning_npc_list = {{[flynn];0};{[jamal];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/00
+siege_term = 0
+residence_state = initial
+residence_gate_list = {{[dion_castle_agit_002_001];0};{[dion_castle_agit_002_002];0}}
+breakable_wall_list = {}
+control_tower_list = {}
+holything = {{[];{;;};;;}}
+residence_grade = 23
+tax_rate = 10
+tax_sysget_rate = 0
+tribute_rate = 50
+agit_auction_min = 8000000
+agit_deposit = 500000
+agit_lease = 200000
+agit_size = 30
+agit_parent_castleid = 2
+agit_auction = 1
+next_auction = 2004/1/2/10
+owner_restart_territory = {}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+agit_end
+
+agit_begin
+[dion_castle_agit_003]
+33
+auction
+residence_territory = {{{19942;145996;-3397;-1897};{20414;145996;-3397;-1897};{20414;146292;-3397;-1897};{19942;146292;-3397;-1897}}}
+battlefield_territory = {}
+headquarter_territory = {}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{20096;146064;-3111}}
+other_restart_village_list = {{20192;145920;-3125}}
+chao_restart_point_list = {}
+banish_point_list = {{20192;145920;-3125}}
+mercenary_point_list  = {}
+residence_guard_mapping = {}
+owning_npc_list = {{[seth];0};{[jabilo];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/00
+siege_term = 0
+residence_state = initial
+residence_gate_list = {{[dion_castle_agit_003_001];0};{[dion_castle_agit_003_002];0}}
+breakable_wall_list = {}
+control_tower_list = {}
+holything = {{[];{;;};;;}}
+residence_grade = 23
+tax_rate = 10
+tax_sysget_rate = 0
+tribute_rate = 50
+agit_auction_min = 8000000
+agit_deposit = 500000
+agit_lease = 200000
+agit_size = 30
+agit_parent_castleid = 2
+agit_auction = 1
+next_auction = 2004/1/2/10
+owner_restart_territory = {}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+agit_end
+
+agit_begin
+[devastated_castle]
+34
+siege
+residence_territory = {{{176793;-19176;-2514;486};{179892;-19176;-2514;486};{179892;-15276;-2514;486};{179417;-14511;-2514;486};{177270;-14511;-2514;486};{176793;-15276;-2514;486}}}
+battlefield_territory = {{{176367;-19559;-2634;366};{180367;-19559;-2634;366};{180367;-13059;-2634;366};{176367;-13059;-2634;366}}}
+headquarter_territory = {{{176740;-13838;-2405;595};{180040;-13838;-2405;595};{180040;-13188;-2405;595};{176740;-13188;-2405;595}}}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{177930;-18629;-2240}}
+other_restart_village_list = {{146494;30584;-2420};{146038;30519;-2420};{148112;30439;-2420};{148565;30463;-2420};{150227;29104;-2420};{144626;29145;-2420};{144635;26664;-2220};{144526;24661;-2100};{144559;22835;-2100};{145686;21114;-2100};{148946;21121;-2070};{148010;27996;-2256};{147970;27040;-2191}}
+chao_restart_point_list = {{136398;28901;-3582};{137292;28485;-3290};{155925;28554;-3164};{157608;23866;-3760};{157463;28770;-3371};{159348;28561;-3400};{160236;14119;-3892};{156764;13774;-3960};{161426;23055;-3670};{136380;21899;-3647};{137708;15640;-3800}}
+banish_point_list = {{178497;-13129;-2200}}
+mercenary_point_list  = {}
+residence_guard_mapping = {}
+owning_npc_list = {{[mikhail];0};{[dietrich];0};{[steward_biggerstaff];0};{[doorman_of_hell1];0};{[doorman_of_hell2];0};{[messenger_loken];0};{[hephaeston];0}}
+additional_npc_list = {}
+boss_npc_list = {[gustav]}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/00
+siege_term = 3600
+residence_state = initial
+residence_gate_list = {{[Devastated_castle_outter_001];0};{[Devastated_castle_outter_002];0};{[Devastated_castle_001];0};{[Devastated_castle_002];0};{[Devastated_castle_003];0};{[Devastated_castle_004];0}}
+breakable_wall_list = {}
+control_tower_list = {}
+holything = {{[];{;;};;;}}
+residence_grade = 31
+tax_rate = 0
+tax_sysget_rate = 0
+tribute_rate = 50
+agit_auction_min = 0
+agit_deposit = 0
+agit_lease = 0
+agit_size = 0
+agit_parent_castleid = -1
+agit_auction = 0
+next_auction = 0/0/0/0
+owner_restart_territory = {}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+agit_end
+
+agit_begin
+[bandits'_stronghold]
+35
+team_battle
+residence_territory = {{{79028;-17588;-2920;80};{84640;-19528;-2920;80};{86952;-16888;-2920;80};{83636;-13448;-2920;80};{79196;-13584;-2920;80}}}
+battlefield_territory = {{{79028;-17588;-2920;80};{84640;-19528;-2920;80};{86952;-16888;-2920;80};{83636;-13448;-2920;80};{79196;-13584;-2920;80}}}
+headquarter_territory = {}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{80339;-15442;-1804}}
+other_restart_village_list = {{80304;56241;-1500};{80594;55837;-1500};{79933;55752;-1500};{80267;55497;-1500};{80334;54400;-1500};{82445;56012;-1480};{82323;55466;-1480};{82880;55390;-1480};{82638;53885;-1440};{82552;53447;-1440};{82213;53964;-1440};{80054;53209;-1500};{79706;52986;-1500};{82123;53535;-1440}}
+chao_restart_point_list = {{76576;50151;-3200};{77310;50317;-3160};{77250;51285;-3160};{78811;51106;-3160};{75755;51372;-3250};{75613;52504;-3200};{74459;52441;-3260};{74467;53354;-3200};{73600;53918;-3170};{71102;57875;-3330};{70052;59300;-3580};{70420;57480;-3480};{75474;60125;-2730};{74880;60818;-2820};{88011;56589;-3560};{91239;53120;-3430};{81785;46306;-3160};{80708;44609;-3120};{70139;55885;-3550};{80236;45675;-3150}}
+banish_point_list = {{91826;-12575;-2408};{92188;-12927;-2404};{91737;-12075;-2450};{91288;-12467;-2409};{91456;-13048;-2378};{92285;-12274;-2386};{91359;-12094;-2436}}
+mercenary_point_list  = {}
+residence_guard_mapping = {}
+owning_npc_list = {{[azit_inner_doorman_a];0};{[azit_inner_doorman_b];0};{[azit_outter_doorman_a];0};{[azit_outter_doorman_b];0};{[azit_messenger];0};{[azit_chamberlain];0}}
+additional_npc_list = {}
+boss_npc_list = {[oel_mahum_scout];[oel_mahum_berserker];[oel_mahum_leader];[oel_mahum_cleric];[oel_mahum_thief]}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/00
+siege_term = 72000
+residence_state = initial
+residence_gate_list = {{[Bandit_001];0};{[Bandit_002];0};{[Bandit_003];0};{[Bandit_004];0}}
+breakable_wall_list = {}
+control_tower_list = {}
+holything = {{[];{;;};;;}}
+residence_grade = 32
+tax_rate = 15
+tax_sysget_rate = 50
+tribute_rate = 0
+agit_auction_min = 0
+agit_deposit = 0
+agit_lease = 0
+agit_size = 0
+agit_parent_castleid = 5
+agit_auction = 0
+next_auction = 0/0/0/0
+owner_restart_territory = {}
+battle_royal_flag_point_list = {{83699;-17468;-1774;19048};{82053;-17060;-1784;5432};{82142;-15528;-1799;58792};{83544;-15266;-1770;44976};{84609;-16041;-1769;35816}}
+final_flag_point_list = {{81981;-15708;-1858;60392};{84375;-17060;-1860;27712}}
+final_open_door_list = {[Bandit_003];[Bandit_004]}
+agit_end
+
+agit_begin
+[aden_castle_agit_001]
+36
+auction
+residence_territory = {{{148844;22709;-2160;-1960};{149424;22709;-2160;-1960};{149424;23569;-2160;-1960};{148844;23569;-2160;-1960}}}
+battlefield_territory = {}
+headquarter_territory = {}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{149134;23140;-2160}}
+other_restart_village_list = {{149568;23024;-2128}}
+chao_restart_point_list = {}
+banish_point_list = {{149568;23024;-2128}}
+mercenary_point_list  = {}
+residence_guard_mapping = {}
+owning_npc_list = {{[carey];0};{[daniel];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/03
+siege_term = 0
+residence_state = initial
+residence_gate_list = {{[aden_castle_agit_001_001];0};{[aden_castle_agit_001_002];0}}
+breakable_wall_list = {}
+control_tower_list = {}
+holything = {{[];{;;};;;}}
+residence_grade = 21
+tax_rate = 10
+tax_sysget_rate = 0
+tribute_rate = 50
+agit_auction_min = 50000000
+agit_deposit = 1500000
+agit_lease = 1000000
+agit_size = 50
+agit_parent_castleid = 5
+agit_auction = 1
+next_auction = 2005/01/27/12
+owner_restart_territory = {}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+agit_end
+
+agit_begin
+[aden_castle_agit_002]
+37
+auction
+residence_territory = {{{150343;23193;-2150;-1950};{150943;23193;-2150;-1950};{150943;24113;-2150;-1950};{150343;24113;-2150;-1950}}}
+battlefield_territory = {}
+headquarter_territory = {}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{150644;23653;-2150}}
+other_restart_village_list = {{150192;23808;-2128}}
+chao_restart_point_list = {}
+banish_point_list = {{150192;23808;-2128}}
+mercenary_point_list  = {}
+residence_guard_mapping = {}
+owning_npc_list = {{[dianne];0};{[jacques];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/04
+siege_term = 0
+residence_state = initial
+residence_gate_list = {{[aden_castle_agit_002_001];0};{[aden_castle_agit_002_002];0}}
+breakable_wall_list = {}
+control_tower_list = {}
+holything = {{[];{;;};;;}}
+residence_grade = 21
+tax_rate = 10
+tax_sysget_rate = 0
+tribute_rate = 50
+agit_auction_min = 50000000
+agit_deposit = 1500000
+agit_lease = 1000000
+agit_size = 50
+agit_parent_castleid = 5
+agit_auction = 1
+next_auction = 2005/01/27/12
+owner_restart_territory = {}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+agit_end
+
+agit_begin
+[aden_castle_agit_003]
+38
+auction
+residence_territory = {{{145362;24890;-2150;-1950};{145972;24890;-2150;-1950};{145972;25820;-2150;-1950};{145362;25820;-2150;-1950}}}
+battlefield_territory = {}
+headquarter_territory = {}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{145667;25356;-2150}}
+other_restart_village_list = {{150320;26368;-2256}}
+chao_restart_point_list = {}
+banish_point_list = {{150320;26368;-2256}}
+mercenary_point_list  = {}
+residence_guard_mapping = {}
+owning_npc_list = {{[crissy];0};{[joff];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/05
+siege_term = 0
+residence_state = initial
+residence_gate_list = {{[aden_castle_agit_003_001];0};{[aden_castle_agit_003_002];0}}
+breakable_wall_list = {}
+control_tower_list = {}
+holything = {{[];{;;};;;}}
+residence_grade = 21
+tax_rate = 10
+tax_sysget_rate = 0
+tribute_rate = 50
+agit_auction_min = 50000000
+agit_deposit = 1500000
+agit_lease = 1000000
+agit_size = 50
+agit_parent_castleid = 5
+agit_auction = 1
+next_auction = 2005/01/27/12
+owner_restart_territory = {}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+agit_end
+
+agit_begin
+[aden_castle_agit_004]
+39
+auction
+residence_territory = {{{150460;26108;-2280;-2080};{151036;26108;-2280;-2080};{151036;26972;-2280;-2080};{150460;26972;-2280;-2080}}}
+battlefield_territory = {}
+headquarter_territory = {}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{150748;26540;-2280}}
+other_restart_village_list = {{145280;25184;-2128}}
+chao_restart_point_list = {}
+banish_point_list = {{145280;25184;-2128}}
+mercenary_point_list  = {}
+residence_guard_mapping = {}
+owning_npc_list = {{[albert];0};{[niels];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/06
+siege_term = 0
+residence_state = initial
+residence_gate_list = {{[aden_castle_agit_004_001];0};{[aden_castle_agit_004_002];0}}
+breakable_wall_list = {}
+control_tower_list = {}
+holything = {{[];{;;};;;}}
+residence_grade = 21
+tax_rate = 10
+tax_sysget_rate = 0
+tribute_rate = 50
+agit_auction_min = 50000000
+agit_deposit = 1500000
+agit_lease = 1000000
+agit_size = 50
+agit_parent_castleid = 5
+agit_auction = 1
+next_auction = 2005/01/27/12
+owner_restart_territory = {}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+agit_end
+
+agit_begin
+[aden_castle_agit_005]
+40
+auction
+residence_territory = {{{143701;26661;-2290;-2090};{144281;26661;-2290;-2090};{144281;27521;-2290;-2090};{143701;27521;-2290;-2090}}}
+battlefield_territory = {}
+headquarter_territory = {}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{143992;27092;-2290}}
+other_restart_village_list = {{144432;26896;-2256}}
+chao_restart_point_list = {}
+banish_point_list = {{144432;26896;-2256}}
+mercenary_point_list  = {}
+residence_guard_mapping = {}
+owning_npc_list = {{[korgen];0};{[rudy];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/07
+siege_term = 0
+residence_state = initial
+residence_gate_list = {{[aden_castle_agit_006_001];0};{[aden_castle_agit_006_002];0}}
+breakable_wall_list = {}
+control_tower_list = {}
+holything = {{[];{;;};;;}}
+residence_grade = 21
+tax_rate = 10
+tax_sysget_rate = 0
+tribute_rate = 50
+agit_auction_min = 50000000
+agit_deposit = 1500000
+agit_lease = 1000000
+agit_size = 50
+agit_parent_castleid = 5
+agit_auction = 1
+next_auction = 2005/01/27/12
+owner_restart_territory = {}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+agit_end
+
+agit_begin
+[aden_castle_agit_006]
+41
+auction
+residence_territory = {{{143704;27734;-2280;-2080};{144324;27734;-2280;-2080};{144324;28670;-2280;-2080};{143704;28670;-2280;-2080}}}
+battlefield_territory = {}
+headquarter_territory = {}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{144014;28202;-2280}}
+other_restart_village_list = {{144448;28384;-2256}}
+chao_restart_point_list = {}
+banish_point_list = {{144448;28384;-2256}}
+mercenary_point_list  = {}
+residence_guard_mapping = {}
+owning_npc_list = {{[dimaggio];0};{[gellar];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/08
+siege_term = 0
+residence_state = initial
+residence_gate_list = {{[aden_castle_agit_005_001];0};{[aden_castle_agit_005_002];0}}
+breakable_wall_list = {}
+control_tower_list = {}
+holything = {{[];{;;};;;}}
+residence_grade = 21
+tax_rate = 10
+tax_sysget_rate = 0
+tribute_rate = 50
+agit_auction_min = 50000000
+agit_deposit = 1500000
+agit_lease = 1000000
+agit_size = 50
+agit_parent_castleid = 5
+agit_auction = 1
+next_auction = 2005/01/27/12
+owner_restart_territory = {}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+agit_end
+
+agit_begin
+[giran_castle_agit_001]
+42
+auction
+residence_territory = {{{78059;147906;-3647;-3297};{79122;147906;-3647;-3297};{79122;148296;-3647;-3297};{78059;148296;-3647;-3297}}}
+battlefield_territory = {}
+headquarter_territory = {}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{78592;148080;-3581}}
+other_restart_village_list = {{83409;148578;-3300}}
+chao_restart_point_list = {}
+banish_point_list = {{83409;148578;-3300}}
+mercenary_point_list  = {}
+residence_guard_mapping = {}
+owning_npc_list = {{[custodian_emma];0};{[janitor_theobold];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/08
+siege_term = 0
+residence_state = initial
+residence_gate_list = {{[giran_castle_agit_001_001];0};{[giran_castle_agit_001_002];0}}
+breakable_wall_list = {}
+control_tower_list = {}
+holything = {{[];{;;};;;}}
+residence_grade = 21
+tax_rate = 10
+tax_sysget_rate = 0
+tribute_rate = 50
+agit_auction_min = 50000000
+agit_deposit = 1500000
+agit_lease = 1000000
+agit_size = 50
+agit_parent_castleid = 3
+agit_auction = 1
+next_auction = 2005/01/27/12
+owner_restart_territory = {}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+agit_end
+
+agit_begin
+[giran_castle_agit_002]
+43
+auction
+residence_territory = {{{81859;144802;-3647;-3297};{82254;144802;-3647;-3297};{82254;145870;-3647;-3297};{81859;145870;-3647;-3297}}}
+battlefield_territory = {}
+headquarter_territory = {}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{82032;145328;-3520}}
+other_restart_village_list = {{83409;148578;-3300}}
+chao_restart_point_list = {}
+banish_point_list = {{83409;148578;-3300}}
+mercenary_point_list  = {}
+residence_guard_mapping = {}
+owning_npc_list = {{[custodian_adrienne];0};{[janitor_rosconne];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/08
+siege_term = 0
+residence_state = initial
+residence_gate_list = {{[giran_castle_agit_002_001];0};{[giran_castle_agit_002_002];0}}
+breakable_wall_list = {}
+control_tower_list = {}
+holything = {{[];{;;};;;}}
+residence_grade = 21
+tax_rate = 10
+tax_sysget_rate = 0
+tribute_rate = 50
+agit_auction_min = 50000000
+agit_deposit = 1500000
+agit_lease = 1000000
+agit_size = 50
+agit_parent_castleid = 3
+agit_auction = 1
+next_auction = 2005/01/27/12
+owner_restart_territory = {}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+agit_end
+
+agit_begin
+[giran_castle_agit_003]
+44
+auction
+residence_territory = {{{83195;144779;-3540;-3190};{83591;144779;-3540;-3190};{83591;145847;-3540;-3190};{83195;145847;-3540;-3190}}}
+battlefield_territory = {}
+headquarter_territory = {}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{83392;145328;-3389}}
+other_restart_village_list = {{83409;148578;-3300}}
+chao_restart_point_list = {}
+banish_point_list = {{83409;148578;-3300}}
+mercenary_point_list  = {}
+residence_guard_mapping = {}
+owning_npc_list = {{[custodian_bianca];0};{[janitor_stuart];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/08
+siege_term = 0
+residence_state = initial
+residence_gate_list = {{[giran_castle_agit_003_001];0};{[giran_castle_agit_003_002];0}}
+breakable_wall_list = {}
+control_tower_list = {}
+holything = {{[];{;;};;;}}
+residence_grade = 21
+tax_rate = 10
+tax_sysget_rate = 0
+tribute_rate = 50
+agit_auction_min = 50000000
+agit_deposit = 1500000
+agit_lease = 1000000
+agit_size = 50
+agit_parent_castleid = 3
+agit_auction = 1
+next_auction = 2005/01/27/12
+owner_restart_territory = {}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+agit_end
+
+agit_begin
+[giran_castle_agit_004]
+45
+auction
+residence_territory = {{{80773;151053;-3647;-3297};{81169;151053;-3647;-3297};{81169;152121;-3647;-3297};{80773;152121;-3647;-3297}}}
+battlefield_territory = {}
+headquarter_territory = {}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{80960;151600;-3517}}
+other_restart_village_list = {{83409;148578;-3300}}
+chao_restart_point_list = {}
+banish_point_list = {{83409;148578;-3300}}
+mercenary_point_list  = {}
+residence_guard_mapping = {}
+owning_npc_list = {{[custodian_gladys];0};{[janitor_theron];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/08
+siege_term = 0
+residence_state = initial
+residence_gate_list = {{[giran_castle_agit_004_001];0};{[giran_castle_agit_004_002];0}}
+breakable_wall_list = {}
+control_tower_list = {}
+holything = {{[];{;;};;;}}
+residence_grade = 21
+tax_rate = 10
+tax_sysget_rate = 0
+tribute_rate = 50
+agit_auction_min = 50000000
+agit_deposit = 1500000
+agit_lease = 1000000
+agit_size = 50
+agit_parent_castleid = 3
+agit_auction = 1
+next_auction = 2005/01/27/12
+owner_restart_territory = {}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+agit_end
+
+agit_begin
+[giran_castle_agit_005]
+46
+auction
+residence_territory = {{{81903;151377;-3647;-3297};{82299;151377;-3647;-3297};{82299;152445;-3647;-3297};{81903;152445;-3647;-3297}}}
+battlefield_territory = {}
+headquarter_territory = {}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{82064;151904;-3520}}
+other_restart_village_list = {{83409;148578;-3300}}
+chao_restart_point_list = {}
+banish_point_list = {{83409;148578;-3300}}
+mercenary_point_list  = {}
+residence_guard_mapping = {}
+owning_npc_list = {{[custodian_regina];0};{[janitor_trey];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/08
+siege_term = 0
+residence_state = initial
+residence_gate_list = {{[giran_castle_agit_005_001];0};{[giran_castle_agit_005_002];0}}
+breakable_wall_list = {}
+control_tower_list = {}
+holything = {{[];{;;};;;}}
+residence_grade = 21
+tax_rate = 10
+tax_sysget_rate = 0
+tribute_rate = 50
+agit_auction_min = 50000000
+agit_deposit = 1500000
+agit_lease = 1000000
+agit_size = 50
+agit_parent_castleid = 3
+agit_auction = 1
+next_auction = 2005/01/27/12
+owner_restart_territory = {}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+agit_end
+
+agit_begin
+[godad_castle_agit_001]
+47
+auction
+residence_territory = {{{145660;-55829;-2828;-2528};{146459;-55730;-2828;-2528};{146402;-55280;-2828;-2528};{145605;-55378;-2828;-2528}}}
+battlefield_territory = {}
+headquarter_territory = {}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{146022;-55560;-2765}}
+other_restart_village_list = {{147712;-58432;-2979}}
+chao_restart_point_list = {}
+banish_point_list = {{147712;-58432;-2979}}
+mercenary_point_list  = {}
+residence_guard_mapping = {}
+owning_npc_list = {{[custodian_aida];0};{[janitor_chalmer];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/03
+siege_term = 0
+residence_state = initial
+residence_gate_list = {{[godad_castle_agit_001_001];0};{[godad_castle_agit_001_002];0}}
+breakable_wall_list = {}
+control_tower_list = {}
+holything = {{[];{;;};;;}}
+residence_grade = 21
+tax_rate = 10
+tax_sysget_rate = 0
+tribute_rate = 50
+agit_auction_min = 50000000
+agit_deposit = 1500000
+agit_lease = 1000000
+agit_size = 50
+agit_parent_castleid = 7
+agit_auction = 1
+next_auction = 2005/01/27/12
+owner_restart_territory = {}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+agit_end
+
+agit_begin
+[godad_castle_agit_002]
+48
+auction
+residence_territory = {{{146936;-57320;-2828;-2528};{147308;-56607;-2828;-2528};{146906;-56397;-2828;-2528};{146535;-57111;-2828;-2528}}}
+battlefield_territory = {}
+headquarter_territory = {}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{146960;-56768;-2765}}
+other_restart_village_list = {{147712;-58432;-2979}}
+chao_restart_point_list = {}
+banish_point_list = {{147712;-58432;-2979}}
+mercenary_point_list  = {}
+residence_guard_mapping = {}
+owning_npc_list = {{[custodian_helga];0};{[janitor_wolfrem];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/03
+siege_term = 0
+residence_state = initial
+residence_gate_list = {{[godad_castle_agit_002_001];0};{[godad_castle_agit_002_002];0}}
+breakable_wall_list = {}
+control_tower_list = {}
+holything = {{[];{;;};;;}}
+residence_grade = 21
+tax_rate = 10
+tax_sysget_rate = 0
+tribute_rate = 50
+agit_auction_min = 50000000
+agit_deposit = 1500000
+agit_lease = 1000000
+agit_size = 50
+agit_parent_castleid = 7
+agit_auction = 1
+next_auction = 2005/01/27/12
+owner_restart_territory = {}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+agit_end
+
+agit_begin
+[godad_castle_agit_003]
+49
+auction
+residence_territory = {{{148487;-57327;-2828;-2528};{148887;-57113;-2828;-2528};{148508;-56405;-2828;-2528};{148108;-56618;-2828;-2528}}}
+battlefield_territory = {}
+headquarter_territory = {}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{148480;-56848;-2765}}
+other_restart_village_list = {{147712;-58432;-2979}}
+chao_restart_point_list = {}
+banish_point_list = {{147712;-58432;-2979}}
+mercenary_point_list  = {}
+residence_guard_mapping = {}
+owning_npc_list = {{[custodian_milicent];0};{[janitor_gerard];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/03
+siege_term = 0
+residence_state = initial
+residence_gate_list = {{[godad_castle_agit_003_001];0};{[godad_castle_agit_003_002];0}}
+breakable_wall_list = {}
+control_tower_list = {}
+holything = {{[];{;;};;;}}
+residence_grade = 21
+tax_rate = 10
+tax_sysget_rate = 0
+tribute_rate = 50
+agit_auction_min = 50000000
+agit_deposit = 1500000
+agit_lease = 1000000
+agit_size = 50
+agit_parent_castleid = 7
+agit_auction = 1
+next_auction = 2005/01/27/12
+owner_restart_territory = {}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+agit_end
+
+agit_begin
+[godad_castle_agit_004]
+50
+auction
+residence_territory = {{{148962;-55739;-2828;-2528};{149759;-55838;-2828;-2528};{149815;-55388;-2828;-2528};{149018;-55289;-2828;-2528}}}
+battlefield_territory = {}
+headquarter_territory = {}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{149376;-55568;-2765}}
+other_restart_village_list = {{147712;-58432;-2979}}
+chao_restart_point_list = {}
+banish_point_list = {{147712;-58432;-2979}}
+mercenary_point_list  = {}
+residence_guard_mapping = {}
+owning_npc_list = {{[custodian_branhilde];0};{[janitor_lambert];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/03
+siege_term = 0
+residence_state = initial
+residence_gate_list = {{[godad_castle_agit_004_001];0};{[godad_castle_agit_004_002];0}}
+breakable_wall_list = {}
+control_tower_list = {}
+holything = {{[];{;;};;;}}
+residence_grade = 21
+tax_rate = 10
+tax_sysget_rate = 0
+tribute_rate = 50
+agit_auction_min = 50000000
+agit_deposit = 1500000
+agit_lease = 1000000
+agit_size = 50
+agit_parent_castleid = 7
+agit_auction = 1
+next_auction = 2005/01/27/12
+owner_restart_territory = {}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+agit_end
+
+agit_begin
+[rune_castle_agit_001]
+51
+auction
+residence_territory = {{{37384;-51032;896;1096};{38072;-51032;896;1096};{38056;-50552;896;1096};{37784;-50552;896;1096};{37784;-50392;896;1096};{37672;-50392;896;1096};{37672;-50552;896;1096};{37384;-50552;896;1096}}}
+battlefield_territory = {}
+headquarter_territory = {}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{37724;-50775;904}}
+other_restart_village_list = {{38615;-48211;896}}
+chao_restart_point_list = {}
+banish_point_list = {{38615;-48211;896}}
+mercenary_point_list  = {}
+residence_guard_mapping = {}
+owning_npc_list = {{[Emil];0};{[Ronald];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/04
+siege_term = 0
+residence_state = initial
+residence_gate_list = {{[rune_castle_agit_001_001];0};{[rune_castle_agit_001_002];0}}
+breakable_wall_list = {}
+control_tower_list = {}
+holything = {{[];{;;};;;}}
+residence_grade = 3
+tax_rate = 10
+tax_sysget_rate = 0
+tribute_rate = 50
+agit_auction_min = 50000000
+agit_deposit = 1500000
+agit_lease = 1000000
+agit_size = 30
+agit_parent_castleid = 8
+agit_auction = 1
+next_auction = 2005/01/27/12
+owner_restart_territory = {}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+agit_end
+
+agit_begin
+[rune_castle_agit_002]
+52
+auction
+residence_territory = {{{38600;-50808;896;1096};{39128;-50536;896;1096};{38920;-50088;896;1096};{38696;-50200;896;1096};{38600;-50088;896;1096};{38504;-50152;896;1096};{38568;-50264;896;1096};{38328;-50392;896;1096}}}
+battlefield_territory = {}
+headquarter_territory = {}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{38776;-50456;904}}
+other_restart_village_list = {{38615;-48211;896}}
+chao_restart_point_list = {}
+banish_point_list = {{38615;-48211;896}}
+mercenary_point_list  = {}
+residence_guard_mapping = {}
+owning_npc_list = {{[Daniel];0};{[Wayne];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/04
+siege_term = 0
+residence_state = initial
+residence_gate_list = {{[rune_castle_agit_002_001];0};{[rune_castle_agit_002_002];0}}
+breakable_wall_list = {}
+control_tower_list = {}
+holything = {{[];{;;};;;}}
+residence_grade = 3
+tax_rate = 10
+tax_sysget_rate = 0
+tribute_rate = 50
+agit_auction_min = 50000000
+agit_deposit = 1500000
+agit_lease = 1000000
+agit_size = 30
+agit_parent_castleid = 8
+agit_auction = 1
+next_auction = 2005/01/27/12
+owner_restart_territory = {}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+agit_end
+
+agit_begin
+[rune_castle_agit_003]
+53
+auction
+residence_territory = {{{39512;-50104;896;1096};{39864;-49544;896;1096};{39432;-49288;896;1096};{39256;-49496;896;1096};{39176;-49448;896;1096};{39096;-49544;896;1096};{39208;-49608;896;1096};{39096;-49816;896;1096}}}
+battlefield_territory = {}
+headquarter_territory = {}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{39480;-49688;904}}
+other_restart_village_list = {{38615;-48211;896}}
+chao_restart_point_list = {}
+banish_point_list = {{38615;-48211;896}}
+mercenary_point_list  = {}
+residence_guard_mapping = {}
+owning_npc_list = {{[Dale];0};{[Patty];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/04
+siege_term = 0
+residence_state = initial
+residence_gate_list = {{[rune_castle_agit_003_001];0};{[rune_castle_agit_003_002];0}}
+breakable_wall_list = {}
+control_tower_list = {}
+holything = {{[];{;;};;;}}
+residence_grade = 3
+tax_rate = 10
+tax_sysget_rate = 0
+tribute_rate = 50
+agit_auction_min = 50000000
+agit_deposit = 1500000
+agit_lease = 1000000
+agit_size = 30
+agit_parent_castleid = 8
+agit_auction = 1
+next_auction = 2005/01/27/12
+owner_restart_territory = {}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+agit_end
+
+agit_begin
+[rune_castle_agit_004]
+54
+auction
+residence_territory = {{{39320;-48616;896;1096};{39848;-48616;896;1096};{39848;-47848;896;1096};{39336;-47848;896;1096}}}
+battlefield_territory = {}
+headquarter_territory = {}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{39608;-48264;904}}
+other_restart_village_list = {{38615;-48211;896}}
+chao_restart_point_list = {}
+banish_point_list = {{38615;-48211;896}}
+mercenary_point_list  = {}
+residence_guard_mapping = {}
+owning_npc_list = {{[Shawn];0};{[Jimmy];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/04
+siege_term = 0
+residence_state = initial
+residence_gate_list = {{[rune_castle_agit_004_001];0};{[rune_castle_agit_004_002];0}}
+breakable_wall_list = {}
+control_tower_list = {}
+holything = {{[];{;;};;;}}
+residence_grade = 3
+tax_rate = 10
+tax_sysget_rate = 0
+tribute_rate = 50
+agit_auction_min = 50000000
+agit_deposit = 1500000
+agit_lease = 1000000
+agit_size = 30
+agit_parent_castleid = 8
+agit_auction = 1
+next_auction = 2005/01/27/12
+owner_restart_territory = {}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+agit_end
+
+agit_begin
+[rune_castle_agit_005]
+55
+auction
+residence_territory = {{{39432;-47192;896;1096};{39800;-46952;896;1096};{39544;-46424;896;1096};{39048;-46648;896;1096};{39208;-46872;896;1096};{39096;-46952;896;1096};{39160;-47048;896;1096};{39272;-46984;896;1096}}}
+battlefield_territory = {}
+headquarter_territory = {}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{39480;-46792;904}}
+other_restart_village_list = {{38615;-48211;896}}
+chao_restart_point_list = {}
+banish_point_list = {{38615;-48211;896}}
+mercenary_point_list  = {}
+residence_guard_mapping = {}
+owning_npc_list = {{[Ryan];0};{[Michael];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/04
+siege_term = 0
+residence_state = initial
+residence_gate_list = {{[rune_castle_agit_005_001];0};{[rune_castle_agit_005_002];0}}
+breakable_wall_list = {}
+control_tower_list = {}
+holything = {{[];{;;};;;}}
+residence_grade = 3
+tax_rate = 10
+tax_sysget_rate = 0
+tribute_rate = 50
+agit_auction_min = 50000000
+agit_deposit = 1500000
+agit_lease = 1000000
+agit_size = 30
+agit_parent_castleid = 8
+agit_auction = 1
+next_auction = 2005/01/27/12
+owner_restart_territory = {}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+agit_end
+
+agit_begin
+[rune_castle_agit_006]
+56
+auction
+residence_territory = {{{38904;-46376;896;1096};{39240;-46040;896;1096};{38600;-45656;896;1096};{38344;-46088;896;1096};{38600;-46216;896;1096};{38520;-46328;896;1096};{38632;-46392;896;1096};{38696;-46280;896;1096}}}
+battlefield_territory = {}
+headquarter_territory = {}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{38729;-46040;904}}
+other_restart_village_list = {{38615;-48211;896}}
+chao_restart_point_list = {}
+banish_point_list = {{38615;-48211;896}}
+mercenary_point_list  = {}
+residence_guard_mapping = {}
+owning_npc_list = {{[Harry];0};{[Jack];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/04
+siege_term = 0
+residence_state = initial
+residence_gate_list = {{[rune_castle_agit_006_001];0};{[rune_castle_agit_006_002];0}}
+breakable_wall_list = {}
+control_tower_list = {}
+holything = {{[];{;;};;;}}
+residence_grade = 3
+tax_rate = 10
+tax_sysget_rate = 0
+tribute_rate = 50
+agit_auction_min = 50000000
+agit_deposit = 1500000
+agit_lease = 1000000
+agit_size = 30
+agit_parent_castleid = 8
+agit_auction = 1
+next_auction = 2005/01/27/12
+owner_restart_territory = {}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+agit_end
+
+agit_begin
+[rune_castle_agit_007]
+57
+auction
+residence_territory = {{{38072;-45928;896;1096};{38072;-45416;896;1096};{37384;-45432;896;1096};{37384;-45944;896;1096};{37688;-45944;896;1096};{37688;-46056;896;1096};{37800;-46056;896;1096};{37800;-45928;896;1096}}}
+battlefield_territory = {}
+headquarter_territory = {}
+domain_territory = {}
+manor_territory = {}
+owner_restart_point_list = {{37752;-45720;904}}
+other_restart_village_list = {{38615;-48211;896}}
+chao_restart_point_list = {}
+banish_point_list = {{38615;-48211;896}}
+mercenary_point_list  = {}
+residence_guard_mapping = {}
+owning_npc_list = {{[Egon];0};{[Karuto];0}}
+additional_npc_list = {}
+boss_npc_list = {}
+agit_list = {}
+//bulletin_id = none
+next_siege = 2003/4/2/20/04
+siege_term = 0
+residence_state = initial
+residence_gate_list = {{[rune_castle_agit_007_001];0};{[rune_castle_agit_007_002];0}}
+breakable_wall_list = {}
+control_tower_list = {}
+holything = {{[];{;;};;;}}
+residence_grade = 3
+tax_rate = 10
+tax_sysget_rate = 0
+tribute_rate = 50
+agit_auction_min = 50000000
+agit_deposit = 1500000
+agit_lease = 1000000
+agit_size = 30
+agit_parent_castleid = 8
+agit_auction = 1
+next_auction = 2005/01/27/12
+owner_restart_territory = {}
+battle_royal_flag_point_list = {}
+final_flag_point_list = {}
+final_open_door_list = {}
+agit_end
+
+castle_common_begin
+base_siege_time = 2003 / 4 / 2 / 20 / 0
+reservable_siege_time = {{SAT;20};{SUN;16}}
+max_concurrent_siege = 4
+castle_common_end

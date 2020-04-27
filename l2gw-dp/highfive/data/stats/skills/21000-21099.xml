@@ -1,0 +1,1980 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<skill id="21000" levels="1" name="Release Seal on Agathion - Majo">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="hitTime" val="3000"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="staticReuse" val="true"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="npcId" val="1501"/>
+		<for>
+			<effect name="i_summon_agathion"/>
+		</for>
+	</skill>
+	<skill id="21001" levels="1" name="Release Seal on Agathion - Gold Majo">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="hitTime" val="3000"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="staticReuse" val="true"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="npcId" val="1502"/>
+		<for>
+			<effect name="i_summon_agathion"/>
+		</for>
+	</skill>
+	<skill id="21002" levels="1" name="Release Seal on Agathion - Black Majo">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="hitTime" val="3000"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="staticReuse" val="true"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="npcId" val="1503"/>
+		<for>
+			<effect name="i_summon_agathion"/>
+		</for>
+	</skill>
+	<skill id="21003" levels="1" name="Release Seal on Agathion - Plaipitak">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="effectPoint" val="0"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="hitTime" val="3000"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="staticReuse" val="true"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="npcId" val="1504"/>
+		<for>
+			<effect name="i_summon_agathion"/>
+		</for>
+	</skill>
+	<skill id="21004" levels="1" name="Wind Walk">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="levelMod" val="0"/>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_type" val="SpeedUp"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="1080000"/>
+		<set name="hitTime" val="4000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="runSpd" val="20"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21005" levels="1" name="Agility">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="levelMod" val="0"/>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_type" val="rEvas"/>
+		<set name="abnormalLevel" val="26"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="86400000"/>
+		<set name="hitTime" val="4000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="rEvas" val="20"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21006" levels="1" name="Large Firework Effect">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="reuseDelay" val="3600000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="21007" levels="1" name="Ability of Doubt">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="abnormal_ve" val="bighead"/>
+		<set name="abnormal_time" val="1200"/>
+		<set name="abnormal_type" val="BigHead"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="reuseDelay" val="3600000"/>
+		<for>
+			<effect/>
+		</for>
+	</skill>
+	<skill id="21008" levels="1" name="Release Seal on Agathion – Baby Panda">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="effectPoint" val="0"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="hitTime" val="3000"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="staticReuse" val="true"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="npcId" val="1505"/>
+		<for>
+			<effect name="i_summon_agathion"/>
+		</for>
+	</skill>
+	<skill id="21009" levels="1" name="Release Seal on Agathion – Bamboo Panda">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="effectPoint" val="0"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="hitTime" val="3000"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="staticReuse" val="true"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="npcId" val="1506"/>
+		<for>
+			<effect name="i_summon_agathion"/>
+		</for>
+	</skill>
+	<skill id="21010" levels="1" name="Release Seal on Agathion – Sexy Panda">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="effectPoint" val="0"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="hitTime" val="3000"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="staticReuse" val="true"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="npcId" val="1507"/>
+		<for>
+			<effect name="i_summon_agathion"/>
+		</for>
+	</skill>
+	<skill id="21011" levels="1" name="Energy Recovery">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="abnormal_ve" val="vitality"/>
+		<set name="abnormal_time" val="1200"/>
+		<set name="abnormal_type" val="vitality"/>
+		<set name="abnormalLevel" val="26"/>
+		<set name="hitTime" val="4000"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="reuseDelay" val="43200000"/>
+		<for>
+			<effect>
+				<set order="0x20" stat="recovery_vp" val="1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21012" levels="1" name="Energy Recovery">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="abnormal_ve" val="vitality"/>
+		<set name="abnormal_time" val="1200"/>
+		<set name="abnormal_type" val="vitality"/>
+		<set name="abnormalLevel" val="26"/>
+		<set name="hitTime" val="4000"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="reuseDelay" val="43200000"/>
+		<for>
+			<effect>
+				<set order="0x20" stat="recovery_vp" val="1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21013" levels="1" name="Energy Recovery">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="abnormal_ve" val="vitality"/>
+		<set name="abnormal_time" val="1200"/>
+		<set name="abnormal_type" val="vitality"/>
+		<set name="abnormalLevel" val="26"/>
+		<set name="hitTime" val="4000"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="reuseDelay" val="43200000"/>
+		<for>
+			<effect>
+				<set order="0x20" stat="recovery_vp" val="1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21014" levels="1" name="Scissors">
+		<set name="hitCancelTime" val="1000"/>
+		<set name="isMagic" val="2"/>
+		<set name="staticReuse" val="true"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="hitTime" val="2000"/>
+		<!-- 
+			Generated from client by rage
+			Challenge opponent with "Scissors." Can only be used on Thomas D. Turkey.
+		-->
+		<set name="magicLevel" val="1"/>
+		<set name="coolTime" val="500"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="target_type" val="enemy"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="400"/>
+		<cond msgId="113">
+			<player attackerNpcId="100"/>
+		</cond>
+		<for/>
+	</skill>
+	<skill id="21015" levels="1" name="Rock">
+		<set name="hitCancelTime" val="1000"/>
+		<set name="isMagic" val="2"/>
+		<set name="staticReuse" val="true"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="hitTime" val="2000"/>
+		<!-- 
+			Generated from client by rage
+			Challenge opponent with "Rock." Can only be used on Thomas D. Turkey.
+		-->
+		<set name="magicLevel" val="1"/>
+		<set name="coolTime" val="500"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="target_type" val="enemy"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="400"/>
+		<cond msgId="113">
+			<player attackerNpcId="100"/>
+		</cond>
+		<for/>
+	</skill>
+	<skill id="21016" levels="1" name="Paper">
+		<set name="hitCancelTime" val="1000"/>
+		<set name="isMagic" val="2"/>
+		<set name="staticReuse" val="true"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="hitTime" val="2000"/>
+		<!-- 
+			Generated from client by rage
+			Challenge opponent with "Paper." Can only be used on Thomas D. Turkey.
+		-->
+		<set name="magicLevel" val="1"/>
+		<set name="coolTime" val="500"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="target_type" val="enemy"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="400"/>
+		<cond msgId="113">
+			<player attackerNpcId="100"/>
+		</cond>
+		<for/>
+	</skill>
+	<skill id="21017" levels="1" name="Holiday Dream Weapon">
+		<table name="#castRange"> -1</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Max CP is increased. The rate of critical attacks is increased. Bestow the ability to regenerate HP by using some of the damage inflicted on the enemy. Excludes damage caused by skills and long-range attacks.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="maxCp" val="1.3"/>
+			<add order="0x40" stat="rCrit" val="100"/>
+			<add order="0x40" stat="absorbDam" val="10"/>
+		</for>
+	</skill>
+	<skill id="21018" levels="1" name="Holiday Dream Weapon">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Max CP is increased. The rate and power of critical attacks are increased.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="maxCp" val="1.3"/>
+			<add order="0x40" stat="rCrit" val="100"/>
+			<mul order="0x30" stat="cAtk" val="1.25"/>
+		</for>
+	</skill>
+	<skill id="21019" levels="1" name="Holiday Dream Weapon">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Max CP is increased. The probability of deadly attacks is increased, and MP consumption for skills is decreased.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="maxCp" val="1.3"/>
+			<mul order="0x30" stat="blowRate" val="1.25"/>
+			<mul order="0x30" stat="mpConsumePhysical" val="0.8"/>
+		</for>
+	</skill>
+	<skill id="21020" levels="1" name="Holiday Dream Weapon">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Max CP and critical attack rate are increased.  Will also regenerate HP by using some of the damage inflicted on the enemy.  Excludes damage caused by skills and long-range attacks.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="maxCp" val="1.3"/>
+			<add order="0x40" stat="rCrit" val="100"/>
+			<add order="0x40" stat="absorbDam" val="10"/>
+		</for>
+	</skill>
+	<skill id="21021" levels="1" name="Holiday Dream Weapon">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Max CP is increased. The rate and power of critical attacks are increased.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="maxCp" val="1.3"/>
+			<add order="0x40" stat="rCrit" val="100"/>
+			<mul order="0x30" stat="cAtk" val="1.25"/>
+		</for>
+	</skill>
+	<skill id="21022" levels="1" name="Holiday Dream Weapon">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Max CP is increased. Casting speed is increased, and MP consumption for skills is decreased.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="maxCp" val="1.3"/>
+			<mul order="0x30" stat="mAtkSpd" val="1.25"/>
+			<mul order="0x30" stat="mpConsume" val="0.8"/>
+		</for>
+	</skill>
+	<skill id="21023" levels="1" name="Holiday Dream Weapon">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Max CP and M. Atk. are increased, and MP consumption for skills is decreased.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="maxCp" val="1.3"/>
+			<mul order="0x30" stat="mAtk" val="1.5"/>
+			<mul order="0x30" stat="mpConsume" val="0.8"/>
+		</for>
+	</skill>
+	<skill id="21024" levels="1" name="Holiday Dream Weapon">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Max CP is increased. MP consumption per skill is decreased. Bestow the ability to regenerate HP by using some of the damage inflicted on the enemy. Excludes damage caused by skills and long-range attacks.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="maxCp" val="1.3"/>
+			<add order="0x40" stat="absorbDam" val="10"/>
+			<mul order="0x30" stat="mpConsumePhysical" val="0.8"/>
+		</for>
+	</skill>
+	<skill id="21025" levels="1" name="Holiday Dream Weapon">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Max CP is increased. The rate and range of critical attacks are increased.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="maxCp" val="1.3"/>
+			<mul order="0x30" stat="rCrit" val="1.25"/>
+			<mul order="0x30" stat="pAtkRange" val="1.25"/>
+		</for>
+	</skill>
+	<skill id="21026" levels="1" name="Holiday Dream Weapon">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Max CP is increased. Number of enemies which can be attacked at the same time increases. Bestow the ability to regenerate HP by using some of the damage inflicted on the enemy. Excludes damage caused by skills and long-range attacks.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="maxCp" val="1.3"/>
+			<add order="0x40" stat="poleTargetCount" val="10"/>
+			<add order="0x40" stat="absorbDam" val="10"/>
+		</for>
+	</skill>
+	<skill id="21027" levels="1" name="Holiday Dream Weapon">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Max CP is increased. Atk. Spd. increases, and MP consumption for skills is decreased.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="maxCp" val="1.3"/>
+			<mul order="0x30" stat="pAtkSpd" val="1.25"/>
+			<mul order="0x30" stat="mpConsumePhysical" val="0.8"/>
+			<mul order="0x30" stat="mpDanceConsume" val="0.8"/>
+		</for>
+	</skill>
+	<skill id="21028" levels="1" name="Holiday Dream Weapon">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Max CP is increased. The rate of critical attacks is increased. Bestow the ability to regenerate HP by using some of the damage inflicted on the enemy. Excludes damage caused by skills and long-range attacks.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="maxCp" val="1.3"/>
+			<add order="0x40" stat="rCrit" val="100"/>
+			<add order="0x40" stat="absorbDam" val="10"/>
+		</for>
+	</skill>
+	<skill id="21029" levels="1" name="Holiday Dream Weapon">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Max CP is increased. The rate and power of critical attacks are increased.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="maxCp" val="1.3"/>
+			<add order="0x40" stat="rCrit" val="100"/>
+			<mul order="0x30" stat="cAtk" val="1.25"/>
+		</for>
+	</skill>
+	<skill id="21030" levels="1" name="Holiday Dream Weapon">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- 
+			Generated from client by rage
+			Max CP is increased. Evasion and Accuracy are increased.
+		-->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="maxCp" val="1.3"/>
+			<add order="0x40" stat="rEvas" val="5"/>
+			<add order="0x40" stat="accCombat" val="5"/>
+		</for>
+	</skill>
+	<skill id="21031" levels="1" name="Agathion Seal Release - Charming Cupid">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="effectPoint" val="0"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="hitTime" val="3000"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="staticReuse" val="true"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="npcId" val="1508"/>
+		<for>
+			<effect name="i_summon_agathion"/>
+		</for>
+	</skill>
+	<skill id="21032" levels="1" name="Agathion Seal Release - Naughty Cupid">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="effectPoint" val="0"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="hitTime" val="3000"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="staticReuse" val="true"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="npcId" val="1509"/>
+		<for>
+			<effect name="i_summon_agathion"/>
+		</for>
+	</skill>
+	<skill id="21033" levels="1" name="Release Seal on Agathion - White Maneki Neko">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="effectPoint" val="0"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="hitTime" val="3000"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="staticReuse" val="true"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="npcId" val="1510"/>
+		<for>
+			<effect name="i_summon_agathion"/>
+		</for>
+	</skill>
+	<skill id="21034" levels="1" name="Release Seal on Agathion - Black Maneki Neko">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="effectPoint" val="0"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="hitTime" val="3000"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="staticReuse" val="true"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="npcId" val="1511"/>
+		<for>
+			<effect name="i_summon_agathion"/>
+		</for>
+	</skill>
+	<skill id="21035" levels="1" name="Release Seal on Agathion - Brown Maneki Neko">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="effectPoint" val="0"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="hitTime" val="3000"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="staticReuse" val="true"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="npcId" val="1512"/>
+		<for>
+			<effect name="i_summon_agathion"/>
+		</for>
+	</skill>
+	<skill id="21036" levels="1" name="Release Seal on Agathion - One-eyed Bat Drove">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="effectPoint" val="0"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="hitTime" val="3000"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="staticReuse" val="true"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="npcId" val="1513"/>
+		<for>
+			<effect name="i_summon_agathion"/>
+		</for>
+	</skill>
+	<skill id="21037" levels="1" name="Release Seal on Agathion - Pegasus">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="effectPoint" val="0"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="hitTime" val="3000"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="staticReuse" val="true"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="npcId" val="1514"/>
+		<for>
+			<effect name="i_summon_agathion"/>
+		</for>
+	</skill>
+	<skill id="21038" levels="1" name="Release Seal on Agathion - Yellow-robed Tojigong">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="effectPoint" val="0"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="hitTime" val="3000"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="staticReuse" val="true"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="npcId" val="1515"/>
+		<for>
+			<effect name="i_summon_agathion"/>
+		</for>
+	</skill>
+	<skill id="21039" levels="1" name="Release Seal on Agathion - Blue-robed Tojigong">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="effectPoint" val="0"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="hitTime" val="3000"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="staticReuse" val="true"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="npcId" val="1516"/>
+		<for>
+			<effect name="i_summon_agathion"/>
+		</for>
+	</skill>
+	<skill id="21040" levels="1" name="Release Seal on Agathion - Yellow-robed Tojigong">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="effectPoint" val="0"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="hitTime" val="3000"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="staticReuse" val="true"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="npcId" val="1517"/>
+		<for>
+			<effect name="i_summon_agathion"/>
+		</for>
+	</skill>
+	<skill id="21041" levels="1" name="Release Seal on Agathion - Bugbear">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="effectPoint" val="0"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="hitTime" val="3000"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="staticReuse" val="true"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="npcId" val="1518"/>
+		<for>
+			<effect name="i_summon_agathion"/>
+		</for>
+	</skill>
+	<skill id="21042" levels="1" name="Baguette's Blessing">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="levelMod" val="0"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="1800000"/>
+		<set name="hitTime" val="3000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect name="i_hp_per_max" val="100"/>
+			<effect name="i_mp_per_max" val="50"/>
+		</for>
+	</skill>
+	<skill id="21043" levels="1" name="Agathion Seal Cancel - Red Sumo Wrestler">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="effectPoint" val="0"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="hitTime" val="3000"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="staticReuse" val="true"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="npcId" val="1519"/>
+		<for>
+			<effect name="i_summon_agathion"/>
+		</for>
+	</skill>
+	<skill id="21044" levels="1" name="Agathion Seal Cancel - Blue Sumo Wrestler Agathion">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="effectPoint" val="0"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="hitTime" val="3000"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="staticReuse" val="true"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="npcId" val="1520"/>
+		<for>
+			<effect name="i_summon_agathion"/>
+		</for>
+	</skill>
+	<skill id="21045" levels="1" name="Agathion Seal Cancel - Great Sumo Match">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="effectPoint" val="0"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="hitTime" val="3000"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="staticReuse" val="true"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="npcId" val="1521"/>
+		<for>
+			<effect name="i_summon_agathion"/>
+		</for>
+	</skill>
+	<skill id="21046" levels="1" name="Agathion Seal Cancel - Button-Eyed Bear Doll">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="effectPoint" val="0"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="hitTime" val="3000"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="staticReuse" val="true"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="npcId" val="1522"/>
+		<for>
+			<effect name="i_summon_agathion"/>
+		</for>
+	</skill>
+	<skill id="21047" levels="1" name="Agathion Seal Cancel - God of Fortune">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="effectPoint" val="0"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="hitTime" val="3000"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="staticReuse" val="true"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="npcId" val="1523"/>
+		<for>
+			<effect name="i_summon_agathion"/>
+		</for>
+	</skill>
+	<skill id="21048" levels="1" name="Agathion Seal Cancel - Dryad">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="effectPoint" val="0"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="hitTime" val="3000"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="staticReuse" val="true"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="npcId" val="1524"/>
+		<for>
+			<effect name="i_summon_agathion"/>
+		</for>
+	</skill>
+	<skill id="21049" levels="1" name="Agathion Seal Cancel - Wonboso">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="effectPoint" val="0"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="hitTime" val="3000"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="staticReuse" val="true"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="npcId" val="1525"/>
+		<for>
+			<effect name="i_summon_agathion"/>
+		</for>
+	</skill>
+	<skill id="21050" levels="1" name="Agathion Seal Cancel - Daewoonso">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="effectPoint" val="0"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="hitTime" val="3000"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="staticReuse" val="true"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="npcId" val="1526"/>
+		<for>
+			<effect name="i_summon_agathion"/>
+		</for>
+	</skill>
+	<skill id="21051" levels="1" name="Steam Beatle Mount">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="abnormal_time" val="3600"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="cancelable" val="false"/>
+		<set name="addSkills" val="5437;2;"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isCommon" val="true"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<target hasBuffId="1411;false" msgId="2064" />
+				<player olympiad="false" msgId="1509"/>
+				<player riding="none" msgId="2063"/>
+				<target playerOnly="true"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="t_transform" val="110" npcId="13147" femaleNpcId="13147"/>
+		</for>
+	</skill>
+	<skill id="21052" levels="1" name="Bless the Body">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="levelMod" val="0"/>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormal_type" val="hp_up"/>
+		<set name="abnormalLevel" val="4"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="14400000"/>
+		<set name="hitTime" val="4000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="maxHp" val="1.25"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21053" levels="1" name="Bless the Soul">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="levelMod" val="0"/>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormal_type" val="mp_up"/>
+		<set name="abnormalLevel" val="4"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="14400000"/>
+		<set name="hitTime" val="4000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="maxMp" val="1.25"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21054" levels="1" name="Blessed Resurrection Ability">
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="target_type" val="pc_body"/>
+		<set name="reuseDelay" val="43200000"/>
+		<set name="hitTime" val="3000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="400"/>
+		<set name="isValidateable" val="false"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="nextAction" val="none"/>
+		<cond msgId="113">
+			<and>
+				<CanResurrect/>
+				<agathion/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_resurrection" val="200"/>
+		</for>
+	</skill>
+	<skill id="21055" levels="1" name="Wind Walk">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="levelMod" val="0"/>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_type" val="SpeedUp"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="1080000"/>
+		<set name="hitTime" val="4000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="runSpd" val="20"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21056" levels="1" name="Agility">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="levelMod" val="0"/>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_type" val="rEvas"/>
+		<set name="abnormalLevel" val="26"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="86400000"/>
+		<set name="hitTime" val="4000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="rEvas" val="20"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21057" levels="1" name="Reflect">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="levelMod" val="0"/>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_type" val="DmgShield"/>
+		<set name="abnormalLevel" val="3"/>
+		<set name="power" val="20"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="3600000"/>
+		<set name="hitTime" val="3000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="reflectDam" val="20"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21058" levels="1" name="Mana Regeneration">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="levelMod" val="0"/>
+		<set name="hitTime" val="3000"/>
+		<set name="abnormal_type" val="mpregen"/>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormalLevel" val="26"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="3600000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="regMp" val="3.09"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21059" levels="1" name="Greater Heal">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="levelMod" val="0"/>
+		<set name="abnormal_type" val="hp_recover_heal"/>
+		<set name="abnormal_time" val="15"/>
+		<set name="abnormalLevel" val="26"/>
+		<set name="power" val="444"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="14400000"/>
+		<set name="hitTime" val="3000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect name="i_heal"/>
+			<effect name="t_hp" ticks="3" val="30"/>
+		</for>
+	</skill>
+	<skill id="21060" levels="1" name="Death Whisper">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="levelMod" val="0"/>
+		<set name="hitTime" val="3000"/>
+		<set name="abnormal_type" val="cAtk"/>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormalLevel" val="26"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="3600000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="cAtk" val="1.35"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21061" levels="1" name="Agility">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="levelMod" val="0"/>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_type" val="rEvas"/>
+		<set name="abnormalLevel" val="26"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="86400000"/>
+		<set name="hitTime" val="4000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="rEvas" val="20"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21062" levels="1" name="Wild Magic">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="levelMod" val="0"/>
+		<set name="hitTime" val="3000"/>
+		<set name="abnormal_type" val="magicCritUp"/>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormalLevel" val="26"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="3600000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="mCritRate" val="1.02"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21063" levels="1" name="Wind Walk">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="levelMod" val="0"/>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_type" val="SpeedUp"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="1080000"/>
+		<set name="hitTime" val="4000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="runSpd" val="20"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21064" levels="1" name="Mana Regeneration">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="levelMod" val="0"/>
+		<set name="hitTime" val="3000"/>
+		<set name="abnormal_type" val="mpregen"/>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormalLevel" val="26"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="3600000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="regMp" val="3.09"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21065" levels="1" name="Reflect">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="levelMod" val="0"/>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_type" val="DmgShield"/>
+		<set name="abnormalLevel" val="3"/>
+		<set name="power" val="20"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="3600000"/>
+		<set name="hitTime" val="3000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="reflectDam" val="20"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21066" levels="1" name="Energy Recovery">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="abnormal_ve" val="vitality"/>
+		<set name="abnormal_time" val="1200"/>
+		<set name="abnormal_type" val="vitality"/>
+		<set name="abnormalLevel" val="26"/>
+		<set name="hitTime" val="4000"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="reuseDelay" val="43200000"/>
+		<for>
+			<effect>
+				<set order="0x20" stat="recovery_vp" val="1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21067" levels="1" name="Blessed Escape Ability">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="target_type" val="self"/>
+		<set name="hitTime" val="200"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="reuseDelay" val="43200000"/>
+		<cond msgId="113">
+			<CanEscape/>
+		</cond>
+		<for>
+			<effect name="i_escape" type="town"/>
+		</for>
+	</skill>
+	<skill id="21068" levels="1" name="Resist Unholy">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="hitTime" val="3000"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="levelMod" val="0"/>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_type" val="UnholyAtr"/>
+		<set name="abnormalLevel" val="26"/>
+		<set name="reuseDelay" val="43200000"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="darkAttr" val="30"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21069" levels="1" name="Wind Walk">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="levelMod" val="0"/>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_type" val="SpeedUp"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="1080000"/>
+		<set name="hitTime" val="4000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="runSpd" val="20"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21070" levels="1" name="Death Whisper">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="levelMod" val="0"/>
+		<set name="hitTime" val="3000"/>
+		<set name="abnormal_type" val="cAtk"/>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormalLevel" val="26"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="3600000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="cAtk" val="1.35"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21071" levels="1" name="Agility">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="levelMod" val="0"/>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_type" val="rEvas"/>
+		<set name="abnormalLevel" val="26"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="86400000"/>
+		<set name="hitTime" val="4000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="rEvas" val="20"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21072" levels="1" name="Wild Magic">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="levelMod" val="0"/>
+		<set name="hitTime" val="3000"/>
+		<set name="abnormal_type" val="magicCritUp"/>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormalLevel" val="26"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="3600000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="mCritRate" val="1.02"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21073" levels="1" name="Mana Regeneration">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="levelMod" val="0"/>
+		<set name="hitTime" val="3000"/>
+		<set name="abnormal_type" val="mpregen"/>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormalLevel" val="26"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="3600000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="regMp" val="3.09"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21074" levels="1" name="Reflect">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="levelMod" val="0"/>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_type" val="DmgShield"/>
+		<set name="abnormalLevel" val="3"/>
+		<set name="power" val="20"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="3600000"/>
+		<set name="hitTime" val="3000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="reflectDam" val="20"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21075" levels="1" name="Greater Heal">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="levelMod" val="0"/>
+		<set name="abnormal_type" val="hp_recover_heal"/>
+		<set name="abnormal_time" val="15"/>
+		<set name="abnormalLevel" val="26"/>
+		<set name="power" val="444"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="14400000"/>
+		<set name="hitTime" val="3000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect name="i_heal"/>
+			<effect name="t_hp" ticks="3" val="30"/>
+		</for>
+	</skill>
+	<skill id="21076" levels="1" name="Resist Unholy">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="hitTime" val="3000"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="levelMod" val="0"/>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_type" val="UnholyAtr"/>
+		<set name="abnormalLevel" val="26"/>
+		<set name="reuseDelay" val="43200000"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="darkAttr" val="30"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21077" levels="1" name="Wind Walk">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="levelMod" val="0"/>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_type" val="SpeedUp"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="1080000"/>
+		<set name="hitTime" val="4000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="runSpd" val="20"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21078" levels="1" name="Death Whisper">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="levelMod" val="0"/>
+		<set name="hitTime" val="3000"/>
+		<set name="abnormal_type" val="cAtk"/>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormalLevel" val="26"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="3600000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="cAtk" val="1.35"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21079" levels="1" name="Agility">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="levelMod" val="0"/>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_type" val="rEvas"/>
+		<set name="abnormalLevel" val="26"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="86400000"/>
+		<set name="hitTime" val="4000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="rEvas" val="20"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21080" levels="1" name="Wild Magic">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="levelMod" val="0"/>
+		<set name="hitTime" val="3000"/>
+		<set name="abnormal_type" val="magicCritUp"/>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormalLevel" val="26"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="3600000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="mCritRate" val="1.02"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21081" levels="1" name="Mana Regeneration">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="levelMod" val="0"/>
+		<set name="hitTime" val="3000"/>
+		<set name="abnormal_type" val="mpregen"/>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormalLevel" val="26"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="3600000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="regMp" val="3.09"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21082" levels="1" name="Reflect">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="levelMod" val="0"/>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_type" val="DmgShield"/>
+		<set name="abnormalLevel" val="3"/>
+		<set name="power" val="20"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="3600000"/>
+		<set name="hitTime" val="3000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="reflectDam" val="20"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21083" levels="1" name="Greater Heal">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="levelMod" val="0"/>
+		<set name="abnormal_type" val="hp_recover_heal"/>
+		<set name="abnormal_time" val="15"/>
+		<set name="abnormalLevel" val="26"/>
+		<set name="power" val="444"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="14400000"/>
+		<set name="hitTime" val="3000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect name="i_heal"/>
+			<effect name="t_hp" ticks="3" val="30"/>
+		</for>
+	</skill>
+	<skill id="21084" levels="1" name="Energy Recovery">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="abnormal_ve" val="vitality"/>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_type" val="vitality"/>
+		<set name="abnormalLevel" val="26"/>
+		<set name="hitTime" val="3000"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="reuseDelay" val="3600000"/>
+		<for>
+			<effect>
+				<set order="0x20" stat="recovery_vp" val="1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21085" levels="1" name="Agathion Seal Cancel - Pomona">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="effectPoint" val="0"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="hitTime" val="3000"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="staticReuse" val="true"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="npcId" val="1527"/>
+		<for>
+			<effect name="i_summon_agathion"/>
+		</for>
+	</skill>
+	<skill id="21086" levels="1" name="Blessing of Love">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="staticReuse" val="true"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="levelMod" val="0"/>
+		<set name="abnormal_time" val="10"/>
+		<set name="abnormal_type" val="barrier"/>
+		<set name="abnormalLevel" val="26"/>
+		<set name="abnormal_ve" val="av2_invul"/>
+		<set name="target_type" val="self"/>
+		<set name="hitTime" val="4000"/>
+		<set name="reuseDelay" val="14400000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect dispelOnSelfAction="true">
+				<add order="0x10" stat="block_hp" val="1"/>
+				<add order="0x10" stat="block_mp" val="1"/>
+				<add order="0x10" stat="block_debuff" val="1"/>
+				<mul order="0x30" stat="cancelRcpt" val="0"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21087" levels="1" name="Berserker Spirit">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Decreases P. Def. by 8%, M. Def. by 16%, and evasion by 4, and increases P. Atk. by 8%, M. Atk. by 16%, Atk. Spd. by 8%, Casting Spd. by 8%, and moving speed by 8 for 20 minutes. -->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="hitTime" val="4000"/>
+		<set name="abnormal_time" val="1200"/>
+		<set name="abnormal_type" val="berserker"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE" />
+		<set name="abnormalLevel" val="26"/>
+		<set name="reuseDelay" val="3600000"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="mAtk" val="1.16" />
+				<mul order="0x30" stat="pAtk" val="1.08" />
+				<mul order="0x30" stat="pDef" val="0.92" />
+				<mul order="0x30" stat="mDef" val="0.85" />
+				<mul order="0x30" stat="mAtkSpd" val="1.08" />
+				<mul order="0x30" stat="pAtkSpd" val="1.08" />
+				<add order="0x40" stat="runSpd" val="8" />
+				<sub order="0x40" stat="rEvas" val="4" />
+			</effect>
+		</for>
+	</skill>
+	<skill id="21088" levels="1" name="Summon Friend">
+		<set name="isMagic" val="2"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Summons your friend. -->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="castRange" val="-2"/>
+		<set name="target_type" val="target"/>
+		<set name="affect_scope" val="single"/>
+		<set name="reuseDelay" val="3600000"/>
+		<set name="hitTime" val="10000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<and>
+			    <target self="false" msgId="109"/>
+				<target myParty="true" msgId="113"/>
+				<CanSummonFriend/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_summon_friend" request="true"/>
+		</for>
+	</skill>
+	<skill id="21089" levels="1" name="Dance of Shadows">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="levelMod" val="0"/>
+		<set name="abnormal_ve" val="stealth"/>
+		<set name="abnormal_type" val="dance_of_shadow"/>
+		<set name="abnormalLevel" val="26"/>
+		<set name="abnormal_time" val="120"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="reuseDelay" val="3600000"/>
+		<set name="hitTime" val="2500"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="runSpd" val="0.5"/>
+				<add order="0x10" stat="avoid_aggro" val="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21090" levels="1" name="Soul of Phoenix">
+		<set name="buff_protect_level" val="1"/>
+		<table name="#mpConsume1">
+			0
+		</table>
+		<table name="#mpConsume2">
+			0
+		</table>
+		<set name="mpConsume1" val="#mpConsume1"/>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="1"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="staticReuse" val="true"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="levelMod" val="0"/>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormal_type" val="resurrection_special"/>
+        <set name="abnormalLevel" val="26"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="86400000"/>
+		<set name="hitTime" val="4000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect name="t_salvation" percent="100"/>
+		</for>
+	</skill>
+	<skill id="21091" levels="1" name="Agathion Seal Cancel - Weaver">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="effectPoint" val="0"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="hitTime" val="3000"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="staticReuse" val="true"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="npcId" val="1528"/>
+		<for>
+			<effect name="i_summon_agathion"/>
+		</for>
+	</skill>
+	<skill id="21092" levels="1" name="Theme - Town">
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="staticReuse" val="true"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="levelMod" val="0"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="21093" levels="1" name="Theme - Hero">
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="staticReuse" val="true"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="levelMod" val="0"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="21094" levels="1" name="Theme - Theme Park">
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="staticReuse" val="true"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="levelMod" val="0"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="21095" levels="1" name="Blessed Resurrection">
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="target_type" val="pc_body"/>
+		<set name="reuseDelay" val="43200000"/>
+		<set name="hitTime" val="3000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="castRange" val="400"/>
+		<set name="isValidateable" val="false"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="nextAction" val="none"/>
+		<cond msgId="113">
+			<and>
+				<CanResurrect/>
+				<agathion/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_resurrection" val="200"/>
+		</for>
+	</skill>
+	<skill id="21096" levels="1" name="Ability of Cool Watermelon">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormal_type" val="cAtk;rCritPercent"/>
+		<set name="abnormalLevel" val="26"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="14400000"/>
+		<set name="hitTime" val="3000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="cAtk" val="1.35"/>
+				<mul order="0x30" stat="rCrit" val="1.30"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21097" levels="1" name="Summon Friend">
+		<set name="isMagic" val="2"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Summons your friend. -->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="castRange" val="-2"/>
+		<set name="target_type" val="target"/>
+		<set name="affect_scope" val="single"/>
+		<set name="reuseDelay" val="3600000"/>
+		<set name="hitTime" val="10000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<and>
+			    <target self="false" msgId="109"/>
+				<target myParty="true" msgId="113"/>
+				<CanSummonFriend/>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_summon_friend" request="true"/>
+		</for>
+	</skill>
+	<skill id="21098" levels="1" name="Great Adventurer's Soul Power : Endless">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_type" val="multi_buff"/>
+		<set name="abnormalLevel" val="26"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="3600000"/>
+		<set name="hitTime" val="4000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="maxHp" val="1.2"/>
+				<mul order="0x30" stat="maxMp" val="1.2"/>
+				<mul order="0x30" stat="runSpd" val="1.2"/>
+				<mul order="0x30" stat="debuffRcpt" val="0.9"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21099" levels="1" name="Great Warrior's Soul Power: Strength">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="abnormal_time" val="300"/>
+		<set name="abnormal_type" val="multi_buff"/>
+		<set name="abnormalLevel" val="26"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="3600000"/>
+		<set name="hitTime" val="4000"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="pAtkSpd" val="1.2"/>
+				<mul order="0x30" stat="pAtk" val="1.1"/>
+				<mul order="0x30" stat="pDef" val="1.2"/>
+				<add order="0x40" stat="absorbDam" val="5"/>
+			</effect>
+		</for>
+	</skill>
+</list>

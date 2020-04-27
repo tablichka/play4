@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="14520" name="Vesper Breastplate {PvP}">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="14522" name="Vesper Tunic {PvP}">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="14523" name="Vesper Noble Breastplate {PvP}">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="14525" name="Vesper Noble Tunic {PvP}">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="14583" name="Apella Combat Armor">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="14584" name="Apella Combat Gauntlet - Heavy Armor Use">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="14585" name="Apella Combat Boots - Heavy Armor Use">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="14589" name="Apella Combat Overcoat">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="14590" name="Apella Combat Silk Gloves - Robe Use">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="14591" name="Apella Combat Sandals - Robe Use">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+</list>

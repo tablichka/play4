@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<item id='10425' name="food_for_upgrade_baby_pet">
+		<cond msgId="113">
+			<uc category="upgrade_baby_pet_group"/>
+		</cond>
+		<for/>
+	</item>
+	<item id='10485' name="High-Grade Life Stone - level 82">
+	<!-- High-Grade mineral created when a stone in a monster is solidified by a physical or magic hit. Usable by characters level 82 and above when refining weapons. -->
+		<for/>
+	</item>
+
+	<item id='10486' name="Top-Grade Life Stone - level 82">
+	<!-- Top-Grade mineral created when a stone in a monster is solidified by a physical or magic hit. Usable by characters level 82 and above when refining weapons. -->
+		<for/>
+	</item>
+
+</list>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<skill id="9900" levels="1" name="Pailaka Fire Resist Potion">
+        <set name="itemConsumeId" val="13040"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="hitTime" val="0"/>
+        <set name="abnormal_time" val="600"/>
+        <set name="abnormal_type" val="ElementDefUp"/>
+        <set name="abnormalLevel" val="1"/>
+		<set name="magicLevel" val="1"/>
+        <set name="displayId" val="2335"/>
+        <set name="target_type" val="self"/>
+        <set name="affect_scope" val="single"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+		<cond>
+			<player instance="43"/>
+		</cond>
+		<for>
+			<effect>
+				<add order="0x40" stat="fireAttr" val="30"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="9901" levels="1" name="Pailaka Water Resist Potion">
+        <set name="itemConsumeId" val="13041"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="hitTime" val="0"/>
+        <set name="abnormal_time" val="600"/>
+        <set name="abnormal_type" val="ElementDefUp"/>
+        <set name="abnormalLevel" val="1"/>
+		<set name="magicLevel" val="1"/>
+        <set name="displayId" val="2336"/>
+        <set name="target_type" val="self"/>
+        <set name="affect_scope" val="single"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+		<cond>
+			<player instance="43"/>
+		</cond>
+		<for>
+			<effect>
+				<add order="0x40" stat="waterAttr" val="30"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="9902" levels="1" name="Divine Soul">
+        <set name="itemConsumeId" val="13049"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="hitTime" val="0"/>
+        <set name="abnormal_time" val="600"/>
+        <set name="abnormal_type" val="ElementDefUp"/>
+		<set name="abnormalLevel" val="1"/>
+        <set name="magicLevel" val="1"/>
+        <set name="displayId" val="2340"/>
+        <set name="target_type" val="self"/>
+        <set name="affect_scope" val="single"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <cond>
+            <player instance="44"/>
+        </cond>
+        <for>
+            <effect>
+                <add order="0x40" stat="darkAttr" val="30"/>
+            </effect>
+        </for>
+    </skill>
+	<skill id="9903" levels="1" name="Divine Soul">
+        <set name="itemConsumeId" val="726"/>
+        <set name="itemConsumeCount" val="1"/>
+        <set name="hitTime" val="0"/>
+        <set name="magicLevel" val="1"/>
+        <set name="displayId" val="2032"/>
+        <set name="target_type" val="self"/>
+        <set name="affect_scope" val="single"/>
+        <set name="operateType" val="OP_ACTIVE"/>
+        <set name="isHandler" val="true"/>
+        <set name="altUse" val="true"/>
+        <for>
+ 			<effect name="i_mp" math="diff" val="5000"/>
+		</for>
+    </skill>
+</list>

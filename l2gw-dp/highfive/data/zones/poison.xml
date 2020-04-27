@@ -1,0 +1,3263 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<zone id="101" name="[spore_boss_poison_zone]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<!-- loc_id: 40101 -->
+		<shape type="Poly" zMin="-4468" zMax="-4118">
+			<point x="43084" y="15944"/>
+			<point x="45140" y="15816"/>
+			<point x="45748" y="17200"/>
+			<point x="44504" y="18780"/>
+			<point x="43284" y="18952"/>
+			<point x="42476" y="18164"/>
+			<point x="42480" y="16448"/>
+		</shape>
+	</zone>
+
+	<zone id="158" name="[fireswamp_1]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="30" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40158 -->
+		<shape type="Poly" zMin="-4752" zMax="-4352">
+			<point x="141408" y="-9676"/>
+			<point x="142248" y="-9284"/>
+			<point x="142428" y="-8732"/>
+			<point x="142344" y="-8256"/>
+			<point x="142096" y="-8136"/>
+			<point x="141600" y="-8444"/>
+			<point x="141264" y="-9352"/>
+		</shape>
+	</zone>
+
+	<zone id="159" name="[fireswamp_2]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="30" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40159 -->
+		<shape type="Poly" zMin="-4908" zMax="-4508">
+			<point x="143780" y="-8144"/>
+			<point x="144504" y="-8484"/>
+			<point x="145000" y="-8064"/>
+			<point x="144948" y="-7372"/>
+			<point x="144552" y="-6872"/>
+			<point x="144120" y="-7076"/>
+			<point x="143716" y="-7672"/>
+		</shape>
+	</zone>
+
+	<zone id="160" name="[fireswamp_3]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="30" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40160 -->
+		<shape type="Poly" zMin="-4776" zMax="-4376">
+			<point x="144144" y="-7020"/>
+			<point x="144552" y="-6836"/>
+			<point x="144564" y="-6324"/>
+			<point x="144072" y="-6280"/>
+		</shape>
+	</zone>
+
+	<zone id="161" name="[fireswamp_4]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="30" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40161 -->
+		<shape type="Poly" zMin="-4888" zMax="-4288">
+			<point x="144060" y="-6240"/>
+			<point x="144548" y="-6276"/>
+			<point x="145416" y="-5772"/>
+			<point x="145292" y="-4940"/>
+			<point x="144208" y="-5076"/>
+			<point x="143920" y="-5540"/>
+		</shape>
+	</zone>
+
+	<zone id="162" name="[fireswamp_5]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="30" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40162 -->
+		<shape type="Poly" zMin="-4672" zMax="-4272">
+			<point x="148616" y="-9208"/>
+			<point x="149200" y="-9492"/>
+			<point x="149992" y="-9472"/>
+			<point x="149880" y="-8348"/>
+			<point x="148452" y="-8308"/>
+			<point x="148340" y="-8600"/>
+		</shape>
+	</zone>
+
+	<zone id="163" name="[fireswamp_6]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="30" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40163 -->
+		<shape type="Poly" zMin="-4676" zMax="-4276">
+			<point x="151636" y="-8512"/>
+			<point x="151592" y="-8196"/>
+			<point x="150644" y="-7904"/>
+			<point x="149912" y="-8420"/>
+			<point x="150040" y="-9404"/>
+		</shape>
+	</zone>
+
+	<zone id="164" name="[fireswamp_7]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="30" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40164 -->
+		<shape type="Poly" zMin="-4728" zMax="-4328">
+			<point x="150728" y="-10176"/>
+			<point x="151352" y="-10536"/>
+			<point x="150404" y="-9264"/>
+			<point x="150072" y="-9444"/>
+		</shape>
+	</zone>
+
+	<zone id="165" name="[fireswamp_8]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="30" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40165 -->
+		<shape type="Poly" zMin="-4636" zMax="-4036">
+			<point x="151192" y="-12588"/>
+			<point x="151612" y="-11884"/>
+			<point x="151772" y="-11248"/>
+			<point x="151572" y="-10860"/>
+		</shape>
+	</zone>
+
+	<zone id="166" name="[fireswamp_9]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="30" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40166 -->
+		<shape type="Poly" zMin="-4700" zMax="-4300">
+			<point x="150456" y="-15148"/>
+			<point x="151760" y="-15072"/>
+			<point x="151556" y="-13400"/>
+			<point x="151148" y="-12856"/>
+			<point x="150384" y="-13904"/>
+		</shape>
+	</zone>
+
+	<zone id="167" name="[fireswamp_10]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="30" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40167 -->
+		<shape type="Poly" zMin="-4572" zMax="-3972">
+			<point x="145032" y="-15132"/>
+			<point x="146108" y="-15008"/>
+			<point x="148212" y="-11784"/>
+			<point x="147528" y="-10992"/>
+			<point x="146000" y="-11072"/>
+		</shape>
+	</zone>
+
+	<zone id="168" name="[fireswamp_11]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="30" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40168 -->
+		<shape type="Poly" zMin="-4572" zMax="-4172">
+			<point x="148288" y="-14420"/>
+			<point x="148432" y="-14428"/>
+			<point x="147984" y="-12448"/>
+			<point x="147228" y="-13572"/>
+		</shape>
+	</zone>
+
+	<zone id="169" name="[fireswamp_12]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="30" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40169 -->
+		<shape type="Poly" zMin="-4476" zMax="-2976">
+			<point x="146120" y="-18720"/>
+			<point x="146276" y="-18884"/>
+			<point x="145976" y="-15072"/>
+			<point x="145056" y="-15200"/>
+		</shape>
+	</zone>
+
+	<zone id="170" name="[fireswamp_13]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="30" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40170 -->
+		<shape type="Poly" zMin="-4604" zMax="-4204">
+			<point x="140616" y="-16808"/>
+			<point x="143708" y="-17160"/>
+			<point x="143152" y="-16000"/>
+			<point x="141268" y="-15872"/>
+		</shape>
+	</zone>
+
+	<zone id="171" name="[fireswamp_14]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="30" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40171 -->
+		<shape type="Poly" zMin="-3476" zMax="-3076">
+			<point x="148892" y="-23044"/>
+			<point x="149160" y="-22280"/>
+			<point x="148292" y="-21148"/>
+			<point x="148080" y="-21508"/>
+			<point x="147584" y="-24204"/>
+			<point x="147948" y="-24056"/>
+		</shape>
+	</zone>
+
+	<zone id="172" name="[fireswamp_15]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="30" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40172 -->
+		<shape type="Poly" zMin="-3208" zMax="-1608">
+			<point x="143804" y="-27456"/>
+			<point x="147168" y="-25768"/>
+			<point x="147164" y="-25372"/>
+			<point x="143308" y="-26812"/>
+		</shape>
+	</zone>
+
+	<zone id="183" name="[devil_poison_001]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="30">
+				<skill id="4148" level="4"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40183 -->
+		<shape type="Poly" zMin="-3752" zMax="-3552">
+			<point x="41707" y="211982"/>
+			<point x="42025" y="211917"/>
+			<point x="42463" y="212012"/>
+			<point x="42702" y="212346"/>
+			<point x="42593" y="212977"/>
+			<point x="42301" y="213144"/>
+			<point x="41821" y="213081"/>
+			<point x="41600" y="212602"/>
+		</shape>
+	</zone>
+
+	<zone id="184" name="[devil_poison_002]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="30">
+				<skill id="4148" level="4"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40184 -->
+		<shape type="Poly" zMin="-3800" zMax="-3600">
+			<point x="45296" y="213219"/>
+			<point x="46136" y="213081"/>
+			<point x="46289" y="213374"/>
+			<point x="46158" y="213669"/>
+			<point x="45105" y="213668"/>
+		</shape>
+	</zone>
+
+	<zone id="185" name="[devil_poison_003]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="30">
+				<skill id="4148" level="4"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40185 -->
+		<shape type="Poly" zMin="-3628" zMax="-3428">
+			<point x="47790" y="220792"/>
+			<point x="48632" y="220818"/>
+			<point x="48683" y="220992"/>
+			<point x="47828" y="220980"/>
+		</shape>
+	</zone>
+
+	<zone id="204" name="[spa_11]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="only_pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="100">
+				<skill id="4559" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40204 -->
+		<shape type="Poly" zMin="-3634" zMax="-3434">
+			<point x="141249" y="-109636"/>
+			<point x="141473" y="-109798"/>
+			<point x="141739" y="-109821"/>
+			<point x="141924" y="-109669"/>
+			<point x="142038" y="-109397"/>
+			<point x="141852" y="-109130"/>
+			<point x="141604" y="-109051"/>
+			<point x="141321" y="-109091"/>
+			<point x="141213" y="-109266"/>
+		</shape>
+	</zone>
+
+	<zone id="205" name="[spa_21]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="only_pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="70">
+				<skill id="4559" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40205 -->
+		<shape type="Poly" zMin="-3668" zMax="-3468">
+			<point x="140174" y="-105832"/>
+			<point x="140490" y="-105875"/>
+			<point x="140962" y="-105738"/>
+			<point x="141039" y="-105378"/>
+			<point x="140872" y="-105119"/>
+			<point x="140081" y="-105295"/>
+		</shape>
+	</zone>
+
+	<zone id="206" name="[spa_31]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="only_pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="70">
+				<skill id="4559" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40206 -->
+		<shape type="Poly" zMin="-3724" zMax="-3524">
+			<point x="144927" y="-105193"/>
+			<point x="145226" y="-105412"/>
+			<point x="145576" y="-105344"/>
+			<point x="145819" y="-104976"/>
+			<point x="145575" y="-104555"/>
+			<point x="145217" y="-104490"/>
+			<point x="144935" y="-104684"/>
+			<point x="144832" y="-104959"/>
+		</shape>
+	</zone>
+
+	<zone id="207" name="[spa_41]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="only_pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="70">
+				<skill id="4559" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40207 -->
+		<shape type="Poly" zMin="-2871" zMax="-2671">
+			<point x="152081" y="-108262"/>
+			<point x="152455" y="-108588"/>
+			<point x="152835" y="-108448"/>
+			<point x="152992" y="-108120"/>
+			<point x="152817" y="-107670"/>
+			<point x="152310" y="-107632"/>
+			<point x="152069" y="-107905"/>
+		</shape>
+	</zone>
+
+	<zone id="208" name="[spa_51]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="only_pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="70">
+				<skill id="4559" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40208 -->
+		<shape type="Poly" zMin="-2787" zMax="-2587">
+			<point x="155279" y="-105735"/>
+			<point x="155448" y="-105880"/>
+			<point x="155992" y="-105963"/>
+			<point x="156201" y="-105790"/>
+			<point x="156133" y="-105320"/>
+			<point x="155896" y="-105229"/>
+			<point x="155459" y="-105254"/>
+			<point x="155283" y="-105478"/>
+		</shape>
+	</zone>
+
+	<zone id="209" name="[spa_61]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="only_pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="70">
+				<skill id="4559" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40209 -->
+		<shape type="Poly" zMin="-2717" zMax="-2517">
+			<point x="156838" y="-109948"/>
+			<point x="157133" y="-110046"/>
+			<point x="157436" y="-109918"/>
+			<point x="157491" y="-109405"/>
+			<point x="157197" y="-109197"/>
+			<point x="156843" y="-109261"/>
+			<point x="156683" y="-109569"/>
+		</shape>
+	</zone>
+
+	<zone id="210" name="[spa_71]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="only_pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="70">
+				<skill id="4559" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40210 -->
+		<shape type="Poly" zMin="-1609" zMax="-1409">
+			<point x="152063" y="-116732"/>
+			<point x="152505" y="-116982"/>
+			<point x="152904" y="-116927"/>
+			<point x="153020" y="-116469"/>
+			<point x="152881" y="-116221"/>
+			<point x="152555" y="-116100"/>
+			<point x="152285" y="-116160"/>
+			<point x="152099" y="-116415"/>
+		</shape>
+	</zone>
+
+	<zone id="211" name="[spa_81]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="only_pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="70">
+				<skill id="4559" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40211 -->
+		<shape type="Poly" zMin="-1694" zMax="-1494">
+			<point x="152683" y="-112829"/>
+			<point x="152796" y="-113129"/>
+			<point x="153125" y="-113339"/>
+			<point x="153557" y="-113190"/>
+			<point x="153649" y="-112721"/>
+			<point x="153344" y="-112385"/>
+			<point x="152937" y="-112409"/>
+		</shape>
+	</zone>
+
+	<zone id="212" name="[spa_91]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="only_pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="70">
+				<skill id="4559" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40212 -->
+		<shape type="Poly" zMin="-1979" zMax="-1779">
+			<point x="157444" y="-115790"/>
+			<point x="157774" y="-115907"/>
+			<point x="158174" y="-115759"/>
+			<point x="158017" y="-114971"/>
+			<point x="157625" y="-114984"/>
+			<point x="157439" y="-115101"/>
+		</shape>
+	</zone>
+
+	<zone id="223" name="[godad_fire_zone1]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="4150" level="5"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40223 -->
+		<shape type="Poly" zMin="-1896" zMax="-1696">
+			<point x="192073" y="-118243"/>
+			<point x="192185" y="-116883"/>
+			<point x="191921" y="-116651"/>
+			<point x="191330" y="-116793"/>
+			<point x="190997" y="-118195"/>
+		</shape>
+	</zone>
+
+	<zone id="224" name="[godad_fire_zone2]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="4150" level="5"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40224 -->
+		<shape type="Poly" zMin="-3384" zMax="-3184">
+			<point x="183700" y="-114976"/>
+			<point x="183996" y="-115008"/>
+			<point x="183988" y="-114940"/>
+			<point x="183892" y="-114896"/>
+			<point x="183768" y="-114912"/>
+		</shape>
+	</zone>
+
+	<zone id="225" name="[godad_fire_zone3]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="4150" level="5"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40225 -->
+		<shape type="Poly" zMin="-4728" zMax="-4028">
+			<point x="170882" y="-116919"/>
+			<point x="173775" y="-116885"/>
+			<point x="173761" y="-113989"/>
+			<point x="170896" y="-113924"/>
+		</shape>
+	</zone>
+
+	<zone id="226" name="[godad_fire_zone4]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="4150" level="5"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40226 -->
+		<shape type="Poly" zMin="-6160" zMax="-5260">
+			<point x="170947" y="-113900"/>
+			<point x="173759" y="-113954"/>
+			<point x="173776" y="-111044"/>
+			<point x="170920" y="-111048"/>
+		</shape>
+	</zone>
+
+	<zone id="227" name="[fire_pot_god_hp_regen1]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="70">
+				<skill id="4698" level="7"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40227 -->
+		<shape type="Poly" zMin="-3359" zMax="-2959">
+			<point x="185241" y="-118610"/>
+			<point x="185966" y="-119586"/>
+			<point x="187638" y="-117286"/>
+			<point x="186478" y="-116565"/>
+		</shape>
+	</zone>
+
+	<zone id="228" name="[fire_pot_god_hp_regen2]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="70">
+				<skill id="4698" level="7"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40228 -->
+		<shape type="Poly" zMin="-3246" zMax="-2846">
+			<point x="182713" y="-119880"/>
+			<point x="183822" y="-120471"/>
+			<point x="184986" y="-118671"/>
+			<point x="183254" y="-118355"/>
+		</shape>
+	</zone>
+
+	<zone id="229" name="[fire_pot_god_hp_regen3]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="70">
+				<skill id="4698" level="7"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40229 -->
+		<shape type="Poly" zMin="-3180" zMax="-2780">
+			<point x="184021" y="-121547"/>
+			<point x="185825" y="-121596"/>
+			<point x="185937" y="-119732"/>
+			<point x="184633" y="-119645"/>
+		</shape>
+	</zone>
+
+	<zone id="230" name="[fire_pot_god_hp_regen4]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="70">
+				<skill id="4698" level="7"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40230 -->
+		<shape type="Poly" zMin="-3164" zMax="-2764">
+			<point x="186868" y="-121700"/>
+			<point x="188500" y="-121604"/>
+			<point x="188608" y="-119980"/>
+			<point x="187088" y="-120020"/>
+		</shape>
+	</zone>
+
+	<zone id="231" name="[fire_pot_god_hp_regen5]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="70">
+				<skill id="4698" level="7"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40231 -->
+		<shape type="Poly" zMin="-3152" zMax="-2752">
+			<point x="189116" y="-121636"/>
+			<point x="190732" y="-121116"/>
+			<point x="190108" y="-119288"/>
+			<point x="188672" y="-119984"/>
+		</shape>
+	</zone>
+
+	<zone id="232" name="[fire_pot_god_hp_regen6]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="70">
+				<skill id="4698" level="7"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40232 -->
+		<shape type="Poly" zMin="-3388" zMax="-2988">
+			<point x="187636" y="-120012"/>
+			<point x="189680" y="-119284"/>
+			<point x="188696" y="-117896"/>
+			<point x="187504" y="-118572"/>
+		</shape>
+	</zone>
+
+	<zone id="233" name="[fire_pot_god_hp_regen7]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="70">
+				<skill id="4698" level="7"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40233 -->
+		<shape type="Poly" zMin="-3356" zMax="-2956">
+			<point x="188888" y="-118252"/>
+			<point x="191124" y="-118348"/>
+			<point x="190324" y="-115548"/>
+			<point x="188992" y="-116344"/>
+		</shape>
+	</zone>
+
+	<zone id="234" name="[godad_swamp_monster1]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40234 -->
+		<shape type="Poly" zMin="-3375" zMax="-2975">
+			<point x="71030" y="-60113"/>
+			<point x="70966" y="-59549"/>
+			<point x="70250" y="-59173"/>
+			<point x="69622" y="-59597"/>
+			<point x="69634" y="-60261"/>
+			<point x="70026" y="-60593"/>
+			<point x="70566" y="-60601"/>
+		</shape>
+	</zone>
+
+	<zone id="235" name="[godad_swamp_monster2]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40235 -->
+		<shape type="Poly" zMin="-3191" zMax="-2991">
+			<point x="73522" y="-59473"/>
+			<point x="73454" y="-58861"/>
+			<point x="73194" y="-58629"/>
+			<point x="72642" y="-58433"/>
+			<point x="72110" y="-58501"/>
+			<point x="71782" y="-59013"/>
+			<point x="71922" y="-59817"/>
+			<point x="72482" y="-60149"/>
+			<point x="72986" y="-60085"/>
+		</shape>
+	</zone>
+
+	<zone id="236" name="[godad_swamp_monster3]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40236 -->
+		<shape type="Poly" zMin="-3335" zMax="-2935">
+			<point x="72376" y="-55558"/>
+			<point x="72036" y="-54506"/>
+			<point x="71188" y="-54130"/>
+			<point x="70264" y="-54442"/>
+			<point x="69748" y="-55206"/>
+			<point x="69860" y="-56066"/>
+			<point x="70708" y="-56830"/>
+			<point x="71632" y="-56706"/>
+			<point x="72132" y="-56258"/>
+		</shape>
+	</zone>
+
+	<zone id="237" name="[godad_swamp_monster4]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40237 -->
+		<shape type="Poly" zMin="-3179" zMax="-2979">
+			<point x="76091" y="-53873"/>
+			<point x="75447" y="-53721"/>
+			<point x="75135" y="-54069"/>
+			<point x="75047" y="-54749"/>
+			<point x="75491" y="-55125"/>
+			<point x="76171" y="-54993"/>
+			<point x="76323" y="-54677"/>
+			<point x="76339" y="-54281"/>
+		</shape>
+	</zone>
+
+	<zone id="238" name="[godad_swamp_monster5]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40238 -->
+		<shape type="Poly" zMin="-3255" zMax="-2955">
+			<point x="74415" y="-51769"/>
+			<point x="74351" y="-51081"/>
+			<point x="74075" y="-50837"/>
+			<point x="74007" y="-50597"/>
+			<point x="73335" y="-50669"/>
+			<point x="72983" y="-51393"/>
+			<point x="73167" y="-51845"/>
+			<point x="73995" y="-52025"/>
+		</shape>
+	</zone>
+
+	<zone id="239" name="[godad_swamp_monster6]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40239 -->
+		<shape type="Poly" zMin="-3458" zMax="-3158">
+			<point x="73198" y="-44860"/>
+			<point x="72682" y="-44392"/>
+			<point x="71766" y="-44416"/>
+			<point x="71314" y="-44836"/>
+			<point x="71378" y="-45248"/>
+			<point x="71430" y="-45960"/>
+			<point x="71850" y="-46264"/>
+			<point x="72594" y="-46236"/>
+			<point x="73034" y="-45800"/>
+		</shape>
+	</zone>
+
+	<zone id="240" name="[godad_swamp_monster7]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40240 -->
+		<shape type="Poly" zMin="-3418" zMax="-3118">
+			<point x="74049" y="-42558"/>
+			<point x="73997" y="-41998"/>
+			<point x="73513" y="-41622"/>
+			<point x="73093" y="-41610"/>
+			<point x="72537" y="-42338"/>
+			<point x="72661" y="-42830"/>
+			<point x="73325" y="-43018"/>
+			<point x="73641" y="-42942"/>
+		</shape>
+	</zone>
+
+	<zone id="241" name="[godad_swamp_monster8]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40241 -->
+		<shape type="Poly" zMin="-3410" zMax="-3110">
+			<point x="77309" y="-42410"/>
+			<point x="76629" y="-41878"/>
+			<point x="75557" y="-41990"/>
+			<point x="74781" y="-42802"/>
+			<point x="74745" y="-43802"/>
+			<point x="75581" y="-44790"/>
+			<point x="76761" y="-44770"/>
+			<point x="77597" y="-44062"/>
+			<point x="77641" y="-43006"/>
+		</shape>
+	</zone>
+
+	<zone id="242" name="[godad_swamp_monster9]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40242 -->
+		<shape type="Poly" zMin="-3422" zMax="-3122">
+			<point x="80214" y="-42670"/>
+			<point x="80438" y="-42094"/>
+			<point x="80314" y="-41546"/>
+			<point x="79614" y="-41342"/>
+			<point x="78754" y="-41710"/>
+			<point x="78662" y="-42230"/>
+			<point x="79062" y="-42894"/>
+			<point x="79758" y="-43070"/>
+			<point x="79930" y="-42834"/>
+		</shape>
+	</zone>
+
+	<zone id="243" name="[godad_swamp_monster10]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40243 -->
+		<shape type="Poly" zMin="-3370" zMax="-3070">
+			<point x="83118" y="-41483"/>
+			<point x="82686" y="-40931"/>
+			<point x="82046" y="-40887"/>
+			<point x="82050" y="-41079"/>
+			<point x="81734" y="-41263"/>
+			<point x="81610" y="-41879"/>
+			<point x="82366" y="-42299"/>
+			<point x="82758" y="-42155"/>
+			<point x="82910" y="-41879"/>
+			<point x="83086" y="-41823"/>
+		</shape>
+	</zone>
+
+	<zone id="244" name="[godad_swamp_monster11]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40244 -->
+		<shape type="Poly" zMin="-3366" zMax="-3066">
+			<point x="81654" y="-45503"/>
+			<point x="81886" y="-45267"/>
+			<point x="82222" y="-44899"/>
+			<point x="82266" y="-44547"/>
+			<point x="82098" y="-44207"/>
+			<point x="81506" y="-44063"/>
+			<point x="80846" y="-44375"/>
+			<point x="80786" y="-44795"/>
+			<point x="81094" y="-45271"/>
+		</shape>
+	</zone>
+
+	<zone id="245" name="[godad_swamp_monster12]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40245 -->
+		<shape type="Poly" zMin="-2522" zMax="-2222">
+			<point x="79526" y="-51746"/>
+			<point x="79638" y="-51098"/>
+			<point x="79190" y="-50458"/>
+			<point x="78398" y="-50694"/>
+			<point x="78158" y="-51298"/>
+			<point x="78570" y="-51934"/>
+			<point x="79214" y="-51898"/>
+		</shape>
+	</zone>
+
+	<zone id="246" name="[godad_swamp_monster13]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40246 -->
+		<shape type="Poly" zMin="-2470" zMax="-2170">
+			<point x="83615" y="-50828"/>
+			<point x="83507" y="-50428"/>
+			<point x="83115" y="-50032"/>
+			<point x="82447" y="-50180"/>
+			<point x="82231" y="-50752"/>
+			<point x="82535" y="-51328"/>
+			<point x="82855" y="-51444"/>
+			<point x="83535" y="-51204"/>
+		</shape>
+	</zone>
+
+	<zone id="247" name="[godad_swamp_monster14]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40247 -->
+		<shape type="Poly" zMin="-2458" zMax="-2158">
+			<point x="81946" y="-53719"/>
+			<point x="81398" y="-53767"/>
+			<point x="80642" y="-53691"/>
+			<point x="79554" y="-54587"/>
+			<point x="79782" y="-55123"/>
+			<point x="79886" y="-56423"/>
+			<point x="81054" y="-57231"/>
+			<point x="81802" y="-57111"/>
+			<point x="82970" y="-56139"/>
+			<point x="82738" y="-54227"/>
+		</shape>
+	</zone>
+
+	<zone id="248" name="[godad_swamp_monster15]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40248 -->
+		<shape type="Poly" zMin="-2542" zMax="-2242">
+			<point x="78226" y="-58454"/>
+			<point x="78206" y="-58026"/>
+			<point x="77858" y="-57766"/>
+			<point x="77370" y="-57814"/>
+			<point x="77058" y="-58266"/>
+			<point x="77374" y="-58806"/>
+			<point x="77966" y="-58870"/>
+		</shape>
+	</zone>
+
+	<zone id="249" name="[godad_swamp_monster16]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40249 -->
+		<shape type="Poly" zMin="-2558" zMax="-2258">
+			<point x="77796" y="-61961"/>
+			<point x="77836" y="-61333"/>
+			<point x="77524" y="-60969"/>
+			<point x="77100" y="-61041"/>
+			<point x="76796" y="-61233"/>
+			<point x="76728" y="-61865"/>
+			<point x="77368" y="-62213"/>
+		</shape>
+	</zone>
+
+	<zone id="250" name="[godad_swamp_monster17]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40250 -->
+		<shape type="Poly" zMin="-2414" zMax="-2114">
+			<point x="82052" y="-59979"/>
+			<point x="81588" y="-59123"/>
+			<point x="80692" y="-59059"/>
+			<point x="80152" y="-59707"/>
+			<point x="80172" y="-60535"/>
+			<point x="80824" y="-61043"/>
+			<point x="81552" y="-60955"/>
+		</shape>
+	</zone>
+
+	<zone id="251" name="[godad_swamp_monster18]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40251 -->
+		<shape type="Poly" zMin="-2522" zMax="-2222">
+			<point x="85533" y="-63207"/>
+			<point x="85685" y="-62647"/>
+			<point x="85249" y="-62239"/>
+			<point x="84589" y="-62535"/>
+			<point x="84549" y="-63151"/>
+			<point x="85101" y="-63443"/>
+		</shape>
+	</zone>
+
+	<zone id="252" name="[godad_swamp_monster19]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40252 -->
+		<shape type="Poly" zMin="-2462" zMax="-2162">
+			<point x="89512" y="-60985"/>
+			<point x="89712" y="-60141"/>
+			<point x="88888" y="-59441"/>
+			<point x="87948" y="-59557"/>
+			<point x="87620" y="-60545"/>
+			<point x="88136" y="-61165"/>
+			<point x="88544" y="-61437"/>
+		</shape>
+	</zone>
+
+	<zone id="253" name="[godad_swamp_monster20]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40253 -->
+		<shape type="Poly" zMin="-2574" zMax="-2274">
+			<point x="86034" y="-54576"/>
+			<point x="85642" y="-54220"/>
+			<point x="85238" y="-54224"/>
+			<point x="84862" y="-54636"/>
+			<point x="85082" y="-55248"/>
+			<point x="85526" y="-55364"/>
+			<point x="85950" y="-55020"/>
+		</shape>
+	</zone>
+
+	<zone id="254" name="[godad_swamp_monster21]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40254 -->
+		<shape type="Poly" zMin="-2727" zMax="-2427">
+			<point x="90080" y="-52443"/>
+			<point x="90212" y="-51947"/>
+			<point x="89700" y="-51239"/>
+			<point x="88928" y="-51583"/>
+			<point x="88764" y="-51991"/>
+			<point x="89008" y="-52687"/>
+			<point x="89688" y="-52723"/>
+		</shape>
+	</zone>
+
+	<zone id="255" name="[godad_swamp_monster22]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40255 -->
+		<shape type="Poly" zMin="-2767" zMax="-2467">
+			<point x="92777" y="-52363"/>
+			<point x="91981" y="-51967"/>
+			<point x="91281" y="-52519"/>
+			<point x="91229" y="-53299"/>
+			<point x="91385" y="-53679"/>
+			<point x="92405" y="-53943"/>
+			<point x="93025" y="-53439"/>
+		</shape>
+	</zone>
+
+	<zone id="256" name="[godad_swamp_monster23]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40256 -->
+		<shape type="Poly" zMin="-2763" zMax="-2463">
+			<point x="95179" y="-52286"/>
+			<point x="94747" y="-51982"/>
+			<point x="94303" y="-52062"/>
+			<point x="93927" y="-52458"/>
+			<point x="94187" y="-53042"/>
+			<point x="94707" y="-53150"/>
+			<point x="95043" y="-53058"/>
+			<point x="95211" y="-52546"/>
+		</shape>
+	</zone>
+
+	<zone id="257" name="[godad_swamp_monster24]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40257 -->
+		<shape type="Poly" zMin="-2550" zMax="-2150">
+			<point x="85757" y="-59957"/>
+			<point x="86073" y="-59585"/>
+			<point x="86085" y="-59117"/>
+			<point x="85761" y="-58801"/>
+			<point x="85177" y="-58893"/>
+			<point x="84905" y="-59329"/>
+			<point x="85229" y="-59869"/>
+		</shape>
+	</zone>
+
+	<zone id="258" name="[godad_swamp_monster25]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40258 -->
+		<shape type="Poly" zMin="-2486" zMax="-2286">
+			<point x="81382" y="-63921"/>
+			<point x="81826" y="-63537"/>
+			<point x="81834" y="-62985"/>
+			<point x="81298" y="-62773"/>
+			<point x="80870" y="-62985"/>
+			<point x="80798" y="-63309"/>
+			<point x="80946" y="-63769"/>
+		</shape>
+	</zone>
+
+	<zone id="259" name="[godad_swamp_monster26]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="npc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40259 -->
+		<shape type="Poly" zMin="-2819" zMax="-2619">
+			<point x="93421" y="-55220"/>
+			<point x="94109" y="-55536"/>
+			<point x="94601" y="-55164"/>
+			<point x="94581" y="-54740"/>
+			<point x="94185" y="-54360"/>
+			<point x="93565" y="-54344"/>
+			<point x="93365" y="-54760"/>
+		</shape>
+	</zone>
+
+	<zone id="260" name="[godad_swamp_pc1]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40260 -->
+		<shape type="Poly" zMin="-3375" zMax="-2975">
+			<point x="71030" y="-60113"/>
+			<point x="70966" y="-59549"/>
+			<point x="70250" y="-59173"/>
+			<point x="69622" y="-59597"/>
+			<point x="69634" y="-60261"/>
+			<point x="70026" y="-60593"/>
+			<point x="70566" y="-60601"/>
+		</shape>
+	</zone>
+
+	<zone id="261" name="[godad_swamp_pc2]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40261 -->
+		<shape type="Poly" zMin="-3191" zMax="-2991">
+			<point x="73522" y="-59473"/>
+			<point x="73454" y="-58861"/>
+			<point x="73194" y="-58629"/>
+			<point x="72642" y="-58433"/>
+			<point x="72110" y="-58501"/>
+			<point x="71782" y="-59013"/>
+			<point x="71922" y="-59817"/>
+			<point x="72482" y="-60149"/>
+			<point x="72986" y="-60085"/>
+		</shape>
+	</zone>
+
+	<zone id="262" name="[godad_swamp_pc3]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40262 -->
+		<shape type="Poly" zMin="-3335" zMax="-2935">
+			<point x="72376" y="-55558"/>
+			<point x="72036" y="-54506"/>
+			<point x="71188" y="-54130"/>
+			<point x="70264" y="-54442"/>
+			<point x="69748" y="-55206"/>
+			<point x="69860" y="-56066"/>
+			<point x="70708" y="-56830"/>
+			<point x="71632" y="-56706"/>
+			<point x="72132" y="-56258"/>
+		</shape>
+	</zone>
+
+	<zone id="263" name="[godad_swamp_pc4]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40263 -->
+		<shape type="Poly" zMin="-3179" zMax="-2979">
+			<point x="76091" y="-53873"/>
+			<point x="75447" y="-53721"/>
+			<point x="75135" y="-54069"/>
+			<point x="75047" y="-54749"/>
+			<point x="75491" y="-55125"/>
+			<point x="76171" y="-54993"/>
+			<point x="76323" y="-54677"/>
+			<point x="76339" y="-54281"/>
+		</shape>
+	</zone>
+
+	<zone id="264" name="[godad_swamp_pc5]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40264 -->
+		<shape type="Poly" zMin="-3255" zMax="-2955">
+			<point x="74415" y="-51769"/>
+			<point x="74351" y="-51081"/>
+			<point x="74075" y="-50837"/>
+			<point x="74007" y="-50597"/>
+			<point x="73335" y="-50669"/>
+			<point x="72983" y="-51393"/>
+			<point x="73167" y="-51845"/>
+			<point x="73995" y="-52025"/>
+		</shape>
+	</zone>
+
+	<zone id="265" name="[godad_swamp_pc6]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40265 -->
+		<shape type="Poly" zMin="-3458" zMax="-3158">
+			<point x="73198" y="-44860"/>
+			<point x="72682" y="-44392"/>
+			<point x="71766" y="-44416"/>
+			<point x="71314" y="-44836"/>
+			<point x="71378" y="-45248"/>
+			<point x="71430" y="-45960"/>
+			<point x="71850" y="-46264"/>
+			<point x="72594" y="-46236"/>
+			<point x="73034" y="-45800"/>
+		</shape>
+	</zone>
+
+	<zone id="266" name="[godad_swamp_pc7]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40266 -->
+		<shape type="Poly" zMin="-3418" zMax="-3118">
+			<point x="74049" y="-42558"/>
+			<point x="73997" y="-41998"/>
+			<point x="73513" y="-41622"/>
+			<point x="73093" y="-41610"/>
+			<point x="72537" y="-42338"/>
+			<point x="72661" y="-42830"/>
+			<point x="73325" y="-43018"/>
+			<point x="73641" y="-42942"/>
+		</shape>
+	</zone>
+
+	<zone id="267" name="[godad_swamp_pc8]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40267 -->
+		<shape type="Poly" zMin="-3410" zMax="-3110">
+			<point x="77309" y="-42410"/>
+			<point x="76629" y="-41878"/>
+			<point x="75557" y="-41990"/>
+			<point x="74781" y="-42802"/>
+			<point x="74745" y="-43802"/>
+			<point x="75581" y="-44790"/>
+			<point x="76761" y="-44770"/>
+			<point x="77597" y="-44062"/>
+			<point x="77641" y="-43006"/>
+		</shape>
+	</zone>
+
+	<zone id="268" name="[godad_swamp_pc9]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40268 -->
+		<shape type="Poly" zMin="-3422" zMax="-3122">
+			<point x="80214" y="-42670"/>
+			<point x="80438" y="-42094"/>
+			<point x="80314" y="-41546"/>
+			<point x="79614" y="-41342"/>
+			<point x="78754" y="-41710"/>
+			<point x="78662" y="-42230"/>
+			<point x="79062" y="-42894"/>
+			<point x="79758" y="-43070"/>
+			<point x="79930" y="-42834"/>
+		</shape>
+	</zone>
+
+	<zone id="269" name="[godad_swamp_pc10]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40269 -->
+		<shape type="Poly" zMin="-3370" zMax="-3070">
+			<point x="83118" y="-41483"/>
+			<point x="82686" y="-40931"/>
+			<point x="82046" y="-40887"/>
+			<point x="82050" y="-41079"/>
+			<point x="81734" y="-41263"/>
+			<point x="81610" y="-41879"/>
+			<point x="82366" y="-42299"/>
+			<point x="82758" y="-42155"/>
+			<point x="82910" y="-41879"/>
+			<point x="83086" y="-41823"/>
+		</shape>
+	</zone>
+
+	<zone id="270" name="[godad_swamp_pc11]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40270 -->
+		<shape type="Poly" zMin="-3366" zMax="-3066">
+			<point x="81654" y="-45503"/>
+			<point x="81886" y="-45267"/>
+			<point x="82222" y="-44899"/>
+			<point x="82266" y="-44547"/>
+			<point x="82098" y="-44207"/>
+			<point x="81506" y="-44063"/>
+			<point x="80846" y="-44375"/>
+			<point x="80786" y="-44795"/>
+			<point x="81094" y="-45271"/>
+		</shape>
+	</zone>
+
+	<zone id="271" name="[godad_swamp_pc12]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40271 -->
+		<shape type="Poly" zMin="-2522" zMax="-2222">
+			<point x="79526" y="-51746"/>
+			<point x="79638" y="-51098"/>
+			<point x="79190" y="-50458"/>
+			<point x="78398" y="-50694"/>
+			<point x="78158" y="-51298"/>
+			<point x="78570" y="-51934"/>
+			<point x="79214" y="-51898"/>
+		</shape>
+	</zone>
+
+	<zone id="272" name="[godad_swamp_pc13]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40272 -->
+		<shape type="Poly" zMin="-2470" zMax="-2170">
+			<point x="83615" y="-50828"/>
+			<point x="83507" y="-50428"/>
+			<point x="83115" y="-50032"/>
+			<point x="82447" y="-50180"/>
+			<point x="82231" y="-50752"/>
+			<point x="82535" y="-51328"/>
+			<point x="82855" y="-51444"/>
+			<point x="83535" y="-51204"/>
+		</shape>
+	</zone>
+
+	<zone id="273" name="[godad_swamp_pc14]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40273 -->
+		<shape type="Poly" zMin="-2458" zMax="-2158">
+			<point x="81946" y="-53719"/>
+			<point x="81398" y="-53767"/>
+			<point x="80642" y="-53691"/>
+			<point x="79554" y="-54587"/>
+			<point x="79782" y="-55123"/>
+			<point x="79886" y="-56423"/>
+			<point x="81054" y="-57231"/>
+			<point x="81802" y="-57111"/>
+			<point x="82970" y="-56139"/>
+			<point x="82738" y="-54227"/>
+		</shape>
+	</zone>
+
+	<zone id="274" name="[godad_swamp_pc15]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40274 -->
+		<shape type="Poly" zMin="-2542" zMax="-2242">
+			<point x="78226" y="-58454"/>
+			<point x="78206" y="-58026"/>
+			<point x="77858" y="-57766"/>
+			<point x="77370" y="-57814"/>
+			<point x="77058" y="-58266"/>
+			<point x="77374" y="-58806"/>
+			<point x="77966" y="-58870"/>
+		</shape>
+	</zone>
+
+	<zone id="275" name="[godad_swamp_pc16]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40275 -->
+		<shape type="Poly" zMin="-2558" zMax="-2258">
+			<point x="77796" y="-61961"/>
+			<point x="77836" y="-61333"/>
+			<point x="77524" y="-60969"/>
+			<point x="77100" y="-61041"/>
+			<point x="76796" y="-61233"/>
+			<point x="76728" y="-61865"/>
+			<point x="77368" y="-62213"/>
+		</shape>
+	</zone>
+
+	<zone id="276" name="[godad_swamp_pc17]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40276 -->
+		<shape type="Poly" zMin="-2414" zMax="-2114">
+			<point x="82052" y="-59979"/>
+			<point x="81588" y="-59123"/>
+			<point x="80692" y="-59059"/>
+			<point x="80152" y="-59707"/>
+			<point x="80172" y="-60535"/>
+			<point x="80824" y="-61043"/>
+			<point x="81552" y="-60955"/>
+		</shape>
+	</zone>
+
+	<zone id="277" name="[godad_swamp_pc18]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40277 -->
+		<shape type="Poly" zMin="-2522" zMax="-2222">
+			<point x="85533" y="-63207"/>
+			<point x="85685" y="-62647"/>
+			<point x="85249" y="-62239"/>
+			<point x="84589" y="-62535"/>
+			<point x="84549" y="-63151"/>
+			<point x="85101" y="-63443"/>
+		</shape>
+	</zone>
+
+	<zone id="278" name="[godad_swamp_pc19]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40278 -->
+		<shape type="Poly" zMin="-2462" zMax="-2162">
+			<point x="89512" y="-60985"/>
+			<point x="89712" y="-60141"/>
+			<point x="88888" y="-59441"/>
+			<point x="87948" y="-59557"/>
+			<point x="87620" y="-60545"/>
+			<point x="88136" y="-61165"/>
+			<point x="88544" y="-61437"/>
+		</shape>
+	</zone>
+
+	<zone id="279" name="[godad_swamp_pc20]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40279 -->
+		<shape type="Poly" zMin="-2574" zMax="-2274">
+			<point x="86034" y="-54576"/>
+			<point x="85642" y="-54220"/>
+			<point x="85238" y="-54224"/>
+			<point x="84862" y="-54636"/>
+			<point x="85082" y="-55248"/>
+			<point x="85526" y="-55364"/>
+			<point x="85950" y="-55020"/>
+		</shape>
+	</zone>
+
+	<zone id="280" name="[godad_swamp_pcr21]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40280 -->
+		<shape type="Poly" zMin="-2727" zMax="-2427">
+			<point x="90080" y="-52443"/>
+			<point x="90212" y="-51947"/>
+			<point x="89700" y="-51239"/>
+			<point x="88928" y="-51583"/>
+			<point x="88764" y="-51991"/>
+			<point x="89008" y="-52687"/>
+			<point x="89688" y="-52723"/>
+		</shape>
+	</zone>
+
+	<zone id="281" name="[godad_swamp_pc22]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40281 -->
+		<shape type="Poly" zMin="-2767" zMax="-2467">
+			<point x="92777" y="-52363"/>
+			<point x="91981" y="-51967"/>
+			<point x="91281" y="-52519"/>
+			<point x="91229" y="-53299"/>
+			<point x="91385" y="-53679"/>
+			<point x="92405" y="-53943"/>
+			<point x="93025" y="-53439"/>
+		</shape>
+	</zone>
+
+	<zone id="282" name="[godad_swamp_pc23]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40282 -->
+		<shape type="Poly" zMin="-2763" zMax="-2463">
+			<point x="95179" y="-52286"/>
+			<point x="94747" y="-51982"/>
+			<point x="94303" y="-52062"/>
+			<point x="93927" y="-52458"/>
+			<point x="94187" y="-53042"/>
+			<point x="94707" y="-53150"/>
+			<point x="95043" y="-53058"/>
+			<point x="95211" y="-52546"/>
+		</shape>
+	</zone>
+
+	<zone id="283" name="[godad_swamp_pc24]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40283 -->
+		<shape type="Poly" zMin="-2550" zMax="-2150">
+			<point x="85757" y="-59957"/>
+			<point x="86073" y="-59585"/>
+			<point x="86085" y="-59117"/>
+			<point x="85761" y="-58801"/>
+			<point x="85177" y="-58893"/>
+			<point x="84905" y="-59329"/>
+			<point x="85229" y="-59869"/>
+		</shape>
+	</zone>
+
+	<zone id="284" name="[godad_swamp_pc25]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40284 -->
+		<shape type="Poly" zMin="-2486" zMax="-2286">
+			<point x="81382" y="-63921"/>
+			<point x="81826" y="-63537"/>
+			<point x="81834" y="-62985"/>
+			<point x="81298" y="-62773"/>
+			<point x="80870" y="-62985"/>
+			<point x="80798" y="-63309"/>
+			<point x="80946" y="-63769"/>
+		</shape>
+	</zone>
+
+	<zone id="285" name="[godad_swamp_pc26]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<!-- loc_id: 40285 -->
+		<shape type="Poly" zMin="-2819" zMax="-2619">
+			<point x="93421" y="-55220"/>
+			<point x="94109" y="-55536"/>
+			<point x="94601" y="-55164"/>
+			<point x="94581" y="-54740"/>
+			<point x="94185" y="-54360"/>
+			<point x="93565" y="-54344"/>
+			<point x="93365" y="-54760"/>
+		</shape>
+	</zone>
+
+	<zone id="286" name="[balakas_lava_1]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40286 -->
+		<shape type="Poly" zMin="-1700" zMax="-1500">
+			<point x="212916" y="-117204"/>
+			<point x="213404" y="-117248"/>
+			<point x="213444" y="-116584"/>
+			<point x="213012" y="-116444"/>
+			<point x="212828" y="-116928"/>
+		</shape>
+	</zone>
+
+	<zone id="287" name="[balakas_lava_2]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40287 -->
+		<shape type="Poly" zMin="-1800" zMax="-1600">
+			<point x="212304" y="-116608"/>
+			<point x="212708" y="-116660"/>
+			<point x="212820" y="-116300"/>
+			<point x="212416" y="-116144"/>
+			<point x="212140" y="-116336"/>
+		</shape>
+	</zone>
+
+	<zone id="288" name="[balakas_lava_3]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40288 -->
+		<shape type="Poly" zMin="-1772" zMax="-1572">
+			<point x="214032" y="-116748"/>
+			<point x="214488" y="-116652"/>
+			<point x="214548" y="-116352"/>
+			<point x="214064" y="-116232"/>
+		</shape>
+	</zone>
+
+	<zone id="289" name="[balakas_lava_4]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40289 -->
+		<shape type="Poly" zMin="-1800" zMax="-1600">
+			<point x="214424" y="-115452"/>
+			<point x="214776" y="-115520"/>
+			<point x="214944" y="-115248"/>
+			<point x="214652" y="-114784"/>
+			<point x="214460" y="-114824"/>
+			<point x="214412" y="-115080"/>
+		</shape>
+	</zone>
+
+	<zone id="290" name="[balakas_lava_5]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40290 -->
+		<shape type="Poly" zMin="-1820" zMax="-1620">
+			<point x="214668" y="-114276"/>
+			<point x="214948" y="-113876"/>
+			<point x="214612" y="-113588"/>
+			<point x="214228" y="-113884"/>
+			<point x="214340" y="-114148"/>
+		</shape>
+	</zone>
+
+	<zone id="291" name="[balakas_lava_6]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40291 -->
+		<shape type="Poly" zMin="-1768" zMax="-1568">
+			<point x="213916" y="-115660"/>
+			<point x="214220" y="-114648"/>
+			<point x="213392" y="-113112"/>
+			<point x="212100" y="-113460"/>
+			<point x="211292" y="-115164"/>
+			<point x="211948" y="-115196"/>
+			<point x="211976" y="-115628"/>
+			<point x="212696" y="-116036"/>
+			<point x="213200" y="-116136"/>
+		</shape>
+	</zone>
+
+	<zone id="292" name="[balakas_lava_7]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40292 -->
+		<shape type="Poly" zMin="-1764" zMax="-1564">
+			<point x="210524" y="-114376"/>
+			<point x="211144" y="-114604"/>
+			<point x="211148" y="-114340"/>
+			<point x="210764" y="-114116"/>
+		</shape>
+	</zone>
+
+	<zone id="293" name="[balakas_lava_8]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40293 -->
+		<shape type="Poly" zMin="-1716" zMax="-1516">
+			<point x="212276" y="-113016"/>
+			<point x="212932" y="-112836"/>
+			<point x="212860" y="-112600"/>
+			<point x="212616" y="-112488"/>
+			<point x="212188" y="-112604"/>
+			<point x="212144" y="-112820"/>
+		</shape>
+	</zone>
+
+	<zone id="294" name="[balakas_lava_9]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40294 -->
+		<shape type="Poly" zMin="-1720" zMax="-1520">
+			<point x="211608" y="-113560"/>
+			<point x="211944" y="-113408"/>
+			<point x="211880" y="-112888"/>
+			<point x="211220" y="-112780"/>
+			<point x="211204" y="-113400"/>
+		</shape>
+	</zone>
+
+	<zone id="295" name="[balakas_lava_10]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40295 -->
+		<shape type="Poly" zMin="-1732" zMax="-1532">
+			<point x="210596" y="-116292"/>
+			<point x="210904" y="-116088"/>
+			<point x="210972" y="-115760"/>
+			<point x="210784" y="-115612"/>
+			<point x="210308" y="-115904"/>
+		</shape>
+	</zone>
+
+	<zone id="296" name="[balakas_lava_11]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40296 -->
+		<shape type="Poly" zMin="-1736" zMax="-1536">
+			<point x="211272" y="-117352"/>
+			<point x="211660" y="-117220"/>
+			<point x="211552" y="-117000"/>
+			<point x="211792" y="-116936"/>
+			<point x="212072" y="-116412"/>
+			<point x="211916" y="-115952"/>
+			<point x="211600" y="-115956"/>
+			<point x="211356" y="-116588"/>
+			<point x="210928" y="-116296"/>
+			<point x="210872" y="-117028"/>
+		</shape>
+	</zone>
+
+	<zone id="297" name="[balakas_lava_12]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40297 -->
+		<shape type="Poly" zMin="-1748" zMax="-1548">
+			<point x="211528" y="-117312"/>
+			<point x="212828" y="-117884"/>
+			<point x="212756" y="-117068"/>
+			<point x="212584" y="-116828"/>
+			<point x="212300" y="-116812"/>
+			<point x="211796" y="-117168"/>
+		</shape>
+	</zone>
+
+	<zone id="298" name="[balakas_lava_13]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40298 -->
+		<shape type="Poly" zMin="-1792" zMax="-1592">
+			<point x="213224" y="-117956"/>
+			<point x="213204" y="-117548"/>
+			<point x="213016" y="-117412"/>
+			<point x="212792" y="-117456"/>
+			<point x="212836" y="-117916"/>
+		</shape>
+	</zone>
+
+	<zone id="299" name="[balakas_lava_14]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40299 -->
+		<shape type="Poly" zMin="-1812" zMax="-1612">
+			<point x="213440" y="-118004"/>
+			<point x="213852" y="-118004"/>
+			<point x="213728" y="-117728"/>
+			<point x="213584" y="-117748"/>
+		</shape>
+	</zone>
+
+	<zone id="300" name="[balakas_lava_15]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40300 -->
+		<shape type="Poly" zMin="-1764" zMax="-1564">
+			<point x="213988" y="-117184"/>
+			<point x="213808" y="-117232"/>
+			<point x="213952" y="-117772"/>
+			<point x="213636" y="-118036"/>
+			<point x="214660" y="-117924"/>
+			<point x="214232" y="-117560"/>
+			<point x="214224" y="-117412"/>
+		</shape>
+	</zone>
+
+	<zone id="301" name="[balakas_lava_16]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40301 -->
+		<shape type="Poly" zMin="-1716" zMax="-1516">
+			<point x="214564" y="-117840"/>
+			<point x="214844" y="-117352"/>
+			<point x="214616" y="-117172"/>
+			<point x="214436" y="-117300"/>
+			<point x="214304" y="-117592"/>
+		</shape>
+	</zone>
+
+	<zone id="302" name="[balakas_lava_17]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40302 -->
+		<shape type="Poly" zMin="-1700" zMax="-1500">
+			<point x="215148" y="-117144"/>
+			<point x="215300" y="-117208"/>
+			<point x="215516" y="-116568"/>
+			<point x="215296" y="-116592"/>
+		</shape>
+	</zone>
+
+	<zone id="303" name="[balakas_lava_18]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40303 -->
+		<shape type="Poly" zMin="-1684" zMax="-1484">
+			<point x="215356" y="-116304"/>
+			<point x="215584" y="-116508"/>
+			<point x="216472" y="-114732"/>
+			<point x="215428" y="-114700"/>
+			<point x="215204" y="-114556"/>
+			<point x="214916" y="-114664"/>
+			<point x="214932" y="-114920"/>
+			<point x="215244" y="-115184"/>
+			<point x="215116" y="-115408"/>
+			<point x="215420" y="-115756"/>
+			<point x="215296" y="-115852"/>
+		</shape>
+	</zone>
+
+	<zone id="304" name="[balakas_lava_19]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40304 -->
+		<shape type="Poly" zMin="-1740" zMax="-1540">
+			<point x="214888" y="-114200"/>
+			<point x="216164" y="-114560"/>
+			<point x="216120" y="-113212"/>
+			<point x="215380" y="-112272"/>
+			<point x="214240" y="-113388"/>
+			<point x="215420" y="-113568"/>
+		</shape>
+	</zone>
+
+	<zone id="305" name="[balakas_lava_20]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40305 -->
+		<shape type="Poly" zMin="-1792" zMax="-1592">
+			<point x="213792" y="-112592"/>
+			<point x="214948" y="-111748"/>
+			<point x="213932" y="-111516"/>
+			<point x="213624" y="-112404"/>
+		</shape>
+	</zone>
+
+	<zone id="306" name="[balakas_lava_21]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40306 -->
+		<shape type="Poly" zMin="-1772" zMax="-1572">
+			<point x="212408" y="-112372"/>
+			<point x="212800" y="-111924"/>
+			<point x="212656" y="-111156"/>
+			<point x="211096" y="-111788"/>
+			<point x="211460" y="-112196"/>
+			<point x="211904" y="-112736"/>
+			<point x="212280" y="-112092"/>
+		</shape>
+	</zone>
+
+	<zone id="307" name="[balakas_lava_22]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40307 -->
+		<shape type="Poly" zMin="-1744" zMax="-1544">
+			<point x="211120" y="-112784"/>
+			<point x="211300" y="-112484"/>
+			<point x="211116" y="-112048"/>
+			<point x="209044" y="-113592"/>
+			<point x="209900" y="-113652"/>
+			<point x="210020" y="-113412"/>
+			<point x="210812" y="-113544"/>
+			<point x="211088" y="-113220"/>
+			<point x="210720" y="-112888"/>
+		</shape>
+	</zone>
+
+	<zone id="308" name="[balakas_lava_23]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40308 -->
+		<shape type="Poly" zMin="-1600" zMax="-1400">
+			<point x="209504" y="-113076"/>
+			<point x="209808" y="-113412"/>
+			<point x="210004" y="-112864"/>
+			<point x="209596" y="-112916"/>
+		</shape>
+	</zone>
+
+	<zone id="309" name="[balakas_lava_24]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40309 -->
+		<shape type="Poly" zMin="-1528" zMax="-1328">
+			<point x="210400" y="-112656"/>
+			<point x="210308" y="-112356"/>
+			<point x="210152" y="-112260"/>
+			<point x="209944" y="-112384"/>
+			<point x="209804" y="-112308"/>
+			<point x="209688" y="-112448"/>
+			<point x="209804" y="-112564"/>
+			<point x="209772" y="-112672"/>
+			<point x="209968" y="-112884"/>
+		</shape>
+	</zone>
+
+	<zone id="310" name="[balakas_lava_25]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40310 -->
+		<shape type="Poly" zMin="-1564" zMax="-1364">
+			<point x="210032" y="-112148"/>
+			<point x="210392" y="-112060"/>
+			<point x="210104" y="-111444"/>
+			<point x="209496" y="-112008"/>
+		</shape>
+	</zone>
+
+	<zone id="311" name="[balakas_lava_26]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40311 -->
+		<shape type="Poly" zMin="-1572" zMax="-1372">
+			<point x="211096" y="-112400"/>
+			<point x="211436" y="-111804"/>
+			<point x="210812" y="-111712"/>
+			<point x="210628" y="-111792"/>
+			<point x="210600" y="-112004"/>
+		</shape>
+	</zone>
+
+	<zone id="312" name="[balakas_lava_27]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40312 -->
+		<shape type="Poly" zMin="-1488" zMax="-1288">
+			<point x="210552" y="-111368"/>
+			<point x="210904" y="-111412"/>
+			<point x="210864" y="-111236"/>
+			<point x="210492" y="-111100"/>
+			<point x="210100" y="-111432"/>
+			<point x="210408" y="-111488"/>
+		</shape>
+	</zone>
+
+	<zone id="313" name="[balakas_lava_28]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40313 -->
+		<shape type="Poly" zMin="-1492" zMax="-1292">
+			<point x="212136" y="-110836"/>
+			<point x="212552" y="-110896"/>
+			<point x="212704" y="-110776"/>
+			<point x="212724" y="-110460"/>
+			<point x="212064" y="-110576"/>
+		</shape>
+	</zone>
+
+	<zone id="314" name="[balakas_lava_29]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40314 -->
+		<shape type="Poly" zMin="-1476" zMax="-1276">
+			<point x="212620" y="-111604"/>
+			<point x="213060" y="-111604"/>
+			<point x="212740" y="-111304"/>
+			<point x="212436" y="-111620"/>
+		</shape>
+	</zone>
+
+	<zone id="315" name="[balakas_lava_30]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40315 -->
+		<shape type="Poly" zMin="-1452" zMax="-1252">
+			<point x="213416" y="-110968"/>
+			<point x="213716" y="-110772"/>
+			<point x="213752" y="-110376"/>
+			<point x="213356" y="-110388"/>
+			<point x="213328" y="-110760"/>
+		</shape>
+	</zone>
+
+	<zone id="316" name="[balakas_lava_31]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40316 -->
+		<shape type="Poly" zMin="-1548" zMax="-1348">
+			<point x="214228" y="-111556"/>
+			<point x="214196" y="-111120"/>
+			<point x="213972" y="-111020"/>
+			<point x="213624" y="-111248"/>
+		</shape>
+	</zone>
+
+	<zone id="317" name="[balakas_lava_32]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40317 -->
+		<shape type="Poly" zMin="-1484" zMax="-1284">
+			<point x="215120" y="-112132"/>
+			<point x="215460" y="-112124"/>
+			<point x="215564" y="-111836"/>
+			<point x="215376" y="-111736"/>
+			<point x="214924" y="-111792"/>
+		</shape>
+	</zone>
+
+	<zone id="318" name="[balakas_lava_33]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40318 -->
+		<shape type="Rect" zMin="-1456" zMax="-1256">
+			<point x="215564" y="-111380"/>
+			<point x="215764" y="-111180"/>
+		</shape>
+	</zone>
+
+	<zone id="319" name="[balakas_lava_34]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40319 -->
+		<shape type="Poly" zMin="-1616" zMax="-1416">
+			<point x="215776" y="-112812"/>
+			<point x="216348" y="-112536"/>
+			<point x="216268" y="-112392"/>
+			<point x="215684" y="-112660"/>
+		</shape>
+	</zone>
+
+	<zone id="320" name="[balakas_lava_35]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40320 -->
+		<shape type="Poly" zMin="-1480" zMax="-1280">
+			<point x="216040" y="-114340"/>
+			<point x="216868" y="-114436"/>
+			<point x="216648" y="-112948"/>
+			<point x="216148" y="-113132"/>
+			<point x="215996" y="-113324"/>
+		</shape>
+	</zone>
+
+	<zone id="321" name="[balakas_lava_36]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40321 -->
+		<shape type="Poly" zMin="-1520" zMax="-1320">
+			<point x="216136" y="-115280"/>
+			<point x="216760" y="-115372"/>
+			<point x="216880" y="-114792"/>
+			<point x="216636" y="-114964"/>
+			<point x="216428" y="-114976"/>
+			<point x="216364" y="-114832"/>
+			<point x="216068" y="-114768"/>
+		</shape>
+	</zone>
+
+	<zone id="322" name="[balakas_lava_37]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40322 -->
+		<shape type="Poly" zMin="-1568" zMax="-1368">
+			<point x="215964" y="-115796"/>
+			<point x="216592" y="-115892"/>
+			<point x="216592" y="-115580"/>
+			<point x="216032" y="-115452"/>
+		</shape>
+	</zone>
+
+	<zone id="323" name="[balakas_lava_38]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40323 -->
+		<shape type="Poly" zMin="-1444" zMax="-1244">
+			<point x="216040" y="-117792"/>
+			<point x="216088" y="-117536"/>
+			<point x="215972" y="-117352"/>
+			<point x="215812" y="-117256"/>
+			<point x="215600" y="-117324"/>
+			<point x="215692" y="-117736"/>
+		</shape>
+	</zone>
+
+	<zone id="324" name="[balakas_lava_39]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40324 -->
+		<shape type="Poly" zMin="-1448" zMax="-1248">
+			<point x="214896" y="-117908"/>
+			<point x="215156" y="-118020"/>
+			<point x="215396" y="-117668"/>
+			<point x="215204" y="-117084"/>
+			<point x="214744" y="-117508"/>
+		</shape>
+	</zone>
+
+	<zone id="325" name="[balakas_lava_40]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40325 -->
+		<shape type="Poly" zMin="-1516" zMax="-1316">
+			<point x="214468" y="-118700"/>
+			<point x="214748" y="-118780"/>
+			<point x="214484" y="-117908"/>
+			<point x="214188" y="-118000"/>
+		</shape>
+	</zone>
+
+	<zone id="326" name="[balakas_lava_41]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40326 -->
+		<shape type="Poly" zMin="-1508" zMax="-1308">
+			<point x="213396" y="-118452"/>
+			<point x="213652" y="-118588"/>
+			<point x="213832" y="-118492"/>
+			<point x="213776" y="-118092"/>
+			<point x="213312" y="-118056"/>
+		</shape>
+	</zone>
+
+	<zone id="327" name="[balakas_lava_42]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40327 -->
+		<shape type="Poly" zMin="-1480" zMax="-1280">
+			<point x="212684" y="-118456"/>
+			<point x="213148" y="-118436"/>
+			<point x="213168" y="-118308"/>
+			<point x="213008" y="-118204"/>
+			<point x="212668" y="-118300"/>
+		</shape>
+	</zone>
+
+	<zone id="328" name="[balakas_lava_43]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40328 -->
+		<shape type="Poly" zMin="-1500" zMax="-1300">
+			<point x="212156" y="-118020"/>
+			<point x="212424" y="-118208"/>
+			<point x="213256" y="-118080"/>
+			<point x="211416" y="-117244"/>
+			<point x="211676" y="-118104"/>
+			<point x="211880" y="-118132"/>
+		</shape>
+	</zone>
+
+	<zone id="329" name="[balakas_lava_44]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40329 -->
+		<shape type="Poly" zMin="-1576" zMax="-1376">
+			<point x="210792" y="-117952"/>
+			<point x="211464" y="-117376"/>
+			<point x="210832" y="-116852"/>
+			<point x="210296" y="-117456"/>
+		</shape>
+	</zone>
+
+	<zone id="330" name="[balakas_lava_45]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40330 -->
+		<shape type="Poly" zMin="-1556" zMax="-1356">
+			<point x="209932" y="-116124"/>
+			<point x="210112" y="-116340"/>
+			<point x="210756" y="-116432"/>
+			<point x="210080" y="-115704"/>
+		</shape>
+	</zone>
+
+	<zone id="331" name="[balakas_lava_46]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40331 -->
+		<shape type="Poly" zMin="-1508" zMax="-1308">
+			<point x="209604" y="-115832"/>
+			<point x="209676" y="-115672"/>
+			<point x="209480" y="-115472"/>
+			<point x="209064" y="-115396"/>
+			<point x="209064" y="-116060"/>
+		</shape>
+	</zone>
+
+	<zone id="332" name="[balakas_lava_47]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40332 -->
+		<shape type="Poly" zMin="-1544" zMax="-1344">
+			<point x="209596" y="-114804"/>
+			<point x="209880" y="-114812"/>
+			<point x="209852" y="-114156"/>
+			<point x="209528" y="-114576"/>
+		</shape>
+	</zone>
+
+	<zone id="333" name="[balakas_lava_48]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40333 -->
+		<shape type="Poly" zMin="-1656" zMax="-1456">
+			<point x="209452" y="-113908"/>
+			<point x="209720" y="-114032"/>
+			<point x="209648" y="-113588"/>
+			<point x="209452" y="-113708"/>
+		</shape>
+	</zone>
+
+	<zone id="334" name="[balakas_lava_49]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="50">
+				<skill id="4150" level="1"/>
+			</effect>
+		</effects>
+		<!-- loc_id: 40334 -->
+		<shape type="Poly" zMin="-1608" zMax="-1408">
+			<point x="211652" y="-111708"/>
+			<point x="212000" y="-111640"/>
+			<point x="211652" y="-110812"/>
+			<point x="211420" y="-110828"/>
+		</shape>
+	</zone>
+	<zone id="335" name="">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="9" probe="100">
+				<skill id="4149" level="9"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-7526" zMax="-7326">
+			<point x="-83021" y="216582"/>
+			<point x="-82939" y="216753"/>
+			<point x="-83003" y="216910"/>
+			<point x="-83178" y="216985"/>
+			<point x="-83347" y="216911"/>
+			<point x="-83410" y="216754"/>
+			<point x="-83345" y="216584"/>
+			<point x="-83178" y="216520"/>
+		</shape>
+	</zone>
+	<zone id="705066" name="[oren21_2220_a01_1]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<set name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="6435" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3764" zMax="-3464">
+			<point x="83885" y="80497"/>
+			<point x="83325" y="80678"/>
+			<point x="82690" y="80480"/>
+			<point x="82628" y="79804"/>
+			<point x="82713" y="79397"/>
+			<point x="82713" y="79397"/>
+			<point x="82025" y="78227"/>
+			<point x="81718" y="77815"/>
+			<point x="81959" y="77379"/>
+			<point x="82656" y="77511"/>
+			<point x="82656" y="77511"/>
+			<point x="83152" y="77939"/>
+			<point x="83913" y="78957"/>
+			<point x="84190" y="79474"/>
+			<point x="84276" y="80099"/>
+		</shape>
+	</zone>
+	<zone id="705067" name="[oren21_2220_a01_2]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<set name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="6435" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3740" zMax="-3240">
+			<point x="82755" y="81625"/>
+			<point x="82309" y="81855"/>
+			<point x="81625" y="81248"/>
+			<point x="81626" y="80626"/>
+			<point x="82228" y="79566"/>
+			<point x="82228" y="79566"/>
+			<point x="81220" y="78236"/>
+			<point x="81030" y="77077"/>
+			<point x="82472" y="76149"/>
+			<point x="83270" y="76354"/>
+			<point x="83589" y="77629"/>
+			<point x="84703" y="78917"/>
+			<point x="84777" y="79993"/>
+			<point x="84676" y="80864"/>
+			<point x="84018" y="81088"/>
+			<point x="83337" y="81240"/>
+		</shape>
+		<shape type="Poly" zMin="-3764" zMax="-3464" exclude="true">
+			<point x="83885" y="80497"/>
+			<point x="83325" y="80678"/>
+			<point x="82690" y="80480"/>
+			<point x="82628" y="79804"/>
+			<point x="82713" y="79397"/>
+			<point x="82713" y="79397"/>
+			<point x="82025" y="78227"/>
+			<point x="81718" y="77815"/>
+			<point x="81959" y="77379"/>
+			<point x="82656" y="77511"/>
+			<point x="82656" y="77511"/>
+			<point x="83152" y="77939"/>
+			<point x="83913" y="78957"/>
+			<point x="84190" y="79474"/>
+			<point x="84276" y="80099"/>
+		</shape>
+	</zone>
+	<zone id="705068" name="[oren21_2220_a01_3]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<set name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="6435" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3744" zMax="-3044">
+			<point x="80948" y="81704"/>
+			<point x="80002" y="80533"/>
+			<point x="80106" y="79870"/>
+			<point x="81333" y="80359"/>
+			<point x="81434" y="79192"/>
+			<point x="79905" y="78427"/>
+			<point x="80363" y="76612"/>
+			<point x="80879" y="75452"/>
+			<point x="83080" y="74980"/>
+			<point x="85000" y="73955"/>
+			<point x="85759" y="75136"/>
+			<point x="84154" y="77015"/>
+			<point x="84228" y="77737"/>
+			<point x="85242" y="78306"/>
+			<point x="85692" y="81525"/>
+			<point x="84399" y="82252"/>
+			<point x="83365" y="81953"/>
+			<point x="81610" y="83388"/>
+			<point x="80473" y="82612"/>
+		</shape>
+		<shape type="Poly" zMin="-3740" zMax="-3240" exclude="true">
+			<point x="82755" y="81625"/>
+			<point x="82309" y="81855"/>
+			<point x="81625" y="81248"/>
+			<point x="81626" y="80626"/>
+			<point x="82228" y="79566"/>
+			<point x="82228" y="79566"/>
+			<point x="81220" y="78236"/>
+			<point x="81030" y="77077"/>
+			<point x="82472" y="76149"/>
+			<point x="83270" y="76354"/>
+			<point x="83589" y="77629"/>
+			<point x="84703" y="78917"/>
+			<point x="84777" y="79993"/>
+			<point x="84676" y="80864"/>
+			<point x="84018" y="81088"/>
+			<point x="83337" y="81240"/>
+		</shape>
+	</zone>
+	<zone id="705069" name="[oren21_2220_a02_1]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<set name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="6435" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3344" zMax="-3044">
+			<point x="91337" y="77665"/>
+			<point x="92093" y="78507"/>
+			<point x="92023" y="79105"/>
+			<point x="90291" y="79743"/>
+			<point x="89466" y="79279"/>
+			<point x="89466" y="79279"/>
+			<point x="89600" y="77834"/>
+			<point x="88778" y="76650"/>
+			<point x="89692" y="76002"/>
+			<point x="90764" y="77561"/>
+		</shape>
+	</zone>
+	<zone id="705070" name="[oren21_2220_a02_2]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<set name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="6435" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3432" zMax="-3032">
+			<point x="90731" y="76824"/>
+			<point x="91716" y="77112"/>
+			<point x="93656" y="79500"/>
+			<point x="91801" y="80446"/>
+			<point x="88992" y="80261"/>
+			<point x="88992" y="80261"/>
+			<point x="88408" y="79497"/>
+			<point x="89140" y="78440"/>
+			<point x="87884" y="75539"/>
+			<point x="89076" y="74755"/>
+			<point x="90815" y="76046"/>
+		</shape>
+		<shape type="Poly" zMin="-3344" zMax="-3044" exclude="true">
+			<point x="91337" y="77665"/>
+			<point x="92093" y="78507"/>
+			<point x="92023" y="79105"/>
+			<point x="90291" y="79743"/>
+			<point x="89466" y="79279"/>
+			<point x="89466" y="79279"/>
+			<point x="89600" y="77834"/>
+			<point x="88778" y="76650"/>
+			<point x="89692" y="76002"/>
+			<point x="90764" y="77561"/>
+		</shape>
+	</zone>
+	<zone id="705071" name="[oren21_2220_a02_3]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<set name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="6435" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3600" zMax="-3200">
+			<point x="88436" y="81303"/>
+			<point x="87307" y="79562"/>
+			<point x="88166" y="78344"/>
+			<point x="86441" y="78316"/>
+			<point x="86179" y="77546"/>
+			<point x="87330" y="75984"/>
+			<point x="86509" y="74262"/>
+			<point x="88049" y="72874"/>
+			<point x="89061" y="74238"/>
+			<point x="91577" y="75214"/>
+			<point x="92445" y="74710"/>
+			<point x="92777" y="75434"/>
+			<point x="92125" y="76318"/>
+			<point x="92587" y="76918"/>
+			<point x="94066" y="76677"/>
+			<point x="94437" y="79460"/>
+			<point x="93369" y="81194"/>
+			<point x="91425" y="81782"/>
+			<point x="90501" y="81054"/>
+		</shape>
+		<shape type="Poly" zMin="-3432" zMax="-3032" exclude="true">
+			<point x="90731" y="76824"/>
+			<point x="91716" y="77112"/>
+			<point x="93656" y="79500"/>
+			<point x="91801" y="80446"/>
+			<point x="88992" y="80261"/>
+			<point x="88992" y="80261"/>
+			<point x="88408" y="79497"/>
+			<point x="89140" y="78440"/>
+			<point x="87884" y="75539"/>
+			<point x="89076" y="74755"/>
+			<point x="90815" y="76046"/>
+		</shape>
+	</zone>
+	<zone id="705072" name="[oren21_2220_a03_1]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<set name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="6435" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3744" zMax="-3444">
+			<point x="92254" y="83601"/>
+			<point x="92513" y="84114"/>
+			<point x="92406" y="84883"/>
+			<point x="92553" y="85384"/>
+			<point x="91805" y="85573"/>
+			<point x="91805" y="85573"/>
+			<point x="91193" y="84531"/>
+			<point x="91293" y="83868"/>
+		</shape>
+	</zone>
+	<zone id="705073" name="[oren21_2220_a03_2]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<set name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="6435" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3728" zMax="-3428">
+			<point x="92437" y="83030"/>
+			<point x="93139" y="83525"/>
+			<point x="92934" y="85775"/>
+			<point x="92261" y="86141"/>
+			<point x="90864" y="85353"/>
+			<point x="90864" y="85353"/>
+			<point x="90622" y="83941"/>
+			<point x="91126" y="83342"/>
+			<point x="91818" y="83153"/>
+		</shape>
+		<shape type="Poly" zMin="-3744" zMax="-3444" exclude="true">
+			<point x="92254" y="83601"/>
+			<point x="92513" y="84114"/>
+			<point x="92406" y="84883"/>
+			<point x="92553" y="85384"/>
+			<point x="91805" y="85573"/>
+			<point x="91805" y="85573"/>
+			<point x="91193" y="84531"/>
+			<point x="91293" y="83868"/>
+		</shape>
+	</zone>
+	<zone id="705074" name="[oren21_2220_a03_3]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<set name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="6435" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3700" zMax="-3400">
+			<point x="94254" y="83444"/>
+			<point x="93570" y="83984"/>
+			<point x="93445" y="86178"/>
+			<point x="91313" y="86422"/>
+			<point x="90275" y="86358"/>
+			<point x="89791" y="85414"/>
+			<point x="90219" y="83874"/>
+			<point x="89607" y="83262"/>
+			<point x="90015" y="82634"/>
+			<point x="92143" y="82182"/>
+			<point x="94099" y="82550"/>
+		</shape>
+		<shape type="Poly" zMin="-3728" zMax="-3428" exclude="true">
+			<point x="92437" y="83030"/>
+			<point x="93139" y="83525"/>
+			<point x="92934" y="85775"/>
+			<point x="92261" y="86141"/>
+			<point x="90864" y="85353"/>
+			<point x="90864" y="85353"/>
+			<point x="90622" y="83941"/>
+			<point x="91126" y="83342"/>
+			<point x="91818" y="83153"/>
+		</shape>
+	</zone>
+	<zone id="705075" name="[oren21_2220_a04_1]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<set name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="6435" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3584" zMax="-3184">
+			<point x="93513" y="87903"/>
+			<point x="93911" y="88740"/>
+			<point x="93830" y="89533"/>
+			<point x="93276" y="89513"/>
+			<point x="92059" y="88226"/>
+			<point x="92059" y="88226"/>
+			<point x="91971" y="87777"/>
+			<point x="92480" y="87548"/>
+			<point x="92795" y="87327"/>
+			<point x="93262" y="87501"/>
+		</shape>
+	</zone>
+	<zone id="705076" name="[oren21_2220_a04_2]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<set name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="6435" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3620" zMax="-3220">
+			<point x="92727" y="86380"/>
+			<point x="94103" y="87753"/>
+			<point x="94451" y="89784"/>
+			<point x="93104" y="90072"/>
+			<point x="91228" y="88097"/>
+			<point x="91228" y="88097"/>
+			<point x="91568" y="87205"/>
+			<point x="92330" y="86409"/>
+		</shape>
+		<shape type="Poly" zMin="-3584" zMax="-3184" exclude="true">
+			<point x="93513" y="87903"/>
+			<point x="93911" y="88740"/>
+			<point x="93830" y="89533"/>
+			<point x="93276" y="89513"/>
+			<point x="92059" y="88226"/>
+			<point x="92059" y="88226"/>
+			<point x="91971" y="87777"/>
+			<point x="92480" y="87548"/>
+			<point x="92795" y="87327"/>
+			<point x="93262" y="87501"/>
+		</shape>
+	</zone>
+	<zone id="705077" name="[oren21_2220_a04_3]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<set name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="6435" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3640" zMax="-3140">
+			<point x="94664" y="90851"/>
+			<point x="93241" y="91517"/>
+			<point x="92850" y="90548"/>
+			<point x="91950" y="90369"/>
+			<point x="91525" y="89361"/>
+			<point x="90345" y="88918"/>
+			<point x="91377" y="86446"/>
+			<point x="93171" y="86240"/>
+			<point x="94273" y="87094"/>
+			<point x="94625" y="87946"/>
+			<point x="95849" y="89386"/>
+			<point x="95401" y="90138"/>
+			<point x="94917" y="90406"/>
+		</shape>
+		<shape type="Poly" zMin="-3620" zMax="-3220" exclude="true">
+			<point x="92727" y="86380"/>
+			<point x="94103" y="87753"/>
+			<point x="94451" y="89784"/>
+			<point x="93104" y="90072"/>
+			<point x="91228" y="88097"/>
+			<point x="91228" y="88097"/>
+			<point x="91568" y="87205"/>
+			<point x="92330" y="86409"/>
+		</shape>
+	</zone>
+	<zone id="705078" name="[oren21_2220_a05_1]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<set name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="6435" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3288" zMax="-2788">
+			<point x="88568" y="92008"/>
+			<point x="90012" y="92048"/>
+			<point x="90093" y="92642"/>
+			<point x="88464" y="92784"/>
+			<point x="87451" y="93745"/>
+			<point x="87451" y="93745"/>
+			<point x="86372" y="92881"/>
+			<point x="87136" y="92149"/>
+		</shape>
+	</zone>
+	<zone id="705079" name="[oren21_2220_a05_2]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<set name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="6435" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3476" zMax="-2976">
+			<point x="87196" y="94553"/>
+			<point x="86308" y="93675"/>
+			<point x="85314" y="94270"/>
+			<point x="84520" y="93898"/>
+			<point x="85968" y="92702"/>
+			<point x="85968" y="92702"/>
+			<point x="86478" y="91730"/>
+			<point x="88406" y="91514"/>
+			<point x="90392" y="91279"/>
+			<point x="90923" y="92101"/>
+			<point x="90953" y="92766"/>
+			<point x="89935" y="93237"/>
+			<point x="88741" y="93082"/>
+			<point x="88416" y="93943"/>
+		</shape>
+		<shape type="Poly" zMin="-3288" zMax="-2788" exclude="true">
+			<point x="88568" y="92008"/>
+			<point x="90012" y="92048"/>
+			<point x="90093" y="92642"/>
+			<point x="88464" y="92784"/>
+			<point x="87451" y="93745"/>
+			<point x="87451" y="93745"/>
+			<point x="86372" y="92881"/>
+			<point x="87136" y="92149"/>
+		</shape>
+	</zone>
+	<zone id="705080" name="[oren21_2220_a05_3]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<set name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="6435" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3600" zMax="-3000">
+			<point x="90965" y="93248"/>
+			<point x="86669" y="95030"/>
+			<point x="86060" y="94247"/>
+			<point x="85132" y="95244"/>
+			<point x="83537" y="94333"/>
+			<point x="84037" y="93518"/>
+			<point x="85621" y="92454"/>
+			<point x="86735" y="90612"/>
+			<point x="90830" y="90531"/>
+			<point x="91352" y="91601"/>
+			<point x="92529" y="92534"/>
+			<point x="92241" y="93634"/>
+		</shape>
+		<shape type="Poly" zMin="-3476" zMax="-2976" exclude="true">
+			<point x="87196" y="94553"/>
+			<point x="86308" y="93675"/>
+			<point x="85314" y="94270"/>
+			<point x="84520" y="93898"/>
+			<point x="85968" y="92702"/>
+			<point x="85968" y="92702"/>
+			<point x="86478" y="91730"/>
+			<point x="88406" y="91514"/>
+			<point x="90392" y="91279"/>
+			<point x="90923" y="92101"/>
+			<point x="90953" y="92766"/>
+			<point x="89935" y="93237"/>
+			<point x="88741" y="93082"/>
+			<point x="88416" y="93943"/>
+		</shape>
+	</zone>
+	<zone id="705081" name="[oren21_mb2220_ugoz01]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<set name="initialDelay" val="1"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="6436" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3792" zMax="-3292">
+			<point x="96971" y="84648"/>
+			<point x="97842" y="86047"/>
+			<point x="97803" y="86717"/>
+			<point x="95982" y="86676"/>
+			<point x="95046" y="85676"/>
+			<point x="95166" y="84573"/>
+			<point x="96095" y="84213"/>
+		</shape>
+	</zone>
+</list>

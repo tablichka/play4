@@ -1,0 +1,447 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<zone id="99" name="[cruma_boss_damage_zone]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<!-- loc_id: 40099 -->
+		<shape type="Poly" zMin="-6519" zMax="-6319">
+			<point x="17869" y="108566"/>
+			<point x="18071" y="108774"/>
+			<point x="18072" y="109060"/>
+			<point x="17865" y="109265"/>
+			<point x="17580" y="109264"/>
+			<point x="17379" y="109062"/>
+			<point x="17379" y="108774"/>
+			<point x="17584" y="108569"/>
+		</shape>
+	</zone>
+
+	<zone id="126" name="[aden_damage_8]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="messageNo" val="686"/>
+		<!-- loc_id: 40126 -->
+		<shape type="Rect" zMin="-560" zMax="-360">
+			<point x="149084" y="7070"/>
+			<point x="149349" y="7203"/>
+		</shape>
+	</zone>
+
+	<zone id="127" name="[aden_damage_7]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="messageNo" val="686"/>
+		<!-- loc_id: 40127 -->
+		<shape type="Rect" zMin="-528" zMax="-328">
+			<point x="149084" y="6942"/>
+			<point x="149349" y="7075"/>
+		</shape>
+	</zone>
+
+	<zone id="128" name="[aden_damage_6]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="messageNo" val="686"/>
+		<!-- loc_id: 40128 -->
+		<shape type="Rect" zMin="-528" zMax="-328">
+			<point x="149084" y="6814"/>
+			<point x="149349" y="6947"/>
+		</shape>
+	</zone>
+
+	<zone id="129" name="[aden_damage_5]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="messageNo" val="686"/>
+		<!-- loc_id: 40129 -->
+		<shape type="Rect" zMin="-528" zMax="-328">
+			<point x="149084" y="6686"/>
+			<point x="149349" y="6819"/>
+		</shape>
+	</zone>
+
+	<zone id="130" name="[aden_damage_4]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="messageNo" val="686"/>
+		<!-- loc_id: 40130 -->
+		<shape type="Rect" zMin="-528" zMax="-328">
+			<point x="145548" y="7054"/>
+			<point x="145813" y="7187"/>
+		</shape>
+	</zone>
+
+	<zone id="131" name="[aden_damage_3]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="messageNo" val="686"/>
+		<!-- loc_id: 40131 -->
+		<shape type="Rect" zMin="-496" zMax="-296">
+			<point x="145548" y="6926"/>
+			<point x="145813" y="7059"/>
+		</shape>
+	</zone>
+
+	<zone id="132" name="[aden_damage_2]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="messageNo" val="686"/>
+		<!-- loc_id: 40132 -->
+		<shape type="Rect" zMin="-496" zMax="-296">
+			<point x="145548" y="6798"/>
+			<point x="145813" y="6931"/>
+		</shape>
+	</zone>
+
+	<zone id="133" name="[aden_damage_1]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="messageNo" val="686"/>
+		<!-- loc_id: 40133 -->
+		<shape type="Rect" zMin="-496" zMax="-296">
+			<point x="145548" y="6670"/>
+			<point x="145813" y="6803"/>
+		</shape>
+	</zone>
+
+	<zone id="136" name="[gludio_damage_1]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="messageNo" val="686"/>
+		<!-- loc_id: 40136 -->
+		<shape type="Rect" zMin="-2627" zMax="-2427">
+			<point x="-18255" y="110790"/>
+			<point x="-17972" y="111174"/>
+		</shape>
+	</zone>
+
+	<zone id="137" name="[gludio_damage_2]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="messageNo" val="686"/>
+		<!-- loc_id: 40137 -->
+		<shape type="Rect" zMin="-2595" zMax="-2395">
+			<point x="-19213" y="107137"/>
+			<point x="-18827" y="107404"/>
+		</shape>
+	</zone>
+
+	<zone id="140" name="[dion_damage_1]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="messageNo" val="686"/>
+		<!-- loc_id: 40140 -->
+		<shape type="Rect" zMin="-2821" zMax="30341">
+			<point x="22215" y="158960"/>
+			<point x="21932" y="158576"/>
+		</shape>
+	</zone>
+
+	<zone id="141" name="[dion_damage_2]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="messageNo" val="686"/>
+		<!-- loc_id: 40141 -->
+		<shape type="Rect" zMin="-2789" zMax="30373">
+			<point x="23173" y="162613"/>
+			<point x="22787" y="162346"/>
+		</shape>
+	</zone>
+
+	<zone id="144" name="[giran_damage_1]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="messageNo" val="686"/>
+		<!-- loc_id: 40144 -->
+		<shape type="Rect" zMin="-2694" zMax="13957">
+			<point x="115132" y="144954"/>
+			<point x="114748" y="145237"/>
+		</shape>
+	</zone>
+
+	<zone id="145" name="[giran_damage_2]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="messageNo" val="686"/>
+		<!-- loc_id: 40145 -->
+		<shape type="Rect" zMin="-2662" zMax="13989">
+			<point x="118785" y="143996"/>
+			<point x="118518" y="144382"/>
+		</shape>
+	</zone>
+
+	<zone id="148" name="[oren_damage_1]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="messageNo" val="686"/>
+		<!-- loc_id: 40148 -->
+		<shape type="Rect" zMin="-2421" zMax="13957">
+			<point x="81208" y="37049"/>
+			<point x="80824" y="37332"/>
+		</shape>
+	</zone>
+
+	<zone id="149" name="[oren_damage_2]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="messageNo" val="686"/>
+		<!-- loc_id: 40149 -->
+		<shape type="Rect" zMin="-2389" zMax="13989">
+			<point x="84861" y="36091"/>
+			<point x="84594" y="36477"/>
+		</shape>
+	</zone>
+
+	<zone id="152" name="[innadrile_damage_1]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="messageNo" val="686"/>
+		<!-- loc_id: 40152 -->
+		<shape type="Rect" zMin="-917" zMax="30341">
+			<point x="116166" y="247739"/>
+			<point x="115883" y="247355"/>
+		</shape>
+	</zone>
+
+	<zone id="153" name="[innadrile_damage_2]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="messageNo" val="686"/>
+		<!-- loc_id: 40153 -->
+		<shape type="Rect" zMin="-885" zMax="30373">
+			<point x="117124" y="251392"/>
+			<point x="116738" y="251125"/>
+		</shape>
+	</zone>
+
+	<zone id="156" name="[godad_damage_1]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="messageNo" val="686"/>
+		<!-- loc_id: 40156 -->
+		<shape type="Poly" zMin="-1789" zMax="-1489">
+			<point x="149235" y="-47768"/>
+			<point x="149579" y="-47608"/>
+			<point x="149515" y="-47472"/>
+			<point x="149169" y="-47634"/>
+		</shape>
+	</zone>
+
+	<zone id="157" name="[godad_damage_2]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="messageNo" val="686"/>
+		<!-- loc_id: 40157 -->
+		<shape type="Poly" zMin="-1789" zMax="-1439">
+			<point x="145352" y="-47607"/>
+			<point x="145696" y="-47768"/>
+			<point x="145760" y="-47633"/>
+			<point x="145415" y="-47471"/>
+		</shape>
+	</zone>
+
+	<zone id="173" name="[devil_damage_001]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="messageNo" val="686"/>
+		<!-- loc_id: 40173 -->
+		<shape type="Poly" zMin="-4048" zMax="-3848">
+			<point x="51296" y="205421"/>
+			<point x="51788" y="205266"/>
+			<point x="51496" y="205621"/>
+			<point x="51072" y="205896"/>
+		</shape>
+	</zone>
+
+	<zone id="174" name="[devil_damage_002]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="messageNo" val="686"/>
+		<!-- loc_id: 40174 -->
+		<shape type="Poly" zMin="-4032" zMax="-3732">
+			<point x="51820" y="205340"/>
+			<point x="52535" y="205305"/>
+			<point x="52535" y="205436"/>
+			<point x="51705" y="205528"/>
+		</shape>
+	</zone>
+
+	<zone id="175" name="[devil_damage_003]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="messageNo" val="686"/>
+		<!-- loc_id: 40175 -->
+		<shape type="Poly" zMin="-3776" zMax="-3626">
+			<point x="43439" y="213259"/>
+			<point x="43589" y="213249"/>
+			<point x="43750" y="213760"/>
+			<point x="43680" y="214092"/>
+		</shape>
+	</zone>
+
+	<zone id="176" name="[devil_damage_004]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="messageNo" val="686"/>
+		<!-- loc_id: 40176 -->
+		<shape type="Poly" zMin="-3764" zMax="-3564">
+			<point x="42805" y="214266"/>
+			<point x="43627" y="214195"/>
+			<point x="43386" y="214355"/>
+			<point x="42805" y="214405"/>
+		</shape>
+	</zone>
+
+	<zone id="177" name="[devil_damage_005]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="messageNo" val="686"/>
+		<!-- loc_id: 40177 -->
+		<shape type="Rect" zMin="-3856" zMax="-3656">
+			<point x="43511" y="218426"/>
+			<point x="43711" y="218759"/>
+		</shape>
+	</zone>
+
+	<zone id="178" name="[devil_damage_006]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="messageNo" val="686"/>
+		<!-- loc_id: 40178 -->
+		<shape type="Poly" zMin="-3940" zMax="-3740">
+			<point x="43012" y="218850"/>
+			<point x="43708" y="218850"/>
+			<point x="43719" y="219260"/>
+			<point x="43001" y="219260"/>
+		</shape>
+	</zone>
+
+	<zone id="179" name="[devil_damage_007]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="messageNo" val="686"/>
+		<!-- loc_id: 40179 -->
+		<shape type="Poly" zMin="-3060" zMax="-2860">
+			<point x="50630" y="211383"/>
+			<point x="51129" y="211383"/>
+			<point x="51129" y="211858"/>
+			<point x="50642" y="211858"/>
+		</shape>
+	</zone>
+
+	<zone id="180" name="[devil_damage_008]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="messageNo" val="686"/>
+		<!-- loc_id: 40180 -->
+		<shape type="Poly" zMin="-4008" zMax="-3608">
+			<point x="51820" y="206520"/>
+			<point x="52792" y="206500"/>
+			<point x="52812" y="207128"/>
+			<point x="51844" y="207060"/>
+		</shape>
+	</zone>
+
+	<zone id="181" name="[devil_damage_009]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="messageNo" val="686"/>
+		<!-- loc_id: 40181 -->
+		<shape type="Rect" zMin="-3056" zMax="-2706">
+			<point x="50673" y="210566"/>
+			<point x="51054" y="211317"/>
+		</shape>
+	</zone>
+
+	<zone id="182" name="[devil_damage_010]">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="initialDelay" val="1"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="messageNo" val="686"/>
+		<!-- loc_id: 40182 -->
+		<shape type="Rect" zMin="-2736" zMax="-2536">
+			<point x="50608" y="209718"/>
+			<point x="51150" y="210201"/>
+		</shape>
+	</zone>
+
+</list>

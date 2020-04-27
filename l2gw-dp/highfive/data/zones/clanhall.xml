@@ -1,0 +1,1073 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<zone id="2001" classType="Residence" name="[partisan_agit001]">
+		<attr name="entityId" val="21"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45001 -->
+		<restartPoints>
+			<point x="43370" y="108839" z="-1980"/>
+		</restartPoints>
+		<!-- loc_id: 42001 -->
+		<shape type="Poly" zMin="-2104" zMax="-1104">
+			<point x="43048" y="108832"/>
+			<point x="43692" y="108204"/>
+			<point x="44052" y="108604"/>
+			<point x="43976" y="109180"/>
+			<point x="43684" y="109496"/>
+		</shape>
+	</zone>
+	<zone id="2002" classType="Residence" name="[gludio_castle_agit_001]">
+		<attr name="entityId" val="22"/>
+		<attr name="active" val="false" />
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<!-- loc_id: 45002 -->
+		<restartPoints>
+			<point x="-16029" y="123642" z="-3101"/>
+		</restartPoints>
+		<!-- loc_id: 42002 -->
+		<shape type="Poly" zMin="-3598" zMax="-2098">
+			<point x="-16362" y="123496"/>
+			<point x="-15748" y="123315"/>
+			<point x="-15645" y="123655"/>
+			<point x="-16234" y="123831"/>
+		</shape>
+	</zone>
+	<zone id="2003" classType="Residence" name="[gludio_castle_agit_002]">
+		<attr name="entityId" val="23"/>
+		<attr name="active" val="false" />
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<!-- loc_id: 45003 -->
+		<restartPoints>
+			<point x="-14848" y="125552" z="-3128"/>
+		</restartPoints>
+		<!-- loc_id: 42003 -->
+		<shape type="Poly" zMin="-3777" zMax="-2277">
+			<point x="-15098" y="125352"/>
+			<point x="-14789" y="125352"/>
+			<point x="-14789" y="125816"/>
+			<point x="-15098" y="125816"/>
+		</shape>
+	</zone>
+	<zone id="2004" classType="Residence" name="[gludio_castle_agit_003]">
+		<attr name="entityId" val="24"/>
+		<attr name="active" val="false" />
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<!-- loc_id: 45004 -->
+		<restartPoints>
+			<point x="-13879" y="125413" z="-3128"/>
+		</restartPoints>
+		<!-- loc_id: 42004 -->
+		<shape type="Poly" zMin="-3745" zMax="-2245">
+			<point x="-14028" y="125062"/>
+			<point x="-13695" y="125070"/>
+			<point x="-13695" y="125671"/>
+			<point x="-14028" y="125663"/>
+		</shape>
+	</zone>
+	<zone id="2005" classType="Residence" name="[gludio_castle_agit_004]">
+		<attr name="entityId" val="25"/>
+		<attr name="active" val="false" />
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<!-- loc_id: 45005 -->
+		<restartPoints>
+			<point x="-12710" y="124029" z="-3096"/>
+		</restartPoints>
+		<!-- loc_id: 42005 -->
+		<shape type="Poly" zMin="-3809" zMax="-2309">
+			<point x="-12942" y="123872"/>
+			<point x="-12327" y="123872"/>
+			<point x="-12327" y="124231"/>
+			<point x="-12942" y="124231"/>
+		</shape>
+	</zone>
+	<zone id="2006" classType="Residence" name="[gludin_agit_001]">
+		<attr name="entityId" val="26"/>
+		<attr name="active" val="false" />
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<!-- loc_id: 45006 -->
+		<restartPoints>
+			<point x="-84416" y="152192" z="-3123"/>
+		</restartPoints>
+		<!-- loc_id: 42006 -->
+		<shape type="Poly" zMin="-3500" zMax="-3000">
+			<point x="-83819" y="151959"/>
+			<point x="-83819" y="152328"/>
+			<point x="-84325" y="152328"/>
+			<point x="-84691" y="151968"/>
+		</shape>
+		<!-- loc_id: 42045 -->
+		<shape type="Poly" zMin="-3500" zMax="-3000">
+			<point x="-84691" y="151557"/>
+			<point x="-84261" y="151557"/>
+			<point x="-84260" y="152333"/>
+			<point x="-84690" y="152330"/>
+		</shape>
+	</zone>
+	<zone id="2007" classType="Residence" name="[gludin_agit_002]">
+		<attr name="entityId" val="27"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<!-- loc_id: 45007 -->
+		<restartPoints>
+			<point x="-84171" y="153385" z="-3159"/>
+		</restartPoints>
+		<!-- loc_id: 42007 -->
+		<shape type="Poly" zMin="-4012" zMax="-2512">
+			<point x="-84367" y="153086"/>
+			<point x="-83983" y="153086"/>
+			<point x="-83977" y="154046"/>
+			<point x="-84367" y="154054"/>
+			<point x="-83586" y="153085"/>
+			<point x="-83585" y="153564"/>
+			<point x="-84160" y="153561"/>
+		</shape>
+	</zone>
+	<zone id="2008" classType="Residence" name="[gludin_agit_003]">
+		<attr name="entityId" val="28"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45008 -->
+		<restartPoints>
+			<point x="-84236" y="155520" z="-3160"/>
+		</restartPoints>
+		<!-- loc_id: 42008 -->
+		<shape type="Poly" zMin="-4044" zMax="-2544">
+			<point x="-84463" y="154941"/>
+			<point x="-83987" y="154941"/>
+			<point x="-83986" y="155688"/>
+			<point x="-84463" y="155685"/>
+			<point x="-83523" y="155317"/>
+			<point x="-83523" y="155686"/>
+			<point x="-84098" y="155684"/>
+		</shape>
+	</zone>
+	<zone id="2009" classType="Residence" name="[gludin_agit_004]">
+		<attr name="entityId" val="29"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45009 -->
+		<restartPoints>
+			<point x="-79544" y="150181" z="-3038"/>
+		</restartPoints>
+		<!-- loc_id: 42009 -->
+		<shape type="Poly" zMin="-3948" zMax="-2448">
+			<point x="-79657" y="149419"/>
+			<point x="-79290" y="149424"/>
+			<point x="-79284" y="150296"/>
+			<point x="-79656" y="150298"/>
+			<point x="-79491" y="149419"/>
+			<point x="-79491" y="149859"/>
+			<point x="-80066" y="149857"/>
+		</shape>
+	</zone>
+	<zone id="2010" classType="Residence" name="[gludin_agit_005]">
+		<attr name="entityId" val="30"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45010 -->
+		<restartPoints>
+			<point x="-79513" y="151506" z="-3041"/>
+		</restartPoints>
+		<!-- loc_id: 42010 -->
+		<shape type="Poly" zMin="-3980" zMax="-2480">
+			<point x="-79663" y="151367"/>
+			<point x="-79296" y="151372"/>
+			<point x="-79290" y="152244"/>
+			<point x="-79663" y="152246"/>
+			<point x="-79493" y="151808"/>
+			<point x="-79493" y="152247"/>
+			<point x="-80067" y="152245"/>
+		</shape>
+	</zone>
+	<zone id="2011" classType="Residence" name="[dion_castle_agit_001]">
+		<attr name="entityId" val="31"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45011 -->
+		<restartPoints>
+			<point x="17760" y="145200" z="-3036"/>
+		</restartPoints>
+		<!-- loc_id: 42011 -->
+		<shape type="Poly" zMin="-3365" zMax="-1865">
+			<point x="17597" y="144823"/>
+			<point x="17989" y="145089"/>
+			<point x="17828" y="145333"/>
+			<point x="17433" y="145067"/>
+		</shape>
+	</zone>
+	<zone id="2012" classType="Residence" name="[dion_castle_agit_002]">
+		<attr name="entityId" val="32"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45012 -->
+		<restartPoints>
+			<point x="18800" y="143248" z="-3010"/>
+		</restartPoints>
+		<!-- loc_id: 42012 -->
+		<shape type="Poly" zMin="-3333" zMax="-1833">
+			<point x="18849" y="143099"/>
+			<point x="18897" y="143562"/>
+			<point x="18615" y="143588"/>
+			<point x="18571" y="143128"/>
+		</shape>
+	</zone>
+	<zone id="2013" classType="Residence" name="[dion_castle_agit_003]">
+		<attr name="entityId" val="33"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45013 -->
+		<restartPoints>
+			<point x="20096" y="146064" z="-3111"/>
+		</restartPoints>
+		<!-- loc_id: 42013 -->
+		<shape type="Poly" zMin="-3397" zMax="-1897">
+			<point x="19942" y="145996"/>
+			<point x="20414" y="145996"/>
+			<point x="20414" y="146292"/>
+			<point x="19942" y="146292"/>
+		</shape>
+	</zone>
+	<zone id="2014" classType="Residence" name="[devastated_castle_001]">
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="active" val="false" />
+		<attr name="entityId" val="34"/>
+		<!-- loc_id: 45014 -->
+		<restartPoints>
+			<point x="177930" y="-18629" z="-2240"/>
+		</restartPoints>
+		<!-- loc_id: 42014 -->
+		<shape type="Poly" zMin="-2514" zMax="486">
+			<point x="177507" y="-18351"/>
+			<point x="177499" y="-18853"/>
+			<point x="178290" y="-18846"/>
+			<point x="178290" y="-18344"/>
+		</shape>
+	</zone>
+	<zone id="2015" classType="Residence" name="[bandits_stronghold_001]">
+		<attr name="entityId" val="35"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45015 -->
+		<restartPoints>
+			<point x="80339" y="-15442" z="-1804"/>
+		</restartPoints>
+		<!-- loc_id: 42015 TODO: check coord  -->
+		<shape type="Poly" zMin="-2920" zMax="80">
+			<point x="79028" y="-17588"/>
+			<point x="84640" y="-19528"/>
+			<point x="86952" y="-16888"/>
+			<point x="83636" y="-13448"/>
+			<point x="79196" y="-13584"/>
+		</shape>
+	</zone>
+	<zone id="2016" classType="Residence" name="[aden_castle_agit_001]">
+		<attr name="entityId" val="36"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45016 -->
+		<restartPoints>
+			<point x="149134" y="23140" z="-2160"/>
+		</restartPoints>
+		<!-- loc_id: 42016 -->
+		<shape type="Poly" zMin="-2160" zMax="-1960">
+			<point x="148844" y="22709"/>
+			<point x="149424" y="22709"/>
+			<point x="149424" y="23569"/>
+			<point x="148844" y="23569"/>
+		</shape>
+	</zone>
+	<zone id="2017" classType="Residence" name="[aden_castle_agit_002]">
+		<attr name="entityId" val="37"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45017 -->
+		<restartPoints>
+			<point x="150644" y="23653" z="-2150"/>
+		</restartPoints>
+		<!-- loc_id: 42017 -->
+		<shape type="Poly" zMin="-2150" zMax="-1950">
+			<point x="150343" y="23193"/>
+			<point x="150943" y="23193"/>
+			<point x="150943" y="24113"/>
+			<point x="150343" y="24113"/>
+		</shape>
+	</zone>
+	<zone id="2018" classType="Residence" name="[aden_castle_agit_003]">
+		<attr name="entityId" val="38"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45018 -->
+		<restartPoints>
+			<point x="145667" y="25356" z="-2150"/>
+		</restartPoints>
+		<!-- loc_id: 42018 -->
+		<shape type="Poly" zMin="-2150" zMax="-1950">
+			<point x="145362" y="24890"/>
+			<point x="145972" y="24890"/>
+			<point x="145972" y="25820"/>
+			<point x="145362" y="25820"/>
+		</shape>
+	</zone>
+	<zone id="2019" classType="Residence" name="[aden_castle_agit_004]">
+		<attr name="entityId" val="39"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45019 -->
+		<restartPoints>
+			<point x="150748" y="26540" z="-2280"/>
+		</restartPoints>
+		<!-- loc_id: 42019 -->
+		<shape type="Poly" zMin="-2280" zMax="-2080">
+			<point x="150460" y="26108"/>
+			<point x="151036" y="26108"/>
+			<point x="151036" y="26972"/>
+			<point x="150460" y="26972"/>
+		</shape>
+	</zone>
+	<zone id="2020" classType="Residence" name="[aden_castle_agit_005]">
+		<attr name="entityId" val="40"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45020 -->
+		<restartPoints>
+			<point x="143992" y="27092" z="-2290"/>
+		</restartPoints>
+		<!-- loc_id: 42020 -->
+		<shape type="Poly" zMin="-2290" zMax="-2090">
+			<point x="143701" y="26661"/>
+			<point x="144281" y="26661"/>
+			<point x="144281" y="27521"/>
+			<point x="143701" y="27521"/>
+		</shape>
+	</zone>
+	<zone id="2051" classType="Residence" name="[aden_castle_agit_006]">
+		<attr name="entityId" val="41"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45021 -->
+		<restartPoints>
+			<point x="144014" y="28202" z="-2280"/>
+		</restartPoints>
+		<!-- loc_id: 42021 -->
+		<shape type="Poly" zMin="-2280" zMax="-2080">
+			<point x="143704" y="27734"/>
+			<point x="144324" y="27734"/>
+			<point x="144324" y="28670"/>
+			<point x="143704" y="28670"/>
+		</shape>
+	</zone>
+	<zone id="2052" classType="Residence" name="[giran_castle_agit_001]">
+		<attr name="entityId" val="42"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45022 -->
+		<restartPoints>
+			<point x="78592" y="148080" z="-3581"/>
+		</restartPoints>
+		<!-- loc_id: 42022 -->
+		<shape type="Poly" zMin="-3647" zMax="-3297">
+			<point x="78059" y="147906"/>
+			<point x="79122" y="147906"/>
+			<point x="79122" y="148296"/>
+			<point x="78059" y="148296"/>
+		</shape>
+	</zone>
+	<zone id="2023" classType="Residence" name="[giran_castle_agit_002]">
+		<attr name="entityId" val="43"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45023 -->
+		<restartPoints>
+			<point x="82032" y="145328" z="-3520"/>
+		</restartPoints>
+		<!-- loc_id: 42023 -->
+		<shape type="Poly" zMin="-3647" zMax="-3297">
+			<point x="81859" y="144802"/>
+			<point x="82254" y="144802"/>
+			<point x="82254" y="145870"/>
+			<point x="81859" y="145870"/>
+		</shape>
+	</zone>
+	<zone id="2024" classType="Residence" name="[giran_castle_agit_003]">
+		<attr name="entityId" val="44"/>
+		<attr name="active" val="false" />
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<!-- loc_id: 45024 -->
+		<restartPoints>
+			<point x="83392" y="145328" z="-3389"/>
+		</restartPoints>
+		<!-- loc_id: 42024 -->
+		<shape type="Poly" zMin="-3540" zMax="-3190">
+			<point x="83195" y="144779"/>
+			<point x="83591" y="144779"/>
+			<point x="83591" y="145847"/>
+			<point x="83195" y="145847"/>
+		</shape>
+	</zone>
+	<zone id="2025" classType="Residence" name="[giran_castle_agit_004]">
+		<attr name="entityId" val="45"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45025 -->
+		<restartPoints>
+			<point x="80960" y="151600" z="-3517"/>
+		</restartPoints>
+		<!-- loc_id: 42025 -->
+		<shape type="Poly" zMin="-3647" zMax="-3297">
+			<point x="80773" y="151053"/>
+			<point x="81169" y="151053"/>
+			<point x="81169" y="152121"/>
+			<point x="80773" y="152121"/>
+		</shape>
+	</zone>
+	<zone id="2026" classType="Residence" name="[giran_castle_agit_005]">
+		<attr name="entityId" val="46"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45026 -->
+		<restartPoints>
+			<point x="82064" y="151904" z="-3520"/>
+		</restartPoints>
+		<!-- loc_id: 42026 -->
+		<shape type="Poly" zMin="-3647" zMax="-3297">
+			<point x="81903" y="151377"/>
+			<point x="82299" y="151377"/>
+			<point x="82299" y="152445"/>
+			<point x="81903" y="152445"/>
+		</shape>
+	</zone>
+	<zone id="2027" classType="Residence" name="[godad_castle_agit_001]">
+		<attr name="entityId" val="47"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45027 -->
+		<restartPoints>
+			<point x="146022" y="-55560" z="-2765"/>
+		</restartPoints>
+		<!-- loc_id: 42027 -->
+		<shape type="Poly" zMin="-2828" zMax="-2528">
+			<point x="145660" y="-55829"/>
+			<point x="146459" y="-55730"/>
+			<point x="146402" y="-55280"/>
+			<point x="145605" y="-55378"/>
+		</shape>
+	</zone>
+	<zone id="2028" classType="Residence" name="[godad_castle_agit_002]">
+		<attr name="entityId" val="48"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45028 -->
+		<restartPoints>
+			<point x="146960" y="-56768" z="-2765"/>
+		</restartPoints>
+		<!-- loc_id: 42028 -->
+		<shape type="Poly" zMin="-2828" zMax="-2528">
+			<point x="146936" y="-57320"/>
+			<point x="147308" y="-56607"/>
+			<point x="146906" y="-56397"/>
+			<point x="146535" y="-57111"/>
+		</shape>
+	</zone>
+	<zone id="2029" classType="Residence" name="[godad_castle_agit_003]">
+		<attr name="entityId" val="49"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45029 -->
+		<restartPoints>
+			<point x="148480" y="-56848" z="-2765"/>
+		</restartPoints>
+		<!-- loc_id: 42029 -->
+		<shape type="Poly" zMin="-2828" zMax="-2528">
+			<point x="148487" y="-57327"/>
+			<point x="148887" y="-57113"/>
+			<point x="148508" y="-56405"/>
+			<point x="148108" y="-56618"/>
+		</shape>
+	</zone>
+	<zone id="2030" classType="Residence" name="[godad_castle_agit_004]">
+		<attr name="entityId" val="50"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45030 -->
+		<restartPoints>
+			<point x="149376" y="-55568" z="-2765"/>
+		</restartPoints>
+		<!-- loc_id: 42030 -->
+		<shape type="Poly" zMin="-2828" zMax="-2528">
+			<point x="148962" y="-55739"/>
+			<point x="149759" y="-55838"/>
+			<point x="149815" y="-55388"/>
+			<point x="149018" y="-55289"/>
+		</shape>
+	</zone>
+	<zone id="2031" classType="Residence" name="[rune_castle_agit_001]">
+		<attr name="entityId" val="51"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45031 -->
+		<restartPoints>
+			<point x="37724" y="-50775" z="904"/>
+		</restartPoints>
+		<!-- loc_id: 42031 -->
+		<shape type="Poly" zMin="870" zMax="1096">
+			<point x="37384" y="-51032"/>
+			<point x="38072" y="-51032"/>
+			<point x="38056" y="-50552"/>
+			<point x="37784" y="-50552"/>
+			<point x="37784" y="-50392"/>
+			<point x="37672" y="-50392"/>
+			<point x="37672" y="-50552"/>
+			<point x="37384" y="-50552"/>
+		</shape>
+	</zone>
+	<zone id="2032" classType="Residence" name="[rune_castle_agit_002]">
+		<attr name="entityId" val="52"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45032 -->
+		<restartPoints>
+			<point x="38776" y="-50456" z="904"/>
+		</restartPoints>
+		<!-- loc_id: 42032 -->
+		<shape type="Poly" zMin="870" zMax="1096">
+			<point x="38600" y="-50808"/>
+			<point x="39128" y="-50536"/>
+			<point x="38920" y="-50088"/>
+			<point x="38696" y="-50200"/>
+			<point x="38600" y="-50088"/>
+			<point x="38504" y="-50152"/>
+			<point x="38568" y="-50264"/>
+			<point x="38328" y="-50392"/>
+		</shape>
+	</zone>
+	<zone id="2033" classType="Residence" name="[rune_castle_agit_003]">
+		<attr name="entityId" val="53"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45033 -->
+		<restartPoints>
+			<point x="39480" y="-49688" z="904"/>
+		</restartPoints>
+		<!-- loc_id: 42033 -->
+		<shape type="Poly" zMin="870" zMax="1096">
+			<point x="39512" y="-50104"/>
+			<point x="39864" y="-49544"/>
+			<point x="39432" y="-49288"/>
+			<point x="39256" y="-49496"/>
+			<point x="39176" y="-49448"/>
+			<point x="39096" y="-49544"/>
+			<point x="39208" y="-49608"/>
+			<point x="39096" y="-49816"/>
+		</shape>
+	</zone>
+	<zone id="2034" classType="Residence" name="[rune_castle_agit_004]">
+		<attr name="entityId" val="54"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45034 -->
+		<restartPoints>
+			<point x="39608" y="-48264" z="904"/>
+		</restartPoints>
+		<!-- loc_id: 42034 -->
+		<shape type="Poly" zMin="870" zMax="1096">
+			<point x="39320" y="-48616"/>
+			<point x="39848" y="-48616"/>
+			<point x="39848" y="-47848"/>
+			<point x="39336" y="-47848"/>
+		</shape>
+	</zone>
+	<zone id="2035" classType="Residence" name="[rune_castle_agit_005]">
+		<attr name="entityId" val="55"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45035 -->
+		<restartPoints>
+			<point x="39480" y="-46792" z="904"/>
+		</restartPoints>
+		<!-- loc_id: 42035 -->
+		<shape type="Poly" zMin="870" zMax="1096">
+			<point x="39432" y="-47192"/>
+			<point x="39800" y="-46952"/>
+			<point x="39544" y="-46424"/>
+			<point x="39048" y="-46648"/>
+			<point x="39208" y="-46872"/>
+			<point x="39096" y="-46952"/>
+			<point x="39160" y="-47048"/>
+			<point x="39272" y="-46984"/>
+		</shape>
+	</zone>
+	<zone id="2036" classType="Residence" name="[rune_castle_agit_006]">
+		<attr name="entityId" val="56"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45036 -->
+		<restartPoints>
+			<point x="38729" y="-46040" z="904"/>
+		</restartPoints>
+		<!-- loc_id: 42036 -->
+		<shape type="Poly" zMin="870" zMax="1096">
+			<point x="38904" y="-46376"/>
+			<point x="39240" y="-46040"/>
+			<point x="38600" y="-45656"/>
+			<point x="38344" y="-46088"/>
+			<point x="38600" y="-46216"/>
+			<point x="38520" y="-46328"/>
+			<point x="38632" y="-46392"/>
+			<point x="38696" y="-46280"/>
+		</shape>
+	</zone>
+	<zone id="2037" classType="Residence" name="[rune_castle_agit_007]">
+		<attr name="entityId" val="57"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45037 -->
+		<restartPoints>
+			<point x="37752" y="-45720" z="904"/>
+		</restartPoints>
+		<!-- loc_id: 42037 -->
+		<shape type="Poly" zMin="870" zMax="1096">
+			<point x="38072" y="-45928"/>
+			<point x="38072" y="-45416"/>
+			<point x="37384" y="-45432"/>
+			<point x="37384" y="-45944"/>
+			<point x="37688" y="-45944"/>
+			<point x="37688" y="-46056"/>
+			<point x="37800" y="-46056"/>
+			<point x="37800" y="-45928"/>
+		</shape>
+	</zone>
+	<zone id="2038" classType="Residence" name="[schuttgart_castle_agit_001]">
+		<attr name="entityId" val="58"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45038 -->
+		<restartPoints>
+			<point x="85700" y="-143150" z="-1325"/>
+		</restartPoints>
+		<!-- loc_id: 42038 -->
+		<shape type="Poly" zMin="-1400" zMax="-1125">
+			<point x="85300" y="-143300"/>
+			<point x="86100" y="-143300"/>
+			<point x="86100" y="-143000"/>
+			<point x="85300" y="-143000"/>
+		</shape>
+	</zone>
+	<zone id="2039" classType="Residence" name="[schuttgart_castle_agit_002]">
+		<attr name="entityId" val="59"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45039 -->
+		<restartPoints>
+			<point x="86575" y="-141835" z="-1325"/>
+		</restartPoints>
+		<!-- loc_id: 42039 -->
+		<shape type="Poly" zMin="-1400" zMax="-1125">
+			<point x="86220" y="-141600"/>
+			<point x="86930" y="-141600"/>
+			<point x="86930" y="-142070"/>
+			<point x="86220" y="-142070"/>
+		</shape>
+	</zone>
+	<zone id="2040" classType="Residence" name="[schuttgart_castle_agit_003]">
+		<attr name="entityId" val="60"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45040 -->
+		<restartPoints>
+			<point x="88150" y="-141850" z="-1325"/>
+		</restartPoints>
+		<!-- loc_id: 42040 -->
+		<shape type="Poly" zMin="-1400" zMax="-1125">
+			<point x="88530" y="-141600"/>
+			<point x="87770" y="-141600"/>
+			<point x="87770" y="-142100"/>
+			<point x="88530" y="-142100"/>
+		</shape>
+	</zone>
+	<zone id="2041" classType="Residence" name="[schuttgart_castle_agit_004]">
+		<attr name="entityId" val="61"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45041 -->
+		<restartPoints>
+			<point x="89035" y="-143150" z="-1325"/>
+		</restartPoints>
+		<!-- loc_id: 42041 -->
+		<shape type="Poly" zMin="-1400" zMax="-1125">
+			<point x="88670" y="-143420"/>
+			<point x="89400" y="-143420"/>
+			<point x="89400" y="-142880"/>
+			<point x="88670" y="-142880"/>
+		</shape>
+	</zone>
+	<zone id="2042" classType="Residence" name="[hot_springs_guild_house]">
+		<attr name="entityId" val="62"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45042 -->
+		<restartPoints>
+			<point x="141005" y="-124605" z="-1870"/>
+		</restartPoints>
+		<!-- loc_id: 42042 TODO: check coord  -->
+		<shape type="Poly" zMin="-1870" zMax="-1670">
+			<point x="140575" y="-124710"/>
+			<point x="140575" y="-124500"/>
+			<point x="141435" y="-124710"/>
+			<point x="141435" y="-124500"/>
+		</shape>
+	</zone>
+	<zone id="2043" classType="Residence" name="[beast_farm]">
+		<attr name="entityId" val="63"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45043 -->
+		<restartPoints>
+			<point x="60568" y="-94036" z="-1370"/>
+		</restartPoints>
+		<!-- loc_id: 42043 TODO: check coord  -->
+		<shape type="Poly" zMin="-1370" zMax="-1170">
+			<point x="59887" y="-94338"/>
+			<point x="59887" y="-93735"/>
+			<point x="61250" y="-94338"/>
+			<point x="61250" y="-93735"/>
+		</shape>
+	</zone>
+	<zone id="2044" classType="Residence" name="[fortress_of_the_dead]">
+		<attr name="entityId" val="64"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45044 -->
+		<restartPoints>
+			<point x="58063" y="-26061" z="590"/>
+		</restartPoints>
+		<shape type="Poly" zMin="500" zMax="790">
+			<point x="58441" y="-26376"/>
+			<point x="58439" y="-25736"/>
+			<point x="57470" y="-25709"/>
+			<point x="57468" y="-26383"/>
+		</shape>
+	</zone>
+	<zone id="2045" classType="Residence" name="[partisan_agit002]">
+		<attr name="entityId" val="21"/>
+		<attr name="type" val="siege_residence"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45001 -->
+		<restartPoints>
+			<point x="43370" y="108839" z="-1980"/>
+		</restartPoints>
+		<!-- loc_id: 43001 -->
+		<shape type="Poly" zMin="-2344" zMax="-1544">
+			<point x="42768" y="109156"/>
+			<point x="43180" y="112736"/>
+			<point x="44092" y="113504"/>
+			<point x="44460" y="107584"/>
+			<point x="47219" y="108081"/>
+			<point x="47600" y="112400"/>
+			<point x="48281" y="109544"/>
+		</shape>
+	</zone>
+	<zone id="2046" classType="Residence" name="[beast_farm]">
+		<attr name="entityId" val="63"/>
+		<attr name="type" val="siege_residence"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45043 -->
+		<restartPoints>
+			<point x="60568" y="-94036" z="-1370"/>
+		</restartPoints>
+		<!-- loc_id: 42043 TODO: check coord  -->
+		<shape type="Poly" zMin="-1370" zMax="-1170">
+			<point x="59887" y="-94338"/>
+			<point x="59887" y="-93735"/>
+			<point x="61250" y="-94338"/>
+			<point x="61250" y="-93735"/>
+		</shape>
+	</zone>
+	<zone id="2047" classType="Residence" name="[devastated_castle_002]">
+		<attr name="type" val="siege_residence"/>
+		<attr name="active" val="false" />
+		<attr name="entityId" val="34"/>
+		<!-- loc_id: 45014 -->
+		<restartPoints>
+			<point x="177930" y="-18629" z="-2240"/>
+		</restartPoints>
+		<!-- loc_id: 43014 -->
+		<shape type="Poly" zMin="-2634" zMax="366">
+			<point x="178336" y="-15048"/>
+			<point x="178621" y="-15030"/>
+			<point x="178920" y="-14763"/>
+			<point x="179030" y="-14551"/>
+			<point x="179206" y="-14567"/>
+			<point x="179385" y="-14553"/>
+			<point x="179803" y="-15340"/>
+			<point x="179822" y="-19089"/>
+			<point x="176861" y="-19067"/>
+			<point x="176878" y="-15335"/>
+			<point x="177233" y="-14660"/>
+			<point x="177493" y="-14578"/>
+			<point x="177601" y="-14562"/>
+			<point x="177807" y="-14859"/>
+			<point x="178102" y="-15090"/>
+		</shape>
+	</zone>
+	<zone id="2048" classType="Residence" name="[bandits_stronghold_002]">
+		<attr name="entityId" val="35"/>
+		<attr name="type" val="siege_residence"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45015 -->
+		<restartPoints>
+			<point x="80339" y="-15442" z="-1804"/>
+		</restartPoints>
+		<!-- loc_id: 90003 -->
+		<shape type="Poly" zMin="-2920" zMax="80">
+			<point x="79028" y="-17588"/>
+			<point x="84640" y="-19528"/>
+			<point x="86952" y="-16888"/>
+			<point x="83636" y="-13448"/>
+			<point x="79196" y="-13584"/>
+		</shape>
+	</zone>
+	<zone id="2049" classType="Residence" name="[fortress_of_the_dead]">
+		<attr name="entityId" val="64"/>
+		<attr name="type" val="siege_residence"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45044 -->
+		<restartPoints>
+			<point x="57962" y="-27515" z="590"/>
+		</restartPoints>
+		<shape type="Poly" zMin="-590" zMax="1790">
+			<point x="57975" y="-29572"/>
+			<point x="57749" y="-29391"/>
+			<point x="57304" y="-30021"/>
+			<point x="57201" y="-30103"/>
+			<point x="56427" y="-29287"/>
+			<point x="56452" y="-27708"/>
+			<point x="56427" y="-25701"/>
+			<point x="59374" y="-25611"/>
+			<point x="59469" y="-27572"/>
+			<point x="59480" y="-29107"/>
+			<point x="58650" y="-30185"/>
+			<point x="58168" y="-29461"/>
+		</shape>
+	</zone>
+	<zone id="2050" classType="Residence" name="[hot_springs_guild_house]">
+		<attr name="entityId" val="62"/>
+		<attr name="type" val="siege_residence"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45042 -->
+		<restartPoints>
+			<point x="141005" y="-124605" z="-1870"/>
+		</restartPoints>
+		<!-- loc_id: 42042 TODO: check coord  -->
+		<shape type="Poly" zMin="-1870" zMax="-1670">
+			<point x="140575" y="-124710"/>
+			<point x="140575" y="-124500"/>
+			<point x="141435" y="-124710"/>
+			<point x="141435" y="-124500"/>
+		</shape>
+	</zone>
+	<zone id="2171" classType="Residence" name="[partisan_agit_siege]">
+		<attr name="type" val="siege"/>
+		<listener name="SiegeZonesListener"/>
+		<listener name="NoLandingL2ZoneListener" />
+		<attr name="entityId" val="21"/>
+		<attr name="type" val="headquarters"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 91001 -->
+		<restartPoints>
+			<point x="43370" y="108839" z="-1980"/>
+		</restartPoints>
+		<!-- loc_id: 90001 -->
+		<shape type="Poly" zMin="-2344" zMax="-1544">
+			<point x="42768" y="109156"/>
+			<point x="43180" y="112736"/>
+			<point x="44092" y="113504"/>
+			<point x="44460" y="107584"/>
+			<point x="47219" y="108081"/>
+			<point x="47600" y="112400"/>
+			<point x="48281" y="109544"/>
+		</shape>
+	</zone>
+	<zone id="2172" classType="Residence" name="[devastated_castle_siege]">
+		<attr name="type" val="siege"/>
+		<listener name="SiegeZonesListener"/>
+		<listener name="NoLandingL2ZoneListener" />
+		<attr name="entityId" val="34"/>
+		<attr name="type" val="headquarters"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45014 -->
+		<restartPoints>
+			<point x="177930" y="-18629" z="-2240"/>
+		</restartPoints>
+		<!-- loc_id: 90002 -->
+		<shape type="Poly" zMin="-2634" zMax="486">
+			<point x="178465" y="-12900"/>
+			<point x="176808" y="-12855"/>
+			<point x="176118" y="-13706"/>
+			<point x="176084" y="-14369"/>
+			<point x="176354" y="-15403"/>
+			<point x="176247" y="-16132"/>
+			<point x="176058" y="-17510"/>
+			<point x="176356" y="-19318"/>
+			<point x="177353" y="-19454"/>
+			<point x="179157" y="-19592"/>
+			<point x="180137" y="-19424"/>
+			<point x="180322" y="-18897"/>
+			<point x="180309" y="-17618"/>
+			<point x="180678" y="-17079"/>
+			<point x="181156" y="-15716"/>
+			<point x="181140" y="-14745"/>
+			<point x="181011" y="-13929"/>
+			<point x="180984" y="-13009"/>
+			<point x="180809" y="-12569"/>
+			<point x="179898" y="-12812"/>
+		</shape>
+	</zone>
+	<zone id="2173" classType="Residence" name="[bandits_stronghold_siege]">
+		<attr name="entityId" val="35"/>
+		<attr name="type" val="siege"/>
+		<listener name="SiegeZonesListener"/>
+		<listener name="NoLandingL2ZoneListener" />
+		<attr name="type" val="headquarters"/>
+		<attr name="active" val="false" />
+		<!-- loc_id: 45015 -->
+		<restartPoints>
+			<point x="80339" y="-15442" z="-1804"/>
+		</restartPoints>
+		<!-- loc_id: 44015 -->
+		<shape type="Poly" zMin="-2920" zMax="80">
+			<point x="87241" y="-22655"/>
+			<point x="85697" y="-21864"/>
+			<point x="84118" y="-20541"/>
+			<point x="81935" y="-20079"/>
+			<point x="80059" y="-18725"/>
+			<point x="78169" y="-18329"/>
+			<point x="77579" y="-16126"/>
+			<point x="78024" y="-15212"/>
+			<point x="79568" y="-13754"/>
+			<point x="81378" y="-12945"/>
+			<point x="82803" y="-13151"/>
+			<point x="84850" y="-13291"/>
+			<point x="86635" y="-14078"/>
+			<point x="87688" y="-14974"/>
+			<point x="87922" y="-14808"/>
+			<point x="89507" y="-16222"/>
+			<point x="88966" y="-18464"/>
+			<point x="88474" y="-19342"/>
+			<point x="90047" y="-21511"/>
+		</shape>
+	</zone>
+
+	<zone id="2174" classType="Residence" name="[hot_springs_guild_house_siege]">
+		<attr name="entityId" val="62"/>
+		<attr name="type" val="siege"/>
+		<listener name="SiegeZonesListener"/>
+		<listener name="NoLandingL2ZoneListener" />
+		<attr name="active" val="false" />
+		<attr name="type" val="headquarters"/>
+		<!-- loc_id: 45042 -->
+		<restartPoints>
+			<point x="141005" y="-124605" z="-1870"/>
+		</restartPoints>
+		<!-- loc_id: 90004 TODO: check coord  -->
+		<shape type="Poly" zMin="-1870" zMax="-1670">
+			<point x="140575" y="-124710"/>
+			<point x="140575" y="-124500"/>
+			<point x="141435" y="-124710"/>
+			<point x="141435" y="-124500"/>
+		</shape>
+	</zone>
+	<zone id="2175" classType="Residence" name="[beast_farm_siege]">
+		<attr name="entityId" val="63"/>
+		<attr name="type" val="siege"/>
+		<listener name="SiegeZonesListener"/>
+		<listener name="NoLandingL2ZoneListener" />
+		<attr name="active" val="false" />
+		<attr name="type" val="headquarters"/>
+		<!-- loc_id: 45043 -->
+		<restartPoints>
+			<point x="60568" y="-94036" z="-1370"/>
+		</restartPoints>
+		<!-- loc_id:90005 TODO: check coord -->
+		<shape type="Poly" zMin="-1370" zMax="-1170">
+			<point x="59887" y="-94338"/>
+			<point x="59887" y="-93735"/> 	
+			<point x="61250" y="-94338"/>
+			<point x="61250" y="-93735"/>
+		</shape>
+	</zone>
+	<zone id="2176" classType="Residence" name="[fortress_of_the_dead_siege]">
+		<attr name="type" val="siege"/>
+		<listener name="SiegeZonesListener"/>
+		<listener name="NoLandingL2ZoneListener" />
+		<attr name="entityId" val="64"/>
+		<attr name="active" val="false" />
+		<attr name="type" val="headquarters"/>
+		<!-- loc_id: 91006 -->
+		<restartPoints>
+			<point x="57962" y="-27515" z="590"/>
+		</restartPoints>
+		<!-- loc_id: 90006 -->
+		<shape type="Poly" zMin="-1288" zMax="2060">
+			<point x="57831" y="-31715"/>
+			<point x="56999" y="-31475"/>
+			<point x="56356" y="-30564"/>
+			<point x="55595" y="-28892"/>
+			<point x="54907" y="-27557"/>
+			<point x="54854" y="-26426"/>
+			<point x="55471" y="-25372"/>
+			<point x="56058" y="-24700"/>
+			<point x="57514" y="-24477"/>
+			<point x="59317" y="-24628"/>
+			<point x="60494" y="-25221"/>
+			<point x="61227" y="-26613"/>
+			<point x="61800" y="-28394"/>
+			<point x="61208" y="-30315"/>
+			<point x="60543" y="-30297"/>
+			<point x="58279" y="-31699"/>
+		</shape>
+	</zone>
+</list>

@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='utf-8'?>
+<instances>
+
+	<instance id="46" name="Kamaloka, Hall of the Nightmares" max="45" type="3" premiumReuse="30 6,18 * * *" reuseReset="30 6 * * *">
+		<level min="20" max="30"/>
+		<timeLimit min="30"/>
+		<noUserTimeout min="20"/>
+		<startLoc x="9000" y="-220000" z="-8000"/>
+		<coolTime min="10"/>
+		<spawnlist>
+			<spawn npcId="22452" delay="0" respawn="15" count="6" location="810001"/>
+			<spawn npcId="32485" delay="1200" respawn="0" count="1" location="810001"/>
+		</spawnlist>
+	</instance>
+
+	<instance id="47" name="Kamaloka, Hall of the Nightmares" max="45" type="3" premiumReuse="30 6,18 * * *" reuseReset="30 6 * * *">
+		<level min="25" max="35"/>
+		<timeLimit min="30"/>
+		<noUserTimeout min="20"/>
+		<startLoc x="16000" y="-220000" z="-8000"/>
+		<coolTime min="10"/>
+		<spawnlist>
+			<spawn npcId="22455" delay="0" respawn="15" count="6" location="810002"/>
+			<spawn npcId="32485" delay="1200" respawn="0" count="1" location="810002"/>
+		</spawnlist>
+	</instance>
+
+	<instance id="48" name="Kamaloka, Hall of the Nightmares" max="45" type="3" premiumReuse="30 6,18 * * *" reuseReset="30 6 * * *">
+		<level min="30" max="40"/>
+		<timeLimit min="30"/>
+		<noUserTimeout min="20"/>
+		<startLoc x="24000" y="-220000" z="-7800"/>
+		<coolTime min="10"/>
+		<spawnlist>
+			<spawn npcId="22458" delay="0" respawn="15" count="6" location="810003"/>
+			<spawn npcId="32485" delay="1200" respawn="0" count="1" location="810003"/>
+		</spawnlist>
+	</instance>
+
+	<instance id="49" name="Kamaloka, Hall of the Nightmares" max="45" type="3" premiumReuse="30 6,18 * * *" reuseReset="30 6 * * *">
+		<level min="35" max="45"/>
+		<timeLimit min="30"/>
+		<noUserTimeout min="20"/>
+		<startLoc x="9800" y="-213000" z="-7800"/>
+		<coolTime min="10"/>
+		<spawnlist>
+			<spawn npcId="22461" delay="0" respawn="15" count="6" location="810004"/>
+			<spawn npcId="32485" delay="1200" respawn="0" count="1" location="810004"/>
+		</spawnlist>
+	</instance>
+
+	<instance id="50" name="Kamaloka, Hall of the Nightmares" max="45" type="3" premiumReuse="30 6,18 * * *" reuseReset="30 6 * * *">
+		<level min="40" max="50"/>
+		<timeLimit min="30"/>
+		<noUserTimeout min="20"/>
+		<startLoc x="17000" y="-213000" z="-7800"/>
+		<coolTime min="10"/>
+		<spawnlist>
+			<spawn npcId="22464" delay="0" respawn="15" count="6" location="810005"/>
+			<spawn npcId="32485" delay="1200" respawn="0" count="1" location="810005"/>
+		</spawnlist>
+	</instance>
+
+	<instance id="51" name="Kamaloka, Hall of the Nightmares" max="45" type="3" premiumReuse="30 6,18 * * *" reuseReset="30 6 * * *">
+		<level min="45" max="55"/>
+		<timeLimit min="30"/>
+		<noUserTimeout min="20"/>
+		<startLoc x="24000" y="-213000" z="-8000"/>
+		<coolTime min="10"/>
+		<spawnlist>
+			<spawn npcId="22467" delay="0" respawn="15" count="6" location="810006"/>
+			<spawn npcId="32485" delay="1200" respawn="0" count="1" location="810006"/>
+		</spawnlist>
+	</instance>
+
+	<instance id="52" name="Kamaloka, Hall of the Nightmares" max="45" type="3" premiumReuse="30 6,18 * * *" reuseReset="30 6 * * *">
+		<level min="50" max="60"/>
+		<timeLimit min="30"/>
+		<noUserTimeout min="20"/>
+		<startLoc x="9500" y="-205700" z="-8000"/>
+		<coolTime min="10"/>
+		<spawnlist>
+			<spawn npcId="22470" delay="0" respawn="15" count="6" location="810007"/>
+			<spawn npcId="32485" delay="1200" respawn="0" count="1" location="810007"/>
+		</spawnlist>
+	</instance>
+
+	<instance id="53" name="Kamaloka, Hall of the Nightmares" max="45" type="3" premiumReuse="30 6,18 * * *" reuseReset="30 6 * * *">
+		<level min="55" max="65"/>
+		<timeLimit min="30"/>
+		<noUserTimeout min="20"/>
+		<startLoc x="17000" y="-205700" z="-8000"/>
+		<coolTime min="10"/>
+		<spawnlist>
+			<spawn npcId="22473" delay="0" respawn="15" count="6" location="810008"/>
+			<spawn npcId="32485" delay="1200" respawn="0" count="1" location="810008"/>
+		</spawnlist>
+	</instance>
+
+	<instance id="54" name="Kamaloka, Hall of the Nightmares" max="45" type="3" premiumReuse="30 6,18 * * *" reuseReset="30 6 * * *">
+		<level min="60" max="70"/>
+		<timeLimit min="30"/>
+		<noUserTimeout min="20"/>
+		<startLoc x="23000" y="-206500" z="-8000"/>
+		<coolTime min="10"/>
+		<spawnlist>
+			<spawn npcId="22476" delay="0" respawn="15" count="6" location="810009"/>
+			<spawn npcId="32485" delay="1200" respawn="0" count="1" location="810009"/>
+		</spawnlist>
+	</instance>
+
+	<instance id="55" name="Kamaloka, Hall of the Nightmares" max="45" type="3" premiumReuse="30 6,18 * * *" reuseReset="30 6 * * *">
+		<level min="65" max="75"/>
+		<timeLimit min="30"/>
+		<noUserTimeout min="20"/>
+		<startLoc x="42000" y="-220000" z="-8750"/>
+		<coolTime min="10"/>
+		<spawnlist>
+			<spawn npcId="22479" delay="0" respawn="15" count="6" location="810010"/>
+			<spawn npcId="32485" delay="1200" respawn="0" count="1" location="810010"/>
+		</spawnlist>
+	</instance>
+
+	<instance id="56" name="Kamaloka, Hall of the Nightmares" max="45" type="3" premiumReuse="30 6,18 * * *" reuseReset="30 6 * * *">
+		<level min="70" max="80"/>
+		<timeLimit min="30"/>
+		<noUserTimeout min="20"/>
+		<startLoc x="48500" y="-220000" z="-8750"/>
+		<coolTime min="10"/>
+		<spawnlist>
+			<spawn npcId="22482" delay="0" respawn="15" count="6" location="810011"/>
+			<spawn npcId="32485" delay="1200" respawn="0" count="1" location="810011"/>
+		</spawnlist>
+	</instance>
+
+</instances>

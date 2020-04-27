@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="14791" name="Baguette's Shield">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="14797" name="Baguette's Two-handed Dagger">
+		<cond msgId="1518">
+			<target hasSkill="923" />
+		</cond>
+	</item>
+</list>

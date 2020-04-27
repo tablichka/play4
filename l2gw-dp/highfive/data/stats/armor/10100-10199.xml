@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="10117" name="Chaotic Sealed Dynasty Sigil">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="10118" name="Chaotic Dynasty Sigil">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="10119" name="Dynasty Sigil">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+		<!--  -->
+		<for>
+			<add val='15' order='0x10' stat='pDef'/>
+			<add val='0' order='0x10' stat='mDef'/>
+			<add val='0' order='0x10' stat='maxMp'/>
+			<enchant val='0' order='0x0C' stat='pDef'/>
+		</for>
+	</item>
+	<item id="10120" name="Sealed Dynasty Sigil">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+		<!--  -->
+		<for>
+			<add val='15' order='0x10' stat='pDef'/>
+			<add val='0' order='0x10' stat='mDef'/>
+			<add val='0' order='0x10' stat='maxMp'/>
+			<enchant val='0' order='0x0C' stat='pDef'/>
+		</for>
+	</item>
+	<item id="10121" name="Sealed Arcana Sigil">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+		<!--  -->
+		<for>
+			<add val='13' order='0x10' stat='pDef'/>
+			<add val='0' order='0x10' stat='mDef'/>
+			<add val='0' order='0x10' stat='maxMp'/>
+			<enchant val='0' order='0x0C' stat='pDef'/>
+		</for>
+	</item>
+	<item id="10126" name="Dynasty Leather Armor - Force Master">
+		<cond msgId="1518">
+			<not>
+				<target classId="88,114" />
+			</not>
+		</cond>
+	</item>
+	<item id="10127" name="Dynasty Leather Armor - Weapon Master">
+		<cond msgId="1518">
+			<not>
+				<target classId="89,113,117,118,131,132,133" />
+				<!-- Restricted classes will limit this item to Kamael only too -->
+			</not>
+		</cond>
+	</item>
+	<item id="10168" name="Dynasty Leather Armor - Enchanter">
+		<cond msgId="1518">
+			<not>
+				<target classId="98,115,116,136" />
+			</not>
+		</cond>
+	</item>
+</list>

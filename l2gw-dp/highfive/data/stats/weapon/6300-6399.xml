@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="6308" name="Sword of Limit - Critical Drain">
+		<for>
+			<skill id="3022" level="3" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="6312" name="Sword of Whispering Death - Magic Silence">
+		<for>
+			<skill id="3078" level="3" chance="10" action="magic" />
+		</for>
+	</item>
+	<item id="6315" name="Homunkulus's Sword - Magic Paralyze">
+		<for>
+			<skill id="3079" level="3" chance="5" action="magic" />
+		</for>
+	</item>
+	<item id="6377" name="Imperial Crusader Shield">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+</list>

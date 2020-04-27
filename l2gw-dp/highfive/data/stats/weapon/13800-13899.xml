@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="13845" name="Attribute Master Yin's Sword">
+		<for>
+			<add val="10" order="0x08" stat="attackFire" />
+		</for>
+	</item>
+	<item id="13881" name="Attribute Master Yang's Sword">
+		<for>
+			<add val="10" order="0x08" stat="attackEarth" />
+		</for>
+	</item>
+	<item id="13882" name="Dynasty Dual Daggers">
+		<cond msgId="1518">
+			<target hasSkill="923" />
+		</cond>
+	</item>
+	<item id="13883" name="Icarus Dual Daggers">
+		<cond msgId="1518">
+			<target hasSkill="923" />
+		</cond>
+	</item>
+	<item id="13884" name="Vesper Dual Daggers">
+		<cond msgId="1518">
+			<target hasSkill="923" />
+		</cond>
+	</item>
+</list>

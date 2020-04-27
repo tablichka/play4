@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<zone id="4000" classType="Boss" name="Antharas Zone">
+		<attr name="boss" val="Antharas" />
+		<listener name="NoLandingL2ZoneListener" />
+		<attr name="type" val="no_summon"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="type" val="no_radar"/>
+		<attr name="restartTime" val="600"/>
+ 		<shape type="Rect" zMin="-7800" zMax="-7200">
+			<point x="173448" y="110344"/>
+			<point x="187640" y="119288"/>
+		</shape>
+	</zone>
+
+	<zone id="4001" classType="Boss" name="Valakas Zone">
+		<attr name="boss" val="Valakas" />
+		<listener name="NoLandingL2ZoneListener" />
+		<attr name="type" val="no_summon"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="type" val="no_radar"/>
+		<attr name="restartTime" val="600"/>
+		<shape type="Rect" zMin="-1940" zMax="9880">
+			<point x="199755" y="-124724"/>
+			<point x="224677" y="-103211"/>
+		</shape>
+	</zone>
+
+	<zone id="4002" classType="Boss" name="Baium Zone">
+		<attr name="boss" val="Baium" />
+		<listener name="NoLandingL2ZoneListener" />
+		<attr name="type" val="no_summon"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="type" val="no_radar"/>
+		<attr name="restartTime" val="600"/>
+		<!-- loc_id: 40337 -->
+		<shape type="Poly" zMin="10000" zMax="15061">
+			<point x="111022" y="16177"/>
+			<point x="114510" y="12623"/>
+			<point x="118142" y="15790"/>
+			<point x="114773" y="19589"/>
+		</shape>
+	</zone>
+
+	<zone id="4003" name="Frintezza Zone">
+		<listener name="NoLandingL2ZoneListener" />
+		<attr name="type" val="instance"/>
+		<attr name="type" val="no_radar"/>
+		<attr name="entityId" val="136"/>
+		<restartPoints>
+			<point x="181385" y="-80895" z="-2728"/>
+		</restartPoints>
+		<shape type="Rect" zMin="-9200" zMax="-8500">
+			<point x="-89848" y="-155384"/>
+			<point x="176000" y="-90000"/>
+		</shape>
+	</zone>
+
+	<zone id="4005" name="Frintezza Hall Zone">
+		<attr name="type" val="altered"/>
+		<attr name="active" val="false"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<shape type="Rect" zMin="-9200" zMax="-8500">
+			<point x="-89848" y="-155384"/>
+			<point x="-85768" y="-151512"/>
+		</shape>
+	</zone>
+
+	<zone id="4006" name="Sailren Zone">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<listener name="NoLandingL2ZoneListener" />
+		<attr name="type" val="no_summon"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="type" val="no_radar"/>
+		<attr name="restartTime" val="600"/>
+		<restartPoints>
+			<point x="23600" y="-7480" z="-1210"/>
+		</restartPoints>
+		<shape type="Rect" zMin="-2200" zMax="3000">
+			<point x="25735" y="-5128"/>
+			<point x="29300" y="-8320"/>
+		</shape>
+	</zone>
+
+	<zone id="4007" name="Tiat Zone">
+		<attr name="type" val="dummy"/>
+		<shape type="Rect" zMin="-15000" zMax="-7000">
+			<point x="-253800" y="212216"/>
+			<point x="-247256" y="205096"/>
+		</shape>
+	</zone>
+
+	<zone id="4008" name="24_21_skill_behemoth_leader">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="6734" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-3953" zMax="-3753">
+			<point x="146173" y="120672"/>
+			<point x="146228" y="120928"/>
+			<point x="146002" y="121114"/>
+			<point x="145747" y="120941"/>
+			<point x="145347" y="120748"/>
+			<point x="145182" y="120557"/>
+			<point x="145196" y="120276"/>
+			<point x="145402" y="119812"/>
+			<point x="145608" y="119300"/>
+			<point x="145786" y="118994"/>
+			<point x="145966" y="118888"/>
+			<point x="146116" y="119010"/>
+			<point x="146150" y="119531"/>
+			<point x="146197" y="119799"/>
+			<point x="146207" y="120198"/>
+		</shape>
+	</zone>
+
+</list>

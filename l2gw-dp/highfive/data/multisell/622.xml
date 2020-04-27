@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- give_star_of_destiny -->
+<list>
+	<config showall="true"/>
+	<item>
+		<production id="5011" count="1"/>	<!-- Star of Destiny -->
+		<ingredient id="57" count="1"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="7080" count="1"/>	<!-- Ice Crystal -->
+		<ingredient id="57" count="20000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="7081" count="1"/>	<!-- Divine Stone of Wisdom -->
+		<ingredient id="57" count="10000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="9740" count="1"/>	<!-- Halisha's Mark -->
+		<ingredient id="57" count="50000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="9741" count="1"/>	<!-- Halisha's Mark -->
+		<ingredient id="57" count="50000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="9742" count="1"/>	<!-- Halisha's Mark -->
+		<ingredient id="57" count="50000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="10549" count="1"/>	<!-- Forgotten Scroll - Protection of Rune -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="10550" count="1"/>	<!-- Forgotten Scroll - Protection of Elemental -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="10551" count="1"/>	<!-- Forgotten Scroll - Protection of Alignment -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="10552" count="1"/>	<!-- Forgotten Scroll - Fighter's Will -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="10553" count="1"/>	<!-- Forgotten Scroll - Archer's Will -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="10554" count="1"/>	<!-- Forgotten Scroll - Anti-Magic Armor -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="10559" count="1"/>	<!-- Forgotten Scroll - Sixth Sense -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="10560" count="1"/>	<!-- Forgotten Scroll - Expose Weak Point -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="10576" count="1"/>	<!-- Forgotten Scroll - Servitor Barrier -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="10577" count="1"/>	<!-- Forgotten Scroll - Excessive Loyalty -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="10578" count="1"/>	<!-- Forgotten Scroll - Mutual Response -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14170" count="1"/>	<!-- Forgotten Scroll - Seed of Revenge -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14171" count="1"/>	<!-- Forgotten Scroll - Hell Scream -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14172" count="1"/>	<!-- Forgotten Scroll - Spirit of Phoenix -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14173" count="1"/>	<!-- Forgotten Scroll - Eva's Will / Touch of Eva -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14174" count="1"/>	<!-- Forgotten Scroll - Pain of Shillien -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14175" count="1"/>	<!-- Forgotten Scroll - Exciting Adventure -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14176" count="1"/>	<!-- Forgotten Scroll - Wind Riding -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14177" count="1"/>	<!-- Forgotten Scroll - Ghost Walking -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14178" count="1"/>	<!-- Forgotten Scroll - Flame Hawk -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14179" count="1"/>	<!-- Forgotten Scroll - Arrow Rain -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14180" count="1"/>	<!-- Forgotten Scroll - Ghost Piercing -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14181" count="1"/>	<!-- Forgotten Scroll - Dread Pool -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14182" count="1"/>	<!-- Forgotten Scroll - Force of Destruction -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14183" count="1"/>	<!-- Forgotten Scroll - Demolition Impact -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14184" count="1"/>	<!-- Forgotten Scroll - Golem Armor -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14185" count="1"/>	<!-- Forgotten Scroll - Wild Shot -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14186" count="1"/>	<!-- Forgotten Scroll - Lightning Shock -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14187" count="1"/>	<!-- Forgotten Scroll - Flame Armor -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14188" count="1"/>	<!-- Forgotten Scroll - Frost Armor -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14189" count="1"/>	<!-- Forgotten Scroll - Hurricane Armor -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14190" count="1"/>	<!-- Forgotten Scroll - Vampiric Mist -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14191" count="1"/>	<!-- Forgotten Scroll - Meteor -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14192" count="1"/>	<!-- Forgotten Scroll - Star Fall -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14193" count="1"/>	<!-- Forgotten Scroll - Sublime Self Sacrifice -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14194" count="1"/>	<!-- Forgotten Scroll - Blessing of Eva -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14195" count="1"/>	<!-- Forgotten Scroll - Lord of Vampire -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14197" count="1"/>	<!-- Forgotten Scroll - Seal of Limit -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14198" count="1"/>	<!-- Forgotten Scroll - Song of Purification -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14199" count="1"/>	<!-- Forgotten Scroll - Dance of Berserker -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14200" count="1"/>	<!-- Forgotten Scroll - Summon Imperial Phoenix -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14201" count="1"/>	<!-- Forgotten Scroll - Maximum Force Focus -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14202" count="1"/>	<!-- Forgotten Scroll - Maximum Sonic Focus -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14203" count="1"/>	<!-- Forgotten Scroll - Weapon Blockade -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14204" count="1"/>	<!-- Forgotten Scroll - Spirit of the Cat -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14205" count="1"/>	<!-- Forgotten Scroll - Spirit of the Unicorn -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14206" count="1"/>	<!-- Forgotten Scroll - Spirit of the Phantom -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14207" count="1"/>	<!-- Forgotten Scroll - Deflect Magic -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14208" count="1"/>	<!-- Forgotten Scroll - Final Secret -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14209" count="1"/>	<!-- Forgotten Scroll - Hide -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14210" count="1"/>	<!-- Forgotten Scroll - Dual Dagger Mastery -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14211" count="1"/>	<!-- Forgotten Scroll - Seven Arrow -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14212" count="1"/>	<!-- Forgotten Scroll - Enlightenment - Wizard -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14213" count="1"/>	<!-- Forgotten Scroll - Enlightenment - Healer -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14214" count="1"/>	<!-- Forgotten Scroll - Chant of Movement -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14215" count="1"/>	<!-- Forgotten Scroll - Combat of Pa'agrio -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14216" count="1"/>	<!-- Forgotten Scroll - Critical of Pa'agrio -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14217" count="1"/>	<!-- Forgotten Scroll - Condition of Pa'agrio -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14219" count="1"/>	<!-- Forgotten Scroll - Magician's Will -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14220" count="1"/>	<!-- Forgotten Scroll - Silent Mind -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14221" count="1"/>	<!-- Forgotten Scroll - Turn Stone -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14222" count="1"/>	<!-- This Forgotten Scroll can be used by Fortune Seekers level 83 and above to learn Lucky Strike. -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14223" count="1"/>	<!-- This Forgotten Scroll can be used by Doombringers level 83 and above to learn Eye for Eye. -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14225" count="1"/>	<!-- Forgotten Scroll - Counter Critical -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14226" count="1"/>	<!-- Forgotten Scroll - Onslaught of Pa'agrio -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14227" count="1"/>	<!-- Forgotten Scroll - Great Fury -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="12768" count="1"/>	<!-- Forgotten Scroll - Evasion Counter -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="12769" count="1"/>	<!-- Forgotten Scroll - Evasion Chance -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="12770" count="1"/>	<!-- Forgotten Scroll - Evasion Haste -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="12771" count="1"/>	<!-- Forgotten Scroll - Shadow Step -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="17030" count="1"/>	<!-- Forgotten Scroll - Create Item Lv 10 -->
+		<ingredient id="57" count="10000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="8073" count="1"/>	<!-- Frintezza's Magic Force Field Removal Scroll -->
+		<ingredient id="57" count="10000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="7267" count="1"/>	<!-- Vacualite Floating Stone -->
+		<ingredient id="57" count="10000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="3865" count="1"/>	<!-- Portal Stone -->
+		<ingredient id="57" count="10000"/>	<!-- Adena -->
+	</item>
+</list>

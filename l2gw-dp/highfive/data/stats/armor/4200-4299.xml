@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="4224" name="Dream Armor">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="4225" name="Dream Stockings">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="4228" name="Ubiquitous Armor">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="4229" name="Ubiquitous Stockings">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id='4234' name="Hatchling's Level 65 Armor">
+		<cond msgId="600">
+			<uc category="hatchling_group"/>
+		</cond>
+		<for>
+			<add val='50' order='0x10' stat='pDef'/>
+			<add val='50' order='0x10' stat='mDef'/>
+		</for>
+	</item>
+	<item id='4235' name="Hatchling's Level 75 Armor">
+		<cond msgId="600">
+			<uc category="hatchling_group"/>
+		</cond>
+		<for>
+			<add val='58' order='0x10' stat='pDef'/>
+			<add val='58' order='0x10' stat='mDef'/>
+		</for>
+	</item>
+	<item id='4236' name="Gara Item">
+		<cond msgId="600">
+			<uc category="hatchling_group"/>
+		</cond>
+		<for>
+			<add val='58' order='0x10' stat='pDef'/>
+			<add val='58' order='0x10' stat='mDef'/>
+		</for>
+	</item>
+</list>

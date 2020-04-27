@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="8790" name="Sirra's Blade - Critical Poison">
+		<for>
+			<!-- Critical Poison -->
+			<skill id="3061" level="3" chance="100" action="crit" />
+		</for>
+	</item>
+</list>

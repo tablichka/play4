@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="16208" name="Vesper Singer - Hail {PvP} - Magic Hold">
+		<for>
+			<skill id="3577" level="2" chance="20" action="magic" />
+		</for>
+	</item>
+	<item id="16211" name="Vesper Thrower - Clairvoyance {PvP} - Critical Slow">
+		<for>
+			<skill id="3574" level="3" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="16217" name="Vesper Shooter - Clairvoyance {PvP} - Critical Slow">
+		<for>
+			<skill id="3574" level="2" chance="100" action="crit" />
+		</for>
+	</item>
+</list>

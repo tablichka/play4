@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="8181" name="Academy Circlet">
+		<cond msgId="1518">
+			<player academyGraduated="true" />
+		</cond>
+	</item>
+	<item id="8182" name="Circlet of Rune">
+		<cond msgId="1518">
+			<player hasHideOut="8"/>
+		</cond>
+	</item>
+	<item id="8183" name="Circlet of Schuttgart">
+		<cond msgId="1518">
+			<player hasHideOut="9"/>
+		</cond>
+	</item>
+</list>

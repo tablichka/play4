@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="4681" name="Stormbringer - Critical Anger">
+		<for>
+			<skill id="3026" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="4691" name="Spirit Sword - Critical Poison">
+		<for>
+			<skill id="3024" level="2" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="4694" name="Raid Sword - Critical Drain">
+		<for>
+			<skill id="3022" level="2" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="4695" name="Raid Sword - Critical Poison">
+		<for>
+			<skill id="3024" level="2" chance="100" action="crit" />
+		</for>
+	</item>
+</list>

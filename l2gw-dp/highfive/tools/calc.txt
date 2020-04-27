@@ -1,0 +1,915 @@
+//Buffs
+//Accuracy
+	if (d.gI("ACCTC").checked==true)
+		{BuffACC=BuffACC+3}
+//Accuracy Debuffs
+	if (d.gI("DEAC").checked==true)
+		{var bu=d.gI("DEA").value;BuffACC=BuffACC-DEACC[bu]}
+//Acumen
+	if (d.gI("ACUC").checked==true)
+		{var bu=d.gI("ACU").value;BuffCAST=BuffCAST*ACUMEN[bu]}
+//Advanced Block
+	if (d.gI("ADBC").checked==true)
+		{var bu=d.gI("ADB").value;BuffSHIELDPDEF=BuffSHIELDPDEF*ADVANCEDBLOCK[bu]}
+//Aegis Stance
+	if (d.gI("ASTC").checked==true)
+		{BuffSHIELDPDEF=BuffSHIELDPDEF*0.6;block360=true}
+//Agility
+	if (d.gI("AGIC").checked==true)
+		{var bu=d.gI("AGI").value;BuffEVA=BuffEVA+AGILITY[bu]}
+//Angelic Icon
+	if (d.gI("ANIC").checked==true)
+		{var bu=d.gI("ANI").value
+		AddSPEED=AddSPEED+ANGELICSPEED[bu]}
+	if (d.gI("ANIC").checked==true && (WpnType=="Fist"||WpnType=="2hb"||WpnType=="Blunt"))
+		{var bu=d.gI("ANI").value
+		BuffACC=BuffACC+6
+		BuffPDEF=BuffPDEF*1.5
+		BuffMDEF=BuffMDEF*1.5
+		BuffASPD=BuffASPD*ANGELICASPD[bu]
+		BuffCRITDMG=BuffCRITDMG*ANGELICCRITDMG[bu]}
+	if (d.gI("ANIC").checked==true && (WpnType=="Polearm"||WpnType=="2hs"||WpnType=="Sword"))
+		{var bu=d.gI("ANI").value
+		AddCRIT=AddCRIT+ANGELICCRIT[bu]
+		BuffACC=BuffACC+6
+		BuffPDEF=BuffPDEF*1.5
+		BuffMDEF=BuffMDEF*1.5
+		BuffASPD=BuffASPD*ANGELICASPD[bu]}
+//Arcane Agility
+	if (d.gI("ARAC").checked==true)
+		{BuffCAST=BuffCAST*1.2}
+//Arcane Chaos
+	if (d.gI("ARNC").checked==true)
+		{AddMPR=AddMPR-24}
+//Arcane Power
+	if (d.gI("ARPC").checked==true)
+		{BuffMATK=1.3*BuffMATK}
+//Arcane Wisdom
+	if (d.gI("ARWC").checked==true)
+		{BuffCAST=BuffCAST*0.9}
+//Armor Crush
+	if (d.gI("ACC").checked==true)
+		{BuffPDEF=0.70*BuffPDEF;BuffMDEF=0.70*BuffMDEF}
+//Attack Speed Debuffs
+	if (d.gI("DENC").checked==true)
+		{var bu=d.gI("DEN").value;BuffASPD=BuffASPD*DEASPD[bu]}
+//Berserker Spirit
+	if (d.gI("ZERKC").checked==true)
+		{var bu=d.gI("ZERK").value;BuffPATK=BuffPATK*ZERK[bu];BuffPDEF=BuffPDEF*ZERKPDEF[bu];BuffMATK=BuffMATK*ZERKMATK[bu];BuffMDEF=BuffMDEF*ZERKMDEF[bu];BuffEVA=BuffEVA+ZERKEVA[bu];AddSPEED=AddSPEED+ZERKSPEED[bu];BuffASPD=BuffASPD*ZERK[bu];BuffCAST=BuffCAST*ZERK[bu]}
+//Bless Shield
+	if (d.gI("BSDC").checked==true)
+		{var bu=d.gI("BSD").value;BuffShieldBlockRate=BuffShieldBlockRate*BLESSSHIELD[bu]}
+//Bless the Body
+	if (d.gI("BTB1C").checked==true)
+		{var bu=d.gI("BTB1").value
+		BuffHP=BuffHP*BTB[bu]}
+	if (d.gI("BTB2C").checked==true)
+		{var bu=d.gI("BTB2").value
+		BuffHP=BuffHP*BTB[bu]}
+	if (d.gI("BTB3C").checked==true)
+		{var bu=d.gI("BTB3").value
+		BuffHP=BuffHP*BTB[bu]}
+//Bless the Soul
+	if (d.gI("BTSC").checked==true)
+		{var bu=d.gI("BTS").value;BuffMP=BuffMP*BTS[bu]}
+//Blessing of Prophecy
+	if (d.gI("BOPC").checked==true && (ClassType=="F1"||ClassType=="F2"||ClassType=="F3")) 
+		{weightlimit=weightlimit*1.25}
+//Blessing of Seraphim
+	if (d.gI("SERC").checked==true)
+		{var bu=d.gI("SER").value;BuffMPR=BuffMPR*SERAPHIM[bu]}
+//Blinding Blow
+	if (d.gI("BLDC").checked==true)
+		{BuffSPEED=BuffSPEED*1.4}
+//Block Shield
+	if (d.gI("BLKSC").checked==true)
+		{BuffPDEF=0.90*BuffPDEF}
+//Block Wind Walk
+	if (d.gI("BWWC").checked==true)
+		{BuffSPEED=BuffSPEED*0.9}
+//Casting Spd. Debuffs
+	if (d.gI("DECC").checked==true)
+		{BuffCAST=BuffCAST*0.77}
+//Curse Gloom
+	if (d.gI("GLMC").checked==true)
+		{BuffMDEF=0.77*BuffMDEF}
+//Curse of Abyss
+	if (d.gI("CBYC").checked==true)
+		{BuffMATK=0.70*BuffMATK;BuffEVA=BuffEVA-6;BuffSPEED=BuffSPEED*0.9;BuffCAST=BuffCAST*0.8}
+//Curse of Doom
+	if (d.gI("CDMC").checked==true)
+		{BuffPATK=0.83*BuffPATK}
+//Curse of Shade
+	if (d.gI("CSHC").checked==true)
+		{var bu=d.gI("CSH").value;BuffPDEF=CURSEOFSHADE[bu]*BuffPDEF;BuffMDEF=CURSEOFSHADE[bu]*BuffMDEF}
+//Dance of Concentration
+	if (d.gI("DCONC").checked==true)
+		{BuffCAST=BuffCAST*1.3}
+//Dance of Fire
+	if (d.gI("DOFC").checked==true)
+		{BuffCRITDMG=BuffCRITDMG*1.35}
+//Dance of Fury
+	if (d.gI("DFUC").checked==true)
+		{BuffASPD=BuffASPD*1.15}
+//Dance of Inspiration
+	if (d.gI("DOIC").checked==true)
+		{BuffACC=BuffACC+4}
+//Dance of Mystic
+	if (d.gI("DOMYC").checked==true)
+		{BuffMATK=1.2*BuffMATK}
+//Dance of Shadow
+	if (d.gI("DSHC").checked==true)
+		{BuffSPEED=BuffSPEED*0.5}
+//Dance of Vampire
+	if (d.gI("DOVC").checked==true)
+		{BuffVR=BuffVR+0.08}
+//Dance of Warrior
+	if (d.gI("DWAC").checked==true)
+		{BuffPATK=1.12*BuffPATK}
+//Dark Vortex
+	if (d.gI("DVC").checked==true)
+		{AddMPR2=AddMPR2-12}
+//Dash
+	if (d.gI("DAS1C").checked==true)
+		{var bu=d.gI("DAS1").value;BuffSPEED=BuffSPEED*DASH[bu]}
+	if (d.gI("DAS2C").checked==true)
+		{var bu=d.gI("DAS2").value;BuffSPEED=BuffSPEED*DASH[bu]}
+//Dead Eye
+	if (d.gI("DEYC").checked==true && WpnMAS=="Bow")
+		{var bu=d.gI("DEY").value;AddPATK=AddPATK+DEADEYEPATK[bu];BuffACC=BuffACC+DEADEYEACC[bu];BuffASPD=BuffASPD*0.8;BuffCRITDMG=BuffCRITDMG*1.2}
+//Death Whisper
+	if (d.gI("DEWC").checked==true)
+		{var bu=d.gI("DEW").value;BuffCRITDMG=BuffCRITDMG*DEATHWHISPER[bu]}
+//Decrease Weight
+	if (d.gI("DCWC").checked==true)
+		{var bu=d.gI("DCW").value;weightpenalty=weightpenalty+DECREASEWEIGHT[bu]}
+//Deflect Arrow
+	if (d.gI("DEA1C").checked==true && (EWpnType=="Bow"||EWpnType=="YumiBow"))
+		{var defarrow=d.gI("DEA1").value;EBuffDAMAGE=EBuffDAMAGE*DEFLECTARROW[defarrow]}
+	if (d.gI("DEA2C").checked==true && (EWpnType=="Bow"||EWpnType=="YumiBow"))
+		{var dfarrow=d.gI("DEA2").value;EBuffDAMAGE=EBuffDAMAGE*DEFLECTARROW[dfarrow]}
+//Demonic Blade Dance
+	if (d.gI("DBDC").checked==true)
+		{var bu=d.gI("DBD").value;BuffPATK=BuffPATK*DEMONICBD[bu];BuffMATK=BuffMATK*DEMONICBD[bu]}
+//Duelist Spirit
+	if (d.gI("DUELC").checked==true && WpnType=="Duals")
+		{var bu=d.gI("DUEL").value;BuffASPD=BuffASPD*DUELIST[bu]}
+//Empower
+	if (d.gI("EMPC").checked==true)
+		{var bu=d.gI("EMP").value;BuffMATK=BuffMATK*EMPOWER[bu]}
+//Evade Shot
+	if (d.gI("EVSC").checked==true)
+		{BuffEVA=BuffEVA+6}
+//Fire Vortex
+	if (d.gI("FVC").checked==true)
+		{BuffSPEED=BuffSPEED*0.9;BuffASPD=BuffASPD*0.7;BuffCAST=BuffCAST*0.9;AddMPR2=AddMPR2-12}
+//Fist Fury
+	if (d.gI("FFYC").checked==true)
+		{BuffASPD=BuffASPD*1.25}
+//Focus
+	if (d.gI("FCSC").checked==true)
+		{var bu=d.gI("FCS").value;subcritical=subcritical+(basecritical*FOCUS[bu])}
+//Focus Attack
+	if (d.gI("FAC").checked==true && WpnType=="Polearm")
+		{var bu=d.gI("FA").value;BuffACC=BuffACC+FOCUSATTACK[bu];BuffCRITDMG=BuffCRITDMG*1.1}
+//Focus Dagger Skills
+	if (d.gI("FAWC").checked==true && WpnMAS=="Dagger")
+		{var bu=d.gI("FAW").value;
+		if (bu==2)
+			{if (position==1)
+				{subcritical=subcritical+(basecritical*-0.3);BuffCRITDMG=BuffCRITDMG*0.7}
+			if (position==2||position==4)
+				{subcritical=subcritical+(basecritical*-0.3)}
+			if (position==3||position==5)
+				{subcritical=subcritical+(basecritical*-0.3);BuffCRITDMG=BuffCRITDMG*1.9}}
+		if (bu==3)
+			{if (position==1)
+				{BuffCRITDMG=BuffCRITDMG*0.7}
+			if (position==2||position==4)
+				{BuffCRITDMG=BuffCRITDMG*1.3}
+			if (position==3||position==5)
+				{BuffCRITDMG=BuffCRITDMG*1.6}}}
+	if (d.gI("FPWC").checked==true && WpnMAS=="Dagger")
+		{var bu=d.gI("FPW").value;
+		if (bu==1)
+			{if (position==1)
+				{BuffCOMBATCRIT=BuffCOMBATCRIT*0.7}
+			if (position==2||position==4)
+				{BuffCOMBATCRIT=BuffCOMBATCRIT*1.3}
+			if (position==3||position==5)
+				{BuffCOMBATCRIT=BuffCOMBATCRIT*1.6}}
+		if (bu==2)
+			{if (position==1)
+				{subcritical=subcritical+(basecritical*-0.3);BuffCRITDMG=BuffCRITDMG*0.7}
+			if (position==2||position==4)
+				{subcritical=subcritical+(basecritical*-0.3)}
+			if (position==3||position==5)
+				{subcritical=subcritical+(basecritical*-0.3);BuffCRITDMG=BuffCRITDMG*1.9}}}
+	if (d.gI("FTHC").checked==true && WpnMAS=="Dagger")
+		{var bu=d.gI("FTH").value;
+		if (bu==1)
+			{if (position==1)
+				{BuffCOMBATCRIT=BuffCOMBATCRIT*0.7}
+			if (position==2||position==4)
+				{BuffCOMBATCRIT=BuffCOMBATCRIT*1.3}
+			if (position==3||position==5)
+				{BuffCOMBATCRIT=BuffCOMBATCRIT*1.6}}
+		if (bu==3)
+			{if (position==1)
+				{BuffCRITDMG=BuffCRITDMG*0.7}
+			if (position==2||position==4)
+				{BuffCRITDMG=BuffCRITDMG*1.3}
+			if (position==3||position==5)
+				{BuffCRITDMG=BuffCRITDMG*1.6}}}
+//Frenzy
+	if (d.gI("FZY1C").checked==true && (WpnType=="2hs"||WpnType=="2hb"))
+		{var bu=d.gI("FZY1").value
+		BuffPATK=BuffPATK*FRENZY2HS[bu]
+		BuffACC=BuffACC+FRENZY2HSACC[bu]}
+	else if (d.gI("FZY1C").checked==true && (WpnType=="Sword"||WpnType=="Blunt"||WpnType=="Polearm"))
+		{var bu=d.gI("FZY1").value;BuffPATK=BuffPATK*FRENZY[bu]}
+	else if (d.gI("FZY1C").checked==true)
+		{var bu=d.gI("FZY1").value;BuffPATK=BuffPATK*FRENZYOTHER[bu]}
+	if (d.gI("FZY2C").checked==true && (WpnType=="2hs"||WpnType=="2hb"))
+		{var bu=d.gI("FZY2").value
+		BuffPATK=BuffPATK*FRENZY2HS[bu]
+		BuffACC=BuffACC+FRENZY2HSACC[bu]}
+	else if (d.gI("FZY2C").checked==true && (WpnType=="Sword"||WpnType=="Blunt"||WpnType=="Polearm"))
+		{var bu=d.gI("FZY2").value;BuffPATK=BuffPATK*FRENZY[bu]}
+	else if (d.gI("FZY2C").checked==true)
+		{var bu=d.gI("FZY2").value;BuffPATK=BuffPATK*FRENZYOTHER[bu]}
+//Greater Might
+	if (d.gI("GRMC").checked==true)
+		{var bu=d.gI("GRM").value;BuffPATK=BuffPATK*GREATERMIGHT[bu]}
+//Greater Shield
+	if (d.gI("GRSC").checked==true)
+		{var bu=d.gI("GRS").value;BuffPDEF=BuffPDEF*GREATERSHIELD[bu]}
+//Guard Stance
+	if (d.gI("GSC").checked==true)
+		{var bu=d.gI("GS").value;AddPDEF=AddPDEF+GUARDSTANCE[bu];BuffShieldBlockRate=BuffShieldBlockRate*1.5}
+//Guidance
+	if (d.gI("GUIDC").checked==true)
+		{var bu=d.gI("GUID").value;BuffACC=BuffACC+GUIDANCE[bu]}
+//Guts
+	if (d.gI("GTS1C").checked==true)
+		{var bu=d.gI("GTS1").value;BuffPDEF=BuffPDEF*GUTS[bu]}
+	if (d.gI("GTS2C").checked==true)
+		{var bu=d.gI("GTS2").value;BuffPDEF=BuffPDEF*GUTS[bu]}
+//Haste
+	if (d.gI("HSTC").checked==true)
+		{var bu=d.gI("HST").value;BuffASPD=BuffASPD*HASTE[bu]}
+//Hawk Eye
+	if (d.gI("HEC").checked==true)
+		{var bu=d.gI("HE").value;BuffPDEF=0.90*BuffPDEF;BuffACC=BuffACC+HAWKEYE[bu]}
+//Hero Debuffs
+	if (d.gI("HEEC").checked==true) {
+		var bu=d.gI("HEE").value;
+		if (bu=="1")
+			{BuffPDEF=BuffPDEF*0.5;AddMDEF=AddMDEF-50;BuffEVA=BuffEVA-16;BuffShieldBlockRate=BuffShieldBlockRate*0.5}
+	}
+	if (d.gI("HEDC").checked==true) {
+		var bu=d.gI("HED").value;
+		if (bu=="1")
+			{BuffSPEED=BuffSPEED*1.52}
+	}
+//Hero Skills
+	if (d.gI("HERC").checked==true) {
+		var bu=d.gI("HER").value;
+		if (bu=="1")
+			{AddPATK=AddPATK+500;AddMATK=AddMATK+500;BuffPDEF=BuffPDEF*0.75;AddMDEF=AddMDEF-25;BuffACC=BuffACC+8;BuffEVA=BuffEVA-8;AddSPEED=AddSPEED+20;AddASPD=AddASPD+100;AddCAST=AddCAST+100}
+		else if (bu=="2" && shield!=0)
+			{AddPDEF=AddPDEF+5400;AddMDEF=AddMDEF+4050;AddSPEED=AddSPEED+5}
+		else if (bu=="3")
+			{AddPATK=AddPATK+250;AddPDEF=AddPDEF+500}
+	}
+//Hot Springs Cholera
+	if (d.gI("CHOLC").checked==true)
+		{var bu=d.gI("CHOL").value;BuffACC=BuffACC+HSCHOLACC[bu];BuffEVA=BuffEVA+HSCHOLEVA[bu]}
+//Hot Springs Malaria
+	if (d.gI("MALC").checked==true)
+		{var bu=d.gI("MAL").value;BuffCAST=BuffCAST*HSMALARIA[bu]}
+//Ice Vortex
+	if (d.gI("IVC").checked==true)
+		{var iv=d.gI("IV").value;BuffSPEED=BuffSPEED*0.7;BuffASPD=BuffASPD*0.9;BuffCAST=BuffCAST*0.9;AddMPR2=AddMPR2-12}
+//Invocation
+	if (d.gI("INVC").checked==true)
+		{BuffPDEF=BuffPDEF*0.1}
+//Judgment
+	if (d.gI("JDGC").checked==true)
+		{var iv=d.gI("JDG").value;BuffCRITDMG=BuffCRITDMG*JUDGMENT[iv]}
+//Light Vortex
+	if (d.gI("LVORC").checked==true)
+		{var bu=d.gI("LVOR").value;BuffACC=BuffACC-6;AddMPR2=AddMPR2-12}
+//Magic Barrier
+	if (d.gI("MB1C").checked==true)
+		{var mb1=d.gI("MB1").value;BuffMDEF=BuffMDEF*MAGICBARRIER[mb1]}
+	if (d.gI("MB2C").checked==true)
+		{var mb2=d.gI("MB2").value;BuffMDEF=BuffMDEF*MAGICBARRIER[mb2]}
+	if (d.gI("MB3C").checked==true)
+		{var mb3=d.gI("MB3").value;BuffMDEF=BuffMDEF*MAGICBARRIER[mb3]}
+//Majesty
+	if (d.gI("MAJ1C").checked==true)
+		{var maj1=d.gI("MAJ1").value;BuffPDEF=BuffPDEF*MAJESTY[maj1];BuffEVA=BuffEVA+MAJESTYEVA[maj1]}
+	if (d.gI("MAJ2C").checked==true)
+		{var maj2=d.gI("MAJ2").value;BuffPDEF=BuffPDEF*MAJESTY[maj2];BuffEVA=BuffEVA+MAJESTYEVA[maj2]}
+//Mana Regeneration
+	if (d.gI("MRGC").checked==true)
+		{var manaregen=d.gI("MRG").value;AddMPR=AddMPR+MANAREGEN[manaregen]}
+//Might
+	if (d.gI("MT1C").checked==true)
+		{var bu=d.gI("MT1").value;BuffPATK=BuffPATK*MIGHT[bu]}
+	if (d.gI("MT2C").checked==true)
+		{var bu=d.gI("MT2").value;BuffPATK=BuffPATK*MIGHT[bu]}
+//Pa'agrio's Fist
+	if (d.gI("PAFC").checked==true)
+		{AddCP=AddCP+800}
+//Parry Stance
+	if (d.gI("PRYC").checked==true)
+		{var parry=d.gI("PRY").value;BuffPDEF=1.25*BuffPDEF;BuffMDEF=1.25*BuffMDEF;BuffACC=BuffACC-4;BuffSPEED=BuffSPEED*0.9;BuffASPD=BuffASPD*0.8}
+//P.Atk. Debuffs
+	if (d.gI("DEPC").checked==true)
+		{var depatk=d.gI("DEP").value;BuffPATK=BuffPATK*WEAKNESS[depatk]}
+//P.Def. Debuffs
+	if (d.gI("DEDC").checked==true)
+		{var depdef=d.gI("DED").value;BuffPDEF=BuffPDEF*HEX[depdef]}
+//Polearm Accuracy
+	if (d.gI("PACC").checked==true)
+		{var poleacc=d.gI("PAC").value;BuffACC=BuffACC+POLEACC[poleacc]}
+//Prophecies
+	var proph=d.gI("PRP").value
+	if (d.gI("PRPC").checked==true)
+		{BuffHP=BuffHP*PROPHECYHP[proph];
+		BuffMP=BuffMP*PROPHECYMP[proph];
+		BuffPATK=BuffPATK*PROPHECYPATK[proph];
+		BuffMATK=BuffMATK*PROPHECYMATK[proph];
+		BuffPDEF=BuffPDEF*PROPHECYPDEF[proph];
+		BuffMDEF=BuffMDEF*PROPHECYMDEF[proph];
+		BuffACC=BuffACC+PROPHECYACC[proph];
+		BuffEVA=BuffEVA+PROPHECYEVA[proph];
+		subcritical=subcritical+(basecritical*PROPHECYCRIT[proph]);
+		BuffSPEED=BuffSPEED*PROPHECYSPEED[proph];
+		BuffASPD=BuffASPD*PROPHECYASPD[proph];
+		BuffCAST=BuffCAST*PROPHECYCAST[proph];
+		BuffHPR=BuffHPR*PROPHECYHPR[proph];
+		BuffMPR=BuffMPR*PROPHECYMPR[proph];
+		BuffCRITDMG=BuffCRITDMG*PROPHECYCRITDMG[proph]
+		BuffVR=BuffVR+PROPHECYVR[proph]}
+	if (d.gI("PRPC").checked==true && proph==4 && position==3)
+		{BuffCRITDMG=BuffCRITDMG*1.2;BuffCOMBATCRIT=BuffCOMBATCRIT*1.2}
+//Psycho Symphony
+	if (d.gI("PSYC").checked==true)
+		{var psycho=d.gI("PSY").value;
+		BuffSPEED=BuffSPEED*PSYCHO[psycho];
+		BuffASPD=BuffASPD*PSYCHO[psycho];
+		BuffCAST=BuffCAST*PSYCHO[psycho];}
+//Queen Buffs
+	var queen=d.gI("QUEE").value
+	if ((queen=="1"||queen=="2"||queen=="3") && d.gI("QUEEC").checked==true)
+		{BuffPATK=CATBUFFS[queen]*BuffPATK;BuffACC=BuffACC+2}
+	else if ((queen=="4"||queen=="5"||queen=="6") && d.gI("QUEEC").checked==true)
+		{subcritical=subcritical+(basecritical*CATBUFFS[queen]);BuffCRITDMG=BuffCRITDMG*CATBUFFS2[queen]}
+//Rage
+	if (d.gI("RGE1C").checked==true && (WpnType=="2hs"||WpnType=="2hb"))
+		{var rage1=d.gI("RGE1").value;BuffPATK=RAGE2HS[rage1]*BuffPATK;BuffPDEF=0.80*BuffPDEF;BuffEVA=BuffEVA-3;BuffACC=BuffACC+RAGE2HSACC[rage1]}
+	else if (d.gI("RGE1C").checked==true && (WpnType=="Sword"||WpnType=="Blunt"||WpnType=="Polearm"))
+		{var rage1=d.gI("RGE1").value;BuffPATK=RAGE[rage1]*BuffPATK;BuffPDEF=0.80*BuffPDEF;BuffEVA=BuffEVA-3}
+	else if (d.gI("RGE1C").checked==true)
+		{var rage1=d.gI("RGE1").value;BuffPATK=RAGEOTHER[rage1]*BuffPATK;BuffPDEF=0.80*BuffPDEF;BuffEVA=BuffEVA-3}
+	if (d.gI("RGE2C").checked==true && (WpnType=="2hs"||WpnType=="2hb"))
+		{var rage2=d.gI("RGE2").value;BuffPATK=RAGE2HS[rage2]*BuffPATK;BuffPDEF=0.80*BuffPDEF;BuffEVA=BuffEVA-3;BuffACC=BuffACC+RAGE2HSACC[rage2]}
+	else if (d.gI("RGE2C").checked==true && (WpnType=="Sword"||WpnType=="Blunt"||WpnType=="Polearm"))
+		{var rage2=d.gI("RGE2").value;BuffPATK=RAGE[rage2]*BuffPATK;BuffPDEF=0.80*BuffPDEF;BuffEVA=BuffEVA-3}
+	else if (d.gI("RGE2C").checked==true && (WpnType!="2hs" && WpnType!="2hb"))
+		{var rage2=d.gI("RGE2").value;BuffPATK=RAGEOTHER[rage2]*BuffPATK;BuffPDEF=0.80*BuffPDEF;BuffEVA=BuffEVA-3}
+//Rapid Fire
+	if (d.gI("RPFC").checked==true && WpnMAS=="Bow")
+		{var rapidfire=d.gI("RPF").value
+		AddPATK=AddPATK+RAPIDFIRE[rapidfire];
+		BuffASPD=BuffASPD*1.2}
+//Rapid Shot
+	if (d.gI("RPD1C").checked==true && WpnMAS=="Bow")
+		{var rapid1=d.gI("RPD1").value;BuffASPD=BuffASPD*RAPIDSHOT[rapid1]}
+	if (d.gI("RPD2C").checked==true && WpnMAS=="Bow")
+		{var rapid2=d.gI("RPD2").value;BuffASPD=BuffASPD*RAPIDSHOT[rapid2]}
+//Regeneration
+	if (d.gI("RGNC").checked==true)
+		{var regeneration=d.gI("RGN").value;BuffHPR=BuffHPR*REGENERATION[regeneration]}
+//Riposte Stance
+	if (d.gI("RIPC").checked==true)
+		{var riposte=d.gI("RIP").value;BuffACC=BuffACC-4;BuffSPEED=BuffSPEED*0.9;BuffASPD=BuffASPD*0.8;BuffRD=BuffRD+0.3}
+//Sand Bomb
+	if (d.gI("SBBC").checked==true)
+		{var sandbomb=d.gI("SBB").value;BuffACC=BuffACC+SANDBOMB[sandbomb]}
+//Seal of Despair
+	if (d.gI("DERC").checked==true)
+		{var despair=d.gI("DER").value;BuffMDEF=0.70*BuffMDEF;BuffACC=BuffACC-6;subcritical=subcritical+(basecritical*-0.3);BuffSPEED=BuffSPEED*0.8;BuffASPD=BuffASPD*0.8;BuffCRITDMG=BuffCRITDMG*0.7}
+//Seal of Scourge
+	if (d.gI("SCRC").checked==true)
+		{BuffHPR2=BuffHPR2*0}
+//Shield
+	if (d.gI("SHD1C").checked==true)
+		{var shield1=d.gI("SHD1").value;BuffPDEF=BuffPDEF*SHIELD[shield1]}
+	if (d.gI("SHD2C").checked==true)
+		{var shield2=d.gI("SHD2").value;BuffPDEF=BuffPDEF*SHIELD[shield2]}
+//Shield Fortress
+	if (d.gI("SFC").checked==true && shield!="0")
+		{var shieldfortress=d.gI("SF").value;AddSHIELDPDEF=AddSHIELDPDEF+SHIELDFORTRESS[shieldfortress]}
+//Shock Blast
+	if (d.gI("SBC").checked==true)
+		{var shockblast=d.gI("SB").value;BuffPDEF=0.70*BuffPDEF;BuffMDEF=0.70*BuffMDEF}
+//Silent Move
+	if (d.gI("SMC").checked==true)
+		{var sm=d.gI("SM").value;BuffSPEED=BuffSPEED*0.6}
+//Skin
+	if (d.gI("SKNC").checked==true)
+		{var bu=d.gI("SKN").value;BuffRD=BuffRD+SKIN[bu]}
+//Slow
+	if (d.gI("DESC").checked==true)
+		{var bu=d.gI("DES").value;BuffSPEED=BuffSPEED*SLOW[bu]}
+//Snipe
+	if (d.gI("SNIC").checked==true && WpnMAS=="Bow")
+		{var snipe=d.gI("SNI").value;AddPATK=AddPATK+SNIPE[snipe];BuffACC=BuffACC+SNIPEACC[snipe];subcritical=subcritical+(basecritical*0.2)}
+//Song of Earth
+	if (d.gI("SOEC").checked==true)
+		{BuffPDEF=1.25*BuffPDEF}
+//Song of Hunter
+	if (d.gI("SOHC").checked==true)
+		{subcritical=subcritical+(basecritical*1)}
+//Song of Life
+	if (d.gI("SOLC").checked==true)
+		{BuffHPR=BuffHPR*1.2}
+//Song of Meditation
+	if (d.gI("SOMC").checked==true)
+		{BuffMPR=BuffMPR*1.2}
+//Song of Vengeance
+	if (d.gI("SOVC").checked==true)
+		{BuffRD=BuffRD+0.2}
+//Song of Vitality
+	if (d.gI("VITC").checked==true)
+		{BuffHP=1.3*BuffHP}
+//Song of Warding
+	if (d.gI("WARDC").checked==true)
+		{BuffMDEF=1.3*BuffMDEF}
+//Song of Water
+	if (d.gI("SWATC").checked==true)
+		{BuffEVA=BuffEVA+3}
+//Song of Wind
+	if (d.gI("SWIC").checked==true)
+		{AddSPEED=AddSPEED+20}
+//Soul Cry
+	if (d.gI("SL1C").checked==true)
+		{var soul1=d.gI("SL1").value;AddPATK=AddPATK+SOULCRY[soul1]}
+	if (d.gI("SL2C").checked==true)
+		{var soul2=d.gI("SL2").value;AddPATK=AddPATK+SOULCRY[soul2]}
+	if (d.gI("SL3C").checked==true)
+		{var soul3=d.gI("SL3").value;AddPATK=AddPATK+SOULCRY[soul3]}
+//Soul Guard
+	if (d.gI("SGC").checked==true)
+		{var sg=d.gI("SG").value;AddPDEF=AddPDEF+SOULGUARD[sg]}
+//Soul of Sagitarrius
+	if (d.gI("SAGC").checked==true)
+		{var sag=d.gI("SAG").value;BuffMP=BuffMP*SOULOFSAG[sag]}
+//Stealth
+	if (d.gI("STLC").checked==true)
+		{var stealth=d.gI("STL").value
+		BuffPATK=BuffPATK*0.55;
+		BuffPDEF=BuffPDEF*STEALTH[stealth];
+		BuffMDEF=BuffMDEF*STEALTH[stealth];
+		BuffACC=BuffACC-12;
+		BuffEVA=BuffEVA+STEALTHEVA[stealth]}
+//Thrill Fight
+	if (d.gI("TFC").checked==true)
+		{var tf=d.gI("TF").value;BuffSPEED=BuffSPEED*0.8;BuffASPD=BuffASPD*THRILLFIGHT[tf]}
+//Totem
+	var totem1=d.gI("TTM1").value
+	if (totem1=="1" && d.gI("TTM1C").checked==true)
+		{BuffSPEED=BuffSPEED*0.7}
+	if (totem1=="1" && d.gI("TTM1C").checked==true && WpnMAS=="Fist")
+		{BuffPATK=1.2*BuffPATK}
+	else if (totem1=="2" && d.gI("TTM1C").checked==true)
+		{BuffSPEED=BuffSPEED*1.2;BuffACC=BuffACC+3}
+	var totem2=d.gI("TTM2").value
+	if (totem2=="1" && d.gI("TTM2C").checked==true)
+		{BuffSPEED=BuffSPEED*0.7}
+	if (totem2=="1" && d.gI("TTM2C").checked==true && WpnMAS=="Fist")
+		{BuffPATK=1.2*BuffPATK;BuffCRITDMG=BuffCRITDMG*1.2}
+	else if (totem2=="3" && d.gI("TTM2C").checked==true)
+		{BuffPATK60=1.43*BuffPATK60;AddCRIT60=AddCRIT60+100;AddCRIT30=AddCRIT30+300;BuffACC=BuffACC+6}
+	else if (totem2=="4" && d.gI("TTM2C").checked==true && WpnMAS=="Fist")
+		{AddCRIT=AddCRIT+100;BuffACC=BuffACC+6;BuffCRITDMG=BuffCRITDMG*1.3}
+	else if (totem2=="5" && d.gI("TTM2C").checked==true)
+		{BuffMDEF=1.3*BuffMDEF;BuffPDEF=1.3*BuffPDEF;BuffEVA=BuffEVA-9;BuffSPEED=BuffSPEED*0.7}
+	else if (totem2=="6" && d.gI("TTM2C").checked==true && WpnMAS=="Fist")
+		{BuffACC=BuffACC+6;BuffASPD=BuffASPD*1.2}
+	else if (totem2=="7" && d.gI("TTM2C").checked==true)
+		{BuffPATK=0.70*BuffPATK;BuffEVA=BuffEVA+12;BuffSPEED=BuffSPEED*1.3;BuffACC=BuffACC-9}
+	else if (totem2=="2" && d.gI("TTM2C").checked==true)
+		{BuffSPEED=BuffSPEED*1.2;BuffACC=BuffACC+3}
+//Tribunal
+	if (d.gI("TRBC").checked==true)
+		{var tribunal=d.gI("TRB").value;subcritical=subcritical+(basecritical*TRIBUNAL[tribunal])}
+//Ultimate Defense
+	if (d.gI("UD1C").checked==true)
+		{var ud1=d.gI("UD1").value
+		AddPDEF=AddPDEF+UDPDEF[ud1]
+		AddMDEF=AddMDEF+UDMDEF[ud1]}
+	if (d.gI("UD2C").checked==true)
+		{var ud2=d.gI("UD2").value
+		AddPDEF=AddPDEF+UDPDEF[ud2]
+		AddMDEF=AddMDEF+UDMDEF[ud2]}
+//Ultimate Evasion
+	if (d.gI("UEC").checked==true)
+		{var ue=d.gI("UE").value;BuffEVA=BuffEVA+UE[ue]}
+//Vampiric Rage
+	if (d.gI("VRAC").checked==true)
+		{var bu=d.gI("VRA").value;BuffVR=BuffVR+VAMPIRICRAGE[bu]}
+//Vicious Stance
+	if (d.gI("VSC").checked==true)
+		{var ue=d.gI("VS").value;AddCRITDMG=AddCRITDMG+VICIOUSSTANCE[ue]}
+//War Cry
+	if (d.gI("WCY1C").checked==true)
+		{var warcry1=d.gI("WCY1").value;BuffPATK=BuffPATK*WARCRY[warcry1]}
+	if (d.gI("WCY2C").checked==true)
+		{var warcry2=d.gI("WCY2").value;BuffPATK=BuffPATK*WARCRY[warcry2]}
+//Wind Vortex
+	if (d.gI("WVC").checked==true)
+		{var wv=d.gI("WV").value;BuffSPEED=BuffSPEED*0.9;BuffASPD=BuffASPD*0.9;BuffCAST=BuffCAST*0.7;AddMPR2=AddMPR2-12}
+//Wind Walk
+	if (d.gI("WWC").checked==true)
+		{var ww=d.gI("WW").value;AddSPEED=AddSPEED+WINDWALK[ww]}
+//Zealot
+	if (d.gI("ZLTC").checked==true)
+		{var zealot=d.gI("ZLT").value
+		AddSPEED=AddSPEED+ZEALOTSPEED[zealot]}
+	if (d.gI("ZLTC").checked==true && (WpnType=="Fist"||WpnType=="2hb"||WpnType=="Blunt"))
+		{var zealot=d.gI("ZLT").value
+		BuffASPD=BuffASPD*ZEALOT[zealot]
+		BuffACC=BuffACC+6
+		BuffCRITDMG=BuffCRITDMG*ANGELICCRITDMG[zealot]}
+	if (d.gI("ZLTC").checked==true && JOB=="DE" && (WpnType=="Polearm"||WpnType=="2hs"||WpnType=="Sword"))
+		{var zealot=d.gI("ZLT").value
+		AddCRIT=AddCRIT+ZEALOTCRIT[zealot]
+		BuffASPD=BuffASPD*ZEALOT[zealot]
+		BuffACC=BuffACC+6}
+
+//Nuker Nerf
+if (race=="HM"||race=="EM"||race=="OM"||race=="DM")
+	{
+	if (AType!="R")
+	{BuffASPD=BuffASPD*0.8;BuffCAST=BuffCAST*0.5}
+	else
+	{BuffMPR=BuffMPR*1.2}
+	if (WpnMAS=="Bow"||WpnType=="Polearm")
+	{BuffACC=BuffACC-8;BuffCAST=BuffCAST*0.7}
+	}
+if (d.gI("HMO1C").checked==true && AType=="H"||d.gI("HMO2C").checked==true && AType=="H"||d.gI("HMO3C").checked==true && AType=="H")
+	{BuffCAST=BuffCAST*1.71;BuffASPD=BuffASPD*1.25}
+if (d.gI("LMO1C").checked==true && AType=="L"||d.gI("LMO2C").checked==true && AType=="L"||d.gI("LMO3C").checked==true && AType=="L")
+	{BuffCAST=BuffCAST*1.9;BuffASPD=BuffASPD*1.25}
+if (d.gI("LMSC").checked==true && AType=="L")
+	{BuffCAST=BuffCAST*1.88;BuffASPD=BuffASPD*1.25}
+if (d.gI("LMH1C").checked==true && AType=="L"||d.gI("LMH2C").checked==true && AType=="L")
+	{BuffCAST=BuffCAST*1.91;BuffASPD=BuffASPD*1.25}
+if (d.gI("HMPC").checked==true && AType=="H")
+	{BuffCAST=BuffCAST*1.68;BuffASPD=BuffASPD*1.25}
+
+//Passives
+//Weapon Mastery for Fighter Classes
+	if (d.gI("WMFC").checked==true)
+		{var wmf=d.gI("WMF").value;AddPATK=AddPATK+WMF[wmf]}
+//Weapon Mastery for Mystic Classes
+	if (d.gI("WMM1C").checked==true)
+		{var wmm1=d.gI("WMM1").value
+		AddPATK=AddPATK+WMMPATK[wmm1];
+		AddMATK=AddMATK+WMMMATK[wmm1]}
+	if (d.gI("WMM2C").checked==true)
+		{var wmm2=d.gI("WMM2").value
+		AddPATK=AddPATK+WMMPATK[wmm2];
+		AddMATK=AddMATK+WMMMATK[wmm2]}
+	if (d.gI("WMM3C").checked==true)
+		{var wmm3=d.gI("WMM3").value
+		AddPATK=AddPATK+WMMPATK[wmm3];
+		AddMATK=AddMATK+WMMMATK[wmm3]}
+//Sword/Blunt Mastery (Warrior)
+	if (d.gI("WSBM1C").checked==true && (WpnMAS=="Blunt"||WpnMAS=="Sword"))
+		{var wsbm1=d.gI("WSBM1").value;AddPATK=AddPATK+MTYPE1[wsbm1]}
+	if (d.gI("WSBM2C").checked==true && (WpnMAS=="Blunt"||WpnMAS=="Sword"))
+		{var wsbm2=d.gI("WSBM2").value;AddPATK=AddPATK+MTYPE1[wsbm2]}
+//Blunt Mastery
+	if (d.gI("BLM1C").checked==true && WpnMAS=="Blunt")
+		{var bluntm1=d.gI("BLM1").value
+		AddPATK=AddPATK+MTYPE1[bluntm1];}
+	if (d.gI("BLM2C").checked==true && WpnMAS=="Blunt")
+		{var bluntm2=d.gI("BLM2").value
+		AddPATK=AddPATK+MTYPE1[bluntm2];
+		AddCRITDMG=AddCRITDMG+BLUNTMCRITDAMAGE[bluntm2]}
+	if (d.gI("BLM2C").checked==true)
+		{var bluntm2=d.gI("BLM2").value
+		AddSPEED=AddSPEED+BLUNTMSPEED[bluntm2]}
+//Polearm Mastery
+	if (d.gI("PLM1C").checked==true && WpnMAS=="Polearm")
+		{var polem1=d.gI("PLM1").value;AddPATK=AddPATK+MTYPE1[polem1]}
+	if (d.gI("PLM2C").checked==true && WpnMAS=="Polearm")
+		{var polem2=d.gI("PLM2").value;AddPATK=AddPATK+MTYPE1[polem2]}
+//Fist Mastery
+	if (d.gI("FIM1C").checked==true && WpnMAS=="Fist")
+		{var fistm1=d.gI("FIM1").value;AddPATK=AddPATK+MTYPE1[fistm1]}
+	if (d.gI("FIM2C").checked==true && WpnMAS=="Fist")
+		{var fistm2=d.gI("FIM2").value;AddPATK=AddPATK+MTYPE1[fistm2]}
+//Sword/Blunt Mastery (Knight)
+	if  (d.gI("KSBM1C").checked==true && (WpnMAS=="Sword"||WpnMAS=="Blunt"))
+		{var ksbm1=d.gI("KSBM1").value;AddPATK=AddPATK+KNIGHTMASTERY[ksbm1]}
+	if  (d.gI("KSBM2C").checked==true && (WpnMAS=="Sword"||WpnMAS=="Blunt"))
+		{var ksbm2=d.gI("KSBM2").value;AddPATK=AddPATK+KNIGHTMASTERY[ksbm2]}
+//Dagger Mastery
+	if (d.gI("DGM1C").checked==true && WpnMAS=="Dagger")
+		{var daggerm1=d.gI("DGM1").value;AddPATK=AddPATK+DAGGERM[daggerm1]}
+	if (d.gI("DGM2C").checked==true && WpnMAS=="Dagger")
+		{var daggerm2=d.gI("DGM2").value;AddPATK=AddPATK+DAGGERM[daggerm2]}
+//Bow Mastery
+	if (d.gI("BOWM1C").checked==true && WpnMAS=="Bow")
+		{var bowm1=d.gI("BOWM1").value;AddPATK=AddPATK+BOWM[bowm1]}
+	if (d.gI("BOWM2C").checked==true && WpnMAS=="Bow")
+		{var bowm2=d.gI("BOWM2").value;AddPATK=AddPATK+BOWM[bowm2]}
+//Dual Weapon Mastery
+	if (d.gI("DUALMC").checked==true && WpnMAS=="Duals")
+		{var dualm=d.gI("DUALM").value;AddPATK=AddPATK+DUALM[dualm]}
+//Two Handed Weapon Mastery
+	if (d.gI("THM1C").checked==true && (WpnType=="2hs"||WpnType=="2hb"))
+		{var thm1=d.gI("THM1").value
+		AddPATK=AddPATK+THM[thm1];
+		BuffACC=BuffACC+3}
+	if (d.gI("THM2C").checked==true && (WpnType=="2hs"||WpnType=="2hb"))
+		{var thm2=d.gI("THM2").value
+		AddPATK=AddPATK+THM[thm2];
+		BuffACC=BuffACC+3}
+//Armor Mastery (Fighter)
+	if (d.gI("AMFC").checked==true && AType=="L")
+		{var amf=d.gI("AMF").value
+		AddPDEF=AddPDEF+AMF[amf];
+		BuffEVA=BuffEVA+AMFEVA[amf]}
+	else if (d.gI("AMFC").checked==true && AType!="L")
+		{var amf=d.gI("AMF").value
+		AddPDEF=AddPDEF+AMF[amf];}
+//Armor Mastery (Mystic)
+	if (d.gI("AMMC").checked==true)
+		{var amm=d.gI("AMM").value;AddPDEF=AddPDEF+AMM[amm]}
+//Heavy Armor Mastery (Knight)
+	if (d.gI("HMK1C").checked==true && AType=="H")
+		{var hmk1=d.gI("HMK1").value;AddPDEF=AddPDEF+HMK[hmk1]}
+	if (d.gI("HMK2C").checked==true && AType=="H")
+		{var hmk2=d.gI("HMK2").value;AddPDEF=AddPDEF+HMK[hmk2]}
+//Heavy Armor Mastery (Warrior)
+	if (d.gI("HMW1C").checked==true && AType=="H")
+		{var hmw1=d.gI("HMW1").valueAddPDEF=AddPDEF+HMW[hmw1]}
+	if (d.gI("HMW2C").checked==true && AType=="H")
+		{var hmw2=d.gI("HMW2").value;AddPDEF=AddPDEF+HMW[hmw2]}
+//Heavy Armor Mastery (Orc Mystic)
+	if (d.gI("HMO1C").checked==true && AType=="H")
+		{var hmo1=d.gI("HMO1").value;AddPDEF=AddPDEF+HMO[hmo1]}
+	if (d.gI("HMO2C").checked==true && AType=="H")
+		{var hmo2=d.gI("HMO2").value;AddPDEF=AddPDEF+HMO[hmo2]}
+	if (d.gI("HMO3C").checked==true && AType=="H")
+		{var hmo3=d.gI("HMO3").value;AddPDEF=AddPDEF+HMO[hmo3]}
+//Heavy Armor Mastery (Prophet)
+	if (d.gI("HMPC").checked==true && AType=="H")
+		{var hmp=d.gI("HMP").value;AddPDEF=AddPDEF+HMP[hmp]}
+//Light Armor Mastery (Warrior)
+	if (d.gI("LMW1C").checked==true && AType=="L")
+		{var lmw1=d.gI("LMW1").value
+		AddPDEF=AddPDEF+LMW[lmw1]
+		BuffEVA=BuffEVA+LMWEVA[lmw1]}
+	if (d.gI("LMW2C").checked==true && AType=="L")
+		{var lmw2=d.gI("LMW2").value
+		AddPDEF=AddPDEF+LMW[lmw2]
+		BuffEVA=BuffEVA+LMWEVA[lmw2]}
+//Light Armor Mastery (Rogue)
+	if (d.gI("LMR1C").checked==true && AType=="L")
+		{var lmr1=d.gI("LMR1").value
+		AddPDEF=AddPDEF+LMR[lmr1]
+		BuffEVA=BuffEVA+LMREVA[lmr1]}
+	if (d.gI("LMR2C").checked==true && AType=="L")
+		{var lmr2=d.gI("LMR2").value
+		AddPDEF=AddPDEF+LMR[lmr2]
+		BuffEVA=BuffEVA+LMREVA[lmr2]}
+//Light Armor Mastery (Orc Mystic)
+	if (d.gI("LMO1C").checked==true && AType=="L")
+		{var lmo1=d.gI("LMO1").value;AddPDEF=AddPDEF+LMO[lmo1];BuffMPR=BuffMPR*1.2}
+	if (d.gI("LMO2C").checked==true && AType=="L")
+		{var lmo2=d.gI("LMO2").value;AddPDEF=AddPDEF+LMO[lmo2];BuffMPR=BuffMPR*1.2}
+	if (d.gI("LMO3C").checked==true && AType=="L")
+		{var lmo3=d.gI("LMO3").value;AddPDEF=AddPDEF+LMO[lmo3];BuffMPR=BuffMPR*1.2}
+//Light Armor Mastery (Healer)
+	if (d.gI("LMH1C").checked==true && AType=="L")
+		{var lmh1=d.gI("LMH1").value;AddPDEF=AddPDEF+LMH[lmh1];BuffMPR=BuffMPR*1.2}
+	if (d.gI("LMH2C").checked==true && AType=="L")
+		{var lmh2=d.gI("LMH2").value;AddPDEF=AddPDEF+LMH[lmh2];BuffMPR=BuffMPR*1.2}
+//Light Armor Mastery (Summoner)
+	if (d.gI("LMSC").checked==true && AType=="L")
+		{var lms=d.gI("LMS").value;AddPDEF=AddPDEF+LMS[lms];BuffMPR=BuffMPR*1.2}
+//Robe Mastery (Nuker)
+	if (d.gI("RMN1C").checked==true && AType=="R")
+		{var rmn1=d.gI("RMN1").value;AddPDEF=AddPDEF+RMN[rmn1]}
+	if (d.gI("RMN2C").checked==true && AType=="R")
+		{var rmn2=d.gI("RMN2").value;AddPDEF=AddPDEF+RMN[rmn2]}
+//Robe Mastery (Healer)
+	if (d.gI("RMH1C").checked==true && AType=="R")
+		{var rmh1=d.gI("RMH1").value;AddPDEF=AddPDEF+RMH[rmh1]}
+	if (d.gI("RMH2C").checked==true && AType=="R")
+		{var rmh2=d.gI("RMH2").value;AddPDEF=AddPDEF+RMH[rmh2]}
+//Robe Mastery (Orc Mystic)
+	if (d.gI("RMO1C").checked==true && AType=="R")
+		{var rmo1=d.gI("RMO1").value;AddPDEF=AddPDEF+RMO[rmo1]}
+	if (d.gI("RMO2C").checked==true && AType=="R")
+		{var rmo2=d.gI("RMO2").value;AddPDEF=AddPDEF+RMO[rmo2]}
+	if (d.gI("RMO3C").checked==true && AType=="R")
+		{var rmo3=d.gI("RMO3").value;AddPDEF=AddPDEF+RMO[rmo3]}
+//Magic Resistance
+	if (d.gI("MR1C").checked==true)
+		{var mr1=d.gI("MR1").value;AddMDEF=AddMDEF+MR[mr1]}
+	if (d.gI("MR2C").checked==true)
+		{var mr2=d.gI("MR2").value;AddMDEF=AddMDEF+MR[mr2]}
+//Anti-Magic
+	if (d.gI("AM1C").checked==true)
+		{var am1=d.gI("AM1").value;AddMDEF=AddMDEF+AM[am1]}
+	if (d.gI("AM2C").checked==true)
+		{var am2=d.gI("AM2").value;AddMDEF=AddMDEF+AM[am2]}
+	if (d.gI("AM3C").checked==true)
+		{var am3=d.gI("AM3").value;AddMDEF=AddMDEF+AM[am3]}
+//Acrobatic Move
+	if (d.gI("ACRM1C").checked==true && movemode=="0.7")
+		{var bu=d.gI("ACRM1").value;combatevasion=combatevasion+ACROBATICMOVE[bu]}
+	if (d.gI("ACRM2C").checked==true && movemode=="0.7")
+		{var bu=d.gI("ACRM2").value;combatevasion=combatevasion+ACROBATICMOVE[bu]}
+//Aegis
+	if (d.gI("AGSC").checked==true)
+		{block360=true}
+//Agile Movement
+	if (d.gI("AGM1C").checked==true && AType=="L")
+		{var agilemovement1=d.gI("AGM1").value
+		BuffACC=BuffACC+AGILEMOVEMENT[agilemovement1]
+		AddSPEED=AddSPEED+AGILEMOVEMENTSPEED[agilemovement1]}
+	if (d.gI("AGM2C").checked==true && AType=="L")
+		{var agilemovement2=d.gI("AGM2").value
+		BuffACC=BuffACC+AGILEMOVEMENT[agilemovement2]
+		AddSPEED=AddSPEED+AGILEMOVEMENTSPEED[agilemovement2]}
+//Arcane Lore
+	if (d.gI("ARLC").checked==true)
+		{BuffMATK=BuffMATK*1.03}
+//Archery
+	if (d.gI("ARCC").checked==true && WpnMAS=="Bow")
+		{AddPATK=AddPATK+200}
+//Assassination
+	if (d.gI("ASSC").checked==true && WpnType=="Dagger")
+		{AddPATK=AddPATK+70}
+//Boost Attack Speed
+	if (d.gI("BOA1C").checked==true)
+		{var boostaspd1=d.gI("BOA1").value;BuffASPD=BuffASPD*BOOSTASPD[boostaspd1]}
+	if (d.gI("BOA2C").checked==true)
+		{var boostaspd2=d.gI("BOA2").value;BuffASPD=BuffASPD*BOOSTASPD[boostaspd2]}
+//Boost Evasion
+	if (d.gI("BEV1C").checked==true)
+		{var bu=d.gI("BEV1").value;BuffEVA=BuffEVA+BOOSTEVASION[bu]}
+	if (d.gI("BEV2C").checked==true)
+		{var bu=d.gI("BEV2").value;BuffEVA=BuffEVA+BOOSTEVASION[bu]}
+//Boost HP
+	if (d.gI("BHP1C").checked==true)
+		{var boosthp1=d.gI("BHP1").value
+		AddHP=AddHP+BOOSTHP[boosthp1]
+		AddCP=AddCP+BOOSTHPCP[boosthp1]}
+	if (d.gI("BHP2C").checked==true)
+		{var boosthp2=d.gI("BHP2").value
+		AddHP=AddHP+BOOSTHP[boosthp2]
+		AddCP=AddCP+BOOSTHPCP[boosthp2]}
+	if (d.gI("BHP3C").checked==true)
+		{var boosthp3=d.gI("BHP3").value
+		AddHP=AddHP+BOOSTHP[boosthp3]
+		AddCP=AddCP+BOOSTHPCP[boosthp3]}
+//Boost Mana
+	if (d.gI("BMP1C").checked==true)
+		{var boostmp1=d.gI("BMP1").value;AddMP=AddMP+BOOSTMP[boostmp1]}
+	if (d.gI("BMP2C").checked==true)
+		{var boostmp2=d.gI("BMP2").value;AddMP=AddMP+BOOSTMP[boostmp2]}
+//Clan Aegis
+	if (d.gI("CLPDC").checked==true)
+		{var clanpdef=d.gI("CLPD").value;BuffPDEF=BuffPDEF*CLANMULTIPLY[clanpdef]}
+//Clan Agility
+	if (d.gI("CLAGC").checked==true)
+		{var bu=d.gI("CLAG").value;BuffEVA=BuffEVA+CLANADDB[bu]}
+//Clan Empowerment
+	if (d.gI("CLEMC").checked==true)
+		{var bu=d.gI("CLEM").value;BuffMATK=BuffMATK*1.06}
+//Clan Guidance
+	if (d.gI("CLGDC").checked==true)
+		{var clanguidance=d.gI("CLGD").value;BuffACC=BuffACC+CLANADDB[clanguidance]}
+//Clan Lifeblood
+	if (d.gI("CLHRC").checked==true)
+		{AddHPR=AddHPR+0.5*movemode}
+//Clan Magic Protection
+	if (d.gI("CLMDC").checked==true)
+		{var clanmdef=d.gI("CLMD").value;BuffMDEF=BuffMDEF*CLANMULTIPLYB[clanmdef]}
+//Clan March
+	if (d.gI("CLSPC").checked==true)
+		{var clanspeed=d.gI("CLSP").value;AddSPEED=AddSPEED+CLANADD[clanspeed]}
+//Clan Might
+	if (d.gI("CLPAC").checked==true)
+		{var clanpatk=d.gI("CLPA").value;BuffPATK=BuffPATK*CLANMULTIPLY[clanpatk]}
+//Clan Spirituality
+	if (d.gI("CLCPC").checked==true)
+		{var clancp=d.gI("CLCP").value;BuffCP=BuffCP*CLANMULTIPLYB[clancp]}
+//Clan Vitality
+	if (d.gI("CLHPC").checked==true)
+		{var clanhp=d.gI("CLHP").value;BuffHP=BuffHP*CLANMULTIPLY[clanhp]}
+//Clear Mind
+	if (d.gI("CLMC").checked==true && movemode==1)
+		{var clearmind=d.gI("CLM").value;AddMPR=AddMPR+CLEARMINDWALK[clearmind]}
+	if (d.gI("CLMC").checked==true && movemode==1.1)
+		{var clearmind=d.gI("CLM").value;AddMPR=AddMPR+CLEARMINDSTAND[clearmind]}
+//Critical Chance
+	if (d.gI("CRC1C").checked==true)
+		{var criticalchance1=d.gI("CRC1").value;subcritical=subcritical+(basecritical*CRITICALCHANCE[criticalchance1])}
+	if (d.gI("CRC2C").checked==true)
+		{var criticalchance2=d.gI("CRC2").value;subcritical=subcritical+(basecritical*CRITICALCHANCE[criticalchance2])}
+//Critical Power
+	if (d.gI("CRP1C").checked==true)
+		{var bu=d.gI("CRP1").value;AddCRITDMG=AddCRITDMG+CRITICALPOWER[bu]}
+	if (d.gI("CRP2C").checked==true)
+		{var bu=d.gI("CRP2").value;AddCRITDMG=AddCRITDMG+CRITICALPOWER[bu]}
+//Esprit
+	if (d.gI("ESP1C").checked==true && movemode==0.7)
+		{var esprit=d.gI("ESP1").value;AddHPR=AddHPR+ESPRITHP[esprit];AddMPR=AddMPR+ESPRITMP[esprit]}
+	if (d.gI("ESP2C").checked==true && movemode==0.7)
+		{var esprit=d.gI("ESP2").value;AddHPR=AddHPR+ESPRITHP[esprit];AddMPR=AddMPR+ESPRITMP[esprit]}
+//Fast HP Recovery
+	if (d.gI("FHR1C").checked==true)
+		{var fastcast1=d.gI("FHR1").value;AddHPR=AddHPR+(FASTHPRECOVERY[fastcast1]*movemode)}
+	if (d.gI("FHR2C").checked==true)
+		{var fastcast1=d.gI("FHR2").value;AddHPR=AddHPR+(FASTHPRECOVERY[fastcast1]*movemode)}
+	if (d.gI("FHR3C").checked==true)
+		{var fastcast1=d.gI("FHR3").value;AddHPR=AddHPR+(FASTHPRECOVERY[fastcast1]*movemode)}
+	if (d.gI("FHR4C").checked==true)
+		{var fastcast1=d.gI("FHR4").value;AddHPR=AddHPR+(FASTHPRECOVERY[fastcast1]*movemode)}
+//Fast Mana Recovery
+	if (d.gI("FMR1C").checked==true)
+		{var fastcast1=d.gI("FMR1").value;AddMPR=AddMPR+(FASTMANARECOVERY[fastcast1]*movemode)}
+	if (d.gI("FMR2C").checked==true)
+		{var fastcast1=d.gI("FMR2").value;AddMPR=AddMPR+(FASTMANARECOVERY[fastcast1]*movemode)}
+//Fast Spell Casting
+	if (d.gI("FSC1C").checked==true)
+		{var fastcast1=d.gI("FSC1").value;BuffCAST=BuffCAST*FASTCAST[fastcast1]}
+	if (d.gI("FSC2C").checked==true)
+		{var fastcast2=d.gI("FSC2").value;BuffCAST=BuffCAST*FASTCAST[fastcast2]}
+//Final Fortress
+	if (d.gI("FFOC").checked==true)
+		{var finalfortress=d.gI("FFO").value;AddPDEF30=AddPDEF30+FINALFORTRESS[finalfortress]}
+//Final Frenzy
+	if (d.gI("FFRC").checked==true)
+		{var finalfrenzy=d.gI("FFR").value;AddPATK30=AddPATK30+FINALFRENZY[finalfrenzy]}
+//Focus Mind
+	if (d.gI("FCM1C").checked==true)
+		{var fastcast1=d.gI("FCM1").value;AddMPR=AddMPR+(FOCUSMIND[fastcast1]*movemode)}
+	if (d.gI("FCM2C").checked==true)
+		{var fastcast1=d.gI("FCM2").value;AddMPR=AddMPR+(FOCUSMIND[fastcast1]*movemode)}
+//Knighthood
+	if (d.gI("KNTC").checked==true)
+		{AddPDEF=AddPDEF+86.9;BuffSHIELDPDEF=BuffSHIELDPDEF*1.1}
+//Master of Combat
+	if (d.gI("MOCC").checked==true && (WpnType=="Fist"||WpnMAS=="Sword"||WpnMAS=="Blunt"||WpnType=="Polearm"||WpnType=="Duals"))
+		{AddPATK=AddPATK+80;BuffCP=BuffCP*1.05}
+//Necromancy
+	if (d.gI("NECC").checked==true)
+		{BuffMATK=BuffMATK*1.03}
+//Quick Step
+	if (d.gI("QS1C").checked==true)
+		{var quickstep1=d.gI("QS1").value;AddSPEED=AddSPEED+QUICKSTEP[quickstep1]}
+	if (d.gI("QS2C").checked==true)
+		{var quickstep2=d.gI("QS2").value;AddSPEED=AddSPEED+QUICKSTEP[quickstep2]}
+//Quiver of Holding
+	if (d.gI("QOHC").checked==true)
+		{var quiverofholding=d.gI("QOH").value;weightlimit=weightlimit*QUIVEROFHOLDING[quiverofholding]}
+//Seal of Strife
+	if (d.gI("SOSC").checked==true)
+		{var sealofstrife=d.gI("SOS").value;BuffCP=BuffCP*SEALOFSTRIFE[sealofstrife]}
+//Shadow Sense
+	if (d.gI("SHSC").checked==true)
+		{BuffACC=BuffACC+3}
+//Shield Mastery
+	if (d.gI("SDM1C").checked==true)
+		{var shieldmastery1=d.gI("SDM1").value;BuffShieldBlockRate=BuffShieldBlockRate*SHIELDMASTERY[shieldmastery1]}
+	if (d.gI("SDM2C").checked==true)
+		{var shieldmastery2=d.gI("SDM2").value;BuffShieldBlockRate=BuffShieldBlockRate*SHIELDMASTERY[shieldmastery2]}
+//Summon Lore
+	if (d.gI("SMLC").checked==true)
+		{AddPDEF=AddPDEF+60;BuffCAST=BuffCAST*1.07}
+//Vital Force
+	if (d.gI("VTF1C").checked==true && movemode==1.5)
+		{var fastcast1=d.gI("VTF1").value;AddHPR=AddHPR+VITALFORCEHP[fastcast1]*CONMOD;AddMPR=AddMPR+VITALFORCEMP[fastcast1]}
+	if (d.gI("VTF2C").checked==true && movemode==1.5)
+		{var fastcast1=d.gI("VTF2").value;AddHPR=AddHPR+VITALFORCEHP[fastcast1]*CONMOD;AddMPR=AddMPR+VITALFORCEMP[fastcast1]}
+//Weight Limit
+	if (d.gI("WTL1C").checked==true)
+		{var weightlimit1=d.gI("WTL1").value;weightlimit=weightlimit*WEIGHTLIMIT[weightlimit1]}
+	if (d.gI("WTL2C").checked==true)
+		{var weightlimit2=d.gI("WTL2").value;weightlimit=weightlimit*WEIGHTLIMIT[weightlimit2]}
+	if (d.gI("WTL3C").checked==true)
+		{var weightlimit3=d.gI("WTL3").value;weightlimit=weightlimit*WEIGHTLIMIT[weightlimit3]}

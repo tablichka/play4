@@ -1,0 +1,81 @@
+﻿Гид по созданию дуалов 
+Есть много различных способов, но я думаю этот самый простой: 
+Требуется: 
+L2Encdec 
+L2ClientDat 
+Раскодированные Itemname-e.dat и weapongrp.dat с L2ClientDat (Незнаете как? Загляните сюда) 
+L2J Server+Datapack (Желательно последняя версия) 
+Приступим: 
+1 шаг: (Создаем имя и описание дуалов) 
+Откройте itemname-e.dat и скопируйте одну стройчку (например первую строчку) 
+Код: 
+item_name_begin   id=17   name=[Wooden Arrow]   additionalname=[]   popup=-1   description=[An arrow made of wood. It is an arrow used for a no grade bow.]   item_name_end 
+ 
+
+Теперь вставте эту строчку в конец документа и отредактируйте её. 
+item_name_begin id= ID Вещи name=[ Название проедмета ] additionalname=[ Дополнительное название желтым цветом ] popup= оставляем -1 description=[ Описание предмета ] item_name_end 
+
+Например dual Dark Legion's Edge - будет выглядеть так : 
+
+Код: 
+item_name_begin   id=8000   name=[Dark Legion's Edge*Dark Legion's Edge]   additionalname=[]   popup=-1   description=[When a dualsword is enchanted along with a two-handed sword, a two-handed blunt weapon, and/or a fist-fighting weapon, its P. Atk will increase more than a one-handed sword enchanted with these weapons. When enchanted by 4 or more, Atk. Spd. will increase by 12% and HP will increase by 5% . Inflicts additional damage to target during PvP]   item_name_end 
+ 
+
+
+2 шаг: (Creating Dual) 
+Теперь открываем weapon.dat и ищем 5706 (Dual Damascus) и вы найдете это : 
+
+Код: 
+item_begin   object_id=5706   object_name=[]   body_part={lrhand}   animation=3   drop_type=1   drop_anim_type=1   drop_radius=6   drop_height=1   projectile=[none]   curvature=1000   drop_mesh={[LineageWeapons.sword_of_damascus_m00_wp];[LineageWeaponsTex.sword_of_damascus_t00_wp]}   drop_texture={[LineageWeapons.sword_of_damascus_m00_wp];[LineageWeaponsTex.sword_of_damascus_t00_wp]}   icon={[icon.weapon_dual_sword_i00]}   mesh={[LineageWeapons.sword_of_damascus_m00_wp];[LineageWeapons.sword_of_damascus_m00_wp]}   texture={[LineageWeaponsTex.sword_of_damascus_t00_wp];[LineageWeaponsTex.sword_of_damascus_t00_wp]}   crystallizable=1   item_sound={[ItemSound.public_sword_shing_8];[ItemSound.sword_great_4];[ItemSound.sword_mid_2];[ItemSound.public_sword_shing_4]}   drop_sound=[ItemSound.itemdrop_sword]   equip_sound=[ItemSound.itemequip_sword]   weight=2080   soulshot_count=1   spiritshot_count=1   material_type=fine_steel   crystal_type=a   physical_damage=282   random_damage=10   weapon_type=dual   critical=8   hit_modify=0   avoid_modify=0   shield_defense=0   shield_defense_rate=0   attack_speed=325   mp_consume=0   magical_damage=114   durability=95   effect_c={[LineageEffect.c_u004]}   effect_c_s={[LineageEffect.c_u004]}   c3_attr1=0   c3_attr2=0.00   c3_attr3=0.00   c3_attr4=0.00   c3_attr5=0.00   range_s={[]}   c3_attr6=0.00   c3_attr7=1.20   c3_attr8=1.20   c3_attr9=1.00   c3_attr10=1.00   range2_s={[LineageWeapons.rangesample];[LineageWeapons.rangesample]}   range2_arg={1.40;0.80;0.80;1.40;0.80;0.80;13.00;0.00;0.00;13.00;0.00;0.00}   c4_attr1=[icon.weapon_sword_of_damascus_i00]   c4_attr2=[icon.weapon_sword_of_damascus_i00]   c4_attr5=0   c4_attr6=-1   c4_attr7=0   item_end 
+
+
+Теперь открывайте блокнот и вставляйте туда это строчку, для того, чтобы отредактировать её. 
+
+Сначала смените ID не редактируйте "object_name" и теперь возвращаемся к weapongrp.dat и ищите одноручный вепон который вы хотите задуалить, в данном случае это Dark Legion's Edge (2500) и вы получите это : 
+
+Код: 
+item_begin   object_id=2500   object_name=[]   body_part={rhand}   animation=1   drop_type=1   drop_anim_type=1   drop_radius=7   drop_height=10   projectile=[none]   curvature=1000   drop_mesh={[LineageWeapons.dark_legions_edge_m00_wp];[LineageWeaponsTex.dark_legions_edge_t00_wp]}   drop_texture={[none]}   icon={[icon.weapon_dark_legions_edge_i00]}   mesh={[LineageWeapons.dark_legions_edge_m00_wp]}   texture={[LineageWeaponsTex.dark_legions_edge_t00_wp]}   crystallizable=1   item_sound={[ItemSound.sword_mid_1];[ItemSound.sword_big_3];[ItemSound.sword_great_3];[ItemSound.public_sword_shing_4]}   drop_sound=[ItemSound.itemdrop_sword]   equip_sound=[ItemSound.itemequip_sword]   weight=1320   soulshot_count=1   spiritshot_count=1   material_type=fine_steel   crystal_type=a   physical_damage=232   random_damage=10   weapon_type=sword   critical=8   hit_modify=0   avoid_modify=0   shield_defense=0   shield_defense_rate=0   attack_speed=379   mp_consume=0   magical_damage=114   durability=95   effect_c={[LineageEffect.c_u004]}   effect_c_s=0.00   c3_attr1=0   c3_attr2=0.00   c3_attr3=0.00   c3_attr4=1.00   c3_attr5=1.30   range_s={[LineageWeapons.rangesample]}   c3_attr6=1.50   c3_attr7=0.80   c3_attr8=0.80   c3_attr9=11.50   c3_attr10=0.00   range2_s=0.00   range2_arg={}   c4_attr1=[none]   c4_attr2=[none]   c4_attr5=0   c4_attr6=-1   c4_attr7=0   item_end 
+
+
+Найдите здесь : 
+
+Код: 
+drop_mesh={[LineageWeapons.dark_legions_edge_m00_wp];[LineageWeaponsTex.dark_legions_edge_t00_wp]} 
+ 
+
+
+Теперь скопируйте dark_legions_edge БЕЗ LineageWeapons. и _m00_wp. 
+Теперь скопируйте это куда-нибудь и вернитесь в блокнот, туда где у вас Dual Damascus и сделайте тоже самое и вы получите sword_of_damascus. Теперь нажмите Alt+H (Replace) - замените везде sword_of_damascus на dark_legions_edge. 
+Скопируйте получившеюся строчку и вставте в конец файла weapongrp.dat 
+
+3 шаг: (Смена статов) 
+Чтобы изменить patk найдите physical_damage= 
+Чтобы изменить мatk найдите magical_damage= 
+Для остального пошевелите извилинами   
+
+В конце должно получиться примерно так (Результат) : 
+
+Код: 
+item_begin   object_id=8000   object_name=[]   body_part={lrhand}   animation=3   drop_type=1   drop_anim_type=1   drop_radius=6   drop_height=1   projectile=[none]   curvature=1000   drop_mesh={[LineageWeapons.dark_legions_edge_m00_wp];[LineageWeapons.dark_legions_edge_m00_wp]}   drop_texture={[LineageWeaponsTex.dark_legions_edge_t00_wp];[LineageWeaponsTex.dark_legions_edge_t00_wp]}   icon={[icon.weapon_dual_sword_i00];[icon.weapon_dark_legions_edge_i00];[icon.weapon_dark_legions_edge_i00]}   mesh={[LineageWeapons.dark_legions_edge_m00_wp];[LineageWeapons.dark_legions_edge_m00_wp]}   texture={[LineageWeaponsTex.dark_legions_edge_t00_wp];[LineageWeaponsTex.dark_legions_edge_t00_wp]}   crystallizable=1   item_sound={[ItemSound.public_sword_shing_8];[ItemSound.sword_great_4];[ItemSound.sword_mid_2];[ItemSound.public_sword_shing_4]}   drop_sound=[ItemSound.itemdrop_sword]   equip_sound=[ItemSound.itemequip_sword]   weight=2080   soulshot_count=1   spiritshot_count=1   material_type=fine_steel   crystal_type=s   physical_damage=356   random_damage=10   weapon_type=dual   critical=8   hit_modify=0   avoid_modify=0   shield_defense=0   shield_defense_rate=0   attack_speed=325   mp_consume=0   magical_damage=135   durability=95   effect_c={[LineageEffect.c_u004]}   effect_c_s={[LineageEffect.c_u004]}   c3_attr1=0   c3_attr2=0.00   c3_attr3=0.00   c3_attr4=0.00   c3_attr5=0.00   range_s={[]}   c3_attr6=0.00   c3_attr7=1.20   c3_attr8=1.20   c3_attr9=1.00   c3_attr10=1.00   range2_s={[LineageWeapons.rangesample];[LineageWeapons.rangesample]}   range2_arg={1.40;0.80;0.80;1.40;0.80;0.80;13.00;0.00;0.00;13.00;0.00;0.00}   c4_attr1=[icon.weapon_dark_legions_edge_i00]   c4_attr2=[icon.weapon_dark_legions_edge_i00]   c4_attr5=0   c4_attr6=-1   c4_attr7=0   item_end 
+ 
+
+
+Теперь Кодируем Все обратно. 
+
+4 шаг: (Правка сервера) 
+Открываем weapon.sql И заносим туда данные своего оружия. 
+
+Теперь создаем XML файл для данного оружия. 
+
+Код: 
+<item id='8000' name="dark_legions_edge*dark_legions_edge"> 
+  <for> 
+    <set val='356' order='0x08' stat='pAtk' /> 
+    <set val='140' order='0x08' stat='mAtk' /> 
+    <set val='8' order='0x08' stat='rCrit' /> 
+    <add val='0' order='0x10' stat='accCombat' /> 
+    <set val='325' order='0x08' stat='pAtkSpd' /> 
+    <enchant val='0' order='0x0C' stat='pAtk' /> 
+    <enchant val='0' order='0x0C' stat='mAtk' /> 
+  </for> 
+</item> 

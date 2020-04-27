@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- weapon_rent_for_newbie_5 -->
+<list>
+	<item>
+		<production id="10474" count="1"/>	<!-- Shadow Item - Apprentice's Staff -->
+		<ingredient id="7832" count="1"/>	<!-- Apprentice Adventurer's Weapon Exchange Coupon -->
+	</item>
+	<item>
+		<production id="10475" count="1"/>	<!-- Shadow Item - Bone Club -->
+		<ingredient id="7832" count="1"/>	<!-- Apprentice Adventurer's Weapon Exchange Coupon -->
+	</item>
+	<item>
+		<production id="10476" count="1"/>	<!-- Shadow Item - Shining Knife -->
+		<ingredient id="7832" count="1"/>	<!-- Apprentice Adventurer's Weapon Exchange Coupon -->
+	</item>
+	<item>
+		<production id="10477" count="1"/>	<!-- Shadow Item - Cestus -->
+		<ingredient id="7832" count="1"/>	<!-- Apprentice Adventurer's Weapon Exchange Coupon -->
+	</item>
+	<item>
+		<production id="10478" count="1"/>	<!-- Shadow Item - Forest Bow -->
+		<ingredient id="7832" count="1"/>	<!-- Apprentice Adventurer's Weapon Exchange Coupon -->
+	</item>
+	<item>
+		<production id="10479" count="1"/>	<!-- Shadow Item - Long Sword -->
+		<ingredient id="7832" count="1"/>	<!-- Apprentice Adventurer's Weapon Exchange Coupon -->
+	</item>
+</list>

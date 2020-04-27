@@ -1,0 +1,1657 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<skill id="8300" levels="1" name="Dynasty Sigil">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="8301" levels="1" name="Vesper Heavy Armor Set for Adults">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<sub order="0x40" stat="DEX" val="2"/>
+			<add order="0x40" stat="STR" val="2"/>
+			<mul order="0x30" stat="pDef" val="1.0557"/>
+			<mul order="0x30" stat="pAtk" val="1.0557"/>
+			<add order="0x40" stat="maxHp" val="531"/>
+			<mul order="0x30" stat="sleepRcpt" val="0.3"/>
+			<mul order="0x30" stat="rootRcpt" val="0.3"/>
+			<mul order="0x30" stat="pDef" val="1.05">
+				<target pvp="true"/>
+			</mul>
+			<mul order="0x30" stat="mDef" val="1.05">
+				<target pvp="true"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="8302" levels="1" name="Vesper Noble Heavy Armor Set for Adults">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<sub order="0x40" stat="DEX" val="2"/>
+			<add order="0x40" stat="STR" val="2"/>
+			<mul order="0x30" stat="pDef" val="1.0557"/>
+			<mul order="0x30" stat="pAtk" val="1.0557"/>
+			<add order="0x40" stat="maxHp" val="531"/>
+			<mul order="0x30" stat="sleepRcpt" val="0.3"/>
+			<mul order="0x30" stat="rootRcpt" val="0.3"/>
+			<add order="0x40" stat="accCombat" val="4" />
+			<add order="0x40" stat="runSpd" val="5" />
+			<mul order="0x30" stat="magicRcpt" val="1.01" />
+			<add order="0x10" stat="cloak" val="1"/>
+			<mul order="0x30" stat="pDef" val="1.05">
+				<target pvp="true"/>
+			</mul>
+			<mul order="0x30" stat="mDef" val="1.05">
+				<target pvp="true"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="8303" levels="1" name="Vesper Light Armor Set for Adults">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<sub order="0x40" stat="CON" val="2"/>
+			<add order="0x40" stat="DEX" val="1"/>
+			<add order="0x40" stat="STR" val="1"/>
+			<mul order="0x30" stat="regMp" val="1.05"/>
+			<mul order="0x30" stat="pAtkSpd" val="1.05"/>
+			<mul order="0x30" stat="pAtk" val="1.0557"/>
+			<add order="0x40" stat="maxMp" val="347"/>
+			<mul order="0x30" stat="pDef" val="1.05">
+				<target pvp="true"/>
+			</mul>
+			<mul order="0x30" stat="mDef" val="1.05">
+				<target pvp="true"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="8304" levels="1" name="Vesper Noble Light Armor Set for Adults">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<sub order="0x40" stat="CON" val="2"/>
+			<add order="0x40" stat="DEX" val="1"/>
+			<add order="0x40" stat="STR" val="1"/>
+			<mul order="0x30" stat="regMp" val="1.05"/>
+			<mul order="0x30" stat="pAtkSpd" val="1.05"/>
+			<mul order="0x30" stat="pAtk" val="1.0557"/>
+			<add order="0x40" stat="maxMp" val="347"/>
+			<add order="0x40" stat="rEvas" val="3" />
+			<add order="0x40" stat="cAtkStatic" val="172" />
+			<mul order="0x40" stat="paralyzeRcpt" val="0.5" />
+			<add order="0x10" stat="cloak" val="1"/>
+			<mul order="0x30" stat="pDef" val="1.05">
+				<target pvp="true"/>
+			</mul>
+			<mul order="0x30" stat="mDef" val="1.05">
+				<target pvp="true"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="8305" levels="1" name="Vesper Robe Set for Adults">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="INT" val="1"/>
+			<add order="0x40" stat="WIT" val="1"/>
+			<sub order="0x40" stat="MEN" val="2"/>
+			<mul order="0x30" stat="mAtkSpd" val="1.15"/>
+			<mul order="0x30" stat="mAtk" val="1.0847"/>
+			<mul order="0x30" stat="regMp" val="1.05"/>
+			<mul order="0x30" stat="stunRcpt" val="0.5"/>
+			<sub order="0x40" stat="reduce_cancel" val="30"/>
+			<mul order="0x30" stat="pDef" val="1.05">
+				<target pvp="true"/>
+			</mul>
+			<mul order="0x30" stat="mDef" val="1.05">
+				<target pvp="true"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="8306" levels="1" name="Vesper Noble Robe Set for Adults">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="INT" val="1"/>
+			<add order="0x40" stat="WIT" val="1"/>
+			<sub order="0x40" stat="MEN" val="2"/>
+			<mul order="0x30" stat="mAtkSpd" val="1.15"/>
+			<mul order="0x30" stat="mAtk" val="1.0847"/>
+			<mul order="0x30" stat="regMp" val="1.05"/>
+			<mul order="0x30" stat="stunRcpt" val="0.5"/>
+			<sub order="0x40" stat="reduce_cancel" val="30"/>
+			<add order="0x40" stat="runSpd" val="7" />
+			<mul order="0x30" stat="mpConsume" val="0.97" />
+			<add order="0x10" stat="cloak" val="1"/>
+			<mul order="0x30" stat="pDef" val="1.05">
+				<target pvp="true"/>
+			</mul>
+			<mul order="0x30" stat="mDef" val="1.05">
+				<target pvp="true"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="8307" levels="1" name="Boing Hammer's Effect of Doubt">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Enlarges the target's head during a general attack. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="8308" levels="1" name="Red Talisman - Guardian of the Territory">
+		<table name="#mpConsume2">
+			50
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="2"/>
+		<set name="staticReuse" val="true"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_type" val="talisman"/>
+		<set name="mpUsage" val="6"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="effectPoint" val="532"/>
+		<set name="magicLevel" val="55"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="360000"/>
+		<set name="minReuseDelayOnSkillAdd" val="30"/>
+		<set name="hitTime" val="1200"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="maxCp" val="1200"/>
+			</effect>
+			<effect name="i_cp" math="diff" val="1200"/>
+		</for>
+	</skill>
+	<skill id="8309" levels="1" name="Red Talisman - Territory Convoy">
+		<table name="#mpConsume2">
+			50
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="2"/>
+		<set name="staticReuse" val="true"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="abnormal_time" val="120"/>
+		<set name="abnormal_type" val="talisman"/>
+		<set name="mpUsage" val="6"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="effectPoint" val="532"/>
+		<set name="magicLevel" val="55"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="360000"/>
+		<set name="minReuseDelayOnSkillAdd" val="30"/>
+		<set name="hitTime" val="1200"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="maxCp" val="800"/>
+			</effect>
+			<effect name="i_cp" math="diff" val="800"/>
+		</for>
+	</skill>
+	<skill id="8310" levels="1" name="Arcana Sigil">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<sub order="0x40" stat="reduce_cancel" val="13"/>
+			<mul order="0x30" stat="magicRcpt" val="1.02"/>
+		</for>
+	</skill>
+	<skill id="8311" levels="1" name="Dynasty Sigil">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="darkAttr" val="2"/>
+			<mul order="0x30" stat="magicRcpt" val="1.02"/>
+		</for>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases resistance to damage magic by 2% and resistance to Dark attribute by 2. -->
+	</skill>
+	<skill id="8312" levels="2" name="Special Ability Cheap Shot">
+		<table name="#mpConsume2">
+			0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#magicLevel">80 84</table>
+		<table name="#MPConsumeRate">0.96 0.92</table>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="mpConsume" val="#MPConsumeRate"/>
+			<mul order="0x30" stat="mpConsumePhysical" val="#MPConsumeRate"/>
+			<mul order="0x30" stat="mpDanceConsume" val="#MPConsumeRate"/>
+		</for>
+	</skill>
+	<skill id="8314" levels="1" name="Release Seal on Agathion - Saerom">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="hitTime" val="3000"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="reuseDelay" val="3000"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="npcId" val="16063"/>
+		<set name="summonType" val="agathion"/>
+		<for>
+			<effect name="i_summon_agathion"/>
+		</for>
+	</skill>
+	<skill id="8315" levels="1" name="Santa Claus' Blessed Weapon">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Santa Claus' Blessed Weapon -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="8316" levels="1" name="Santa Claus' Blessed Weapon">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Santa Claus' Blessed Weapon -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="8317" levels="1" name="Santa Claus' Blessed Weapon">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Santa Claus' Blessed Weapon -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="8318" levels="1" name="Santa Claus' Blessed Weapon">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Santa Claus' Blessed Weapon -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="8319" levels="1" name="Santa Claus' Blessed Weapon">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Santa Claus' Blessed Weapon -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="8320" levels="1" name="Santa Claus' Blessed Weapon">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Santa Claus' Blessed Weapon -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="8321" levels="1" name="Santa Claus' Blessed Weapon">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Santa Claus' Blessed Weapon -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="8322" levels="1" name="Santa Claus' Blessed Weapon">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Santa Claus' Blessed Weapon -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="8323" levels="1" name="Notifier">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Notifies about the Agathion's New Year's gift resupply time. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="8324" levels="1" name="Warrior's Shirt">
+		<!-- Maximum CP is increased. -->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" val="672" stat="maxCp"/>
+		</for>
+	</skill>
+	<skill id="8325" levels="1" name="Wild Rose Pig Candy">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Head is enlarged. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="8326" levels="1" name="Wild Rose Pig Candy">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Moving speed increases by 20. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="8327" levels="1" name="Release Seal on Agathion - Juju">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Removes the seal on the Agathion. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="8328" levels="1" name="Release Seal on Agathion - Oink oink">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Removes the seal on the Agathion. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="8329" levels="1" name="Summon Friend">
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -2
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="10000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Summons your friend. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="8330" levels="1" name="Release Seal on Agathion - Dawn">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Removes the seal on the Agathion. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="8331" levels="1" name="Blue Talisman - Buff Cancel">
+		<table name="#mpConsume2">
+			50
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="2"/>
+		<set name="staticReuse" val="true"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Cancels the buffs of nearby enemies by using the power of the talisman. -->
+		<table name="#effectPoint">532</table>
+		<table name="#magicLevel">55</table>
+		<set name="mpUsage" val="6"/>
+		<set name="effectPoint" val="#effectPoint"/>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="360000"/>
+		<set name="minReuseDelayOnSkillAdd" val="30"/>
+		<set name="hitTime" val="4000"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="affect_scope" val="around"/>
+		<set name="affect_object" val="not_friend"/>
+		<set name="affect_limit" val="5;5"/>
+		<set name="skillRadius" val="150"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect name="i_dispel_by_category" category="slot_buff" chance="25" maxSlots="5" />
+		</for>
+	</skill>
+	<skill id="8332" levels="1" name="Blue Talisman - Buff Steal">
+		<table name="#mpConsume2">
+			50
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="2"/>
+		<set name="staticReuse" val="true"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Steals the enemy's abnormal status using the talisman's power. -->
+		<table name="#effectPoint">532</table>
+		<table name="#magicLevel">55</table>
+		<set name="mpUsage" val="6"/>
+		<set name="effectPoint" val="#effectPoint"/>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="target_type" val="enemy_only"/>
+		<set name="reuseDelay" val="360000"/>
+		<set name="minReuseDelayOnSkillAdd" val="30"/>
+		<set name="hitTime" val="4000"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="affect_scope" val="single"/>
+		<set name="castRange" val="600"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect name="i_steal_buff" chance="50" max_count="3"/>
+		</for>
+	</skill>
+	<skill id="8333" levels="1" name="Red Talisman - Territory Guard">
+		<table name="#mpConsume2">
+			50
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="2"/>
+		<set name="staticReuse" val="true"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange">-1</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases maximum CP 1500 and recovers CP by the increased amount using the power of the talisman. -->
+		<set name="abnormal_time" val="#abnormal_time"/>
+		<set name="abnormal_type" val="talisman"/>
+		<table name="#effectPoint">532</table>
+		<table name="#magicLevel">55</table>
+		<table name="#abnormal_lv">1</table>
+		<table name="#abnormal_time">120</table>
+		<set name="mpUsage" val="6"/>
+		<set name="abnormalLevel" val="#abnormal_lv"/>
+		<set name="effectPoint" val="#effectPoint"/>
+		<set name="magicLevel" val="#magicLevel"/>
+		<set name="target_type" val="self"/>
+		<set name="reuseDelay" val="300000"/>
+		<set name="minReuseDelayOnSkillAdd" val="30"/>
+		<set name="hitTime" val="1200"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="maxCp" val="1500"/>
+			</effect>
+			<effect name="i_cp" math="diff" val="1500"/>
+		</for>
+	</skill>
+	<skill id="8334" levels="1" name="Blue Talisman - Lord's Divine Protection">
+		<table name="#mpConsume2">50</table>
+		<table name="#castRange"> -1</table>
+		<table name="#effectPoint">532</table>
+		<table name="#abnormal_lv">1</table>
+		<table name="#abnormal_time">10</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="2"/>
+		<set name="staticReuse" val="true"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="1200"/>
+		<set name="mpUsage" val="15"/>
+		<set name="minReuseDelayOnSkillAdd" val="30"/>
+		<set name="magicLevel" val="55"/>
+		<set name="effectPoint" val="#effectPoint"/>
+		<set name="abnormalLevel" val="#abnormal_lv"/>
+		<set name="abnormal_time" val="#abnormal_time"/>
+		<set name="abnormal_type" val="talisman"/>
+		<set name="reuseDelay" val="360000"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="nextAction" val="none"/>
+		<set name="target" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="pDef" val="1.75">
+					<target pvp="true"/>
+				</mul>
+				<mul order="0x30" stat="mDef" val="1.75">
+					<target pvp="true"/>
+				</mul>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8335" levels="1" name="White Talisman - Attribute Resistance">
+		<table name="#mpConsume2">50</table>
+		<table name="#castRange"> -1</table>
+		<table name="#effectPoint">532</table>
+		<table name="#abnormal_lv">1</table>
+		<table name="#abnormal_time">10</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="2"/>
+		<set name="staticReuse" val="true"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="1200"/>
+		<set name="mpUsage" val="6"/>
+		<set name="minReuseDelayOnSkillAdd" val="30"/>
+		<set name="magicLevel" val="55"/>
+		<set name="effectPoint" val="#effectPoint"/>
+		<set name="abnormalLevel" val="#abnormal_lv"/>
+		<set name="abnormal_time" val="#abnormal_time"/>
+		<set name="abnormal_type" val="talisman"/>
+		<set name="reuseDelay" val="360000"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="nextAction" val="none"/>
+		<set name="target" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="fireAttr" val="15"/>
+				<add order="0x40" stat="waterAttr" val="15"/>
+				<add order="0x40" stat="windAttr" val="15"/>
+				<add order="0x40" stat="earthAttr" val="15"/>
+				<add order="0x40" stat="holyAttr" val="15"/>
+				<add order="0x40" stat="darkAttr" val="15"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8336" levels="1" name="Guardian's Strider Mount">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="cancelable" val="false"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="isSaveable" val="false"/>
+		<set name="addSkills" val="5437;2;954;1;1546;1;955;1;"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isCommon" val="true"/>
+		<cond>
+			<and>
+				<target hasBuffId="1411;false" msgId="2064" />
+				<CanRide/>
+			</and>
+		</cond>
+		<for>
+			<effect name="t_transform" val="123" npcId="13197" femaleNpcId="13197">
+				<set order="0x40" stat="STR" val="40"/>
+				<set order="0x40" stat="DEX" val="30"/>
+				<set order="0x40" stat="CON" val="43"/>
+				<set order="0x40" stat="INT" val="21"/>
+				<set order="0x40" stat="WIT" val="11"/>
+				<set order="0x40" stat="MEN" val="25"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8337" levels="1" name="Weight Up">
+		<table name="#castRange"> -1</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases the weight limit by 5000. -->
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="maxLoad" val="5000"/>
+		</for>
+	</skill>
+	<skill id="8338" levels="4" name="Top-grade Magic Rune Clip Iron Belt">
+		<table name="#mpConsume2">
+			0 0 0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#castRange"> -1 -1 -1 -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases HP regeneration when the belt is equipped. -->
+		<table name="#rate">1.01 1.02 1.04 1.06</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="regHp" val="#rate"/>
+		</for>
+	</skill>
+	<skill id="8339" levels="4" name="Top-grade Magic Rune Clip Mithril Belt">
+		<table name="#mpConsume2">
+			0 0 0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#castRange"> -1 -1 -1 -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases HP regeneration when the belt is equipped. -->
+		<table name="#rate">1.04 1.06 1.08 1.1</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="regHp" val="#rate"/>
+		</for>
+	</skill>
+	<skill id="8340" levels="4" name="Top-grade Magic Rune Clip Iron Belt">
+		<table name="#mpConsume2">
+			0 0 0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#castRange"> -1 -1 -1 -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases MP regeneration when the belt is equipped. -->
+		<table name="#rate">1.01 1.02 1.04 1.06</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="regMp" val="#rate"/>
+		</for>
+	</skill>
+	<skill id="8341" levels="4" name="Top-grade Magic Rune Clip Mithril Belt">
+		<table name="#mpConsume2">
+			0 0 0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#castRange"> -1 -1 -1 -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases MP regeneration when the belt is equipped. -->
+		<table name="#rate">1.04 1.06 1.08 1.1</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="regMp" val="#rate"/>
+		</for>
+	</skill>
+	<skill id="8342" levels="4" name="Top-grade Magic Ornament Iron Belt">
+		<table name="#mpConsume2">
+			0 0 0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#castRange"> -1 -1 -1 -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Ordinary damage is increase during PVP when the belt is equipped. -->
+		<table name="#pvpDam">1.01 1.02 1.04 1.06</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="pAtk" val="#pvpDam">
+				<target pvp="true"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="8343" levels="4" name="Top-grade Magic Ornament Iron Belt">
+		<table name="#mpConsume2">
+			0 0 0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#castRange"> -1 -1 -1 -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Skill/magic damage is increased during PVP when the belt is equipped. -->
+		<table name="#pvpDam">1.01 1.02 1.04 1.06</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="mAtk" val="#pvpDam">
+				<target pvp="true"/>
+			</mul>
+			<mul order="0x30" stat="pAtkSkills" val="#pvpDam">
+				<target pvp="true"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="8344" levels="4" name="Top-grade Magic Ornament Iron Belt">
+		<table name="#mpConsume2">
+			0 0 0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#castRange"> -1 -1 -1 -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Received damage is decreased during PVP when the belt is equipped. -->
+		<table name="#PvPDefence">1.01 1.02 1.04 1.06</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="pDef" val="#PvPDefence">
+				<target pvp="true"/>
+			</mul>
+			<mul order="0x30" stat="mDef" val="#PvPDefence">
+				<target pvp="true"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="8345" levels="4" name="Top-grade Magic Ornament Mithril Belt">
+		<table name="#mpConsume2">
+			0 0 0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#castRange"> -1 -1 -1 -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Ordinary damage is increase during PVP when the belt is equipped. -->
+		<table name="#pvpDam">1.04 1.06 1.08 1.1</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="pAtk" val="#pvpDam">
+				<target pvp="true"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="8346" levels="4" name="Top-grade Magic Ornament Mithril Belt">
+		<table name="#mpConsume2">
+			0 0 0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#castRange"> -1 -1 -1 -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Skill/magic damage is increased during PVP when the belt is equipped. -->
+		<table name="#pvpDam">1.04 1.06 1.08 1.1</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="mAtk" val="#pvpDam">
+				<target pvp="true"/>
+			</mul>
+			<mul order="0x30" stat="pAtkSkills" val="#pvpDam">
+				<target pvp="true"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="8347" levels="4" name="Top-grade Magic Ornament Mithril Belt">
+		<table name="#mpConsume2">
+			0 0 0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#castRange"> -1 -1 -1 -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Received damage is decreased during PVP when the belt is equipped. -->
+		<table name="#PvPDefence">1.04 1.06 1.08 1.1</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="pDef" val="#PvPDefence">
+				<target pvp="true"/>
+			</mul>
+			<mul order="0x30" stat="mDef" val="#PvPDefence">
+				<target pvp="true"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="8348" levels="2" name="Royal Guard Earring - Gludio">
+		<table name="#mpConsume2">
+			0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#maxCp">1 1.05</table>
+		<table name="#attr">8 10</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="maxCp" val="#maxCp"/>
+			<mul order="0x30" stat="bleedRcpt" val="0.85"/>
+			<mul order="0x30" stat="stunPower" val="1.15"/>
+			<add order="0x40" stat="waterAttr" val="#attr"/>
+		</for>
+	</skill>
+	<skill id="8349" levels="2" name="Royal Guard Earring - Dion">
+		<table name="#mpConsume2">
+			0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#maxCp">1 1.05</table>
+		<table name="#attr">8 10</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="maxCp" val="#maxCp"/>
+			<mul order="0x30" stat="poisonRcpt" val="0.85"/>
+			<mul order="0x30" stat="rootPower" val="1.15"/>
+			<add order="0x40" stat="holyAttr" val="#attr"/>
+		</for>
+	</skill>
+	<skill id="8350" levels="2" name="Royal Guard Earring - Giran">
+		<table name="#mpConsume2">
+			0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#maxCp">1 1.05</table>
+		<table name="#attr">8 10</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="maxCp" val="#maxCp"/>
+			<mul order="0x30" stat="paralyzeRcpt" val="0.85"/>
+			<mul order="0x30" stat="bleedPower" val="1.15"/>
+			<add order="0x40" stat="windAttr" val="#attr"/>
+		</for>
+	</skill>
+	<skill id="8351" levels="2" name="Royal Guard Earring - Oren">
+		<table name="#mpConsume2">
+			0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#maxCp">1 1.05</table>
+		<table name="#attr">8 10</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="maxCp" val="#maxCp"/>
+			<mul order="0x30" stat="rootRcpt" val="0.85"/>
+			<mul order="0x30" stat="paralyzePower" val="1.15"/>
+			<add order="0x40" stat="darkAttr" val="#attr"/>
+		</for>
+	</skill>
+	<skill id="8352" levels="2" name="Royal Guard Earring - Aden">
+		<table name="#mpConsume2">
+			0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#maxCp">1 1.05</table>
+		<table name="#attr">8 10</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="maxCp" val="#maxCp"/>
+			<mul order="0x30" stat="stunRcpt" val="0.85"/>
+			<mul order="0x30" stat="fearPower" val="1.15"/>
+			<add order="0x40" stat="earthAttr" val="#attr"/>
+		</for>
+	</skill>
+	<skill id="8353" levels="2" name="Royal Guard Earring - Innadril">
+		<table name="#mpConsume2">
+			0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#maxCp">1 1.05</table>
+		<table name="#attr">8 10</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="maxCp" val="#maxCp"/>
+			<mul order="0x30" stat="stunRcpt" val="0.85"/>
+			<mul order="0x30" stat="sleepPower" val="1.15"/>
+			<add order="0x40" stat="waterAttr" val="#attr"/>
+		</for>
+	</skill>
+	<skill id="8354" levels="2" name="Royal Guard Earring - Goddard">
+		<table name="#mpConsume2">
+			0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#maxCp">1 1.05</table>
+		<table name="#attr">8 10</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="maxCp" val="#maxCp"/>
+			<mul order="0x30" stat="sleepRcpt" val="0.85"/>
+			<mul order="0x30" stat="stunPower" val="1.15"/>
+			<add order="0x40" stat="fireAttr" val="#attr"/>
+		</for>
+	</skill>
+	<skill id="8355" levels="2" name="Royal Guard Earring - Rune">
+		<table name="#mpConsume2">
+			0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#maxCp">1 1.05</table>
+		<table name="#attr">8 10</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="maxCp" val="#maxCp"/>
+			<mul order="0x30" stat="rootRcpt" val="0.85"/>
+			<mul order="0x30" stat="poisonPower" val="1.15"/>
+			<add order="0x40" stat="fireAttr" val="#attr"/>
+		</for>
+	</skill>
+	<skill id="8356" levels="2" name="Royal Guard Earring - Schuttgart">
+		<table name="#mpConsume2">
+			0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#maxCp">1 1.05</table>
+		<table name="#attr">8 10</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<mul order="0x30" stat="maxCp" val="#maxCp"/>
+			<mul order="0x30" stat="fearRcpt" val="0.85"/>
+			<mul order="0x30" stat="rootPower" val="1.15"/>
+			<add order="0x40" stat="windAttr" val="#attr"/>
+		</for>
+	</skill>
+	<skill id="8357" levels="1" name="Einhasad's Strike">
+		<set name="isMagic" val="0"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> 200</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="1300"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Einhasad's sword bestowed by Emperor Shunaiman of Elmore-Aden. WIth the pride of being chosen, he can fiercely attack the enemies on the front line. -->
+		<set name="magicLevel" val="85"/>
+		<set name="coolTime" val="700"/>
+		<set name="reuseDelay" val="4000"/>
+		<set name="effectPoint" val="1000"/>
+		<set name="target_type" val="enemy"/>
+		<set name="affect_scope" val="sector"/>
+		<set name="sector_range" val="0;0;300;90"/>
+		<set name="affect_object" val="not_friend"/>
+		<set name="affect_limit" val="5;15"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond msgId="113">
+			<player instance="112"/>
+		</cond>
+		<for>
+			<effect name="i_real_damage" val="10000"/>
+		</for>
+	</skill>
+	<skill id="8358" levels="1" name="Remove the seal of an Agathion - Towbat">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Removes seal of Agathion. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="8359" levels="1" name="Notifier">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- It is time to return the Proof of Time and Space that the Agathion gave you. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="8360" levels="1" name="Energy Maintenance Effect">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="2"/>
+		<set name="isMagic" val="2"/>
+		<set name="staticReuse" val="true"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Energy is maintained for 30 minutes when acquiring Exp. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="8361" levels="1" name="Sixth Anniversary Party Earring">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases resistance to shock/mind attack by 20% and shock/mind attack bonus by 20%. Recovers 4% of the damage to the enemy as your HP. Excludes damage caused by skills and long-range attack. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="8362" levels="1" name="Beast Training - Release">
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Release a beast.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="castRange" val="900"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="8363" levels="1" name="Beast Training - Accompany">
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Order a beast to accompany.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="8364" levels="1" name="Beast Training - Use Special Ability">
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Order a beast to use special ability.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="8365" levels="1" name="Dynasty Tunic">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases Magic Speed/Max. MP/Resistance to Darkness Attribute, and decreases MP Consumption/magic cancel rate against damage. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="8366" levels="1" name="Dynasty Jewel Leather Armor">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases P. Atk./Max. HP/Critical Rate/Resistance to Darkness Attribute/Critical Damage. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="8367" levels="1" name="Dynasty Jewel Leather Mail">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases P. Atk./Max. HP/Resistance to Darkness Attribute, and decreases MP consumption. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="8368" levels="1" name="Dynasty Jewel Leather Mail">
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases Magic Speed/Max. MP/Resistance to Darkness Attribute, and decreases MP Consumption/magic cancel rate against damage. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="8369" levels="1" name="Halloween Pumpkin Card">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> 150
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Showed the Halloween Pumpkin Card. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="8370" levels="1" name="Rotten Pumpkin Card">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> 150
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Showed the Rotten Pumpkin Card. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="8371" levels="1" name="Transform Halloween Pumpkin">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="cancelable" val="false"/>
+		<set name="addSkills" val="5764;2;940;1;941;1"/>
+		<set name="npcId" val="13135"/>
+		<set name="staticHitTime" val="true"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="isCommon" val="true"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<target hasBuffId="1411;false" msgId="2064" />
+				<player olympiad="false" msgId="1509"/>
+				<player riding="none" msgId="2063"/>
+				<player zoneType="water" msgId="2060"/>
+				<target playerOnly="true"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="t_transform" val="108" npcId="13135" femaleNpcId="13135"/>
+		</for>
+	</skill>
+	<skill id="8372" levels="1" name="Super Strong Giant's Mask">
+		<set name="isMagic" val="2"/>
+		<set name="staticReuse" val="true"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="4000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Mask's effect. For 60 minutes, increases Max HP and Max MP by 10%, P. Atk. by 5%, and earth tolerance by 5. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="8373" levels="1" name="Silent Scream's Mask">
+		<set name="isMagic" val="2"/>
+		<set name="staticReuse" val="true"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="4000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Mask's effect. For 60 minutes, increases Max HP and Max MP by 10%, Critical rate by 5%, and wind tolerance by 5. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="8374" levels="1" name="Wrathful Spirit's Mask">
+		<set name="isMagic" val="2"/>
+		<set name="staticReuse" val="true"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="4000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Mask's effect. For 60 minutes, increases Max HP and Max MP by 10%, moving speed by 5%, and fire tolerance by 5. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="8375" levels="1" name="Unrotten Corpse's Mask">
+		<set name="isMagic" val="2"/>
+		<set name="staticReuse" val="true"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="4000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Mask's effect. For 60 minutes, increases Max HP and Max MP by 10%, skill's MP consumption by 5%, and darkness tolerance by 5. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="8376" levels="1" name="Planet X235 Alien Mask's Effect">
+		<set name="isMagic" val="2"/>
+		<set name="staticReuse" val="true"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="4000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Mask's effect. For 60 minutes, increases Max HP and Max MP by 10%, damage magic's Prominent Damage occurrence by 2, and water tolerance by 5. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="8377" levels="1" name="Golden Jack O'Lantern Mask's Effect">
+		<set name="isMagic" val="2"/>
+		<set name="staticReuse" val="true"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="4000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Mask's effect. For 60 minutes, increases Max HP and Max MP by 20%, moving speed by 10%, and resistance to debuffs by 10%. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="8378" levels="1" name="Beast Training - Release All">
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Release all beasts.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="8379" levels="2" name="Guard Ring - Gludio">
+		<table name="#mpConsume2">
+			0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#elementDef">12 15</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="earthAttr" val="#elementDef"/>
+		</for>
+	</skill>
+	<skill id="8380" levels="2" name="Guard Ring - Dion">
+		<table name="#mpConsume2">
+			0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#elementDef">12 15</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="waterAttr" val="#elementDef"/>
+		</for>
+	</skill>
+	<skill id="8381" levels="2" name="Guard Ring - Giran">
+		<table name="#mpConsume2">
+			0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#elementDef">12 15</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="fireAttr" val="#elementDef"/>
+		</for>
+	</skill>
+	<skill id="8382" levels="2" name="Guard Ring - Oren">
+		<table name="#mpConsume2">
+			0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#elementDef">12 15</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="earthAttr" val="#elementDef"/>
+		</for>
+	</skill>
+	<skill id="8383" levels="2" name="Guard Ring - Aden">
+		<table name="#mpConsume2">
+			0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#elementDef">12 15</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="holyAttr" val="#elementDef"/>
+		</for>
+	</skill>
+	<skill id="8384" levels="2" name="Guard Ring - Innadril">
+		<table name="#mpConsume2">
+			0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#elementDef">12 15</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="holyAttr" val="#elementDef"/>
+		</for>
+	</skill>
+	<skill id="8385" levels="2" name="Guard Ring - Goddard">
+		<table name="#mpConsume2">
+			0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#elementDef">12 15</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="darkAttr" val="#elementDef"/>
+		</for>
+	</skill>
+	<skill id="8386" levels="2" name="Guard Ring - Rune">
+		<table name="#mpConsume2">
+			0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#elementDef">12 15</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="windAttr" val="#elementDef"/>
+		</for>
+	</skill>
+	<skill id="8387" levels="2" name="Royal Guard Ring - Schuttgart">
+		<table name="#mpConsume2">
+			0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#elementDef">12 15</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="darkAttr" val="#elementDef"/>
+		</for>
+	</skill>
+	<skill id="8388" levels="2" name="Guard Necklace - Gludio">
+		<table name="#mpConsume2">
+			0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#elementDef">26 30</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="waterAttr" val="#elementDef"/>
+		</for>
+	</skill>
+	<skill id="8389" levels="2" name="Guard Necklace - Dion">
+		<table name="#mpConsume2">
+			0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#elementDef">26 30</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="holyAttr" val="#elementDef"/>
+		</for>
+	</skill>
+	<skill id="8390" levels="2" name="Guard Necklace - Giran">
+		<table name="#mpConsume2">
+			0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#elementDef">26 30</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="windAttr" val="#elementDef"/>
+		</for>
+	</skill>
+	<skill id="8391" levels="2" name="Guard Necklace - Oren">
+		<table name="#mpConsume2">
+			0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#elementDef">26 30</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="darkAttr" val="#elementDef"/>
+		</for>
+	</skill>
+	<skill id="8392" levels="2" name="Guard Necklace - Aden">
+		<table name="#mpConsume2">
+			0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#elementDef">26 30</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="earthAttr" val="#elementDef"/>
+		</for>
+	</skill>
+	<skill id="8393" levels="2" name="Guard Necklace - Innadril">
+		<table name="#mpConsume2">
+			0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#elementDef">26 30</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="waterAttr" val="#elementDef"/>
+		</for>
+	</skill>
+	<skill id="8394" levels="2" name="Guard Necklace - Goddard">
+		<table name="#mpConsume2">
+			0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#elementDef">26 30</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="fireAttr" val="#elementDef"/>
+		</for>
+	</skill>
+	<skill id="8395" levels="2" name="Guard Necklace - Rune">
+		<table name="#mpConsume2">
+			0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#elementDef">26 30</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="fireAttr" val="#elementDef"/>
+		</for>
+	</skill>
+	<skill id="8396" levels="2" name="Guard Necklace - Schuttgart">
+		<table name="#mpConsume2">
+			0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<table name="#elementDef">26 30</table>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="windAttr" val="#elementDef"/>
+		</for>
+	</skill>
+	<skill id="8397" levels="1" name="Moirai Armor Set">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<sub order="0x40" stat="CON" val="2" />
+			<add order="0x40" stat="STR" val="2" />
+			<mul order="0x30" stat="pAtk" val="1.0426" />
+			<mul order="0x30" stat="pAtkSpd" val="1.04" />
+			<mul order="0x40" stat="stunRcpt" val="0.5" />
+			<add order="0x40" stat="magicRcpt" val="2" />
+			<add order="0x40" stat="waterAttr" val="3" />
+			<add order="0x40" stat="fireAttr" val="3" />
+			<add order="0x40" stat="windAttr" val="3" />
+			<add order="0x40" stat="earthAttr" val="3" />
+            <add order="0x10" stat="cloak" val="1"/>
+		</for>
+	</skill>
+	<skill id="8398" levels="1" name="Moirai Leather Armor Set">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<sub order="0x40" stat="CON" val="2" />
+			<add order="0x40" stat="DEX" val="2" />
+			<mul order="0x30" stat="pAtk" val="1.0426" />
+			<mul order="0x30" stat="pAtkSpd" val="1.04" />
+			<mul order="0x30" stat="runSpd" val="1.03" />
+			<mul order="0x40" stat="rootRcpt" val="0.5" />
+			<add order="0x40" stat="fireAttr" val="3" />
+			<add order="0x40" stat="windAttr" val="3" />
+			<add order="0x40" stat="waterAttr" val="3" />
+			<add order="0x40" stat="earthAttr" val="3" />
+            <add order="0x10" stat="cloak" val="1"/>
+		</for>
+	</skill>
+	<skill id="8399" levels="1" name="Moirai Robe Set">
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<sub order="0x40" stat="MEN" val="2" />
+			<add order="0x40" stat="WIT" val="2" />
+			<mul order="0x30" stat="mAtk" val="1.0811" />
+			<mul order="0x30" stat="mAtkSpd" val="1.15" />
+			<mul order="0x40" stat="paralyzeRcpt" val="0.5" />
+			<add order="0x40" stat="fireAttr" val="5" />
+			<add order="0x40" stat="windAttr" val="5" />
+			<add order="0x40" stat="waterAttr" val="5" />
+			<add order="0x40" stat="earthAttr" val="5" />
+            <add order="0x10" stat="cloak" val="1"/>
+		</for>
+	</skill>
+</list>

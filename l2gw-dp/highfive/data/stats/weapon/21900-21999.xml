@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="21935" name="Butcher Blades">
+		<cond msgId="1518">
+			<target hasSkill="923" />
+		</cond>
+	</item>
+	<item id="21936" name="Butcher Blades {PvP}">
+		<cond msgId="1518">
+			<target hasSkill="923" />
+		</cond>
+	</item>
+	<item id="21937" name="Butcher Blades - Confusion">
+		<cond msgId="1518">
+			<target hasSkill="923" />
+		</cond>
+	</item>
+	<item id="21938" name="Butcher Blades - Confusion {PvP}">
+		<cond msgId="1518">
+			<target hasSkill="923" />
+		</cond>
+	</item>
+	<item id="21975" name="Mardil's Fan Magic Silence">
+		<for>
+			<skill id="3074" level="2" chance="10" action="magic" />
+		</for>
+	</item>
+	<item id="21979" name="Mardil's Fan - Holy Spirit Magic Silence">
+		<for>
+			<skill id="3074" level="2" chance="10" action="magic" />
+		</for>
+	</item>
+</list>

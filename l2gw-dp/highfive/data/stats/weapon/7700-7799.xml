@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="7702" name="Stick of Faith - Magic Hold">
+		<for>
+			<skill id="1201" level="16" chance="10" action="magic" />
+		</for>
+	</item>
+	<item id="7703" name="Stick of Faith - Magic Shield">
+		<for>
+			<skill id="1035" level="2" chance="50" action="magic" />
+		</for>
+	</item>
+	<item id="7706" name="Stick of Eternity - Blessed Body">
+		<for>
+			<skill id="1045" level="3" chance="20" action="magic" />
+		</for>
+	</item>
+	<item id="7708" name="Nirvana Axe - Magic Poison">
+		<for>
+			<skill id="1168" level="6" chance="7" action="magic" />
+		</for>
+	</item>
+	<item id="7709" name="Nirvana Axe - Magic Weakness">
+		<for>
+			<skill id="1164" level="9" chance="7" action="magic" />
+		</for>
+	</item>
+	<item id="7711" name="Club of Nature - Magic Mental Shield">
+		<for>
+			<skill id="1035" level="3" chance="50" action="magic" />
+		</for>
+	</item>
+	<item id="7712" name="Club of Nature - Magic Hold">
+		<for>
+			<skill id="1201" level="21" chance="10" action="magic" />
+		</for>
+	</item>
+	<item id="7714" name="Mace of the Underworld - Magic Silence">
+		<for>
+			<skill id="3078" level="3" chance="10" action="magic" />
+		</for>
+	</item>
+	<item id="7717" name="Inferno Staff - Magic Silence">
+		<for>
+			<skill id="3078" level="3" chance="10" action="magic" />
+		</for>
+	</item>
+	<item id="7718" name="Inferno Staff - Magic Paralyze">
+		<for>
+			<skill id="3079" level="3" chance="5" action="magic" />
+		</for>
+	</item>
+	<item id="7719" name="Poleaxe - Critical Stun">
+		<for>
+			<skill id="3016" level="3" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="7720" name="Poleaxe - Towering Blow">
+		<for>
+			<!-- TODO: Core support required for 'damage_range" -->
+			<set val="80" order="0x20" stat="pAtkRange" />
+		</for>
+	</item>
+	<item id="7721" name="Poleaxe - Wide Blow">
+		<for>
+			<!-- TODO: Core support required for 'damage_range" -->
+			<set val="180" order="0x40" stat="poleAngle" />
+		</for>
+	</item>
+	<item id="7723" name="Sword of Valhalla - Magic Weakness">
+		<for>
+			<skill id="1164" level="11" chance="7" action="magic" />
+		</for>
+	</item>
+	<item id="7724" name="Sword of Valhalla - Magic Regeneration">
+		<for>
+			<skill id="1044" level="3" chance="30" action="magic" />
+		</for>
+	</item>
+</list>

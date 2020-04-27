@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="16007" name="Cyclic Cane {PvP} - Magic Hold">
+		<for>
+			<skill id="3577" level="2" chance="20" action="magic" />
+		</for>
+	</item>
+	<item id="16010" name="Archangel Sword {PvP} - Magic Hold">
+		<for>
+			<skill id="3577" level="2" chance="20" action="magic" />
+		</for>
+	</item>
+	<item id="16013" name="Recurve Thorne Bow {PvP} - Critical Slow">
+		<for>
+			<skill id="3574" level="3" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="16022" name="Thorne Crossbow {PvP} - Critical Slow">
+		<for>
+			<skill id="3574" level="2" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="16064" name="Vesper Buster - Cleverness - Magic Hold">
+		<for>
+			<skill id="3577" level="2" chance="20" action="magic" />
+		</for>
+	</item>
+	<item id="16070" name="Vesper Fighter - Gale - Critical Stun">
+		<for>
+			<skill id="3571" level="2" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="16085" name="Vesper Singer - Hail - Magic Hold">
+		<for>
+			<skill id="3577" level="2" chance="20" action="magic" />
+		</for>
+	</item>
+	<item id="16088" name="Vesper Thrower - Clairvoyance - Critical Slow">
+		<for>
+			<skill id="3574" level="3" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="16094" name="Vesper Shooter - Clairvoyance - Critical Slow">
+		<for>
+			<skill id="3574" level="2" chance="100" action="crit" />
+		</for>
+	</item>
+</list>

@@ -1,0 +1,1 @@
+php.exe crc.php >crc.txt

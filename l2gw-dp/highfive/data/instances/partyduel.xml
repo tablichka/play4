@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<instances>
+
+	<instance id="1" name="Party Duel" max="30" type="1" dispel="false">
+		<party min="4" max="18"/>
+		<level min="1" max="86"/>
+		<timeLimit min="6"/>
+		<noUserTimeout min="6"/>
+		<restartPoints>
+			<point x="148786" y="46368" z="-3414"/>
+			<point x="148786" y="46454" z="-3414"/>
+			<point x="148786" y="46549" z="-3414"/>
+			<point x="148786" y="46652" z="-3414"/>
+			<point x="148786" y="46745" z="-3414"/>
+			<point x="148786" y="46842" z="-3414"/>
+			<point x="148786" y="46939" z="-3414"/>
+			<point x="148786" y="47033" z="-3414"/>
+			<point x="148786" y="47132" z="-3414"/>
+			<point x="150114" y="46358" z="-3414"/>
+			<point x="150114" y="46445" z="-3414"/>
+			<point x="150114" y="46540" z="-3414"/>
+			<point x="150114" y="46642" z="-3414"/>
+			<point x="150114" y="46735" z="-3414"/>
+			<point x="150114" y="46833" z="-3414"/>
+			<point x="150114" y="46930" z="-3414"/>
+			<point x="150114" y="47023" z="-3414"/>
+			<point x="150114" y="47122" z="-3414"/>
+		</restartPoints>
+		<spawnlist>
+			<door id="24190001"/>
+			<door id="24190002"/>
+			<door id="24190003"/>
+			<door id="24190004"/>
+		</spawnlist>
+	</instance>
+
+</instances>

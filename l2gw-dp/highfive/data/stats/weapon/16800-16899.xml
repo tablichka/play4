@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="16870" name="Dark Crystal Shield of Friendship - 90 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="16875" name="Avadon Shield of Friendship - 90 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="16895" name="Doom Shield of Friendship - 90 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+</list>

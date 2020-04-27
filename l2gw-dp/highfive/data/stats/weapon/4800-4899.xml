@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="4801" name="Arthro Nail - Critical Poison">
+		<for>
+			<!-- Critical Poison -->
+			<skill id="3040" level="5" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="4804" name="Bellion Cestus - Critical Drain">
+		<for>
+			<skill id="3039" level="6" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="4805" name="Bellion Cestus - Critical Poison">
+		<for>
+			<skill id="3040" level="6" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="4807" name="Blood Tornado - Critical Drain">
+		<for>
+			<skill id="3059" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="4814" name="Elemental Bow - Miser">
+		<for>
+			<set val="7" order="0x08" stat="miser" />
+		</for>
+	</item>
+	<item id="4817" name="Elven Bow of Nobility - Miser">
+		<for>
+			<set val="7" order="0x08" stat="miser" />
+		</for>
+	</item>
+	<item id="4818" name="Elven Bow of Nobility - Cheap Shot">
+		<for>
+			<set val="2" order="0x08" stat="cheapShot" />
+			<set val="0.46" order="0x08" stat="cheapShotChance" />
+		</for>
+	</item>
+	<item id="4821" name="Akat Long Bow - Miser">
+		<for>
+			<set val="8" order="0x08" stat="miser" />
+		</for>
+	</item>
+	<item id="4823" name="Eminence Bow - Miser">
+		<for>
+			<set val="9" order="0x08" stat="miser" />
+		</for>
+	</item>
+	<item id="4824" name="Eminence Bow - Cheap Shot">
+		<for>
+			<set val="1" order="0x08" stat="cheapShot" />
+			<set val="0.34" order="0x08" stat="cheapShotChance" />
+		</for>
+	</item>
+	<item id="4826" name="Dark Elven Long Bow - Critical Bleed">
+		<for>
+			<skill id="3021" level="5" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="4827" name="Dark Elven Long Bow - Miser">
+		<for>
+			<set val="2" order="0x08" stat="miser" />
+		</for>
+	</item>
+	<item id="4830" name="Bow of Peril - Cheap Shot">
+		<for>
+			<set val="2" order="0x08" stat="cheapShot" />
+			<set val="0.42" order="0x08" stat="cheapShotChance" />
+		</for>
+	</item>
+	<item id="4835" name="Scythe - Critical Stun">
+		<for>
+			<!-- Critical Stun -->
+			<skill id="3016" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="4838" name="Orcish Glaive - Critical Stun">
+		<for>
+			<skill id="3016" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="4839" name="Orcish Glaive - Towering Blow">
+		<for>
+			<!-- SA: Long Blow -->
+			<!-- TODO: Core support for 'damage_range" required -->
+			<set val="80" order="0x08" stat="pAtkRange" />
+		</for>
+	</item>
+	<item id="4840" name="Body Slasher - Critical Stun">
+		<for>
+			<skill id="3016" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="4841" name="Body Slasher - Towering Blow">
+		<for>
+			<!-- SA: Long Blow -->
+			<!-- TODO: Core support for 'damage_range" required -->
+			<set val="80" order="0x08" stat="pAtkRange" />
+		</for>
+	</item>
+	<item id="4842" name="Body Slasher - Wide Blow">
+		<for>
+			<!-- SA: Wide Blow -->
+			<!-- TODO: Core support for 'damage_range" required -->
+			<set val="180" order="0x08" stat="poleAngle" />
+		</for>
+	</item>
+	<item id="4843" name="Bec de Corbin - Critical Stun">
+		<for>
+			<skill id="3016" level="2" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="4844" name="Bec de Corbin - Towering Blow">
+		<for>
+			<!-- SA: Long Blow -->
+			<!-- TODO: Core support for 'damage_range" required -->
+			<set val="80" order="0x08" stat="pAtkRange" />
+		</for>
+	</item>
+	<item id="4847" name="Scorpion - Critical Stun">
+		<for>
+			<skill id="3016" level="3" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="4848" name="Scorpion - Towering Blow">
+		<for>
+			<!-- SA: Long Blow -->
+			<!-- TODO: Core support for 'damage_range" required -->
+			<set val="80" order="0x08" stat="pAtkRange" />
+		</for>
+	</item>
+	<item id="4849" name="Widow Maker - Critical Stun">
+		<for>
+			<skill id="3016" level="3" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="4850" name="Widow Maker - Towering Blow">
+		<for>
+			<!-- SA: Long Blow -->
+			<!-- TODO: Core support for 'damage_range" required -->
+			<set val="80" order="0x08" stat="pAtkRange" />
+			<add val="40" order="0x20" stat="pAtkRange" />
+		</for>
+	</item>
+	<item id="4851" name="Widow Maker - Wide Blow">
+		<for>
+			<!-- SA: Wide Blow -->
+			<!-- TODO: Core support for 'damage_range" required -->
+			<set val="180" order="0x08" stat="poleAngle" />
+		</for>
+	</item>
+	<item id="4852" name="Orcish Poleaxe - Critical Stun">
+		<for>
+			<skill id="3016" level="4" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="4853" name="Orcish Poleaxe - Towering Blow">
+		<for>
+			<!-- SA: Long Blow -->
+			<!-- TODO: Core support for 'damage_range" required -->
+			<set val="80" order="0x08" stat="pAtkRange" />
+		</for>
+	</item>
+	<item id="4854" name="Orcish Poleaxe - Wide Blow">
+		<for>
+			<!-- SA: Wide Blow -->
+			<!-- TODO: Core support for 'damage_range" required -->
+			<set val="180" order="0x08" stat="poleAngle" />
+		</for>
+	</item>
+	<item id="4856" name="Great Axe - Critical Stun">
+		<for>
+			<skill id="3016" level="5" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="4859" name="Lance - Critical Stun">
+		<for>
+			<skill id="3016" level="6" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="4860" name="Lance - Towering Blow">
+		<for>
+			<!-- SA: Long Blow -->
+			<!-- TODO: Core support for 'damage_range" required -->
+			<set val="80" order="0x08" stat="pAtkRange" />
+		</for>
+	</item>
+	<item id="4862" name="Halberd - Towering Blow">
+		<for>
+			<!-- SA: Long Blow -->
+			<!-- TODO: Core support for 'damage_range" required -->
+			<set val="80" order="0x08" stat="pAtkRange" />
+		</for>
+	</item>
+	<item id="4863" name="Halberd - Wide Blow">
+		<for>
+			<!-- SA: Wide Blow -->
+			<!-- TODO: Core support for 'damage_range" required -->
+			<set val="180" order="0x08" stat="poleAngle" />
+		</for>
+	</item>
+	<item id="4864" name="Heavy Doom Hammer - Magic Regeneration">
+		<for>
+			<skill id="1044" level="1" chance="30" action="magic" />
+		</for>
+	</item>
+	<item id="4865" name="Heavy Doom Hammer - Mental Shield">
+		<for>
+			<skill id="1035" level="2" chance="50" action="magic" />
+		</for>
+	</item>
+	<item id="4866" name="Heavy Doom Hammer - Magic Hold">
+		<for>
+			<skill id="1201" level="16" chance="10" action="magic" />
+		</for>
+	</item>
+	<item id="4869" name="Crystal Staff - Blessed Body">
+		<for>
+			<skill id="1045" level="2" chance="20" action="magic" />
+		</for>
+	</item>
+	<item id="4870" name="Heavy Doom Axe - Magic Poison">
+		<for>
+			<skill id="1168" level="6" chance="8" action="magic" />
+		</for>
+	</item>
+	<item id="4871" name="Heavy Doom Axe - Magic Weakness">
+		<for>
+			<skill id="1164" level="7" chance="8" action="magic" />
+		</for>
+	</item>
+	<item id="4872" name="Heavy Doom Axe - Magic Chaos">
+		<for>
+			<skill id="1222" level="4" chance="8" action="magic" />
+		</for>
+	</item>
+	<item id="4873" name="Cursed Staff - Magic Hold">
+		<for>
+			<skill id="1201" level="18" chance="10" action="magic" />
+		</for>
+	</item>
+	<item id="4874" name="Cursed Staff - Magic Poison">
+		<for>
+			<skill id="1168" level="6" chance="8" action="magic" />
+		</for>
+	</item>
+	<item id="4875" name="Cursed Staff - Magic Weakness">
+		<for>
+			<skill id="1164" level="8" chance="8" action="magic" />
+		</for>
+	</item>
+	<item id="4876" name="Paradia Staff - Magic Regeneration">
+		<for>
+			<skill id="1044" level="2" chance="30" action="magic" />
+		</for>
+	</item>
+	<item id="4877" name="Paradia Staff - Mental Shield">
+		<for>
+			<skill id="1035" level="3" chance="50" action="magic" />
+		</for>
+	</item>
+	<item id="4878" name="Paradia Staff - Magic Hold">
+		<for>
+			<skill id="1201" level="21" chance="10" action="magic" />
+		</for>
+	</item>
+	<item id="4880" name="Pa'agrian Hammer - Magic Poison">
+		<for>
+			<skill id="1168" level="6" chance="7" action="magic" />
+		</for>
+	</item>
+	<item id="4881" name="Pa'agrian Hammer - Magic Weakness">
+		<for>
+			<skill id="1164" level="9" chance="7" action="magic" />
+		</for>
+	</item>
+	<item id="4882" name="Sage's Staff - Magic Hold">
+		<for>
+			<skill id="1201" level="21" chance="10" action="magic" />
+		</for>
+	</item>
+	<item id="4883" name="Sage's Staff - Magic Poison">
+		<for>
+			<skill id="1168" level="6" chance="7" action="magic" />
+		</for>
+	</item>
+	<item id="4884" name="Sage's Staff - Magic Weakness">
+		<for>
+			<skill id="1164" level="9" chance="7" action="magic" />
+		</for>
+	</item>
+	<item id="4886" name="Pa'agrian Axe - Magic Weakness">
+		<for>
+			<skill id="1164" level="9" chance="7" action="magic" />
+		</for>
+	</item>
+	<item id="4887" name="Pa'agrian Axe - Magic Chaos">
+		<for>
+			<skill id="1222" level="5" chance="7" action="magic" />
+		</for>
+	</item>
+	<item id="4888" name="Deadman's Staff - Magic Regeneration">
+		<for>
+			<skill id="1044" level="2" chance="30" action="magic" />
+		</for>
+	</item>
+	<item id="4889" name="Deadman's Staff - Mental Shield">
+		<for>
+			<skill id="1035" level="3" chance="50" action="magic" />
+		</for>
+	</item>
+	<item id="4890" name="Deadman's Staff - Magic Hold">
+		<for>
+			<skill id="1201" level="23" chance="10" action="magic" />
+		</for>
+	</item>
+	<item id="4893" name="Ghoul's Staff - Blessed Body">
+		<for>
+			<skill id="1045" level="4" chance="20" action="magic" />
+		</for>
+	</item>
+	<item id="4894" name="Demon's Staff - Magic Poison">
+		<for>
+			<skill id="1168" level="6" chance="7" action="magic" />
+		</for>
+	</item>
+	<item id="4895" name="Demon's Staff - Magic Weakness">
+		<for>
+			<skill id="1164" level="10" chance="7" action="magic" />
+		</for>
+	</item>
+	<item id="4896" name="Demon's Staff - Magic Chaos">
+		<for>
+			<skill id="1222" level="5" chance="7" action="magic" />
+		</for>
+	</item>
+	<item id="4897" name="Sprite's Staff - Magic Regeneration">
+		<for>
+			<skill id="1044" level="3" chance="30" action="magic" />
+		</for>
+	</item>
+	<item id="4898" name="Sprite's Staff - Mental Shield">
+		<for>
+			<skill id="1035" level="4" chance="50" action="magic" />
+		</for>
+	</item>
+	<item id="4899" name="Sprite's Staff - Magic Hold">
+		<for>
+			<skill id="1201" level="25" chance="10" action="magic" />
+		</for>
+	</item>
+</list>

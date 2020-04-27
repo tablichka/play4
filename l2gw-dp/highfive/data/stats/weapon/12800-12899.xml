@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="12857" name="Daimon Crystal - Wisdom {PvP} - Magic Mental Shield">
+		<for>
+			<skill id="1035" level="4" chance="50" action="magic" />
+		</for>
+	</item>
+	<item id="12878" name="Sobekk's Hurricane - Landslide {PvP} - Crt. Drain">
+		<for>
+			<skill id="3039" level="7" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="12881" name="Sirra's Blade - Landslide {PvP} - Critical Poison">
+		<for>
+			<skill id="3061" level="3" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="12884" name="Éclair Bijou - Landslide {PvP} - Critical Poison">
+		<for>
+			<skill id="3061" level="3" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="12885" name="Tiphon's Spear - Landslide {PvP} - Critical Stun">
+		<for>
+			<skill id="3070" level="3" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="12886" name="Tiphon's Spear - Landslide {PvP} - Longblow">
+		<for>
+			<!-- SA: Long Blow -->
+			<!-- TODO: Core support required for 'damage_range" -->
+			<set val="80" order="0x08" stat="pAtkRange" />
+		</for>
+	</item>
+	<item id="12887" name="Tiphon's Spear - Landslide {PvP} - Wild Blow">
+		<for>
+			<!-- SA: Wide Blow -->
+			<!-- TODO: Core support required for 'damage_range" -->
+			<set val="180" order="0x08" stat="poleAngle" />
+		</for>
+	</item>
+	<item id="12890" name="Themis' Tongue - Cleverness {PvP} - Magic Mental Shield">
+		<for>
+			<skill id="1035" level="4" chance="50" action="magic" />
+		</for>
+	</item>
+	<item id="12891" name="Themis' Tongue - Cleverness {PvP} - Magic Focus">
+		<for>
+			<skill id="1077" level="3" chance="20" action="magic" />
+		</for>
+	</item>
+	<item id="12894" name="Cabrio's Hand - Cleverness {PvP} - Magic Silence">
+		<for>
+			<skill id="3074" level="2" chance="10" action="magic" />
+		</for>
+	</item>
+</list>

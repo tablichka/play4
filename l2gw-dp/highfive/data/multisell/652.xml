@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- dion_feud_product -->
+<list>
+	<config showall="true" notax="true" keepenchanted="false" />
+	<item>
+		<production id="13732" count="1"/>	<!-- Blessed Scroll of Escape: Dion -->
+		<ingredient id="57" count="250000"/>	<!-- Adena -->
+		<ingredient id="13758" count="40"/>	<!-- Dion Territory Badge -->
+	</item>
+	<item>
+		<production id="13714" count="1"/>	<!-- Dion Supply Box - Belt -->
+		<ingredient id="57" count="40000"/>	<!-- Adena -->
+		<ingredient id="13758" count="7"/>	<!-- Dion Territory Badge -->
+	</item>
+	<item>
+		<production id="13705" count="1"/>	<!-- Dion Supply Box - Magic Pouch -->
+		<ingredient id="57" count="20000"/>	<!-- Adena -->
+		<ingredient id="13758" count="4"/>	<!-- Dion Territory Badge -->
+	</item>
+	<item>
+		<production id="13696" count="1"/>	<!-- Dion Supply Box - Magic Pin -->
+		<ingredient id="57" count="40000"/>	<!-- Adena -->
+		<ingredient id="13758" count="8"/>	<!-- Dion Territory Badge -->
+	</item>
+	<item>
+		<production id="14550" count="1"/>	<!-- Dion Supply Box - Belt -->
+		<ingredient id="57" count="400000"/>	<!-- Adena -->
+		<ingredient id="13758" count="70"/>	<!-- Dion Territory Badge -->
+	</item>
+	<item>
+		<production id="14541" count="1"/>	<!-- Dion Supply Box - Magic Pouch -->
+		<ingredient id="57" count="80000"/>	<!-- Adena -->
+		<ingredient id="13758" count="16"/>	<!-- Dion Territory Badge -->
+	</item>
+	<item>
+		<production id="14532" count="1"/>	<!-- Dion Supply Box - Magic Pin -->
+		<ingredient id="57" count="120000"/>	<!-- Adena -->
+		<ingredient id="13758" count="32"/>	<!-- Dion Territory Badge -->
+	</item>
+	<item>
+		<production id="14894" count="1"/>	<!-- Dion Supply Box - Magic Ornament -->
+		<ingredient id="57" count="80000"/>	<!-- Adena -->
+		<ingredient id="13758" count="16"/>	<!-- Dion Territory Badge -->
+	</item>
+	<item>
+		<production id="14885" count="1"/>	<!-- Dion Supply Box - Magic Rune Clip -->
+		<ingredient id="57" count="120000"/>	<!-- Adena -->
+		<ingredient id="13758" count="32"/>	<!-- Dion Territory Badge -->
+	</item>
+	<item>
+		<production id="13741" count="1"/>	<!-- Dion Holy Resistance Necklace -->
+		<ingredient id="57" count="3596400"/>	<!-- Adena -->
+		<ingredient id="13758" count="160"/>	<!-- Dion Territory Badge -->
+	</item>
+	<item>
+		<production id="14593" count="1"/>	<!-- Dion Water Resistance Ring -->
+		<ingredient id="57" count="1798200"/>	<!-- Adena -->
+		<ingredient id="13758" count="80"/>	<!-- Dion Territory Badge -->
+	</item>
+	<item>
+		<production id="14665" count="1"/>	<!-- Dion Protection Earring -->
+		<ingredient id="57" count="2696400"/>	<!-- Adena -->
+		<ingredient id="13758" count="120"/>	<!-- Dion Territory Badge -->
+	</item>
+	<item>
+		<production id="15283" count="1"/>	<!-- Dion Holy Royal Guard Necklace -->
+		<ingredient id="57" count="3596400"/>	<!-- Adena -->
+		<ingredient id="13758" count="160"/>	<!-- Dion Territory Badge -->
+	</item>
+	<item>
+		<production id="15292" count="1"/>	<!-- Dion Water Royal Guard Ring -->
+		<ingredient id="57" count="1798200"/>	<!-- Adena -->
+		<ingredient id="13758" count="80"/>	<!-- Dion Territory Badge -->
+	</item>
+	<item>
+		<production id="14802" count="1"/>	<!-- Dion Guard Earring -->
+		<ingredient id="57" count="2696400"/>	<!-- Adena -->
+		<ingredient id="13758" count="120"/>	<!-- Dion Territory Badge -->
+	</item>
+	<item>
+		<production id="14810" count="1"/>	<!-- Blue Talisman - Buff Cancel -->
+		<ingredient id="57" count="14500"/>	<!-- Adena -->
+		<ingredient id="13758" count="13"/>	<!-- Dion Territory Badge -->
+	</item>
+	<item>
+		<production id="14811" count="1"/>	<!-- Blue Talisman - Buff Steal -->
+		<ingredient id="57" count="15600"/>	<!-- Adena -->
+		<ingredient id="13758" count="14"/>	<!-- Dion Territory Badge -->
+	</item>
+	<item>
+		<production id="14815" count="1"/>	<!-- Territory Health Recovery Potion -->
+		<ingredient id="57" count="21000"/>	<!-- Adena -->
+		<ingredient id="13758" count="8"/>	<!-- Dion Territory Badge -->
+	</item>
+	<item>
+		<production id="14816" count="1"/>	<!-- Territory Mana Recovery Potion -->
+		<ingredient id="57" count="21000"/>	<!-- Adena -->
+		<ingredient id="13758" count="8"/>	<!-- Dion Territory Badge -->
+	</item>
+	<item>
+		<production id="14817" count="1"/>	<!-- Territory CP Recovery Potion -->
+		<ingredient id="57" count="21000"/>	<!-- Adena -->
+		<ingredient id="13758" count="8"/>	<!-- Dion Territory Badge -->
+	</item>
+	<item>
+		<production id="9625" count="1"/>	<!-- Giant's Codex - Oblivion -->
+		<ingredient id="57" count="1000000"/>	<!-- Adena -->
+		<ingredient id="13758" count="20"/>	<!-- Dion Territory Badge -->
+	</item>
+	<item>
+		<production id="9626" count="1"/>	<!-- Giant's Codex - Discipline -->
+		<ingredient id="57" count="1260000"/>	<!-- Adena -->
+		<ingredient id="13758" count="54"/>	<!-- Dion Territory Badge -->
+	</item>
+	<item>
+		<production id="9627" count="1"/>	<!-- Giant's Codex - Mastery -->
+		<ingredient id="57" count="1800000"/>	<!-- Adena -->
+		<ingredient id="13758" count="80"/>	<!-- Dion Territory Badge -->
+	</item>
+	<item>
+		<production id="14963" count="1"/>	<!-- Silver Skeleton Circlet -->
+		<ingredient id="57" count="2100000"/>	<!-- Adena -->
+		<ingredient id="13758" count="80"/>	<!-- Dion Territory Badge -->
+	</item>
+	<item>
+		<production id="13474" count="1"/>	<!-- Circlet of Dion Valor -->
+		<ingredient id="57" count="2100000"/>	<!-- Adena -->
+		<ingredient id="13758" count="80"/>	<!-- Dion Territory Badge -->
+	</item>
+	<item>
+		<production id="13475" count="1"/>	<!-- Circlet of Dion Sniper -->
+		<ingredient id="57" count="2100000"/>	<!-- Adena -->
+		<ingredient id="13758" count="80"/>	<!-- Dion Territory Badge -->
+	</item>
+	<item>
+		<production id="14582" count="1"/>	<!-- Apella Combat Helmet -->
+		<ingredient id="57" count="801600"/>	<!-- Adena -->
+		<ingredient id="13758" count="107"/>	<!-- Dion Territory Badge -->
+	</item>
+	<item>
+		<production id="14586" count="1"/>	<!-- Apella Combat Clothes -->
+		<ingredient id="57" count="2604600"/>	<!-- Adena -->
+		<ingredient id="13758" count="347"/>	<!-- Dion Territory Badge -->
+	</item>
+	<item>
+		<production id="14591" count="1"/>	<!-- Apella Combat Sandals -->
+		<ingredient id="57" count="534000"/>	<!-- Adena -->
+		<ingredient id="13758" count="71"/>	<!-- Dion Territory Badge -->
+	</item>
+	<item>
+		<production id="14562" count="1"/>	<!-- Sword of Ashton Family -->
+		<ingredient id="57" count="21000000"/>	<!-- Adena -->
+		<ingredient id="13758" count="800"/>	<!-- Dion Territory Badge -->
+	</item>
+	<item>
+		<production id="14563" count="1"/>	<!-- Claw of Ashton Family -->
+		<ingredient id="57" count="21000000"/>	<!-- Adena -->
+		<ingredient id="13758" count="800"/>	<!-- Dion Territory Badge -->
+	</item>
+</list>

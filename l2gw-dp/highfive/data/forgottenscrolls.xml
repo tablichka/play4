@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+
+	<!-- DEPRECATED AND UNUSED. LEFT FOR INFORMATIONAL PURPOSES ONLY!!! -->
+
+	<scroll itemid="14170" skillid="761-1;762-1" minlvl="83" class="91" /> <!-- + 83 confirmed Seed of Revenge -->
+	<scroll itemid="14171" skillid="763-1" minlvl="83" class="91" />  <!-- + 83 confirmed Hell Scream -->
+	<scroll itemid="14172" skillid="784-1;785-1" minlvl="83" class="90" />  <!-- + 83 confirmed Spirit of Phoenix -->
+	<scroll itemid="14173" skillid="786-1;787-1" minlvl="83" class="99" />  <!-- + 83 confirmed Eva's Will -->
+	<scroll itemid="14174" skillid="788-1;789-1" minlvl="83" class="106" />  <!-- + 83 confirmed Pain of Shilen -->
+	<scroll itemid="14175" skillid="768-1" minlvl="83" class="93" />  <!-- + 83 confirmed Exciting Adventure -->
+	<scroll itemid="14176" skillid="769-1" minlvl="83" class="101" />  <!-- + 83 confirmed Wind Riding -->
+	<scroll itemid="14177" skillid="770-1" minlvl="83" class="108" />  <!-- + 83 confirmed Ghost Walking -->
+	<scroll itemid="14178" skillid="771-1" minlvl="83" class="92" />  <!-- + 83 confirmed Flame Hawk -->
+	<scroll itemid="14179" skillid="772-1" minlvl="83" class="102" />  <!-- + 83 confirmed Arrow Rain -->
+	<scroll itemid="14180" skillid="773-1" minlvl="83" class="109" />  <!-- + 83 confirmed Ghost Piercing -->
+	<scroll itemid="14181" skillid="774-1" minlvl="83" class="89" />  <!-- + 83 confirmed Dread Pool -->
+	<scroll itemid="14182" skillid="776-1" minlvl="83" class="114" />  <!-- + 83 confirmed Force of Destruction -->
+	<scroll itemid="14183" skillid="777-1" minlvl="83" class="113" />  <!-- + 83 confirmed Demolition Impact -->
+	<scroll itemid="14184" skillid="778-1" minlvl="83" class="118" />  <!-- + 83 confirmed Golem Armor -->
+	<scroll itemid="14185" skillid="790-1" minlvl="83" class="134" />  <!-- 83 confirmed Wild Shot -->
+	<scroll itemid="14186" skillid="791-1" minlvl="83" class="132;133" />  <!-- 83 confirmed Lightning Shock -->
+	<scroll itemid="14187" skillid="1492-1" minlvl="83" class="94" />  <!--  83 confirmed Flame Armor -->
+	<scroll itemid="14188" skillid="1493-1" minlvl="83" class="103" />  <!-- 83 confirmed Frost Armor -->
+	<scroll itemid="14189" skillid="1494-1" minlvl="83" class="110" />  <!-- 83 confirmed Hurricane Armor -->
+	<scroll itemid="14190" skillid="1495-1" minlvl="83" class="95" />  <!-- 83 confirmed Vampiric Mist -->
+	<scroll itemid="14193" skillid="1505-1" minlvl="83" class="97" />  <!-- 83 confirmed Sublime Self-Sacrifice -->
+	<scroll itemid="14194" skillid="1506-1" minlvl="83" class="105" />  <!-- 83 confirmed Blessing of Eva -->
+	<scroll itemid="14195" skillid="1507-1" minlvl="83" class="112" />  <!-- 83 confirmed Lord of Vampire -->
+	<scroll itemid="14196" skillid="1508-1" minlvl="80" class="112"/> <!-- Throne Root -->
+	<scroll itemid="14197" skillid="1509-1" minlvl="83" class="115" />  <!-- 83 confirmed Seal of Limit -->
+	<scroll itemid="14203" skillid="775-1" minlvl="83" class="88" />  <!-- 83 confirmed Weapon Blockade -->
+
+	<scroll itemid="14191" skillid="1467-1" minlvl="81" class="94;95"/> <!-- 81 confirmed Meteor done -->
+	<scroll itemid="14192" skillid="1468-1" minlvl="81" class="103;110"/> <!-- 81 confirmed Star Fall done -->
+	<scroll itemid="14198" skillid="914-1" minlvl="83" class="100"/> <!-- 83 confirmed Song of Purification done -->
+	<scroll itemid="14199" skillid="915-1" minlvl="83" class="107"/> <!-- 83 confirmed Dance of Berserker done -->
+	<scroll itemid="14200" skillid="912-1" minlvl="83" class="90"/> <!-- 83 confirmed Summon Imperial Phoenix done -->
+	<scroll itemid="14201" skillid="918-1" minlvl="83" class="114"/> <!-- 83 confirmed Maximum Focus Force done -->
+	<scroll itemid="14202" skillid="919-1" minlvl="83" class="88"/> <!-- 83 confirmed Maximum Sonic Force done -->
+	<scroll itemid="14204" skillid="929-1" minlvl="83" class="96"/> <!-- 83 confirmed Spirit of the Cat done -->
+	<scroll itemid="14205" skillid="931-1" minlvl="83" class="104"/> <!-- 83 confirmed Spirit of the Unicorn done -->
+	<scroll itemid="14206" skillid="930-1" minlvl="83" class="111"/> <!-- 83 confirmed Spirit of the Demon done -->
+	<scroll itemid="14207" skillid="913-1" minlvl="81" class="90;91;99;106;100;107"/> <!-- 81 Deflect Magic done -->
+	<scroll itemid="14208" skillid="917-1" minlvl="81" class="88;114;89;113;117;118;131"/> <!-- 81 Final Secret done -->
+	<scroll itemid="14209" skillid="922-1" minlvl="81" class="93;101;108"/>
+	<scroll itemid="14210" skillid="923-1" minlvl="81" class="93;101;108"/> <!-- 81 dual dagger mastery done -->
+	<scroll itemid="14211" skillid="924-1" minlvl="81" class="92;102;109"/>
+	<scroll itemid="14212" skillid="1532-1" minlvl="81" class="94;95;103;110;132;133"/> <!-- 81 Enlightenment done -->
+	<scroll itemid="14213" skillid="1533-1" minlvl="81" class="97;98;105;112;115;116"/> <!-- 81 Enlightenment done -->
+	<scroll itemid="14214" skillid="1535-1" minlvl="72" class="52;116"/> <!-- 72 Chant of Movement done -->
+	<scroll itemid="14215" skillid="1536-1" minlvl="70" class="51;115"/> <!-- 70 Combat of Pa'agrio done -->
+	<scroll itemid="14216" skillid="1537-1" minlvl="74" class="51;115"/> <!-- 74 Critical of Pa'agrio done -->
+	<scroll itemid="14217" skillid="1538-1" minlvl="72" class="51;115"/> <!-- 72 Condition of Pa'agrio done -->
+	<scroll itemid="14218" skillid="928-1" minlvl="81" class="93;101;108"/> <!-- 81 Duel Blow done -->
+	<scroll itemid="14219" skillid="945-1" minlvl="81" class="94;95;96;97;98;103;104;105;110;111;112;115;116;132;133"/> <!-- Magician's Will done -->
+	<scroll itemid="14220" skillid="946-1" minlvl="81" class="92;102;109"/> <!-- 81 Silent Mind done -->
+	<scroll itemid="14221" skillid="1540-1" minlvl="81" class="97;98;105;112;115;116"/> <!-- 81 Turn To Stone done -->
+	<scroll itemid="14222" skillid="947-1" minlvl="83" class="117"/> <!-- 83 Lucky Strike done -->
+	<scroll itemid="14223" skillid="948-1" minlvl="83" class="131"/> <!-- 83 Eye to Eye done -->
+	<scroll itemid="14224" skillid="1541-1" minlvl="83" class="95"/> <!-- 83 Curse of Dasparion done -->
+	<scroll itemid="14225" skillid="1542-1" minlvl="83" class="98"/> <!-- 83 Counter Critical done -->
+	<scroll itemid="14226" skillid="949-1" minlvl="83" class="115"/> <!-- 83 Onslaught of Pa'Agrio done -->
+	<scroll itemid="14227" skillid="1543-1" minlvl="83" class="116"/> 
+	<scroll itemid="17030" skillid="172-10" minlvl="82" class="118"/> 
+
+<!-- Old Gracia Forgotten Scrolls. Can be learned as it was before. So-called original spellbooks -->
+        <scroll itemid="10549" skillid="755-1" minlvl="82" class="88;89;90;91;92;93;94;95;96;97;98;99;100;101;102;103;104;105;106;107;108;109;110;111;112;113;114;115;116;117;118;131;132;134" />  <!-- 82 confirmed Protection of Rune -->
+        <scroll itemid="10550" skillid="756-1" minlvl="82" class="88;89;90;91;92;93;94;95;96;97;98;99;100;101;102;103;104;105;106;107;108;109;110;111;112;113;114;115;116;117;118;131;132;134" />  <!-- 82 confirmed Protection of Elemental -->
+        <scroll itemid="10551" skillid="757-1" minlvl="82" class="88;89;90;91;92;93;94;95;96;97;98;99;100;101;102;103;104;105;106;107;108;109;110;111;112;113;114;115;116;117;118;131;132;134" />  <!-- 82 confirmed Protection of Alignment -->
+        <scroll itemid="10552" skillid="758-1" minlvl="81" class="88;89;90;91;92;93;99;100;101;102;106;107;108;109;113;114;117;118;131;132;134" />  <!-- 81 confirmed Fighter's Will -->
+        <scroll itemid="10553" skillid="759-1" minlvl="81" class="88;89;90;91;92;93;99;100;101;102;106;107;108;109;113;114;117;118;131;132;134" />  <!-- 81 confirmed Archer's Will -->
+        <scroll itemid="10554" skillid="760-1" minlvl="81" class="90;91;99;106" />  <!-- 81 confirmed Anti Magic Armor -->
+        <scroll itemid="10555" skillid="761-1;762-1" minlvl="81" class="91" />  <!-- + 81 confirmed Seed of Revenge -->
+        <scroll itemid="10556" skillid="763-1" minlvl="81" class="91" />  <!-- 81 confirmed Hell Scream -->
+        <scroll itemid="10559" skillid="766-1" minlvl="81" class="93;101;108;90;91;99;106;134;132;133" />  <!-- 81 confirmed Sixth Sense -->
+        <scroll itemid="10560" skillid="767-1" minlvl="81" class="93;101;108;88;89;113;114;117;118;133;132;131" />  <!-- 81 confirmed Expose Weak Point -->
+        <scroll itemid="10561" skillid="768-1" minlvl="81" class="93" />  <!-- 81 confirmed Exciting Adventure -->
+        <scroll itemid="10562" skillid="769-1" minlvl="81" class="101" />  <!-- 81 confirmed Wind Riding -->
+        <scroll itemid="10563" skillid="770-1" minlvl="81" class="108" />  <!-- 81 confirmed Ghost Walking -->
+        <scroll itemid="10564" skillid="771-1" minlvl="81" class="92" />  <!-- 81 confirmed Flame Hawk -->
+        <scroll itemid="10565" skillid="772-1" minlvl="81" class="102" />  <!-- 81 confirmed Arrow Rain -->
+        <scroll itemid="10566" skillid="773-1" minlvl="81" class="109" />  <!-- 81 confirmed Ghost Piercing -->
+        <scroll itemid="10567" skillid="774-1" minlvl="81" class="89" />  <!-- 81 confirmed Dread Pool -->
+        <scroll itemid="10568" skillid="775-1" minlvl="81" class="88" />  <!-- 81 confirmed Weapon Blockade -->
+        <scroll itemid="10569" skillid="776-1" minlvl="81" class="114" />  <!-- 81 confirmed Force of Destruction -->
+        <scroll itemid="10570" skillid="777-1" minlvl="81" class="113" />  <!-- 81 confirmed Demolition Impact -->
+        <scroll itemid="10571" skillid="778-1" minlvl="81" class="118" />  <!-- 81 confirmed Golem Armor -->
+        <scroll itemid="10591" skillid="784-1;785-1" minlvl="81" class="90" />  <!-- + 81 confirmed Spirit of Phoenix -->
+        <scroll itemid="10592" skillid="786-1;787-1" minlvl="81" class="99" />  <!-- + 81 confirmed Eva's Will -->
+        <scroll itemid="10593" skillid="788-1;789-1" minlvl="81" class="106" />  <!-- + 81 confirmed Pain of Shilen -->
+        <scroll itemid="10594" skillid="790-1" minlvl="81" class="134" />  <!-- 81 confirmed Wild Shot -->
+        <scroll itemid="10595" skillid="791-1" minlvl="81" class="132;133" />  <!-- 81 confirmed Lightning Shock -->
+        <scroll itemid="10572" skillid="1492-1" minlvl="81" class="94" />  <!--  81 confirmed Flame Armor -->
+        <scroll itemid="10573" skillid="1493-1" minlvl="81" class="103" />  <!-- 81 confirmed Frost Armor -->
+        <scroll itemid="10574" skillid="1494-1" minlvl="81" class="110" />  <!-- 81 confirmed Hurricane Armor -->
+        <scroll itemid="10575" skillid="1495-1" minlvl="81" class="95" />  <!-- 81 confirmed Vampiric Mist -->
+        <scroll itemid="10576" skillid="1496-1" minlvl="81" class="96;104;111" />  <!-- 81 confirmed Servitor Barrier -->
+        <scroll itemid="10577" skillid="1497-1" minlvl="81" class="96;104;111" />  <!-- 81 confirmed Excessive Loyalty -->
+        <scroll itemid="10578" skillid="1498-1" minlvl="81" class="96;104;111" />  <!-- 81 confirmed Mutual Response -->
+        <scroll itemid="10585" skillid="1505-1" minlvl="81" class="97" />  <!-- 81 confirmed Sublime Self-Sacrifice -->
+        <scroll itemid="10586" skillid="1506-1" minlvl="81" class="105" />  <!-- 81 confirmed Blessing of Eva -->
+        <scroll itemid="10587" skillid="1507-1" minlvl="81" class="112" />  <!-- 81 confirmed Lord of Vampire -->
+        <scroll itemid="10589" skillid="1509-1" minlvl="81" class="115" />  <!-- 81 confirmed Seal of Limit -->
+
+        <scroll itemid="10557" skillid="764-1" minlvl="76" class="100" />  <!-- Song of Wind Storm -->
+        <scroll itemid="10558" skillid="765-1" minlvl="76" class="107" />   <!-- Dance of Blade Storm -->
+
+        <!-- сдвоенные бафы -->
+        <scroll itemid="10579" skillid="1499-1" minlvl="70" class="17;98" />  <!-- Improved Combat -->
+        <scroll itemid="10580" skillid="1500-1" minlvl="70" class="43;112" />  <!-- Improved Magic -->
+        <scroll itemid="10581" skillid="1501-1" minlvl="70" class="17;98" />  <!-- Improved Condition -->
+        <scroll itemid="10582" skillid="1502-1" minlvl="70" class="43;112" />  <!-- Improved Critical Attack -->
+        <scroll itemid="10583" skillid="1503-1" minlvl="70" class="30;105" />  <!-- Improved Shield Defense -->
+        <scroll itemid="10584" skillid="1504-1" minlvl="70" class="30;105" />  <!-- Improved Movement -->
+        <scroll itemid="10608" skillid="1517-1" minlvl="70" class="52;116" />  <!-- Chant of Combat -->
+        <scroll itemid="10609" skillid="1518-1" minlvl="72" class="52;116" />  <!-- Chant of Critical Attack -->
+        <scroll itemid="10610" skillid="1519-1" minlvl="74" class="52;116" />  <!-- Chant of Blood Awakening -->
+
+        <scroll itemid="12768" skillid="818-1" minlvl="74" class="36;108" />  <!-- Evasion Counter -->
+        <scroll itemid="12769" skillid="819-1" minlvl="74" class="23;101" />  <!-- Evasion Chance -->
+        <scroll itemid="12770" skillid="820-1" minlvl="74" class="8;93" />  <!-- Evasion Haste -->
+        <scroll itemid="12771" skillid="821-1" minlvl="72" class="8;23;36;108;101;93" />  <!-- Shadow Step -->
+</list>

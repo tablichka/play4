@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id='12740' name="Baby Pet Scale Armor">
+		<cond msgId="600">
+			<uc category="baby_pet_group;upgrade_baby_pet_group"/>
+		</cond>
+		<for>
+			<add val='112' order='0x10' stat='pDef'/>
+		</for>
+	</item>
+	<item id='12741' name="Baby Pet Bronze Armor">
+		<cond msgId="600">
+			<uc category="baby_pet_group;upgrade_baby_pet_group"/>
+		</cond>
+		<for>
+			<add val='124' order='0x10' stat='pDef'/>
+		</for>
+	</item>
+	<item id='12742' name="Baby Pet Plate Armor">
+		<cond msgId="600">
+			<uc category="baby_pet_group;upgrade_baby_pet_group"/>
+		</cond>
+		<for>
+			<add val='136' order='0x10' stat='pDef'/>
+		</for>
+	</item>
+	<item id='12743' name="Baby Pet Mithril Armor">
+		<cond msgId="600">
+			<uc category="baby_pet_group;upgrade_baby_pet_group"/>
+		</cond>
+		<for>
+			<add val='148' order='0x10' stat='pDef'/>
+		</for>
+	</item>
+	<item id='12744' name="Baby Pet Oriharukon Armor">
+		<cond msgId="600">
+			<uc category="baby_pet_group;upgrade_baby_pet_group"/>
+		</cond>
+		<for>
+			<add val='160' order='0x10' stat='pDef'/>
+		</for>
+	</item>
+	<item id='12745' name="Baby Pet Orichalcum Armor">
+		<cond msgId="600">
+			<uc category="baby_pet_group;upgrade_baby_pet_group"/>
+		</cond>
+		<for>
+			<add val='171' order='0x10' stat='pDef'/>
+		</for>
+	</item>
+	<item id='12746' name="Crystal Pendant">
+		<cond msgId="600">
+			<uc category="item_equip_pet_group;baby_pet_group;upgrade_baby_pet_group;grown_up_wolf_group"/>
+		</cond>
+		<for>
+			<add val='22' order='0x10' stat='mDef'/>
+		</for>
+	</item>
+	<item id='12747' name="Ruby Pendant">
+		<cond msgId="600">
+			<uc category="item_equip_pet_group;baby_pet_group;upgrade_baby_pet_group;grown_up_wolf_group"/>
+		</cond>
+		<for>
+			<add val='30' order='0x10' stat='mDef'/>
+		</for>
+	</item>
+	<item id='12748' name="Sapphire Pendant">
+		<cond msgId="600">
+			<uc category="item_equip_pet_group;baby_pet_group;upgrade_baby_pet_group;grown_up_wolf_group"/>
+		</cond>
+		<for>
+			<add val='40' order='0x10' stat='mDef'/>
+		</for>
+	</item>
+	<item id='12749' name="Diamond Pendant">
+		<cond msgId="600">
+			<uc category="item_equip_pet_group;baby_pet_group;upgrade_baby_pet_group;grown_up_wolf_group"/>
+		</cond>
+		<for>
+			<add val='52' order='0x10' stat='mDef'/>
+		</for>
+	</item>
+	<item id='12750' name="Enria Pendant">
+		<cond msgId="600">
+			<uc category="item_equip_pet_group;baby_pet_group;upgrade_baby_pet_group;grown_up_wolf_group"/>
+		</cond>
+		<for>
+			<add val='66' order='0x10' stat='mDef'/>
+		</for>
+	</item>
+	<item id='12751' name="Thons Pendant">
+		<cond msgId="600">
+			<uc category="item_equip_pet_group;baby_pet_group;upgrade_baby_pet_group;grown_up_wolf_group"/>
+		</cond>
+		<for>
+			<add val='80' order='0x10' stat='mDef'/>
+		</for>
+	</item>
+	<item id='12752' name="Asofe Pendant">
+		<cond msgId="600">
+			<uc category="item_equip_pet_group;baby_pet_group;upgrade_baby_pet_group;grown_up_wolf_group"/>
+		</cond>
+		<for>
+			<add val='94' order='0x10' stat='mDef'/>
+		</for>
+	</item>
+</list>

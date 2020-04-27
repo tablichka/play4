@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="15710" name="Sealed Moirai Shield">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="15741" name="Sealed Elegia Shield">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="15758" name="Sealed Vorpal Shield">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+</list>

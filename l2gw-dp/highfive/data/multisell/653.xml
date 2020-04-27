@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- giran_feud_product -->
+<list>
+	<config showall="true" notax="true" keepenchanted="false" />
+	<item>
+		<production id="13733" count="1"/>	<!-- Blessed Scroll of Escape: Giran -->
+		<ingredient id="57" count="250000"/>	<!-- Adena -->
+		<ingredient id="13759" count="40"/>	<!-- Giran Territory Badge -->
+	</item>
+	<item>
+		<production id="13715" count="1"/>	<!-- Giran Supply Box - Belt -->
+		<ingredient id="57" count="40000"/>	<!-- Adena -->
+		<ingredient id="13759" count="7"/>	<!-- Giran Territory Badge -->
+	</item>
+	<item>
+		<production id="13706" count="1"/>	<!-- Giran Supply Box - Magic Pouch -->
+		<ingredient id="57" count="20000"/>	<!-- Adena -->
+		<ingredient id="13759" count="4"/>	<!-- Giran Territory Badge -->
+	</item>
+	<item>
+		<production id="13697" count="1"/>	<!-- Giran Supply Box - Magic Pin -->
+		<ingredient id="57" count="40000"/>	<!-- Adena -->
+		<ingredient id="13759" count="8"/>	<!-- Giran Territory Badge -->
+	</item>
+	<item>
+		<production id="14551" count="1"/>	<!-- Giran Supply Box - Belt -->
+		<ingredient id="57" count="400000"/>	<!-- Adena -->
+		<ingredient id="13759" count="70"/>	<!-- Giran Territory Badge -->
+	</item>
+	<item>
+		<production id="14542" count="1"/>	<!-- Giran Supply Box - Magic Pouch -->
+		<ingredient id="57" count="80000"/>	<!-- Adena -->
+		<ingredient id="13759" count="16"/>	<!-- Giran Territory Badge -->
+	</item>
+	<item>
+		<production id="14533" count="1"/>	<!-- Giran Supply Box - Magic Pin -->
+		<ingredient id="57" count="120000"/>	<!-- Adena -->
+		<ingredient id="13759" count="32"/>	<!-- Giran Territory Badge -->
+	</item>
+	<item>
+		<production id="14895" count="1"/>	<!-- Giran Supply Box - Magic Ornament -->
+		<ingredient id="57" count="80000"/>	<!-- Adena -->
+		<ingredient id="13759" count="16"/>	<!-- Giran Territory Badge -->
+	</item>
+	<item>
+		<production id="14886" count="1"/>	<!-- Giran Supply Box - Magic Rune Clip -->
+		<ingredient id="57" count="120000"/>	<!-- Adena -->
+		<ingredient id="13759" count="32"/>	<!-- Giran Territory Badge -->
+	</item>
+	<item>
+		<production id="13742" count="1"/>	<!-- Giran Wind Resistance Necklace -->
+		<ingredient id="57" count="3596400"/>	<!-- Adena -->
+		<ingredient id="13759" count="160"/>	<!-- Giran Territory Badge -->
+	</item>
+	<item>
+		<production id="14594" count="1"/>	<!-- Giran Fire Resistance Ring -->
+		<ingredient id="57" count="1798200"/>	<!-- Adena -->
+		<ingredient id="13759" count="80"/>	<!-- Giran Territory Badge -->
+	</item>
+	<item>
+		<production id="14666" count="1"/>	<!-- Giran Protection Earring -->
+		<ingredient id="57" count="2696400"/>	<!-- Adena -->
+		<ingredient id="13759" count="120"/>	<!-- Giran Territory Badge -->
+	</item>
+	<item>
+		<production id="15284" count="1"/>	<!-- Giran Wind Royal Guard Necklace -->
+		<ingredient id="57" count="3596400"/>	<!-- Adena -->
+		<ingredient id="13759" count="160"/>	<!-- Giran Territory Badge -->
+	</item>
+	<item>
+		<production id="15293" count="1"/>	<!-- Giran Fire Royal Guard Ring -->
+		<ingredient id="57" count="1798200"/>	<!-- Adena -->
+		<ingredient id="13759" count="80"/>	<!-- Giran Territory Badge -->
+	</item>
+	<item>
+		<production id="14803" count="1"/>	<!-- Giran Guard Earring -->
+		<ingredient id="57" count="2696400"/>	<!-- Adena -->
+		<ingredient id="13759" count="120"/>	<!-- Giran Territory Badge -->
+	</item>
+	<item>
+		<production id="14810" count="1"/>	<!-- Blue Talisman - Buff Cancel -->
+		<ingredient id="57" count="14500"/>	<!-- Adena -->
+		<ingredient id="13759" count="13"/>	<!-- Giran Territory Badge -->
+	</item>
+	<item>
+		<production id="14811" count="1"/>	<!-- Blue Talisman - Buff Steal -->
+		<ingredient id="57" count="15600"/>	<!-- Adena -->
+		<ingredient id="13759" count="14"/>	<!-- Giran Territory Badge -->
+	</item>
+	<item>
+		<production id="14815" count="1"/>	<!-- Territory Health Recovery Potion -->
+		<ingredient id="57" count="21000"/>	<!-- Adena -->
+		<ingredient id="13759" count="8"/>	<!-- Giran Territory Badge -->
+	</item>
+	<item>
+		<production id="14816" count="1"/>	<!-- Territory Mana Recovery Potion -->
+		<ingredient id="57" count="21000"/>	<!-- Adena -->
+		<ingredient id="13759" count="8"/>	<!-- Giran Territory Badge -->
+	</item>
+	<item>
+		<production id="14817" count="1"/>	<!-- Territory CP Recovery Potion -->
+		<ingredient id="57" count="21000"/>	<!-- Adena -->
+		<ingredient id="13759" count="8"/>	<!-- Giran Territory Badge -->
+	</item>
+	<item>
+		<production id="9625" count="1"/>	<!-- Giant's Codex - Oblivion -->
+		<ingredient id="57" count="1000000"/>	<!-- Adena -->
+		<ingredient id="13759" count="20"/>	<!-- Giran Territory Badge -->
+	</item>
+	<item>
+		<production id="9626" count="1"/>	<!-- Giant's Codex - Discipline -->
+		<ingredient id="57" count="1260000"/>	<!-- Adena -->
+		<ingredient id="13759" count="54"/>	<!-- Giran Territory Badge -->
+	</item>
+	<item>
+		<production id="9627" count="1"/>	<!-- Giant's Codex - Mastery -->
+		<ingredient id="57" count="1800000"/>	<!-- Adena -->
+		<ingredient id="13759" count="80"/>	<!-- Giran Territory Badge -->
+	</item>
+	<item>
+		<production id="13480" count="1"/>	<!-- Circlet of Giran Sage -->
+		<ingredient id="57" count="2100000"/>	<!-- Adena -->
+		<ingredient id="13759" count="80"/>	<!-- Giran Territory Badge -->
+	</item>
+	<item>
+		<production id="14582" count="1"/>	<!-- Apella Combat Helmet -->
+		<ingredient id="57" count="801600"/>	<!-- Adena -->
+		<ingredient id="13759" count="107"/>	<!-- Giran Territory Badge -->
+	</item>
+	<item>
+		<production id="14590" count="1"/>	<!-- Apella Combat Silk Gloves -->
+		<ingredient id="57" count="534000"/>	<!-- Adena -->
+		<ingredient id="13759" count="71"/>	<!-- Giran Territory Badge -->
+	</item>
+	<item>
+		<production id="14586" count="1"/>	<!-- Apella Combat Clothes -->
+		<ingredient id="57" count="2604600"/>	<!-- Adena -->
+		<ingredient id="13759" count="347"/>	<!-- Giran Territory Badge -->
+	</item>
+	<item>
+		<production id="14965" count="1"/>	<!-- Black Skeleton Circlet -->
+		<ingredient id="57" count="2100000"/>	<!-- Adena -->
+		<ingredient id="13759" count="80"/>	<!-- Giran Territory Badge -->
+	</item>
+	<item>
+		<production id="14564" count="1"/>	<!-- Slasher of Esthus Family -->
+		<ingredient id="57" count="21000000"/>	<!-- Adena -->
+		<ingredient id="13759" count="800"/>	<!-- Giran Territory Badge -->
+	</item>
+	<item>
+		<production id="14565" count="1"/>	<!-- Great Hammer of Esthus Family -->
+		<ingredient id="57" count="21000000"/>	<!-- Adena -->
+		<ingredient id="13759" count="800"/>	<!-- Giran Territory Badge -->
+	</item>
+</list>

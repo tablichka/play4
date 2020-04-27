@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="9391" name="Human Circlet">
+		<cond msgId="1518">
+			<player race="human" />
+		</cond>
+	</item>
+	<item id="9392" name="Elven Circlet">
+		<cond msgId="1518">
+			<player race="elf" />
+		</cond>
+	</item>
+	<item id="9393" name="Dark Elven Circlet">
+		<cond msgId="1518">
+			<player race="darkelf" />
+		</cond>
+	</item>
+	<item id="9394" name="Orcish Circlet">
+		<cond msgId="1518">
+			<player race="orc" />
+		</cond>
+	</item>
+	<item id="9395" name="Dwarven Circlet">
+		<cond msgId="1518">
+			<player race="dwarf" />
+		</cond>
+	</item>
+	<item id="9396" name="Kamaelic Circlet">
+		<cond msgId="1518">
+			<player race="kamael" />
+		</cond>
+	</item>
+	<item id="9397" name="Shield Master Circlet">
+		<cond msgId="1518">
+			<and>
+				<not>
+					<target classId="5,6,20,33,90,91,99,106" />
+				</not>
+				<player subJobActive="false" />
+			</and>
+		</cond>
+	</item>
+	<item id="9398" name="Bard Circlet">
+		<cond msgId="1518">
+			<and>
+				<not>
+					<target classId="21,34,100,107" />
+				</not>
+				<player subJobActive="false" />
+			</and>
+		</cond>
+	</item>
+	<item id="9399" name="Force Master Circlet">
+		<cond msgId="1518">
+			<and>
+				<not>
+					<target classId="2,48,88,114" />
+				</not>
+				<player subJobActive="false" />
+			</and>
+		</cond>
+	</item>
+</list>

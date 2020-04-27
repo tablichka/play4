@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<item id='4038' name="Food For Hatchling">
+		<cond msgId="113">
+			<uc category="hatchling_group"/>
+		</cond>
+		<for/>
+	</item>
+	<item id='4098' name="Avadon Boots Design">
+	<!-- Main ingredient definitely required for a Dwarf to make Avadon Boots. Can also be sold at ordinary shops. -->
+		<for/>
+	</item>
+
+	<item id='4099' name="Doom Boots Part">
+	<!-- Main ingredient definitely required for a Dwarf to make Doom Boots. Can also be sold at ordinary shops. -->
+		<for/>
+	</item>
+
+</list>

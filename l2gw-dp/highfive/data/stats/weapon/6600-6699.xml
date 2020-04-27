@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="6604" name="Demon Splinter - Critical Stun">
+		<for>
+			<skill id="3571" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="6609" name="Arcana Mace - MP Regeneration">
+		<for>
+			<mul val="1.1" order="0x50" stat="regMp" />
+		</for>
+	</item>
+	<item id="6611" name="Infinity Blade">
+		<cond msgId="1518">
+			<and>
+				<isHero/>
+				<not>
+					<player race="kamael" />
+				</not>
+			</and>
+		</cond>
+		<for>
+			<add val="250" order="0x40" stat="attackHoly" />
+			<skill id="3579" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="6612" name="Infinity Cleaver">
+		<cond msgId="1518">
+			<and>
+				<isHero/>
+				<not>
+					<player race="kamael" />
+				</not>
+			</and>
+		</cond>
+		<for>
+			<add val="250" order="0x40" stat="attackHoly" />
+		</for>
+	</item>
+	<item id="6613" name="Infinity Axe">
+		<cond msgId="1518">
+			<and>
+				<isHero/>
+				<not>
+					<player race="kamael" />
+				</not>
+			</and>
+		</cond>
+		<for>
+			<add val="250" order="0x40" stat="attackHoly" />
+			<skill id="3581" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="6614" name="Infinity Rod">
+		<cond msgId="1518">
+			<and>
+				<isHero/>
+				<not>
+					<player race="kamael" />
+				</not>
+			</and>
+		</cond>
+		<for>
+			<add val="250" order="0x40" stat="attackHoly" />
+			<skill id="3598" level="1" chance="3" action="magic" />
+		</for>
+	</item>
+	<item id="6615" name="Infinity Crusher">
+		<cond msgId="1518">
+			<and>
+				<isHero/>
+				<not>
+					<player race="kamael" />
+				</not>
+			</and>
+		</cond>
+		<for>
+			<add val="250" order="0x40" stat="attackHoly" />
+			<skill id="3584" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="6616" name="Infinity Scepter">
+		<cond msgId="1518">
+			<and>
+				<isHero/>
+				<not>
+					<player race="kamael" />
+				</not>
+			</and>
+		</cond>
+		<for>
+			<add val="250" order="0x40" stat="attackHoly" />
+			<skill id="3596" level="1" chance="3" action="magic" />
+		</for>
+	</item>
+	<item id="6617" name="Infinity Stinger">
+		<cond msgId="1518">
+			<and>
+				<isHero/>
+				<not>
+					<player race="kamael" />
+				</not>
+			</and>
+		</cond>
+		<for>
+			<add val="250" order="0x40" stat="attackHoly" />
+			<skill id="3590" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="6618" name="Infinity Fang">
+		<cond msgId="1518">
+			<and>
+				<isHero/>
+				<not>
+					<player race="kamael" />
+				</not>
+			</and>
+		</cond>
+		<for>
+			<add val="250" order="0x40" stat="attackHoly" />
+			<skill id="3588" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="6619" name="Infinity Bow">
+		<cond msgId="1518">
+			<and>
+				<isHero/>
+				<not>
+					<player race="kamael" />
+				</not>
+			</and>
+		</cond>
+		<for>
+			<add val="250" order="0x40" stat="attackHoly" />
+			<skill id="3594" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="6620" name="Infinity Wing">
+		<cond msgId="1518">
+			<and>
+				<isHero/>
+				<not>
+					<player race="kamael" />
+				</not>
+			</and>
+		</cond>
+		<for>
+			<add val="250" order="0x40" stat="attackHoly" />
+			<skill id="3586" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="6621" name="Infinity Spear">
+		<cond msgId="1518">
+			<and>
+				<isHero/>
+				<not>
+					<player race="kamael" />
+				</not>
+			</and>
+		</cond>
+		<for>
+			<add val="250" order="0x40" stat="attackHoly" />
+			<set val="66" order="0x08" stat="pAtkRange" />
+			<skill id="3592" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="6678" name="Sealed Imperial Crusader Shield">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+</list>

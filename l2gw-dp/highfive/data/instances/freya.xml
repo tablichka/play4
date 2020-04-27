@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+<instances>
+
+	<instance id="137" name="Ice Queen's Castle" max="50" type="137" dispel="false" premiumReuse="* * * * *" reuseReset="* * * * *">
+		<party min="1" max="1"/>
+		<level min="82" max="85"/>
+		<timeLimit min="20"/>
+		<noUserTimeout min="-1"/>
+		<startLoc x="114000" y="-112357" z="-11200"/>
+		<spawnlist>
+			<door id="23140101" open="true"/>
+		</spawnlist>
+	</instance>
+
+	<instance id="138" name="Mithril Mine" max="50" type="138" dispel="false" premiumReuse="* * * * *" reuseReset="* * * * *">
+		<party min="1" max="1"/>
+		<level min="82" max="85"/>
+		<timeLimit min="20"/>
+		<noUserTimeout min="-1"/>
+		<startLoc x="186852" y="-173492" z="-3763"/>
+	</instance>
+
+	<instance id="139" name="Ice Queen's Castle" max="10" type="139" dispel="true" premiumReuse="30 6 * * 4,7" reuseReset="30 6 * * 4,7">
+		<party min="10" max="27"/>
+		<level min="82" max="85"/>
+		<timeLimit min="120"/>
+		<noUserTimeout min="10"/>
+		<startPos type="random"/>
+		<startLoc x="114185" y="-112435" z="-11210"/>
+		<startLoc x="114183" y="-112280" z="-11210"/>
+		<startLoc x="114024" y="-112435" z="-11210"/>
+		<startLoc x="114024" y="-112278" z="-11210"/>
+		<startLoc x="113865" y="-112435" z="-11210"/>
+		<startLoc x="113865" y="-112276" z="-11210"/>
+		<endLoc x="115717" y="-125734" z="-3392"/>
+		<spawnlist>
+			<door id="23140101"/>
+		</spawnlist>
+	</instance>
+
+	<instance id="140" name="Jinia Guild Hideout" max="30" type="140" dispel="false" premiumReuse="* * * * *" reuseReset="* * * * *">
+		<party min="1" max="1"/>
+		<level min="82" max="85"/>
+		<timeLimit min="5"/>
+		<noUserTimeout min="-1"/>
+		<startLoc x="-23530" y="-8963" z="-5413"/>
+	</instance>
+
+	<instance id="141" name="Jinia Guild Hideout" max="30" type="141" dispel="false" premiumReuse="* * * * *" reuseReset="* * * * *">
+		<party min="1" max="1"/>
+		<level min="82" max="85"/>
+		<timeLimit min="5"/>
+		<noUserTimeout min="-1"/>
+		<startLoc x="-23530" y="-8963" z="-5413"/>
+	</instance>
+
+	<instance id="144" name="Ice Queen's Castle (Ultimate Battle)" max="10" type="139" dispel="true" premiumReuse="30 6 * * 4,7" reuseReset="30 6 * * 4,7">
+		<party min="10" max="27"/>
+		<level min="82" max="85"/>
+		<timeLimit min="120"/>
+		<noUserTimeout min="10"/>
+		<startPos type="random"/>
+		<startLoc x="114185" y="-112435" z="-11210"/>
+		<startLoc x="114183" y="-112280" z="-11210"/>
+		<startLoc x="114024" y="-112435" z="-11210"/>
+		<startLoc x="114024" y="-112278" z="-11210"/>
+		<startLoc x="113865" y="-112435" z="-11210"/>
+		<startLoc x="113865" y="-112276" z="-11210"/>
+		<endLoc x="115717" y="-125734" z="-3392"/>
+		<spawnlist>
+			<door id="23140101"/>
+		</spawnlist>
+	</instance>
+
+	<instance id="145" name="Jinia Guild Hideout" max="30" type="145" dispel="false" premiumReuse="* * * * *" reuseReset="* * * * *">
+		<party min="1" max="1"/>
+		<level min="82" max="85"/>
+		<timeLimit min="5"/>
+		<noUserTimeout min="-1"/>
+		<startLoc x="-23530" y="-8963" z="-5413"/>
+	</instance>
+
+	<instance id="146" name="Jinia Guild Hideout" max="30" type="146" dispel="false" premiumReuse="* * * * *" reuseReset="* * * * *">
+		<party min="1" max="1"/>
+		<level min="82" max="85"/>
+		<timeLimit min="5"/>
+		<noUserTimeout min="-1"/>
+		<startLoc x="-23530" y="-8963" z="-5413"/>
+	</instance>
+
+</instances>

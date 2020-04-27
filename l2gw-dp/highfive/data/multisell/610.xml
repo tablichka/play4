@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- fort_bracelet_list -->
+<list>
+	<config showall="true" notax="true"/>
+	<item>
+		<production id="9589" count="1"/>	<!-- Iron Bracelet -->
+		<ingredient id="9912" count="216"/>	<!-- Knight's Epaulette -->
+	</item>
+	<item>
+		<production id="9590" count="1"/>	<!-- Bronze Bracelet -->
+		<ingredient id="9912" count="480"/>	<!-- Knight's Epaulette -->
+	</item>
+	<item>
+		<production id="9591" count="1"/>	<!-- Steel Bracelet -->
+		<ingredient id="9912" count="1144"/>	<!-- Knight's Epaulette -->
+	</item>
+	<item>
+		<production id="9592" count="1"/>	<!-- Mithril Bracelet -->
+		<ingredient id="9912" count="3556"/>	<!-- Knight's Epaulette -->
+	</item>
+</list>

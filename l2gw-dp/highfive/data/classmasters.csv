@@ -1,0 +1,80 @@
+# Classmasters for adding/changing subclasses.
+# Format:
+# type1;classId1,classId2,classId3...
+
+# Fairen (Ivory Tower)
+# Brecson (Oren)
+# Oltlin (Aden)
+# Angus (Giran)
+# Xairakin (Heine)
+# Samael (Goddard)
+# Drizzit (Schuttgart)
+# Andromeda (Rune)
+# Tifaren (Rune)
+# Medown (Hunters Village)
+darkElfAll;33,34,36,37,40,41,43
+
+# Valleria, Arkenias (Ivory Tower)
+# Drikiyan (Aden)
+# Jurek (Giran)
+# Halaster (Goddard)
+# Javier (Schuttgart)
+# Valdis (Rune)
+# Scraide (Hunters Village)
+mages;12,13,14,27,28
+
+# Klaus Blackbird (Oren)
+# Sedrick (Aden)
+# Hannavalt (Giran)
+# Marcus (Heine)
+# Bernhard (Goddard)
+# Hector (Schuttgart)
+# Siegmund (Rune)
+# Siria (Hunters Village)
+fighters;2,3,5,6,8,9,20,21,23,24
+
+# Croop (Oren)
+# Klump (Aden)
+# Gesto (Giran)
+# Natools (Heine)
+# Mona (Goddard)
+# Yasheni (Schuttgart)
+# Donal (Rune)
+# Baxt (Hunters Village)
+dwarfWarehouse;55
+
+# Karia (Oren)
+# Ladanza (Aden)
+# Penatus (Giran)
+# Tushku (Heine)
+# Aklan (Goddard)
+# Shaka (Schuttgart)
+# Lambac (Rune)
+# Rahorakti (Rune)
+# Garvarentz (Hunters Village)
+orcs;46,48,51,52
+
+# Hollint (Oren)
+# Orven (Aden)
+# Maximilian (Giran)
+# Squillari (Heine)
+# Gregory (Goddard)
+# Baryl (Schuttgart)
+# Innocentin (Rune)
+supports;16,30,17
+
+# Brome (Aden)
+# Liane (Aden)
+# Hagel (Rune)
+# Ceci (Rune)
+kamael;127,128,129,130,135
+
+# Kusto (Giran)
+# Flutter (Oren)
+# Vergara (Hunters Village)
+# Ferris (Aden)
+# Bolin (Schuttgart)
+# Lombert (Rune)
+# Roman (Heine)
+# Noel (Goddard)
+dwarfBlacksmith;57

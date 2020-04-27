@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- exchange_buffalo_horn_1st_step -->
+<list>
+	<config showall="false" notax="true" keepenchanted="false"/>
+	<item>
+		<production id="7634" count="1"/>	<!-- Looted Goods - Brown Pouch -->
+		<ingredient id="7186" count="55"/>	<!-- Horn of Buffalo -->
+	</item>
+	<item>
+		<production id="7618" count="1"/>	<!-- Scroll of Escape: Ketra Orc Village -->
+		<ingredient id="7186" count="80"/>	<!-- Horn of Buffalo -->
+	</item>
+</list>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="4900" name="Staff of Evil Spirits - Magic Focus">
+		<for>
+			<skill id="1077" level="3" chance="20" action="magic" />
+		</for>
+	</item>
+	<item id="4901" name="Staff of Evil Spirits - Blessed Body">
+		<for>
+			<skill id="1045" level="5" chance="20" action="magic" />
+		</for>
+	</item>
+	<item id="4902" name="Staff of Evil Spirits - Magic Poison">
+		<for>
+			<skill id="1168" level="6" chance="6" action="magic" />
+		</for>
+	</item>
+	<item id="4904" name="Dasparion's Staff">
+		<for>
+			<skill id="1164" level="14" chance="4" action="magic" />
+		</for>
+	</item>
+	<item id="4905" name="Dasparion's Staff">
+		<for>
+			<skill id="1222" level="10" chance="4" action="magic" />
+		</for>
+	</item>
+</list>

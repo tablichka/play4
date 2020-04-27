@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<skill id="23300" levels="1" name="Ghost Piercing">
+		<set name="hitCancelTime" val="0"/>
+		<set name="magicLevel" val="83"/>
+		<set name="isMagic" val="0"/>
+		<set name="levelMod" val="1"/>
+		<set name="baseStat" val="MEN"/>
+		<set name="abnormal_time" val="10"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="abnormal_type" val="dot_attr"/>
+		<set name="element" val="dark"/>
+		<set name="elementPower" val="20"/>
+		<set name="effectPoint" val="1000"/>
+		<set name="target_type" val="enemy"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="abnormal_ve" val="poison"/>
+		<set name="isDebuff" val="true"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="true"/>
+		<for>
+			<effect name="t_hp" ticks="5" val="-300"/>
+		</for>
+	</skill>
+	<skill id="23301" levels="1" name="Dimensional Door A">
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Summons a dimensional door that moves the PC to the Dimensional Door B.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="4000"/>
+		<for/>
+	</skill>
+	<skill id="23302" levels="1" name="Dimensional Door B">
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Summons a dimensional door that moves the PC to the Dimensional Door A.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="4000"/>
+		<for/>
+	</skill>
+	<skill id="23303" levels="1" name="Move">
+		<table name="#mpConsume2">
+			1
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: none
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="castRange" val="2000"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="1500"/>
+		<for/>
+	</skill>
+	<skill id="23304" levels="1" name="Move">
+		<table name="#mpConsume2">
+			1
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: none
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="castRange" val="2000"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="1500"/>
+		<for/>
+	</skill>
+	<skill id="23305" levels="1" name="Zinenze Agathion - Yunbokhwan">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Restores all HP/MP/CP and becomes invincible for 5 seconds. But can only be used when HP is below 30%.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="200"/>
+		<for/>
+	</skill>
+	<skill id="23306" levels="1" name="Zinenze Agathion Cute Trick">
+		<set name="hitCancelTime" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Able to see the summoned Zinenze perform cute tricks.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="3000"/>
+		<for/>
+	</skill>
+	<skill id="23307" levels="1" name="Enze Agathion Cute Trick">
+		<set name="hitCancelTime" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Able to see the summoned Enze perform cute tricks.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="3000"/>
+		<for/>
+	</skill>
+	<skill id="23308" levels="1" name="Totem's Energy - Body">
+		<set name="hitCancelTime" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Increases HP Recovery Bonus by 30% and decreases damage from the topography by 80% through the mysterious totem's energy. The energy disappears when the totem becomes out of range.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23309" levels="1" name="Totem's Energy - Spirit">
+		<set name="hitCancelTime" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Increases MP Recovery Bonus by 30% through the mysterious totem's energy. The energy disappears when the totem becomes out of range.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23310" levels="1" name="Totem's Energy - Courage">
+		<set name="hitCancelTime" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Increases P. Def. by 15% through the mysterious totem's energy. The energy disappears when the totem becomes out of range.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23311" levels="1" name="Totem's Energy - Fortitude">
+		<set name="hitCancelTime" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Increases M. Def. by 25% through the mysterious totem's energy. The energy disappears when the totem becomes out of range.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23312" levels="1" name="Fall of the Dragon">
+		<set name="buff_protect_level" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Nevit's gift to honor those warriors who caused the evil dragon's fall. Increases Nevit's blessing by 3 hour(s).
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="castRange" val="1200"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23313" levels="5" name="Action Prohibit Immunity">
+		<set name="hitCancelTime" val="0"/>
+		<table name="#mpConsume1">
+			0 0 0 0 0
+		</table>
+		<table name="#mpConsume2">
+			0 0 0 0 0
+		</table>
+		<set name="mpConsume1" val="#mpConsume1"/>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Increases resistance to action-inhibiting attacks by 20%.
+		2: Increases resistance to action-inhibiting attacks by 40%.
+		3: Increases resistance to action-inhibiting attacks by 60%.
+		4: Increases resistance to action-inhibiting attacks by 80%.
+		5: Increases resistance to action-inhibiting attacks by 100%.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23314" levels="5" name="Control Prohibit Immunity">
+		<set name="hitCancelTime" val="0"/>
+		<table name="#mpConsume1">
+			0 0 0 0 0
+		</table>
+		<table name="#mpConsume2">
+			0 0 0 0 0
+		</table>
+		<set name="mpConsume1" val="#mpConsume1"/>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Increases resistance to control-inhibiting attacks by 20%.
+		2: Increases resistance to control-inhibiting attacks by 40%.
+		3: Increases resistance to control-inhibiting attacks by 60%.
+		4: Increases resistance to control-inhibiting attacks by 80%.
+		5: Increases resistance to control-inhibiting attacks by 100%.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23315" levels="5" name="Paralysis Immunity Enhance">
+		<set name="hitCancelTime" val="0"/>
+		<table name="#mpConsume1">
+			0 0 0 0 0
+		</table>
+		<table name="#mpConsume2">
+			0 0 0 0 0
+		</table>
+		<set name="mpConsume1" val="#mpConsume1"/>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Increases resistance to paralysis attacks by 20%.
+		2: Increases resistance to paralysis attacks by 40%.
+		3: Increases resistance to paralysis attacks by 60%.
+		4: Increases resistance to paralysis attacks by 80%.
+		5: Increases resistance to paralysis attacks by 100%.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23316" levels="5" name="Petrification Immunity Enhance">
+		<set name="hitCancelTime" val="0"/>
+		<table name="#mpConsume1">
+			0 0 0 0 0
+		</table>
+		<table name="#mpConsume2">
+			0 0 0 0 0
+		</table>
+		<set name="mpConsume1" val="#mpConsume1"/>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Increases resistance to petrification attacks by 20%.
+		2: Increases resistance to petrification attacks by 40%.
+		3: Increases resistance to petrification attacks by 60%.
+		4: Increases resistance to petrification attacks by 80%.
+		5: Increases resistance to petrification attacks by 100%.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23317" levels="5" name="Fear Immunity Enhance">
+		<set name="hitCancelTime" val="0"/>
+		<table name="#mpConsume1">
+			0 0 0 0 0
+		</table>
+		<table name="#mpConsume2">
+			0 0 0 0 0
+		</table>
+		<set name="mpConsume1" val="#mpConsume1"/>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Increases resistance to fear attacks by 20%.
+		2: Increases resistance to fear attacks by 40%.
+		3: Increases resistance to fear attacks by 60%.
+		4: Increases resistance to fear attacks by 80%.
+		5: Increases resistance to fear attacks by 100%.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23318" levels="1" name="Cat the Ranger Boots">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<table name="#mpConsume1">
+			0
+		</table>
+		<table name="#mpConsume2">
+			0
+		</table>
+		<set name="mpConsume1" val="#mpConsume1"/>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Recovers the master's HP by 10%. For 1 minute(s), receives power from Cat the Ranger to increase the master's resistance to debuff attacks by 80%, resistance to buff canceling attacks by 40%, Speed by 10%, P. Def. by 20%, and M. Def. by 20%. Does not receive preemptive attacks from monsters. Reuse delay 10 minutes.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="castRange" val="900"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23319" levels="1" name="Blood Seeker">
+		<set name="magicLevel" val="84"/>
+		<set name="power" val="2616"/>
+		<set name="isMagic" val="0"/>
+		<set name="castRange" val="80"/>
+		<set name="hitCancelTime" val="0"/>
+		<set name="activateRate" val="90"/>
+		<set name="levelMod" val="1"/>
+		<set name="baseStat" val="CON"/>
+		<set name="abnormal_time" val="20"/>
+		<set name="abnormalLevel" val="10"/>
+		<set name="abnormal_type" val="bleeding"/>
+		<set name="element" val="dark"/>
+		<set name="elementPower" val="180"/>
+		<set name="resistType" val="BLEED"/>
+		<set name="effectPoint" val="100"/>
+		<set name="target_type" val="enemy"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<set name="abnormal_ve" val="bleeding"/>
+		<set name="isDebuff" val="true"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="true"/>
+		<for>
+			<effect name="i_p_attack"/>
+			<effect name="t_hp" ticks="5" val="-52"/>
+		</for>
+	</skill>
+	<skill id="23320" levels="1" name="Greedy Throat">
+		<set name="hitCancelTime" val="0"/>
+		<set name="magicLevel" val="83"/>
+		<set name="isMagic" val="0"/>
+		<set name="castRange" val="80"/>
+		<set name="hitCancelTime" val="0"/>
+		<set name="activateRate" val="90"/>
+		<set name="levelMod" val="1"/>
+		<set name="baseStat" val="CON"/>
+		<set name="abnormal_time" val="20"/>
+		<set name="abnormalLevel" val="10"/>
+		<set name="abnormal_type" val="bleeding"/>
+		<set name="element" val="dark"/>
+		<set name="elementPower" val="180"/>
+		<set name="resistType" val="BLEED"/>
+		<set name="effectPoint" val="100"/>
+		<set name="target_type" val="enemy"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<set name="abnormal_ve" val="bleeding"/>
+		<set name="isDebuff" val="true"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="true"/>
+		<for>
+			<effect name="t_hp" ticks="5" val="-67"/>
+		</for>
+	</skill>
+	<skill id="23321" levels="1" name="Draconic Evolver">
+		<set name="magicLevel" val="82"/>
+		<set name="isMagic" val="1"/>
+		<set name="castRange" val="80"/>
+		<set name="hitCancelTime" val="0"/>
+		<set name="activateRate" val="60"/>
+		<set name="levelMod" val="1"/>
+		<set name="baseStat" val="MEN"/>
+		<set name="abnormal_time" val="10"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="abnormal_type" val="fear"/>
+		<set name="resistType" val="FEAR"/>
+		<set name="effectPoint" val="100"/>
+		<set name="target_type" val="enemy"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<set name="abnormal_ve" val="blue_mark"/>
+		<set name="isDebuff" val="true"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<for>
+			<effect name="t_fear">
+				<mul order="0x30" stat="fearRcpt" val="0"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="23322" levels="10" name="Demonic Desire">
+		<set name="magicLevel" val="82"/>
+		<set name="isMagic" val="0"/>
+		<set name="castRange" val="80"/>
+		<set name="hitCancelTime" val="0"/>
+		<set name="activateRate" val="80"/>
+		<set name="levelMod" val="2"/>
+		<set name="baseStat" val="CON"/>
+		<set name="abnormal_time" val="9"/>
+		<set name="abnormalLevel" val="13"/>
+		<set name="abnormal_type" val="pd_down"/>
+		<set name="resistType" val="STUN"/>
+		<set name="effectPoint" val="100"/>
+		<set name="target_type" val="enemy"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<set name="isDebuff" val="true"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="true"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="pDef" val="0.77"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="23323" levels="10" name="Fury of Darkness">
+		<set name="magicLevel" val="82"/>
+		<set name="isMagic" val="0"/>
+		<set name="castRange" val="80"/>
+		<set name="hitCancelTime" val="0"/>
+		<set name="activateRate" val="80"/>
+		<set name="levelMod" val="2"/>
+		<set name="baseStat" val="CON"/>
+		<set name="abnormal_time" val="9"/>
+		<set name="abnormalLevel" val="13"/>
+		<set name="abnormal_type" val="Stun"/>
+		<set name="resistType" val="STUN"/>
+		<set name="effectPoint" val="100"/>
+		<set name="target_type" val="enemy"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<set name="abnormal_ve" val="stun"/>
+		<set name="isDebuff" val="true"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="true"/>
+		<for>
+			<effect>
+				<add order="0x10" stat="block_act" val="1"/>
+				<mul order="0x30" stat="stunRcpt" val="0"/>
+				<mul order="0x30" stat="pDef" val="0.77"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="23324" levels="1" name="Jet Black Typhoon">
+		<set name="magicLevel" val="71"/>
+		<set name="isMagic" val="1"/>
+		<set name="hitCancelTime" val="0"/>
+		<set name="abnormal_time" val="15"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="abnormal_type" val="casting_time_down"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="mAtkSpd" val="1.15"/>
+				<add order="0x40" stat="attackWind" val="30"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="23325" levels="1" name="Enlarge - Luckpy">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="0"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="hitTime" val="2000"/>
+		<set name="magicLevel" val="85"/>
+		<set name="levelMod" val="0"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23326" levels="1" name="Reduce - Luckpy">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="0"/>
+		<set name="ride_state" val="ride_none"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="hitTime" val="2000"/>
+		<set name="magicLevel" val="85"/>
+		<set name="levelMod" val="0"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23327" levels="1" name="Boss Test - Weaken">
+		<set name="hitCancelTime" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: A skill to test a boss mob - Weaken
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="castRange" val="1500"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23328" levels="1" name="Boss Test - Strengthen">
+		<set name="hitCancelTime" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: A skill to test a boss mob - Strengthen
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="castRange" val="1500"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="23329" levels="1" name="Lantern Agathion's Gift1">
+		<set name="hitCancelTime" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: none
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="2700"/>
+		<for/>
+	</skill>
+	<skill id="23330" levels="1" name="Lantern Agathion's Gift2">
+		<set name="hitCancelTime" val="0"/>
+		<!--
+		Generated from High Five part 4 client by rage
+		1: none
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="2700"/>
+		<for/>
+	</skill>
+	<skill id="23331" levels="1" name="Lantern Agathion's Gift3">
+		<set name="hitCancelTime" val="0"/>
+		<!--
+		Generated from High Five part 4 client by rage
+		1: none
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="2700"/>
+		<for/>
+	</skill>
+	<skill id="23332" levels="1" name="Lantern Agathion's Gift4">
+		<set name="hitCancelTime" val="0"/>
+		<!--
+		Generated from High Five part 4 client by rage
+		1: none
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="2700"/>
+		<for/>
+	</skill>
+	<skill id="23333" levels="1" name="Agathion's New Year's Wish">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="2"/>
+		<!--
+		Generated from High Five part 4 client by rage
+		1: Through the power of the Lantern Agathion, vitality is maintained and not consumed.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="2000"/>
+		<for/>
+	</skill>
+	<skill id="23334" levels="1" name="Lantern Agathion Cute Trick">
+		<set name="hitCancelTime" val="0"/>
+		<!--
+		Generated from High Five part 4 client by rage
+		1: Able to see the summoned Lantern's perform cute tricks.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="3000"/>
+		<for/>
+	</skill>
+	<skill id="23335" levels="1" name="Agathion's New Year's Wish">
+		<set name="hitCancelTime" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Vitality is maintained with the power of Juju Agathion.
+		<table name="#mpConsume">
+		0 
+		</table>
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="2000"/>
+		<for/>
+	</skill>
+	<skill id="23336" levels="1" name="Juju Agathion Cute Trick">
+		<set name="hitCancelTime" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Summoned Juju performs cute tricks.
+		<table name="#mpConsume">
+		0 
+		</table>
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="3000"/>
+		<for/>
+	</skill>
+	<skill id="23337" levels="1" name="Juju Agathion's Gift 1">
+		<set name="hitCancelTime" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: none
+		<table name="#mpConsume">
+		0 
+		</table>
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="2700"/>
+		<for/>
+	</skill>
+	<skill id="23338" levels="1" name="Juju Agathion's Gift 2">
+		<set name="hitCancelTime" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: none
+		<table name="#mpConsume">
+		0 
+		</table>
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="2700"/>
+		<for/>
+	</skill>
+	<skill id="23339" levels="1" name="Juju Agathion's Gift 3">
+		<set name="hitCancelTime" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: none
+		<table name="#mpConsume">
+		0 
+		</table>
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="2700"/>
+		<for/>
+	</skill>
+	<skill id="23340" levels="1" name="Juju Agathion's Gift 4">
+		<set name="hitCancelTime" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: none
+		<table name="#mpConsume">
+		0 
+		</table>
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="2700"/>
+		<for/>
+	</skill>
+</list>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="16904" name="Full Plate Shield of Friendship - 90 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="16914" name="Brigandine Shield of Friendship - 90 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="16919" name="Friendship Shield of Nightmare - 90 day limited period">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+</list>

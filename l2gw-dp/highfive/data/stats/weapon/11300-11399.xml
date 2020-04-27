@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="11303" name="Icarus Disperser - Confusion - Evasion">
+		<for>
+			<add order="0x40" stat="rEvas" val="5" />
+		</for>
+	</item>
+	<item id="11304" name="Icarus Disperser - Confusion - Critical Damage">
+		<for>
+			<add order="0x40" stat="rEvas" val="5" />
+		</for>
+	</item>
+	<item id="11331" name="Icarus Trident - Thunder - Critical Stun">
+		<for>
+			<skill id="3070" level="4" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="11362" name="Zubei's Shield">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="11374" name="Avadon Shield">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="11385" name="Doom Shield">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+</list>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<item id='14818' name="greater_food_of_pet">
+		<cond msgId="113">
+			<uc category="grown_up_wolf_group"/>
+		</cond>
+		<for/>
+	</item>
+	<item id='14898' name="Innadril Supply Box - Magic Ornament - Grade S, A">
+	<!-- Box bearing the unique pattern of Innadril. A high grade magic pouch that's attached to the belt can be acquired at a certain rate. -->
+		<for/>
+	</item>
+
+	<item id='14899' name="Goddard Supply Box - Magic Ornament - Grade S, A">
+	<!-- Box bearing the unique pattern of Goddard. A high grade magic pouch that's attached to the belt can be acquired at a certain rate. -->
+		<for/>
+	</item>
+
+</list>

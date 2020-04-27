@@ -1,0 +1,1840 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<skill id="22100" levels="1" name="Soul Scent">
+		<set name="itemConsumeId" val="20603"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> 400
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="1500"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- When using a monster's corpse, comforts the monster's soul to borrow the monster's power temporarily. For 2 minutes, increases Max HP by 40%, Max MP by 40%, Max CP by 40%, physical P. Def. by 30%, M. Def. by 30%, moving speed by 20, and M. Atk. by 45%. Decreases MP consumption during skill use by 10%. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22101" levels="1" name="Fortune of Love Box">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="20590,1;40;9207,1;60;"/>
+		</for>
+	</skill>
+	<skill id="22102" levels="1" name="Soul Magic Box">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="86400000"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration" skillLevel="1" options="20623;1"/>
+		</for>
+	</skill>
+	<skill id="22103" levels="1" name="Blessed Scroll of Escape - event">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="20583"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="200"/>
+		<set name="flyingTransformUse" val="true"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22104" levels="1" name="Blessed Scroll of Resurrection - event">
+		<set name="itemConsumeId" val="20584"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> 400
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22105" levels="1" name="Wooldy Summon Scroll - Event">
+		<set name="hitCancelTime" val="1500"/>
+		<set name="itemConsumeId" val="20707"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22106" levels="1" name="Verdandi Summon Scroll - Event">
+		<set name="hitCancelTime" val="1500"/>
+		<set name="itemConsumeId" val="20708"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22107" levels="1" name="Skooldy Summon Scroll - Event">
+		<set name="hitCancelTime" val="1500"/>
+		<set name="itemConsumeId" val="20709"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22108" levels="1" name="Halloween Toy Chest">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="20712,1;20;20713,1;20;20714,1;20;20715,1;20;20716,1;20;"/>
+		</for>
+	</skill>
+	<skill id="22109" levels="1" name="Shiny Halloween Toy Chest">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="20718,1;20;20719,1;20;20720,1;20;20721,1;20;20722,1;20;"/>
+		</for>
+	</skill>
+	<skill id="22110" levels="1" name="Lucky Sky Lantern Summon">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="20728"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22111" levels="1" name="Ambient Sky Lantern Summon">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="20729"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22112" levels="1" name="Sway Sky Lantern Summon">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="20730"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22113" levels="1" name="Comfort Sky Lantern Summon">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="20731"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22114" levels="1" name="Scroll of Transformation Box">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="20364,1;33;20365,1;33;20366,1;34;"/>
+		</for>
+	</skill>
+	<skill id="22115" levels="1" name="White Bearded Santa's Weapon Exchange Ticket Box">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="20758"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="20755,1;99.99949;20757,1;0.00051;"/>
+		</for>
+	</skill>
+	<skill id="22116" levels="1" name="Summon Flames Box">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="20788"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22117" levels="1" name="Flames Box Firework">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22118" levels="1" name="Warmth of Kotatz">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- The Warmth of Kotatz can be felt. HP regeneration is increased by 40%. CP regeneration is increased by 30%. MP regeneration is increased by 20%. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22119" levels="1" name="Love for All Seasons">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="itemConsumeId" val="20876"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- For 1 hour, increases M. Atk. by 75% and the chance of Prominent Damage occurring through damage magic by 2. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22120" levels="1" name="Happy New Year">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="itemConsumeId" val="20877"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- For 1 hour, increases Critical attack power by 35%, Critical attack rate by 30, and accuracy by 4. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22121" levels="1" name="Female Aniruddha">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="itemConsumeId" val="20878"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- For 1 hour, increases P. Def. by 15%, Magic Resistance by 30%, and Shield Defense Rate by 15. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22122" levels="1" name="Kung Hei Fat Choy">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="itemConsumeId" val="20879"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- For 1 hour, decreases party members' P. Def. by 8%, M. Def. by 16%, and Evasion by 4. Increases P. Atk. by 15%, P. Atk. by 8%, M. Atk. by 16%, Atk. Spd. by 8%, Casting Spd. by 8%, and moving speed by 8. 9% of the standard short-range physical damage inflicted on the enemy is recovered by HP. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22123" levels="1" name="Chinese Feast">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="itemConsumeId" val="20880"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- For 1 hour, decreases physical skill MP consumption by 20%, magic skill's MP consumption by 10%, and song/dance skill's MP consumption by 20%. Increases Casting Spd. by 30% and Max MP by 35%. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22124" levels="1" name="Hwa Gei Bu Gwi">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="itemConsumeId" val="20881"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- For 1 hour, increases Atk. Spd. by 33% and weight penalty interval by 9000. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22125" levels="1" name="Fire Stamp">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="itemConsumeId" val="20882"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- For 1 hour, increases moving speed by 33, Evasion rate by 4, and Max HP by 35%. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22126" levels="1" name="Baby Food Skill">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="20769"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="staticReuse" val="true"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> 400
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22127" levels="1" name="Summon Warm Kotatz">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="20868"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="staticReuse" val="true"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22128" levels="3" name="Rudolph's Joy">
+		<set name="buff_protect_level" val="1"/>
+		<table name="#mpConsume2">
+			0 0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1 -1 -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="100"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- For 5 minutes, raises Atk. Spd. by 10% and Magic Casting Spd. by 10%. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22129" levels="1" name="Red Dimensional Stone">
+		<set name="hitCancelTime" val="1500"/>
+		<set name="itemConsumeId" val="20896"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<set name="hitTime" val="3000"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Pailaka Initialization -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22130" levels="1" name="Food of Doubt's Effect">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Food of Doubt's effect.For 20 minutes, energy is recovered when Exp. is acquired. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22131" levels="1" name="Red Firework Flames">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="itemConsumeId" val="20870"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- For 10 minutes, increases water type defense by 30 and STR by 1. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22132" levels="1" name="Gold Firework Flames">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="itemConsumeId" val="20871"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- For 10 minutes, increases divinity type defense by 30 and CON by 1. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22133" levels="1" name="Blue Firework Flames">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="itemConsumeId" val="20872"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- For 10 minutes, increases fire type defense by 30 and DEX by 1. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22134" levels="1" name="Pink Firework Flames">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="itemConsumeId" val="20873"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- For 10 minutes, increases earth type defense by 30 and MEN by 1. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22135" levels="1" name="White Firework Flames">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="itemConsumeId" val="20874"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- For 10 minutes, increases wind type defense by 30 and WIT by 1. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22136" levels="1" name="Silver Firework Flames">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="itemConsumeId" val="20875"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- For 10 minutes, increases darkness type defense by 30 and INT by 1. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22137" levels="1" name="Star Food">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22138" levels="1" name="Mango Dessert">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="20899"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- none -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22139" levels="1" name="Branding Wind Walk">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases moving speed by 33 for 1 hour. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22140" levels="1" name="Hwa Gei Bu Gwi Haste">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="abnormal_time" val="3600"/>
+		<set name="abnormal_type" val="attack_time_down"/>
+		<set name="abnormalLevel" val="26"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="pAtkSpd" val="1.33"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22141" levels="1" name="Branding Agility">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases evasion rate by 4 for 1 hour. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22142" levels="1" name="Female Aniruddha's Shield">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases P. Def. by 15% for 1 hour. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22143" levels="1" name="Happy New Year Death Whisper">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases Critical attack power by 35% for 1 hour. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22144" levels="1" name="Happy New Year Guidance">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases accuracy by 4 for 1 hour. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22145" levels="1" name="Love for All Seasons Empower">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases M. Atk. by 75% for 1 hour. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22146" levels="1" name="Chinese Feast Greater Acumen">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases Casting Spd. by 30% for 1 hour. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22147" levels="1" name="Kung Hei Fat Choy Vampiric Rage">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- For 1 hour, 9% of the standard short-range physical damage inflicted on the enemy is recovered as HP. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22148" levels="1" name="Branding Blessed Body">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases Max HP by 35% for 1 hour. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22149" levels="1" name="Kung Hei Fat Choy Berserker Spirit">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Decreases P. Def. by 8%, M. Def. by 16%, and evasion by 4, and increases P. Atk. by 8%, M. Atk. by 16%, Atk. Spd. by 8%, Casting Spd. by 8%, and moving speed by 8 for 1 hour. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22150" levels="1" name="Female Aniruddha's Magic Barrier">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases magic resistance by 30% for 1 hour. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22151" levels="1" name="Chinese Feast Blessed Soul">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases Max MP by 35% for 1 hour. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22152" levels="1" name="Chinese Feast Clarity">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- For 1 hour, decreases physical skill MP consumption by 20%, magic skill's MP consumption by 10%, and song/dance skill's MP consumption by 20%. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22153" levels="1" name="Love for All Seasons Wild Magic">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- For 1 hour, increases by 2 the occurrence rate of damage that is caused by damage magic. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22154" levels="1" name="Happy New Year Focus">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases Critical attack rate by 30% for 1 hour. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22155" levels="1" name="Female Aniruddha's Blessed Shield">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases Shield defense rate by 15 for 1 hour. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22156" levels="1" name="Hwa Gei Bu Gwi Decrease Weight">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases the weight penalty interval by 9000 for 1 hour. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22157" levels="1" name="Kung Hei Fat Choy Might">
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1
+		</table>
+		<set name="castRange" val="#castRange"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increases P. Atk. by 15% for 1 hour. -->
+		<set name="target" val="TARGET_SELF"/>
+		<set name="skillType" val="NOTDONE"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22158" levels="10" name="Rose Petal">
+		<table name="#mpConsume2">
+			0 0 0 0 0 0 0 0 0 0
+		</table>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<table name="#castRange"> -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</table>
+		<set name="castRange" val="#castRange"/>
+        <table name="#abnormal_lv"> 1 2 3 4 5 6 7 8 9 10</table>
+		<set name="hitTime" val="100"/>
+		<!-- Added by ic from Gracia Final client -->
+		<!-- Increase HP/MP recovery by 20% for 5 minutes. -->
+        <set name="magicLevel" val="1"/>
+        <set name="reuseDelay" val="2000"/>
+        <set name="abnormal_time" val="300"/>
+        <set name="abnormalLevel" val="#abnormal_lv"/>
+        <set name="abnormal_type" val="br_event_buf1"/>
+        <set name="increaseLevel" val="10"/>
+        <set name="isHerb" val="true"/>
+        <set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+        <set name="effectPoint" val="100"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for>
+            <effect>
+                <mul order="0x30" stat="regMp" val="1.2"/>
+                <mul order="0x30" stat="regHp" val="1.2"/>
+            </effect>
+		</for>
+	</skill>
+	<skill id="22159" levels="1" name="Vesper's Mighty Power">
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: For 10 minutes, increase physical P. Atk. by 15%, magic M. Atk. by 20%, and Speed by 10.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="100"/>
+		<for/>
+	</skill>
+	<skill id="22160" levels="1" name="Vesper's Critical Attack Power">
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: For 10 minutes, increase physical Critical Attack Rate by 15, magic Critical Rate by 2, and Speed by 10. Recovers 5% of the standard short-range physical damage inflicted on the enemy as HP.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="100"/>
+		<for/>
+	</skill>
+	<skill id="22161" levels="1" name="Invincible Vesper">
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: For 10 minutes, increases Atk. Spd. by 20%, Casting Spd. by 20%, and Speed by 20.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="100"/>
+		<for/>
+	</skill>
+	<skill id="22162" levels="1" name="Herb of Mt. Fuji">
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: For 10 minutes, energy is recovered when acquiring Exp.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="100"/>
+		<for/>
+	</skill>
+	<skill id="22163" levels="1" name="Hawk Herb">
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: For 10 minutes, increases physical Atk. Spd. by 15% and physical critical attack rate by 10%.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="100"/>
+		<for/>
+	</skill>
+	<skill id="22164" levels="1" name="Eggplant Herb">
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: For 10 minutes, increases magic Atk. Spd. by 10% and magic critical rate by 2.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="100"/>
+		<for/>
+	</skill>
+	<skill id="22165" levels="1" name="Energy Replenishing">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="20954"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Replenishes a Soul Avatar's energy by 5000.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="22166" levels="1" name="Energy Replenishing">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="20955"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Replenishes a Soul Avatar's energy by 10000.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="22167" levels="1" name="April Fool's Day Vesper Weapon Gift">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="13457,1;13.32;13458,1;6.66;13459,1;6.66;13460,1;6.66;13461,1;6.66;13462,1;6.66;13463,1;6.66;13464,1;6.66;13466,1;6.66;13467,1;6.66;13468,1;6.66;13469,1;6.66;13470,1;6.66;13465,1;6.66;"/>
+		</for>
+	</skill>
+	<skill id="22168" levels="1" name="Thirst for Victory Quenching Drink">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="20992"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Replenishes an Agathion's energy by 1000.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="22169" levels="1" name="Soccer Ball of Cheering Release">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="20993"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="6575,2;45;6573,1;30;6571,1;15;6569,1;9.4;6577,1;0.6;"/>
+		</for>
+	</skill>
+	<skill id="22170" levels="1" name="Hardin's Divine Protection">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="21030"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Maximizes P. Def. for 10 seconds.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="22171" levels="1" name="Hardin's Blessing">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="21031"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Maximizes M. Def. for 10 seconds.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="22172" levels="1" name="Silpeed's Wing">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="itemConsumeId" val="21032"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="abnormal_time" val="15"/>
+		<set name="abnormal_type" val="speed_up_special"/>
+		<set name="abnormalLevel" val="3"/>
+		<set name="magicLevel" val="1"/>
+		<set name="reuseDelay" val="900000"/>
+		<set name="hitTime" val="0"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="runSpd" val="300"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22173" levels="1" name="Silpeed's Blessing">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="itemConsumeId" val="21033"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="around"/>
+		<set name="affect_limit" val="0;0"/>
+		<set name="skillRadius" val="500"/>
+		<set name="affect_object" val="friend"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="abnormal_time" val="15"/>
+		<set name="abnormal_type" val="speed_up_special"/>
+		<set name="abnormalLevel" val="3"/>
+		<set name="magicLevel" val="1"/>
+		<set name="reuseDelay" val="900000"/>
+		<set name="hitTime" val="0"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect>
+				<add order="0x40" stat="runSpd" val="300"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22174" levels="1" name="Evain's Recovery Scroll">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="21034"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Recovers the HP of the user and friendly nearby targets by 500.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="22175" levels="1" name="Good/Bad of Life">
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: When HP falls below 30%, it is restored by 500.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22176" levels="1" name="Good/Bad of Mind">
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: When MP falls below 10%, it is restored by 500.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="22177" levels="1" name="Warrior's Breath">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="21037"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: none
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="22178" levels="1" name="Potion of a Hero">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="21038"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: none
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="22179" levels="1" name="Fortuna of Chaos">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="21041"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="8618,3;13.999;8619,1;26;8620,3;17;8621,1;0.011;14700,25;4;14701,12;4;21038,6;5;9627,1;5;6622,3;19;21030,4;1.5;21031,4;1.5;21032,8;1;21033,8;1;21037,5;1;"/>
+		</for>
+	</skill>
+	<skill id="22180" levels="1" name="Wondrous Cubic - 1 time use">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="21106"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="10633,1;22;10642,1;16;21096,1;2;21101,1;1;10634,1;16;10643,1;10;21097,1;2;21102,1;1;10635,1;11;10644,1;7;21098,1;1.5;21103,1;0.5;21106,1,10636,1;3.5;10645,1;2.1;21099,1;1;21104,1;0.4;21106,1,10637,1;1.5;10646,1;0.9;21100,1;0.3;21105,1;0.299;21593,1;0.001;"/>
+		</for>
+	</skill>
+	<skill id="22181" levels="1" name="Refined Cubic - 1 time use">
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="0"/>
+		<set name="reuseDelay" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="itemConsumeId" val="21107"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isHandler" val="true"/>
+		<set name="altUse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<cond>
+			<player freeInventorySlot="10"/>
+		</cond>
+		<for>
+			<effect name="i_restoration_random" skillLevel="1" options="8728,1;7;8729,1;7;8730,1;7;8731,1;7;8732,1;7;9573,1;7;10483,1;7;14166,1;7;8738,1;4;8739,1;4;8740,1;4;8741,1;4;8742,1;4;9574,1;4;10484,1;4;14167,1;4;8748,1;1.4;8749,1;1.4;8750,1;1.4;8751,1;1.4;8752,1;1.4;9575,1;1.4;10485,1;1.4;14168,1;1.4;8758,1;0.1;8759,1;0.1;8760,1;0.1;8761,1;0.1;8762,1;0.1;9576,1;0.1;10486,1;0.1;14169,1;0.1;"/>
+		</for>
+	</skill>
+	<skill id="22182" levels="1" name="Birthday Vitality Buff">
+		<set name="buff_protect_level" val="2"/>
+		<set name="itemConsumeId" val="21170"/>
+		<set name="itemConsumeCount" val="1"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Birthday gift received once a year. Increases your Vitality whenever you gain experience. This buff is active for 12 hours and is not lost upon death. However, it will disappear if you change to a subclass.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="100"/>
+		<for/>
+	</skill>
+	<skill id="22183" levels="1" name="Dragon Master Lee Transformation Scroll">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="itemConsumeId" val="21148"/>
+		<set name="itemConsumeCount" val="1"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Transformed into Dragon Master Lee.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="22184" levels="1" name="Dragon Master Karin Transformation Scroll">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="itemConsumeId" val="21149"/>
+		<set name="itemConsumeCount" val="1"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Transformed into Dragon Master Karin.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="22185" levels="1" name="Shiny Lighting">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="itemConsumeId" val="21151"/>
+		<set name="itemConsumeCount" val="1"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Lighting shines brightly above the character's head.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="22186" levels="1" name="Echo Crystal - Theme of Celebration">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="21158"/>
+		<set name="itemConsumeCount" val="1"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: none
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="22187" levels="1" name="Honeymoon Ticket - Joy of Energy">
+		<set name="buff_protect_level" val="2"/>
+		<set name="itemConsumeId" val="21164"/>
+		<set name="itemConsumeCount" val="1"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: State in which the Energy Stage is maintained.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="100"/>
+		<for/>
+	</skill>
+	<skill id="22188" levels="1" name="Summon Big Wedding Cake">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="21156"/>
+		<set name="itemConsumeCount" val="1"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: none
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="22189" levels="1" name="Flower Shower">
+		<set name="hitCancelTime" val="0"/>
+		<set name="itemConsumeId" val="21157"/>
+		<set name="itemConsumeCount" val="1"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: none
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="22190" levels="1" name="Transformation Scroll - Treasure Hunter">
+		<set name="isMagic" val="2"/>
+		<!-- item consume -->
+		<set name="itemConsumeId" val="21171"/>
+		<set name="itemConsumeCount" val="1"/>
+		<!-- item consume -->
+		<set name="hitCancelTime" val="0"/>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="effectPoint" val="1"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="addSkills" val="5437;2;20000;1;20001;1;"/>
+		<set name="isCommon" val="true"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<target hasBuffId="1411;false" msgId="2064" />
+				<player olympiad="false" msgId="1509"/>
+				<player riding="none" msgId="2063"/>
+				<player zoneType="water" msgId="2060"/>
+				<target playerOnly="true"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="t_transform" val="127" npcId="140" femaleNpcId="140">
+				<!--
+				Базовые статы не меняются при трансформации
+				-->
+			</effect>
+		</for>
+		<!--
+		skill = [s_find_treasure2];[s_unlock_treasure_box2]
+		-->
+	</skill>
+	<skill id="22191" levels="1" name="Transformation Scroll - Onyx Beast">
+		<set name="isMagic" val="2"/>
+		<!-- item consume -->
+		<set name="itemConsumeId" val="21172"/>
+		<set name="itemConsumeCount" val="1"/>
+		<!-- item consume -->
+		<set name="hitCancelTime" val="0"/>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="effectPoint" val="1"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="addSkills" val="584;1;585;1;5491;1;"/>
+		<set name="isCommon" val="true"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<target hasBuffId="1411;false" msgId="2064" />
+				<player olympiad="false" msgId="1509"/>
+				<player riding="none" msgId="2063"/>
+				<player zoneType="water" msgId="2060"/>
+				<target playerOnly="true"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="t_transform" val="1" npcId="13077" femaleNpcId="13077">
+				<set order="0x40" stat="STR" val="40"/>
+				<set order="0x40" stat="DEX" val="30"/>
+				<set order="0x40" stat="CON" val="43"/>
+				<set order="0x40" stat="INT" val="21"/>
+				<set order="0x40" stat="WIT" val="11"/>
+				<set order="0x40" stat="MEN" val="25"/>
+				<add order="0x40" stat="runSpd" val="11"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22192" levels="1" name="Transformation Scroll - Death Blader">
+		<set name="isMagic" val="2"/>
+		<!-- item consume -->
+		<set name="itemConsumeId" val="21173"/>
+		<set name="itemConsumeCount" val="1"/>
+		<!-- item consume -->
+		<set name="hitCancelTime" val="0"/>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="effectPoint" val="1"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="addSkills" val="586;1[1-59];587;1[1-59];588;1[1-59];589;1[1-59];5491;1;586;2[60-86];587;2[60-86];588;2[60-86];589;2[60-86];"/>
+		<set name="isCommon" val="true"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<target hasBuffId="1411;false" msgId="2064" />
+				<player olympiad="false" msgId="1509"/>
+				<player riding="none" msgId="2063"/>
+				<player zoneType="water" msgId="2060"/>
+				<target playerOnly="true"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="t_transform" val="2" npcId="13078" femaleNpcId="13078">
+				<set order="0x40" stat="STR" val="40"/>
+				<set order="0x40" stat="DEX" val="30"/>
+				<set order="0x40" stat="CON" val="43"/>
+				<set order="0x40" stat="INT" val="21"/>
+				<set order="0x40" stat="WIT" val="11"/>
+				<set order="0x40" stat="MEN" val="25"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22193" levels="1" name="Transformation Scroll - Grail Apostle">
+		<set name="isMagic" val="2"/>
+		<!-- item consume -->
+		<set name="itemConsumeId" val="21174"/>
+		<set name="itemConsumeCount" val="1"/>
+		<!-- item consume -->
+		<set name="hitCancelTime" val="0"/>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="effectPoint" val="1"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="addSkills" val="559;3[1-64];560;3[1-64];561;3[1-64];562;3[1-64];5491;1;559;4[65-86];560;4[65-86];561;4[65-86];562;4[65-86];"/>
+		<set name="isCommon" val="true"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<target hasBuffId="1411;false" msgId="2064" />
+				<player olympiad="false" msgId="1509"/>
+				<player riding="none" msgId="2063"/>
+				<player zoneType="water" msgId="2060"/>
+				<target playerOnly="true"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="t_transform" val="201" npcId="13079" femaleNpcId="13079">
+				<set order="0x40" stat="STR" val="40"/>
+				<set order="0x40" stat="DEX" val="30"/>
+				<set order="0x40" stat="CON" val="43"/>
+				<set order="0x40" stat="INT" val="21"/>
+				<set order="0x40" stat="WIT" val="11"/>
+				<set order="0x40" stat="MEN" val="25"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22194" levels="1" name="Transformation Scroll - Unicorn">
+		<set name="isMagic" val="2"/>
+		<!-- item consume -->
+		<set name="itemConsumeId" val="21175"/>
+		<set name="itemConsumeCount" val="1"/>
+		<!-- item consume -->
+		<set name="hitCancelTime" val="0"/>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="effectPoint" val="1"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="addSkills" val="563;3[1-64];564;3[1-64];565;3[1-64];567;3[1-64];563;4[65-86];564;4[65-86];565;4[65-86];567;4[65-86];5491;1;"/>
+		<set name="isCommon" val="true"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<target hasBuffId="1411;false" msgId="2064" />
+				<player olympiad="false" msgId="1509"/>
+				<player riding="none" msgId="2063"/>
+				<player zoneType="water" msgId="2060"/>
+				<target playerOnly="true"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="t_transform" val="204" npcId="13081" femaleNpcId="13081">
+				<set order="0x40" stat="STR" val="36"/>
+				<set order="0x40" stat="DEX" val="35"/>
+				<set order="0x40" stat="CON" val="36"/>
+				<set order="0x40" stat="INT" val="23"/>
+				<set order="0x40" stat="WIT" val="14"/>
+				<set order="0x40" stat="MEN" val="26"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22195" levels="1" name="Transformation Scroll - Lilim Knight">
+		<set name="isMagic" val="2"/>
+		<!-- item consume -->
+		<set name="itemConsumeId" val="21176"/>
+		<set name="itemConsumeCount" val="1"/>
+		<!-- item consume -->
+		<set name="hitCancelTime" val="0"/>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="effectPoint" val="1"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="addSkills" val="568;3[1-64];569;3[1-64];570;3[1-64];571;3[1-64];568;4[65-86];569;4[65-86];570;4[65-86];571;4[65-86];5491;1;"/>
+		<set name="isCommon" val="true"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<target hasBuffId="1411;false" msgId="2064" />
+				<player olympiad="false" msgId="1509"/>
+				<player riding="none" msgId="2063"/>
+				<player zoneType="water" msgId="2060"/>
+				<target playerOnly="true"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="t_transform" val="207" npcId="13082" femaleNpcId="13082">
+				<set order="0x40" stat="STR" val="41"/>
+				<set order="0x40" stat="DEX" val="34"/>
+				<set order="0x40" stat="CON" val="32"/>
+				<set order="0x40" stat="INT" val="25"/>
+				<set order="0x40" stat="WIT" val="12"/>
+				<set order="0x40" stat="MEN" val="26"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22196" levels="1" name="Transformation Scroll - Golem Guardian">
+		<set name="isMagic" val="2"/>
+		<!-- item consume -->
+		<set name="itemConsumeId" val="21177"/>
+		<set name="itemConsumeCount" val="1"/>
+		<!-- item consume -->
+		<set name="hitCancelTime" val="0"/>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="effectPoint" val="1"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="addSkills" val="572;3[1-64];573;3[1-64];574;3[1-64];575;3[1-64];572;4[65-86];573;4[65-86];574;4[65-86];575;4[65-86];5491;1;"/>
+		<set name="isCommon" val="true"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<target hasBuffId="1411;false" msgId="2064" />
+				<player olympiad="false" msgId="1509"/>
+				<player riding="none" msgId="2063"/>
+				<player zoneType="water" msgId="2060"/>
+				<target playerOnly="true"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="t_transform" val="210" npcId="13083" femaleNpcId="13083">
+				<set order="0x40" stat="STR" val="39"/>
+				<set order="0x40" stat="DEX" val="29"/>
+				<set order="0x40" stat="CON" val="45"/>
+				<set order="0x40" stat="INT" val="20"/>
+				<set order="0x40" stat="WIT" val="10"/>
+				<set order="0x40" stat="MEN" val="27"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22197" levels="1" name="Transformation Scroll - Inferno Drake">
+		<set name="isMagic" val="2"/>
+		<!-- item consume -->
+		<set name="itemConsumeId" val="21178"/>
+		<set name="itemConsumeCount" val="1"/>
+		<!-- item consume -->
+		<set name="hitCancelTime" val="0"/>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="effectPoint" val="1"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="addSkills" val="576;3[1-64];577;3[1-64];578;3[1-64];579;3[1-64];576;4[65-86];577;4[65-86];578;4[65-86];579;4[65-86];5491;1;"/>
+		<set name="isCommon" val="true"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<target hasBuffId="1411;false" msgId="2064" />
+				<player olympiad="false" msgId="1509"/>
+				<player riding="none" msgId="2063"/>
+				<player zoneType="water" msgId="2060"/>
+				<target playerOnly="true"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="t_transform" val="213" npcId="13084" femaleNpcId="13084">
+				<set order="0x40" stat="STR" val="40"/>
+				<set order="0x40" stat="DEX" val="26"/>
+				<set order="0x40" stat="CON" val="47"/>
+				<set order="0x40" stat="INT" val="18"/>
+				<set order="0x40" stat="WIT" val="12"/>
+				<set order="0x40" stat="MEN" val="27"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22198" levels="1" name="Transformation Scroll - Dragon Bomber">
+		<set name="isMagic" val="2"/>
+		<!-- item consume -->
+		<set name="itemConsumeId" val="21179"/>
+		<set name="itemConsumeCount" val="1"/>
+		<!-- item consume -->
+		<set name="hitCancelTime" val="0"/>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="effectPoint" val="1"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="addSkills" val="580;3[1-64];581;3[1-64];582;3[1-64];583;3[1-64];580;4[65-86];581;4[65-86];582;4[65-86];583;4[65-86];5491;1;"/>
+		<set name="isCommon" val="true"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<target hasBuffId="1411;false" msgId="2064" />
+				<player olympiad="false" msgId="1509"/>
+				<player riding="none" msgId="2063"/>
+				<player zoneType="water" msgId="2060"/>
+				<target playerOnly="true"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="t_transform" val="216" npcId="13085" femaleNpcId="13085">
+				<set order="0x40" stat="STR" val="41"/>
+				<set order="0x40" stat="DEX" val="33"/>
+				<set order="0x40" stat="CON" val="31"/>
+				<set order="0x40" stat="INT" val="29"/>
+				<set order="0x40" stat="WIT" val="11"/>
+				<set order="0x40" stat="MEN" val="25"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="22199" levels="1" name="Transformation Scroll - Heretic">
+		<set name="isMagic" val="2"/>
+		<!-- item consume -->
+		<set name="itemConsumeId" val="21180"/>
+		<set name="itemConsumeCount" val="1"/>
+		<!-- item consume -->
+		<set name="hitCancelTime" val="0"/>
+		<set name="abnormal_time" val="1800"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="abnormal_type" val="transformation"/>
+		<set name="effectPoint" val="1"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="false"/>
+		<set name="addSkills" val="738;1[1-72];739;1[1-72];740;1[1-72];741;1[1-72];738;2[73-75];739;2[73-75];740;2[73-75];741;2[73-75];738;3[76-85];739;3[76-85];740;3[76-85];741;3[76-85];5491;1"/>
+		<set name="isCommon" val="true"/>
+		<cond>
+			<and>
+				<CanTransform/>
+				<target hasBuffId="1411;false" msgId="2064" />
+				<player olympiad="false" msgId="1509"/>
+				<player riding="none" msgId="2063"/>
+				<player zoneType="water" msgId="2060"/>
+				<target playerOnly="true"/>
+			</and>
+		</cond>
+		<for>
+			<effect name="t_transform" val="3" npcId="13106" femaleNpcId="13107">
+				<set order="0x40" stat="STR" val="22"/>
+				<set order="0x40" stat="DEX" val="21"/>
+				<set order="0x40" stat="CON" val="27"/>
+				<set order="0x40" stat="INT" val="41"/>
+				<set order="0x40" stat="WIT" val="20"/>
+				<set order="0x40" stat="MEN" val="39"/>
+			</effect>
+		</for>
+	</skill>
+</list>

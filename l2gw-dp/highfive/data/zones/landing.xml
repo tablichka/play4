@@ -1,0 +1,319 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+
+	<zone id="6001" name="[gracia_landing1]">
+		<attr name="type" val="landing"/>
+		<shape type="Poly" zMin="1518" zMax="1636">
+			<point x="-183483" y="240775"/>
+			<point x="-184243" y="240506"/>
+			<point x="-184600" y="241709"/>
+			<point x="-183824" y="241950"/>
+			<point x="-183711" y="241628"/>
+			<point x="-183832" y="241567"/>
+			<point x="-183666" y="241080"/>
+			<point x="-183541" y="241073"/>
+		</shape>
+	</zone>
+
+	<zone id="6002" name="[gracia_landing2]">
+		<attr name="type" val="landing"/>
+		<shape type="Poly" zMin="1558" zMax="1676">
+			<point x="-184547" y="240435"/>
+			<point x="-185083" y="240250"/>
+			<point x="-185117" y="240296"/>
+			<point x="-185683" y="240313"/>
+			<point x="-185860" y="240916"/>
+			<point x="-185818" y="240953"/>
+			<point x="-185868" y="241150"/>
+			<point x="-185709" y="241324"/>
+			<point x="-185599" y="241433"/>
+			<point x="-184912" y="241650"/>
+			<point x="-184835" y="241587"/>
+			<point x="-184514" y="240505"/>
+		</shape>
+	</zone>
+
+	<zone id="6003" name="[gracia_landing3]">
+		<attr name="type" val="landing"/>
+		<shape type="Poly" zMin="1654" zMax="1780">
+			<point x="-185026" y="242224"/>
+			<point x="-185185" y="242748"/>
+			<point x="-185274" y="242839"/>
+			<point x="-185248" y="242962"/>
+			<point x="-185350" y="243299"/>
+			<point x="-185544" y="243310"/>
+			<point x="-186382" y="243039"/>
+			<point x="-186383" y="242875"/>
+			<point x="-186230" y="242603"/>
+			<point x="-186138" y="242263"/>
+			<point x="-186212" y="242213"/>
+			<point x="-186101" y="241821"/>
+			<point x="-185724" y="241942"/>
+			<point x="-185396" y="242037"/>
+			<point x="-185362" y="242107"/>
+		</shape>
+	</zone>
+
+	<zone id="6004" name="[gracia_landing4]">
+		<attr name="type" val="landing"/>
+		<shape type="Poly" zMin="1550" zMax="1684">
+			<point x="-184669" y="242380"/>
+			<point x="-183721" y="242673"/>
+			<point x="-183830" y="242953"/>
+			<point x="-183933" y="242996"/>
+			<point x="-184044" y="243337"/>
+			<point x="-183939" y="243418"/>
+			<point x="-184034" y="243681"/>
+			<point x="-184151" y="243640"/>
+			<point x="-184131" y="243519"/>
+			<point x="-184352" y="243426"/>
+			<point x="-184410" y="243497"/>
+			<point x="-184911" y="243397"/>
+			<point x="-184812" y="243087"/>
+			<point x="-184583" y="243097"/>
+			<point x="-184496" y="243086"/>
+			<point x="-184436" y="243040"/>
+			<point x="-184424" y="242961"/>
+			<point x="-184454" y="242866"/>
+			<point x="-184542" y="242833"/>
+			<point x="-184730" y="242672"/>
+		</shape>
+	</zone>
+
+	<zone id="6005" name="[gracia_landing5]">
+		<attr name="type" val="landing"/>
+		<shape type="Poly" zMin="1518" zMax="1636">
+			<point x="-184513" y="244236"/>
+			<point x="-184959" y="244088"/>
+			<point x="-184995" y="244139"/>
+			<point x="-185304" y="244005"/>
+			<point x="-185657" y="245185"/>
+			<point x="-185572" y="245187"/>
+			<point x="-185420" y="245230"/>
+			<point x="-185373" y="245147"/>
+			<point x="-185189" y="245209"/>
+			<point x="-185208" y="245343"/>
+			<point x="-184883" y="245401"/>
+			<point x="-184769" y="245099"/>
+			<point x="-184876" y="245042"/>
+			<point x="-184717" y="244508"/>
+			<point x="-184610" y="244559"/>
+		</shape>
+	</zone>
+
+	<zone id="6006" name="[gracia_landing6]">
+		<attr name="type" val="landing"/>
+		<shape type="Poly" zMin="1558" zMax="1676">
+			<point x="-185908" y="245114"/>
+			<point x="-186877" y="244785"/>
+			<point x="-186894" y="244620"/>
+			<point x="-186849" y="244156"/>
+			<point x="-186649" y="243699"/>
+			<point x="-186476" y="243702"/>
+			<point x="-186388" y="243642"/>
+			<point x="-185573" y="243881"/>
+			<point x="-185568" y="244020"/>
+		</shape>
+	</zone>
+
+	<zone id="6007" name="[gracia_landing7]">
+		<attr name="type" val="landing"/>
+		<shape type="Poly" zMin="1526" zMax="1636">
+			<point x="-184938" y="244105"/>
+			<point x="-184817" y="243710"/>
+			<point x="-184566" y="243786"/>
+			<point x="-184685" y="244163"/>
+		</shape>
+	</zone>
+
+	<zone id="6008" name="[gracia_landing8]">
+		<attr name="type" val="landing"/>
+		<shape type="Poly" zMin="1526" zMax="1644">
+			<point x="-184119" y="242309"/>
+			<point x="-184378" y="242225"/>
+			<point x="-184238" y="241810"/>
+			<point x="-183995" y="241882"/>
+		</shape>
+	</zone>
+
+	<zone id="6009" name="[gracia_landing9]">
+		<attr name="type" val="landing"/>
+		<shape type="Poly" zMin="1430" zMax="1556">
+			<point x="-182940" y="241412"/>
+			<point x="-183388" y="241274"/>
+			<point x="-183491" y="241559"/>
+			<point x="-183036" y="241669"/>
+			<point x="-183085" y="241582"/>
+			<point x="-183036" y="241481"/>
+		</shape>
+	</zone>
+
+	<zone id="6010" name="[gracia_landing10]">
+		<attr name="type" val="landing"/>
+		<shape type="Poly" zMin="1430" zMax="1548">
+			<point x="-184536" y="245040"/>
+			<point x="-184447" y="244762"/>
+			<point x="-184024" y="244888"/>
+			<point x="-184026" y="244927"/>
+			<point x="-184126" y="244934"/>
+			<point x="-184149" y="244973"/>
+			<point x="-184077" y="245029"/>
+			<point x="-184099" y="245138"/>
+			<point x="-184218" y="245135"/>
+		</shape>
+	</zone>
+
+	<zone id="6011" name="[gracia_landing11]">
+		<attr name="type" val="landing"/>
+		<shape type="Poly" zMin="2806" zMax="2916">
+			<point x="-186185" y="240349"/>
+			<point x="-186154" y="240238"/>
+			<point x="-185448" y="240440"/>
+			<point x="-185456" y="240570"/>
+		</shape>
+	</zone>
+
+	<zone id="6012" name="[gracia_landing12]">
+		<attr name="type" val="landing"/>
+		<shape type="Poly" zMin="2598" zMax="2716">
+			<point x="-185441" y="241365"/>
+			<point x="-185516" y="241677"/>
+			<point x="-186291" y="241461"/>
+			<point x="-186270" y="241352"/>
+			<point x="-186107" y="241387"/>
+			<point x="-186040" y="241200"/>
+			<point x="-186174" y="241146"/>
+			<point x="-186163" y="241044"/>
+			<point x="-185645" y="241202"/>
+			<point x="-185643" y="241299"/>
+		</shape>
+	</zone>
+
+	<zone id="6013" name="[gracia_landing13]">
+		<attr name="type" val="landing"/>
+		<shape type="Poly" zMin="2534" zMax="2652">
+			<point x="-185762" y="241925"/>
+			<point x="-185801" y="242042"/>
+			<point x="-185669" y="242100"/>
+			<point x="-185707" y="242293"/>
+			<point x="-185802" y="242298"/>
+			<point x="-185962" y="242850"/>
+			<point x="-185885" y="242881"/>
+			<point x="-185928" y="243051"/>
+			<point x="-185983" y="243216"/>
+			<point x="-186761" y="242986"/>
+			<point x="-186392" y="241720"/>
+		</shape>
+	</zone>
+
+	<zone id="6014" name="[gracia_landing14]">
+		<attr name="type" val="landing"/>
+		<shape type="Poly" zMin="2598" zMax="2716">
+			<point x="-186067" y="243491"/>
+			<point x="-186207" y="243929"/>
+			<point x="-187006" y="243681"/>
+			<point x="-186953" y="243588"/>
+			<point x="-186789" y="243636"/>
+			<point x="-186742" y="243430"/>
+			<point x="-186873" y="243375"/>
+			<point x="-186857" y="243273"/>
+		</shape>
+	</zone>
+
+	<zone id="6015" name="[gracia_landing15]">
+		<attr name="type" val="landing"/>
+		<shape type="Poly" zMin="2634" zMax="2764">
+			<point x="-186507" y="244301"/>
+			<point x="-186469" y="244177"/>
+			<point x="-186972" y="244040"/>
+			<point x="-187003" y="244155"/>
+		</shape>
+	</zone>
+
+	<zone id="6025" name="[gracia_soi_landing1]">
+		<attr name="type" val="landing"/>
+		<shape type="Poly" zMin="4280" zMax="4444">
+			<point x="-212463" y="209877"/>
+			<point x="-212379" y="210151"/>
+			<point x="-212102" y="210471"/>
+			<point x="-211809" y="210747"/>
+			<point x="-211915" y="210845"/>
+			<point x="-212058" y="210685"/>
+			<point x="-212187" y="210559"/>
+			<point x="-212477" y="210296"/>
+			<point x="-212804" y="210203"/>
+		</shape>
+	</zone>
+
+	<zone id="6026" name="[gracia_soi_landing2]">
+		<attr name="type" val="landing"/>
+		<shape type="Poly" zMin="4280" zMax="4444">
+			<point x="-212878" y="210183"/>
+			<point x="-213173" y="210285"/>
+			<point x="-213480" y="210557"/>
+			<point x="-213746" y="210844"/>
+			<point x="-213870" y="210746"/>
+			<point x="-213558" y="210475"/>
+			<point x="-213291" y="210172"/>
+			<point x="-213202" y="209860"/>
+		</shape>
+	</zone>
+
+	<zone id="6027" name="[gracia_soi_landing3]">
+		<attr name="type" val="landing"/>
+		<shape type="Poly" zMin="4280" zMax="4444">
+			<point x="-213200" y="209797"/>
+			<point x="-213296" y="209483"/>
+			<point x="-213565" y="209191"/>
+			<point x="-213862" y="208910"/>
+			<point x="-213741" y="208807"/>
+			<point x="-213487" y="209088"/>
+			<point x="-213182" y="209359"/>
+			<point x="-212849" y="209455"/>
+		</shape>
+	</zone>
+
+	<zone id="6028" name="[gracia_soi_landing4]">
+		<attr name="type" val="landing"/>
+		<shape type="Poly" zMin="4280" zMax="4444">
+			<point x="-212770" y="209462"/>
+			<point x="-212471" y="209359"/>
+			<point x="-212215" y="209131"/>
+			<point x="-211912" y="208808"/>
+			<point x="-211799" y="208900"/>
+			<point x="-212133" y="209207"/>
+			<point x="-212371" y="209488"/>
+			<point x="-212472" y="209786"/>
+		</shape>
+	</zone>
+
+	<zone id="6029" name="[gracia_soi_landing5]">
+		<attr name="type" val="landing"/>
+		<shape type="Poly" zMin="4280" zMax="4316">
+			<point x="-212483" y="209722"/>
+			<point x="-212465" y="209884"/>
+			<point x="-212758" y="210177"/>
+			<point x="-212894" y="210197"/>
+			<point x="-213195" y="209878"/>
+			<point x="-213213" y="209766"/>
+			<point x="-212916" y="209451"/>
+			<point x="-212736" y="209459"/>
+		</shape>
+	</zone>
+
+	<zone id="6030" name="[gracia_sod_landing1]">
+		<attr name="type" val="landing"/>
+		<shape type="Poly" zMin="4320" zMax="4380">
+			<point x="-246842" y="252054"/>
+			<point x="-246761" y="251976"/>
+			<point x="-247092" y="251666"/>
+			<point x="-247350" y="251369"/>
+			<point x="-248188" y="250406"/>
+			<point x="-248598" y="249929"/>
+			<point x="-248986" y="250190"/>
+			<point x="-248385" y="250628"/>
+			<point x="-247578" y="251350"/>
+			<point x="-247148" y="251758"/>
+		</shape>
+	</zone>
+</list>

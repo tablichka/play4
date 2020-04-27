@@ -1,0 +1,14 @@
+<html>
+<body>
+%npcname%:<br>
+<br>
+<font color="LEVEL">[Present %stoneName%s]</font>
+<br>
+You currently possess %stoneCount% %stoneName%s. How many do you wish to present?
+<br>
+[Enter the number you wish to present.]
+<br>
+<edit var="Amount" width="80">
+<button value="Present" action="bypass -h npc_%objectId%_SevenSigns 27 %stoneType% $Amount" width="60" height="15" back="L2UI_CT1.Button_DF" fore="L2UI_CT1.Button_DF">
+</body>
+</html>

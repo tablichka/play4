@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="1660" name="Cursed Maingauche">
+		<for>
+			<skill id="3005" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+</list>

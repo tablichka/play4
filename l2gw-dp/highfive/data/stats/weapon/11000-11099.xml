@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="11023" name="Doomchanter - Concentration - Critical Bleed">
+		<for>
+			<skill id="3053" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="11026" name="White Lightning - Destruction - Critical Poison">
+		<for>
+			<skill id="3061" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="11031" name="Meteor Shower - Earth - Critical Bleed">
+		<for>
+			<skill id="3052" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="11040" name="Bloody Orchid - Confusion - Critical Bleed">
+		<for>
+			<skill id="3054" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="11043" name="Elemental Sword - Hail - Magic Paralyze">
+		<for>
+			<skill id="3075" level="1" chance="5" action="magic" />
+		</for>
+	</item>
+	<item id="11047" name="Spiritual Eye - Hail - Magic Poison">
+		<for>
+			<skill id="1168" level="6" chance="10" action="magic" />
+		</for>
+	</item>
+	<item id="11055" name="Carnage Bow - Concentration - Critical Bleed">
+		<for>
+			<skill id="3053" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="11059" name="Tallum Blade - Destruction - Critical Poison">
+		<for>
+			<skill id="3061" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="11065" name="Destroyer Hammer - Lightning - Critical Drain">
+		<for>
+			<skill id="3059" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="11072" name="Halberd - Lightning - Critical Stun">
+		<for>
+			<skill id="3070" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="11073" name="Halberd - Lightning - Wide Blow">
+		<for>
+			<!-- SA: Wide Blow -->
+			<!-- TODO: Core support required for 'damage_range" -->
+			<set val="180" order="0x40" stat="poleAngle" />
+		</for>
+	</item>
+	<item id="11084" name="Undertaker - Evil Spirit">
+		<for>
+			<add order="0x40" stat="absorbDam" val="7" />
+		</for>
+	</item>
+	<item id="11085" name="Undertaker - Evil Spirit - Health">
+		<for>
+			<add order="0x40" stat="absorbDam" val="7" />
+		</for>
+	</item>
+	<item id="11086" name="Undertaker - Evil Spirit - Critical Bleed">
+		<for>
+			<add order="0x40" stat="absorbDam" val="7" />
+			<skill id="3055" level="2" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="11087" name="Undertaker - Evil Spirit - Critical Drain">
+		<for>
+			<add order="0x40" stat="absorbDam" val="7" />
+			<skill id="3060" level="2" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="11096" name="Dragon Slayer - Evil Spirit">
+		<for>
+			<add order="0x40" stat="absorbDam" val="7" />
+		</for>
+	</item>
+	<item id="11097" name="Dragon Slayer - Evil Spirit - Health">
+		<for>
+			<add order="0x40" stat="absorbDam" val="7" />
+		</for>
+	</item>
+	<item id="11098" name="Dragon Slayer - Evil Spirit - Critical Bleed">
+		<for>
+			<add order="0x40" stat="absorbDam" val="7" />
+			<skill id="3055" level="2" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="11099" name="Dragon Slayer - Evil Spirit - Critical Drain">
+		<for>
+			<add order="0x40" stat="absorbDam" val="7" />
+			<skill id="3060" level="2" chance="100" action="crit" />
+		</for>
+	</item>
+</list>

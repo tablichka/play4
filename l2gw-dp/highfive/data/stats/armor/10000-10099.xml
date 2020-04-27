@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="10018" name="Agathion Seal Bracelet - Fortress">
+		<cond msgId="1518">
+			<opHome type="fortress" />
+		</cond>
+	</item>
+	<item id="10019" name="Ring Mail Breastplate">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="10020" name="Iron Plate Gaiters">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="10023" name="Cursed Tunic">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="10024" name="Cursed Stockings">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+</list>

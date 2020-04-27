@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="16168" name="Elegia Breastplate {PvP} ">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="16170" name="Elegia Tunic {PvP} ">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="16171" name="Vorpal Breastplate {PvP} ">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="16173" name="Vorpal Tunic {PvP} ">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="16174" name="Moirai Breastplate {PvP} ">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="16176" name="Moirai Tunic {PvP} ">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+</list>

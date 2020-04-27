@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- schuttgart_merc_captain2 -->
+<list>
+	<config showall="true" notax="true" keepenchanted="false" />
+	<item>
+		<production id="13665" count="1"/>	<!-- Transformation Scroll: Schuttgart Human Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13666" count="1"/>	<!-- Transformation Scroll: Schuttgart Elf Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13667" count="1"/>	<!-- Transformation Scroll: Schuttgart Dark Elf Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13668" count="1"/>	<!-- Transformation Scroll: Schuttgart Orc Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13669" count="1"/>	<!-- Transformation Scroll: Schuttgart Dwarf Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13670" count="1"/>	<!-- Transformation Scroll: Schuttgart Kamael Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13685" count="1"/>	<!-- Schuttgart Disguise Scroll -->
+		<ingredient id="57" count="70000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14812" count="1"/>	<!-- Red Talisman - Territory Guard -->
+		<ingredient id="57" count="12200"/>	<!-- Adena -->
+		<ingredient id="13765" count="10"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+	<item>
+		<production id="14813" count="1"/>	<!-- Blue Talisman - Lord's Divine Protection -->
+		<ingredient id="57" count="14500"/>	<!-- Adena -->
+		<ingredient id="13765" count="13"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+	<item>
+		<production id="13672" count="1"/>	<!-- Transformation Scroll: Schuttgart Archer Mercenary -->
+		<ingredient id="57" count="27800"/>	<!-- Adena -->
+		<ingredient id="13765" count="5"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+	<item>
+		<production id="13673" count="1"/>	<!-- Transformation Scroll: Schuttgart Wizard Mercenary -->
+		<ingredient id="57" count="27800"/>	<!-- Adena -->
+		<ingredient id="13765" count="5"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+	<item>
+		<production id="13674" count="1"/>	<!-- Transformation Scroll: Schuttgart Kamael Captain Mercenary -->
+		<ingredient id="57" count="27800"/>	<!-- Adena -->
+		<ingredient id="13765" count="5"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+	<item>
+		<production id="13675" count="1"/>	<!-- Transformation Scroll: Schuttgart Knight Captain Mercenary -->
+		<ingredient id="57" count="55600"/>	<!-- Adena -->
+		<ingredient id="13765" count="10"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+	<item>
+		<production id="13676" count="1"/>	<!-- Transformation Scroll: Schuttgart Commander Mercenary -->
+		<ingredient id="57" count="55600"/>	<!-- Adena -->
+		<ingredient id="13765" count="10"/>	<!-- Schuttgart Territory Badge -->
+	</item>
+</list>

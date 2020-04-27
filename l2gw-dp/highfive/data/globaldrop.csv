@@ -1,0 +1,30 @@
+#Format itemId;min;max;chance;group;type
+
+#HP/MP herbs
+8600;1;1;150000;1;herb
+8601;1;1;60000;1;herb
+8602;1;1;16000;1;herb
+8603;1;1;150000;2;herb
+8604;1;1;60000;2;herb
+8605;1;1;16000;2;herb
+8614;1;1;5000;3;herb
+
+#Speed herb
+8611;1;1;100000;3;herb
+
+#Big Head Herb
+10657;1;1;25000;3;herb
+
+#Warrior herbs
+8606;1;1;100000;3;herb
+8608;1;1;100000;3;herb
+8610;1;1;100000;3;herb
+10655;1;1;100000;3;herb
+10656;1;1;100000;3;herb
+
+#Mystic herbs 
+8607;1;1;100000;3;herb
+8609;1;1;100000;3;herb
+
+#Vitality Replenishing Herb
+13028;1;1;10000;3;herb

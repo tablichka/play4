@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- oren_feud_product -->
+<list>
+	<config showall="true" notax="true" keepenchanted="false" />
+	<item>
+		<production id="13734" count="1"/>	<!-- Blessed Scroll of Escape: Oren -->
+		<ingredient id="57" count="250000"/>	<!-- Adena -->
+		<ingredient id="13760" count="40"/>	<!-- Oren Territory Badge -->
+	</item>
+	<item>
+		<production id="13716" count="1"/>	<!-- Oren Supply Box - Belt -->
+		<ingredient id="57" count="40000"/>	<!-- Adena -->
+		<ingredient id="13760" count="7"/>	<!-- Oren Territory Badge -->
+	</item>
+	<item>
+		<production id="13707" count="1"/>	<!-- Oren Supply Box - Magic Pouch -->
+		<ingredient id="57" count="20000"/>	<!-- Adena -->
+		<ingredient id="13760" count="4"/>	<!-- Oren Territory Badge -->
+	</item>
+	<item>
+		<production id="13698" count="1"/>	<!-- Oren Supply Box - Magic Pin -->
+		<ingredient id="57" count="40000"/>	<!-- Adena -->
+		<ingredient id="13760" count="8"/>	<!-- Oren Territory Badge -->
+	</item>
+	<item>
+		<production id="14552" count="1"/>	<!-- Oren Supply Box - Belt -->
+		<ingredient id="57" count="400000"/>	<!-- Adena -->
+		<ingredient id="13760" count="70"/>	<!-- Oren Territory Badge -->
+	</item>
+	<item>
+		<production id="14543" count="1"/>	<!-- Oren Supply Box - Magic Pouch -->
+		<ingredient id="57" count="80000"/>	<!-- Adena -->
+		<ingredient id="13760" count="16"/>	<!-- Oren Territory Badge -->
+	</item>
+	<item>
+		<production id="14534" count="1"/>	<!-- Oren Supply Box - Magic Pin -->
+		<ingredient id="57" count="120000"/>	<!-- Adena -->
+		<ingredient id="13760" count="32"/>	<!-- Oren Territory Badge -->
+	</item>
+	<item>
+		<production id="14896" count="1"/>	<!-- Oren Supply Box - Magic Ornament -->
+		<ingredient id="57" count="80000"/>	<!-- Adena -->
+		<ingredient id="13760" count="16"/>	<!-- Oren Territory Badge -->
+	</item>
+	<item>
+		<production id="14887" count="1"/>	<!-- Oren Supply Box - Magic Rune Clip -->
+		<ingredient id="57" count="120000"/>	<!-- Adena -->
+		<ingredient id="13760" count="32"/>	<!-- Oren Territory Badge -->
+	</item>
+	<item>
+		<production id="13743" count="1"/>	<!-- Oren Dark Resistance Necklace -->
+		<ingredient id="57" count="3596400"/>	<!-- Adena -->
+		<ingredient id="13760" count="160"/>	<!-- Oren Territory Badge -->
+	</item>
+	<item>
+		<production id="14595" count="1"/>	<!-- Oren Earth Resistance Ring -->
+		<ingredient id="57" count="1798200"/>	<!-- Adena -->
+		<ingredient id="13760" count="80"/>	<!-- Oren Territory Badge -->
+	</item>
+	<item>
+		<production id="14667" count="1"/>	<!-- Oren Protection Earring -->
+		<ingredient id="57" count="2696400"/>	<!-- Adena -->
+		<ingredient id="13760" count="120"/>	<!-- Oren Territory Badge -->
+	</item>
+	<item>
+		<production id="15285" count="1"/>	<!-- Oren Dark Royal Guard Necklace -->
+		<ingredient id="57" count="3596400"/>	<!-- Adena -->
+		<ingredient id="13760" count="160"/>	<!-- Oren Territory Badge -->
+	</item>
+	<item>
+		<production id="15294" count="1"/>	<!-- Oren Earth Royal Guard Ring -->
+		<ingredient id="57" count="1798200"/>	<!-- Adena -->
+		<ingredient id="13760" count="80"/>	<!-- Oren Territory Badge -->
+	</item>
+	<item>
+		<production id="14804" count="1"/>	<!-- Oren Guard Earring -->
+		<ingredient id="57" count="2696400"/>	<!-- Adena -->
+		<ingredient id="13760" count="120"/>	<!-- Oren Territory Badge -->
+	</item>
+	<item>
+		<production id="14810" count="1"/>	<!-- Blue Talisman - Buff Cancel -->
+		<ingredient id="57" count="14500"/>	<!-- Adena -->
+		<ingredient id="13760" count="13"/>	<!-- Oren Territory Badge -->
+	</item>
+	<item>
+		<production id="14811" count="1"/>	<!-- Blue Talisman - Buff Steal -->
+		<ingredient id="57" count="15600"/>	<!-- Adena -->
+		<ingredient id="13760" count="14"/>	<!-- Oren Territory Badge -->
+	</item>
+	<item>
+		<production id="14815" count="1"/>	<!-- Territory Health Recovery Potion -->
+		<ingredient id="57" count="21000"/>	<!-- Adena -->
+		<ingredient id="13760" count="8"/>	<!-- Oren Territory Badge -->
+	</item>
+	<item>
+		<production id="14816" count="1"/>	<!-- Territory Mana Recovery Potion -->
+		<ingredient id="57" count="21000"/>	<!-- Adena -->
+		<ingredient id="13760" count="8"/>	<!-- Oren Territory Badge -->
+	</item>
+	<item>
+		<production id="14817" count="1"/>	<!-- Territory CP Recovery Potion -->
+		<ingredient id="57" count="21000"/>	<!-- Adena -->
+		<ingredient id="13760" count="8"/>	<!-- Oren Territory Badge -->
+	</item>
+	<item>
+		<production id="9625" count="1"/>	<!-- Giant's Codex - Oblivion -->
+		<ingredient id="57" count="1000000"/>	<!-- Adena -->
+		<ingredient id="13760" count="20"/>	<!-- Oren Territory Badge -->
+	</item>
+	<item>
+		<production id="9626" count="1"/>	<!-- Giant's Codex - Discipline -->
+		<ingredient id="57" count="1260000"/>	<!-- Adena -->
+		<ingredient id="13760" count="54"/>	<!-- Oren Territory Badge -->
+	</item>
+	<item>
+		<production id="9627" count="1"/>	<!-- Giant's Codex - Mastery -->
+		<ingredient id="57" count="1800000"/>	<!-- Adena -->
+		<ingredient id="13760" count="80"/>	<!-- Oren Territory Badge -->
+	</item>
+	<item>
+		<production id="14964" count="1"/>	<!-- Red Skeleton Circlet -->
+		<ingredient id="57" count="2100000"/>	<!-- Adena -->
+		<ingredient id="13760" count="80"/>	<!-- Oren Territory Badge -->
+	</item>
+	<item>
+		<production id="13477" count="1"/>	<!-- Circlet of Oren Sniper -->
+		<ingredient id="57" count="2100000"/>	<!-- Adena -->
+		<ingredient id="13760" count="80"/>	<!-- Oren Territory Badge -->
+	</item>
+	<item>
+		<production id="13483" count="1"/>	<!-- Circlet of Oren Combat -->
+		<ingredient id="57" count="2100000"/>	<!-- Adena -->
+		<ingredient id="13760" count="80"/>	<!-- Oren Territory Badge -->
+	</item>
+	<item>
+		<production id="14582" count="1"/>	<!-- Apella Combat Helmet -->
+		<ingredient id="57" count="801600"/>	<!-- Adena -->
+		<ingredient id="13760" count="107"/>	<!-- Oren Territory Badge -->
+	</item>
+	<item>
+		<production id="14591" count="1"/>	<!-- Apella Combat Sandals -->
+		<ingredient id="57" count="534000"/>	<!-- Adena -->
+		<ingredient id="13760" count="71"/>	<!-- Oren Territory Badge -->
+	</item>
+	<item>
+		<production id="14583" count="1"/>	<!-- Apella Combat Armor -->
+		<ingredient id="57" count="3472800"/>	<!-- Adena -->
+		<ingredient id="13760" count="463"/>	<!-- Oren Territory Badge -->
+	</item>
+	<item>
+		<production id="14566" count="1"/>	<!-- Staff of Dake Family -->
+		<ingredient id="57" count="21000000"/>	<!-- Adena -->
+		<ingredient id="13760" count="800"/>	<!-- Oren Territory Badge -->
+	</item>
+	<item>
+		<production id="14567" count="1"/>	<!-- Hall of Dake Family -->
+		<ingredient id="57" count="21000000"/>	<!-- Adena -->
+		<ingredient id="13760" count="800"/>	<!-- Oren Territory Badge -->
+	</item>
+</list>

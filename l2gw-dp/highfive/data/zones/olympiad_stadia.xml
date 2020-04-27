@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<zone id="3001" name="Olympiad Stadium">
+		<attr name="type" val="instance"/>
+		<attr name="type" val="battle"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="147"/>
+		<attr name="blockedActions" val="private store;private workshop;"/>
+		<restartPoints>
+			<point x="-89462" y="-252842" z="-3316"/>
+			<point x="-86692" y="-252842" z="-3316"/>
+		</restartPoints>
+		<shape type="Rect" zMin="-3566" zMax="1566">
+			<point x="-89848" y="-251416"/>
+			<point x="-86280" y="-254328"/>
+		</shape>
+	</zone>
+
+	<zone id="3002" name="Trident Arena">
+		<attr name="type" val="instance"/>
+		<attr name="type" val="battle"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="148"/>
+		<attr name="blockedActions" val="private store;private workshop;"/>
+		<restartPoints>
+			<point x="-76775" y="-252460" z="-7716"/>
+			<point x="-74112" y="-252460" z="-7716"/>
+		</restartPoints>
+		<shape type="Rect" zMin="-7850" zMax="-1850">
+			<point x="-77176" y="-251528"/>
+			<point x="-73736" y="-253432"/>
+		</shape>
+	</zone>
+
+	<zone id="3003" name="Hall of Heroes">
+		<attr name="type" val="instance"/>
+		<attr name="type" val="battle"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="149"/>
+		<attr name="blockedActions" val="private store;private workshop;"/>
+		<restartPoints>
+			<point x="-89272" y="-239350" z="-8449"/>
+			<point x="-86948" y="-239350" z="-8449"/>
+		</restartPoints>
+		<shape type="Rect" zMin="-8600" zMax="-3600">
+			<point x="-89720" y="-238470"/>
+			<point x="-86530" y="-240240"/>
+		</shape>
+	</zone>
+
+	<zone id="3004" name="Orbis Arena">
+		<attr name="type" val="instance"/>
+		<attr name="type" val="battle"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="150"/>
+		<attr name="blockedActions" val="private store;private workshop;"/>
+		<restartPoints>
+			<point x="-76717" y="-239180" z="-8193"/>
+			<point x="-74197" y="-239180" z="-8193"/>
+		</restartPoints>
+		<shape type="Rect" zMin="-8500" zMax="-2500">
+			<point x="-77048" y="-238344"/>
+			<point x="-73864" y="-240248"/>
+		</shape>
+	</zone>
+
+</list>

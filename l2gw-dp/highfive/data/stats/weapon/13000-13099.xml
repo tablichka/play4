@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="13034" name="Sprite's Sword">
+		<cond msgId="1518">
+			<player instance="43" />
+		</cond>
+	</item>
+	<item id="13035" name="Enhanced Sprite's Sword">
+		<cond msgId="1518">
+			<player instance="43" />
+		</cond>
+	</item>
+	<item id="13036" name="Sword of Ice and Fire">
+		<cond msgId="1518">
+			<player instance="43" />
+		</cond>
+	</item>
+	<item id="13042" name="Ancient Legacy Sword">
+		<cond msgId="113">
+			<player instance="44" />
+		</cond>
+	</item>
+	<item id="13043" name="Enhanced Ancient Legacy Sword">
+		<cond msgId="113">
+			<player instance="44" />
+		</cond>
+	</item>
+	<item id="13044" name="Complete Ancient Legacy Sword">
+		<cond msgId="113">
+			<player instance="44" />
+		</cond>
+	</item>
+	<item id="13052" name="Spear of Silenos">
+		<cond msgId="113">
+			<player instance="45" />
+		</cond>
+		<listener>
+			<unequipDispel abnormal="CriticalUpPailaka" />
+		</listener>
+	</item>
+	<item id="13053" name="Enhanced Spear of Silenos">
+		<cond msgId="113">
+			<player instance="45" />
+		</cond>
+		<listener>
+			<unequipDispel abnormal="CriticalUpPailaka" />
+		</listener>
+	</item>
+	<item id="13054" name="Complete Spear of Silenos">
+		<cond msgId="113">
+			<player instance="45" />
+		</cond>
+		<listener>
+			<unequipDispel abnormal="CriticalUpPailaka" />
+		</listener>
+	</item>
+</list>

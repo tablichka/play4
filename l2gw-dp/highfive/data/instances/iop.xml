@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+<instances>
+
+	<!-- Dark Cloud Mansion -->
+	<instance id="9" name="Dark Cloud Mansion" max="-1" class="DarkCloudMansion" type="9" premiumReuse="* * * * *" reuseReset="* * * * *">
+		<party min="2" max="2"/>
+		<level min="78" max="86"/>
+		<timeLimit min="30"/>
+		<noUserTimeout min="0"/>
+		<startLoc x="146534" y="180464" z="-6112"/>
+		<spawnlist>
+			<door id="24230001"/>
+			<door id="24230002"/>
+			<door id="24230005"/>
+			<door id="24230003"/>
+			<door id="24230004"/>
+			<door id="24230006"/>
+			<door id="24230007"/>
+			<door id="24230008"/>
+			<door id="24230009"/>
+			<door id="24230010"/>
+			<door id="24230011"/>
+			<door id="24230012"/>
+			<door id="24230013"/>
+		</spawnlist>
+	</instance>
+
+	<!-- Crystal Caverns -->
+	<instance id="10" name="Crystal Caverns" max="-1" class="CrystalCavernsInstance" type="10">
+		<party min="2" max="9"/>
+		<level min="78" max="86"/>
+		<timeLimit min="90"/>
+		<noUserTimeout min="20"/>
+		<startLoc x="143284" y="148846" z="-11976"/>
+		<spawnlist>
+			<door id="24220001"/>
+			<door id="24220002"/>
+			<door id="24220003"/>
+			<door id="24220004"/>
+			<door id="24220005"/>
+			<door id="24220006"/>
+			<door id="24220007"/>
+			<door id="24220008"/>
+			<door id="24220009"/>
+			<door id="24220010"/>
+			<door id="24220011"/>
+			<door id="24220012"/>
+			<door id="24220013"/>
+			<door id="24220014"/>
+			<door id="24220015"/>
+			<door id="24220016"/>
+			<door id="24220017"/>
+			<door id="24220018"/>
+			<door id="24220019"/>
+			<door id="24220020"/>
+			<door id="24220021"/>
+			<door id="24220022"/>
+			<door id="24220023"/>
+			<door id="24220024"/>
+			<door id="24220025"/>
+			<door id="24220026"/>
+
+			<door id="24220030"/>
+			<door id="24220031"/>
+			<door id="24220032"/>
+			<door id="24220033"/>
+			<door id="24220034"/>
+			<door id="24220035"/>
+			<door id="24220036"/>
+			<door id="24220037"/>
+			<door id="24220038"/>
+			<door id="24220039"/>
+			<door id="24220040"/>
+			<door id="24220041"/>
+			<door id="24220042"/>
+			<door id="24220043"/>
+			<door id="24220044"/>
+			<door id="24220045"/>
+			<door id="24220046"/>
+			<door id="24220047"/>
+			<door id="24220048"/>
+			<door id="24220049"/>
+			<door id="24220050"/>
+			<door id="24220060"/>
+			<door id="24220061"/>
+			
+		</spawnlist>
+	</instance>
+
+</instances>

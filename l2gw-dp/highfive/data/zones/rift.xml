@@ -1,0 +1,930 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+
+	<zone id="1" name="[space_of_dimension_no_summon]">
+		<attr name="type" val="no_summon"/>
+		<shape type="Rect" zMin="-6964" zMax="-6064">
+			<point x="-120700" y="-187400"/>
+			<point x="-108900" y="-172800"/>
+		</shape>
+	</zone>
+
+	<zone id="31" classType="RiftRoom" name="Rift Room Level 30/1">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="1"/>
+		<attr name="roomId" val="1"/>
+		<attr name="teleportLoc" val="-111967,-182222,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-112364" y="-182829"/>
+			<point x="-111569" y="-182040"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="32" classType="RiftRoom" name="Rift Room Level 30/2">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="1"/>
+		<attr name="roomId" val="2"/>
+		<attr name="teleportLoc" val="-111082,-182225,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-111471" y="-182833"/>
+			<point x="-110692" y="-182035"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="33" classType="RiftRoom" name="Rift Room Level 30/3">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="1"/>
+		<attr name="roomId" val="3"/>
+		<attr name="teleportLoc" val="-110277,-180349,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-110685" y="-180957"/>
+			<point x="-109896" y="-180164"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="34" classType="RiftRoom" name="Rift Room Level 30/4">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="1"/>
+		<attr name="roomId" val="4"/>
+		<attr name="teleportLoc" val="-109393,-180354,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-109800" y="-180947"/>
+			<point x="-109015" y="-180165"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="35" classType="RiftRoom" name="Rift Room Level 30/5">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="1"/>
+		<attr name="roomId" val="5"/>
+		<attr name="teleportLoc" val="-113283,-181321,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-114047" y="-181963"/>
+			<point x="-112480" y="-181083"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="36" classType="RiftRoom" name="Rift Room Level 30/6">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="1"/>
+		<attr name="roomId" val="6"/>
+		<attr name="teleportLoc" val="-111575,-180738,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-112355" y="-181013"/>
+			<point x="-110822" y="-180124"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="37" classType="RiftRoom" name="Rift Room Level 30/7">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="1"/>
+		<attr name="roomId" val="7"/>
+		<attr name="teleportLoc" val="-109778,-182240,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-110564" y="-182885"/>
+			<point x="-109015" y="-181988"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="38" classType="RiftRoom" name="Rift Room Level 30/8">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="1"/>
+		<attr name="roomId" val="8"/>
+		<attr name="teleportLoc" val="-111567,-181706,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-112356" y="-181964"/>
+			<point x="-110798" y="-181058"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="39" classType="RiftRoom" name="Rift Room Level 30/9">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="true"/>
+		<attr name="roomLevel" val="1"/>
+		<attr name="roomId" val="9"/>
+		<attr name="teleportLoc" val="-109894,-181691,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-110687" y="-181946"/>
+			<point x="-109121" y="-181066"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="41" classType="RiftRoom" name="Rift Room Level 40/1">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="2"/>
+		<attr name="roomId" val="1"/>
+		<attr name="teleportLoc" val="-111970,-179396,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-112360" y="-180009"/>
+			<point x="-111573" y="-179224"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="42" classType="RiftRoom" name="Rift Room Level 40/2">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="2"/>
+		<attr name="roomId" val="2"/>
+		<attr name="teleportLoc" val="-111086,-179399,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-111478" y="-180009"/>
+			<point x="-110691" y="-179223"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="43" classType="RiftRoom" name="Rift Room Level 40/3">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="2"/>
+		<attr name="roomId" val="3"/>
+		<attr name="teleportLoc" val="-110280,-177523,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-110691" y="-178128"/>
+			<point x="-109902" y="-177344"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="44" classType="RiftRoom" name="Rift Room Level 40/4">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="2"/>
+		<attr name="roomId" val="4"/>
+		<attr name="teleportLoc" val="-109396,-177528,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-109800" y="-178128"/>
+			<point x="-109016" y="-177343"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="45" classType="RiftRoom" name="Rift Room Level 40/5">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="2"/>
+		<attr name="roomId" val="5"/>
+		<attr name="teleportLoc" val="-113287,-178495,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-114035" y="-179126"/>
+			<point x="-112479" y="-178248"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="46" classType="RiftRoom" name="Rift Room Level 40/6">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="2"/>
+		<attr name="roomId" val="6"/>
+		<attr name="teleportLoc" val="-111578,-177912,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-112357" y="-178179"/>
+			<point x="-110805" y="-177285"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="47" classType="RiftRoom" name="Rift Room Level 40/7">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="2"/>
+		<attr name="roomId" val="7"/>
+		<attr name="teleportLoc" val="-109781,-179414,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-110566" y="-180061"/>
+			<point x="-109015" y="-179163"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="48" classType="RiftRoom" name="Rift Room Level 40/8">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="2"/>
+		<attr name="roomId" val="8"/>
+		<attr name="teleportLoc" val="-111570,-178879,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-112362" y="-179136"/>
+			<point x="-110802" y="-178240"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="49" classType="RiftRoom" name="Rift Room Level 40/9">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="true"/>
+		<attr name="roomLevel" val="2"/>
+		<attr name="roomId" val="9"/>
+		<attr name="teleportLoc" val="-109897,-178865,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-110674" y="-179131"/>
+			<point x="-109127" y="-178253"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="51" classType="RiftRoom" name="Rift Room Level 50/1">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="3"/>
+		<attr name="roomId" val="1"/>
+		<attr name="teleportLoc" val="-114045,-175816,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-114257" y="-176213"/>
+			<point x="-113473" y="-175424"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="52" classType="RiftRoom" name="Rift Room Level 50/2">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="3"/>
+		<attr name="roomId" val="2"/>
+		<attr name="teleportLoc" val="-113861,-174938,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-114270" y="-175336"/>
+			<point x="-113471" y="-174534"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="53" classType="RiftRoom" name="Rift Room Level 50/3">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="3"/>
+		<attr name="roomId" val="3"/>
+		<attr name="teleportLoc" val="-115945,-174147,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-116140" y="-174540"/>
+			<point x="-115352" y="-173751"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="54" classType="RiftRoom" name="Rift Room Level 50/4">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="3"/>
+		<attr name="roomId" val="4"/>
+		<attr name="teleportLoc" val="-115969,-173229,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-116139" y="-173641"/>
+			<point x="-115346" y="-172867"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="55" classType="RiftRoom" name="Rift Room Level 50/5">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="3"/>
+		<attr name="roomId" val="5"/>
+		<attr name="teleportLoc" val="-115011,-177070,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-115232" y="-177888"/>
+			<point x="-114357" y="-176343"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="56" classType="RiftRoom" name="Rift Room Level 50/6">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="3"/>
+		<attr name="roomId" val="6"/>
+		<attr name="teleportLoc" val="-115945,-175401,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-116199" y="-176214"/>
+			<point x="-115295" y="-174655"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="57" classType="RiftRoom" name="Rift Room Level 50/7">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="3"/>
+		<attr name="roomId" val="7"/>
+		<attr name="teleportLoc" val="-114045,-173604,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-114301" y="-174410"/>
+			<point x="-113429" y="-172872"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="58" classType="RiftRoom" name="Rift Room Level 50/8">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="3"/>
+		<attr name="roomId" val="8"/>
+		<attr name="teleportLoc" val="-114955,-175377,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-115245" y="-176211"/>
+			<point x="-114334" y="-174659"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="59" classType="RiftRoom" name="Rift Room Level 50/9">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="true"/>
+		<attr name="roomLevel" val="3"/>
+		<attr name="roomId" val="9"/>
+		<attr name="teleportLoc" val="-114971,-173724,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-115249" y="-174537"/>
+			<point x="-114353" y="-172987"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="61" classType="RiftRoom" name="Rift Room Level 60/1">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="4"/>
+		<attr name="roomId" val="1"/>
+		<attr name="teleportLoc" val="-117618,-177514,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-118017" y="-178148"/>
+			<point x="-117224" y="-177360"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="62" classType="RiftRoom" name="Rift Room Level 60/2">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="4"/>
+		<attr name="roomId" val="2"/>
+		<attr name="teleportLoc" val="-118475,-177531,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-118897" y="-178146"/>
+			<point x="-118114" y="-177362"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="63" classType="RiftRoom" name="Rift Room Level 60/3">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="4"/>
+		<attr name="roomId" val="3"/>
+		<attr name="teleportLoc" val="-119254,-179440,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-119691" y="-180019"/>
+			<point x="-118904" y="-179245"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="64" classType="RiftRoom" name="Rift Room Level 60/4">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="4"/>
+		<attr name="roomId" val="4"/>
+		<attr name="teleportLoc" val="-120160,-179457,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-120573" y="-180029"/>
+			<point x="-119786" y="-179239"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="65" classType="RiftRoom" name="Rift Room Level 60/5">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="4"/>
+		<attr name="roomId" val="5"/>
+		<attr name="teleportLoc" val="-116310,-178469,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-117107" y="-179126"/>
+			<point x="-115548" y="-178250"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="66" classType="RiftRoom" name="Rift Room Level 60/6">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="4"/>
+		<attr name="roomId" val="6"/>
+		<attr name="teleportLoc" val="-117982,-179447,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-118779" y="-180077"/>
+			<point x="-117228" y="-179184"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="67" classType="RiftRoom" name="Rift Room Level 60/7">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="4"/>
+		<attr name="roomId" val="7"/>
+		<attr name="teleportLoc" val="-119762,-177523,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-120566" y="-178186"/>
+			<point x="-119022" y="-177315"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="68" classType="RiftRoom" name="Rift Room Level 60/8">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="4"/>
+		<attr name="roomId" val="8"/>
+		<attr name="teleportLoc" val="-117976,-178496,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-118783" y="-179123"/>
+			<point x="-117229" y="-178241"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="69" classType="RiftRoom" name="Rift Room Level 60/9">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="true"/>
+		<attr name="roomLevel" val="4"/>
+		<attr name="roomId" val="9"/>
+		<attr name="teleportLoc" val="-119671,-178471,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-120458" y="-179128"/>
+			<point x="-118914" y="-178239"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="71" classType="RiftRoom" name="Rift Room Level 70/1">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="5"/>
+		<attr name="roomId" val="1"/>
+		<attr name="teleportLoc" val="-117660,-180342,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-118016" y="-180965"/>
+			<point x="-117227" y="-180186"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="72" classType="RiftRoom" name="Rift Room Level 70/2">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="5"/>
+		<attr name="roomId" val="2"/>
+		<attr name="teleportLoc" val="-118516,-180359,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-118901" y="-180972"/>
+			<point x="-118108" y="-180180"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="73" classType="RiftRoom" name="Rift Room Level 70/3">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="5"/>
+		<attr name="roomId" val="3"/>
+		<attr name="teleportLoc" val="-119296,-182269,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-119686" y="-182850"/>
+			<point x="-118907" y="-182069"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="74" classType="RiftRoom" name="Rift Room Level 70/4">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="5"/>
+		<attr name="roomId" val="4"/>
+		<attr name="teleportLoc" val="-120201,-182285,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-120571" y="-182844"/>
+			<point x="-119788" y="-182067"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="75" classType="RiftRoom" name="Rift Room Level 70/5">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="5"/>
+		<attr name="roomId" val="5"/>
+		<attr name="teleportLoc" val="-116351,-181298,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-117116" y="-181946"/>
+			<point x="-115542" y="-181059"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="76" classType="RiftRoom" name="Rift Room Level 70/6">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="5"/>
+		<attr name="roomId" val="6"/>
+		<attr name="teleportLoc" val="-118023,-182276,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-118780" y="-182914"/>
+			<point x="-117226" y="-182013"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="77" classType="RiftRoom" name="Rift Room Level 70/7">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="5"/>
+		<attr name="roomId" val="7"/>
+		<attr name="teleportLoc" val="-119803,-180352,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-120565" y="-181031"/>
+			<point x="-119026" y="-180134"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="78" classType="RiftRoom" name="Rift Room Level 70/8">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="5"/>
+		<attr name="roomId" val="8"/>
+		<attr name="teleportLoc" val="-118018,-181325,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-118782" y="-181947"/>
+			<point x="-117223" y="-181060"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="79" classType="RiftRoom" name="Rift Room Level 70/9">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="true"/>
+		<attr name="roomLevel" val="5"/>
+		<attr name="roomId" val="9"/>
+		<attr name="teleportLoc" val="-119713,-181300,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-120458" y="-181940"/>
+			<point x="-118899" y="-181063"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="81" classType="RiftRoom" name="Rift Room Level 80/1">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="6"/>
+		<attr name="roomId" val="1"/>
+		<attr name="teleportLoc" val="-115932,-184391,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-116118" y="-184769"/>
+			<point x="-115328" y="-183986"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="82" classType="RiftRoom" name="Rift Room Level 80/2">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="6"/>
+		<attr name="roomId" val="2"/>
+		<attr name="teleportLoc" val="-115958,-185264,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-116121" y="-185652"/>
+			<point x="-115332" y="-184875"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="83" classType="RiftRoom" name="Rift Room Level 80/3">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="6"/>
+		<attr name="roomId" val="3"/>
+		<attr name="teleportLoc" val="-114051,-186047,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-114239" y="-186443"/>
+			<point x="-113449" y="-185654"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="84" classType="RiftRoom" name="Rift Room Level 80/4">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="6"/>
+		<attr name="roomId" val="4"/>
+		<attr name="teleportLoc" val="-114062,-186920,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-114239" y="-187326"/>
+			<point x="-113449" y="-186543"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="85" classType="RiftRoom" name="Rift Room Level 80/5">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="6"/>
+		<attr name="roomId" val="5"/>
+		<attr name="teleportLoc" val="-114979,-183034,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-115253" y="-183858"/>
+			<point x="-114349" y="-182312"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="86" classType="RiftRoom" name="Rift Room Level 80/6">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="6"/>
+		<attr name="roomId" val="6"/>
+		<attr name="teleportLoc" val="-114054,-184729,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-114265" y="-185530"/>
+			<point x="-113412" y="-183994"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="87" classType="RiftRoom" name="Rift Room Level 80/7">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="6"/>
+		<attr name="roomId" val="7"/>
+		<attr name="teleportLoc" val="-115921,-186487,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-116171" y="-187324"/>
+			<point x="-115290" y="-185781"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="88" classType="RiftRoom" name="Rift Room Level 80/8">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="false"/>
+		<attr name="roomLevel" val="6"/>
+		<attr name="roomId" val="8"/>
+		<attr name="teleportLoc" val="-115003,-184725,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-115245" y="-185540"/>
+			<point x="-114342" y="-183983"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+	<zone id="89" classType="RiftRoom" name="Rift Room Level 80/9">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_restart"/>
+		<attr name="bossRoom" val="true"/>
+		<attr name="roomLevel" val="6"/>
+		<attr name="roomId" val="9"/>
+		<attr name="teleportLoc" val="-115012,-186389,-6755"/>
+		<shape type="Rect" zMin="-6786" zMax="-6586">
+			<point x="-115228" y="-187212"/>
+			<point x="-114360" y="-185664"/>
+		</shape>
+		<restartPoints>
+			<point x="-114749" y="-179293" z="-6755"/>
+		</restartPoints>
+	</zone>
+
+</list>

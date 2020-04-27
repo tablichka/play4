@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='utf-8'?>
+<instances>
+
+	<instance id="111" name="Sanctum of the Lords of Dawn" max="20" type="111" premiumReuse="* * * * *" reuseReset="* * * * *" dispel="true">
+		<level min="79" max="86"/>
+		<party min="1" max="1"/>
+		<timeLimit min="60"/>
+		<noUserTimeout min="10"/>
+		<startLoc x="-76161" y="213401" z="-7120"/>
+		<spawnlist>
+			<door id="17240001"/>
+			<door id="17240002"/>
+			<door id="17240003"/>
+			<door id="17240004"/>
+			<door id="17240005"/>
+			<door id="17240006"/>
+			<spawn event="iz111evt01" delay="0"/>
+
+			<!-- darkness_of_dawn at -75988;213411;-7124;0 count 1 respawn 1 sec -->
+			<!-- nickname: darkness_of_dawn AI params:  -->
+			<spawn npcId="32579" delay="0" respawn="1" count="1" x="-75988" y="213411" z="-7124" heading="0"/>
+			<!-- code_input_device at -80152;205740;-7904;0 count 1 respawn 1 sec -->
+			<!-- nickname: code_input_device AI params: [DoorName]=[door_of_ssq_password];[DoorName2]=[door_of_ssq_password_a] -->
+			<spawn npcId="32577" delay="0" respawn="1" count="1" x="-80152" y="205740" z="-7904" heading="0"/>
+			<!-- bookshelf1_dawn at -81561;205795;-7896;0 count 1 respawn 1 sec -->
+			<!-- nickname: bookshelf_controller AI params:  -->
+			<spawn npcId="32580" delay="0" respawn="1" count="1" x="-81561" y="205795" z="-7896" heading="0"/>
+
+		</spawnlist>
+	</instance>
+
+	<instance id="112" name="Disciple's Necropolis (past)" class="DisciplesNecropolis" max="50" type="112" premiumReuse="* * * * *" reuseReset="* * * * *" dispel="true">
+		<level min="79" max="86"/>
+		<party min="1" max="1"/>
+		<timeLimit min="60"/>
+		<startLoc x="-89554" y="216078" z="-7488"/>
+		<noUserTimeout min="10"/>
+		<spawnlist>
+			<door id="17240101"/>
+			<door id="17240102"/>
+			<door id="17240103"/>
+			<door id="17240104"/>
+			<door id="17240105"/>
+			<door id="17240106"/>
+			<door id="17240107"/>
+			<door id="17240108"/>
+			<door id="17240109"/>
+			<door id="17240110"/>
+			<door id="17240111"/>
+
+			<spawn npcId="32587" delay="0" respawn="0" count="1" x="-89400" y="216125" z="-7504" heading="40960"/>
+			<spawn npcId="32586" delay="0" respawn="0" count="1" x="-89456" y="216184" z="-7504" heading="40960"/>
+
+			<!-- ssq_wizard at -89549;220640;-7504;0 count 1 respawn 0  -->
+			<!-- nickname: ssq_wizard AI params:  -->
+			<spawn npcId="32598" delay="0" respawn="0" count="1" x="-89549" y="220640" z="-7504" heading="0"/>
+
+			<!-- ssq_wizard at -84944;220640;-7504;0 count 1 respawn 0  -->
+			<!-- nickname: ssq_wizard AI params:  -->
+			<spawn npcId="32598" delay="0" respawn="0" count="1" x="-84944" y="220640" z="-7504" heading="0"/>
+
+			<!-- ssq_gate_open at -84398;216106;-7504;32768 count 1 respawn 0  -->
+			<!-- nickname: ssq_gate_open AI params:  -->
+			<spawn npcId="32657" delay="0" respawn="0" count="1" x="-84398" y="216106" z="-7504" heading="32768"/>
+			
+
+			<!-- controler_of_sealing at -83177;216752;-7518;0 count 1 respawn 0  -->
+			<!-- nickname:  AI params:  -->
+			<spawn npcId="32592" delay="0" respawn="0" count="1" x="-83177" y="216752" z="-7518" heading="0"/>
+
+		</spawnlist>
+	</instance>
+	
+	<instance id="113" name="Hideout of the Dawn" max="100" type="113" premiumReuse="* * * * *" reuseReset="* * * * *" dispel="true">
+		<level min="79" max="86"/>
+		<party min="1" max="1"/>
+		<timeLimit min="30"/>
+		<noUserTimeout min="0"/>
+		<startLoc x="-23758" y="-8959" z="-5384"/>
+		<spawnlist>
+			<spawn npcId="32597" delay="0" respawn="0" count="1" x="-23976" y="-8964" z="-5392" heading="0"/>
+			<spawn npcId="32617" delay="0" respawn="0" count="1" x="-23961" y="-8892" z="-5392" heading="0"/>
+		</spawnlist>
+	</instance>
+
+	<instance id="151" name="Monastery of Silence" max="60" type="151" premiumReuse="* * * * *" reuseReset="* * * * *" dispel="true">
+		<level min="81" max="86"/>
+		<party min="1" max="1"/>
+		<timeLimit min="60"/>
+		<noUserTimeout min="0"/>
+		<startLoc x="120717" y="-86879" z="-3424"/>
+		<dispelOnExit>
+			<skill index="440008705"/>
+			<skill index="440074241"/>
+			<skill index="440139777"/>
+			<skill index="440205313"/>
+			<skill index="440336385"/>
+			<skill index="440401921"/>
+			<skill index="440467457"/>
+			<skill index="440532993"/>
+			<skill index="440598529"/>
+			<skill index="440729601"/>
+			<skill index="440860673"/>
+			<skill index="440991745"/>
+		</dispelOnExit>
+		<spawnlist>
+			<door id="21100014" open="true"/>
+			<door id="21100001" open="true"/>
+			<door id="21100006" open="true"/>
+			<door id="21100010" open="true"/>
+			<door id="21100002" open="true"/>
+			<door id="21100015" open="true"/>
+			<door id="21100013" open="true"/>
+			<door id="21100011" open="true"/>
+			<door id="21100009" open="true"/>
+			<door id="21100007" open="true"/>
+			<door id="21100005" open="true"/>
+			<door id="21100004" open="true"/>
+			<door id="21100003" open="true"/>
+			<door id="21100008" open="true"/>
+			<door id="21100012" open="true"/>
+			<door id="21100016" open="true"/>
+			<door id="21100018" open="true"/>
+			<door id="21100104"/>
+			<door id="21100103"/>
+			<door id="21100102"/>
+			<door id="21100101"/>
+		</spawnlist>
+	</instance>
+
+	<instance id="156" name="Library of Sages" max="45" type="156" premiumReuse="* * * * *" reuseReset="* * * * *" dispel="false">
+		<level min="81" max="86"/>
+		<party min="1" max="50"/>
+		<timeLimit min="45"/>
+		<noUserTimeout min="0"/>
+		<startLoc x="37097" y="-49828" z="-1128"/>
+		<spawnlist>
+			<door id="21160502"/>
+			<spawn npcId="32861" delay="0" respawn="60" count="1" x="37377" y="-49777" z="-1136" heading="16752"/>
+			<spawn npcId="32785" delay="0" respawn="60" count="1" x="37376" y="-49288" z="-1136" heading="-16504"/>
+			<spawn npcId="32863" delay="0" respawn="60" count="1" x="37360" y="-50912" z="-1184" heading="16500"/>
+			<spawn npcId="32863" delay="0" respawn="60" count="1" x="37360" y="-50912" z="-1184" heading="16500"/>
+			<spawn npcId="32809" delay="0" respawn="60" count="1" x="37525" y="-50465" z="-1176" heading="1805"/>
+			<spawn npcId="32810" delay="0" respawn="60" count="1" x="37109" y="-50640" z="-1176" heading="25337"/>
+			<spawn npcId="32811" delay="0" respawn="60" count="1" x="37232" y="-51007" z="-1159" heading="16624"/>
+			<spawn npcId="32812" delay="0" respawn="60" count="1" x="37440" y="-50986" z="-1176" heading="6094"/>
+			<spawn npcId="32813" delay="0" respawn="60" count="1" x="37623" y="-50882" z="-1157" heading="-32232"/>
+		</spawnlist>
+	</instance>
+
+	<instance id="158" name="Elcadia's Tent" max="45" type="158" premiumReuse="* * * * *" reuseReset="* * * * *" dispel="false">
+		<level min="81" max="86"/>
+		<party min="1" max="1"/>
+		<timeLimit min="45"/>
+		<noUserTimeout min="0"/>
+		<startLoc x="89797" y="-238081" z="-9632"/>
+		<spawnlist>
+			<spawn npcId="32784" delay="0" respawn="60" count="1" x="89440" y="-238080" z="-9636" heading="0"/>
+		</spawnlist>
+	</instance>
+
+</instances>

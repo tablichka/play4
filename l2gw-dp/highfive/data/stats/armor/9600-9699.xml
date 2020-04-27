@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="9605" name="Agathion Seal Bracelet - Rainbow Clan Hall">
+		<cond msgId="1518">
+			<player hasHideOut="62" />
+		</cond>
+	</item>
+	<item id="9606" name="Agathion Seal Bracelet - Wild Beast Reserve">
+		<cond msgId="1518">
+			<player hasHideOut="63" />
+		</cond>
+	</item>
+	<item id="9607" name="Agathion Seal Bracelet - Gludio">
+		<cond msgId="1518">
+			<player hasHideOut="1" />
+		</cond>
+	</item>
+	<item id="9608" name="Agathion Seal Bracelet - Dion">
+		<cond msgId="1518">
+			<player hasHideOut="2" />
+		</cond>
+	</item>
+	<item id="9609" name="Agathion Seal Bracelet - Giran">
+		<cond msgId="1518">
+			<player hasHideOut="3" />
+		</cond>
+	</item>
+	<item id="9610" name="Agathion Seal Bracelet - Oren">
+		<cond msgId="1518">
+			<player hasHideOut="4" />
+		</cond>
+	</item>
+	<item id="9611" name="Agathion Seal Bracelet - Aden">
+		<cond msgId="1518">
+			<player hasHideOut="5" />
+		</cond>
+	</item>
+	<item id="9612" name="Agathion Seal Bracelet - Innadril">
+		<cond msgId="1518">
+			<player hasHideOut="6" />
+		</cond>
+	</item>
+	<item id="9613" name="Agathion Seal Bracelet - Goddard">
+		<cond msgId="1518">
+			<player hasHideOut="7" />
+		</cond>
+	</item>
+	<item id="9614" name="Agathion Seal Bracelet - Rune">
+		<cond msgId="1518">
+			<player hasHideOut="8" />
+		</cond>
+	</item>
+	<item id="9615" name="Agathion Seal Bracelet - Schuttgart">
+		<cond msgId="1518">
+			<player hasHideOut="9" />
+		</cond>
+	</item>
+	<item id='9662' name="Great Wolf Scale Armor">
+		<cond msgId="600">
+			<uc category="grown_up_wolf_group"/>
+		</cond>
+		<for>
+			<add val='112' order='0x10' stat='pDef'/>
+			<add val='14' order='0x10' stat='mDef'/>
+		</for>
+	</item>
+	<item id='9663' name="Great Wolf Bronze Armor">
+		<cond msgId="600">
+			<uc category="grown_up_wolf_group"/>
+		</cond>
+		<for>
+			<add val='124' order='0x10' stat='pDef'/>
+			<add val='14' order='0x10' stat='mDef'/>
+		</for>
+	</item>
+	<item id='9664' name="Great Wolf Plate Armor">
+		<cond msgId="600">
+			<uc category="grown_up_wolf_group"/>
+		</cond>
+		<for>
+			<add val='136' order='0x10' stat='pDef'/>
+			<add val='14' order='0x10' stat='mDef'/>
+		</for>
+	</item>
+	<item id='9665' name="Great Wolf Mithril Armor">
+		<cond msgId="600">
+			<uc category="grown_up_wolf_group"/>
+		</cond>
+		<for>
+			<add val='148' order='0x10' stat='pDef'/>
+			<add val='14' order='0x10' stat='mDef'/>
+		</for>
+	</item>
+	<item id='9666' name="Great Wolf Oriharukon Armor">
+		<cond msgId="600">
+			<uc category="grown_up_wolf_group"/>
+		</cond>
+		<for>
+			<add val='160' order='0x10' stat='pDef'/>
+			<add val='14' order='0x10' stat='mDef'/>
+		</for>
+	</item>
+	<item id='9667' name="Great Wolf Orichalcum Armor">
+		<cond msgId="600">
+			<uc category="grown_up_wolf_group"/>
+		</cond>
+		<for>
+			<add val='171' order='0x10' stat='pDef'/>
+			<add val='14' order='0x10' stat='mDef'/>
+		</for>
+	</item>
+</list>

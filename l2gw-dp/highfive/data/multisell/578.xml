@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- marketeer2_of_genesis -->
+<list>
+	<config showall="false" notax="true" keepenchanted="false"/>
+	<item>
+		<production id="8764" count="1"/>	<!-- Trap Stone -->
+		<ingredient id="57" count="750"/>	<!-- Adena -->
+	</item>
+</list>

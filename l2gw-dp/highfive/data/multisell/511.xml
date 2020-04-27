@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 0351_head_blacksmith_vergara -->
+<list>
+	<config showall="true" notax="true"/>
+	<item>
+		<production id="57" count="700"/>	<!-- Adena -->
+		<ingredient id="4407" count="1"/>	<!-- Bill of Iason Heine -->
+	</item>
+	<item>
+		<production id="1867" count="20"/>	<!-- Animal Skin -->
+		<ingredient id="4407" count="3"/>	<!-- Bill of Iason Heine -->
+	</item>
+	<item>
+		<production id="1872" count="20"/>	<!-- Animal Bone -->
+		<ingredient id="4407" count="3"/>	<!-- Bill of Iason Heine -->
+	</item>
+	<item>
+		<production id="1870" count="10"/>	<!-- Coal -->
+		<ingredient id="4407" count="2"/>	<!-- Bill of Iason Heine -->
+	</item>
+	<item>
+		<production id="1871" count="10"/>	<!-- Charcoal -->
+		<ingredient id="4407" count="2"/>	<!-- Bill of Iason Heine -->
+	</item>
+	<item>
+		<production id="1881" count="2"/>	<!-- Coarse Bone Powder -->
+		<ingredient id="4407" count="3"/>	<!-- Bill of Iason Heine -->
+	</item>
+	<item>
+		<production id="1874" count="1"/>	<!-- Oriharukon Ore -->
+		<ingredient id="4407" count="3"/>	<!-- Bill of Iason Heine -->
+	</item>
+	<item>
+		<production id="1875" count="1"/>	<!-- Stone of Purity -->
+		<ingredient id="4407" count="3"/>	<!-- Bill of Iason Heine -->
+	</item>
+	<item>
+		<production id="5220" count="1"/>	<!-- Metal Hardener -->
+		<ingredient id="4407" count="5"/>	<!-- Bill of Iason Heine -->
+	</item>
+	<item>
+		<production id="1879" count="6"/>	<!-- Cokes -->
+		<ingredient id="4407" count="5"/>	<!-- Bill of Iason Heine -->
+	</item>
+	<item>
+		<production id="1894" count="1"/>	<!-- Crafted Leather -->
+		<ingredient id="4407" count="6"/>	<!-- Bill of Iason Heine -->
+	</item>
+	<item>
+		<production id="1888" count="1"/>	<!-- Synthetic Cokes -->
+		<ingredient id="4407" count="7"/>	<!-- Bill of Iason Heine -->
+	</item>
+	<item>
+		<production id="1887" count="1"/>	<!-- Varnish of Purity -->
+		<ingredient id="4407" count="9"/>	<!-- Bill of Iason Heine -->
+	</item>
+	<item>
+		<production id="1882" count="10"/>	<!-- Leather -->
+		<ingredient id="4407" count="9"/>	<!-- Bill of Iason Heine -->
+	</item>
+</list>

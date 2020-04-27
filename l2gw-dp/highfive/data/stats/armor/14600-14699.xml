@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="14601" name="Ancient Cloak - Kamael exclusive - Kamael Use">
+		<cond msgId="2453">
+			<OpCloak/>
+		</cond>
+	</item>
+	<item id="14602" name="Ancient Cloak">
+		<cond msgId="2453">
+			<and>
+				<not>
+					<player race="kamael" />
+				</not>
+				<OpCloak/>
+			</and>
+		</cond>
+	</item>
+	<item id="14608" name="Ancient Cloak - Light Armor exclusive">
+		<cond msgId="2453">
+			<and>
+				<not>
+					<player race="kamael" />
+				</not>
+				<OpCloak/>
+			</and>
+		</cond>
+	</item>
+	<item id="14609" name="Ancient Cloak">
+		<cond msgId="2453">
+			<OpCloak/>
+		</cond>
+	</item>
+	<item id="14610" name="Ancient Cloak - Robe exclusive">
+		<cond msgId="2453">
+			<and>
+				<not>
+					<player race="kamael" />
+				</not>
+				<OpCloak/>
+			</and>
+		</cond>
+	</item>
+</list>

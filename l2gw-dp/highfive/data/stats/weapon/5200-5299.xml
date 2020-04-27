@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="5217" name="Wolf Level 75 Weapon">
+		<cond msgId="600">
+			<uc category="all_wolf_group" />
+		</cond>
+	</item>
+	<item id="5292" name="Sealed Dark Crystal Shield">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+</list>

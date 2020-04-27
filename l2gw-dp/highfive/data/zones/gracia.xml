@@ -1,0 +1,591 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<zone id="5944" name="13_24_undying_cycle_a1">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="true"/>
+		<attr name="event_id" val="13240201"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-368" zMax="-318">
+			<point x="-213818" y="208104"/>
+			<point x="-213792" y="208099"/>
+			<point x="-213795" y="208122"/>
+			<point x="-213818" y="208124"/>
+		</shape>
+	</zone>
+
+	<zone id="5945" name="13_24_undying_cycle_a2">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="true"/>
+		<attr name="event_id" val="13240202"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-368" zMax="-318">
+			<point x="-213818" y="208104"/>
+			<point x="-213792" y="208099"/>
+			<point x="-213795" y="208122"/>
+			<point x="-213818" y="208124"/>
+		</shape>
+	</zone>
+
+	<zone id="5946" name="13_24_undying_cycle_a3">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="true"/>
+		<attr name="event_id" val="13240203"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-368" zMax="-318">
+			<point x="-213818" y="208104"/>
+			<point x="-213792" y="208099"/>
+			<point x="-213795" y="208122"/>
+			<point x="-213818" y="208124"/>
+		</shape>
+	</zone>
+
+	<zone id="5947" name="13_24_undying_cycle_a4">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="true"/>
+		<attr name="event_id" val="13240204"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-368" zMax="-318">
+			<point x="-213818" y="208104"/>
+			<point x="-213792" y="208099"/>
+			<point x="-213795" y="208122"/>
+			<point x="-213818" y="208124"/>
+		</shape>
+	</zone>
+
+	<zone id="5948" name="13_24_undying_cycle_a5">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="true"/>
+		<attr name="event_id" val="13240205"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-368" zMax="-318">
+			<point x="-213818" y="208104"/>
+			<point x="-213792" y="208099"/>
+			<point x="-213795" y="208122"/>
+			<point x="-213818" y="208124"/>
+		</shape>
+	</zone>
+
+	<zone id="5949" name="13_24_undying_cycle_s1">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="13240101"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-368" zMax="-318">
+			<point x="-213818" y="208104"/>
+			<point x="-213792" y="208099"/>
+			<point x="-213795" y="208122"/>
+			<point x="-213818" y="208124"/>
+		</shape>
+	</zone>
+
+	<zone id="5950" name="13_24_undying_cycle_d1">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="13240301"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-368" zMax="-318">
+			<point x="-213818" y="208104"/>
+			<point x="-213792" y="208099"/>
+			<point x="-213795" y="208122"/>
+			<point x="-213818" y="208124"/>
+		</shape>
+	</zone>
+
+	<zone id="5951" name="Base Docking Area North">
+		<attr name="type" val="dummy"/>
+		<shape type="Poly" zMin="-1100" zMax="6100">
+			<point x="-189608" y="234664"/>
+			<point x="-179384" y="237976"/>
+			<point x="-180600" y="244472"/>
+			<point x="-192328" y="239800"/>
+		</shape>
+	</zone>
+	<zone id="5952" name="Base Docking Area South">
+		<attr name="type" val="dummy"/>
+		<shape type="Poly" zMin="-1100" zMax="6100">
+			<point x="-180600" y="244472"/>
+			<point x="-192328" y="239800"/>
+			<point x="-193896" y="246840"/>
+			<point x="-183320" y="251384"/>
+		</shape>
+	</zone>
+	<zone id="5953" name="Seed of Infinity Docking Area">
+		<attr name="type" val="dummy"/>
+		<shape type="Poly" zMin="-1100" zMax="6100">
+			<point x="-222300" y="209650"/>
+			<point x="-213000" y="218000"/>
+			<point x="-204000" y="209650"/>
+			<point x="-213000" y="202200"/>
+		</shape>
+	</zone>
+	<zone id="5954" name="Seed of Destruction Docking Area">
+		<attr name="type" val="dummy"/>
+		<shape type="Rect" zMin="-1100" zMax="6100">
+			<point x="-256000" y="254000"/>
+			<point x="-242000" y="241000"/>
+		</shape>
+	</zone>
+	<zone id="5955" name="Seed of Annihilation Docking Area">
+		<attr name="type" val="dummy"/>
+		<shape type="Rect" zMin="1000" zMax="1500">
+			<point x="-184200" y="151000"/>
+			<point x="-172600" y="159000"/>
+		</shape>
+		<shape type="Rect" zMin="1000" zMax="6000">
+			<point x="-173400" y="151000"/>
+			<point x="-172600" y="159000"/>
+		</shape>
+		<shape type="Rect" zMin="1000" zMax="6000">
+			<point x="-184200" y="158000"/>
+			<point x="-172600" y="159000"/>
+		</shape>
+		<shape type="Rect" zMin="1000" zMax="6000">
+			<point x="-184200" y="151000"/>
+			<point x="-183400" y="159000"/>
+		</shape>
+		<shape type="Rect" zMin="1000" zMax="6000">
+			<point x="-184200" y="151000"/>
+			<point x="-172600" y="152000"/>
+		</shape>
+		<shape type="Rect" zMin="6000" zMax="6500">
+			<point x="-184200" y="151000"/>
+			<point x="-172600" y="159000"/>
+		</shape>
+	</zone>
+	<!-- Seed of Annihilation buff/debuff zones -->
+	<zone id="5956" name="13_23_cocracon_for_melee">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="45" probe="100">
+				<skill id="6440" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-13000" zMax="-4000">
+			<point x="-221685" y="172976"/>
+			<point x="-205845" y="172982"/>
+			<point x="-204997" y="187005"/>
+			<point x="-212959" y="182829"/>
+			<point x="-213397" y="182804"/>
+			<point x="-216745" y="187021"/>
+			<point x="-220549" y="187614"/>
+		</shape>
+	</zone>
+	<zone id="5957" name="13_23_cocracon_for_archer">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="45" probe="100">
+				<skill id="6441" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-13000" zMax="-4000">
+			<point x="-221685" y="172976"/>
+			<point x="-205845" y="172982"/>
+			<point x="-204997" y="187005"/>
+			<point x="-212959" y="182829"/>
+			<point x="-213397" y="182804"/>
+			<point x="-216745" y="187021"/>
+			<point x="-220549" y="187614"/>
+		</shape>
+	</zone>
+	<zone id="5958" name="13_23_cocracon_for_mage">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="45" probe="100">
+				<skill id="6439" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-13000" zMax="-4000">
+			<point x="-221685" y="172976"/>
+			<point x="-205845" y="172982"/>
+			<point x="-204997" y="187005"/>
+			<point x="-212959" y="182829"/>
+			<point x="-213397" y="182804"/>
+			<point x="-216745" y="187021"/>
+			<point x="-220549" y="187614"/>
+		</shape>
+	</zone>
+	<zone id="5959" name="14_23_raptilicon_for_melee">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="45" probe="100">
+				<skill id="6440" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-16312" zMax="-11528">
+			<point x="-175341" y="176261"/>
+			<point x="-170711" y="188069"/>
+			<point x="-177158" y="188527"/>
+			<point x="-179830" y="183055"/>
+			<point x="-180681" y="183067"/>
+			<point x="-184522" y="188504"/>
+			<point x="-188752" y="184597"/>
+			<point x="-186625" y="174239"/>
+		</shape>
+	</zone>
+	<zone id="5960" name="14_23_raptilicon_for_archer">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="45" probe="100">
+				<skill id="6441" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-16312" zMax="-11528">
+			<point x="-175341" y="176261"/>
+			<point x="-170711" y="188069"/>
+			<point x="-177158" y="188527"/>
+			<point x="-179830" y="183055"/>
+			<point x="-180681" y="183067"/>
+			<point x="-184522" y="188504"/>
+			<point x="-188752" y="184597"/>
+			<point x="-186625" y="174239"/>
+		</shape>
+	</zone>
+	<zone id="5961" name="14_23_raptilicon_for_mage">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="45" probe="100">
+				<skill id="6439" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-16312" zMax="-11528">
+			<point x="-175341" y="176261"/>
+			<point x="-170711" y="188069"/>
+			<point x="-177158" y="188527"/>
+			<point x="-179830" y="183055"/>
+			<point x="-180681" y="183067"/>
+			<point x="-184522" y="188504"/>
+			<point x="-188752" y="184597"/>
+			<point x="-186625" y="174239"/>
+		</shape>
+	</zone>
+	<zone id="5962" name="14_23_beastacon_for_melee">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="45" probe="100">
+				<skill id="6440" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-10936" zMax="-6024">
+			<point x="-186850" y="174532"/>
+			<point x="-170363" y="173029"/>
+			<point x="-172598" y="183028"/>
+			<point x="-176043" y="186755"/>
+			<point x="-180214" y="182878"/>
+			<point x="-186767" y="186465"/>
+		</shape>
+	</zone>
+	<zone id="5963" name="14_23_beastacon_for_archer">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="45" probe="100">
+				<skill id="6441" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-10936" zMax="-6024">
+			<point x="-186850" y="174532"/>
+			<point x="-170363" y="173029"/>
+			<point x="-172598" y="183028"/>
+			<point x="-176043" y="186755"/>
+			<point x="-180214" y="182878"/>
+			<point x="-186767" y="186465"/>
+		</shape>
+	</zone>
+	<zone id="5964" name="14_23_beastacon_for_mage">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="45" probe="100">
+				<skill id="6439" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-10936" zMax="-6024">
+			<point x="-186850" y="174532"/>
+			<point x="-170363" y="173029"/>
+			<point x="-172598" y="183028"/>
+			<point x="-176043" y="186755"/>
+			<point x="-180214" y="182878"/>
+			<point x="-186767" y="186465"/>
+		</shape>
+	</zone>
+	<zone id="5965" name="13_23_cocracon_for_melee_for_pc">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="90" probe="100">
+				<skill id="6443" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-13000" zMax="-4000">
+			<point x="-221685" y="172976"/>
+			<point x="-205845" y="172982"/>
+			<point x="-204997" y="187005"/>
+			<point x="-212959" y="182829"/>
+			<point x="-213397" y="182804"/>
+			<point x="-216745" y="187021"/>
+			<point x="-220549" y="187614"/>
+		</shape>
+	</zone>
+	<zone id="5966" name="13_23_cocracon_for_archer_for_pc">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="90" probe="100">
+				<skill id="6444" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-13000" zMax="-4000">
+			<point x="-221685" y="172976"/>
+			<point x="-205845" y="172982"/>
+			<point x="-204997" y="187005"/>
+			<point x="-212959" y="182829"/>
+			<point x="-213397" y="182804"/>
+			<point x="-216745" y="187021"/>
+			<point x="-220549" y="187614"/>
+		</shape>
+	</zone>
+	<zone id="5967" name="13_23_cocracon_for_mage_for_pc">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="90" probe="100">
+				<skill id="6442" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-13000" zMax="-4000">
+			<point x="-221685" y="172976"/>
+			<point x="-205845" y="172982"/>
+			<point x="-204997" y="187005"/>
+			<point x="-212959" y="182829"/>
+			<point x="-213397" y="182804"/>
+			<point x="-216745" y="187021"/>
+			<point x="-220549" y="187614"/>
+		</shape>
+	</zone>
+	<zone id="5968" name="14_23_raptilicon_for_melee_for_pc">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="90" probe="100">
+				<skill id="6443" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-16312" zMax="-11528">
+			<point x="-175341" y="176261"/>
+			<point x="-170711" y="188069"/>
+			<point x="-177158" y="188527"/>
+			<point x="-179830" y="183055"/>
+			<point x="-180681" y="183067"/>
+			<point x="-184522" y="188504"/>
+			<point x="-188752" y="184597"/>
+			<point x="-186625" y="174239"/>
+		</shape>
+	</zone>
+	<zone id="5969" name="14_23_raptilicon_for_archer_for_pc">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="90" probe="100">
+				<skill id="6444" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-16312" zMax="-11528">
+			<point x="-175341" y="176261"/>
+			<point x="-170711" y="188069"/>
+			<point x="-177158" y="188527"/>
+			<point x="-179830" y="183055"/>
+			<point x="-180681" y="183067"/>
+			<point x="-184522" y="188504"/>
+			<point x="-188752" y="184597"/>
+			<point x="-186625" y="174239"/>
+		</shape>
+	</zone>
+	<zone id="5970" name="14_23_raptilicon_for_mage_for_pc">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="90" probe="100">
+				<skill id="6442" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-16312" zMax="-11528">
+			<point x="-175341" y="176261"/>
+			<point x="-170711" y="188069"/>
+			<point x="-177158" y="188527"/>
+			<point x="-179830" y="183055"/>
+			<point x="-180681" y="183067"/>
+			<point x="-184522" y="188504"/>
+			<point x="-188752" y="184597"/>
+			<point x="-186625" y="174239"/>
+		</shape>
+	</zone>
+	<zone id="5971" name="14_23_beastacon_for_melee_for_pc">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="90" probe="100">
+				<skill id="6443" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-10936" zMax="-6024">
+			<point x="-186850" y="174532"/>
+			<point x="-170363" y="173029"/>
+			<point x="-172598" y="183028"/>
+			<point x="-176043" y="186755"/>
+			<point x="-180214" y="182878"/>
+			<point x="-186767" y="186465"/>
+		</shape>
+	</zone>
+	<zone id="5972" name="14_23_beastacon_for_archer_for_pc">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="90" probe="100">
+				<skill id="6444" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-10936" zMax="-6024">
+			<point x="-186850" y="174532"/>
+			<point x="-170363" y="173029"/>
+			<point x="-172598" y="183028"/>
+			<point x="-176043" y="186755"/>
+			<point x="-180214" y="182878"/>
+			<point x="-186767" y="186465"/>
+		</shape>
+	</zone>
+	<zone id="5973" name="14_23_beastacon_for_mage_for_pc">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="90" probe="100">
+				<skill id="6442" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-10936" zMax="-6024">
+			<point x="-186850" y="174532"/>
+			<point x="-170363" y="173029"/>
+			<point x="-172598" y="183028"/>
+			<point x="-176043" y="186755"/>
+			<point x="-180214" y="182878"/>
+			<point x="-186767" y="186465"/>
+		</shape>
+	</zone>
+	<zone id="5974" name="14_23_telzone_to_cocracon">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="true"/>
+		<effects>
+			<effect action="teleport" event="schedule" unit_tick="5" teleport_points="-213175,182648,-10992"/>
+		</effects>
+		<shape type="Poly" zMin="-10593" zMax="-10293">
+			<point x="-182178" y="186223"/>
+			<point x="-182164" y="187182"/>
+			<point x="-183010" y="188068"/>
+			<point x="-183541" y="187026"/>
+		</shape>
+	</zone>
+	<zone id="5975" name="14_23_telzone_to_raptilicon">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="true"/>
+		<effects>
+			<effect action="teleport" event="schedule" unit_tick="5" teleport_points="-180211,182984,-15152"/>
+		</effects>
+		<shape type="Poly" zMin="-10769" zMax="-10469">
+			<point x="-177056" y="187568"/>
+			<point x="-177186" y="188192"/>
+			<point x="-179236" y="188534"/>
+			<point x="-178760" y="187618"/>
+		</shape>
+	</zone>
+	<zone id="5976" name="13_23_telzone_from_cocracon">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="true"/>
+		<effects>
+			<effect action="teleport" event="schedule" unit_tick="5" teleport_points="-181217,186711,-10528"/>
+		</effects>
+		<shape type="Poly" zMin="-11042" zMax="-10842">
+			<point x="-213281" y="183864"/>
+			<point x="-211849" y="183297"/>
+			<point x="-213016" y="185336"/>
+			<point x="-213377" y="185350"/>
+		</shape>
+	</zone>
+	<zone id="5977" name="14_23_telzone_from_raptilicon">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="true"/>
+		<effects>
+			<effect action="teleport" event="schedule" unit_tick="5" teleport_points="-179275,186802,-10720"/>
+		</effects>
+		<shape type="Poly" zMin="-15206" zMax="-15006">
+			<point x="-180517" y="184547"/>
+			<point x="-179616" y="184158"/>
+			<point x="-179308" y="184501"/>
+			<point x="-180340" y="185599"/>
+		</shape>
+	</zone>
+
+</list>
+

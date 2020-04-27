@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- NPC Kirklan -->
+<list>
+	<config showall="true" notax="true" ignoreprice="true" keepenchanted="false"/>
+	<item>
+		<production id="10373" count="1"/>	<!-- Recipe - Icarus Sawsword (60%) -->
+		<ingredient id="13796" count="136"/>	<!-- Freed Soul -->
+		<ingredient id="13841" count="40"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="10374" count="1"/>	<!-- Recipe - Icarus Disperser (60%) -->
+		<ingredient id="13796" count="136"/>	<!-- Freed Soul -->
+		<ingredient id="13841" count="40"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="10375" count="1"/>	<!-- Recipe - Icarus Spirit (60%) -->
+		<ingredient id="13796" count="136"/>	<!-- Freed Soul -->
+		<ingredient id="13841" count="40"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="10376" count="1"/>	<!-- Recipe - Icarus Heavy Arms (60%) -->
+		<ingredient id="13796" count="136"/>	<!-- Freed Soul -->
+		<ingredient id="13841" count="40"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="10377" count="1"/>	<!-- Recipe - Icarus Trident (60%) -->
+		<ingredient id="13796" count="136"/>	<!-- Freed Soul -->
+		<ingredient id="13841" count="40"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="10378" count="1"/>	<!-- Recipe - Icarus Hammer (60%) -->
+		<ingredient id="13796" count="136"/>	<!-- Freed Soul -->
+		<ingredient id="13841" count="40"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="10379" count="1"/>	<!-- Recipe - Icarus Hand (60%) -->
+		<ingredient id="13796" count="136"/>	<!-- Freed Soul -->
+		<ingredient id="13841" count="40"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="10380" count="1"/>	<!-- Recipe - Icarus Hall (60%) -->
+		<ingredient id="13796" count="136"/>	<!-- Freed Soul -->
+		<ingredient id="13841" count="40"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="10381" count="1"/>	<!-- Recipe - Icarus Spitter (60%) -->
+		<ingredient id="13796" count="136"/>	<!-- Freed Soul -->
+		<ingredient id="13841" count="40"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="10397" count="1"/>	<!-- Icarus Sawsword Piece -->
+		<ingredient id="13796" count="26"/>	<!-- Freed Soul -->
+		<ingredient id="13841" count="6"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="10398" count="1"/>	<!-- Icarus Disperser Piece -->
+		<ingredient id="13796" count="26"/>	<!-- Freed Soul -->
+		<ingredient id="13841" count="6"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="10399" count="1"/>	<!-- Icarus Spirit Piece -->
+		<ingredient id="13796" count="26"/>	<!-- Freed Soul -->
+		<ingredient id="13841" count="6"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="10405" count="1"/>	<!-- Icarus Spitter Piece -->
+		<ingredient id="13796" count="26"/>	<!-- Freed Soul -->
+		<ingredient id="13841" count="6"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="10400" count="1"/>	<!-- Icarus Heavy Arms Piece -->
+		<ingredient id="13796" count="26"/>	<!-- Freed Soul -->
+		<ingredient id="13841" count="6"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="10401" count="1"/>	<!-- Icarus Trident Piece -->
+		<ingredient id="13796" count="26"/>	<!-- Freed Soul -->
+		<ingredient id="13841" count="6"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="10402" count="1"/>	<!-- Icarus Hammer Piece -->
+		<ingredient id="13796" count="26"/>	<!-- Freed Soul -->
+		<ingredient id="13841" count="6"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="10403" count="1"/>	<!-- Icarus Hand Piece -->
+		<ingredient id="13796" count="26"/>	<!-- Freed Soul -->
+		<ingredient id="13841" count="6"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="10404" count="1"/>	<!-- Icarus Hall Piece -->
+		<ingredient id="13796" count="26"/>	<!-- Freed Soul -->
+		<ingredient id="13841" count="6"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="10413" count="1"/>	<!-- Dynastic Essence II -->
+		<ingredient id="13796" count="800"/>	<!-- Freed Soul -->
+		<ingredient id="13841" count="200"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="14207" count="1"/>	<!-- Forgotten Scroll - Deflect Magic -->
+		<ingredient id="13796" count="200"/>	<!-- Freed Soul -->
+		<ingredient id="13841" count="50"/>	<!-- Dragonkin Charm -->
+		<ingredient id="57" count="12000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14210" count="1"/>	<!-- Forgotten Scroll - Dual Dagger Mastery -->
+		<ingredient id="13796" count="200"/>	<!-- Freed Soul -->
+		<ingredient id="13841" count="50"/>	<!-- Dragonkin Charm -->
+		<ingredient id="57" count="12000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="10578" count="1"/>	<!-- Forgotten Scroll - Mutual Response -->
+		<ingredient id="13796" count="200"/>	<!-- Freed Soul -->
+		<ingredient id="13841" count="50"/>	<!-- Dragonkin Charm -->
+		<ingredient id="57" count="12000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14221" count="1"/>	<!-- Forgotten Scroll - Turn Stone -->
+		<ingredient id="13796" count="200"/>	<!-- Freed Soul -->
+		<ingredient id="13841" count="50"/>	<!-- Dragonkin Charm -->
+		<ingredient id="57" count="12000000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="15634" count="1"/>	<!-- Vesper Cutter Piece -->
+		<ingredient id="13796" count="8"/>	<!-- Freed Soul -->
+		<ingredient id="15486" count="4"/>	<!-- Spirit Stone Fragment  -->
+		<ingredient id="13841" count="2"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="15635" count="1"/>	<!-- Vesper Slasher Piece -->
+		<ingredient id="13796" count="8"/>	<!-- Freed Soul -->
+		<ingredient id="15486" count="4"/>	<!-- Spirit Stone Fragment  -->
+		<ingredient id="13841" count="2"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="15636" count="1"/>	<!-- Vesper Buster Piece -->
+		<ingredient id="13796" count="8"/>	<!-- Freed Soul -->
+		<ingredient id="15486" count="4"/>	<!-- Spirit Stone Fragment  -->
+		<ingredient id="13841" count="2"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="15637" count="1"/>	<!-- Vesper Shaper Piece -->
+		<ingredient id="13796" count="8"/>	<!-- Freed Soul -->
+		<ingredient id="15486" count="4"/>	<!-- Spirit Stone Fragment  -->
+		<ingredient id="13841" count="2"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="15638" count="1"/>	<!-- Vesper Fighter Piece -->
+		<ingredient id="13796" count="8"/>	<!-- Freed Soul -->
+		<ingredient id="15486" count="4"/>	<!-- Spirit Stone Fragment  -->
+		<ingredient id="13841" count="2"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="15639" count="1"/>	<!-- Vesper Stormer Piece -->
+		<ingredient id="13796" count="8"/>	<!-- Freed Soul -->
+		<ingredient id="15486" count="4"/>	<!-- Spirit Stone Fragment  -->
+		<ingredient id="13841" count="2"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="15640" count="1"/>	<!-- Vesper Avenger Piece -->
+		<ingredient id="13796" count="8"/>	<!-- Freed Soul -->
+		<ingredient id="15486" count="4"/>	<!-- Spirit Stone Fragment  -->
+		<ingredient id="13841" count="2"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="15641" count="1"/>	<!-- Vesper Retributer Piece -->
+		<ingredient id="13796" count="8"/>	<!-- Freed Soul -->
+		<ingredient id="15486" count="4"/>	<!-- Spirit Stone Fragment  -->
+		<ingredient id="13841" count="2"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="15642" count="1"/>	<!-- Vesper Caster Piece -->
+		<ingredient id="13796" count="8"/>	<!-- Freed Soul -->
+		<ingredient id="15486" count="4"/>	<!-- Spirit Stone Fragment  -->
+		<ingredient id="13841" count="2"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="15643" count="1"/>	<!-- Vesper Singer Piece -->
+		<ingredient id="13796" count="8"/>	<!-- Freed Soul -->
+		<ingredient id="15486" count="4"/>	<!-- Spirit Stone Fragment  -->
+		<ingredient id="13841" count="2"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="15644" count="1"/>	<!-- Vesper Thrower Piece -->
+		<ingredient id="13796" count="8"/>	<!-- Freed Soul -->
+		<ingredient id="15486" count="4"/>	<!-- Spirit Stone Fragment  -->
+		<ingredient id="13841" count="2"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="15815" count="1"/>	<!-- Recipe - Sealed Vesper Cutter (60%) -->
+		<ingredient id="13796" count="72"/>	<!-- Freed Soul -->
+		<ingredient id="15486" count="32"/>	<!-- Spirit Stone Fragment  -->
+		<ingredient id="13841" count="18"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="15816" count="1"/>	<!-- Recipe - Sealed Vesper Slasher (60%) -->
+		<ingredient id="13796" count="72"/>	<!-- Freed Soul -->
+		<ingredient id="15486" count="32"/>	<!-- Spirit Stone Fragment  -->
+		<ingredient id="13841" count="18"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="15817" count="1"/>	<!-- Recipe - Vesper Buster (60%) -->
+		<ingredient id="13796" count="72"/>	<!-- Freed Soul -->
+		<ingredient id="15486" count="32"/>	<!-- Spirit Stone Fragment  -->
+		<ingredient id="13841" count="18"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="15818" count="1"/>	<!-- Recipe - Vesper Shaper (60%) -->
+		<ingredient id="13796" count="72"/>	<!-- Freed Soul -->
+		<ingredient id="15486" count="32"/>	<!-- Spirit Stone Fragment  -->
+		<ingredient id="13841" count="18"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="15819" count="1"/>	<!-- Recipe - Vesper Fighter (60%) -->
+		<ingredient id="13796" count="72"/>	<!-- Freed Soul -->
+		<ingredient id="15486" count="32"/>	<!-- Spirit Stone Fragment  -->
+		<ingredient id="13841" count="18"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="15820" count="1"/>	<!-- Recipe - Vesper Stormer (60%) -->
+		<ingredient id="13796" count="72"/>	<!-- Freed Soul -->
+		<ingredient id="15486" count="32"/>	<!-- Spirit Stone Fragment  -->
+		<ingredient id="13841" count="18"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="15821" count="1"/>	<!-- Recipe - Vesper Avenger (60%) -->
+		<ingredient id="13796" count="72"/>	<!-- Freed Soul -->
+		<ingredient id="15486" count="32"/>	<!-- Spirit Stone Fragment  -->
+		<ingredient id="13841" count="18"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="15822" count="1"/>	<!-- Recipe - Vesper Retributer (60%) -->
+		<ingredient id="13796" count="72"/>	<!-- Freed Soul -->
+		<ingredient id="15486" count="32"/>	<!-- Spirit Stone Fragment  -->
+		<ingredient id="13841" count="18"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="15823" count="1"/>	<!-- Recipe - Vesper Caster (60%) -->
+		<ingredient id="13796" count="72"/>	<!-- Freed Soul -->
+		<ingredient id="15486" count="32"/>	<!-- Spirit Stone Fragment  -->
+		<ingredient id="13841" count="18"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="15824" count="1"/>	<!-- Recipe - Vesper Singer (60%) -->
+		<ingredient id="13796" count="72"/>	<!-- Freed Soul -->
+		<ingredient id="15486" count="32"/>	<!-- Spirit Stone Fragment  -->
+		<ingredient id="13841" count="18"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="15825" count="1"/>	<!-- Recipe - Vesper Thrower (60%) -->
+		<ingredient id="13796" count="72"/>	<!-- Freed Soul -->
+		<ingredient id="15486" count="32"/>	<!-- Spirit Stone Fragment  -->
+		<ingredient id="13841" count="18"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="8619" count="1"/>	<!-- Ancient Book: Divine Inspiration (Original Language Version) -->
+		<ingredient id="13796" count="13"/>	<!-- Freed Soul -->
+		<ingredient id="15486" count="6"/>	<!-- Spirit Stone Fragment  -->
+		<ingredient id="13841" count="3"/>	<!-- Dragonkin Charm -->
+	</item>
+	<item>
+		<production id="8620" count="1"/>	<!-- Ancient Book: Divine Inspiration (Manuscript) -->
+		<ingredient id="13796" count="13"/>	<!-- Freed Soul -->
+		<ingredient id="15486" count="6"/>	<!-- Spirit Stone Fragment  -->
+		<ingredient id="13841" count="3"/>	<!-- Dragonkin Charm -->
+	</item>
+
+</list>

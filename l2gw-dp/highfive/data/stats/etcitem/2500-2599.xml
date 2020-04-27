@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<item id='2513' name="Spiritshot: A-grade">
+	<!-- The power of a higher-level spirit is bestowed upon a weapon causing its magic power to momentarily increase. Used with an A-grade weapon. -->
+		<for/>
+	</item>
+
+	<item id='2514' name="Spiritshot: S-grade">
+	<!-- The power of a higher-level spirit is bestowed upon a weapon causing its magic power to momentarily increase. Used with an S-grade weapon. -->
+		<for/>
+	</item>
+
+	<item id='2515' name="Food For Wolves">
+		<cond msgId="113">
+			<uc category="all_wolf_group;sin_eater_group;deinonychus_pet_group"/>
+		</cond>
+		<for/>
+	</item>
+</list>

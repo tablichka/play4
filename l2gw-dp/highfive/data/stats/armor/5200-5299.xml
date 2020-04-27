@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id='5216' name="Wolf Level 75 Armor">
+		<cond msgId="600">
+			<uc category="all_wolf_group"/>
+		</cond>
+		<for>
+			<add val='71' order='0x10' stat='pDef'/>
+			<add val='58' order='0x10' stat='mDef'/>
+		</for>
+	</item>
+	<item id="5287" name="Sealed Dark Crystal breastplate">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="5288" name="Sealed Dark Crystal Gaiters">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="5293" name="Sealed Tallum Plate Armor">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+</list>

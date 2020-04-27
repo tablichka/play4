@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="9101" name="Shadow Item: Magestic Robe">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="9102" name="Shadow Item: Magestic Gauntlet">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="9103" name="Shadow Item: Magestic Boots">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+</list>

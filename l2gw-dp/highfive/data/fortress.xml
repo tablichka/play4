@@ -1,0 +1,1554 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Fortress config -->
+<forts>
+	<!-- Common settings for all forts -->
+	<common>
+		<!-- (in minutes) Default: 50 min time to register for fort -->
+		<Registration time="50"/>
+		<!-- (in minutes) Default: 10 min Countdown after registration time is over -->
+		<Countdown time="10"/>
+		<!-- (in minutes) Default: 1 hour fortress siege time -->
+		<SiegeLength time="60"/>
+		<!-- (in hours) Default: 75 hours you can own a fort  -->
+		<Hold time="168"/>
+		<!-- (in hours) Default: 2 hours untill rebel army takes fort back -->
+		<Rebel time="2"/>
+		<!-- CRP reward for taking a fortress if Clan is level 5 or higher -->
+		<CRPWin val="200"/>
+		<!-- Amount of Fame points awarded to players in siege zone each 5 min -->
+		<FamePoints val="31"/>
+		<!-- Default: 4 hours interval between siege for the same fortress -->
+		<NextSiegePeriod time="4"/>
+		<!-- Default: Minimum Clan Level to register -->
+		<SiegeClanMinLevel val="4"/>
+		<!-- Default: 12500 adena for a castle each 6 hours in contracted state -->
+		<CastleTax val="12500"/>
+
+		<supplyboxes>
+			<supplybox level="1" npc="35665"/>
+			<supplybox level="2" npc="35697"/>
+			<supplybox level="3" npc="35734"/>
+			<supplybox level="4" npc="35766"/>
+			<supplybox level="5" npc="35803"/>
+			<supplybox level="6" npc="35834"/>
+		</supplyboxes>
+	</common>
+
+	<fort id="101" name="Shanty Fortress" type="territory" size="small">
+		<suspiciousMerchant x="-50013" y="155631" z="-2086" heading="0" npc="35659"/>
+
+		<castles>
+			<!-- Gludio Castle -->
+			<castle id="1"/>
+		</castles>
+
+		<skills>
+			<skill id="590" level="1"/>
+			<skill id="603" level="1"/>
+		</skills>
+		<commanders>
+			<commander x="-52161" y="157718" z="-2026" heading="28577" peaceNpc="35660" npc="35677"/>
+			<commander x="-52416" y="155129" z="-1774" heading="24970" peaceNpc="35661" npc="35683"/>
+			<commander x="-53969" y="155388" z="-2025" heading="10251" peaceNpc="35662" npc="35680"/>
+		</commanders>
+
+		<flags>
+			<flag x="-52992" y="156680" z="-1897" item="9819"/>
+			<flag x="-52968" y="156560" z="-1897" item="9819"/>
+			<flag x="-53011" y="156478" z="-1897" item="9819"/>
+		</flags>
+
+		<commandCenterDoors>
+			<door id="18220002"/>
+			<door id="18220003"/>
+			<door id="18220004"/>
+			<door id="18220005"/>
+		</commandCenterDoors>
+
+		<flagPole x="-52762" y="156494" z="-1133" heading="0" id="18220500"/>
+
+		<reinforces>
+			<gate id="101" name="Reinforce fortress gates.">
+				<price level="1" cost="200000" mul="2"/>
+				<door id="18220008"/>
+				<door id="18220007"/>
+				<door id="18220006"/>
+				<door id="18220001"/>
+			</gate>
+			<guard id="1" name="Guards Defense Line">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+			</guard>
+			<guard id="2" name="Scouts">
+				<price level="1" cost="150000"/>
+			</guard>
+			<guard id="3" name="Dwarves">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+				<price level="3" cost="10000"/>
+				<price level="4" cost="10000"/>
+			</guard>
+			<guardPower id="201" name="Guard Equipment Upgrade">
+				<price level="1" cost="100000" mul="1.1"/>
+				<price level="2" cost="150000" mul="1.3"/>
+			</guardPower>
+
+		</reinforces>
+
+	</fort>
+	<fort id="102" name="Southern Fortress" type="territory" size="large">
+		<suspiciousMerchant x="-18968" y="218825" z="-3422" heading="0" npc="35690"/>
+
+		<castles>
+			<!-- Gludio Castle -->
+			<castle id="1"/>
+		</castles>
+
+		<skills>
+			<skill id="602" level="1"/>
+			<skill id="604" level="1"/>
+		</skills>
+		<commanders>
+			<commander x="-22942" y="218131" z="-3210" heading="65393" peaceNpc="35691" npc="35713"/>
+			<commander x="-21304" y="218849" z="-2958" heading="10251" peaceNpc="35692" npc="35719"/>
+			<commander x="-22803" y="221647" z="-3200" heading="40251" peaceNpc="35693" npc="35721"/>
+			<commander x="-21511" y="221530" z="-3209" heading="40014" peaceNpc="35694" npc="35716"/>
+		</commanders>
+
+		<powercontroller>
+			<switch type="main">
+				<!-- Backup Power Units (outside)-->
+				<controller npc="35708"/>
+				<!-- Power Control Units (inside)-->
+				<controller npc="35710"/>
+			</switch>
+			<switch type="door">
+				<!-- Backup Power Units (outside)-->
+				<controller npc="35708"/>
+				<door id="19240003"/>
+				<door id="19240004"/>
+			</switch>
+		</powercontroller>
+
+		<flags>
+			<flag x="-22417" y="219919" z="-3080" item="9819"/>
+			<flag x="-22373" y="219797" z="-3080" item="9819"/>
+			<flag x="-22410" y="219682" z="-3080" item="9819"/>
+		</flags>
+
+		<commandCenterDoors>
+			<door id="19240006"/>
+			<door id="19240007"/>
+			<door id="19240008"/>
+			<door id="19240009"/>
+		</commandCenterDoors>
+
+		<flagPole x="-22701" y="219797" z="-2315" heading="0" id="19240500"/>
+
+		<reinforces>
+			<gate id="102" name="Reinforce fortress gates.">
+				<price level="1" cost="200000" mul="2"/>
+				<door id="19240005"/>
+				<door id="19240002"/>
+				<door id="19240001"/>
+				<door id="19240010"/>
+				<door id="19240011"/>
+				<door id="19240012"/>
+			</gate>
+			<guard id="1" name="Guards Defense Line">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+			</guard>
+			<guard id="2" name="Scouts">
+				<price level="1" cost="150000"/>
+			</guard>
+			<guard id="3" name="Dwarves">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+				<price level="3" cost="10000"/>
+				<price level="4" cost="10000"/>
+			</guard>
+			<guardPower id="201" name="Guard Equipment Upgrade">
+				<price level="1" cost="100000" mul="1.1"/>
+				<price level="2" cost="150000" mul="1.3"/>
+			</guardPower>
+
+		</reinforces>
+	</fort>
+
+	<fort id="103" name="Hive Fortress" type="territory" size="small">
+		<suspiciousMerchant x="15230" y="185636" z="-2955" heading="0" npc="35728"/>
+
+		<castles>
+			<!-- Dion Castle -->
+			<castle id="2"/>
+		</castles>
+
+		<skills>
+			<skill id="601" level="1"/>
+			<skill id="605" level="1"/>
+		</skills>
+		<commanders>
+			<commander x="17959" y="187501" z="-2897" heading="42910" peaceNpc="35729" npc="35746"/>
+			<commander x="15132" y="188111" z="-2641" heading="13029" peaceNpc="35730" npc="35752"/>
+			<commander x="15865" y="189519" z="-2893" heading="51210" peaceNpc="35731" npc="35749"/>
+		</commanders>
+
+		<flags>
+			<flag x="16644" y="188356" z="-2768" item="9819"/>
+			<flag x="16706" y="188308" z="-2768" item="9819"/>
+			<flag x="16798" y="188238" z="-2768" item="9819"/>
+		</flags>
+
+		<commandCenterDoors>
+			<door id="20230004"/>
+			<door id="20230005"/>
+			<door id="20230008"/>
+			<door id="20230009"/>
+		</commandCenterDoors>
+
+		<flagPole x="16580" y="188062" z="-2004" heading="0" id="20230500"/>
+
+		<reinforces>
+			<gate id="103" name="Reinforce fortress gates.">
+				<price level="1" cost="200000" mul="2"/>
+				<door id="20230003"/>
+				<door id="20230006"/>
+				<door id="20230007"/>
+				<door id="20230010"/>
+			</gate>
+			<guard id="1" name="Guards Defense Line">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+			</guard>
+			<guard id="2" name="Scouts">
+				<price level="1" cost="150000"/>
+			</guard>
+			<guard id="3" name="Dwarves">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+				<price level="3" cost="10000"/>
+				<price level="4" cost="10000"/>
+			</guard>
+			<guardPower id="201" name="Guard Equipment Upgrade">
+				<price level="1" cost="100000" mul="1.1"/>
+				<price level="2" cost="150000" mul="1.3"/>
+			</guardPower>
+
+		</reinforces>
+
+	</fort>
+
+	<fort id="104" name="Valley Fortress" type="territory" size="large">
+		<suspiciousMerchant x="122467" y="121082" z="-3159" heading="0" npc="35759"/>
+
+		<castles>
+			<!-- Giran Castle -->
+			<castle id="3"/>
+		</castles>
+
+		<skills>
+			<skill id="595" level="1"/>
+			<skill id="606" level="1"/>
+		</skills>
+		<commanders>
+			<commander x="124305" y="123547" z="-2557" heading="48278" peaceNpc="35760" npc="35782"/>
+			<commander x="124774" y="121855" z="-2303" heading="22796" peaceNpc="35761" npc="35788"/>
+			<commander x="127952" y="123384" z="-2557" heading="48278" peaceNpc="35762" npc="35790"/>
+			<commander x="124807" y="124698" z="-2555" heading="1440" peaceNpc="35763" npc="35785"/>
+		</commanders>
+
+		<powercontroller>
+			<switch type="main">
+				<!-- Backup Power Units (outside)-->
+				<controller npc="35777"/>
+				<!-- Power Control Units (inside)-->
+				<controller npc="35779"/>
+			</switch>
+			<switch type="door">
+				<!-- Backup Power Units (outside)-->
+				<controller npc="35777"/>
+				<door id="23210002"/>
+				<door id="23210003"/>
+			</switch>
+		</powercontroller>
+
+		<flags>
+			<flag x="125959" y="123616" z="-2429" item="9819"/>
+			<flag x="126067" y="123616" z="-2429" item="9819"/>
+			<flag x="126178" y="123616" z="-2429" item="9819"/>
+		</flags>
+
+		<commandCenterDoors>
+			<door id="23210010"/>
+			<door id="23210011"/>
+			<door id="23210006"/>
+			<door id="23210007"/>
+		</commandCenterDoors>
+
+		<flagPole x="126075" y="123343" z="-1657" heading="0" id="23210500"/>
+
+		<reinforces>
+			<gate id="104" name="Reinforce fortress gates.">
+				<price level="1" cost="200000" mul="2"/>
+				<door id="23210001"/>
+				<door id="23210004"/>
+				<door id="23210005"/>
+				<door id="23210012"/>
+				<door id="23210008"/>
+				<door id="23210009"/>
+			</gate>
+			<guard id="1" name="Guards Defense Line">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+			</guard>
+			<guard id="2" name="Scouts">
+				<price level="1" cost="150000"/>
+			</guard>
+			<guard id="3" name="Dwarves">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+				<price level="3" cost="10000"/>
+				<price level="4" cost="10000"/>
+			</guard>
+			<guardPower id="201" name="Guard Equipment Upgrade">
+				<price level="1" cost="100000" mul="1.1"/>
+				<price level="2" cost="150000" mul="1.3"/>
+			</guardPower>
+
+		</reinforces>
+	</fort>
+
+
+	<fort id="105" name="Ivory Fortress" type="territory" size="small">
+		<suspiciousMerchant x="71366" y="6805" z="-3084" heading="0" npc="35797"/>
+
+		<castles>
+			<!-- Oren Castle -->
+			<castle id="4"/>
+		</castles>
+
+		<skills>
+			<skill id="594" level="1"/>
+			<skill id="607" level="1"/>
+		</skills>
+		<commanders>
+			<commander x="73801" y="5417" z="-3018" heading="55254" peaceNpc="35798" npc="35815"/>
+			<commander x="72393" y="2910" z="-2762" heading="22582" peaceNpc="35799" npc="35821"/>
+			<commander x="71236" y="4028" z="-3013" heading="63602" peaceNpc="35800" npc="35818"/>
+		</commanders>
+
+		<flags>
+			<flag x="72586" y="4450" z="-2888" item="9819"/>
+			<flag x="72655" y="4504" z="-2888" item="9819"/>
+			<flag x="72737" y="4572" z="-2888" item="9819"/>
+		</flags>
+
+		<commandCenterDoors>
+			<door id="22180004"/>
+			<door id="22180005"/>
+			<door id="22180002"/>
+			<door id="22180003"/>
+		</commandCenterDoors>
+
+		<flagPole x="72858" y="4278" z="-2124" heading="0" id="22180500"/>
+
+		<reinforces>
+			<gate id="105" name="Reinforce fortress gates.">
+				<price level="1" cost="200000" mul="2"/>
+				<door id="22180008"/>
+				<door id="22180006"/>
+				<door id="22180007"/>
+				<door id="22180001"/>
+			</gate>
+			<guard id="1" name="Guards Defense Line">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+			</guard>
+			<guard id="2" name="Scouts">
+				<price level="1" cost="150000"/>
+			</guard>
+			<guard id="3" name="Dwarves">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+				<price level="3" cost="10000"/>
+				<price level="4" cost="10000"/>
+			</guard>
+			<guardPower id="201" name="Guard Equipment Upgrade">
+				<price level="1" cost="100000" mul="1.1"/>
+				<price level="2" cost="150000" mul="1.3"/>
+			</guardPower>
+
+		</reinforces>
+
+	</fort>
+
+	<fort id="106" name="Narsell Fortress" type="territory" size="small">
+		<suspiciousMerchant x="158408" y="52670" z="-3291" heading="0" npc="35828"/>
+
+		<castles>
+			<!-- Aden Castle -->
+			<castle id="5"/>
+		</castles>
+
+		<skills>
+			<skill id="593" level="1"/>
+			<skill id="608" level="1"/>
+		</skills>
+		<commanders>
+			<commander x="155591" y="56631" z="-3227" heading="58176" peaceNpc="35829" npc="35846"/>
+			<commander x="154711" y="53864" z="-2973" heading="31823" peaceNpc="35830" npc="35852"/>
+			<commander x="153370" y="54748" z="-3223" heading="63572" peaceNpc="35831" npc="35849"/>
+		</commanders>
+
+		<flags>
+			<flag x="154603" y="55397" z="-3097" item="9819"/>
+			<flag x="154675" y="55493" z="-3097" item="9819"/>
+			<flag x="154740" y="55568" z="-3097" item="9819"/>
+		</flags>
+
+		<commandCenterDoors>
+			<door id="24190008"/>
+			<door id="24190009"/>
+			<door id="24190007"/>
+			<door id="24190006"/>
+		</commandCenterDoors>
+
+		<flagPole x="154897" y="55305" z="-2334" heading="0" id="24190500"/>
+
+		<reinforces>
+			<gate id="106" name="Reinforce fortress gates.">
+				<price level="1" cost="200000" mul="2"/>
+				<door id="24190010"/>
+				<door id="24190011"/>
+				<door id="24190012"/>
+				<door id="24190005"/>
+			</gate>
+			<guard id="1" name="Guards Defense Line">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+			</guard>
+			<guard id="2" name="Scouts">
+				<price level="1" cost="150000"/>
+			</guard>
+			<guard id="3" name="Dwarves">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+				<price level="3" cost="10000"/>
+				<price level="4" cost="10000"/>
+			</guard>
+			<guardPower id="201" name="Guard Equipment Upgrade">
+				<price level="1" cost="100000" mul="1.1"/>
+				<price level="2" cost="150000" mul="1.3"/>
+			</guardPower>
+
+		</reinforces>
+
+	</fort>
+
+	<fort id="107" name="Bayou Fortress" type="territory" size="large">
+		<suspiciousMerchant x="190384" y="43221" z="-3611" heading="0" npc="35859"/>
+
+		<castles>
+			<!-- Aden Castle -->
+			<castle id="5"/>
+		</castles>
+
+		<skills>
+			<skill id="596" level="1"/>
+			<skill id="598" level="1"/>
+		</skills>
+		<commanders>
+			<commander x="188162" y="39846" z="-3383" heading="50223" peaceNpc="35860" npc="35882"/>
+			<commander x="188637" y="38246" z="-3131" heading="8193" peaceNpc="35861" npc="35888"/>
+			<commander x="191782" y="39786" z="-3383" heading="50223" peaceNpc="35862" npc="35890"/>
+			<commander x="188532" y="41045" z="-3381" heading="54396" peaceNpc="35863" npc="35885"/>
+		</commanders>
+
+		<powercontroller>
+			<switch type="main">
+				<!-- Backup Power Units (outside)-->
+				<controller npc="35877"/>
+				<!-- Power Control Units (inside)-->
+				<controller npc="35879"/>
+			</switch>
+			<switch type="door">
+				<!-- Backup Power Units (outside)-->
+				<controller npc="35877"/>
+				<door id="25190002"/>
+				<door id="25190003"/>
+			</switch>
+		</powercontroller>
+
+		<flags>
+			<flag x="190029" y="40035" z="-3253" item="9819"/>
+			<flag x="189927" y="40040" z="-3253" item="9819"/>
+			<flag x="189829" y="40045" z="-3253" item="9819"/>
+		</flags>
+
+		<commandCenterDoors>
+			<door id="25190009"/>
+			<door id="25190008"/>
+			<door id="25190006"/>
+			<door id="25190007"/>
+		</commandCenterDoors>
+
+		<flagPole x="189931" y="39740" z="-2490" heading="0" id="25190500"/>
+
+		<reinforces>
+			<gate id="107" name="Reinforce fortress gates.">
+				<price level="1" cost="200000" mul="2"/>
+				<door id="25190001"/>
+				<door id="25190004"/>
+				<door id="25190005"/>
+				<door id="25190010"/>
+				<door id="25190011"/>
+				<door id="25190012"/>
+			</gate>
+			<guard id="1" name="Guards Defense Line">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+			</guard>
+			<guard id="2" name="Scouts">
+				<price level="1" cost="150000"/>
+			</guard>
+			<guard id="3" name="Dwarves">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+				<price level="3" cost="10000"/>
+				<price level="4" cost="10000"/>
+			</guard>
+			<guardPower id="201" name="Guard Equipment Upgrade">
+				<price level="1" cost="100000" mul="1.1"/>
+				<price level="2" cost="150000" mul="1.3"/>
+			</guardPower>
+
+		</reinforces>
+	</fort>
+
+	<fort id="108" name="White Sands Fortress" type="territory" size="small">
+		<suspiciousMerchant x="116036" y="203550" z="-3353" heading="0" npc="35897"/>
+
+		<castles>
+			<!-- Innadril Castle -->
+			<castle id="6"/>
+		</castles>
+
+		<skills>
+			<skill id="592" level="1"/>
+			<skill id="599" level="1"/>
+		</skills>
+		<commanders>
+			<commander x="118986" y="203647" z="-3306" heading="5058" peaceNpc="35898" npc="35915"/>
+			<commander x="117215" y="205641" z="-3054" heading="28439" peaceNpc="35899" npc="35921"/>
+			<commander x="118442" y="206579" z="-3306" heading="49389" peaceNpc="35900" npc="35918"/>
+		</commanders>
+
+		<flags>
+			<flag x="118615" y="205133" z="-3177" item="9819"/>
+			<flag x="118664" y="205050" z="-3177" item="9819"/>
+			<flag x="118704" y="204938" z="-3177" item="9819"/>
+		</flags>
+
+		<commandCenterDoors>
+			<door id="23240006"/>
+			<door id="23240007"/>
+			<door id="23240002"/>
+			<door id="23240003"/>
+		</commandCenterDoors>
+
+		<flagPole x="118415" y="204917" z="-2412" heading="0" id="23240500"/>
+
+		<reinforces>
+			<gate id="108" name="Reinforce fortress gates.">
+				<price level="1" cost="200000" mul="2"/>
+				<door id="23240001"/>
+				<door id="23240004"/>
+				<door id="23240005"/>
+				<door id="23240008"/>
+			</gate>
+			<guard id="1" name="Guards Defense Line">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+			</guard>
+			<guard id="2" name="Scouts">
+				<price level="1" cost="150000"/>
+			</guard>
+			<guard id="3" name="Dwarves">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+				<price level="3" cost="10000"/>
+				<price level="4" cost="10000"/>
+			</guard>
+			<guardPower id="201" name="Guard Equipment Upgrade">
+				<price level="1" cost="100000" mul="1.1"/>
+				<price level="2" cost="150000" mul="1.3"/>
+			</guardPower>
+
+		</reinforces>
+
+	</fort>
+
+	<fort id="109" name="Borderland Fortress" type="territory" size="large">
+		<suspiciousMerchant x="161837" y="-73150" z="-2988" heading="0" npc="35928"/>
+
+		<castles>
+			<!-- Goddard Castle -->
+			<castle id="7"/>
+		</castles>
+
+		<skills>
+			<skill id="591" level="1"/>
+			<skill id="610" level="1"/>
+		</skills>
+		<commanders>
+			<commander x="158033" y="-71708" z="-2839" heading="60546" peaceNpc="35929" npc="35951"/>
+			<commander x="159668" y="-72216" z="-2585" heading="32768" peaceNpc="35930" npc="35957"/>
+			<commander x="160163" y="-68715" z="-2839" heading="60546" peaceNpc="35931" npc="35959"/>
+			<commander x="157287" y="-70739" z="-2837" heading="63065" peaceNpc="35932" npc="35954"/>
+		</commanders>
+
+		<powercontroller>
+			<switch type="main">
+				<!-- Backup Power Units (outside)-->
+				<controller npc="35946"/>
+				<!-- Power Control Units (inside)-->
+				<controller npc="35948"/>
+			</switch>
+			<switch type="door">
+				<!-- Backup Power Units (outside)-->
+				<controller npc="35946"/>
+				<door id="24150009"/>
+				<door id="24150010"/>
+			</switch>
+		</powercontroller>
+
+		<flags>
+			<flag x="158838" y="-70221" z="-2707" item="9819"/>
+			<flag x="158893" y="-70143" z="-2707" item="9819"/>
+			<flag x="158946" y="-70063" z="-2707" item="9819"/>
+		</flags>
+
+		<commandCenterDoors>
+			<door id="24150004"/>
+			<door id="24150005"/>
+			<door id="24150006"/>
+			<door id="24150007"/>
+		</commandCenterDoors>
+
+		<flagPole x="159150" y="-70306" z="-1944" heading="0" id="24150500"/>
+
+		<reinforces>
+			<gate id="109" name="Reinforce fortress gates.">
+				<price level="1" cost="200000" mul="2"/>
+				<door id="24150003"/>
+				<door id="24150011"/>
+				<door id="24150012"/>
+				<door id="24150001"/>
+				<door id="24150002"/>
+				<door id="24150008"/>
+			</gate>
+			<guard id="1" name="Guards Defense Line">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+			</guard>
+			<guard id="2" name="Scouts">
+				<price level="1" cost="150000"/>
+			</guard>
+			<guard id="3" name="Dwarves">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+				<price level="3" cost="10000"/>
+				<price level="4" cost="10000"/>
+			</guard>
+			<guardPower id="201" name="Guard Equipment Upgrade">
+				<price level="1" cost="100000" mul="1.1"/>
+				<price level="2" cost="150000" mul="1.3"/>
+			</guardPower>
+
+		</reinforces>
+	</fort>
+
+	<fort id="110" name="Swamp Fortress" type="territory" size="large">
+		<suspiciousMerchant x="71350" y="-58128" z="-2933" heading="0" npc="35966"/>
+
+		<castles>
+			<!-- Rune Castle -->
+			<castle id="8"/>
+		</castles>
+
+		<skills>
+			<skill id="597" level="1"/>
+			<skill id="600" level="1"/>
+		</skills>
+		<commanders>
+			<commander x="71288" y="-62271" z="-2759" heading="12431" peaceNpc="35967" npc="35989"/>
+			<commander x="71256" y="-60503" z="-2507" heading="36315" peaceNpc="35968" npc="35995"/>
+			<commander x="68061" y="-60859" z="-2759" heading="12431" peaceNpc="35969" npc="35997"/>
+			<commander x="68583" y="-59694" z="-2759" heading="42812" peaceNpc="35970" npc="35992"/>
+		</commanders>
+
+		<powercontroller>
+			<switch type="main">
+				<!-- Backup Power Units (outside)-->
+				<controller npc="35984"/>
+				<!-- Power Control Units (inside)-->
+				<controller npc="35986"/>
+			</switch>
+			<switch type="door">
+				<!-- Backup Power Units (outside)-->
+				<controller npc="35984"/>
+				<door id="22160002"/>
+				<door id="22160003"/>
+			</switch>
+		</powercontroller>
+
+		<flags>
+			<flag x="69852" y="-61112" z="-2629" item="9819"/>
+			<flag x="69960" y="-61149" z="-2629" item="9819"/>
+			<flag x="70038" y="-61179" z="-2629" item="9819"/>
+		</flags>
+
+		<commandCenterDoors>
+			<door id="22160004"/>
+			<door id="22160005"/>
+			<door id="22160009"/>
+			<door id="22160008"/>
+		</commandCenterDoors>
+
+		<flagPole x="69836" y="-61422" z="-1866" heading="0" id="22160500"/>
+
+		<reinforces>
+			<gate id="110" name="Reinforce fortress gates.">
+				<price level="1" cost="200000" mul="2"/>
+				<door id="22160001"/>
+				<door id="22160006"/>
+				<door id="22160007"/>
+				<door id="22160010"/>
+				<door id="22160011"/>
+				<door id="22160012"/>
+			</gate>
+			<guard id="1" name="Guards Defense Line">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+			</guard>
+			<guard id="2" name="Scouts">
+				<price level="1" cost="150000"/>
+			</guard>
+			<guard id="3" name="Dwarves">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+				<price level="3" cost="10000"/>
+				<price level="4" cost="10000"/>
+			</guard>
+			<guardPower id="201" name="Guard Equipment Upgrade">
+				<price level="1" cost="100000" mul="1.1"/>
+				<price level="2" cost="150000" mul="1.3"/>
+			</guardPower>
+
+		</reinforces>
+	</fort>
+
+
+	<fort id="111" name="Archaic Fortress" type="territory" size="small">
+		<suspiciousMerchant x="106813" y="-140205" z="-3030" heading="0" npc="36004"/>
+
+		<castles>
+			<!-- Schuttgart Castle -->
+			<castle id="9"/>
+		</castles>
+
+		<skills>
+			<skill id="590" level="1"/>
+			<skill id="608" level="1"/>
+		</skills>
+		<commanders>
+			<commander x="109634" y="-139741" z="-2931" heading="62580" peaceNpc="36005" npc="36022"/>
+			<commander x="109860" y="-142631" z="-2674" heading="22416" peaceNpc="36006" npc="36028"/>
+			<commander x="108296" y="-142284" z="-2929" heading="17919" peaceNpc="36007" npc="36025"/>
+		</commanders>
+
+		<flags>
+			<flag x="109189" y="-141240" z="-2800" item="9819"/>
+			<flag x="109215" y="-141133" z="-2800" item="9819"/>
+			<flag x="109242" y="-141056" z="-2800" item="9819"/>
+		</flags>
+
+		<commandCenterDoors>
+			<door id="23130002"/>
+			<door id="23130003"/>
+			<door id="23130005"/>
+			<door id="23130004"/>
+		</commandCenterDoors>
+
+		<flagPole x="109482" y="-141221" z="-2037" heading="0" id="23130500"/>
+
+		<reinforces>
+			<gate id="111" name="Reinforce fortress gates.">
+				<price level="1" cost="200000" mul="2"/>
+				<door id="23130006"/>
+				<door id="23130007"/>
+				<door id="23130008"/>
+				<door id="23130001"/>
+			</gate>
+			<guard id="1" name="Guards Defense Line">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+			</guard>
+			<guard id="2" name="Scouts">
+				<price level="1" cost="150000"/>
+			</guard>
+			<guard id="3" name="Dwarves">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+				<price level="3" cost="10000"/>
+				<price level="4" cost="10000"/>
+			</guard>
+			<guardPower id="201" name="Guard Equipment Upgrade">
+				<price level="1" cost="100000" mul="1.1"/>
+				<price level="2" cost="150000" mul="1.3"/>
+			</guardPower>
+
+		</reinforces>
+
+	</fort>
+
+	<fort id="112" name="Floran Fortress" type="border" size="large">
+		<suspiciousMerchant x="10813" y="152753" z="-3065" heading="0" npc="36035"/>
+
+		<castles>
+			<!-- Gludio Castle -->
+			<castle id="1"/>
+			<!-- Dion Castle -->
+			<castle id="2"/>
+		</castles>
+
+		<skills>
+			<skill id="600" level="1"/>
+			<skill id="607" level="1"/>
+		</skills>
+		<commanders>
+			<commander x="6976" y="148253" z="-2862" heading="32633" peaceNpc="36036" npc="36058"/>
+			<commander x="6521" y="151872" z="-2610" heading="37604" peaceNpc="36037" npc="36064"/>
+			<commander x="5235" y="152321" z="-2862" heading="32633" peaceNpc="36038" npc="36066"/>
+			<commander x="4371" y="150863" z="-2862" heading="62758" peaceNpc="36039" npc="36061"/>
+		</commanders>
+
+		<powercontroller>
+			<switch type="main">
+				<!-- Backup Power Units (outside)-->
+				<controller npc="36053"/>
+				<!-- Power Control Units (inside)-->
+				<controller npc="36055"/>
+			</switch>
+			<switch type="door">
+				<!-- Backup Power Units (outside)-->
+				<controller npc="36053"/>
+				<door id="20220017"/>
+				<door id="20220018"/>
+			</switch>
+		</powercontroller>
+
+		<flags>
+			<flag x="5352" y="149629" z="-2733" item="9819"/>
+			<flag x="5377" y="149753" z="-2733" item="9819"/>
+			<flag x="5358" y="149849" z="-2733" item="9819"/>
+		</flags>
+
+		<commandCenterDoors>
+			<door id="20220025"/>
+			<door id="20220024"/>
+			<door id="20220022"/>
+			<door id="20220023"/>
+		</commandCenterDoors>
+
+		<flagPole x="5611" y="149752" z="-1969" heading="0" id="20220500"/>
+
+		<reinforces>
+			<gate id="112" name="Reinforce fortress gates.">
+				<price level="1" cost="200000" mul="2"/>
+				<door id="20220026"/>
+				<door id="20220019"/>
+				<door id="20220020"/>
+				<door id="20220027"/>
+				<door id="20220028"/>
+				<door id="20220021"/>
+			</gate>
+			<guard id="1" name="Guards Defense Line">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+			</guard>
+			<guard id="2" name="Scouts">
+				<price level="1" cost="150000"/>
+			</guard>
+			<guard id="3" name="Dwarves">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+				<price level="3" cost="10000"/>
+				<price level="4" cost="10000"/>
+			</guard>
+			<guardPower id="201" name="Guard Equipment Upgrade">
+				<price level="1" cost="100000" mul="1.1"/>
+				<price level="2" cost="150000" mul="1.3"/>
+			</guardPower>
+
+		</reinforces>
+	</fort>
+
+	<fort id="113" name="Cloud Mountain Fortress" type="border" size="large">
+		<suspiciousMerchant x="-60372" y="91641" z="-3102" heading="0" npc="36073"/>
+
+		<castles>
+			<!-- Gludio Castle -->
+			<castle id="1"/>
+			<!-- Oren Castle -->
+			<castle id="4"/>
+		</castles>
+
+		<skills>
+			<skill id="610" level="1"/>
+			<skill id="606" level="1"/>
+		</skills>
+		<commanders>
+			<commander x="-55693" y="91847" z="-2795" heading="65163" peaceNpc="36074" npc="36096"/>
+			<commander x="-55251" y="90477" z="-2539" heading="44928" peaceNpc="36075" npc="36102"/>
+			<commander x="-50913" y="92311" z="-2795" heading="65163" peaceNpc="36076" npc="36104"/>
+			<commander x="-54290" y="92638" z="-2790" heading="50995" peaceNpc="36077" npc="36099"/>
+		</commanders>
+
+		<powercontroller>
+			<switch type="main">
+				<!-- Backup Power Units (outside)-->
+				<controller npc="36091"/>
+				<!-- Power Control Units (inside)-->
+				<controller npc="36093"/>
+			</switch>
+			<switch type="door">
+				<!-- Backup Power Units (outside)-->
+				<controller npc="36091"/>
+				<door id="18200004"/>
+				<door id="18200005"/>
+			</switch>
+		</powercontroller>
+
+		<flags>
+			<flag x="-53132" y="91510" z="-2664" item="9819"/>
+			<flag x="-53233" y="91510" z="-2664" item="9819"/>
+			<flag x="-53335" y="91510" z="-2664" item="9819"/>
+		</flags>
+
+		<commandCenterDoors>
+			<door id="18200011"/>
+			<door id="18200012"/>
+			<door id="18200003"/>
+			<door id="18200002"/>
+		</commandCenterDoors>
+
+		<flagPole x="-53231" y="91222" z="-1901" heading="0" id="18200500"/>
+
+		<reinforces>
+			<gate id="113" name="Reinforce fortress gates.">
+				<price level="1" cost="200000" mul="2"/>
+				<door id="18200001"/>
+				<door id="18200006"/>
+				<door id="18200007"/>
+				<door id="18200010"/>
+				<door id="18200008"/>
+				<door id="18200009"/>
+			</gate>
+			<guard id="1" name="Guards Defense Line">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+			</guard>
+			<guard id="2" name="Scouts">
+				<price level="1" cost="150000"/>
+			</guard>
+			<guard id="3" name="Dwarves">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+				<price level="3" cost="10000"/>
+				<price level="4" cost="10000"/>
+			</guard>
+			<guardPower id="201" name="Guard Equipment Upgrade">
+				<price level="1" cost="100000" mul="1.1"/>
+				<price level="2" cost="150000" mul="1.3"/>
+			</guardPower>
+
+		</reinforces>
+	</fort>
+
+	<fort id="114" name="Tanor Fortress" type="border" size="small">
+		<suspiciousMerchant x="61589" y="141590" z="-1792" heading="0" npc="36111"/>
+
+		<castles>
+			<!-- Dion Castle -->
+			<castle id="2"/>
+			<!-- Giran Castle -->
+			<castle id="3"/>
+		</castles>
+
+		<skills>
+			<skill id="609" level="1"/>
+			<skill id="605" level="1"/>
+		</skills>
+		<commanders>
+			<commander x="61849" y="139172" z="-1728" heading="47429" peaceNpc="36112" npc="36129"/>
+			<commander x="58492" y="139631" z="-1472" heading="53634" peaceNpc="36113" npc="36135"/>
+			<commander x="59322" y="140861" z="-1723" heading="45442" peaceNpc="36114" npc="36132"/>
+		</commanders>
+
+		<flags>
+			<flag x="60230" y="139735" z="-1598" item="9819"/>
+			<flag x="60330" y="139735" z="-1598" item="9819"/>
+			<flag x="60430" y="139735" z="-1598" item="9819"/>
+		</flags>
+
+		<commandCenterDoors>
+			<door id="21220006"/>
+			<door id="21220007"/>
+			<door id="21220003"/>
+			<door id="21220002"/>
+		</commandCenterDoors>
+
+		<flagPole x="60282" y="139434" z="-834" heading="0" id="21220500"/>
+
+		<reinforces>
+			<gate id="114" name="Reinforce fortress gates.">
+				<price level="1" cost="200000" mul="2"/>
+				<door id="21220001"/>
+				<door id="21220004"/>
+				<door id="21220005"/>
+				<door id="21220008"/>
+			</gate>
+			<guard id="1" name="Guards Defense Line">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+			</guard>
+			<guard id="2" name="Scouts">
+				<price level="1" cost="150000"/>
+			</guard>
+			<guard id="3" name="Dwarves">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+				<price level="3" cost="10000"/>
+				<price level="4" cost="10000"/>
+			</guard>
+			<guardPower id="201" name="Guard Equipment Upgrade">
+				<price level="1" cost="100000" mul="1.1"/>
+				<price level="2" cost="150000" mul="1.3"/>
+			</guardPower>
+
+		</reinforces>
+
+	</fort>
+
+	<fort id="115" name="Dragonspine Fortress" type="border" size="small">
+		<suspiciousMerchant x="13577" y="92516" z="-3487" heading="0" npc="36142"/>
+
+		<castles>
+			<!-- Dion Castle -->
+			<castle id="2"/>
+			<!-- Oren Castle -->
+			<castle id="4"/>
+		</castles>
+
+		<skills>
+			<skill id="599" level="1"/>
+			<skill id="604" level="1"/>
+		</skills>
+		<commanders>
+			<commander x="9472" y="94992" z="-3392" heading="0" peaceNpc="36143" npc="36160"/>
+			<commander x="13184" y="94928" z="-3144" heading="0" peaceNpc="36144" npc="36166"/>
+			<commander x="12829" y="96214" z="-3392" heading="49152" peaceNpc="36145" npc="36163"/>
+		</commanders>
+
+		<flags>
+			<flag x="11459" y="95308" z="-3264" item="9819"/>
+			<flag x="11527" y="95301" z="-3264" item="9819"/>
+			<flag x="11623" y="95311" z="-3264" item="9819"/>
+		</flags>
+
+		<commandCenterDoors>
+			<door id="20200002"/>
+			<door id="20200003"/>
+			<door id="20200006"/>
+			<door id="20200007"/>
+		</commandCenterDoors>
+
+		<flagPole x="11546" y="95030" z="-2498" heading="0" id="20200500"/>
+
+		<reinforces>
+			<gate id="115" name="Reinforce fortress gates.">
+				<price level="1" cost="200000" mul="2"/>
+				<door id="20200008"/>
+				<door id="20200004"/>
+				<door id="20200005"/>
+				<door id="20200001"/>
+			</gate>
+			<guard id="1" name="Guards Defense Line">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+			</guard>
+			<guard id="2" name="Scouts">
+				<price level="1" cost="150000"/>
+			</guard>
+			<guard id="3" name="Dwarves">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+				<price level="3" cost="10000"/>
+				<price level="4" cost="10000"/>
+			</guard>
+			<guardPower id="201" name="Guard Equipment Upgrade">
+				<price level="1" cost="100000" mul="1.1"/>
+				<price level="2" cost="150000" mul="1.3"/>
+			</guardPower>
+
+		</reinforces>
+
+	</fort>
+
+	<fort id="116" name="Antharas Fortress" type="border" size="large">
+		<suspiciousMerchant x="77596" y="89244" z="-2913" heading="0" npc="36173"/>
+
+		<castles>
+			<!-- Giran Castle -->
+			<castle id="3"/>
+			<!-- Oren Castle -->
+			<castle id="4"/>
+		</castles>
+
+		<skills>
+			<skill id="598" level="1"/>
+			<skill id="603" level="1"/>
+		</skills>
+		<commanders>
+			<commander x="77372" y="91747" z="-2860" heading="5245" peaceNpc="36174" npc="36196"/>
+			<commander x="79441" y="88754" z="-2608" heading="13482" peaceNpc="36175" npc="36202"/>
+			<commander x="80784" y="88960" z="-2860" heading="5245" peaceNpc="36176" npc="36204"/>
+			<commander x="80857" y="90648" z="-2859" heading="39479" peaceNpc="36177" npc="36199"/>
+		</commanders>
+
+		<powercontroller>
+			<switch type="main">
+				<!-- Backup Power Units (outside)-->
+				<controller npc="36191"/>
+				<!-- Power Control Units (inside)-->
+				<controller npc="36193"/>
+			</switch>
+			<switch type="door">
+				<!-- Backup Power Units (outside)-->
+				<controller npc="36191"/>
+				<door id="22200010"/>
+				<door id="22200011"/>
+			</switch>
+		</powercontroller>
+
+		<flags>
+			<flag x="79453" y="91252" z="-2728" item="9819"/>
+			<flag x="79510" y="91172" z="-2728" item="9819"/>
+			<flag x="79553" y="91094" z="-2728" item="9819"/>
+		</flags>
+
+		<commandCenterDoors>
+			<door id="22200007"/>
+			<door id="22200006"/>
+			<door id="22200005"/>
+			<door id="22200004"/>
+		</commandCenterDoors>
+
+		<flagPole x="79240" y="91057" z="-1965" heading="0" id="22200500"/>
+
+		<reinforces>
+			<gate id="116" name="Reinforce fortress gates.">
+				<price level="1" cost="200000" mul="2"/>
+				<door id="22200001"/>
+				<door id="22200002"/>
+				<door id="22200003"/>
+				<door id="22200012"/>
+				<door id="22200008"/>
+				<door id="22200009"/>
+			</gate>
+			<guard id="1" name="Guards Defense Line">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+			</guard>
+			<guard id="2" name="Scouts">
+				<price level="1" cost="150000"/>
+			</guard>
+			<guard id="3" name="Dwarves">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+				<price level="3" cost="10000"/>
+				<price level="4" cost="10000"/>
+			</guard>
+			<guardPower id="201" name="Guard Equipment Upgrade">
+				<price level="1" cost="100000" mul="1.1"/>
+				<price level="2" cost="150000" mul="1.3"/>
+			</guardPower>
+
+		</reinforces>
+	</fort>
+
+	<fort id="117" name="Western Fortress" type="border" size="large">
+		<suspiciousMerchant x="118716" y="-19990" z="-2691" heading="0" npc="36211"/>
+
+		<castles>
+			<!-- Oren Castle -->
+			<castle id="4"/>
+			<!-- Aden Castle -->
+			<castle id="5"/>
+			<!-- Goddard Castle -->
+			<castle id="7"/>
+		</castles>
+
+		<skills>
+			<skill id="597" level="1"/>
+			<skill id="610" level="1"/>
+			<skill id="602" level="1"/>
+		</skills>
+		<commanders>
+			<commander x="109871" y="-16468" z="-968" heading="16043" peaceNpc="36212" npc="36234"/>
+			<commander x="113494" y="-16067" z="-716" heading="57343" peaceNpc="36213" npc="36240"/>
+			<commander x="113841" y="-14751" z="-968" heading="16043" peaceNpc="36214" npc="36242"/>
+			<commander x="112474" y="-13906" z="-967" heading="45640" peaceNpc="36215" npc="36237"/>
+		</commanders>
+
+		<powercontroller>
+			<switch type="main">
+				<!-- Backup Power Units (outside)-->
+				<controller npc="36229"/>
+				<!-- Power Control Units (inside)-->
+				<controller npc="36231"/>
+			</switch>
+			<switch type="door">
+				<!-- Backup Power Units (outside)-->
+				<controller npc="36229"/>
+				<door id="23170006"/>
+				<door id="23170007"/>
+			</switch>
+		</powercontroller>
+
+		<flags>
+			<flag x="111274" y="-14836" z="-840" item="9819"/>
+			<flag x="111356" y="-14836" z="-840" item="9819"/>
+			<flag x="111453" y="-14836" z="-840" item="9819"/>
+		</flags>
+
+		<commandCenterDoors>
+			<door id="23170008"/>
+			<door id="23170009"/>
+			<door id="23170004"/>
+			<door id="23170005"/>
+		</commandCenterDoors>
+
+		<flagPole x="111367" y="-15145" z="-75" heading="0" id="23170500"/>
+
+		<reinforces>
+			<gate id="117" name="Reinforce fortress gates.">
+				<price level="1" cost="200000" mul="2"/>
+				<door id="23170001"/>
+				<door id="23170010"/>
+				<door id="23170011"/>
+				<door id="23170012"/>
+				<door id="23170002"/>
+				<door id="23170003"/>
+			</gate>
+			<guard id="1" name="Guards Defense Line">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+			</guard>
+			<guard id="2" name="Scouts">
+				<price level="1" cost="150000"/>
+			</guard>
+			<guard id="3" name="Dwarves">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+				<price level="3" cost="10000"/>
+				<price level="4" cost="10000"/>
+			</guard>
+			<guardPower id="201" name="Guard Equipment Upgrade">
+				<price level="1" cost="100000" mul="1.1"/>
+				<price level="2" cost="150000" mul="1.3"/>
+			</guardPower>
+
+		</reinforces>
+	</fort>
+
+	<fort id="118" name="Hunters Fortress" type="border" size="large">
+		<suspiciousMerchant x="120461" y="94656" z="-2384" heading="0" npc="36249"/>
+
+		<castles>
+			<!-- Giran Castle -->
+			<castle id="3"/>
+			<!-- Aden Castle -->
+			<castle id="5"/>
+		</castles>
+
+		<skills>
+			<skill id="596" level="1"/>
+			<skill id="601" level="1"/>
+		</skills>
+		<commanders>
+			<commander x="122727" y="95769" z="-2114" heading="42214" peaceNpc="36250" npc="36272"/>
+			<commander x="123229" y="94410" z="-1858" heading="60450" peaceNpc="36251" npc="36278"/>
+			<commander x="127555" y="96198" z="-2114" heading="42214" peaceNpc="36252" npc="36280"/>
+			<commander x="124181" y="96539" z="-2110" heading="45796" peaceNpc="36253" npc="36275"/>
+		</commanders>
+
+		<powercontroller>
+			<switch type="main">
+				<!-- Backup Power Units (outside)-->
+				<controller npc="36267"/>
+				<!-- Power Control Units (inside)-->
+				<controller npc="36269"/>
+			</switch>
+			<switch type="door">
+				<!-- Backup Power Units (outside)-->
+				<controller npc="36267"/>
+				<door id="23200004"/>
+				<door id="23200005"/>
+			</switch>
+		</powercontroller>
+
+		<flags>
+			<flag x="125343" y="95399" z="-1984" item="9819"/>
+			<flag x="125256" y="95399" z="-1984" item="9819"/>
+			<flag x="125127" y="95399" z="-1984" item="9819"/>
+		</flags>
+
+		<commandCenterDoors>
+			<door id="23200002"/>
+			<door id="23200003"/>
+			<door id="23200008"/>
+			<door id="23200009"/>
+		</commandCenterDoors>
+
+		<flagPole x="125245" y="95135" z="-1220" heading="0" id="23200500"/>
+
+		<reinforces>
+			<gate id="118" name="Reinforce fortress gates.">
+				<price level="1" cost="200000" mul="2"/>
+				<door id="23200001"/>
+				<door id="23200010"/>
+				<door id="23200011"/>
+				<door id="23200012"/>
+				<door id="23200006"/>
+				<door id="23200007"/>
+			</gate>
+			<guard id="1" name="Guards Defense Line">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+			</guard>
+			<guard id="2" name="Scouts">
+				<price level="1" cost="150000"/>
+			</guard>
+			<guard id="3" name="Dwarves">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+				<price level="3" cost="10000"/>
+				<price level="4" cost="10000"/>
+			</guard>
+			<guardPower id="201" name="Guard Equipment Upgrade">
+				<price level="1" cost="100000" mul="1.1"/>
+				<price level="2" cost="150000" mul="1.3"/>
+			</guardPower>
+
+		</reinforces>
+	</fort>
+
+	<fort id="119" name="Aaru Fortress" type="border" size="small">
+		<suspiciousMerchant x="73416" y="183390" z="-2662" heading="0" npc="36287"/>
+
+		<castles>
+			<!-- Giran Castle -->
+			<castle id="3"/>
+			<!-- Innadril Castle -->
+			<castle id="6"/>
+		</castles>
+
+		<skills>
+			<skill id="592" level="1"/>
+			<skill id="595" level="1"/>
+		</skills>
+		<commanders>
+			<commander x="71497" y="184792" z="-2554" heading="6002" peaceNpc="36288" npc="36305"/>
+			<commander x="74276" y="186908" z="-2302" heading="16385" peaceNpc="36289" npc="36311"/>
+			<commander x="71427" y="186365" z="-2554" heading="50397" peaceNpc="36290" npc="36308"/>
+		</commanders>
+
+		<flags>
+			<flag x="72861" y="186139" z="-2425" item="9819"/>
+			<flag x="72974" y="186187" z="-2425" item="9819"/>
+			<flag x="73081" y="186254" z="-2425" item="9819"/>
+		</flags>
+
+		<commandCenterDoors>
+			<door id="22230005"/>
+			<door id="22230004"/>
+			<door id="22230006"/>
+			<door id="22230007"/>
+		</commandCenterDoors>
+
+		<flagPole x="73113" y="185989" z="-1661" heading="0" id="22230500"/>
+
+		<reinforces>
+			<gate id="119" name="Reinforce fortress gates.">
+				<price level="1" cost="200000" mul="2"/>
+				<door id="22230008"/>
+				<door id="22230002"/>
+				<door id="22230003"/>
+				<door id="22230001"/>
+			</gate>
+			<guard id="1" name="Guards Defense Line">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+			</guard>
+			<guard id="2" name="Scouts">
+				<price level="1" cost="150000"/>
+			</guard>
+			<guard id="3" name="Dwarves">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+				<price level="3" cost="10000"/>
+				<price level="4" cost="10000"/>
+			</guard>
+			<guardPower id="201" name="Guard Equipment Upgrade">
+				<price level="1" cost="100000" mul="1.1"/>
+				<price level="2" cost="150000" mul="1.3"/>
+			</guardPower>
+
+		</reinforces>
+
+	</fort>
+
+	<fort id="120" name="Demon Fortress" type="border" size="small">
+		<suspiciousMerchant x="98429" y="-56906" z="-819" heading="0" npc="36318"/>
+
+		<castles>
+			<!-- Goddard Castle -->
+			<castle id="7"/>
+			<!-- Rune Castle -->
+			<castle id="8"/>
+		</castles>
+
+		<skills>
+			<skill id="591" level="1"/>
+			<skill id="594" level="1"/>
+		</skills>
+		<commanders>
+			<commander x="100676" y="-57353" z="-618" heading="16184" peaceNpc="36319" npc="36341"/>
+			<commander x="100767" y="-53668" z="-366" heading="60699" peaceNpc="36320" npc="36347"/>
+			<commander x="99479" y="-54154" z="-618" heading="62454" peaceNpc="36322" npc="36344"/>
+		</commanders>
+
+		<flags>
+			<flag x="100418" y="-55215" z="-488" item="9819"/>
+			<flag x="100418" y="-55315" z="-488" item="9819"/>
+			<flag x="100418" y="-55415" z="-488" item="9819"/>
+		</flags>
+
+		<commandCenterDoors>
+			<door id="23160004"/>
+			<door id="23160005"/>
+			<door id="23160006"/>
+			<door id="23160007"/>
+		</commandCenterDoors>
+
+		<flagPole x="100715" y="-55319" z="274" heading="0" id="23160500"/>
+
+		<reinforces>
+			<gate id="120" name="Reinforce fortress gates.">
+				<price level="1" cost="200000" mul="2"/>
+				<door id="23160001"/>
+				<door id="23160002"/>
+				<door id="23160003"/>
+				<door id="23160008"/>
+			</gate>
+			<guard id="1" name="Guards Defense Line">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+			</guard>
+			<guard id="2" name="Scouts">
+				<price level="1" cost="150000"/>
+			</guard>
+			<guard id="3" name="Dwarves">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+				<price level="3" cost="10000"/>
+				<price level="4" cost="10000"/>
+			</guard>
+			<guardPower id="201" name="Guard Equipment Upgrade">
+				<price level="1" cost="100000" mul="1.1"/>
+				<price level="2" cost="150000" mul="1.3"/>
+			</guardPower>
+
+		</reinforces>
+
+	</fort>
+
+	<fort id="121" name="Monastic Fortress" type="border" size="small">
+		<suspiciousMerchant x="68574" y="-91517" z="-1662" heading="0" npc="36356"/>
+
+		<castles>
+			<!-- Schuttgart Castle -->
+			<castle id="9"/>
+			<!-- Rune Castle -->
+			<castle id="8"/>
+		</castles>
+
+		<skills>
+			<skill id="590" level="1"/>
+			<skill id="593" level="1"/>
+		</skills>
+		<commanders>
+			<commander x="70374" y="-93983" z="-1401" heading="61344" peaceNpc="36357" npc="36379"/>
+			<commander x="73689" y="-95435" z="-1149" heading="3797" peaceNpc="36358" npc="36385"/>
+			<commander x="73730" y="-94056" z="-1401" heading="43943" peaceNpc="36360" npc="36382"/>
+		</commanders>
+
+		<flags>
+			<flag x="72174" y="-94458" z="-1271" item="9819"/>
+			<flag x="72288" y="-94504" z="-1271" item="9819"/>
+			<flag x="72373" y="-94537" z="-1271" item="9819"/>
+		</flags>
+
+		<commandCenterDoors>
+			<door id="22150006"/>
+			<door id="22150007"/>
+			<door id="22150002"/>
+			<door id="22150003"/>
+		</commandCenterDoors>
+
+		<flagPole x="72170" y="-94761" z="-508" heading="0" id="22150500"/>
+
+		<reinforces>
+			<gate id="121" name="Reinforce fortress gates.">
+				<price level="1" cost="200000" mul="2"/>
+				<door id="22150008"/>
+				<door id="22150004"/>
+				<door id="22150005"/>
+				<door id="22150001"/>
+			</gate>
+			<guard id="1" name="Guards Defense Line">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+			</guard>
+			<guard id="2" name="Scouts">
+				<price level="1" cost="150000"/>
+			</guard>
+			<guard id="3" name="Dwarves">
+				<price level="1" cost="10000"/>
+				<price level="2" cost="10000"/>
+				<price level="3" cost="10000"/>
+				<price level="4" cost="10000"/>
+			</guard>
+			<guardPower id="201" name="Guard Equipment Upgrade">
+				<price level="1" cost="100000" mul="1.1"/>
+				<price level="2" cost="150000" mul="1.3"/>
+			</guardPower>
+
+		</reinforces>
+
+	</fort>
+
+</forts>

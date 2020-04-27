@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<list>
+	<zone id="15300" name="22_14_camp01_announce">
+		<attr name="type" val="dummy"/>
+		<shape type="Poly" zMin="-3519" zMax="-2919">
+			<point x="72168" y="-129117"/>
+			<point x="72204" y="-128685"/>
+			<point x="71840" y="-128240"/>
+			<point x="71324" y="-128244"/>
+			<point x="70896" y="-128712"/>
+			<point x="70944" y="-129100"/>
+			<point x="71348" y="-129452"/>
+			<point x="71900" y="-129400"/>
+		</shape>
+	</zone>
+	<zone id="15301" name="22_14_camp02_announce">
+		<attr name="type" val="dummy"/>
+		<shape type="Poly" zMin="-3342" zMax="-2742">
+			<point x="77184" y="-127180"/>
+			<point x="76764" y="-126524"/>
+			<point x="75916" y="-126308"/>
+			<point x="75176" y="-126700"/>
+			<point x="75072" y="-127552"/>
+			<point x="75484" y="-128376"/>
+			<point x="76492" y="-128520"/>
+			<point x="77052" y="-128036"/>
+		</shape>
+	</zone>
+	<zone id="15302" name="22_14_camp03_announce">
+		<attr name="type" val="dummy"/>
+		<shape type="Poly" zMin="-3242" zMax="-2642">
+			<point x="71464" y="-126372"/>
+			<point x="71788" y="-125476"/>
+			<point x="71416" y="-124724"/>
+			<point x="70552" y="-124492"/>
+			<point x="69876" y="-125136"/>
+			<point x="69776" y="-125980"/>
+			<point x="70556" y="-126688"/>
+		</shape>
+	</zone>
+	<zone id="15303" name="22_14_camp04_announce">
+		<attr name="type" val="dummy"/>
+		<shape type="Poly" zMin="-3102" zMax="-2502">
+			<point x="68524" y="-122780"/>
+			<point x="68444" y="-121724"/>
+			<point x="67708" y="-121192"/>
+			<point x="66844" y="-121364"/>
+			<point x="66404" y="-122176"/>
+			<point x="66568" y="-122952"/>
+			<point x="67232" y="-123400"/>
+			<point x="68012" y="-123296"/>
+		</shape>
+	</zone>
+	<zone id="15304" name="22_14_camp05_announce">
+		<attr name="type" val="dummy"/>
+		<shape type="Poly" zMin="-3202" zMax="-2602">
+			<point x="75916" y="-121416"/>
+			<point x="75136" y="-120628"/>
+			<point x="74040" y="-120200"/>
+			<point x="72960" y="-121040"/>
+			<point x="72864" y="-122056"/>
+			<point x="74087" y="-122960"/>
+			<point x="75231" y="-122500"/>
+		</shape>
+	</zone>
+	<zone id="15305" name="22_14_camp06_announce">
+		<attr name="type" val="dummy"/>
+		<shape type="Poly" zMin="-2758" zMax="-2158">
+			<point x="69187" y="-119774"/>
+			<point x="70093" y="-120120"/>
+			<point x="71017" y="-119331"/>
+			<point x="71171" y="-118853"/>
+			<point x="70857" y="-117824"/>
+			<point x="69432" y="-117941"/>
+			<point x="68884" y="-118969"/>
+		</shape>
+	</zone>
+	<zone id="15306" name="22_14_camp07_announce">
+		<attr name="type" val="dummy"/>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="75116" y="-117044"/>
+			<point x="74824" y="-116300"/>
+			<point x="74292" y="-116200"/>
+			<point x="73732" y="-116476"/>
+			<point x="73736" y="-117096"/>
+			<point x="73952" y="-117580"/>
+			<point x="74524" y="-117616"/>
+		</shape>
+	</zone>
+	<zone id="15307" name="22_14_camp08_announce">
+		<attr name="type" val="dummy"/>
+		<shape type="Poly" zMin="-2298" zMax="-1698">
+			<point x="69332" y="-116324"/>
+			<point x="68952" y="-115328"/>
+			<point x="68240" y="-114852"/>
+			<point x="67500" y="-114968"/>
+			<point x="66908" y="-115888"/>
+			<point x="67004" y="-116766"/>
+			<point x="67740" y="-117315"/>
+			<point x="68774" y="-117127"/>
+		</shape>
+	</zone>
+	<zone id="15308" name="22_14_camp09_announce">
+		<attr name="type" val="dummy"/>
+		<shape type="Poly" zMin="-1302" zMax="-702">
+			<point x="68656" y="-108107"/>
+			<point x="69063" y="-107170"/>
+			<point x="68628" y="-106337"/>
+			<point x="67744" y="-106032"/>
+			<point x="67090" y="-106616"/>
+			<point x="66910" y="-107145"/>
+			<point x="67038" y="-107810"/>
+			<point x="67700" y="-108282"/>
+		</shape>
+	</zone>
+	<zone id="15309" name="22_14_camp10_announce">
+		<attr name="type" val="dummy"/>
+		<shape type="Poly" zMin="-3290" zMax="-2690">
+			<point x="61543" y="-117575"/>
+			<point x="62221" y="-118430"/>
+			<point x="63818" y="-117532"/>
+			<point x="63457" y="-116818"/>
+			<point x="62481" y="-116277"/>
+			<point x="62481" y="-116277"/>
+			<point x="61598" y="-116550"/>
+		</shape>
+	</zone>
+	<zone id="15310" name="22_14_camp11_announce">
+		<attr name="type" val="dummy"/>
+		<shape type="Poly" zMin="-2466" zMax="-1866">
+			<point x="63728" y="-107336"/>
+			<point x="63984" y="-106794"/>
+			<point x="63678" y="-106265"/>
+			<point x="62978" y="-105989"/>
+			<point x="62324" y="-106507"/>
+			<point x="62737" y="-107335"/>
+		</shape>
+	</zone>
+
+</list>

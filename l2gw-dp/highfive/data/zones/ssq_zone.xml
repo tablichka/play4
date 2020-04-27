@@ -1,0 +1,1171 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<zone id="392" name="[ssq_main_pvp_1720_01]">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<!-- loc_id: 40392 -->
+		<shape type="Rect" zMin="-5200" zMax="-5000">
+			<point x="-79735" y="85612"/>
+			<point x="-78957" y="85690"/>
+		</shape>
+	</zone>
+
+	<zone id="393" name="[ssq_main_pvp_1720_02]">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<!-- loc_id: 40393 -->
+		<shape type="Rect" zMin="-5200" zMax="-5000">
+			<point x="-80952" y="85605"/>
+			<point x="-80139" y="85696"/>
+		</shape>
+	</zone>
+
+	<zone id="394" name="[ssq_main_pvp_1720_03]">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_summon"/>
+		<attr name="entityId" val="5"/>
+		<attr name="levelUpRestoreHPMP" val="false"/>
+		<attr name="expLoss" val="0.25"/>
+		<attr name="type" val="no_restart"/>
+		<restartPoints>
+			<point x="-80208" y="86615" z="-5100"/>
+		</restartPoints>
+		<!-- loc_id: 40394 -->
+		<shape type="Poly" zMin="-5192" zMax="-4992">
+			<point x="-80962" y="83695"/>
+			<point x="-78946" y="83691"/>
+			<point x="-78959" y="85626"/>
+			<point x="-80947" y="85625"/>
+		</shape>
+	</zone>
+
+	<zone id="395" name="[ssq_main_pvp_1720_04]">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<!-- loc_id: 40395 -->
+		<shape type="Rect" zMin="-5196" zMax="-4996">
+			<point x="-81199" y="87363"/>
+			<point x="-80386" y="87449"/>
+		</shape>
+	</zone>
+
+	<zone id="396" name="[ssq_main_pvp_1720_05]">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<!-- loc_id: 40396 -->
+		<shape type="Rect" zMin="-5196" zMax="-4996">
+			<point x="-79990" y="87361"/>
+			<point x="-79212" y="87460"/>
+		</shape>
+	</zone>
+
+	<zone id="397" name="[ssq_main_pvp_1720_06]">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_summon"/>
+		<attr name="entityId" val="1"/>
+		<attr name="levelUpRestoreHPMP" val="false"/>
+		<attr name="expLoss" val="0.25"/>
+		<attr name="type" val="no_restart"/>
+		<restartPoints>
+			<point x="-79946" y="86443" z="-5100"/>
+		</restartPoints>
+		<!-- loc_id: 40397 -->
+		<shape type="Rect" zMin="-5200" zMax="-5000">
+			<point x="-81205" y="87433"/>
+			<point x="-79208" y="89361"/>
+		</shape>
+	</zone>
+
+	<zone id="398" name="[ssq_main_pvp_1720_07]">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<!-- loc_id: 40398 -->
+		<shape type="Rect" zMin="-5200" zMax="-5000">
+			<point x="-78197" y="87968"/>
+			<point x="-77365" y="88060"/>
+		</shape>
+	</zone>
+
+	<zone id="399" name="[ssq_main_pvp_1720_08]">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<!-- loc_id: 40399 -->
+		<shape type="Poly" zMin="-5200" zMax="-5000">
+			<point x="-77025" y="87959"/>
+			<point x="-76209" y="87969"/>
+			<point x="-76202" y="88069"/>
+			<point x="-77026" y="88061"/>
+		</shape>
+	</zone>
+
+	<zone id="400" name="[ssq_main_pvp_1720_09]">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_summon"/>
+		<attr name="entityId" val="2"/>
+		<attr name="levelUpRestoreHPMP" val="false"/>
+		<attr name="expLoss" val="0.25"/>
+		<attr name="type" val="no_restart"/>
+		<restartPoints>
+			<point x="-76944" y="87050" z="-5100"/>
+		</restartPoints>
+		<!-- loc_id: 40400 -->
+		<shape type="Rect" zMin="-5196" zMax="-4996">
+			<point x="-78196" y="88060"/>
+			<point x="-76192" y="89970"/>
+		</shape>
+	</zone>
+
+	<zone id="401" name="[ssq_main_pvp_1720_10]">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<!-- loc_id: 40401 -->
+		<shape type="Rect" zMin="-5204" zMax="-5004">
+			<point x="-76797" y="86142"/>
+			<point x="-75945" y="86304"/>
+		</shape>
+	</zone>
+
+	<zone id="402" name="[ssq_main_pvp_1720_11]">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<!-- loc_id: 40402 -->
+		<shape type="Rect" zMin="-5196" zMax="-4996">
+			<point x="-77944" y="86148"/>
+			<point x="-77194" y="86291"/>
+		</shape>
+	</zone>
+
+	<zone id="403" name="[ssq_main_pvp_1720_12]">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_summon"/>
+		<attr name="entityId" val="4"/>
+		<attr name="levelUpRestoreHPMP" val="false"/>
+		<attr name="expLoss" val="0.25"/>
+		<attr name="type" val="no_restart"/>
+		<restartPoints>
+			<point x="-77208" y="87220" z="-5100"/>
+		</restartPoints>
+		<!-- loc_id: 40403 -->
+		<shape type="Poly" zMin="-5196" zMax="-4996">
+			<point x="-77949" y="84300"/>
+			<point x="-75940" y="84300"/>
+			<point x="-75943" y="86185"/>
+			<point x="-77939" y="86187"/>
+		</shape>
+	</zone>
+
+	<zone id="404" name="[ssq_main_pvp_1720_13]">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<!-- loc_id: 40404 -->
+		<shape type="Rect" zMin="-5200" zMax="-5000">
+			<point x="-75870" y="87311"/>
+			<point x="-75738" y="88130"/>
+		</shape>
+	</zone>
+
+	<zone id="405" name="[ssq_main_pvp_1720_14]">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<!-- loc_id: 40405 -->
+		<shape type="Rect" zMin="-5200" zMax="-5000">
+			<point x="-75865" y="86137"/>
+			<point x="-75740" y="86958"/>
+		</shape>
+	</zone>
+
+	<zone id="406" name="[ssq_main_pvp_1720_15]">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_summon"/>
+		<attr name="entityId" val="3"/>
+		<attr name="levelUpRestoreHPMP" val="false"/>
+		<attr name="expLoss" val="0.25"/>
+		<attr name="type" val="no_restart"/>
+		<restartPoints>
+			<point x="-76290" y="87136" z="-5100"/>
+		</restartPoints>
+		<!-- loc_id: 40406 -->
+		<shape type="Poly" zMin="-5200" zMax="-5000">
+			<point x="-75758" y="86126"/>
+			<point x="-73857" y="86139"/>
+			<point x="-73855" y="88140"/>
+			<point x="-75769" y="88133"/>
+		</shape>
+	</zone>
+
+	<zone id="407" name="[ssq_main_pvp_1721_01]">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<!-- loc_id: 40407 -->
+		<shape type="Poly" zMin="-4948" zMax="-4748">
+			<point x="-78713" y="110409"/>
+			<point x="-77923" y="110423"/>
+			<point x="-77923" y="110522"/>
+			<point x="-78708" y="110515"/>
+		</shape>
+	</zone>
+
+	<zone id="408" name="[ssq_main_pvp_1721_02]">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<!-- loc_id: 40408 -->
+		<shape type="Rect" zMin="-4940" zMax="-4740">
+			<point x="-79923" y="110427"/>
+			<point x="-79105" y="110524"/>
+		</shape>
+	</zone>
+
+	<zone id="409" name="[ssq_main_pvp_1721_03]">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_summon"/>
+		<attr name="entityId" val="10"/>
+		<attr name="levelUpRestoreHPMP" val="false"/>
+		<attr name="expLoss" val="0.25"/>
+		<attr name="type" val="no_restart"/>
+		<restartPoints>
+			<point x="-79179" y="111450" z="-4800"/>
+		</restartPoints>
+		<!-- loc_id: 40409 -->
+		<shape type="Rect" zMin="-4944" zMax="-4744">
+			<point x="-79931" y="108523"/>
+			<point x="-77932" y="110445"/>
+		</shape>
+	</zone>
+
+	<zone id="410" name="[ssq_main_pvp_1721_04]">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<!-- loc_id: 40410 -->
+		<shape type="Poly" zMin="-4940" zMax="-4740">
+			<point x="-75761" y="111051"/>
+			<point x="-74921" y="111033"/>
+			<point x="-74921" y="111142"/>
+			<point x="-75757" y="111151"/>
+		</shape>
+	</zone>
+
+	<zone id="411" name="[ssq_main_pvp_1721_05]">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<!-- loc_id: 40411 -->
+		<shape type="Rect" zMin="-4940" zMax="-4740">
+			<point x="-76920" y="111022"/>
+			<point x="-76085" y="111105"/>
+		</shape>
+	</zone>
+
+	<zone id="412" name="[ssq_main_pvp_1721_06]">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_summon"/>
+		<attr name="entityId" val="9"/>
+		<attr name="levelUpRestoreHPMP" val="false"/>
+		<attr name="expLoss" val="0.25"/>
+		<attr name="type" val="no_restart"/>
+		<restartPoints>
+			<point x="-76178" y="112053" z="-4800"/>
+		</restartPoints>
+		<!-- loc_id: 40412 -->
+		<shape type="Rect" zMin="-4932" zMax="-4732">
+			<point x="-76920" y="109134"/>
+			<point x="-74920" y="111099"/>
+		</shape>
+	</zone>
+
+	<zone id="413" name="[ssq_main_pvp_1721_07]">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<!-- loc_id: 40413 -->
+		<shape type="Rect" zMin="-4944" zMax="-4744">
+			<point x="-77176" y="112795"/>
+			<point x="-76344" y="112897"/>
+		</shape>
+	</zone>
+
+	<zone id="414" name="[ssq_main_pvp_1721_08]">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<!-- loc_id: 40414 -->
+		<shape type="Rect" zMin="-4940" zMax="-4740">
+			<point x="-76002" y="112810"/>
+			<point x="-75176" y="112904"/>
+		</shape>
+	</zone>
+
+	<zone id="415" name="[ssq_main_pvp_1721_09]">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_summon"/>
+		<attr name="entityId" val="7"/>
+		<attr name="levelUpRestoreHPMP" val="false"/>
+		<attr name="expLoss" val="0.25"/>
+		<attr name="type" val="no_restart"/>
+		<restartPoints>
+			<point x="-75936" y="111887" z="-4800"/>
+		</restartPoints>
+		<!-- loc_id: 40415 -->
+		<shape type="Rect" zMin="-4944" zMax="-4744">
+			<point x="-77174" y="112902"/>
+			<point x="-75167" y="114798"/>
+		</shape>
+	</zone>
+
+	<zone id="416" name="[ssq_main_pvp_1721_10]">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<!-- loc_id: 40416 -->
+		<shape type="Poly" zMin="-4940" zMax="-4740">
+			<point x="-80178" y="112233"/>
+			<point x="-79362" y="112250"/>
+			<point x="-79356" y="112294"/>
+			<point x="-80190" y="112301"/>
+		</shape>
+	</zone>
+
+	<zone id="417" name="[ssq_main_pvp_1721_11]">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<!-- loc_id: 40417 -->
+		<shape type="Poly" zMin="-4940" zMax="-4740">
+			<point x="-78861" y="112220"/>
+			<point x="-78196" y="112201"/>
+			<point x="-78178" y="112294"/>
+			<point x="-78994" y="112294"/>
+		</shape>
+	</zone>
+
+	<zone id="418" name="[ssq_main_pvp_1721_12]">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_summon"/>
+		<attr name="entityId" val="6"/>
+		<attr name="levelUpRestoreHPMP" val="false"/>
+		<attr name="expLoss" val="0.25"/>
+		<attr name="type" val="no_restart"/>
+		<restartPoints>
+			<point x="-78936" y="111274" z="-4800"/>
+		</restartPoints>
+		<!-- loc_id: 40418 -->
+		<shape type="Poly" zMin="-4940" zMax="-4740">
+			<point x="-80184" y="112276"/>
+			<point x="-78188" y="112262"/>
+			<point x="-78176" y="114188"/>
+			<point x="-80190" y="114196"/>
+		</shape>
+	</zone>
+
+	<zone id="419" name="[ssq_main_pvp_1721_13]">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<!-- loc_id: 40419 -->
+		<shape type="Rect" zMin="-4940" zMax="-4740">
+			<point x="-74840" y="112152"/>
+			<point x="-74707" y="112966"/>
+		</shape>
+	</zone>
+
+	<zone id="420" name="[ssq_main_pvp_1721_14]">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<!-- loc_id: 40420 -->
+		<shape type="Rect" zMin="-4948" zMax="-4748">
+			<point x="-74840" y="110962"/>
+			<point x="-74741" y="111793"/>
+		</shape>
+	</zone>
+
+	<zone id="421" name="[ssq_main_pvp_1721_15]">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="type" val="no_summon"/>
+		<attr name="entityId" val="8"/>
+		<attr name="levelUpRestoreHPMP" val="false"/>
+		<attr name="expLoss" val="0.25"/>
+		<attr name="type" val="no_restart"/>
+		<restartPoints>
+			<point x="-75267" y="111968" z="-4800"/>
+		</restartPoints>
+		<!-- loc_id: 40421 -->
+		<shape type="Rect" zMin="-4936" zMax="-4736">
+			<point x="-74737" y="110969"/>
+			<point x="-72830" y="112974"/>
+		</shape>
+	</zone>
+
+	<zone id="422" name="[ssq_main_pvp_1721_16]">
+		<attr name="type" val="ssq"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<!-- loc_id: 40422 -->
+		<shape type="Rect" zMin="-4912" zMax="-4712">
+			<point x="-76922" y="110997"/>
+			<point x="-76175" y="111133"/>
+		</shape>
+	</zone>
+
+	<zone id="151000" name="22_10_ssq2_book_north_1_1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="22100100"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-8364" zMax="-8164">
+			<point x="85708" y="-253716"/>
+			<point x="85908" y="-253716"/>
+			<point x="85908" y="-253516"/>
+			<point x="85708" y="-253516"/>
+		</shape>
+	</zone>
+
+	<zone id="151001" name="22_10_ssq2_book_north_1_2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="22100102"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-8364" zMax="-8164">
+			<point x="85708" y="-253716"/>
+			<point x="85908" y="-253716"/>
+			<point x="85908" y="-253516"/>
+			<point x="85708" y="-253516"/>
+		</shape>
+	</zone>
+
+	<zone id="151002" name="22_10_ssq2_book_north_2_1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="22100104"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-8367" zMax="-8167">
+			<point x="86796" y="-252596"/>
+			<point x="86996" y="-252596"/>
+			<point x="86996" y="-252396"/>
+			<point x="86796" y="-252396"/>
+		</shape>
+	</zone>
+
+	<zone id="151003" name="22_10_ssq2_book_north_2_2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="22100106"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-8367" zMax="-8167">
+			<point x="86796" y="-252596"/>
+			<point x="86996" y="-252596"/>
+			<point x="86996" y="-252396"/>
+			<point x="86796" y="-252396"/>
+		</shape>
+	</zone>
+
+	<zone id="151004" name="22_10_ssq2_book_north_3_1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="22100108"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-8368" zMax="-8168">
+			<point x="85676" y="-251524"/>
+			<point x="85876" y="-251524"/>
+			<point x="85876" y="-251324"/>
+			<point x="85676" y="-251324"/>
+		</shape>
+	</zone>
+
+	<zone id="151005" name="22_10_ssq2_book_north_3_2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="22100110"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-8368" zMax="-8168">
+			<point x="85676" y="-251524"/>
+			<point x="85876" y="-251524"/>
+			<point x="85876" y="-251324"/>
+			<point x="85676" y="-251324"/>
+		</shape>
+	</zone>
+
+	<zone id="151006" name="22_10_ssq2_book_north_4_1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="22100112"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-8363" zMax="-8163">
+			<point x="84604" y="-252628"/>
+			<point x="84804" y="-252628"/>
+			<point x="84804" y="-252428"/>
+			<point x="84604" y="-252428"/>
+		</shape>
+	</zone>
+
+	<zone id="151007" name="22_10_ssq2_book_north_4_2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="22100114"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-8363" zMax="-8163">
+			<point x="84604" y="-252628"/>
+			<point x="84804" y="-252628"/>
+			<point x="84804" y="-252428"/>
+			<point x="84604" y="-252428"/>
+		</shape>
+	</zone>
+
+	<zone id="151008" name="22_10_ssq2_book_east_1_1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="22100200"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-8364" zMax="-8164">
+			<point x="88556" y="-250836"/>
+			<point x="88756" y="-250836"/>
+			<point x="88756" y="-250636"/>
+			<point x="88556" y="-250636"/>
+		</shape>
+	</zone>
+
+	<zone id="151009" name="22_10_ssq2_book_east_1_2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="22100202"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-8364" zMax="-8164">
+			<point x="88556" y="-250836"/>
+			<point x="88756" y="-250836"/>
+			<point x="88756" y="-250636"/>
+			<point x="88556" y="-250636"/>
+		</shape>
+	</zone>
+
+	<zone id="151010" name="22_10_ssq2_book_east_2_1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="22100204"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-8359" zMax="-8159">
+			<point x="89660" y="-249732"/>
+			<point x="89860" y="-249732"/>
+			<point x="89860" y="-249532"/>
+			<point x="89660" y="-249532"/>
+		</shape>
+	</zone>
+
+	<zone id="151011" name="22_10_ssq2_book_east_2_2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="22100206"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-8359" zMax="-8159">
+			<point x="89660" y="-249732"/>
+			<point x="89860" y="-249732"/>
+			<point x="89860" y="-249532"/>
+			<point x="89660" y="-249532"/>
+		</shape>
+	</zone>
+
+	<zone id="151012" name="22_10_ssq2_book_east_3_1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="22100208"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-8364" zMax="-8164">
+			<point x="88572" y="-248644"/>
+			<point x="88772" y="-248644"/>
+			<point x="88772" y="-248444"/>
+			<point x="88572" y="-248444"/>
+		</shape>
+	</zone>
+
+	<zone id="151013" name="22_10_ssq2_book_east_3_2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="22100210"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-8364" zMax="-8164">
+			<point x="88572" y="-248644"/>
+			<point x="88772" y="-248644"/>
+			<point x="88772" y="-248444"/>
+			<point x="88572" y="-248444"/>
+		</shape>
+	</zone>
+
+	<zone id="151014" name="22_10_ssq2_book_east_4_1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="22100212"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-8366" zMax="-8166">
+			<point x="87484" y="-249732"/>
+			<point x="87684" y="-249732"/>
+			<point x="87684" y="-249532"/>
+			<point x="87484" y="-249532"/>
+		</shape>
+	</zone>
+
+	<zone id="151015" name="22_10_ssq2_book_east_4_2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="22100214"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-8366" zMax="-8166">
+			<point x="87484" y="-249732"/>
+			<point x="87684" y="-249732"/>
+			<point x="87684" y="-249532"/>
+			<point x="87484" y="-249532"/>
+		</shape>
+	</zone>
+
+	<zone id="151016" name="22_10_ssq2_book_south_1_1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="22100300"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-8362" zMax="-8162">
+			<point x="85692" y="-247876"/>
+			<point x="85892" y="-247876"/>
+			<point x="85892" y="-247676"/>
+			<point x="85692" y="-247676"/>
+		</shape>
+	</zone>
+
+	<zone id="151017" name="22_10_ssq2_book_south_1_2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="22100302"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-8362" zMax="-8162">
+			<point x="85692" y="-247876"/>
+			<point x="85892" y="-247876"/>
+			<point x="85892" y="-247676"/>
+			<point x="85692" y="-247676"/>
+		</shape>
+	</zone>
+
+	<zone id="151018" name="22_10_ssq2_book_south_2_1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="22100304"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-8364" zMax="-8164">
+			<point x="86764" y="-246836"/>
+			<point x="86964" y="-246836"/>
+			<point x="86964" y="-246636"/>
+			<point x="86764" y="-246636"/>
+		</shape>
+	</zone>
+
+	<zone id="151019" name="22_10_ssq2_book_south_2_2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="22100306"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-8364" zMax="-8164">
+			<point x="86764" y="-246836"/>
+			<point x="86964" y="-246836"/>
+			<point x="86964" y="-246636"/>
+			<point x="86764" y="-246636"/>
+		</shape>
+	</zone>
+
+	<zone id="151020" name="22_10_ssq2_book_south_3_1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="22100308"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-8368" zMax="-8168">
+			<point x="85676" y="-245796"/>
+			<point x="85876" y="-245796"/>
+			<point x="85876" y="-245596"/>
+			<point x="85676" y="-245596"/>
+		</shape>
+	</zone>
+
+	<zone id="151021" name="22_10_ssq2_book_south_3_2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="22100310"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-8368" zMax="-8168">
+			<point x="85676" y="-245796"/>
+			<point x="85876" y="-245796"/>
+			<point x="85876" y="-245596"/>
+			<point x="85676" y="-245596"/>
+		</shape>
+	</zone>
+
+	<zone id="151022" name="22_10_ssq2_book_south_4_1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="22100312"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-8366" zMax="-8166">
+			<point x="84652" y="-246836"/>
+			<point x="84852" y="-246836"/>
+			<point x="84852" y="-246636"/>
+			<point x="84652" y="-246636"/>
+		</shape>
+	</zone>
+
+	<zone id="151023" name="22_10_ssq2_book_south_4_2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="22100314"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-8366" zMax="-8166">
+			<point x="84652" y="-246836"/>
+			<point x="84852" y="-246836"/>
+			<point x="84852" y="-246636"/>
+			<point x="84652" y="-246636"/>
+		</shape>
+	</zone>
+
+	<zone id="151024" name="22_10_ssq2_book_west_1_1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="22100400"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-8371" zMax="-8171">
+			<point x="82428" y="-250788"/>
+			<point x="82628" y="-250788"/>
+			<point x="82628" y="-250588"/>
+			<point x="82428" y="-250588"/>
+		</shape>
+	</zone>
+
+	<zone id="151025" name="22_10_ssq2_book_west_1_2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="22100402"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-8371" zMax="-8171">
+			<point x="82428" y="-250788"/>
+			<point x="82628" y="-250788"/>
+			<point x="82628" y="-250588"/>
+			<point x="82428" y="-250588"/>
+		</shape>
+	</zone>
+
+	<zone id="151026" name="22_10_ssq2_book_west_2_1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="22100404"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-8368" zMax="-8168">
+			<point x="83468" y="-249732"/>
+			<point x="83668" y="-249732"/>
+			<point x="83668" y="-249532"/>
+			<point x="83468" y="-249532"/>
+		</shape>
+	</zone>
+
+	<zone id="151027" name="22_10_ssq2_book_west_2_2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="22100406"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-8368" zMax="-8168">
+			<point x="83468" y="-249732"/>
+			<point x="83668" y="-249732"/>
+			<point x="83668" y="-249532"/>
+			<point x="83468" y="-249532"/>
+		</shape>
+	</zone>
+
+	<zone id="151028" name="22_10_ssq2_book_west_3_1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="22100408"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-8360" zMax="-8160">
+			<point x="82428" y="-248660"/>
+			<point x="82628" y="-248660"/>
+			<point x="82628" y="-248460"/>
+			<point x="82428" y="-248460"/>
+		</shape>
+	</zone>
+
+	<zone id="151029" name="22_10_ssq2_book_west_3_2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="22100410"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-8360" zMax="-8160">
+			<point x="82428" y="-248660"/>
+			<point x="82628" y="-248660"/>
+			<point x="82628" y="-248460"/>
+			<point x="82428" y="-248460"/>
+		</shape>
+	</zone>
+
+	<zone id="151030" name="22_10_ssq2_book_west_4_1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="22100414"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-8368" zMax="-8168">
+			<point x="81388" y="-249700"/>
+			<point x="81588" y="-249700"/>
+			<point x="81588" y="-249500"/>
+			<point x="81388" y="-249500"/>
+		</shape>
+	</zone>
+
+	<zone id="151031" name="22_10_ssq2_book_west_4_2">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="22100412"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-8368" zMax="-8168">
+			<point x="81388" y="-249700"/>
+			<point x="81588" y="-249700"/>
+			<point x="81588" y="-249500"/>
+			<point x="81388" y="-249500"/>
+		</shape>
+	</zone>
+
+	<zone id="151032" name="22_10_ssq2_book_center_ori">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="22100500"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-8388" zMax="-8188">
+			<point x="85692" y="-249732"/>
+			<point x="85892" y="-249732"/>
+			<point x="85892" y="-249532"/>
+			<point x="85692" y="-249532"/>
+		</shape>
+	</zone>
+
+	<zone id="151033" name="22_10_ssq2_book_center_new">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="22100502"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-8388" zMax="-8188">
+			<point x="85692" y="-249732"/>
+			<point x="85892" y="-249732"/>
+			<point x="85892" y="-249532"/>
+			<point x="85692" y="-249532"/>
+		</shape>
+	</zone>
+
+	<zone id="151034" name="21_10_ssq2_theme_center_ori">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="21100100"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-6798" zMax="-6598">
+			<point x="45048" y="-249998"/>
+			<point x="45707" y="-249996"/>
+			<point x="45706" y="-249328"/>
+			<point x="45038" y="-249320"/>
+		</shape>
+	</zone>
+
+	<zone id="151035" name="21_10_ssq2_theme_center_new">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="21100102"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-6798" zMax="-6598">
+			<point x="45048" y="-249998"/>
+			<point x="45707" y="-249996"/>
+			<point x="45706" y="-249328"/>
+			<point x="45038" y="-249320"/>
+		</shape>
+	</zone>
+
+	<zone id="151036" name="21_10_ssq2_celibacy_eff">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="21100200"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-6799" zMax="-6599">
+			<point x="45051" y="-251920"/>
+			<point x="45710" y="-251918"/>
+			<point x="45709" y="-251250"/>
+			<point x="45041" y="-251242"/>
+		</shape>
+	</zone>
+
+	<zone id="151037" name="21_10_ssq2_sacrificey_eff">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="21100202"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-6768" zMax="-6568">
+			<point x="47003" y="-249968"/>
+			<point x="47662" y="-249966"/>
+			<point x="47661" y="-249298"/>
+			<point x="46993" y="-249290"/>
+		</shape>
+	</zone>
+
+	<zone id="151038" name="21_10_ssq2_modesty_eff">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="21100204"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-6798" zMax="-6598">
+			<point x="45045" y="-248074"/>
+			<point x="45704" y="-248072"/>
+			<point x="45703" y="-247404"/>
+			<point x="45035" y="-247396"/>
+		</shape>
+	</zone>
+
+	<zone id="151039" name="21_10_ssq2_repent_eff">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<attr name="event_id" val="21100206"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="10" probe="100">
+				<skill id="4625" level="8"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-6791" zMax="-6591">
+			<point x="41909" y="-249740"/>
+			<point x="42109" y="-249740"/>
+			<point x="42109" y="-249540"/>
+			<point x="41909" y="-249540"/>
+		</shape>
+	</zone>
+
+</list>

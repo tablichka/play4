@@ -1,0 +1,80 @@
+<html>
+<body><br><br>
+<table border=0 width=755><tr><td width=10></td><td width=600 align=left>
+<a action="bypass -h _bbsaccount">Manage My Account</a> > <a action="bypass -h _bbscolor_<?type?>">Change Nickname Color</a>
+</td></tr>
+</table>
+<center>
+<img src="L2UI.squareblank" width="1" height="10">
+<table border=0 cellspacing=0 cellpadding=0 width=755 bgcolor=A7A19A>
+<tr><td WIDTH=5></td><td height=10 WIDTH=750></td></tr>
+<tr><td></td>
+<td height=20>
+Change Nickname Color General Information:
+</td>
+</tr>
+<tr><td></td><td height=10></td></tr>
+</table>
+<br>
+<table border=0 cellspacing=0 cellpadding=2 width=755>
+<tr>
+<td><font color=b1b1af>
+You may change your nickname color as often as you want. Refer to service cost information below.
+<br1>
+Your current color: <font color=<?curr_color?>><?name?></font>
+</font></td>
+</tr>
+</table>
+<table border=0 cellspacing=0 cellpadding=0 width=755 bgcolor=A7A19A>
+<tr><td WIDTH=5></td><td height=10 WIDTH=750></td></tr>
+<tr><td></td>
+<td height=20>
+Service cost:
+</td>
+</tr>
+<tr><td></td><td height=10></td></tr>
+</table>
+<table border=0 cellspacing=0 cellpadding=2 width=755>
+<tr>
+<td><font color=b1b1af>
+If you are on the standard account type each nick name color change costs <font color=LEVEL><?change_cost?> <?change_item?></font> and
+    it's completely free of charge for <font color=LEVEL>premium</font> accounts.<br1>
+Please, choose the desired color from the table below.
+</font></td>
+</tr>
+</table>
+<br>
+<img src="L2UI.squaregray" width="755" height="1">
+<br>
+<center>
+<table border=0 cellspacing=0 cellpadding=2 width=755>
+<!--TEMPLET1
+<td fixwidth=20 align=center><a action="bypass <?ch_bypass?>"><font color=<?rgb?>><?name?></font></td>
+TEMPLET-->
+<?color_list?>
+</table>
+</center>
+<br>
+<img src="L2UI.squaregray" width="755" height="1">
+<br>
+<table border=0 width=155>
+<!--TEMPLET2
+<td><button value="<?pn?>" action="bypass -h _bbscolor_<?type?>_<?pn?>" back="l2ui_ct1.button.button_df_small_down" width=22 height=18 fore="l2ui_ct1.button.button_df_small"></td>
+TEMPLET-->
+<!--TEMPLET3
+<td><button value="<?pn?>" action="bypass -h _bbscolor_<?type?>_<?pn?>" back="l2ui_ct1.button.button_df_small_down" width=22 height=18 fore="l2ui_ct1.button.button_df_small"></td>
+TEMPLET-->
+<tr>
+<?page_links?>
+</tr>
+</table>
+<br>
+<center>
+<a action="bypass -h _bbsch_<?type?>_-1">Change to default color</a> (free)
+</center>
+<br>
+<img src="L2UI.squaregray" width="755" height="2">
+<br><br>
+</center>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<item id='6316' name="Adv Deluxe Food For Strider">
+		<cond msgId="113">
+			<uc category="strider;wyvern_group"/>
+		</cond>
+		<for/>
+	</item>
+	<item id='6398' name="Spellbook: Body of Avatar">
+	<!-- Spellbook needed to learn Body of Avatar. Used by Bishops.\\nRequired level: 48 -->
+		<for/>
+	</item>
+
+	<item id='6399' name="Badge of Rabbit">
+	<!-- The badge that indicates that its bearer's event collector grade is "rabbit."  Without this badge, one cannot prove one's grade. -->
+		<for/>
+	</item>
+
+</list>

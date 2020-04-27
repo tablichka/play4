@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="7576" name="Draconic Bow - Cheap Shot">
+		<for>
+			<set val="1" order="0x08" stat="cheapShot" />
+			<set val="0.26" order="0x08" stat="cheapShotChance" />
+		</for>
+	</item>
+	<item id="7578" name="Draconic Bow - Critical Slow">
+		<for>
+			<skill id="3574" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+</list>

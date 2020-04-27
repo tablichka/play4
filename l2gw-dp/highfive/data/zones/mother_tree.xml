@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<zone id="1" name="[mother_tree_start_zone]">
+		<attr name="affectedRace" val="elf"/>
+		<attr name="enterMessageNo" val="114"/>
+		<attr name="exitMessageNo" val="115"/>
+		<!-- loc_id: 40001 -->
+		<shape type="Poly" zMin="-3550" zMax="-3350">
+			<point x="45889" y="41890"/>
+			<point x="45277" y="41672"/>
+			<point x="45028" y="41478"/>
+			<point x="44809" y="41230"/>
+			<point x="44522" y="40689"/>
+			<point x="44501" y="39970"/>
+			<point x="44725" y="39407"/>
+			<point x="44930" y="39145"/>
+			<point x="45447" y="38764"/>
+			<point x="46073" y="38618"/>
+			<point x="46710" y="38716"/>
+			<point x="47255" y="39049"/>
+			<point x="47743" y="39834"/>
+			<point x="47772" y="40568"/>
+			<point x="47545" y="41125"/>
+			<point x="47108" y="41599"/>
+			<point x="46531" y="41868"/>
+		</shape>
+	</zone>
+
+	<zone id="2" name="[mother_tree_town]">
+		<attr name="affectedRace" val="elf"/>
+		<attr name="enterMessageNo" val="114"/>
+		<attr name="exitMessageNo" val="115"/>
+		<!-- loc_id: 40002 -->
+		<shape type="Poly" zMin="-3121" zMax="-2921">
+			<point x="45234" y="49892"/>
+			<point x="45117" y="49826"/>
+			<point x="45031" y="49722"/>
+			<point x="44986" y="49597"/>
+			<point x="44985" y="49462"/>
+			<point x="45032" y="49336"/>
+			<point x="45116" y="49233"/>
+			<point x="45233" y="49165"/>
+			<point x="45365" y="49143"/>
+			<point x="45498" y="49166"/>
+			<point x="45614" y="49235"/>
+			<point x="45700" y="49336"/>
+			<point x="45746" y="49462"/>
+			<point x="45747" y="49596"/>
+			<point x="45699" y="49723"/>
+			<point x="45614" y="49825"/>
+			<point x="45498" y="49893"/>
+			<point x="45366" y="49914"/>
+		</shape>
+	</zone>
+
+	<zone id="19" name="[20_19_worldtree]">
+		<attr name="affectedRace" val="elf"/>
+		<attr name="enterMessageNo" val="114"/>
+		<attr name="exitMessageNo" val="115"/>
+		<!-- loc_id: 40019 -->
+		<shape type="Poly" zMin="-3745" zMax="-3545">
+			<point x="21101" y="50538"/>
+			<point x="21511" y="50683"/>
+			<point x="21642" y="51005"/>
+			<point x="21583" y="51349"/>
+			<point x="21255" y="51581"/>
+			<point x="20852" y="51473"/>
+			<point x="20627" y="51121"/>
+			<point x="20728" y="50743"/>
+		</shape>
+	</zone>
+
+	<zone id="20" name="[20_20_worldtree]">
+		<attr name="affectedRace" val="elf"/>
+		<attr name="enterMessageNo" val="114"/>
+		<attr name="exitMessageNo" val="115"/>
+		<!-- loc_id: 40020 -->
+		<shape type="Poly" zMin="-3268" zMax="-3068">
+			<point x="25084" y="81616"/>
+			<point x="25073" y="81892"/>
+			<point x="24948" y="81895"/>
+			<point x="24826" y="81866"/>
+			<point x="24716" y="81788"/>
+			<point x="24637" y="81623"/>
+			<point x="24637" y="81428"/>
+			<point x="25076" y="81428"/>
+		</shape>
+	</zone>
+
+	<zone id="21" name="[21_20_worldtree]">
+		<attr name="affectedRace" val="elf"/>
+		<attr name="enterMessageNo" val="114"/>
+		<attr name="exitMessageNo" val="115"/>
+		<!-- loc_id: 40021 -->
+		<shape type="Poly" zMin="-3775" zMax="-3575">
+			<point x="57755" y="85802"/>
+			<point x="57974" y="86079"/>
+			<point x="57953" y="86404"/>
+			<point x="57711" y="86683"/>
+			<point x="57324" y="86686"/>
+			<point x="57105" y="86436"/>
+			<point x="57088" y="86061"/>
+			<point x="57404" y="85785"/>
+		</shape>
+	</zone>
+
+	<zone id="187" name="[devil_healing_zone]">
+		<attr name="affectedRace" val="all"/>
+		<attr name="hpRegenBonus" val="2"/>
+		<attr name="mpRegenBonus" val="1"/>
+		<attr name="enterMessageNo" val="1054"/>
+		<attr name="exitMessageNo" val="1055"/>
+		<!-- loc_id: 40187 -->
+		<shape type="Poly" zMin="-3913" zMax="-3413">
+			<point x="41520" y="205163"/>
+			<point x="44448" y="205623"/>
+			<point x="44352" y="208957"/>
+			<point x="42813" y="208983"/>
+			<point x="41473" y="207893"/>
+		</shape>
+	</zone>
+
+	<zone id="382" name="[ssq_main_event_17_20_01]">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="affectedRace" val="all"/>
+		<attr name="mpRegenBonus" val="2"/>
+		<attr name="enterMessageNo" val="1054"/>
+		<attr name="exitMessageNo" val="1055"/>
+		<!-- loc_id: 40382 -->
+		<shape type="Poly" zMin="-5168" zMax="-4968">
+			<point x="-79956" y="84556"/>
+			<point x="-79832" y="84620"/>
+			<point x="-79824" y="84772"/>
+			<point x="-79956" y="84844"/>
+			<point x="-80080" y="84772"/>
+			<point x="-80076" y="84620"/>
+		</shape>
+	</zone>
+
+	<zone id="383" name="[ssq_main_event_17_20_04]">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="affectedRace" val="all"/>
+		<attr name="mpRegenBonus" val="2"/>
+		<attr name="enterMessageNo" val="1054"/>
+		<attr name="exitMessageNo" val="1055"/>
+		<!-- loc_id: 40383 -->
+		<shape type="Poly" zMin="-5164" zMax="-4964">
+			<point x="-76936" y="85164"/>
+			<point x="-76820" y="85232"/>
+			<point x="-76816" y="85380"/>
+			<point x="-76948" y="85444"/>
+			<point x="-77068" y="85376"/>
+			<point x="-77068" y="85236"/>
+		</shape>
+	</zone>
+
+	<zone id="384" name="[ssq_main_event_17_20_05]">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="affectedRace" val="all"/>
+		<attr name="mpRegenBonus" val="3"/>
+		<attr name="enterMessageNo" val="1054"/>
+		<attr name="exitMessageNo" val="1055"/>
+		<!-- loc_id: 40384 -->
+		<shape type="Poly" zMin="-5164" zMax="-4964">
+			<point x="-74924" y="87012"/>
+			<point x="-74784" y="87008"/>
+			<point x="-74712" y="87132"/>
+			<point x="-74780" y="87256"/>
+			<point x="-74924" y="87260"/>
+			<point x="-75000" y="87140"/>
+		</shape>
+	</zone>
+
+	<zone id="385" name="[ssq_main_event_17_20_03]">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="affectedRace" val="all"/>
+		<attr name="mpRegenBonus" val="3"/>
+		<attr name="enterMessageNo" val="1054"/>
+		<attr name="exitMessageNo" val="1055"/>
+		<!-- loc_id: 40385 -->
+		<shape type="Poly" zMin="-5176" zMax="-4976">
+			<point x="-77200" y="88820"/>
+			<point x="-77076" y="88896"/>
+			<point x="-77076" y="89040"/>
+			<point x="-77204" y="89108"/>
+			<point x="-77328" y="89044"/>
+			<point x="-77328" y="88892"/>
+		</shape>
+	</zone>
+
+	<zone id="386" name="[ssq_main_event_17_20_02]">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="affectedRace" val="all"/>
+		<attr name="mpRegenBonus" val="4"/>
+		<attr name="enterMessageNo" val="1054"/>
+		<attr name="exitMessageNo" val="1055"/>
+		<!-- loc_id: 40386 -->
+		<shape type="Poly" zMin="-5172" zMax="-4972">
+			<point x="-80204" y="88220"/>
+			<point x="-80080" y="88288"/>
+			<point x="-80080" y="88428"/>
+			<point x="-80208" y="88504"/>
+			<point x="-80336" y="88428"/>
+			<point x="-80328" y="88292"/>
+		</shape>
+	</zone>
+
+	<zone id="387" name="[ssq_main_event_17_21_01]">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="affectedRace" val="all"/>
+		<attr name="mpRegenBonus" val="2"/>
+		<attr name="enterMessageNo" val="1054"/>
+		<attr name="exitMessageNo" val="1055"/>
+		<!-- loc_id: 40387 -->
+		<shape type="Poly" zMin="-4916" zMax="-4716">
+			<point x="-78796" y="109452"/>
+			<point x="-78804" y="109608"/>
+			<point x="-78924" y="109672"/>
+			<point x="-79056" y="109600"/>
+			<point x="-79056" y="109456"/>
+			<point x="-78932" y="109380"/>
+		</shape>
+	</zone>
+
+	<zone id="388" name="[ssq_main_event_17_21_02]">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="affectedRace" val="all"/>
+		<attr name="mpRegenBonus" val="2"/>
+		<attr name="enterMessageNo" val="1054"/>
+		<attr name="exitMessageNo" val="1055"/>
+		<!-- loc_id: 40388 -->
+		<shape type="Poly" zMin="-4908" zMax="-4708">
+			<point x="-75920" y="109992"/>
+			<point x="-75792" y="110068"/>
+			<point x="-75792" y="110220"/>
+			<point x="-75912" y="110288"/>
+			<point x="-76048" y="110212"/>
+			<point x="-76044" y="110068"/>
+		</shape>
+	</zone>
+
+	<zone id="389" name="[ssq_main_event_17_21_05]">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="affectedRace" val="all"/>
+		<attr name="mpRegenBonus" val="3"/>
+		<attr name="enterMessageNo" val="1054"/>
+		<attr name="exitMessageNo" val="1055"/>
+		<!-- loc_id: 40389 -->
+		<shape type="Poly" zMin="-4916" zMax="-4716">
+			<point x="-73900" y="111844"/>
+			<point x="-73752" y="111840"/>
+			<point x="-73688" y="111976"/>
+			<point x="-73760" y="112092"/>
+			<point x="-73904" y="112092"/>
+			<point x="-73976" y="111968"/>
+		</shape>
+	</zone>
+
+	<zone id="390" name="[ssq_main_event_17_21_03]">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="affectedRace" val="all"/>
+		<attr name="mpRegenBonus" val="3"/>
+		<attr name="enterMessageNo" val="1054"/>
+		<attr name="exitMessageNo" val="1055"/>
+		<!-- loc_id: 40390 -->
+		<shape type="Poly" zMin="-4912" zMax="-4712">
+			<point x="-76172" y="113656"/>
+			<point x="-76052" y="113728"/>
+			<point x="-76048" y="113872"/>
+			<point x="-76172" y="113944"/>
+			<point x="-76308" y="113876"/>
+			<point x="-76304" y="113728"/>
+		</shape>
+	</zone>
+
+	<zone id="391" name="[ssq_main_event_17_21_04]">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="affectedRace" val="all"/>
+		<attr name="mpRegenBonus" val="4"/>
+		<attr name="enterMessageNo" val="1054"/>
+		<attr name="exitMessageNo" val="1055"/>
+		<!-- loc_id: 40391 -->
+		<shape type="Poly" zMin="-4908" zMax="-4708">
+			<point x="-79184" y="113040"/>
+			<point x="-79060" y="113116"/>
+			<point x="-79052" y="113268"/>
+			<point x="-79184" y="113336"/>
+			<point x="-79304" y="113260"/>
+			<point x="-79304" y="113116"/>
+		</shape>
+	</zone>
+
+</list>

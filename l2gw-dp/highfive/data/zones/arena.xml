@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<zone id="92" name="[dion_monster_pvp]">
+		<attr name="type" val="battle"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="1"/>
+		<!-- loc_id: 41404 -->
+		<restartPoints>
+			<point x="11817" y="182897" z="-3560"/>
+			<point x="12438" y="182887" z="-3560"/>
+			<point x="13047" y="182902" z="-3560"/>
+			<point x="13061" y="183518" z="-3560"/>
+			<point x="13059" y="184123" z="-3560"/>
+			<point x="12430" y="184133" z="-3560"/>
+			<point x="11822" y="184143" z="-3560"/>
+			<point x="11803" y="183473" z="-3560"/>
+			<point x="12115" y="182896" z="-3560"/>
+			<point x="12740" y="182901" z="-3560"/>
+			<point x="13059" y="183199" z="-3560"/>
+			<point x="13049" y="182796" z="-3560"/>
+			<point x="12740" y="184138" z="-3560"/>
+			<point x="12172" y="184133" z="-3560"/>
+			<point x="11820" y="183806" z="-3560"/>
+			<point x="11811" y="183209" z="-3560"/>
+		</restartPoints>
+		<!-- loc_id: 41455 -->
+		<restartChaotic>
+			<point x="11892" y="181700" z="-3560"/>
+			<point x="14028" y="181695" z="-3560"/>
+			<point x="13111" y="181695" z="-3560"/>
+			<point x="12587" y="181702" z="-3560"/>
+			<point x="13588" y="181695" z="-3560"/>
+			<point x="14077" y="182490" z="-3560"/>
+			<point x="13631" y="182490" z="-3560"/>
+			<point x="13157" y="182490" z="-3560"/>
+			<point x="12675" y="182490" z="-3560"/>
+			<point x="11926" y="182503" z="-3560"/>
+			<point x="12288" y="182497" z="-3560"/>
+			<point x="12292" y="181707" z="-3560"/>
+			<point x="11825" y="181822" z="-3560"/>
+			<point x="11827" y="182334" z="-3560"/>
+			<point x="11814" y="181984" z="-3560"/>
+			<point x="11824" y="182172" z="-3560"/>
+		</restartChaotic>
+		<!-- loc_id: 40092 -->
+		<shape type="Rect" zMin="-3596" zMax="-3396">
+			<point x="11947" y="183019"/>
+			<point x="12943" y="184010"/>
+		</shape>
+	</zone>
+
+	<zone id="102" name="[gludin_pvp]">
+		<attr name="type" val="battle"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="2"/>
+		<!-- loc_id: 41402 -->
+		<restartPoints>
+			<point x="-86979" y="142402" z="-3643"/>
+		</restartPoints>
+		<!-- loc_id: 40102 -->
+		<shape type="Rect" zMin="-3752" zMax="-3352">
+			<point x="-88411" y="141732"/>
+			<point x="-87429" y="142708"/>
+		</shape>
+	</zone>
+
+	<zone id="107" name="[giran_pvp_battle]">
+		<attr name="type" val="battle"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="3"/>
+		<!-- loc_id: 41401 -->
+		<restartPoints>
+			<point x="73890" y="142656" z="-3778"/>
+		</restartPoints>
+		<!-- loc_id: 40107 -->
+		<shape type="Rect" zMin="-3850" zMax="-3350">
+			<point x="72493" y="142263"/>
+			<point x="73493" y="143261"/>
+		</shape>
+	</zone>
+
+	<zone id="112" name="[colosseum_battle]">
+		<attr name="type" val="battle"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="4"/>
+		<!-- loc_id: 41403 -->
+		<restartPoints>
+			<point x="147420" y="46378" z="-3350"/>
+			<point x="147696" y="46416" z="-3350"/>
+			<point x="147248" y="47048" z="-3350"/>
+			<point x="147449" y="47051" z="-3350"/>
+			<point x="147680" y="47040" z="-3350"/>
+			<point x="147232" y="46352" z="-3350"/>
+			<point x="147696" y="46928" z="-3350"/>
+			<point x="147456" y="46928" z="-3350"/>
+			<point x="147232" y="46928" z="-3350"/>
+			<point x="147232" y="46464" z="-3350"/>
+			<point x="147424" y="46464" z="-3350"/>
+			<point x="147696" y="46512" z="-3350"/>
+			<point x="151294" y="46378" z="-3350"/>
+			<point x="151535" y="46353" z="-3350"/>
+			<point x="151712" y="46368" z="-3350"/>
+			<point x="151753" y="46500" z="-3405"/>
+			<point x="151760" y="46928" z="-3350"/>
+			<point x="151760" y="47104" z="-3350"/>
+			<point x="151536" y="46960" z="-3350"/>
+			<point x="151536" y="47104" z="-3350"/>
+			<point x="151264" y="47136" z="-3350"/>
+			<point x="151264" y="47008" z="-3350"/>
+			<point x="151536" y="46482" z="-3350"/>
+			<point x="151296" y="46480" z="-3350"/>
+		</restartPoints>
+		<!-- loc_id: 41453 -->
+		<restartChaotic>
+			<point x="147420" y="46378" z="-3350"/>
+			<point x="147696" y="46416" z="-3350"/>
+			<point x="147248" y="47048" z="-3350"/>
+			<point x="147449" y="47051" z="-3350"/>
+			<point x="147680" y="47040" z="-3350"/>
+			<point x="147232" y="46352" z="-3350"/>
+			<point x="147696" y="46928" z="-3350"/>
+			<point x="147456" y="46928" z="-3350"/>
+			<point x="147232" y="46928" z="-3350"/>
+			<point x="147232" y="46464" z="-3350"/>
+			<point x="147424" y="46464" z="-3350"/>
+			<point x="147696" y="46512" z="-3350"/>
+			<point x="151294" y="46378" z="-3350"/>
+			<point x="151535" y="46353" z="-3350"/>
+			<point x="151712" y="46368" z="-3350"/>
+			<point x="151753" y="46500" z="-3405"/>
+			<point x="151760" y="46928" z="-3350"/>
+			<point x="151760" y="47104" z="-3350"/>
+			<point x="151536" y="46960" z="-3350"/>
+			<point x="151536" y="47104" z="-3350"/>
+			<point x="151264" y="47136" z="-3350"/>
+			<point x="151264" y="47008" z="-3350"/>
+			<point x="151536" y="46482" z="-3350"/>
+			<point x="151296" y="46480" z="-3350"/>
+		</restartChaotic>
+		<shape type='Poly' zMin='-3500' zMax='-3300'>
+			<point x='147768' y='47487'/>
+			<point x='148258' y='48083'/>
+			<point x='150750' y='48086'/>
+			<point x='151226' y='47483'/>
+			<point x='151225' y='47225'/>
+			<point x='150980' y='46939'/>
+			<point x='150980' y='46503'/>
+			<point x='151227' y='46215'/>
+			<point x='151222' y='45933'/>
+			<point x='150738' y='45343'/>
+			<point x='148268' y='45343'/>
+			<point x='147764' y='45946'/>
+			<point x='147769' y='46220'/>
+			<point x='148018' y='46498'/>
+			<point x='148018' y='46940'/>
+			<point x='147773' y='47229'/>
+		</shape>
+	</zone>
+
+</list>

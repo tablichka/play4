@@ -1,0 +1,1238 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<zone id="139100" name="23_14_icequeen_lv1">
+		<attr name="type" val="altered"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<shape type="Poly" zMin="-11249" zMax="-10749">
+			<point x="112898" y="-117865"/>
+			<point x="116554" y="-117891"/>
+			<point x="116597" y="-112972"/>
+			<point x="112920" y="-112997"/>
+		</shape>
+	</zone>
+
+	<zone id="139000" name="23_14_icequeen_lv1">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="6437" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-11249" zMax="-10749">
+			<point x="112898" y="-117865"/>
+			<point x="116554" y="-117891"/>
+			<point x="116597" y="-112972"/>
+			<point x="112920" y="-112997"/>
+		</shape>
+	</zone>
+
+	<zone id="139001" name="23_14_icequeen_lv2">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="6437" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-11249" zMax="-10749">
+			<point x="112898" y="-117865"/>
+			<point x="116554" y="-117891"/>
+			<point x="116597" y="-112972"/>
+			<point x="112920" y="-112997"/>
+		</shape>
+	</zone>
+
+	<zone id="139002" name="23_14_icequeen_lv3">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="6437" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-11249" zMax="-10749">
+			<point x="112898" y="-117865"/>
+			<point x="116554" y="-117891"/>
+			<point x="116597" y="-112972"/>
+			<point x="112920" y="-112997"/>
+		</shape>
+	</zone>
+
+	<zone id="139003" name="23_14_icequeen_lv4">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="6437" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-11249" zMax="-10749">
+			<point x="112898" y="-117865"/>
+			<point x="116554" y="-117891"/>
+			<point x="116597" y="-112972"/>
+			<point x="112920" y="-112997"/>
+		</shape>
+	</zone>
+
+	<zone id="139004" name="23_14_icequeen_lv5">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="6437" level="5"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-11249" zMax="-10749">
+			<point x="112898" y="-117865"/>
+			<point x="116554" y="-117891"/>
+			<point x="116597" y="-112972"/>
+			<point x="112920" y="-112997"/>
+		</shape>
+	</zone>
+
+	<zone id="139005" name="23_14_icequeen_lv6">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="6437" level="6"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-11249" zMax="-10749">
+			<point x="112898" y="-117865"/>
+			<point x="116554" y="-117891"/>
+			<point x="116597" y="-112972"/>
+			<point x="112920" y="-112997"/>
+		</shape>
+	</zone>
+
+	<zone id="139006" name="23_14_icequeen_lv7">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="6437" level="7"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-11249" zMax="-10749">
+			<point x="112898" y="-117865"/>
+			<point x="116554" y="-117891"/>
+			<point x="116597" y="-112972"/>
+			<point x="112920" y="-112997"/>
+		</shape>
+	</zone>
+
+	<zone id="139007" name="23_14_icequeen_1s_01">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="139008" name="23_14_icequeen_1s_02">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="139009" name="23_14_icequeen_1s_03">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="139010" name="23_14_icequeen_1s_04">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="139011" name="23_14_icequeen_1s_05">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="139012" name="23_14_icequeen_1s_06">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="139013" name="23_14_icequeen_1s_07">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="139014" name="23_14_icequeen_1s_08">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="139015" name="23_14_icequeen_1s_09">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="139016" name="23_14_icequeen_1s_10">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="139017" name="23_14_icequeen_1s_11">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="139018" name="23_14_icequeen_1s_12">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="139019" name="23_14_icequeen_1s_13">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="139020" name="23_14_icequeen_1s_14">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="139021" name="23_14_icequeen_1s_15">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="139022" name="23_14_icequeen_1s_16">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="139023" name="23_14_icequeen_1s_17">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="139024" name="23_14_icequeen_1s_18">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="139025" name="23_14_icequeen_1s_19">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="139026" name="23_14_icequeen_1s_20">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="139027" name="23_14_icequeen_1s_21">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="139028" name="23_14_icequeen_2s_01">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="139029" name="23_14_icequeen_2s_02">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="139030" name="23_14_icequeen_2s_03">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="139031" name="23_14_icequeen_2s_04">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="139032" name="23_14_icequeen_2s_05">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="139033" name="23_14_icequeen_2s_06">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="139034" name="23_14_icequeen_2s_07">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="139035" name="23_14_icequeen_2s_08">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="144000" name="23_14_icequeen_lv1_hd">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="6437" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-11249" zMax="-10749">
+			<point x="112898" y="-117865"/>
+			<point x="116554" y="-117891"/>
+			<point x="116597" y="-112972"/>
+			<point x="112920" y="-112997"/>
+		</shape>
+	</zone>
+
+	<zone id="144001" name="23_14_icequeen_lv2_hd">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="6437" level="2"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-11249" zMax="-10749">
+			<point x="112898" y="-117865"/>
+			<point x="116554" y="-117891"/>
+			<point x="116597" y="-112972"/>
+			<point x="112920" y="-112997"/>
+		</shape>
+	</zone>
+
+	<zone id="144002" name="23_14_icequeen_lv3_hd">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="6437" level="3"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-11249" zMax="-10749">
+			<point x="112898" y="-117865"/>
+			<point x="116554" y="-117891"/>
+			<point x="116597" y="-112972"/>
+			<point x="112920" y="-112997"/>
+		</shape>
+	</zone>
+
+	<zone id="144003" name="23_14_icequeen_lv4_hd">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="6437" level="4"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-11249" zMax="-10749">
+			<point x="112898" y="-117865"/>
+			<point x="116554" y="-117891"/>
+			<point x="116597" y="-112972"/>
+			<point x="112920" y="-112997"/>
+		</shape>
+	</zone>
+
+	<zone id="144004" name="23_14_icequeen_lv5_hd">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="6437" level="5"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-11249" zMax="-10749">
+			<point x="112898" y="-117865"/>
+			<point x="116554" y="-117891"/>
+			<point x="116597" y="-112972"/>
+			<point x="112920" y="-112997"/>
+		</shape>
+	</zone>
+
+	<zone id="144005" name="23_14_icequeen_lv6_hd">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="6437" level="6"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-11249" zMax="-10749">
+			<point x="112898" y="-117865"/>
+			<point x="116554" y="-117891"/>
+			<point x="116597" y="-112972"/>
+			<point x="112920" y="-112997"/>
+		</shape>
+	</zone>
+
+	<zone id="144006" name="23_14_icequeen_lv7_hd">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="pc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="6437" level="7"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-11249" zMax="-10749">
+			<point x="112898" y="-117865"/>
+			<point x="116554" y="-117891"/>
+			<point x="116597" y="-112972"/>
+			<point x="112920" y="-112997"/>
+		</shape>
+	</zone>
+
+	<zone id="144007" name="23_14_icequeen_1s_01_hd">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="144008" name="23_14_icequeen_1s_02_hd">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="144009" name="23_14_icequeen_1s_03_hd">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="144010" name="23_14_icequeen_1s_04_hd">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="144011" name="23_14_icequeen_1s_05_hd">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="144012" name="23_14_icequeen_1s_06_hd">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="144013" name="23_14_icequeen_1s_07_hd">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="144014" name="23_14_icequeen_1s_08_hd">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="144015" name="23_14_icequeen_1s_09_hd">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="144016" name="23_14_icequeen_1s_10_hd">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="144017" name="23_14_icequeen_1s_11_hd">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="144018" name="23_14_icequeen_1s_12_hd">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="144019" name="23_14_icequeen_1s_13_hd">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="144020" name="23_14_icequeen_1s_14_hd">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="144021" name="23_14_icequeen_1s_15_hd">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="144022" name="23_14_icequeen_1s_16_hd">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="144023" name="23_14_icequeen_1s_17_hd">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="144024" name="23_14_icequeen_1s_18_hd">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="144025" name="23_14_icequeen_1s_19_hd">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="144026" name="23_14_icequeen_1s_20_hd">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="144027" name="23_14_icequeen_1s_21_hd">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="144028" name="23_14_icequeen_2s_01_hd">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="144029" name="23_14_icequeen_2s_02_hd">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="144030" name="23_14_icequeen_2s_03_hd">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="144031" name="23_14_icequeen_2s_04_hd">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="144032" name="23_14_icequeen_2s_05_hd">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="144033" name="23_14_icequeen_2s_06_hd">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="144034" name="23_14_icequeen_2s_07_hd">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+	<zone id="144035" name="23_14_icequeen_2s_08_hd">
+		<attr name="type" val="dummy"/>
+		<attr name="target" val="npc"/>
+		<attr name="active" val="false"/>
+		<effects>
+			<effect action="add" event="schedule" unit_tick="5" probe="100">
+				<skill id="5938" level="1"/>
+			</effect>
+		</effects>
+		<shape type="Poly" zMin="-9933" zMax="-9733">
+			<point x="115052" y="-114548"/>
+			<point x="115252" y="-114548"/>
+			<point x="115252" y="-114348"/>
+			<point x="115052" y="-114348"/>
+		</shape>
+	</zone>
+
+</list>

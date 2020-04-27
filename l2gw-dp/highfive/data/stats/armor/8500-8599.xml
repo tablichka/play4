@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id='8541' name="Little Harness">
+		<cond msgId="600">
+			<uc category="baby_pet_group"/>
+		</cond>
+		<for>
+			<add val='10' order='0x10' stat='mDef'/>
+			<add val='25' order='0x10' stat='pDef'/>
+		</for>
+	</item>
+</list>

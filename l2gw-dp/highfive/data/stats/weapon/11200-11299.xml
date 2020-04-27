@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="11201" name="Draconic Bow - Earth - Critical Slow">
+		<for>
+			<skill id="3574" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="11217" name="Sarunga - Earth - Critical Slow">
+		<for>
+			<skill id="3574" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="11233" name="Imperial Staff - Nature - Magic Hold">
+		<for>
+			<skill id="3577" level="1" chance="20" action="magic" />
+		</for>
+	</item>
+	<item id="11298" name="Dynasty Halberd - Earth - Critical Stun">
+		<for>
+			<skill id="3070" level="4" chance="100" action="crit" />
+		</for>
+	</item>
+</list>

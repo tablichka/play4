@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- godad_feud_product -->
+<list>
+	<config showall="true" notax="true" keepenchanted="false" />
+	<item>
+		<production id="13737" count="1"/>	<!-- Blessed Scroll of Escape: Goddard -->
+		<ingredient id="57" count="250000"/>	<!-- Adena -->
+		<ingredient id="13763" count="40"/>	<!-- Goddard Territory Badge -->
+	</item>
+	<item>
+		<production id="13719" count="1"/>	<!-- Goddard Supply Box: Belt -->
+		<ingredient id="57" count="40000"/>	<!-- Adena -->
+		<ingredient id="13763" count="7"/>	<!-- Goddard Territory Badge -->
+	</item>
+	<item>
+		<production id="13710" count="1"/>	<!-- Goddard Supply Box: Magic Pouch -->
+		<ingredient id="57" count="20000"/>	<!-- Adena -->
+		<ingredient id="13763" count="4"/>	<!-- Goddard Territory Badge -->
+	</item>
+	<item>
+		<production id="13701" count="1"/>	<!-- Goddard Supply Box: Magic Pin -->
+		<ingredient id="57" count="40000"/>	<!-- Adena -->
+		<ingredient id="13763" count="8"/>	<!-- Goddard Territory Badge -->
+	</item>
+	<item>
+		<production id="14555" count="1"/>	<!-- Goddard Supply Box: Belt -->
+		<ingredient id="57" count="400000"/>	<!-- Adena -->
+		<ingredient id="13763" count="70"/>	<!-- Goddard Territory Badge -->
+	</item>
+	<item>
+		<production id="14546" count="1"/>	<!-- Goddard Supply Box: Magic Pouch -->
+		<ingredient id="57" count="80000"/>	<!-- Adena -->
+		<ingredient id="13763" count="16"/>	<!-- Goddard Territory Badge -->
+	</item>
+	<item>
+		<production id="14537" count="1"/>	<!-- Goddard Supply Box: Magic Pin -->
+		<ingredient id="57" count="120000"/>	<!-- Adena -->
+		<ingredient id="13763" count="32"/>	<!-- Goddard Territory Badge -->
+	</item>
+	<item>
+		<production id="14899" count="1"/>	<!-- Goddard Supply Box: Magic Ornament -->
+		<ingredient id="57" count="80000"/>	<!-- Adena -->
+		<ingredient id="13763" count="16"/>	<!-- Goddard Territory Badge -->
+	</item>
+	<item>
+		<production id="14890" count="1"/>	<!-- Goddard Supply Box: Magic Rune Clip -->
+		<ingredient id="57" count="120000"/>	<!-- Adena -->
+		<ingredient id="13763" count="32"/>	<!-- Goddard Territory Badge -->
+	</item>
+	<item>
+		<production id="13746" count="1"/>	<!-- Goddard Fire Resistance Necklace -->
+		<ingredient id="57" count="3596400"/>	<!-- Adena -->
+		<ingredient id="13763" count="160"/>	<!-- Goddard Territory Badge -->
+	</item>
+	<item>
+		<production id="14598" count="1"/>	<!-- Goddard Dark Resistance Ring -->
+		<ingredient id="57" count="1798200"/>	<!-- Adena -->
+		<ingredient id="13763" count="80"/>	<!-- Goddard Territory Badge -->
+	</item>
+	<item>
+		<production id="14670" count="1"/>	<!-- Goddard Protection Earring -->
+		<ingredient id="57" count="2696400"/>	<!-- Adena -->
+		<ingredient id="13763" count="120"/>	<!-- Goddard Territory Badge -->
+	</item>
+	<item>
+		<production id="15288" count="1"/>	<!-- Goddard Fire Royal Guard Necklace -->
+		<ingredient id="57" count="3596400"/>	<!-- Adena -->
+		<ingredient id="13763" count="160"/>	<!-- Goddard Territory Badge -->
+	</item>
+	<item>
+		<production id="15297" count="1"/>	<!-- Goddard Dark Royal Guard Ring -->
+		<ingredient id="57" count="1798200"/>	<!-- Adena -->
+		<ingredient id="13763" count="80"/>	<!-- Goddard Territory Badge -->
+	</item>
+	<item>
+		<production id="14807" count="1"/>	<!-- Goddard Guard Earring -->
+		<ingredient id="57" count="2696400"/>	<!-- Adena -->
+		<ingredient id="13763" count="120"/>	<!-- Goddard Territory Badge -->
+	</item>
+	<item>
+		<production id="14810" count="1"/>	<!-- Blue Talisman - Buff Cancel -->
+		<ingredient id="57" count="14500"/>	<!-- Adena -->
+		<ingredient id="13763" count="13"/>	<!-- Goddard Territory Badge -->
+	</item>
+	<item>
+		<production id="14811" count="1"/>	<!-- Blue Talisman - Buff Steal -->
+		<ingredient id="57" count="15600"/>	<!-- Adena -->
+		<ingredient id="13763" count="14"/>	<!-- Goddard Territory Badge -->
+	</item>
+	<item>
+		<production id="14815" count="1"/>	<!-- Territory Health Recovery Potion -->
+		<ingredient id="57" count="21000"/>	<!-- Adena -->
+		<ingredient id="13763" count="8"/>	<!-- Goddard Territory Badge -->
+	</item>
+	<item>
+		<production id="14816" count="1"/>	<!-- Territory Mana Recovery Potion -->
+		<ingredient id="57" count="21000"/>	<!-- Adena -->
+		<ingredient id="13763" count="8"/>	<!-- Goddard Territory Badge -->
+	</item>
+	<item>
+		<production id="14817" count="1"/>	<!-- Territory CP Recovery Potion -->
+		<ingredient id="57" count="21000"/>	<!-- Adena -->
+		<ingredient id="13763" count="8"/>	<!-- Goddard Territory Badge -->
+	</item>
+	<item>
+		<production id="9625" count="1"/>	<!-- Giant's Codex - Oblivion -->
+		<ingredient id="57" count="1000000"/>	<!-- Adena -->
+		<ingredient id="13763" count="20"/>	<!-- Goddard Territory Badge -->
+	</item>
+	<item>
+		<production id="9626" count="1"/>	<!-- Giant's Codex - Discipline -->
+		<ingredient id="57" count="1260000"/>	<!-- Adena -->
+		<ingredient id="13763" count="54"/>	<!-- Goddard Territory Badge -->
+	</item>
+	<item>
+		<production id="9627" count="1"/>	<!-- Giant's Codex - Mastery -->
+		<ingredient id="57" count="1800000"/>	<!-- Adena -->
+		<ingredient id="13763" count="80"/>	<!-- Goddard Territory Badge -->
+	</item>
+	<item>
+		<production id="14964" count="1"/>	<!-- Red Skeleton Circlet -->
+		<ingredient id="57" count="2100000"/>	<!-- Adena -->
+		<ingredient id="13763" count="80"/>	<!-- Goddard Territory Badge -->
+	</item>
+	<item>
+		<production id="13481" count="1"/>	<!-- Goddard Circlet of Combat -->
+		<ingredient id="57" count="2100000"/>	<!-- Adena -->
+		<ingredient id="13763" count="80"/>	<!-- Goddard Territory Badge -->
+	</item>
+	<item>
+		<production id="14582" count="1"/>	<!-- Apella Combat Helmet -->
+		<ingredient id="57" count="801600"/>	<!-- Adena -->
+		<ingredient id="13763" count="107"/>	<!-- Goddard Territory Badge -->
+	</item>
+	<item>
+		<production id="14587" count="1"/>	<!-- Apella Combat Leather Gloves -->
+		<ingredient id="57" count="534000"/>	<!-- Adena -->
+		<ingredient id="13763" count="71"/>	<!-- Goddard Territory Badge -->
+	</item>
+	<item>
+		<production id="14589" count="1"/>	<!-- Apella Combat Overcoat -->
+		<ingredient id="57" count="2604600"/>	<!-- Adena -->
+		<ingredient id="13763" count="347"/>	<!-- Goddard Territory Badge -->
+	</item>
+	<item>
+		<production id="14572" count="1"/>	<!-- Staff of Abygail Family -->
+		<ingredient id="57" count="21000000"/>	<!-- Adena -->
+		<ingredient id="13763" count="800"/>	<!-- Goddard Territory Badge -->
+	</item>
+	<item>
+		<production id="14573" count="1"/>	<!-- Great Hammer of Abygail Family -->
+		<ingredient id="57" count="21000000"/>	<!-- Adena -->
+		<ingredient id="13763" count="800"/>	<!-- Goddard Territory Badge -->
+	</item>
+</list>

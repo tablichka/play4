@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- innadrille_feud_product -->
+<list>
+	<config showall="true" notax="true" keepenchanted="false" />
+	<item>
+		<production id="13736" count="1"/>	<!-- Blessed Scroll of Escape: Innadril -->
+		<ingredient id="57" count="250000"/>	<!-- Adena -->
+		<ingredient id="13762" count="40"/>	<!-- Innadril Territory Badge -->
+	</item>
+	<item>
+		<production id="13718" count="1"/>	<!-- Innadril Supply Box - Belt -->
+		<ingredient id="57" count="40000"/>	<!-- Adena -->
+		<ingredient id="13762" count="7"/>	<!-- Innadril Territory Badge -->
+	</item>
+	<item>
+		<production id="13709" count="1"/>	<!-- Innadril Supply Box - Magic Pouch -->
+		<ingredient id="57" count="20000"/>	<!-- Adena -->
+		<ingredient id="13762" count="4"/>	<!-- Innadril Territory Badge -->
+	</item>
+	<item>
+		<production id="13700" count="1"/>	<!-- Innadril Supply Box - Magic Pin -->
+		<ingredient id="57" count="40000"/>	<!-- Adena -->
+		<ingredient id="13762" count="8"/>	<!-- Innadril Territory Badge -->
+	</item>
+	<item>
+		<production id="14554" count="1"/>	<!-- Innadril Supply Box - Belt -->
+		<ingredient id="57" count="400000"/>	<!-- Adena -->
+		<ingredient id="13762" count="70"/>	<!-- Innadril Territory Badge -->
+	</item>
+	<item>
+		<production id="14545" count="1"/>	<!-- Innadril Supply Box - Magic Pouch -->
+		<ingredient id="57" count="80000"/>	<!-- Adena -->
+		<ingredient id="13762" count="16"/>	<!-- Innadril Territory Badge -->
+	</item>
+	<item>
+		<production id="14536" count="1"/>	<!-- Innadril Supply Box - Magic Pin -->
+		<ingredient id="57" count="120000"/>	<!-- Adena -->
+		<ingredient id="13762" count="32"/>	<!-- Innadril Territory Badge -->
+	</item>
+	<item>
+		<production id="14898" count="1"/>	<!-- Innadril Supply Box - Magic Ornament -->
+		<ingredient id="57" count="80000"/>	<!-- Adena -->
+		<ingredient id="13762" count="16"/>	<!-- Innadril Territory Badge -->
+	</item>
+	<item>
+		<production id="14889" count="1"/>	<!-- Innadril Supply Box - Magic Rune Clip -->
+		<ingredient id="57" count="120000"/>	<!-- Adena -->
+		<ingredient id="13762" count="32"/>	<!-- Innadril Territory Badge -->
+	</item>
+	<item>
+		<production id="13745" count="1"/>	<!-- Innadril Water Resistance Necklace -->
+		<ingredient id="57" count="3596400"/>	<!-- Adena -->
+		<ingredient id="13762" count="160"/>	<!-- Innadril Territory Badge -->
+	</item>
+	<item>
+		<production id="14597" count="1"/>	<!-- Innadril Holy Resistance Ring -->
+		<ingredient id="57" count="1798200"/>	<!-- Adena -->
+		<ingredient id="13762" count="80"/>	<!-- Innadril Territory Badge -->
+	</item>
+	<item>
+		<production id="14669" count="1"/>	<!-- Innadril Protection Earring -->
+		<ingredient id="57" count="2696400"/>	<!-- Adena -->
+		<ingredient id="13762" count="120"/>	<!-- Innadril Territory Badge -->
+	</item>
+	<item>
+		<production id="15287" count="1"/>	<!-- Innadril Water Royal Guard Necklace -->
+		<ingredient id="57" count="3596400"/>	<!-- Adena -->
+		<ingredient id="13762" count="160"/>	<!-- Innadril Territory Badge -->
+	</item>
+	<item>
+		<production id="15296" count="1"/>	<!-- Innadril Holy Royal Guard Ring -->
+		<ingredient id="57" count="1798200"/>	<!-- Adena -->
+		<ingredient id="13762" count="80"/>	<!-- Innadril Territory Badge -->
+	</item>
+	<item>
+		<production id="14806" count="1"/>	<!-- Innadril Guard Earring -->
+		<ingredient id="57" count="2696400"/>	<!-- Adena -->
+		<ingredient id="13762" count="120"/>	<!-- Innadril Territory Badge -->
+	</item>
+	<item>
+		<production id="14810" count="1"/>	<!-- Blue Talisman - Buff Cancel -->
+		<ingredient id="57" count="14500"/>	<!-- Adena -->
+		<ingredient id="13762" count="13"/>	<!-- Innadril Territory Badge -->
+	</item>
+	<item>
+		<production id="14811" count="1"/>	<!-- Blue Talisman - Buff Steal -->
+		<ingredient id="57" count="15600"/>	<!-- Adena -->
+		<ingredient id="13762" count="14"/>	<!-- Innadril Territory Badge -->
+	</item>
+	<item>
+		<production id="14815" count="1"/>	<!-- Territory Health Recovery Potion -->
+		<ingredient id="57" count="21000"/>	<!-- Adena -->
+		<ingredient id="13762" count="8"/>	<!-- Innadril Territory Badge -->
+	</item>
+	<item>
+		<production id="14816" count="1"/>	<!-- Territory Mana Recovery Potion -->
+		<ingredient id="57" count="21000"/>	<!-- Adena -->
+		<ingredient id="13762" count="8"/>	<!-- Innadril Territory Badge -->
+	</item>
+	<item>
+		<production id="14817" count="1"/>	<!-- Territory CP Recovery Potion -->
+		<ingredient id="57" count="21000"/>	<!-- Adena -->
+		<ingredient id="13762" count="8"/>	<!-- Innadril Territory Badge -->
+	</item>
+	<item>
+		<production id="9625" count="1"/>	<!-- Giant's Codex - Oblivion -->
+		<ingredient id="57" count="1000000"/>	<!-- Adena -->
+		<ingredient id="13762" count="20"/>	<!-- Innadril Territory Badge -->
+	</item>
+	<item>
+		<production id="9626" count="1"/>	<!-- Giant's Codex - Discipline -->
+		<ingredient id="57" count="1260000"/>	<!-- Adena -->
+		<ingredient id="13762" count="54"/>	<!-- Innadril Territory Badge -->
+	</item>
+	<item>
+		<production id="9627" count="1"/>	<!-- Giant's Codex - Mastery -->
+		<ingredient id="57" count="1800000"/>	<!-- Adena -->
+		<ingredient id="13762" count="80"/>	<!-- Innadril Territory Badge -->
+	</item>
+	<item>
+		<production id="14962" count="1"/>	<!-- Gold Skeleton Circlet -->
+		<ingredient id="57" count="2100000"/>	<!-- Adena -->
+		<ingredient id="13762" count="80"/>	<!-- Innadril Territory Badge -->
+	</item>
+	<item>
+		<production id="13472" count="1"/>	<!-- Circlet of Innadril Valor -->
+		<ingredient id="57" count="2100000"/>	<!-- Adena -->
+		<ingredient id="13762" count="80"/>	<!-- Innadril Territory Badge -->
+	</item>
+	<item>
+		<production id="13476" count="1"/>	<!-- Circlet of Innadril Sniper -->
+		<ingredient id="57" count="2100000"/>	<!-- Adena -->
+		<ingredient id="13762" count="80"/>	<!-- Innadril Territory Badge -->
+	</item>
+	<item>
+		<production id="14582" count="1"/>	<!-- Apella Combat Helmet -->
+		<ingredient id="57" count="801600"/>	<!-- Adena -->
+		<ingredient id="13762" count="107"/>	<!-- Innadril Territory Badge -->
+	</item>
+	<item>
+		<production id="14589" count="1"/>	<!-- Apella Combat Overcoat -->
+		<ingredient id="57" count="2604600"/>	<!-- Adena -->
+		<ingredient id="13762" count="347"/>	<!-- Innadril Territory Badge -->
+	</item>
+	<item>
+		<production id="14585" count="1"/>	<!-- Apella Combat Boots -->
+		<ingredient id="57" count="534000"/>	<!-- Adena -->
+		<ingredient id="13762" count="71"/>	<!-- Innadril Territory Badge -->
+	</item>
+	<item>
+		<production id="14570" count="1"/>	<!-- Dual Sword of Hunter Family -->
+		<ingredient id="57" count="21000000"/>	<!-- Adena -->
+		<ingredient id="13762" count="800"/>	<!-- Innadril Territory Badge -->
+	</item>
+	<item>
+		<production id="14571" count="1"/>	<!-- Spear of Hunter Family -->
+		<ingredient id="57" count="21000000"/>	<!-- Adena -->
+		<ingredient id="13762" count="800"/>	<!-- Innadril Territory Badge -->
+	</item>
+</list>

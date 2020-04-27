@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="11103" name="Flaming Dragon Skull - Wisdom - Magic Silence">
+		<for>
+			<skill id="3074" level="2" chance="10" action="magic" />
+		</for>
+	</item>
+	<item id="11106" name="Branch of the Mother Tree - Nature - Magic Damage">
+		<for>
+			<skill id="3049" level="2" chance="30" action="magic" />
+		</for>
+	</item>
+	<item id="11110" name="Sword of Miracles - Holy Spirit - Magic Silence">
+		<for>
+			<skill id="3074" level="2" chance="10" action="magic" />
+		</for>
+	</item>
+	<item id="11115" name="Reaper - Clairvoyance - Critical Poison">
+		<for>
+			<skill id="3062" level="2" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="11123" name="Elysian - Great Gale - Critical Drain">
+		<for>
+			<skill id="3059" level="2" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="11127" name="Soul Bow - Clairvoyance - Critical Poison">
+		<for>
+			<skill id="3062" level="2" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="11131" name="Tallum Glaive - On Fire - Wide Blow">
+		<for>
+			<!-- TODO: Core support required for 'damage_range" -->
+			<set val="180" order="0x40" stat="poleAngle" />
+		</for>
+	</item>
+	<item id="11140" name="Daimon Crystal - Wisdom - Magic Mental Shield">
+		<for>
+			<skill id="1035" level="4" chance="50" action="magic" />
+		</for>
+	</item>
+	<item id="11168" name="Sobekk's Hurricane - Landslide - Critical Drain">
+		<for>
+			<skill id="3039" level="7" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="11172" name="Sirra's Blade - Landslide - Critical Poison">
+		<for>
+			<skill id="3061" level="3" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="11176" name="Eclair Bijou - Landslide - Critical Poison">
+		<for>
+			<skill id="3061" level="3" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="11178" name="Tiphon's Spear - Landslide - Critical Stun">
+		<for>
+			<skill id="3070" level="3" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="11179" name="Tiphon's Spear - Landslide - Long Blow">
+		<for>
+			<!-- SA: Long Blow -->
+			<!-- TODO: Core support required for 'damage_range" -->
+			<set val="80" order="0x08" stat="pAtkRange" />
+		</for>
+	</item>
+	<item id="11180" name="Tiphon's Spear - Landslide - Wild Blow">
+		<for>
+			<!-- SA: Wide Blow -->
+			<!-- TODO: Core support required for 'damage_range" -->
+			<set val="180" order="0x08" stat="poleAngle" />
+		</for>
+	</item>
+	<item id="11184" name="Themis' Tongue - Cleverness - Magic Mental Shield">
+		<for>
+			<skill id="1035" level="4" chance="50" action="magic" />
+		</for>
+	</item>
+	<item id="11185" name="Themis' Tongue - Cleverness - Magic Focus">
+		<for>
+			<skill id="1077" level="3" chance="20" action="magic" />
+		</for>
+	</item>
+	<item id="11189" name="Cabrio's Hand - Cleverness - Magic Silence">
+		<for>
+			<skill id="3074" level="2" chance="10" action="magic" />
+		</for>
+	</item>
+	<item id="11197" name="Demon Splinter - Thunder - Critical Stun">
+		<for>
+			<skill id="3571" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+</list>

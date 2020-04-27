@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+
+	<zone id="2" classType="Residence" name="Gludio HQ">
+		<attr name="type" val="headquarters"/>		
+		<attr name="entityId" val="1"/>
+		<attr name="active" val="false" />
+		<shape type="Poly" zMin="-4484" zMax="3611">
+			<point x="-22052" y="114025"/>
+			<point x="-14221" y="114007"/>
+			<point x="-14197" y="116558"/>
+			<point x="-22032" y="116566"/>
+			<point x="-22030" y="104809"/>
+			<point x="-20270" y="104817"/>
+			<point x="-20266" y="113735"/>
+			<point x="-22031" y="113732"/>
+			<point x="-15554" y="104834"/>
+			<point x="-13917" y="104839"/>
+			<point x="-13914" y="113757"/>
+			<point x="-15554" y="113757"/>
+		</shape>
+	</zone>
+			
+			
+	<zone id="6" classType="Residence" name="Dion HQ">
+		<attr name="type" val="headquarters"/>		
+		<attr name="entityId" val="2"/>
+		<attr name="active" val="false" />
+		<shape type="Poly" zMin="-4678" zMax="4000">
+			<point x="26012" y="155725"/>
+			<point x="18181" y="155743"/>
+			<point x="18157" y="153192"/>
+			<point x="25992" y="153184"/>
+			<point x="25990" y="164941"/>
+			<point x="24230" y="164933"/>
+			<point x="24226" y="156015"/>
+			<point x="25991" y="156018"/>
+			<point x="19514" y="164916"/>
+			<point x="17877" y="164911"/>
+			<point x="17874" y="155993"/>
+			<point x="19514" y="155993"/>
+		</shape>
+	</zone>
+			
+	<zone id="10" classType="Residence" name="Giran HQ">
+		<attr name="type" val="headquarters"/>		
+		<attr name="entityId" val="3"/>
+		<attr name="active" val="false" />
+		<shape type="Poly" zMin="-4551" zMax="19995">
+			<point x="111897" y="141157"/>
+			<point x="111915" y="148988"/>
+			<point x="109364" y="149012"/>
+			<point x="109356" y="141177"/>
+			<point x="121113" y="141179"/>
+			<point x="121105" y="142939"/>
+			<point x="112187" y="142943"/>
+			<point x="112190" y="141178"/>
+			<point x="121088" y="147655"/>
+			<point x="121083" y="149292"/>
+			<point x="112165" y="149295"/>
+			<point x="112165" y="147655"/>
+		</shape>
+	</zone>
+			
+	<zone id="14" classType="Residence" name="Oren HQ">
+		<attr name="type" val="headquarters"/>		
+		<attr name="entityId" val="4"/>
+		<attr name="active" val="false" />
+		<shape type="Poly" zMin="-4278" zMax="19995">
+			<point x="77973" y="33252"/>
+			<point x="77991" y="41083"/>
+			<point x="75440" y="41107"/>
+			<point x="75432" y="33272"/>
+			<point x="87189" y="33274"/>
+			<point x="87181" y="35034"/>
+			<point x="78263" y="35038"/>
+			<point x="78266" y="33273"/>
+			<point x="87164" y="39750"/>
+			<point x="87159" y="41387"/>
+			<point x="78241" y="41390"/>
+			<point x="78241" y="39750"/>
+		</shape>
+	</zone>
+			
+	<zone id="18" classType="Residence" name="Aden HQ">
+		<attr name="type" val="headquarters"/>		
+		<attr name="entityId" val="5"/>
+		<attr name="active" val="false" />
+		<shape type="Poly" zMin="-1158" zMax="42">
+			<point x="144365" y="9902"/>
+			<point x="150572" y="9919"/>
+			<point x="150816" y="4925"/>
+			<point x="151831" y="4916"/>
+			<point x="151833" y="7955"/>
+			<point x="150754" y="9839"/>
+			<point x="150281" y="10385"/>
+			<point x="151282" y="12184"/>
+			<point x="151280" y="13248"/>
+			<point x="143668" y="13224"/>
+			<point x="143698" y="12185"/>
+			<point x="144657" y="10353"/>
+			<point x="144156" y="9821"/>
+			<point x="143148" y="7939"/>
+			<point x="143155" y="4824"/>
+			<point x="144053" y="4830"/>
+		</shape>
+	</zone>
+			
+	<zone id="22" classType="Residence" name="Innadril HQ">
+		<attr name="type" val="headquarters"/>		
+		<attr name="entityId" val="6"/>
+		<attr name="active" val="false" />
+		<shape type="Poly" zMin="-2774" zMax="4000">
+			<point x="119963" y="244504"/>
+			<point x="112132" y="244522"/>
+			<point x="112108" y="241971"/>
+			<point x="119943" y="241963"/>
+			<point x="119941" y="253720"/>
+			<point x="118181" y="253712"/>
+			<point x="118177" y="244794"/>
+			<point x="119942" y="244797"/>
+			<point x="113465" y="253695"/>
+			<point x="111828" y="253690"/>
+			<point x="111825" y="244772"/>
+			<point x="113465" y="244772"/>
+		</shape>
+	</zone>
+			
+	<zone id="26" classType="Residence" name="Goddard HQ">
+		<attr name="type" val="headquarters"/>		
+		<attr name="entityId" val="7"/>
+		<attr name="active" val="false" />
+		<shape type="Poly" zMin="-2625" zMax="1875">
+			<point x="144715" y="-43884"/>
+			<point x="150045" y="-43884"/>
+			<point x="150037" y="-43064"/>
+			<point x="148924" y="-42723"/>
+			<point x="148512" y="-41841"/>
+			<point x="148496" y="-40907"/>
+			<point x="147063" y="-40920"/>
+			<point x="145883" y="-42805"/>
+			<point x="144692" y="-42822"/>
+		</shape>
+	</zone>
+			
+	<zone id="30" classType="Residence" name="Rune HQ">
+		<attr name="type" val="headquarters"/>		
+		<attr name="entityId" val="8"/>
+		<attr name="active" val="false" />
+		<shape type="Poly" zMin="-1300" zMax="-1000">
+			<point x="19554" y="-49277"/>
+			<point x="19477" y="-49776"/>
+			<point x="19327" y="-50247"/>
+			<point x="18742" y="-51120"/>
+			<point x="17983" y="-51775"/>
+			<point x="17474" y="-52171"/>
+			<point x="17104" y="-52181"/>
+			<point x="17019" y="-51978"/>
+			<point x="17534" y="-51574"/>
+			<point x="18060" y="-50864"/>
+			<point x="18434" y="-49922"/>
+			<point x="18666" y="-49418"/>
+			<point x="18656" y="-48868"/>
+			<point x="18214" y="-47718"/>
+			<point x="17635" y="-46737"/>
+			<point x="16877" y="-46265"/>
+			<point x="16902" y="-46004"/>
+			<point x="17406" y="-46005"/>
+			<point x="17861" y="-46139"/>
+			<point x="18565" y="-47154"/>
+			<point x="19430" y="-47999"/>
+		</shape>
+		<shape type="Poly" zMin="-1300" zMax="-1000">
+			<point x="19448" y="-48882"/>
+			<point x="19468" y="-49345"/>
+			<point x="27034" y="-49353"/>
+			<point x="27036" y="-48878"/>
+		</shape>
+		<shape type="Poly" zMin="-1300" zMax="-1000">
+			<point x="22532" y="-47619"/>
+			<point x="21181" y="-47623"/>
+			<point x="21187" y="-50613"/>
+			<point x="22537" y="-50627"/>
+		</shape>
+
+	</zone>
+
+	<zone id="34" classType="Residence" name="Schuttgart HQ">
+		<attr name="type" val="headquarters"/>		
+		<attr name="entityId" val="9"/>
+		<attr name="active" val="false" />
+		<shape type="Poly" zMin="-3000" zMax="3000">
+			<point x="76059" y="-148258"/>
+			<point x="76067" y="-147618"/>
+			<point x="76769" y="-146901"/>
+			<point x="77512" y="-146472"/>
+			<point x="78160" y="-146343"/>
+			<point x="79185" y="-147134"/>
+			<point x="79566" y="-147981"/>
+		</shape>
+	</zone>
+</list>
+				

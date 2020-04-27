@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Dualdaggers SSQ for S -->
+<list>
+	<config showall="true" notax="true" keepenchanted="false" />
+	<item>
+		<ingredient id="9446" count="1"/>
+		<ingredient id="236" count="1"/>
+		<ingredient id="5126" count="1"/>
+		<ingredient id="5575" count="4395000"/>
+		<production id="13882" count="1"/>
+	</item>
+	<item>
+		<ingredient id="10216" count="1"/>
+		<ingredient id="236" count="1"/>
+		<ingredient id="5126" count="1"/>
+		<ingredient id="5575" count="6089000"/>
+		<production id="13883" count="1"/>
+	</item>
+	<item>
+		<ingredient id="13460" count="1"/>
+		<ingredient id="8682" count="1"/>
+		<ingredient id="5126" count="1"/>
+		<ingredient id="5575" count="8577000"/>
+		<production id="13884" count="1"/>
+	</item>
+	<item>
+		<ingredient id="10216" count="1"/>
+		<ingredient id="236" count="1"/>
+		<ingredient id="5126" count="1"/>
+		<ingredient id="5575" count="6089000"/>
+		<production id="13883" count="1"/>
+	</item>
+	<item>
+		<ingredient id="11247" count="1"/>
+		<ingredient id="236" count="1"/>
+		<ingredient id="5126" count="1"/>
+		<ingredient id="5575" count="4395000"/>
+		<production id="14526" count="1"/>
+	</item>
+	<item>
+		<ingredient id="11301" count="1"/>
+		<ingredient id="236" count="1"/>
+		<ingredient id="5126" count="1"/>
+		<ingredient id="5575" count="6089000"/>
+		<production id="14527" count="1"/>
+	</item>
+	<item>
+		<ingredient id="13460" count="1"/>
+		<ingredient id="8682" count="1"/>
+		<ingredient id="5126" count="1"/>
+		<ingredient id="5575" count="8577000"/>
+		<production id="13884" count="1"/>
+	</item>
+</list>

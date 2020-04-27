@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="9863" name="Dynasty Bow - Cheap Shot">
+		<for>
+			<set val="1" order="0x08" stat="cheapShot" />
+			<set val="0.26" order="0x08" stat="cheapShotChance" />
+		</for>
+	</item>
+	<item id="9870" name="Dynasty Halberd - Critical Stun">
+		<for>
+			<skill id="3070" level="4" chance="100" action="crit" />
+		</for>
+	</item>
+</list>

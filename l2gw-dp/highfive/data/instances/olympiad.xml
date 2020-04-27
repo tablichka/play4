@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<instances>
+
+	<instance id="147" name="Olympiad Stadium" type="147" class="OlympiadInstance" premiumReuse="* * * * *" reuseReset="* * * * *" dispel="false">
+		<party min="2" max="6"/>
+		<level min="76" max="85"/>
+		<timeLimit hour="6"/>
+		<coolTime min="15"/>
+		<noUserTimeout hour="6"/>
+		<startLoc x="-88079" y="-252826" z="-3024"/>
+		<spawnlist>
+			<door id="17100001"/>
+			<door id="17100002"/>
+		</spawnlist>
+	</instance>
+
+	<instance id="148" name="Olympiad Trident Arena" type="148" class="OlympiadInstance" premiumReuse="* * * * *" reuseReset="* * * * *" dispel="false">
+		<party min="2" max="6"/>
+		<level min="76" max="85"/>
+		<timeLimit hour="6"/>
+		<coolTime min="15"/>
+		<noUserTimeout hour="6"/>
+		<startLoc x="-75468" y="-252444" z="-7744"/>
+		<spawnlist>
+			<door id="17100101"/>
+			<door id="17100102"/>
+		</spawnlist>
+	</instance>
+
+	<instance id="149" name="Olympiad Hall of Heroes" type="149" class="OlympiadInstance" premiumReuse="* * * * *" reuseReset="* * * * *" dispel="false">
+		<party min="2" max="6"/>
+		<level min="76" max="85"/>
+		<timeLimit hour="6"/>
+		<coolTime min="15"/>
+		<noUserTimeout hour="6"/>
+		<startLoc x="-88092" y="-239358" z="-8480"/>
+		<spawnlist>
+			<door id="17100201"/>
+			<door id="17100202"/>
+		</spawnlist>
+	</instance>
+
+	<instance id="150" name="Olympiad Orbis Arena" type="150" class="OlympiadInstance" premiumReuse="* * * * *" reuseReset="* * * * *" dispel="false">
+		<party min="2" max="6"/>
+		<level min="76" max="85"/>
+		<timeLimit hour="6"/>
+		<coolTime min="15"/>
+		<noUserTimeout hour="6"/>
+		<startLoc x="-75443" y="-238800" z="-7888"/>
+		<spawnlist>
+			<door id="17100301"/>
+			<door id="17100302"/>
+		</spawnlist>
+	</instance>
+
+</instances>
+

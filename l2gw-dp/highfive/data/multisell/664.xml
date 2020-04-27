@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- aden_merc_captain -->
+<list>
+	<config showall="true" notax="true" keepenchanted="false" />
+	<item>
+		<production id="14605" count="1"/>	<!-- Red Talisman - Territory Guard -->
+		<ingredient id="57" count="10000"/>	<!-- Adena -->
+		<ingredient id="13761" count="7"/>	<!-- Aden Territory Badge -->
+	</item>
+	<item>
+		<production id="13617" count="1"/>	<!-- Transformation Scroll: Aden Human Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13618" count="1"/>	<!-- Transformation Scroll: Aden Elf Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13619" count="1"/>	<!-- Transformation Scroll: Aden Dark Elf Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13620" count="1"/>	<!-- Transformation Scroll: Aden Orc Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13621" count="1"/>	<!-- Transformation Scroll: Aden Dwarf Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13622" count="1"/>	<!-- Transformation Scroll: Aden Kamael Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13681" count="1"/>	<!-- Aden Disguise Scroll -->
+		<ingredient id="57" count="70000"/>	<!-- Adena -->
+	</item>
+</list>

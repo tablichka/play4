@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 0996_prv_collector -->
+<list>
+	<config showall="true" notax="true" keepenchanted="false"/>
+	<item>
+		<production id="1374" count="1"/>	<!-- Greater Haste Potion -->
+		<ingredient id="6392" count="4"/>	<!-- Event - Medal -->
+	</item>
+	<item>
+		<production id="1375" count="1"/>	<!-- Greater Swift Attack Potion -->
+		<ingredient id="6392" count="9"/>	<!-- Event - Medal -->
+	</item>
+	<item>
+		<production id="6036" count="1"/>	<!-- Greater Magic Haste Potion -->
+		<ingredient id="6392" count="9"/>	<!-- Event - Medal -->
+	</item>
+	<item>
+		<production id="1540" count="1"/>	<!-- Quick Healing Potion -->
+		<ingredient id="6392" count="16"/>	<!-- Event - Medal -->
+	</item>
+	<item>
+		<production id="1538" count="1"/>	<!-- Blessed Scroll of Escape -->
+		<ingredient id="6392" count="275"/>	<!-- Event - Medal -->
+	</item>
+	<item>
+		<production id="3936" count="1"/>	<!-- Blessed Scroll of Resurrection -->
+		<ingredient id="6392" count="734"/>	<!-- Event - Medal -->
+	</item>
+	<item>
+		<production id="955" count="1"/>	<!-- Scroll: Enchant Weapon (D-Grade) -->
+		<ingredient id="6392" count="91"/>	<!-- Event - Medal -->
+	</item>
+	<item>
+		<production id="951" count="1"/>	<!-- Scroll: Enchant Weapon (C-Grade) -->
+		<ingredient id="6392" count="201"/>	<!-- Event - Medal -->
+	</item>
+	<item>
+		<production id="947" count="1"/>	<!-- Scroll: Enchant Weapon (B-Grade) -->
+		<ingredient id="6392" count="916"/>	<!-- Event - Medal -->
+	</item>
+	<item>
+		<production id="729" count="1"/>	<!-- Scroll: Enchant Weapon (A-Grade) -->
+		<ingredient id="6392" count="3300"/>	<!-- Event - Medal -->
+	</item>
+	<item>
+		<production id="6394" count="1"/>	<!-- Red Party Mask -->
+		<ingredient id="6392" count="916"/>	<!-- Event - Medal -->
+	</item>
+</list>

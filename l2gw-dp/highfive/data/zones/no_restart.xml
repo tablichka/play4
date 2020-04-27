@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+
+	<zone id="338" name="[anakimNlilith]">
+		<attr name="type" val="no_restart"/>
+		<attr name="type" val="no_summon"/>
+		<attr name="restartTime" val="1800"/>
+		<!-- loc_id: 40338 -->
+		<shape type="Poly" zMin="-5604" zMax="-5104">
+			<point x="183938" y="-13697"/>
+			<point x="186190" y="-13692"/>
+			<point x="186176" y="-8513"/>
+			<point x="183920" y="-8513"/>
+		</shape>
+	</zone>
+
+	<zone id="339" name="[fire_no_restart1]">
+		<attr name="type" val="no_restart"/>
+		<attr name="type" val="no_summon"/>
+		<attr name="restartTime" val="600"/>
+		<!-- loc_id: 40339 -->
+		<shape type="Poly" zMin="-3326" zMax="-1326">
+			<point x="183373" y="-117179"/>
+			<point x="184098" y="-116718"/>
+			<point x="184137" y="-115290"/>
+			<point x="183970" y="-115002"/>
+			<point x="183673" y="-114982"/>
+			<point x="182400" y="-115593"/>
+			<point x="182338" y="-116737"/>
+		</shape>
+		<!-- loc_id: 40340 -->
+		<shape type="Poly" zMin="-2208" zMax="792">
+			<point x="183432" y="-117590"/>
+			<point x="196325" y="-119107"/>
+			<point x="196377" y="-103657"/>
+			<point x="187161" y="-103538"/>
+		</shape>
+	</zone>
+
+	<zone id="352" name="[ssq_no_res_1720_01]">
+		<attr name="type" val="no_restart"/>
+		<!-- loc_id: 40352 -->
+		<shape type="Rect" zMin="-5200" zMax="-5000">
+			<point x="-79735" y="85612"/>
+			<point x="-78957" y="85690"/>
+		</shape>
+	</zone>
+
+	<zone id="353" name="[ssq_no_res_1720_02]">
+		<attr name="type" val="no_restart"/>
+		<!-- loc_id: 40353 -->
+		<shape type="Rect" zMin="-5200" zMax="-5000">
+			<point x="-80952" y="85605"/>
+			<point x="-80139" y="85696"/>
+		</shape>
+	</zone>
+
+	<zone id="355" name="[ssq_no_res_1720_04]">
+		<attr name="type" val="no_restart"/>
+		<!-- loc_id: 40355 -->
+		<shape type="Rect" zMin="-5196" zMax="-4996">
+			<point x="-81199" y="87363"/>
+			<point x="-80386" y="87449"/>
+		</shape>
+	</zone>
+
+	<zone id="356" name="[ssq_no_res_1720_05]">
+		<attr name="type" val="no_restart"/>
+		<!-- loc_id: 40356 -->
+		<shape type="Rect" zMin="-5196" zMax="-4996">
+			<point x="-79990" y="87361"/>
+			<point x="-79212" y="87460"/>
+		</shape>
+	</zone>
+
+
+	<zone id="358" name="[ssq_no_res_1720_07]">
+		<attr name="type" val="no_restart"/>
+		<!-- loc_id: 40358 -->
+		<shape type="Rect" zMin="-5200" zMax="-5000">
+			<point x="-78197" y="87968"/>
+			<point x="-77365" y="88060"/>
+		</shape>
+	</zone>
+
+	<zone id="359" name="[ssq_no_res_1720_08]">
+		<attr name="type" val="no_restart"/>
+		<!-- loc_id: 40359 -->
+		<shape type="Poly" zMin="-5200" zMax="-5000">
+			<point x="-77025" y="87959"/>
+			<point x="-76209" y="87969"/>
+			<point x="-76202" y="88069"/>
+			<point x="-77026" y="88061"/>
+		</shape>
+	</zone>
+
+	<zone id="361" name="[ssq_no_res_1720_10]">
+		<attr name="type" val="no_restart"/>
+		<!-- loc_id: 40361 -->
+		<shape type="Rect" zMin="-5204" zMax="-5004">
+			<point x="-76797" y="86142"/>
+			<point x="-75945" y="86304"/>
+		</shape>
+	</zone>
+
+	<zone id="362" name="[ssq_no_res_1720_11]">
+		<attr name="type" val="no_restart"/>
+		<!-- loc_id: 40362 -->
+		<shape type="Rect" zMin="-5196" zMax="-4996">
+			<point x="-77944" y="86148"/>
+			<point x="-77194" y="86291"/>
+		</shape>
+	</zone>
+
+	<zone id="364" name="[ssq_no_res_1720_13]">
+		<attr name="type" val="no_restart"/>
+		<!-- loc_id: 40364 -->
+		<shape type="Rect" zMin="-5200" zMax="-5000">
+			<point x="-75870" y="87311"/>
+			<point x="-75738" y="88130"/>
+		</shape>
+	</zone>
+
+	<zone id="365" name="[ssq_no_res_1720_14]">
+		<attr name="type" val="no_restart"/>
+		<!-- loc_id: 40365 -->
+		<shape type="Rect" zMin="-5200" zMax="-5000">
+			<point x="-75865" y="86137"/>
+			<point x="-75740" y="86958"/>
+		</shape>
+	</zone>
+
+	<zone id="367" name="[ssq_no_res_1721_01]">
+		<attr name="type" val="no_restart"/>
+		<!-- loc_id: 40367 -->
+		<shape type="Poly" zMin="-4948" zMax="-4748">
+			<point x="-78713" y="110409"/>
+			<point x="-77923" y="110423"/>
+			<point x="-77923" y="110522"/>
+			<point x="-78708" y="110515"/>
+		</shape>
+	</zone>
+
+	<zone id="368" name="[ssq_no_res_1721_02]">
+		<attr name="type" val="no_restart"/>
+		<!-- loc_id: 40368 -->
+		<shape type="Rect" zMin="-4940" zMax="-4740">
+			<point x="-79923" y="110427"/>
+			<point x="-79105" y="110524"/>
+		</shape>
+	</zone>
+
+	<zone id="370" name="[ssq_no_res_1721_04]">
+		<attr name="type" val="no_restart"/>
+		<!-- loc_id: 40370 -->
+		<shape type="Poly" zMin="-4940" zMax="-4740">
+			<point x="-75761" y="111051"/>
+			<point x="-74921" y="111033"/>
+			<point x="-74921" y="111142"/>
+			<point x="-75757" y="111151"/>
+		</shape>
+	</zone>
+
+	<zone id="371" name="[ssq_no_res_1721_05]">
+		<attr name="type" val="no_restart"/>
+		<!-- loc_id: 40371 -->
+		<shape type="Rect" zMin="-4940" zMax="-4740">
+			<point x="-76920" y="111022"/>
+			<point x="-76085" y="111105"/>
+		</shape>
+	</zone>
+
+
+	<zone id="373" name="[ssq_no_res_1721_07]">
+		<attr name="type" val="no_restart"/>
+		<!-- loc_id: 40373 -->
+		<shape type="Rect" zMin="-4944" zMax="-4744">
+			<point x="-77176" y="112795"/>
+			<point x="-76344" y="112897"/>
+		</shape>
+	</zone>
+
+	<zone id="374" name="[ssq_no_res_1721_08]">
+		<attr name="type" val="no_restart"/>
+		<!-- loc_id: 40374 -->
+		<shape type="Rect" zMin="-4940" zMax="-4740">
+			<point x="-76002" y="112810"/>
+			<point x="-75176" y="112904"/>
+		</shape>
+	</zone>
+
+	<zone id="376" name="[ssq_no_res_1721_10]">
+		<attr name="type" val="no_restart"/>
+		<!-- loc_id: 40376 -->
+		<shape type="Poly" zMin="-4940" zMax="-4740">
+			<point x="-80178" y="112233"/>
+			<point x="-79362" y="112250"/>
+			<point x="-79356" y="112294"/>
+			<point x="-80190" y="112301"/>
+		</shape>
+	</zone>
+
+	<zone id="377" name="[ssq_no_res_1721_11]">
+		<attr name="type" val="no_restart"/>
+		<!-- loc_id: 40377 -->
+		<shape type="Poly" zMin="-4940" zMax="-4740">
+			<point x="-78861" y="112220"/>
+			<point x="-78196" y="112201"/>
+			<point x="-78178" y="112294"/>
+			<point x="-78994" y="112294"/>
+		</shape>
+	</zone>
+
+	<zone id="379" name="[ssq_no_res_1721_13]">
+		<attr name="type" val="no_restart"/>
+		<!-- loc_id: 40379 -->
+		<shape type="Rect" zMin="-4940" zMax="-4740">
+			<point x="-74840" y="112152"/>
+			<point x="-74707" y="112966"/>
+		</shape>
+	</zone>
+
+	<zone id="380" name="[ssq_no_res_1721_14]">
+		<attr name="type" val="no_restart"/>
+		<!-- loc_id: 40380 -->
+		<shape type="Rect" zMin="-4948" zMax="-4748">
+			<point x="-74840" y="110962"/>
+			<point x="-74741" y="111793"/>
+		</shape>
+	</zone>
+
+</list>

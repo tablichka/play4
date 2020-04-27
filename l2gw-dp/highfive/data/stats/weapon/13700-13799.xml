@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="13770" name="Shadow Item - Shield of Yehan Miakesh">
+		<cond msgId="1518">
+			<and>
+				<player instance="115,116,119,120,121,122" />
+				<not>
+					<target classId="90,91,99,106" />
+				</not>
+			</and>
+		</cond>
+	</item>
+</list>

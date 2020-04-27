@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="12302" name="Common Item - Sealed Imperial Crusader Shield">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="12308" name="Common Item - Imperial Crusader Shield">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+</list>

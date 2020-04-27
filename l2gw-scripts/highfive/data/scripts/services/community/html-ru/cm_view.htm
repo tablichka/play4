@@ -1,0 +1,100 @@
+<html><body><center><br><br> <br1><br1><table border=0 cellspacing=0 cellpadding=0><tr><td FIXWIDTH=15>&nbsp;</td><td width=745 height=30 align=left><a action="bypass -h _bbshome"> HOME </a>&nbsp;&gt; <a action="bypass -h _cmlist_1_0_1_0_">Col Market</a></td></tr></table>
+
+
+<table border=0 cellspacing=0 cellpadding=0 bgcolor=A7A19A>
+<tr><td height=10></td></tr>
+<tr>
+<td WIDTH=80 align=right valign=top>Trader:</td>
+<td width=10></td>
+<td WIDTH=415 valign=top><?name?></td>
+<td width=10></td>
+<td width=90 valign=top> Date:</td>
+<td WIDTH=150 valign=top><?pos_date?></td>
+</tr>
+
+<tr><td height=10></td></tr>
+<tr>
+<td fixwidth=80 align=right>&$1126;:</td>
+<td width=10></td>
+<td><font color=LEVEL><?price?></font> Coin of Luck.</td>
+<td></td>
+<td>Remove Time:</td>
+<td><?del_date?></td>
+</tr>
+<tr><td height=10></td></tr>
+</table>
+<br>
+<table border=0 cellspacing=0 cellpadding=0 width=755 bgcolor=A7A19A>
+<tr><td WIDTH=5></td><td height=10 WIDTH=750></td></tr>
+<tr><td></td>
+<td height=20>
+Items:
+</td>
+</tr>
+<tr><td></td><td height=10></td></tr>
+</table>
+
+<!--TEMPLET1
+<br>
+<table border=0 cellspacing=0 cellpadding=2 width=755>
+<tr>
+<td FIXWIDTH=10></td>
+<td FIXWIDTH=20 align=center valign=top><img width=32 height=32 src="<?icon?>"></td>
+<td FIXWIDTH=645 valign=top><?cm_title?><br1>
+<font color="AAAAAA"><?cm_descr?></font></td>
+<td FIXWIDTH=70 align=right valign=top></td>
+<td FIXWIDTH=10></td>
+</tr>
+</table>
+<table border=0 cellspacing=0 cellpadding=0>
+<tr><td width=755><img src="l2ui.squaregray" width="750" height="1"></td></tr>
+</table>
+TEMPLET-->
+<?ITEM_LIST?>
+<img src="L2UI.SquareBlank" width="755" height="2">
+<br>
+
+<table border=0 cellspacing=0 cellpadding=0>
+<tr><td width=755 height=20></td></tr>
+</table>
+
+<br>
+<table border=0 cellspacing=0 cellpadding=2 width=755>
+<tr>
+<td fixwidth=10></td>
+<td width=50>
+<button value="&$422;" action="bypass <?cm_list_bp?>" back="l2ui_ct1.button.button_df_small_down" width=70 height=25 fore="l2ui_ct1.button.button_df_small">
+</td>
+<td width=560 align=right> 
+<table border=0 cellspacing=0 cellpadding=0 width=560>
+<tr>
+<!--TEMPLET2
+<td width=80 align=right>
+<button value="&$1125;" action="bypass <?cm_buy_bp?>" back="l2ui_ct1.button.button_df_small_down" width=70 height=25 fore="l2ui_ct1.button.button_df_small">
+</td>
+TEMPLET-->
+<!--TEMPLET3
+<td width=80 align=right>
+<button value="&$1479;" action="bypass <?cm_remove_bp?>" back="l2ui_ct1.button.button_df_small_down" width=70 height=25 fore="l2ui_ct1.button.button_df_small">
+</td>
+TEMPLET-->
+<!--TEMPLET4
+<td width=80 align=right>
+<button value="Return to owner" action="bypass <?cm_gm_return?>" back="l2ui_ct1.button.button_df_small_down" width=120 height=25 fore="l2ui_ct1.button.button_df_small">&nbsp;
+</td>
+<td width=80 align=right>
+<button value="Remove from market" action="bypass <?cm_gm_remove?>" back="l2ui_ct1.button.button_df_small_down" width=130 height=25 fore="l2ui_ct1.button.button_df_small">&nbsp;
+</td>
+TEMPLET-->
+
+<?button?>
+
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<br> <br>
+</center>
+</body>
+</html>

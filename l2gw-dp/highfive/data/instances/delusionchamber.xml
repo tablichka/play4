@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<instances>
+
+	<instance id="127" name="Delusion Chamber (Eastern Seal)" max="20" type="127" class="DelusionChamberInstance" dispel="false">
+		<party min="2" max="9"/>
+		<level min="80" max="86"/>
+		<timeLimit min="40"/>
+		<noUserTimeout min="20"/>
+		<startLoc x="-122368" y="-218972" z="-6720"/>
+		<spawnlist>
+			<spawn event="dc_127_dev" delay="0"/>
+		</spawnlist>
+	</instance>
+
+	<instance id="128" name="Delusion Chamber (Western Seal)" max="20" type="128" class="DelusionChamberInstance" dispel="false">
+		<party min="2" max="9"/>
+		<level min="80" max="86"/>
+		<timeLimit min="40"/>
+		<noUserTimeout min="20"/>
+		<startLoc x="-108960" y="-218892" z="-6720"/>
+		<spawnlist>
+			<spawn event="dc_128_dev" delay="0"/>
+		</spawnlist>
+	</instance>
+
+	<instance id="129" name="Delusion Chamber (Southern Seal)" max="20" type="129" class="DelusionChamberInstance" dispel="false">
+		<party min="2" max="9"/>
+		<level min="80" max="86"/>
+		<timeLimit min="40"/>
+		<noUserTimeout min="20"/>
+		<startLoc x="-122368" y="-207820" z="-6720"/>
+		<spawnlist>
+			<spawn event="dc_129_dev" delay="0"/>
+		</spawnlist>
+	</instance>
+
+	<instance id="130" name="Delusion Chamber (Northern Seal)" max="20" type="130" class="DelusionChamberInstance" dispel="false">
+		<party min="2" max="9"/>
+		<level min="80" max="86"/>
+		<timeLimit min="40"/>
+		<noUserTimeout min="20"/>
+		<startLoc x="-108976" y="-207772" z="-6720"/>
+		<spawnlist>
+			<spawn event="dc_130_dev" delay="0"/>
+		</spawnlist>
+	</instance>
+
+	<instance id="131" name="Delusion Chamber (Great Seal)" max="20" type="131" class="DelusionChamberInstance" dispel="false" reuseReset="30 6 * * *">
+		<party min="2" max="9"/>
+		<level min="80" max="86"/>
+		<timeLimit min="60"/>
+		<noUserTimeout min="0"/>
+		<startLoc x="-122368" y="-153388" z="-6688"/>
+		<spawnlist>
+			<spawn event="dc_131_dev" delay="0"/>
+		</spawnlist>
+	</instance>
+
+	<instance id="132" name="Delusion Chamber (Tower of Seal)" max="20" type="132" class="DelusionChamberInstance" dispel="false" reuseReset="30 6 * * *">
+		<party min="2" max="9"/>
+		<level min="80" max="86"/>
+		<timeLimit min="60"/>
+		<noUserTimeout min="0"/>
+		<startLoc x="-108976" y="-153372" z="-6688"/>
+		<spawnlist>
+			<spawn event="dc_132_dev" delay="0"/>
+		</spawnlist>
+	</instance>
+
+</instances>

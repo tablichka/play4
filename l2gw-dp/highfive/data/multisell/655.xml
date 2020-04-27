@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- aden_feud_product -->
+<list>
+	<config showall="true" notax="true" keepenchanted="false" />
+	<item>
+		<production id="13735" count="1"/>	<!-- Blessed Scroll of Escape: Aden -->
+		<ingredient id="57" count="250000"/>	<!-- Adena -->
+		<ingredient id="13761" count="40"/>	<!-- Aden Territory Badge -->
+	</item>
+	<item>
+		<production id="13717" count="1"/>	<!-- Aden Supply Box - Belt -->
+		<ingredient id="57" count="40000"/>	<!-- Adena -->
+		<ingredient id="13761" count="7"/>	<!-- Aden Territory Badge -->
+	</item>
+	<item>
+		<production id="13708" count="1"/>	<!-- Aden Supply Box - Magic Pouch -->
+		<ingredient id="57" count="20000"/>	<!-- Adena -->
+		<ingredient id="13761" count="4"/>	<!-- Aden Territory Badge -->
+	</item>
+	<item>
+		<production id="13699" count="1"/>	<!-- Aden Supply Box - Magic Pin -->
+		<ingredient id="57" count="40000"/>	<!-- Adena -->
+		<ingredient id="13761" count="8"/>	<!-- Aden Territory Badge -->
+	</item>
+	<item>
+		<production id="14553" count="1"/>	<!-- Aden Supply Box - Belt -->
+		<ingredient id="57" count="400000"/>	<!-- Adena -->
+		<ingredient id="13761" count="70"/>	<!-- Aden Territory Badge -->
+	</item>
+	<item>
+		<production id="14544" count="1"/>	<!-- Aden Supply Box - Magic Pouch -->
+		<ingredient id="57" count="80000"/>	<!-- Adena -->
+		<ingredient id="13761" count="16"/>	<!-- Aden Territory Badge -->
+	</item>
+	<item>
+		<production id="14535" count="1"/>	<!-- Aden Supply Box - Magic Pin -->
+		<ingredient id="57" count="120000"/>	<!-- Adena -->
+		<ingredient id="13761" count="32"/>	<!-- Aden Territory Badge -->
+	</item>
+	<item>
+		<production id="14897" count="1"/>	<!-- Aden Supply Box - Magic Ornament -->
+		<ingredient id="57" count="80000"/>	<!-- Adena -->
+		<ingredient id="13761" count="16"/>	<!-- Aden Territory Badge -->
+	</item>
+	<item>
+		<production id="14888" count="1"/>	<!-- Aden Supply Box - Magic Rune Clip -->
+		<ingredient id="57" count="120000"/>	<!-- Adena -->
+		<ingredient id="13761" count="32"/>	<!-- Aden Territory Badge -->
+	</item>
+	<item>
+		<production id="13744" count="1"/>	<!-- Aden Earth Resistance Necklace -->
+		<ingredient id="57" count="3596400"/>	<!-- Adena -->
+		<ingredient id="13761" count="160"/>	<!-- Aden Territory Badge -->
+	</item>
+	<item>
+		<production id="14596" count="1"/>	<!-- Aden Holy Resistance Ring -->
+		<ingredient id="57" count="1798200"/>	<!-- Adena -->
+		<ingredient id="13761" count="80"/>	<!-- Aden Territory Badge -->
+	</item>
+	<item>
+		<production id="14668" count="1"/>	<!-- Aden Protection Earring -->
+		<ingredient id="57" count="2696400"/>	<!-- Adena -->
+		<ingredient id="13761" count="120"/>	<!-- Aden Territory Badge -->
+	</item>
+	<item>
+		<production id="15286" count="1"/>	<!-- Aden Earth Royal Guard Necklace -->
+		<ingredient id="57" count="3596400"/>	<!-- Adena -->
+		<ingredient id="13761" count="160"/>	<!-- Aden Territory Badge -->
+	</item>
+	<item>
+		<production id="15295" count="1"/>	<!-- Aden Holy Royal Guard Ring -->
+		<ingredient id="57" count="1798200"/>	<!-- Adena -->
+		<ingredient id="13761" count="80"/>	<!-- Aden Territory Badge -->
+	</item>
+	<item>
+		<production id="14805" count="1"/>	<!-- Aden Guard Earring -->
+		<ingredient id="57" count="2696400"/>	<!-- Adena -->
+		<ingredient id="13761" count="120"/>	<!-- Aden Territory Badge -->
+	</item>
+	<item>
+		<production id="14810" count="1"/>	<!-- Blue Talisman - Buff Cancel -->
+		<ingredient id="57" count="14500"/>	<!-- Adena -->
+		<ingredient id="13761" count="13"/>	<!-- Aden Territory Badge -->
+	</item>
+	<item>
+		<production id="14811" count="1"/>	<!-- Blue Talisman - Buff Steal -->
+		<ingredient id="57" count="15600"/>	<!-- Adena -->
+		<ingredient id="13761" count="14"/>	<!-- Aden Territory Badge -->
+	</item>
+	<item>
+		<production id="14815" count="1"/>	<!-- Territory Health Recovery Potion -->
+		<ingredient id="57" count="21000"/>	<!-- Adena -->
+		<ingredient id="13761" count="8"/>	<!-- Aden Territory Badge -->
+	</item>
+	<item>
+		<production id="14816" count="1"/>	<!-- Territory Mana Recovery Potion -->
+		<ingredient id="57" count="21000"/>	<!-- Adena -->
+		<ingredient id="13761" count="8"/>	<!-- Aden Territory Badge -->
+	</item>
+	<item>
+		<production id="14817" count="1"/>	<!-- Territory CP Recovery Potion -->
+		<ingredient id="57" count="21000"/>	<!-- Adena -->
+		<ingredient id="13761" count="8"/>	<!-- Aden Territory Badge -->
+	</item>
+	<item>
+		<production id="9625" count="1"/>	<!-- Giant's Codex - Oblivion -->
+		<ingredient id="57" count="1000000"/>	<!-- Adena -->
+		<ingredient id="13761" count="20"/>	<!-- Aden Territory Badge -->
+	</item>
+	<item>
+		<production id="9626" count="1"/>	<!-- Giant's Codex - Discipline -->
+		<ingredient id="57" count="1260000"/>	<!-- Adena -->
+		<ingredient id="13761" count="54"/>	<!-- Aden Territory Badge -->
+	</item>
+	<item>
+		<production id="9627" count="1"/>	<!-- Giant's Codex - Mastery -->
+		<ingredient id="57" count="1800000"/>	<!-- Adena -->
+		<ingredient id="13761" count="80"/>	<!-- Aden Territory Badge -->
+	</item>
+	<item>
+		<production id="14963" count="1"/>	<!-- Silver Skeleton Circlet -->
+		<ingredient id="57" count="2100000"/>	<!-- Adena -->
+		<ingredient id="13761" count="80"/>	<!-- Aden Territory Badge -->
+	</item>
+	<item>
+		<production id="13473" count="1"/>	<!-- Circlet of Aden Valor -->
+		<ingredient id="57" count="2100000"/>	<!-- Adena -->
+		<ingredient id="13761" count="80"/>	<!-- Aden Territory Badge -->
+	</item>
+	<item>
+		<production id="13486" count="1"/>	<!-- Circlet of Aden Unity -->
+		<ingredient id="57" count="2100000"/>	<!-- Adena -->
+		<ingredient id="13761" count="80"/>	<!-- Aden Territory Badge -->
+	</item>
+	<item>
+		<production id="14582" count="1"/>	<!-- Apella Combat Helmet -->
+		<ingredient id="57" count="801600"/>	<!-- Adena -->
+		<ingredient id="13761" count="107"/>	<!-- Aden Territory Badge -->
+	</item>
+	<item>
+		<production id="14585" count="1"/>	<!-- Apella Combat Boots -->
+		<ingredient id="57" count="534000"/>	<!-- Adena -->
+		<ingredient id="13761" count="71"/>	<!-- Aden Territory Badge -->
+	</item>
+	<item>
+		<production id="14590" count="1"/>	<!-- Apella Combat Silk Gloves -->
+		<ingredient id="57" count="534000"/>	<!-- Adena -->
+		<ingredient id="13761" count="71"/>	<!-- Aden Territory Badge -->
+	</item>
+	<item>
+		<production id="14568" count="1"/>	<!-- Bow of Cadmus Family -->
+		<ingredient id="57" count="21000000"/>	<!-- Adena -->
+		<ingredient id="13761" count="800"/>	<!-- Aden Territory Badge -->
+	</item>
+	<item>
+		<production id="14569" count="1"/>	<!-- Mace of Cadmus Family -->
+		<ingredient id="57" count="21000000"/>	<!-- Adena -->
+		<ingredient id="13761" count="800"/>	<!-- Aden Territory Badge -->
+	</item>
+</list>

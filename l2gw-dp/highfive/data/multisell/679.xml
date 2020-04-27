@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- giran_merc_captain1 -->
+<list>
+	<config showall="true" notax="true" keepenchanted="false" />
+	<item>
+		<production id="13593" count="1"/>	<!-- Transformation Scroll: Giran Human Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13594" count="1"/>	<!-- Transformation Scroll: Giran Elf Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13595" count="1"/>	<!-- Transformation Scroll: Giran Dark Elf Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13596" count="1"/>	<!-- Transformation Scroll: Giran Orc Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13597" count="1"/>	<!-- Transformation Scroll: Giran Dwarf Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13598" count="1"/>	<!-- Transformation Scroll: Giran Kamael Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13679" count="1"/>	<!-- Giran Disguise Scroll -->
+		<ingredient id="57" count="70000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14604" count="1"/>	<!-- Red Talisman - Territory Guardian -->
+		<ingredient id="57" count="11100"/>	<!-- Adena -->
+		<ingredient id="13759" count="8"/>	<!-- Giran Territory Badge -->
+	</item>
+	<item>
+		<production id="14814" count="1"/>	<!-- White Talisman -  All Resistance -->
+		<ingredient id="57" count="13300"/>	<!-- Adena -->
+		<ingredient id="13759" count="11"/>	<!-- Giran Territory Badge -->
+	</item>
+	<item>
+		<production id="13600" count="1"/>	<!-- Transformation Scroll: Giran Archer Mercenary -->
+		<ingredient id="57" count="27800"/>	<!-- Adena -->
+		<ingredient id="13759" count="5"/>	<!-- Giran Territory Badge -->
+	</item>
+	<item>
+		<production id="13601" count="1"/>	<!-- Transformation Scroll: Giran Wizard Mercenary -->
+		<ingredient id="57" count="27800"/>	<!-- Adena -->
+		<ingredient id="13759" count="5"/>	<!-- Giran Territory Badge -->
+	</item>
+	<item>
+		<production id="13602" count="1"/>	<!-- Transformation Scroll: Giran Kamael Captain Mercenary -->
+		<ingredient id="57" count="27800"/>	<!-- Adena -->
+		<ingredient id="13759" count="5"/>	<!-- Giran Territory Badge -->
+	</item>
+</list>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- godad_merc_captain1 -->
+<list>
+	<config showall="true" notax="true" keepenchanted="false" />
+	<item>
+		<production id="13641" count="1"/>	<!-- Transformation Scroll: Goddard Human Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13642" count="1"/>	<!-- Transformation Scroll: Goddard Elf Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13643" count="1"/>	<!-- Transformation Scroll: Goddard Dark Elf Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13644" count="1"/>	<!-- Transformation Scroll: Goddard Orc Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13645" count="1"/>	<!-- Transformation Scroll: Goddard Dwarf Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13646" count="1"/>	<!-- Transformation Scroll: Goddard Kamael Mercenary -->
+		<ingredient id="57" count="13200"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="13683" count="1"/>	<!-- Goddard Disguise Scroll -->
+		<ingredient id="57" count="70000"/>	<!-- Adena -->
+	</item>
+	<item>
+		<production id="14604" count="1"/>	<!-- Red Talisman - Territory Guardian -->
+		<ingredient id="57" count="11100"/>	<!-- Adena -->
+		<ingredient id="13763" count="8"/>	<!-- Goddard Territory Badge -->
+	</item>
+	<item>
+		<production id="14814" count="1"/>	<!-- White Talisman -  All Resistance -->
+		<ingredient id="57" count="13300"/>	<!-- Adena -->
+		<ingredient id="13763" count="11"/>	<!-- Goddard Territory Badge -->
+	</item>
+	<item>
+		<production id="13648" count="1"/>	<!-- Transformation Scroll: Goddard Archer Mercenary -->
+		<ingredient id="57" count="27800"/>	<!-- Adena -->
+		<ingredient id="13763" count="5"/>	<!-- Goddard Territory Badge -->
+	</item>
+	<item>
+		<production id="13649" count="1"/>	<!-- Transformation Scroll: Goddard Wizard Mercenary -->
+		<ingredient id="57" count="27800"/>	<!-- Adena -->
+		<ingredient id="13763" count="5"/>	<!-- Goddard Territory Badge -->
+	</item>
+	<item>
+		<production id="13650" count="1"/>	<!-- Transformation Scroll: Goddard Kamael Captain Mercenary -->
+		<ingredient id="57" count="27800"/>	<!-- Adena -->
+		<ingredient id="13763" count="5"/>	<!-- Goddard Territory Badge -->
+	</item>
+</list>

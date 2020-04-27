@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<skill id="21200" levels="1" name="Age of Three Kingdoms">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="itemConsumeId" val="20977"/>
+		<set name="itemConsumeCount" val="1"/>
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: For 20 minutes, increases Speed by 33, Atk. Spd. by 33%, M. Atk. by 65%, Casting Spd. by 30%, physical P. Atk., and P. Def. by 15%. Reuse Delay 2 hour. Consumes 1 Proof of Friendship upon skill use.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="3000"/>
+		<for/>
+	</skill>
+	<skill id="21201" levels="1" name="Haste">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="olympiadUse" val="true"/>
+		<set name="abnormal_time" val="1200"/>
+		<set name="abnormal_type" val="attack_time_down"/>
+		<set name="abnormalLevel" val="2"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="hitTime" val="3000"/>
+		<set name="reuseDelay" val="3600000"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<for>
+			<effect>
+				<mul order="0x30" stat="pAtkSpd" val="1.33"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21202" levels="1" name="Release Seal on Agathion - Ball Trapping Gnocian">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Removes the seal of Agathion.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="3000"/>
+		<for/>
+	</skill>
+	<skill id="21203" levels="1" name="Release Seal on Agathion - Ball Trapping Orodriel">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Removes the seal of Agathion.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="3000"/>
+		<for/>
+	</skill>
+	<skill id="21204" levels="1" name="Release Seal on Agathion - Penalty Kick">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Removes the seal of Agathion.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="3000"/>
+		<for/>
+	</skill>
+	<skill id="21205" levels="1" name="Release Seal on Agathion - Ball Trapping Gnocian">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Removes the seal of Agathion.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="3000"/>
+		<for/>
+	</skill>
+	<skill id="21206" levels="1" name="Release Seal on Agathion - Ball Trapping Orodriel">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Removes the seal of Agathion.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="3000"/>
+		<for/>
+	</skill>
+	<skill id="21207" levels="1" name="Release Seal on Agathion - Penalty Kick">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Removes the seal of Agathion.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="3000"/>
+		<for/>
+	</skill>
+	<skill id="21208" levels="1" name="Release Seal on Agathion - Ball Trapping Gnocian">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Removes the seal of Agathion.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="3000"/>
+		<for/>
+	</skill>
+	<skill id="21209" levels="1" name="Release Seal on Agathion - Ball Trapping Orodriel">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Removes the seal of Agathion.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="3000"/>
+		<for/>
+	</skill>
+	<skill id="21210" levels="1" name="Release Seal on Agathion - Penalty Kick">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Removes the seal of Agathion.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="3000"/>
+		<for/>
+	</skill>
+	<skill id="21211" levels="1" name="Blessing of Victory">
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Increases Speed by 2%.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="21212" levels="1" name="Release Seal on Agathion - Granny Tiger">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Removes the seal of Agathion.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="3000"/>
+		<for/>
+	</skill>
+	<skill id="21213" levels="1" name="Release Seal on Agathion - Flower Fairy Spirit">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Removes the seal of Agathion.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="3000"/>
+		<for/>
+	</skill>
+	<skill id="21214" levels="1" name="Release Seal on Agathion - Cheerleader Orodriel">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Removes the seal of Agathion.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="3000"/>
+		<for/>
+	</skill>
+	<skill id="21215" levels="1" name="Release Seal on Agathion - Cheerleader Lana">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Removes the seal of Agathion.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="3000"/>
+		<for/>
+	</skill>
+	<skill id="21216" levels="1" name="Release Seal on Agathion - Cheerleader Naonin">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Removes the seal of Agathion.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="3000"/>
+		<for/>
+	</skill>
+	<skill id="21217" levels="1" name="Release Seal on Agathion - Cheerleader Mortia">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Removes the seal of Agathion.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="3000"/>
+		<for/>
+	</skill>
+	<skill id="21218" levels="1" name="Release Seal on Agathion - Cheerleader Kaurin">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Removes the seal of Agathion.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="3000"/>
+		<for/>
+	</skill>
+	<skill id="21219" levels="1" name="Release Seal on Agathion - Cheerleader Meruril">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Removes the seal of Agathion.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="3000"/>
+		<for/>
+	</skill>
+	<skill id="21220" levels="1" name="Release Seal on Agathion - Handy">
+		<set name="hitCancelTime" val="0"/>
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Removes the seal of Agathion.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="3000"/>
+		<for/>
+	</skill>
+	<skill id="21221" levels="1" name="Blessed Resurrection">
+		<set name="isMagic" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Allows the use of Blessed Resurrection. Reuse delay is 12 hours.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="castRange" val="400"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="3000"/>
+		<for/>
+	</skill>
+	<skill id="21222" levels="1" name="Resist Elemental">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: For 1 hour, increases Resistance to Fire/Water/Wind/Earth by 20. Reuse delay is 4 hours.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="3000"/>
+		<for/>
+	</skill>
+	<skill id="21223" levels="1" name="Ultimate Defense">
+		<set name="buff_protect_level" val="1"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: For 30 seconds, increases one's own P. Def. by 3636, M. Def. by 2727, and resistance to buff canceling attacks by 80%, and becomes unable to move. Reuse delay is 1 hour.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="1000"/>
+		<for/>
+	</skill>
+	<skill id="21224" levels="1" name="Soul of an Adventurer of Immortality's Ability">
+		<set name="buff_protect_level" val="1"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: For 5 minutes, receives the soul's help to raise Max HP by 20%, Max MP by 20%, and Speed by 20%. Increases Resistance to de-buffs by 10%. Reuse delay is 1 hour.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="4000"/>
+		<for/>
+	</skill>
+	<skill id="21225" levels="1" name="Soul of a Strong Warrior's Ability">
+		<set name="buff_protect_level" val="1"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: For 5 minutes, increases Atk. Spd. by 20%, P. Atk. by 10%, and P. Def. by 20% with the soul's help. Bestows the ability to recover as HP 5% of the standard short-range physical damage inflicted on the enemy. Reuse delay is 1 hour.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="4000"/>
+		<for/>
+	</skill>
+	<skill id="21226" levels="1" name="Soul of a Wise Magician's Ability">
+		<set name="buff_protect_level" val="1"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: For 5 minutes, receives the soul's help to raise Casting Spd. by 20%, M. Atk. by 20%, and M. Def. by 20%. Decreases MP consumption for skill use by 5%. Reuse delay is 1 hour.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="4000"/>
+		<for/>
+	</skill>
+	<skill id="21227" levels="1" name="Ability of Prominent Adventure's Soul">
+		<set name="buff_protect_level" val="1"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: For 5 minutes, receives the soul's help to raise Max HP by 20%, Max MP by 20%, and Speed by 20%. Increases HP Recovery Bonus by 20% and MP Recovery Bonus by 20%. Reuse delay is 1 hour.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="4000"/>
+		<for/>
+	</skill>
+	<skill id="21228" levels="1" name="Soul of a Brave Warrior's Ability">
+		<set name="buff_protect_level" val="1"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: For 5 minutes, increases Atk. Spd. by 20%, P. Atk. by 10%, and P. Def. by 20% with the soul's help. Increases Critical Damage by 20% and critical rate by 20%. Reuse delay is 1 hour.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="4000"/>
+		<for/>
+	</skill>
+	<skill id="21229" levels="1" name="Blood Awakening">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<table name="#mpConsume1">
+			0
+		</table>
+		<table name="#mpConsume2">
+			0
+		</table>
+		<set name="mpConsume1" val="#mpConsume1"/>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Combines general attack damage absorption and Atk. Spd. increase for a more advanced blood awakening effect. For 1 hour, increases Atk. Spd. by 33% and bestows the ability to recover as HP 9% of the standard short-range physical damage inflicted on the enemy. Reuse delay is 4 hours.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="1500"/>
+		<for/>
+	</skill>
+	<skill id="21230" levels="1" name="Improved Magic">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<table name="#mpConsume1">
+			0
+		</table>
+		<table name="#mpConsume2">
+			0
+		</table>
+		<set name="mpConsume1" val="#mpConsume1"/>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Combines M. Atk. increase and M. Def. increase to have more advanced magic ability increase effect. For 1 hour, increases M. Atk. by 75% and M. Def. by 30%. Reuse delay is 4 hours.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="3000"/>
+		<for/>
+	</skill>
+	<skill id="21231" levels="1" name="Improved Critical Attack">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<table name="#mpConsume1">
+			0
+		</table>
+		<table name="#mpConsume2">
+			0
+		</table>
+		<set name="mpConsume1" val="#mpConsume1"/>
+		<set name="mpConsume2" val="#mpConsume2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Combines critical rate increase and Critical Damage increase to have more advanced critical increase effect. For 1 hour, increases critical rate by 30% and Critical Damage by 35%. Reuse delay is 4 hours.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="3000"/>
+		<for/>
+	</skill>
+	<skill id="21232" levels="1" name="Shiny Lit Platform">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Steps onto the shiny lit platform.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="21233" levels="1" name="Release Seal on Agathion - Singer and Dancer">
+		<set name="hitCancelTime" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Removes the seal of Agathion.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="3000"/>
+		<for/>
+	</skill>
+	<skill id="21234" levels="1" name="Release Seal on Agathion - Zaken Spirit Sword">
+		<set name="hitCancelTime" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Removes the seal of Agathion.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="3000"/>
+		<for/>
+	</skill>
+	<skill id="21235" levels="1" name="7th Anniversary T-shirt: Speed">
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Increases Speed by 7.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<add order="0x40" stat="runSpd" val="7"/>
+		</for>
+	</skill>
+	<skill id="21236" levels="1" name="7th Anniversary T-shirt: Blessed Escape Ability">
+		<!--
+		Generated from High Five part 4 client by rage
+		1: Allows the use of Blessed Escape every 20 hours.
+		-->
+		<set name="hitCancelTime" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="200"/>
+		<set name="magicLevel" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="reuseDelay" val="72000000"/>
+		<set name="staticReuse" val="true"/>
+		<cond msgId="113">
+			<and>
+				<CanEscape/>
+				<not>
+					<OpTerritory points="{{-115727;-251652;-3050;-2850};{-113365;-251655;-3050;-2850};{-113365;-248191;-3050;-2850};{-115727;-248194;-3050;-2850}};t_self};{op_not_territory;{{-116299;-251426;-3049;-2849};{-115745;-251426;-3049;-2849};{-115745;-250840;-3049;-2849};{-116296;-250840;-3049;-2849}};t_self};{op_not_territory;{{-113350;-251408;-3053;-2853};{-112797;-251407;-3053;-2853};{-112798;-250855;-3053;-2853};{-113353;-250857;-3053;-2853}};t_self};{op_not_territory;{{-85850;-45960;-11624;-11224};{-86761;-45935;-11624;-11224};{-87000;-46986;-11624;-11224};{-87535;-48793;-11624;-11224};{-87049;-49419;-11624;-11224};{-85458;-49051;-11624;-11224};{-84224;-49803;-11624;-11224};{-83446;-49477;-11624;-11224};{-83154;-47528;-11624;-11224};{-83863;-47202;-11624;-11224};{-84291;-47449;-11624;-11224};{-84711;-47094;-11624;-11224}};t_self};{op_not_territory;{{-84112;-50103;-11620;-11220};{-84830;-51342;-11620;-11220};{-86142;-51844;-11620;-11220};{-86553;-52634;-11620;-11220};{-85640;-53190;-11620;-11220};{-84380;-54211;-11620;-11220};{-83379;-54413;-11620;-11220};{-82972;-52054;-11620;-11220};{-81938;-51822;-11620;-11220};{-82193;-50685;-11620;-11220};{-82732;-50575;-11620;-11220};{-83454;-49986;-11620;-11220}};t_self};{op_not_territory;{{-79843;-49874;-11716;-11316};{-81401;-50399;-11716;-11316};{-81709;-51148;-11716;-11316};{-81639;-51704;-11716;-11316};{-80712;-52824;-11716;-11316};{-80414;-54463;-11716;-11316};{-79510;-54322;-11716;-11316};{-78717;-52952;-11716;-11316};{-77725;-52968;-11716;-11316};{-77416;-51996;-11716;-11316};{-78890;-51583;-11716;-11316};{-79378;-50568;-11716;-11316}};t_self};{op_not_territory;{{-79343;-47478;-11592;-11192};{-80117;-47109;-11592;-11192};{-80672;-47858;-11592;-11192};{-80382;-49156;-11592;-11192};{-79813;-49685;-11592;-11192};{-79130;-49730;-11592;-11192};{-77951;-49052;-11592;-11192};{-76485;-49456;-11592;-11192};{-76221;-48619;-11592;-11192};{-76710;-48032;-11592;-11192};{-76946;-46451;-11592;-11192};{-77668;-45794;-11592;-11192}};t_self};{op_not_territory;{{-82326;-43857;-11640;-11240};{-83361;-43681;-11640;-11240};{-83614;-44430;-11640;-11240};{-82884;-46072;-11640;-11240};{-83209;-47165;-11640;-11240};{-82621;-47718;-11640;-11240};{-81071;-47576;-11640;-11240};{-80636;-47169;-11640;-11240};{-80853;-46291;-11640;-11240};{-79968;-44123;-11640;-11240};{-80245;-43614;-11640;-11240};{-81544;-43878;-11640;-11240}}"/>
+				</not>
+			</and>
+		</cond>
+		<for>
+			<effect name="i_escape" type="town"/>
+		</for>
+	</skill>
+	<skill id="21237" levels="1" name="7th Anniversary T-shirt: Blessed Protection Ability">
+		<!--
+		Generated from High Five part 4 client by rage
+		1: Temporarily becomes invincible for 7 seconds. Can be used every 20 hours.
+		-->
+		<set name="hitCancelTime" val="0"/>
+		<set name="mpConsume1" val="0"/>
+		<set name="mpConsume2" val="0"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="magicLevel" val="1"/>
+		<set name="isMagic" val="1"/>
+		<set name="reuseDelay" val="72000000"/>
+		<set name="staticReuse" val="true"/>
+		<set name="abnormal_time" val="7"/>
+		<set name="abnormalLevel" val="1"/>
+		<set name="abnormal_type" val="barrier"/>
+		<set name="abnormal_ve" val="av2_invul"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="1000"/>
+		<for>
+			<effect>
+				<add order="0x10" stat="block_hp" val="1"/>
+				<add order="0x10" stat="block_mp" val="1"/>
+				<add order="0x10" stat="block_debuff" val="1"/>
+				<mul order="0x50" stat="cancelRcpt" val="0"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="21238" levels="1" name="Jet Bike">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="1"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Mounts a jet bike.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="21239" levels="1" name="Release Seal on Agathion - Kau">
+		<set name="hitCancelTime" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Removes the seal of Agathion.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="3000"/>
+		<for/>
+	</skill>
+	<skill id="21240" levels="1" name="Release Seal on Agathion - Tow">
+		<set name="hitCancelTime" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Removes the seal of Agathion.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="3000"/>
+		<for/>
+	</skill>
+	<skill id="21241" levels="1" name="Magic Glasses">
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Increases M. Def. by 70.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="21242" levels="1" name="Zaken's Call">
+		<set name="magicLevel" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="10000"/>
+		<set name="reuseDelay" val="1800000"/>
+		<set name="stat" val="true"/>
+		<set name="staticReuse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<cond msgId="113">
+			<CanEscape/>
+		</cond>
+		<for>
+			<effect name="i_teleport" loc="52201,218801,-3224"/>
+		</for>
+	</skill>
+	<skill id="21243" levels="1" name="Freya's Call">
+		<set name="magicLevel" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="10000"/>
+		<set name="reuseDelay" val="1800000"/>
+		<set name="stat" val="true"/>
+		<set name="staticReuse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<cond msgId="113">
+			<CanEscape/>
+		</cond>
+		<for>
+			<effect name="i_teleport" loc="102605,-124399,-2784"/>
+		</for>
+	</skill>
+	<skill id="21244" levels="1" name="Frintezza's Call">
+		<set name="magicLevel" val="1"/>
+		<set name="isMagic" val="2"/>
+		<set name="hitTime" val="10000"/>
+		<set name="reuseDelay" val="1800000"/>
+		<set name="stat" val="true"/>
+		<set name="staticReuse" val="true"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="nextAction" val="none"/>
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<cond msgId="113">
+			<CanEscape/>
+		</cond>
+		<for>
+			<effect name="i_teleport" loc="181380,-80878,-2728"/>
+		</for>
+	</skill>
+	<skill id="21245" levels="1" name="Release Seal on Agathion - Rudolph">
+		<set name="hitCancelTime" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Removes the seal of Agathion.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="3000"/>
+		<for/>
+	</skill>
+	<skill id="21246" levels="1" name="Rudolph's Energy">
+		<set name="hitCancelTime" val="0"/>
+		<set name="buff_protect_level" val="2"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: For 10 minute(s), energy is replenished when Exp. is acquired through hunting. Reuse time is 30 minutes.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="21247" levels="1" name="Gift from Santa Claus">
+		<set name="hitCancelTime" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Receives a gift from Santa Claus. It can be used only once a day, and the reuse time is reset every morning at 6:30 AM.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="21248" levels="1" name="Release Seal on Agathion - Zinenze">
+		<set name="hitCancelTime" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Removes the seal of Agathion.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="3000"/>
+		<for/>
+	</skill>
+	<skill id="21249" levels="1" name="Release Seal on Agathion - Enze">
+		<set name="hitCancelTime" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Removes the seal of Agathion.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="3000"/>
+		<for/>
+	</skill>
+	<skill id="21250" levels="1" name="Academy Circlet">
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Characters between levels 40 to 75, when worn this item decreases death EXP. Penalty by 50%.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="21251" levels="1" name="Shiny Party Hat - Greater Body">
+		<set name="hitCancelTime" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Increases Max HP by 35% for 20 minutes.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="1000"/>
+		<for/>
+	</skill>
+	<skill id="21252" levels="1" name="Hellblade">
+		<set name="magicLevel" val="84"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<trigger_skill_by_attack attacker="enemy_all;1;100" chance="2" minDmg="1" skill="23319-1"/>
+		</for>
+	</skill>
+	<skill id="21253" levels="1" name="Butcher Blades">
+		<set name="magicLevel" val="83"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<trigger_skill_by_attack attacker="enemy_all;1;100" chance="2" minDmg="1" skill="23320-1"/>
+		</for>
+	</skill>
+	<skill id="21254" levels="1" name="Claw of Destruction">
+		<set name="magicLevel" val="82"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<trigger_skill_by_attack attacker="enemy_all;1;100" chance="2" minDmg="1" skill="23321-1"/>
+		</for>
+	</skill>
+	<skill id="21255" levels="1" name="Blades of Delusion">
+		<set name="magicLevel" val="82"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<trigger_skill_by_attack attacker="enemy_all;1;100" chance="2" minDmg="1" skill="23322-1"/>
+		</for>
+	</skill>
+	<skill id="21256" levels="1" name="Blood Brother">
+		<set name="magicLevel" val="82"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<trigger_skill_by_attack attacker="enemy_all;1;100" chance="2" minDmg="1" skill="23323-1"/>
+		</for>
+	</skill>
+	<skill id="21257" levels="1" name="Mardil">
+		<set name="magicLevel" val="71"/>
+		<set name="target_type" val="self"/>
+		<set name="affect_scope" val="single"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for>
+			<trigger_skill_by_dmg attacker="enemy_all;1;100" chance="4" minDmg="1" skill="23324-1"/>
+		</for>
+	</skill>
+	<skill id="21258" levels="1" name="Rocking Horse Mount">
+		<set name="hitCancelTime" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Mounts a rocking horse.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="21259" levels="1" name="Release Seal on Agathion - Chorong">
+		<set name="hitCancelTime" val="0"/>
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Removes the Agathion's seal.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="3000"/>
+		<for/>
+	</skill>
+	<skill id="21260" levels="1" name="Notifier">
+		<set name="hitCancelTime" val="0"/>
+		<!--
+		Generated from High Five part 4 client by rage
+		1: You can use to learn the number of received gifts and the number of remaining gifts. The gift provision time is reset every morning at 6:30.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<for/>
+	</skill>
+	<skill id="21261" levels="1" name="Bad Bunny's Necklace">
+		<!--
+		Generated from High Five part 4 client by rage
+		1: Its effects are MP+250, HP+500, CP+1035, increased P. Atk., increased M. Atk., wild magic effect, and increased Critical attack power.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="21262" levels="1" name="Bad Bunny's Earring">
+		<!--
+		Generated from High Five part 4 client by rage
+		1: Its effects are HP+250, Vampiric Rage effect, increased accuracy, decreased re-use time for magic skills, and decreased MP consumption for magic skills. When two identical earrings are equipped, only one effect is applied.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="21263" levels="1" name="Bad Bunny's Ring">
+		<!--
+		Generated from High Five part 4 client by rage
+		1: Its effects are increased Atk. Spd., and increased Casting Spd. When two identical rings are equipped, only one effect is applied.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_PASSIVE"/>
+		<for/>
+	</skill>
+	<skill id="21264" levels="1" name="Summon Friend">
+		<!--
+		Generated from High Five part 4 client by rage
+		1: Summons your friend. The target to be summoned must be equipped with a Shining Couple Ring and be a party member.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="10000"/>
+		<for/>
+	</skill>
+	<skill id="21265" levels="1" name="Summon Friend">
+		<!-- 
+		Generated from High Five part 4 client by rage
+		1: Summons your friend. The target to be summoned must be equipped with a Mysterious Friend Summon Bracelet and be a party member.
+		-->
+		<set name="ride_state" val="ride_none;ride_strider;ride_wyvern;ride_wolf"/>
+		<set name="target_type" val="self"/>
+		<set name="operateType" val="OP_ACTIVE"/>
+		<set name="hitTime" val="10000"/>
+		<for/>
+	</skill>
+</list>

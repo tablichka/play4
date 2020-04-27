@@ -1,0 +1,229 @@
+﻿<html>
+<body><br><br>
+<table border=0 width=755><tr><td width=10></td><td width=600 align=left>
+<a action="bypass -h _bbsaccount">Мой аккаунт</a>
+</td></tr>
+</table>
+<center>
+<img src="L2UI.squareblank" width="1" height="10">
+<table border=0 cellspacing=0 cellpadding=0 width=755 bgcolor=A7A19A>
+<tr><td WIDTH=5></td><td height=10 WIDTH=750></td></tr>
+<tr><td></td>
+<td height=20>
+Основные настройки:
+</td>
+</tr>
+<tr><td></td><td height=10></td></tr>
+</table>
+<br>
+<img src="L2UI.squaregray" width="755" height="1">
+<br>
+<table border=0 cellspacing=0 cellpadding=2 width=755>
+<tr>
+<td fixwidth=120><font color=b1b1af>Статус:</font></td>
+<td fixwidth=18 align=center><?acc_icon?></td>
+<!--TEMPLET1
+<font color=b3966a>Стандарт</font>
+TEMPLET-->
+<!--TEMPLET2
+<font color=LEVEL>Премиум</font> (истекает <?premium_end?>)
+TEMPLET-->
+<!--TEMPLET5
+<img width=14 height=14 src="l2ui.bbs_boardmaster">
+TEMPLET-->
+<td fixwidth=120><?acc_status?></td>
+<td fixwidth=120><button value="Купить премиум" action="bypass -h _bbspremium" back="l2ui_ct1.button.button_df_small_down" width=140 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+</tr>
+
+<tr>
+<td fixwidth=120><font color=b1b1af>Рейты EXP/SP:</font></td>
+<td fixwidth=18></td>
+<td fixwidth=120><font color=b3966a>+%rates%%</font></td>
+<td fixwidth=120>&nbsp;</td>
+</tr>
+<tr>
+<td fixwidth=120><font color=b1b1af>Слоты инвентаря:</font></td>
+<td fixwidth=18></td>
+<td fixwidth=120><font color=b3966a>+%inv_slots%</font></td>
+<td fixwidth=120>&nbsp;</td>
+</tr>
+<tr>
+<td fixwidth=120><font color=b1b1af>Слоты склада:</font></td>
+<td fixwidth=18></td>
+<td fixwidth=120><font color=b3966a>+%wh_slots%</font></td>
+<td fixwidth=120>&nbsp;</td>
+</tr>
+<tr>
+<td fixwidth=120><font color=b1b1af>Слоты продажи:</font></td>
+<td fixwidth=18></td>
+<td fixwidth=120><font color=b3966a>+%tr_slots%</font></td>
+<td fixwidth=120>&nbsp;</td>
+</tr>
+<tr>
+<td fixwidth=120><font color=b1b1af>Ограничение веса:</font></td>
+<td fixwidth=18 align=center><img width=18 height=14 src="l2ui_ct1.Icon_DF_Common_Weight"></td>
+<td fixwidth=120><font color=b3966a>+%weight_limit%</font></td>
+<td fixwidth=120>&nbsp;</td>
+</tr>
+<tr>
+<td fixwidth=120><font color=b1b1af>Титул:</font></td>
+<td fixwidth=18></td>
+<td fixwidth=120>%title_color%</td>
+<td fixwidth=120><button value="Сменить цвет титла" action="bypass -h _bbscolor_1" back="l2ui_ct1.button.button_df_small_down" width=140 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+</tr>
+<tr>
+<td fixwidth=120><font color=b1b1af>Ник:</font></td>
+<td fixwidth=18></td>
+<td fixwidth=120>%nick_color%</td>
+<td fixwidth=120><button value="Сменить цвет имени" action="bypass -h _bbscolor_0" back="l2ui_ct1.button.button_df_small_down" width=140 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+</tr>
+<tr>
+<td fixwidth=120><font color=b1b1af>Пол:</font></td>
+<td fixwidth=18></td>
+<td fixwidth=120><font color=b3966a>%gender%</font></td>
+<td fixwidth=120><button value="Сменить пол" action="bypass -h _bbsswgenderhtm" back="l2ui_ct1.button.button_df_small_down" width=140 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+</tr>
+</table>
+<br>
+<table border=0 cellspacing=0 cellpadding=0 width=755 bgcolor=A7A19A>
+<tr><td WIDTH=5></td><td height=10 WIDTH=750></td></tr>
+<tr><td></td>
+<td height=20>
+Дополнительные настройки:
+</td>
+</tr>
+<tr><td></td><td height=10></td></tr>
+</table>
+<br>
+<img src="L2UI.squaregray" width="755" height="1">
+<br>
+<table border=0 cellspacing=0 cellpadding=2 width=755>
+<tr>
+<td fixwidth=120><font color=b1b1af>Автолут:</font></td>
+<td fixwidth=18></td>
+<td fixwidth=120><font color=b3966a><?auto_loot?></font></td>
+<td fixwidth=30><button value="Вкл" action="bypass -h _bbscfg_al_on" back="l2ui_ct1.button.button_df_small_down" width=40 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td fixwidth=30><button value="Выкл" action="bypass -h _bbscfg_al_of" back="l2ui_ct1.button.button_df_small_down" width=40 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td fixwidth=60></td>
+</tr>
+<tr>
+<td fixwidth=120><font color=b1b1af>Язык:</font></td>
+<td fixwidth=18></td>
+<td fixwidth=120><font color=b3966a><?lang?></font></td>
+<td fixwidth=30><button value="RU" action="bypass -h _bbscfg_lg_ru" back="l2ui_ct1.button.button_df_small_down" width=40 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td fixwidth=30><button value="EN" action="bypass -h _bbscfg_lg_en" back="l2ui_ct1.button.button_df_small_down" width=40 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td fixwidth=60></td>
+</tr>
+<tr>
+<td fixwidth=120><font color=b1b1af>Блокировка опыта:</font></td>
+<td fixwidth=18></td>
+<td fixwidth=120><font color=b3966a><?noe?></font></td>
+<td fixwidth=30><button value="Вкл" action="bypass -h _bbscfg_ne_on" back="l2ui_ct1.button.button_df_small_down" width=40 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td fixwidth=30><button value="Выкл" action="bypass -h _bbscfg_ne_of" back="l2ui_ct1.button.button_df_small_down" width=40 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td fixwidth=60></td>
+</tr>
+<tr>
+<td fixwidth=120><font color=b1b1af>Показывать путь:</font></td>
+<td fixwidth=18></td>
+<td fixwidth=120><font color=b3966a><?trace?></font></td>
+<td fixwidth=30><button value="Вкл" action="bypass -h _bbscfg_tr_on" back="l2ui_ct1.button.button_df_small_down" width=40 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td fixwidth=30><button value="Выкл" action="bypass -h _bbscfg_tr_of" back="l2ui_ct1.button.button_df_small_down" width=40 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td fixwidth=60></td>
+</tr>
+<tr>
+<td fixwidth=120><font color=b1b1af>Не показывать торговцев:</font></td>
+<td fixwidth=18></td>
+<td fixwidth=120><font color=b3966a><?notraders?></font></td>
+<td fixwidth=30><button value="Вкл" action="bypass -h _bbscfg_nt_on" back="l2ui_ct1.button.button_df_small_down" width=40 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td fixwidth=30><button value="Выкл" action="bypass -h _bbscfg_nt_of" back="l2ui_ct1.button.button_df_small_down" width=40 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td fixwidth=60></td>
+</tr>
+<tr>
+<td fixwidth=120><font color=b1b1af>Не показывать анимацию баффов:</font></td>
+<td fixwidth=18></td>
+<td fixwidth=120><font color=b3966a><?nobuff?></font></td>
+<td fixwidth=30><button value="Вкл" action="bypass -h _bbscfg_nb_on" back="l2ui_ct1.button.button_df_small_down" width=40 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td fixwidth=30><button value="Выкл" action="bypass -h _bbscfg_nb_of" back="l2ui_ct1.button.button_df_small_down" width=40 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td fixwidth=60></td>
+</tr>
+<tr>
+<td fixwidth=120><font color=b1b1af>Показывать дроп по shift+click:</font></td>
+<td fixwidth=18></td>
+<td fixwidth=120><font color=b3966a><?showdrop?></font></td>
+<td fixwidth=30><button value="Вкл" action="bypass -h _bbscfg_sd_on" back="l2ui_ct1.button.button_df_small_down" width=40 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td fixwidth=30><button value="Выкл" action="bypass -h _bbscfg_sd_of" back="l2ui_ct1.button.button_df_small_down" width=40 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td fixwidth=60></td>
+</tr>
+<!--TEMPLET7
+<tr>
+<td fixwidth=120><font color=b1b1af>Включить автолечение:</font></td>
+<td fixwidth=18></td>
+<td fixwidth=120><font color=b3966a><?autoheal?></font></td>
+<td fixwidth=30><button value="Вкл" action="bypass -h _bbscfg_ah_on" back="l2ui_ct1.button.button_df_small_down" width=40 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td fixwidth=30><button value="Выкл" action="bypass -h _bbscfg_ah_of" back="l2ui_ct1.button.button_df_small_down" width=40 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td fixwidth=60></td>
+</tr>
+TEMPLET-->
+<?autoheal_tpl?>
+<!--TEMPLET6
+<tr>
+<td fixwidth=120><font color=b1b1af>Показывать анонс PvP:</font></td>
+<td fixwidth=18></td>
+<td fixwidth=120><font color=b3966a><?pvpan?></font></td>
+<td fixwidth=30><button value="Вкл" action="bypass -h _bbscfg_pa_on" back="l2ui_ct1.button.button_df_small_down" width=40 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td fixwidth=30><button value="Выкл" action="bypass -h _bbscfg_pa_of" back="l2ui_ct1.button.button_df_small_down" width=40 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+<td fixwidth=60></td>
+</tr>
+TEMPLET-->
+<?pvp_an_tpl?>
+</table>
+<br>
+<table border=0 cellspacing=0 cellpadding=0 width=755 bgcolor=A7A19A>
+<tr><td WIDTH=5></td><td height=10 WIDTH=750></td></tr>
+<tr><td></td>
+<td height=20>
+Доступ к аккаунту (блокировка по IP):
+</td>
+</tr>
+<tr><td></td><td height=10></td></tr>
+</table>
+<br>
+<img src="L2UI.squaregray" width="755" height="1">
+<br>
+
+<table border=0 cellspacing=0 cellpadding=2 width=755>
+<tr>
+<td><font color=b1b1af>
+Внимание! Если Вы на 100% не уверены, что у вас постоянный статический IP-адрес, не добавляйте свой IP в список доступа к аккаунту!
+Это может заблокировать Вам доступ к вашему аккаунту навсегда! 
+</font></td>
+</tr>
+</table>
+<br>
+<img src="L2UI.squaregray" width="755" height="1">
+<br>
+<table border=0 cellspacing=0 cellpadding=2 width=755>
+<tr>
+<td fixwidth=120><font color=b1b1af>Текущий IP:</font></td>
+<td fixwidth=18></td>
+<td fixwidth=120><font color=b3966a><?curr_ip?></font></td>
+<td fixwidth=120><button value="Добавить IP" action="bypass -h _bbsaddip" back="l2ui_ct1.button.button_df_small_down" width=140 height=25 fore="l2ui_ct1.button.button_df_small"></td>
+</tr>
+<!--TEMPLET3
+<tr>
+<td fixwidth=120></font></td>
+<td fixwidth=18></td>
+<td fixwidth=120><font color=b3966a><?acl_ip?></font></td>
+<td fixwidth=120><button action="bypass -h _bbsdelip_<?acl_ip?>" back="L2UI_CT1.Button_DF_Delete_Down" width=15 height=15 fore="L2UI_CT1.Button_DF_Delete" ></td>
+</tr>
+TEMPLET-->
+<?acl_list?>
+</table>
+<br>
+<img src="L2UI.squaregray" width="755" height="2">
+<br><br>
+
+</center>
+</body>
+</html>
+

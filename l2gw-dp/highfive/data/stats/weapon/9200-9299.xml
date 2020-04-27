@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="9229" name="Soldat Estoc - Critical Anger">
+		<for>
+			<skill id="3025" level="1" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="9250" name="Chevalier Rapier - Critical Poison">
+		<for>
+			<skill id="3024" level="2" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="9254" name="Chevalier Rapier - Critical Drain">
+		<for>
+			<skill id="3022" level="2" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="9255" name="Chevalier Rapier - Critical Poison">
+		<for>
+			<skill id="3024" level="2" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="9258" name="Ballista - Miser">
+		<for>
+			<set val="4" order="0x08" stat="miser" />
+		</for>
+	</item>
+	<item id="9262" name="Ballista - Miser">
+		<for>
+			<set val="4" order="0x08" stat="miser" />
+		</for>
+	</item>
+	<item id="9282" name="Blinzlasher - Critical Drain">
+		<for>
+			<skill id="3022" level="3" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="9287" name="Immortal Edge - Critical Drain">
+		<for>
+			<skill id="3022" level="3" chance="100" action="crit" />
+		</for>
+	</item>
+	<item id="9291" name="Tathlum - Miser">
+		<for>
+			<set val="4" order="0x08" stat="miser" />
+		</for>
+	</item>
+</list>

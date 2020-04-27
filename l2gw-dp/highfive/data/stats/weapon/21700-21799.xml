@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="21780" name="Imperial Crusader Shield of Friendship">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+	<item id="21798" name="Dynasty Shield of Friendship">
+		<cond msgId="1518">
+			<not>
+				<player race="kamael" />
+			</not>
+		</cond>
+	</item>
+</list>

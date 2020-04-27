@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<item id='13769' name="immo_lifeseed_decoy">
+		<for/>
+	</item>
+	<item id='13798' name="Portion of a Soul">
+	<!-- The ruin left when the ghosts have run out of their energy while being flown in the Seed of Immortality. Seed of Immortality collection additional reward -->
+		<for/>
+	</item>
+
+	<item id='13799' name="Treasure Sack of the Ancient Giants">
+	<!-- Contains the treasure of the ancient Giants. Double-click to open it. -->
+		<for/>
+	</item>
+
+</list>

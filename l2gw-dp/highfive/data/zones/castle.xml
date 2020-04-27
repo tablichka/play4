@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+
+<!-- Gludio Castle zones -->
+
+	<zone id="1201" classType="Residence" name="Gludio">
+		<attr name="entityId" val="1"/>
+		<attr name="taxById" val="1"/>
+		<attr name="active" val="false" />
+		<attr name="type" val="siege"/>
+		<listener name="SiegeZonesListener"/>
+		<listener name="NoLandingL2ZoneListener" />
+		<!-- loc_id: 46501 -->
+		<restartPoints>
+			<point x="-16554" y="109382" z="-1799"/>
+			<point x="-16869" y="109375" z="-1799"/>
+			<point x="-16659" y="109261" z="-1799"/>
+			<point x="-16618" y="109485" z="-1799"/>
+		</restartPoints>
+		<!-- loc_id: 41201 -->
+		<shape type="Poly" zMin="-5000" zMax="4000">
+			<point x="-22615" y="104510"/>
+			<point x="-13290" y="104564"/>
+			<point x="-13313" y="116950"/>
+			<point x="-22638" y="116896"/>
+		</shape>
+	</zone>
+	<zone id="1011" classType="CastleTrap" name="Gludio Castle Danger Zone 1/1">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="1"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="moveBonus" val="-80"/>
+		<attr name="messageNo" val="686"/>
+		<shape type="Rect" zMin="-2600" zMax="-2200">
+			<point x="-18244" y="111171"/>
+			<point x="-17981" y="110986"/>
+		</shape>
+	</zone>
+	<zone id="1012" classType="CastleTrap" name="Gludio Castle Danger Zone 1/2">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="1"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="moveBonus" val="-80"/>
+		<attr name="messageNo" val="686"/>
+		<shape type="Rect" zMin="-2600" zMax="-2200">
+			<point x="-18244" y="110984"/>
+			<point x="-17981" y="110802"/>
+		</shape>
+	</zone>
+	<zone id="1021" classType="CastleTrap" name="Gludio Castle Danger Zone 2/1">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="1"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="moveBonus" val="-80"/>
+		<attr name="messageNo" val="686"/>
+		<shape type="Rect" zMin="-2610" zMax="-2210">
+			<point x="-19199" y="107389"/>
+			<point x="-19014" y="107136"/>
+		</shape>
+	</zone>
+	<zone id="1022" classType="CastleTrap" name="Gludio Castle Danger Zone 2/2">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="1"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="moveBonus" val="-80"/>
+		<attr name="messageNo" val="686"/>
+		<shape type="Rect" zMin="-2610" zMax="-2210">
+			<point x="-19012" y="107389"/>
+			<point x="-18828" y="107136"/>
+		</shape>
+	</zone>
+	<zone id="2101" classType="Residence" name="[gludio_castle_001]">
+		<attr name="type" val="siege_residence"/>
+		<attr name="active" val="false" />
+		<attr name="entityId" val="1"/>
+		<!-- loc_id: 49001 -->
+		<restartPoints>
+			<point x="-16554" y="109382" z="-1799"/>
+			<point x="-16869" y="109375" z="-1799"/>
+			<point x="-16659" y="109261" z="-1799"/>
+			<point x="-16618" y="109485" z="-1799"/>
+		</restartPoints>
+		<!-- loc_id: 46001 -->
+		<shape type="Poly" zMin="-5000" zMax="4000">
+			<point x="-20060" y="106912"/>
+			<point x="-15820" y="106912"/>
+			<point x="-15816" y="113449"/>
+			<point x="-20061" y="113413"/>
+		</shape>
+	</zone>
+	<zone id="2120" classType="Residence" name="[gludio_castle_002]">
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="type" val="residence"/>
+		<attr name="active" val="false" />
+		<attr name="entityId" val="1"/>
+		<!-- loc_id: 49001 -->
+		<restartPoints>
+			<point x="-16869" y="109375" z="-1799"/>
+			<point x="-16659" y="109261" z="-1799"/>
+			<point x="-16618" y="109485" z="-1799"/>
+			<point x="-16554" y="109382" z="-1799"/>
+		</restartPoints>
+		<!-- loc_id: 47001 -->
+		<shape type="Poly" zMin="-4448" zMax="3551">
+			<point x="22638" y="116896"/>
+			<point x="-22615" y="104510"/>
+			<point x="-13313" y="116950"/>
+			<point x="-13290" y="104564"/>
+		</shape>
+	</zone>
+
+<!-- Dion Castle zones -->
+
+	<zone id="1202" classType="Residence" name="Dion">
+		<attr name="entityId" val="2"/>
+		<attr name="taxById" val="2"/>
+		<attr name="active" val="false" />
+		<attr name="type" val="siege"/>
+		<listener name="SiegeZonesListener"/>
+		<listener name="NoLandingL2ZoneListener" />
+		<!-- loc_id: 46502 -->
+		<restartPoints>
+			<point x="20514" y="160368" z="-1993"/>
+			<point x="20829" y="160375" z="-1993"/>
+			<point x="20619" y="160489" z="-1993"/>
+			<point x="20578" y="160265" z="-1993"/>
+		</restartPoints>
+		<!-- loc_id: 41202 -->
+		<shape type="Poly" zMin="0" zMax="0">
+			<point x="18438" y="152343"/>
+			<point x="25757" y="152343"/>
+			<point x="25757" y="164097"/>
+			<point x="18438" y="164097"/>
+		</shape>
+	</zone>
+	<zone id="2011" classType="CastleTrap" name="Dion Castle Danger Zone 1/1">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="2"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="moveBonus" val="-80"/>
+		<attr name="messageNo" val="686"/>
+		<shape type="Rect" zMin="-2830" zMax="-2630">
+			<point x="22205" y="158576"/>
+			<point x="21941" y="158761"/>
+		</shape>
+	</zone>
+	<zone id="2012" classType="CastleTrap" name="Dion Castle Danger Zone 1/2">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="2"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="moveBonus" val="-80"/>
+		<attr name="messageNo" val="686"/>
+		<shape type="Rect" zMin="-2830" zMax="-2630">
+			<point x="22205" y="158763"/>
+			<point x="21941" y="158948"/>
+		</shape>
+	</zone>
+	<zone id="2021" classType="CastleTrap" name="Dion Castle Danger Zone 2/1">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="2"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="moveBonus" val="-80"/>
+		<attr name="messageNo" val="686"/>
+		<shape type="Rect" zMin="-2830" zMax="-2630">
+			<point x="22974" y="162360"/>
+			<point x="22792" y="162609"/>
+		</shape>
+	</zone>
+	<zone id="2022" classType="CastleTrap" name="Dion Castle Danger Zone 2/2">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="2"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="moveBonus" val="-80"/>
+		<attr name="messageNo" val="686"/>
+		<shape type="Rect" zMin="-2830" zMax="-2630">
+			<point x="23161" y="162360"/>
+			<point x="22976" y="162609"/>
+		</shape>
+	</zone>
+	<zone id="2102" classType="Residence" name="[dion_castle_001]">
+		<attr name="type" val="siege_residence"/>
+		<attr name="active" val="false" />
+		<attr name="entityId" val="2"/>
+		<!-- loc_id: 49002 -->
+		<restartPoints>
+			<point x="20514" y="160368" z="-1993"/>
+			<point x="20829" y="160375" z="-1993"/>
+			<point x="20619" y="160489" z="-1993"/>
+			<point x="20578" y="160265" z="-1993"/>
+		</restartPoints>
+		<!-- loc_id: 46002 -->
+		<shape type="Rect" zMin="-4646" zMax="4000">
+			<point x="24020" y="162838"/>
+			<point x="19776" y="156301"/>
+		</shape>
+	</zone>
+	<zone id="2122" classType="Residence" name="[dion_castle_002]">
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="active" val="false" />
+		<attr name="entityId" val="2"/>
+		<!-- loc_id: 49002 -->
+		<restartPoints>
+			<point x="20514" y="160368" z="-1993"/>
+			<point x="20578" y="160265" z="-1993"/>
+			<point x="20619" y="160489" z="-1993"/>
+			<point x="20829" y="160375" z="-1993"/>
+		</restartPoints>
+		<!-- loc_id: 47002 -->
+		<shape type="Poly" zMin="-4642" zMax="4000">
+			<point x="172509" y="165186"/>
+			<point x="172739" y="152800"/>
+			<point x="265759" y="165240"/>
+			<point x="265989" y="152854"/>	
+		</shape>
+	</zone>
+
+<!-- Giran Castle zones -->
+
+	<zone id="1203" classType="Residence" name="Giran">
+		<attr name="entityId" val="3"/>
+		<attr name="taxById" val="3"/>
+		<attr name="active" val="false" />
+		<attr name="type" val="siege"/>
+		<listener name="SiegeZonesListener"/>
+		<listener name="NoLandingL2ZoneListener" />
+		<!-- loc_id: 46503 -->
+		<restartPoints>
+			<point x="116540" y="146655" z="-1866"/>
+			<point x="116547" y="146340" z="-1866"/>
+			<point x="116661" y="146550" z="-1866"/>
+			<point x="116437" y="146591" z="-1866"/>
+		</restartPoints>
+		<!-- loc_id: 41203 -->
+		<shape type="Poly" zMin="0" zMax="0">
+			<point x="121412" y="140594"/>
+			<point x="121358" y="149919"/>
+			<point x="108972" y="149896"/>
+			<point x="109026" y="140571"/>
+		</shape>
+	</zone>
+	<zone id="3011" classType="CastleTrap" name="Giran Castle Danger Zone 1/1">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="3"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="moveBonus" val="-80"/>
+		<attr name="messageNo" val="686"/>
+		<shape type="Rect" zMin="-2700" zMax="-2300">
+			<point x="114747" y="144963"/>
+			<point x="114932" y="145228"/>
+		</shape>
+	</zone>
+	<zone id="3012" classType="CastleTrap" name="Giran Castle Danger Zone 1/2">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="3"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="moveBonus" val="-80"/>
+		<attr name="messageNo" val="686"/>
+		<shape type="Rect" zMin="-2700" zMax="-2300">
+			<point x="114934" y="144963"/>
+			<point x="115124" y="145228"/>
+		</shape>
+	</zone>
+	<zone id="3021" classType="CastleTrap" name="Giran Castle Danger Zone 2/1">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="3"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="moveBonus" val="-80"/>
+		<attr name="messageNo" val="686"/>
+		<shape type="Rect" zMin="-2700" zMax="-2300">
+			<point x="118533" y="144196"/>
+			<point x="118785" y="144379"/>
+		</shape>
+	</zone>
+	<zone id="3022" classType="CastleTrap" name="Giran Castle Danger Zone 2/2">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="3"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="moveBonus" val="-80"/>
+		<attr name="messageNo" val="686"/>
+		<shape type="Rect" zMin="-2700" zMax="-2300">
+			<point x="118533" y="144009"/>
+			<point x="118785" y="144194"/>
+		</shape>
+	</zone>
+	<zone id="2103" classType="Residence" name="[giran_castle_001]">
+		<attr name="type" val="siege_residence"/>
+		<attr name="active" val="false" />
+		<attr name="entityId" val="3"/>
+		<!-- loc_id: 49003 -->
+		<restartPoints>
+			<point x="116540" y="146655" z="-1866"/>
+			<point x="116547" y="146340" z="-1866"/>
+			<point x="116661" y="146550" z="-1866"/>
+			<point x="116437" y="146591" z="-1866"/>
+		</restartPoints>
+		<!-- loc_id: 46003 -->
+		<shape type="Poly" zMin="0" zMax="0">
+			<point x="119010" y="143149"/>
+			<point x="119010" y="147389"/>
+			<point x="112473" y="147393"/>
+			<point x="112509" y="143148"/>
+		</shape>
+	</zone>
+	<zone id="2124" classType="Residence" name="[giran_castle_002]">
+		<attr name="active" val="false" />
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="entityId" val="3"/>
+		<!-- loc_id: 49003 -->
+		<restartPoints>
+			<point x="116437" y="146591" z="-1866"/>
+			<point x="116540" y="146655" z="-1866"/>
+			<point x="116547" y="146340" z="-1866"/>
+		</restartPoints>
+		<!-- loc_id: 47003 -->
+		<shape type="Poly" zMin="-4515" zMax="19935">
+			<point x="108972" y="149896"/>
+			<point x="109026" y="140571"/>
+			<point x="121358" y="149919"/>
+			<point x="121412" y="140594"/>
+		</shape>
+	</zone>
+
+<!-- Oren Castle zones -->
+
+	<zone id="1204" classType="Residence" name="Oren">
+		<attr name="entityId" val="4"/>
+		<attr name="taxById" val="4"/>
+		<attr name="active" val="false" />
+		<attr name="type" val="siege"/>
+		<listener name="SiegeZonesListener"/>
+		<listener name="NoLandingL2ZoneListener" />
+		<!-- loc_id: 46504 -->
+		<restartPoints>
+			<point x="82616" y="38750" z="-1593"/>
+			<point x="82623" y="38435" z="-1593"/>
+			<point x="82737" y="38645" z="-1593"/>
+			<point x="82513" y="38686" z="-1593"/>
+		</restartPoints>
+		<!-- loc_id: 41204 -->
+		<shape type="Poly" zMin="0" zMax="0">
+			<point x="87488" y="32689"/>
+			<point x="87434" y="42014"/>
+			<point x="75048" y="41991"/>
+			<point x="75102" y="32666"/>
+		</shape>
+	</zone>
+	<zone id="4011" classType="CastleTrap" name="Oren Castle Danger Zone 1/1">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="4"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="moveBonus" val="-80"/>
+		<attr name="messageNo" val="686"/>
+		<shape type="Rect" zMin="-2420" zMax="-2020">
+			<point x="80824" y="37058"/>
+			<point x="81009" y="37323"/>
+		</shape>
+	</zone>
+	<zone id="4012" classType="CastleTrap" name="Oren Castle Danger Zone 1/2">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="4"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="moveBonus" val="-80"/>
+		<attr name="messageNo" val="686"/>
+		<shape type="Rect" zMin="-2420" zMax="-2020">
+			<point x="81011" y="37058"/>
+			<point x="81190" y="37323"/>
+		</shape>
+	</zone>
+	<zone id="4021" classType="CastleTrap" name="Oren Castle Danger Zone 2/1">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="4"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="moveBonus" val="-80"/>
+		<attr name="messageNo" val="686"/>
+		<shape type="Rect" zMin="-2420" zMax="-2020">
+			<point x="84607" y="36290"/>
+			<point x="84861" y="36477"/>
+		</shape>
+	</zone>
+	<zone id="4022" classType="CastleTrap" name="Oren Castle Danger Zone 2/2">
+	    <attr name="type" val="danger"/>
+	    <listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="4"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="moveBonus" val="-80"/>
+		<attr name="messageNo" val="686"/>
+		<shape type="Rect" zMin="-2420" zMax="-2020">
+			<point x="84607" y="36103"/>
+			<point x="84861" y="36288"/>
+		</shape>
+	</zone>
+	<zone id="2104" classType="Residence" name="[oren_castle_001]">
+		<attr name="type" val="siege_residence"/>
+		<attr name="active" val="false" />
+		<attr name="entityId" val="4"/>
+		<!-- loc_id: 49004 -->
+		<restartPoints>
+			<point x="82616" y="38750" z="-1593"/>
+			<point x="82623" y="38435" z="-1593"/>
+			<point x="82737" y="38645" z="-1593"/>
+			<point x="82513" y="38686" z="-1593"/>
+		</restartPoints>
+		<!-- loc_id: 46004 -->
+		<shape type="Poly" zMin="0" zMax="0">
+			<point x="85086" y="35244"/>
+			<point x="85086" y="39484"/>
+			<point x="78549" y="39488"/>
+			<point x="78585" y="35243"/>
+		</shape>
+	</zone>
+	<zone id="2126" classType="Residence" name="[oren_castle_002]">
+		<attr name="active" val="false" />
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="entityId" val="4"/>
+		<!-- loc_id: 49004 -->
+		<restartPoints>
+			<point x="82513" y="38686" z="-1593"/>
+			<point x="82616" y="38750" z="-1593"/>
+			<point x="82623" y="38435" z="-1593"/>
+			<point x="82737" y="38645" z="-1593"/>	
+		</restartPoints>
+		<!-- loc_id: 47004 -->
+		<shape type="Poly" zMin="-4242" zMax="19935">
+			<point x="75048" y="41991"/>
+			<point x="75102" y="32666"/>
+			<point x="87434" y="4201"/>
+			<point x="87488" y="32689"/>
+		</shape>
+	</zone>
+
+<!-- Aden Castle zones -->
+
+	<zone id="1205" classType="Residence" name="Aden">
+		<attr name="entityId" val="5"/>
+		<attr name="taxById" val="5"/>
+		<attr name="active" val="false" />
+		<attr name="type" val="siege"/>
+		<listener name="SiegeZonesListener"/>
+		<listener name="NoLandingL2ZoneListener" />
+		<!-- loc_id: 46505 -->
+		<restartPoints>
+			<point x="147700" y="4608" z="-2784"/>
+			<point x="147705" y="4865" z="-2784"/>
+			<point x="147200" y="4865" z="-2784"/>
+			<point x="147200" y="4350" z="-2784"/>
+			<point x="147705" y="4350" z="-2784"/>
+		</restartPoints>
+		<!-- loc_id: 41205 -->
+		<shape type="Poly" zMin="-3184" zMax="6816">
+			<point x="142431" y="362"/>
+			<point x="152319" y="344"/>
+			<point x="152282" y="15197"/>
+			<point x="142393" y="15215"/>
+		</shape>
+	</zone>
+	<zone id="5011" classType="CastleTrap" name="Aden Castle Danger Zone 1/1">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="5"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="moveBonus" val="-80"/>
+		<attr name="messageNo" val="686"/>
+		<shape type="Rect" zMin="-530" zMax="-130">
+			<point x="145544" y="7183"/>
+			<point x="145832" y="7058"/>
+		</shape>
+	</zone>
+	<zone id="5012" classType="CastleTrap" name="Aden Castle Danger Zone 1/2">
+	    <attr name="type" val="danger"/>
+	    <listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="5"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="moveBonus" val="-80"/>
+		<attr name="messageNo" val="686"/>
+		<shape type="Rect" zMin="-530" zMax="-130">
+			<point x="145544" y="7056"/>
+			<point x="145832" y="6931"/>
+		</shape>
+	</zone>
+	<zone id="5013" classType="CastleTrap" name="Aden Castle Danger Zone 1/3">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="5"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="moveBonus" val="-80"/>
+		<attr name="messageNo" val="686"/>
+		<shape type="Rect" zMin="-530" zMax="-130">
+			<point x="145544" y="6929"/>
+			<point x="145832" y="6804"/>
+		</shape>
+	</zone>
+	<zone id="5014" classType="CastleTrap" name="Aden Castle Danger Zone 1/4">
+	    <attr name="type" val="danger"/>
+	    <listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="5"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="moveBonus" val="-80"/>
+		<attr name="messageNo" val="686"/>
+		<shape type="Rect" zMin="-530" zMax="-130">
+			<point x="145544" y="6802"/>
+			<point x="145832" y="6673"/>
+		</shape>
+	</zone>
+	<zone id="5021" classType="CastleTrap" name="Aden Castle Danger Zone 2/1">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="5"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="moveBonus" val="-80"/>
+		<attr name="messageNo" val="686"/>
+		<shape type="Rect" zMin="-530" zMax="-130">
+			<point x="149070" y="7191"/>
+			<point x="149358" y="7066"/>
+		</shape>
+	</zone>
+	<zone id="5022" classType="CastleTrap" name="Aden Castle Danger Zone 2/2">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="5"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="moveBonus" val="-80"/>
+		<attr name="messageNo" val="686"/>
+		<shape type="Rect" zMin="-530" zMax="-130">
+			<point x="149070" y="7064"/>
+			<point x="149358" y="6939"/>
+		</shape>
+	</zone>
+	<zone id="5023" classType="CastleTrap" name="Aden Castle Danger Zone 2/3">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="5"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="moveBonus" val="-80"/>
+		<attr name="messageNo" val="686"/>
+		<shape type="Rect" zMin="-530" zMax="-130">
+			<point x="149070" y="6937"/>
+			<point x="149358" y="6812"/>
+		</shape>
+	</zone>
+	<zone id="5024" classType="CastleTrap" name="Aden Castle Danger Zone 2/4">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="5"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="moveBonus" val="-80"/>
+		<attr name="messageNo" val="686"/>
+		<shape type="Rect" zMin="-530" zMax="-130">
+			<point x="149070" y="6810"/>
+			<point x="149358" y="6693"/>
+		</shape>
+	</zone>
+	<zone id="2105" classType="Residence" name="[aden_castle_001]">
+		<attr name="type" val="siege_residence"/>
+		<attr name="active" val="false" />
+		<attr name="entityId" val="5"/>
+		<!-- loc_id: 49005 -->
+		<restartPoints>
+			<point x="147700" y="4608" z="-2784"/>
+			<point x="147705" y="4865" z="-2784"/>
+			<point x="147200" y="4865" z="-2784"/>
+			<point x="147200" y="4350" z="-2784"/>
+			<point x="147705" y="4350" z="-2784"/>
+		</restartPoints>
+		<!-- loc_id: 46005 -->
+		<shape type="Rect" zMin="-3328" zMax="6672">
+			<point x="144599" y="577"/>
+			<point x="150295" y="8521"/>
+		</shape>
+	</zone>
+	<zone id="2128" classType="Residence" name="[aden_castle_002]">
+		<attr name="active" val="false" />
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="entityId" val="5"/>
+		<!-- loc_id: 49005 -->
+		<restartPoints>
+			<point x="147200" y="4350" z="-2784"/>
+			<point x="147200" y="4865" z="-2784"/>
+			<point x="147700" y="4608" z="-2784"/>
+			<point x="147705" y="4350" z="-2784"/>
+			<point x="147705" y="4865" z="-2784"/>
+		</restartPoints>
+		<!-- loc_id: 47005 -->
+		<shape type="Poly" zMin="-3184" zMax="6816">
+			<point x="142393" y="15215"/>
+			<point x="142431" y="362"/>
+			<point x="152282" y="15197"/>
+			<point x="152319" y="344"/>
+		</shape>
+	</zone>
+
+<!-- Innadril Castle zones -->
+
+	<zone id="1206" classType="Residence" name="Innadril">
+		<attr name="entityId" val="6"/>
+		<attr name="taxById" val="6"/>
+		<attr name="active" val="false" />
+		<attr name="type" val="siege"/>
+		<listener name="SiegeZonesListener"/>
+		<listener name="NoLandingL2ZoneListener" />
+		<!-- loc_id: 46506 -->
+		<restartPoints>
+			<point x="114465" y="249147" z="-89"/>
+			<point x="114780" y="249154" z="-89"/>
+			<point x="114570" y="249268" z="-89"/>
+			<point x="114529" y="249044" z="-89"/>
+		</restartPoints>
+		<!-- loc_id: 41206 -->
+		<shape type="Poly" zMin="0" zMax="0">
+			<point x="111975" y="241396"/>
+			<point x="120720" y="241396"/>
+			<point x="120720" y="253425"/>
+			<point x="111975" y="253425"/>
+		</shape>
+	</zone>
+	<zone id="6011" classType="CastleTrap" name="Innadril Castle Danger Zone 1/1">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="6"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="moveBonus" val="-80"/>
+		<attr name="messageNo" val="686"/>
+		<shape type="Rect" zMin="-915" zMax="-515">
+			<point x="116159" y="247355"/>
+			<point x="115897" y="247540"/>
+		</shape>
+	</zone>
+	<zone id="6012" classType="CastleTrap" name="Innadril Castle Danger Zone 1/2">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="6"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="moveBonus" val="-80"/>
+		<attr name="messageNo" val="686"/>
+		<shape type="Rect" zMin="-915" zMax="-515">
+			<point x="116159" y="247542"/>
+			<point x="115897" y="247728"/>
+		</shape>
+	</zone>
+	<zone id="6021" classType="CastleTrap" name="Innadril Castle Danger Zone 2/1">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="6"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="moveBonus" val="-80"/>
+		<attr name="messageNo" val="686"/>
+		<shape type="Rect" zMin="-930" zMax="-530">
+			<point x="116924" y="251140"/>
+			<point x="116740" y="251392"/>
+		</shape>
+	</zone>
+	<zone id="6022" classType="CastleTrap" name="Innadril Castle Danger Zone 2/2">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="6"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="moveBonus" val="-80"/>
+		<attr name="messageNo" val="686"/>
+		<shape type="Rect" zMin="-930" zMax="-530">
+			<point x="117111" y="251140"/>
+			<point x="116926" y="251392"/>
+		</shape>
+	</zone>
+	<zone id="2106" classType="Residence" name="[innadrile_castle_001]">
+		<attr name="type" val="siege_residence"/>
+		<attr name="active" val="false" />
+		<attr name="entityId" val="6"/>
+		<!-- loc_id: 49006 -->
+		<restartPoints>
+			<point x="114465" y="249147" z="-89"/>
+			<point x="114780" y="249154" z="-89"/>
+			<point x="114570" y="249268" z="-89"/>
+			<point x="114529" y="249044" z="-89"/>
+		</restartPoints>
+		<!-- loc_id: 46006 -->
+		<shape type="Poly" zMin="-2742" zMax="4000">
+			<point x="113727" y="245080"/>
+			<point x="113731" y="251617"/>
+			<point x="117971" y="251617"/>
+			<point x="117972" y="245116"/>
+		</shape>
+	</zone>
+	<zone id="2130" classType="Residence" name="[innadrile_castle_002]">
+		<attr name="active" val="false" />
+		<attr name="entityId" val="6"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<!-- loc_id: 49006 -->
+		<restartPoints>
+			<point x="114465" y="249147" z="-89"/>
+			<point x="114529" y="249044" z="-89"/>
+			<point x="114570" y="249268" z="-89"/>
+			<point x="114780" y="249154" z="-89"/>
+		</restartPoints>
+		<!-- loc_id: 47006 -->
+		<shape type="Poly" zMin="-2738" zMax="4000">
+			<point x="111201" y="253965"/>
+			<point x="111224" y="241579"/>
+			<point x="120526" y="254019"/>
+			<point x="120549" y="241633"/>
+		</shape>
+	</zone>
+
+<!-- Goddard Castle zones -->
+
+	<zone id="1207" classType="Residence" name="Goddard">
+		<attr name="entityId" val="7"/>
+		<attr name="taxById" val="7"/>
+		<attr name="active" val="false" />
+		<attr name="type" val="siege"/>
+		<listener name="SiegeZonesListener"/>
+		<listener name="NoLandingL2ZoneListener" />
+		<!-- loc_id: 46507 -->
+		<restartPoints>
+			<point x="147408" y="-46448" z="-963"/>
+			<point x="147520" y="-46432" z="-963"/>
+			<point x="147408" y="-46896" z="-963"/>
+			<point x="147536" y="-46896" z="-963"/>
+		</restartPoints>
+		<!-- loc_id: 41207 -->
+		<shape type="Poly" zMin="0" zMax="0">
+			<point x="141457" y="-51510"/>
+			<point x="151949" y="-51510"/>
+			<point x="151949" y="-39107"/>
+			<point x="145899" y="-39107"/>
+			<point x="141457" y="-44407"/>
+		</shape>
+	</zone>
+	<zone id="7011" classType="CastleTrap" name="Goddard Castle Danger Zone 1">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="7"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="moveBonus" val="-80"/>
+		<attr name="messageNo" val="686"/>
+		<shape type="Poly" zMin="-1780" zMax="-1400">
+			<point x="149228" y="-47768"/>
+			<point x="149165" y="-47632"/>
+			<point x="149518" y="-47468"/>
+			<point x="149585" y="-47606"/>
+		</shape>
+	</zone>
+	<zone id="7021" classType="CastleTrap" name="Goddard Castle Danger Zone 2">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="7"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="moveBonus" val="-80"/>
+		<attr name="messageNo" val="686"/>
+		<shape type="Poly" zMin="-1780" zMax="-1400">
+			<point x="145765" y="-47634"/>
+			<point x="145702" y="-47772"/>
+			<point x="145343" y="-47605"/>
+			<point x="145409" y="-47465"/>
+		</shape>
+	</zone>
+	<zone id="2107" classType="Residence" name="[goddard_castle_001]">
+		<attr name="type" val="siege_residence"/>
+		<attr name="active" val="false" />
+		<attr name="entityId" val="7"/>
+		<!-- loc_id: 49007 -->
+		<restartPoints>
+			<point x="147408" y="-46448" z="-963"/>
+			<point x="147520" y="-46432" z="-963"/>
+			<point x="147408" y="-46896" z="-963"/>
+			<point x="147536" y="-46896" z="-963"/>
+		</restartPoints>
+		<!-- loc_id: 46007 -->
+		<shape type="Poly" zMin="-3670" zMax="1830">
+			<point x="144023" y="-51298"/>
+			<point x="150893" y="-51298"/>
+			<point x="150743" y="-48031"/>
+			<point x="150075" y="-46567"/>
+			<point x="149381" y="-45932"/>
+			<point x="149767" y="-45321"/>
+			<point x="149628" y="-45254"/>
+			<point x="149204" y="-45845"/>
+			<point x="147805" y="-45106"/>
+			<point x="147108" y="-45106"/>
+			<point x="145714" y="-45845"/>
+			<point x="145288" y="-45254"/>
+			<point x="145143" y="-45321"/>
+			<point x="145557" y="-45932"/>
+			<point x="144721" y="-46567"/>
+			<point x="144212" y="-48031"/>
+		</shape>
+	</zone>
+	<zone id="2132" classType="Residence" name="[goddard_castle_002]">
+		<attr name="active" val="false" />
+		<attr name="entityId" val="7"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<!-- loc_id: 49007 -->
+		<restartPoints>
+			<point x="147408" y="-46896" z="-963"/>
+			<point x="147408" y="-46448" z="-963"/>
+			<point x="147520" y="-46432" z="-963"/>
+			<point x="147536" y="-46896" z="-963"/>
+		</restartPoints>
+		<!-- loc_id: 47007 -->
+		<shape type="Poly" zMin="-3397" zMax="2103">
+			<point x="141457" y="-51510"/>
+			<point x="141457" y="-44407"/>
+			<point x="145899" y="-39107"/>
+			<point x="151949" y="-51510"/>
+			<point x="151949" y="-39107"/>
+		</shape>
+	</zone>
+
+<!-- Rune Castle zones -->
+
+	<zone id="1208" classType="Residence" name="Rune">
+		<attr name="entityId" val="8"/>
+		<attr name="taxById" val="8"/>
+		<attr name="active" val="false" />
+		<attr name="type" val="siege"/>
+		<listener name="SiegeZonesListener"/>
+		<listener name="NoLandingL2ZoneListener" />
+		<!-- loc_id: 46508 -->
+		<restartPoints>
+			<point x="10598" y="-49056" z="3838"/>
+			<point x="10600" y="-49273" z="3838"/>
+			<point x="10910" y="-49270" z="3838"/>
+			<point x="10893" y="-49075" z="3838"/>
+		</restartPoints>
+		<!-- loc_id: 41208 -->
+		<shape type="Poly" zMin="0" zMax="0">
+			<point x="7000" y="-55500"/>
+			<point x="27000" y="-55500"/>
+			<point x="27000" y="-41716"/>
+			<point x="7000" y="-41716"/>
+		</shape>
+	</zone>
+	<zone id="8011" classType="CastleTrap" name="Rune Castle Danger Zone 1">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="8"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="moveBonus" val="-80"/>
+		<attr name="messageNo" val="686"/>
+		<shape type="Poly" zMin="500" zMax="925">
+			<point x="13915" y="-50848"/>
+			<point x="14207" y="-50629"/>
+			<point x="14050" y="-50454"/>
+			<point x="13794" y="-50642"/>
+		</shape>
+	</zone>
+	<zone id="8021" classType="CastleTrap" name="Rune Castle Danger Zone 2">
+		<attr name="type" val="danger"/>
+		<listener name="PlayerChangedZonesListener"/>
+		<attr name="entityId" val="8"/>
+		<attr name="active" val="false"/>
+		<attr name="damageHp" val="200"/>
+		<attr name="moveBonus" val="-80"/>
+		<attr name="messageNo" val="686"/>
+		<shape type="Poly" zMin="500" zMax="925">
+			<point x="13921" y="-47456"/>
+			<point x="14208" y="-47671"/>
+			<point x="14054" y="-47852"/>
+			<point x="13794" y="-47667"/>
+		</shape>
+	</zone>
+	<zone id="2111" classType="Residence" name="[runed_castle_001]">
+		<attr name="type" val="siege_residence"/>
+		<attr name="active" val="false" />
+		<attr name="entityId" val="8"/>
+		<!-- loc_id: 49008 -->
+		<restartPoints>
+			<point x="10598" y="-49056" z="3838"/>
+			<point x="10600" y="-49273" z="3838"/>
+			<point x="10893" y="-49075" z="3838"/>
+			<point x="10910" y="-49270" z="3838"/>
+		</restartPoints>
+		<!-- loc_id: 46008 -->
+		<shape type="Poly" zMin="-2742" zMax="4000">
+			<point x="10320" y="-44160"/>
+			<point x="10416" y="-53888"/>
+			<point x="18016" y="-45984"/>
+			<point x="18803" y="-51438"/>
+		</shape>
+	</zone>
+	<zone id="2108" classType="Residence" name="[rune_castle_002]">
+		<attr name="active" val="false" />
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<attr name="entityId" val="8"/>
+		<!-- loc_id: 49008 -->
+		<restartPoints>
+			<point x="10598" y="-49056" z="3838"/>
+			<point x="10600" y="-49273" z="3838"/>
+			<point x="10910" y="-49270" z="3838"/>
+			<point x="10893" y="-49075" z="3838"/>
+		</restartPoints>
+		<!-- loc_id: 41308 TODO: Check coords -->
+		<shape type="Poly" zMin="0" zMax="0">
+			<point x="7000" y="-55500"/>
+			<point x="27000" y="-55500"/>
+			<point x="27000" y="-41716"/>
+			<point x="7000" y="-41716"/>
+		</shape>
+	</zone>
+
+<!-- Schuttgart Castle zones -->
+
+	<zone id="1209" classType="Residence" name="Schuttgart">
+		<attr name="entityId" val="9"/>
+		<attr name="taxById" val="9"/>
+		<attr name="active" val="false" />
+		<attr name="type" val="siege"/>
+		<listener name="SiegeZonesListener"/>
+		<listener name="NoLandingL2ZoneListener" />
+		<!-- loc_id: 46509 -->
+		<restartPoints>
+			<point x="77550" y="-150800" z="771"/>
+			<point x="77550" y="-150675" z="771"/>
+			<point x="77610" y="-150750" z="771"/>
+			<point x="77470" y="-150750" z="771"/>
+		</restartPoints>
+		<!-- loc_id: 41209 -->
+		<shape type="Poly" zMin="0" zMax="0">
+			<point x="72910" y="-156527"/>
+			<point x="83515" y="-155592"/>
+			<point x="82619" y="-151121"/>
+			<point x="82538" y="-149908"/>
+			<point x="79963" y="-147085"/>
+			<point x="78438" y="-145164"/>
+			<point x="73876" y="-146537"/>
+			<point x="73436" y="-148564"/>
+			<point x="72514" y="-152031"/>
+		</shape>
+	</zone>
+	<zone id="9011" classType="CastleTrap" name="Schuttgart Castle Danger Zone 1/1">
+			<attr name="type" val="danger"/>
+			<listener name="PlayerChangedZonesListener"/>
+			<attr name="entityId" val="9"/>
+			<attr name="active" val="false"/>
+			<attr name="damageHp" val="200"/>
+			<attr name="moveBonus" val="-80"/>
+			<attr name="messageNo" val="686"/>
+			<shape type="Poly" zMin="-80" zMax="300">
+					<point x="79322" y="-151833"/>
+					<point x="79255" y="-151696"/>
+					<point x="79608" y="-151530"/>
+					<point x="79675" y="-151670"/>
+			</shape>
+	</zone>
+	<zone id="9021" classType="CastleTrap" name="Schuttgart Castle Danger Zone 2/1">
+			 <attr name="type" val="danger"/>
+			 <listener name="PlayerChangedZonesListener"/>
+			 <attr name="entityId" val="9"/>
+			 <attr name="active" val="false"/>
+			 <attr name="damageHp" val="200"/>
+			 <attr name="moveBonus" val="-80"/>
+			 <attr name="messageNo" val="686"/>
+			 <shape type="Poly" zMin="-80" zMax="300">
+					 <point x="75856" y="-151694"/>
+					 <point x="75789" y="-151835"/>
+					 <point x="75442" y="-151673"/>
+					 <point x="75499" y="-151532"/>
+			 </shape>
+	 </zone>
+	<zone id="2112" classType="Residence" name="[schuttgart_castle_001]">
+		<attr name="type" val="siege_residence"/>
+		<attr name="active" val="false" />
+		<attr name="entityId" val="9"/>
+		<!-- loc_id: 49009 -->
+		<restartPoints>
+			<point x="77470" y="-150750" z="771"/>
+			<point x="77550" y="-150800" z="771"/>
+			<point x="77550" y="-150675" z="771"/>
+			<point x="77610" y="-150750" z="771"/>
+		</restartPoints>
+		<!-- loc_id: 46009 -->
+		<shape type="Poly" zMin="-2742" zMax="4000">
+			<point x="74108" y="-155352"/>
+			<point x="80978" y="-155352"/>
+			<point x="80828" y="-152085"/>
+			<point x="80160" y="-150621"/>
+			<point x="79466" y="-149986"/>
+			<point x="79852" y="-149375"/>
+			<point x="79713" y="-149308"/>
+			<point x="79289" y="-149899"/>
+			<point x="77890" y="-149160"/>
+			<point x="77193" y="-149160"/>
+			<point x="75799" y="-149899"/>
+			<point x="75373" y="-149308"/>
+			<point x="75228" y="-149375"/>
+			<point x="75642" y="-149986"/>
+			<point x="74806" y="-150621"/>
+			<point x="74297" y="-152085"/>
+		</shape>
+	</zone>
+	<zone id="2119" classType="Residence" name="[schuttgart_castle_002]">
+		<attr name="active" val="false" />
+		<attr name="entityId" val="9"/>
+		<attr name="type" val="residence"/>
+		<listener name="ClanBaseZoneListener"/>
+		<!-- loc_id: 49009 -->
+		<restartPoints>
+			<point x="77550" y="-150800" z="771"/>
+			<point x="77550" y="-150675" z="771"/>
+			<point x="77610" y="-150750" z="771"/>
+			<point x="77470" y="-150750" z="771"/>
+		</restartPoints>
+		<!-- loc_id: 41309 TODO: Check coords -->
+		<shape type="Poly" zMin="0" zMax="0">
+			<point x="73000" y="-156600"/>
+			<point x="80740" y="-156600"/>
+			<point x="80740" y="-147592"/>
+			<point x="73000" y="-147592"/>
+		</shape>
+	</zone>
+</list>

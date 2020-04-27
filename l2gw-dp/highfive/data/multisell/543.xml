@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- raid_bc_helmet -->
+<list>
+	<config showall="true" notax="true"/>
+	<item>
+		<production id="2413" count="1"/>	<!-- Chain Hood -->
+		<ingredient id="9814" count="20"/>	<!-- Memento Mori -->
+		<ingredient id="9816" count="22"/>	<!-- Earth Egg -->
+		<ingredient id="9818" count="4"/>	<!-- Angelic Essence -->
+	</item>
+	<item>
+		<production id="500" count="1"/>	<!-- Great Helmet -->
+		<ingredient id="9814" count="26"/>	<!-- Memento Mori -->
+		<ingredient id="9816" count="28"/>	<!-- Earth Egg -->
+		<ingredient id="9818" count="4"/>	<!-- Angelic Essence -->
+	</item>
+	<item>
+		<production id="517" count="1"/>	<!-- Composite Helmet -->
+		<ingredient id="9814" count="42"/>	<!-- Memento Mori -->
+		<ingredient id="9816" count="46"/>	<!-- Earth Egg -->
+		<ingredient id="9818" count="8"/>	<!-- Angelic Essence -->
+	</item>
+	<item>
+		<production id="1149" count="1"/>	<!-- Shining Circlet -->
+		<ingredient id="9814" count="42"/>	<!-- Memento Mori -->
+		<ingredient id="9816" count="46"/>	<!-- Earth Egg -->
+		<ingredient id="9818" count="8"/>	<!-- Angelic Essence -->
+	</item>
+	<item>
+		<production id="2414" count="1"/>	<!-- Full Plate Helmet -->
+		<ingredient id="9814" count="62"/>	<!-- Memento Mori -->
+		<ingredient id="9816" count="66"/>	<!-- Earth Egg -->
+		<ingredient id="9818" count="12"/>	<!-- Angelic Essence -->
+	</item>
+</list>

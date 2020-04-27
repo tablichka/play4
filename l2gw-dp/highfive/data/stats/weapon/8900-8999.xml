@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="8927" name="Shadow Item: Poleaxe">
+		<for>
+			<set val="66" order="0x08" stat="pAtkRange" />
+		</for>
+	</item>
+	<item id="8972" name="Shadow Item: Great Spear">
+		<for>
+			<set val="66" order="0x08" stat="pAtkRange" />
+		</for>
+	</item>
+	<item id="8990" name="Shadow Item: War Hammer">
+		<for>
+			<set val="66" order="0x08" stat="pAtkRange" />
+		</for>
+	</item>
+	<item id="8992" name="Shadow Item: Poleaxe">
+		<for>
+			<set val="66" order="0x08" stat="pAtkRange" />
+		</for>
+	</item>
+</list>

@@ -1,0 +1,1096 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Festival of Darkness -->
+<festivals>
+
+	<!-- Common settings for all kinds of Festival -->
+	<common>
+		<spawn maxNpcSpawn="40"/>
+		<party minMembers="5"/>
+		<reward CRP="200"/> <!-- When an affiliated clan member comes in first at the Festival of the Darkness, the amount of Clan Fame earned is 200 -->
+		<periods>
+			<period type="initial" length="120"/> <!-- Initial period, 2 min for buffs and prepare -->
+			<period type="battle" length="1080"/> <!-- Battle period, 18 min till the end -->
+		</periods>
+
+		<groups>
+			<group id="1"> <!-- Corner Warriors -->
+				<mob id="1"/>
+				<mob id="2"/>
+				<mob id="2"/>
+			</group>
+			<group id="2"> <!-- Corner Archers -->
+				<mob id="3"/>
+				<mob id="3"/>
+			</group>
+			<group id="3"> <!-- Marksman -->
+				<mob id="4"/>
+			</group>
+			<group id="4"> <!-- Follower -->
+				<mob id="5"/>
+			</group>
+			<group id="5"> <!-- Fighters -->
+				<mob id="6"/>
+				<mob id="7"/>
+				<mob id="8"/>
+				<mob id="9"/>
+				<mob id="10"/>
+			</group>
+			<group id="6"> <!-- Chests -->
+				<mob id="11"/>
+				<mob id="11"/>
+				<mob id="11"/>
+				<mob id="11"/>
+				<mob id="11"/>
+			</group>
+			<group id="7">
+				<mob id="12"/>
+			</group>
+		</groups>
+		<spawnSets>
+			<spawnSet id="1"> <!-- Normal spawnset -->
+				<spawn groupId="1" minSpawn="2" maxSpawn="4" coordSpawnId="1" initialDelay="0" initialRespawnDelay="60" finalRespawnDelay="15"/>
+				<spawn groupId="2" minSpawn="2" maxSpawn="4" coordSpawnId="2" randomCoord="false" initialDelay="0" initialRespawnDelay="60" finalRespawnDelay="15"/>
+				<spawn groupId="3" minSpawn="1" maxSpawn="2" coordSpawnId="3" initialDelay="15" initialRespawnDelay="60" finalRespawnDelay="15"/>
+				<spawn groupId="4" minSpawn="1" maxSpawn="4" coordSpawnId="4" initialDelay="180" initialRespawnDelay="60" finalRespawnDelay="15"/>
+				<spawn groupId="5" randomSpawn="true" minSpawn="1" maxSpawn="4" initialDelay="180" initialRespawnDelay="60" finalRespawnDelay="15" coordSpawnId="7"/>
+				<spawn groupId="6" minSpawn="4" maxSpawn="4" coordSpawnId="6" initialDelay="900" initialRespawnDelay="900" finalRespawnDelay="900"/>
+				<spawn groupId="7" minSpawn="1" maxSpawn="1" coordSpawnId="5" initialDelay="300" initialRespawnDelay="300" finalRespawnDelay="280"/>
+			</spawnSet>
+			<spawnSet id="2"> <!-- Increased level spawnset -->
+				<!-- spawn groupId="1" minSpawn="2" maxSpawn="4" coordSpawnId="1" initialDelay="0" initialRespawnDelay="30" finalRespawnDelay="1"/>
+				<spawn groupId="2" minSpawn="2" maxSpawn="4" coordSpawnId="2" randomCoord="false" initialDelay="0" initialRespawnDelay="30" finalRespawnDelay="1"/ -->
+				<spawn groupId="3" minSpawn="1" maxSpawn="2" coordSpawnId="3" initialDelay="15" initialRespawnDelay="60" finalRespawnDelay="15"/>
+				<spawn groupId="4" minSpawn="1" maxSpawn="4" coordSpawnId="4" initialDelay="180" initialRespawnDelay="60" finalRespawnDelay="15"/>
+				<spawn groupId="5" randomSpawn="true" minSpawn="1" maxSpawn="4" initialDelay="180" initialRespawnDelay="60" finalRespawnDelay="15" coordSpawnId="7"/>
+				<!-- spawn groupId="6" minSpawn="4" maxSpawn="4" coordSpawnId="6" initialDelay="900" initialRespawnDelay="900" finalRespawnDelay="900"/>
+				<spawn groupId="7" minSpawn="1" maxSpawn="1" coordSpawnId="5" initialDelay="300" initialRespawnDelay="300" finalRespawnDelay="280"/ -->
+			</spawnSet>
+		</spawnSets>
+	</common>
+
+	<!-- Festival of Darkness
+	Location: Oracle of Dusk
+	Level: 31 and below
+	-->
+
+	<festival id="1" cabal="dusk">
+		<startPoint x="-80211" y="88358" z="-5100"/>
+		<witch npcId="31146"/>
+		<guide npcId="31137"/>
+		<level limit="31"/>
+		<reward points="60"/> <!-- +60 Points in Seven Signs Competition -->
+		<fees>
+				<fee id="1" itemId="6360" itemCount="900"/> <!-- 900 Blue Seal Stones -->
+				<fee id="2" itemId="6361" itemCount="540"/> <!-- 540 Green Seal Stones -->
+				<fee id="3" itemId="6362" itemCount="270"/> <!-- 270 Red Seal Stones -->
+		</fees>
+		<monsters>
+			<mob id="1" giveItems="20" npcId="18009"/>			<!-- Elder, slow -->
+			<mob id="2" giveItems="10" npcId="18010"/>			<!--  Elder's minion, slow -->
+			<mob id="3" giveItems="3" npcId="18011"/> 		<!-- Archer -->
+			<mob id="4" giveItems="10" npcId="18016"/>			<!-- Marksman -->
+			<mob id="5" giveItems="10" npcId="18013"/>			<!-- Follower (mystic type) -->
+			<mob id="6" giveItems="10" npcId="18017"/>			<!-- Disciple (figher type, fast) -->
+			<mob id="7" giveItems="10" npcId="18018"/>			<!-- Saint (fighter type, fast) -->
+			<mob id="8" giveItems="10" npcId="18015"/>			<!-- Zealot (fighter type, fast) -->
+			<mob id="9" giveItems="10" npcId="18014"/>			<!-- Berserker (fighter type, fast) -->
+			<mob id="10" giveItems="10" npcId="18012"/>		<!-- Warrior (fighter type, fast) -->
+			<mob id="11" giveItems="40" npcId="18109"/>		<!-- Treasure of the Festival (chest) -->
+			<mob id="12" giveItems="50" npcId="18299"/>		<!-- Bomb -->
+		</monsters>
+		<spawnCoords>
+			<spawnCoord id="1"> <!-- Corners for Basic Warriors -->
+				<point x="-79543" y="89022" z="-5100"/>
+				<point x="-79543" y="87691" z="-5100"/>
+				<point x="-80872" y="87691" z="-5100"/>
+				<point x="-80872" y="89022" z="-5100"/>
+			</spawnCoord>
+			<spawnCoord id="2"> <!-- Corners for Archers -->
+					<point x="-79850" y="89036" z="-5100"/>
+					<point x="-79850" y="88867" z="-5100"/>
+					<point x="-79548" y="88000" z="-5100"/>
+					<point x="-79688" y="88000" z="-5100"/>
+					<point x="-80560" y="87700" z="-5100"/>
+					<point x="-80560" y="87840" z="-5100"/>
+					<point x="-80880" y="88715" z="-5100"/>
+					<point x="-80715" y="88715" z="-5100"/>
+			</spawnCoord>
+			<spawnCoord id="3"> <!-- Marksman -->
+				<point x="-80210" y="88830" z="-5100"/>
+				<point x="-79730" y="88360" z="-5100"/>
+				<point x="-80210" y="87885" z="-5100"/>
+				<point x="-80680" y="88360" z="-5100"/>
+			</spawnCoord>
+			<spawnCoord id="4"> <!-- Different points around the room (on the ground) -->
+				<point x="-79712" y="88597" z="-5100"/>
+				<point x="-80092" y="88864" z="-5100"/>
+				<point x="-80360" y="88873" z="-5100"/>
+				<point x="-80444" y="88794" z="-5100"/>
+				<point x="-80696" y="88513" z="-5100"/>
+				<point x="-80677" y="88105" z="-5100"/>
+				<point x="-80345" y="87876" z="-5100"/>
+				<point x="-79939" y="87896" z="-5100"/>
+				<point x="-79700" y="88253" z="-5100"/>
+			</spawnCoord>
+			<spawnCoord id="5"> <!-- Different points around the room (up) -->
+				<point x="-79848" y="88696" z="-5100"/>
+				<point x="-80546" y="88718" z="-5100"/>
+				<point x="-80566" y="88002" z="-5100"/>
+				<point x="-79854" y="87998" z="-5100"/>
+			</spawnCoord>
+			<spawnCoord id="6"> <!-- For Chests -->
+				<point x="-80045" y="88578" z="-5100"/>
+				<point x="-80041" y="88118" z="-5100"/>
+				<point x="-80373" y="88093" z="-5100"/>
+				<point x="-80360" y="88625" z="-5100"/>
+			</spawnCoord>
+			<spawnCoord id="7"> <!-- Different points around the room (on the ground + up) -->
+				<point x="-79712" y="88597" z="-5100"/>
+				<point x="-80092" y="88864" z="-5100"/>
+				<point x="-80360" y="88873" z="-5100"/>
+				<point x="-80444" y="88794" z="-5100"/>
+				<point x="-80696" y="88513" z="-5100"/>
+				<point x="-80677" y="88105" z="-5100"/>
+				<point x="-80345" y="87876" z="-5100"/>
+				<point x="-79939" y="87896" z="-5100"/>
+				<point x="-79700" y="88253" z="-5100"/>
+				<point x="-79848" y="88696" z="-5100"/>
+				<point x="-80546" y="88718" z="-5100"/>
+				<point x="-80566" y="88002" z="-5100"/>
+				<point x="-79854" y="87998" z="-5100"/>
+			</spawnCoord>
+		</spawnCoords>
+	</festival>
+
+	<!-- Festival of Darkness
+	Location: Oracle of Dusk
+	Level: 42 and below
+	-->
+
+	<festival id="2" cabal="dusk">
+		<startPoint x="-77198" y="88964" z="-5100"/>
+		<witch npcId="31145"/>
+		<guide npcId="31138"/>
+		<level limit="42"/>
+		<reward points="70"/> <!-- +70 Points in Seven Signs Competition -->
+		<fees>
+				<fee id="1" itemId="6360" itemCount="1500"/> <!-- 1500 Blue Seal Stones -->
+				<fee id="2" itemId="6361" itemCount="900"/> <!-- 900 Green Seal Stones -->
+				<fee id="3" itemId="6362" itemCount="450"/> <!-- 450 Red Seal Stones -->
+		</fees>
+		<monsters>
+			<mob id="1" giveItems="20" npcId="18019"/>			<!-- Elder, slow -->
+			<mob id="2" giveItems="10" npcId="18020"/>			<!--  Elder's minion, slow -->
+			<mob id="3" giveItems="3" npcId="18021"/> 		<!-- Archer -->
+			<mob id="4" giveItems="10" npcId="18026"/>			<!-- Marksman -->
+			<mob id="5" giveItems="10" npcId="18023"/>			<!-- Follower (mystic type) -->
+			<mob id="6" giveItems="10" npcId="18027"/>			<!-- Disciple (figher type, fast) -->
+			<mob id="7" giveItems="10" npcId="18028"/>			<!-- Saint (fighter type, fast) -->
+			<mob id="8" giveItems="10" npcId="18025"/>			<!-- Zealot (fighter type, fast) -->
+			<mob id="9" giveItems="10" npcId="18024"/>			<!-- Berserker (fighter type, fast) -->
+			<mob id="10" giveItems="10" npcId="18022"/>		<!-- Warrior (fighter type, fast) -->
+			<mob id="11" giveItems="40" npcId="18110"/>		<!-- Treasure of the Festival (chest) -->
+			<mob id="12" giveItems="50" npcId="18301"/>		<!-- Bomb -->
+		</monsters>
+		<spawnCoords>
+			<spawnCoord id="1"> <!-- Corners for Basic Warriors -->
+				<point x="-76538" y="89635" z="-5100"/>
+				<point x="-76528" y="88303" z="-5100"/>
+				<point x="-77861" y="88302" z="-5100"/>
+				<point x="-77867" y="89637" z="-5100"/>
+			</spawnCoord>
+			<spawnCoord id="2"> <!-- Corners for Archers -->
+					<point x="-77878" y="89331" z="-5100"/>
+					<point x="-77705" y="89324" z="-5100"/>
+					<point x="-76845" y="89639" z="-5100"/>
+					<point x="-76841" y="89477" z="-5100"/>
+					<point x="-76534" y="88609" z="-5100"/>
+					<point x="-76671" y="88608" z="-5100"/>
+					<point x="-77557" y="88307" z="-5100"/>
+					<point x="-77563" y="88460" z="-5100"/>
+			</spawnCoord>
+			<spawnCoord id="3"> <!-- Marksman -->
+				<point x="-77669" y="88966" z="-5100"/>
+				<point x="-77202" y="89433" z="-5100"/>
+				<point x="-76732" y="88967" z="-5100"/>
+				<point x="-77204" y="88500" z="-5100"/>
+			</spawnCoord>
+			<spawnCoord id="4"> <!-- Different points around the room (on the ground) -->
+				<point x="-77091" y="88461" z="-5100"/>
+				<point x="-76929" y="88513" z="-5100"/>
+				<point x="-76705" y="88845" z="-5100"/>
+				<point x="-76718" y="89233" z="-5100"/>
+				<point x="-77098" y="89471" z="-5100"/>
+				<point x="-77479" y="89425" z="-5100"/>
+				<point x="-77668" y="89077" z="-5100"/>
+				<point x="-77673" y="88706" z="-5100"/>
+				<point x="-77365" y="88494" z="-5100"/>
+			</spawnCoord>
+			<spawnCoord id="5"> <!-- Different points around the room (up) -->
+				<point x="-76857" y="88601" z="-5100"/>
+				<point x="-76840" y="89312" z="-5100"/>
+				<point x="-77560" y="89328" z="-5100"/>
+				<point x="-77560" y="88619" z="-5100"/>
+			</spawnCoord>
+			<spawnCoord id="6"> <!-- For Chests -->
+				<point x="-77366" y="88727" z="-5100"/>
+				<point x="-77078" y="88728" z="-5100"/>
+				<point x="-77066" y="89201" z="-5100"/>
+				<point x="-77343" y="89210" z="-5100"/>
+			</spawnCoord>
+			<spawnCoord id="7"> <!-- Different points around the room (on the ground + up) -->
+				<point x="-77091" y="88461" z="-5100"/>
+				<point x="-76929" y="88513" z="-5100"/>
+				<point x="-76705" y="88845" z="-5100"/>
+				<point x="-76718" y="89233" z="-5100"/>
+				<point x="-77098" y="89471" z="-5100"/>
+				<point x="-77479" y="89425" z="-5100"/>
+				<point x="-77668" y="89077" z="-5100"/>
+				<point x="-77673" y="88706" z="-5100"/>
+				<point x="-77365" y="88494" z="-5100"/>
+				<point x="-76857" y="88601" z="-5100"/>
+				<point x="-76840" y="89312" z="-5100"/>
+				<point x="-77560" y="89328" z="-5100"/>
+				<point x="-77560" y="88619" z="-5100"/>
+			</spawnCoord>
+
+		</spawnCoords>
+	</festival>
+
+	<!-- Festival of Darkness
+	Location: Oracle of Dusk
+	Level: 53 and below
+	-->
+
+	<festival id="3" cabal="dusk">
+		<startPoint x="-74857" y="87139" z="-5100"/>
+		<witch npcId="31144"/>
+		<guide npcId="31139"/>
+		<level limit="53"/>
+		<reward points="100"/> <!-- +100 Points in Seven Signs Competition -->
+		<fees>
+				<fee id="1" itemId="6360" itemCount="3000"/> <!-- 3000 Blue Seal Stones -->
+				<fee id="2" itemId="6361" itemCount="1800"/> <!-- 1800 Green Seal Stones -->
+				<fee id="3" itemId="6362" itemCount="900"/> <!-- 900 Red Seal Stones -->
+		</fees>
+		<monsters>
+			<mob id="1" giveItems="20" npcId="18029"/>			<!-- Elder, slow -->
+			<mob id="2" giveItems="10" npcId="18030"/>			<!--  Elder's minion, slow -->
+			<mob id="3" giveItems="3" npcId="18031"/> 		<!-- Archer -->
+			<mob id="4" giveItems="10" npcId="18036"/>			<!-- Marksman -->
+			<mob id="5" giveItems="10" npcId="18033"/>			<!-- Follower (mystic type) -->
+			<mob id="6" giveItems="10" npcId="18037"/>			<!-- Disciple (figher type, fast) -->
+			<mob id="7" giveItems="10" npcId="18038"/>			<!-- Saint (fighter type, fast) -->
+			<mob id="8" giveItems="10" npcId="18035"/>			<!-- Zealot (fighter type, fast) -->
+			<mob id="9" giveItems="10" npcId="18034"/>			<!-- Berserker (fighter type, fast) -->
+			<mob id="10" giveItems="10" npcId="18032"/>		<!-- Warrior (fighter type, fast) -->
+			<mob id="11" giveItems="40" npcId="18111"/>		<!-- Treasure of the Festival (chest) -->
+			<mob id="12" giveItems="50" npcId="18303"/>		<!-- Bomb -->
+		</monsters>
+		<spawnCoords>
+			<spawnCoord id="1"> <!-- Corners for Basic Warriors -->
+				<point x="-75522" y="87801" z="-5100"/>
+				<point x="-74189" y="87802" z="-5100"/>
+				<point x="-74194" y="86474" z="-5100"/>
+				<point x="-75520" y="86472" z="-5100"/>
+			</spawnCoord>
+			<spawnCoord id="2"> <!-- Corners for Archers -->
+					<point x="-75224" y="86475" z="-5100"/>
+					<point x="-75216" y="86619" z="-5100"/>
+					<point x="-75528" y="87509" z="-5100"/>
+					<point x="-75368" y="87500" z="-5100"/>
+					<point x="-74501" y="87798" z="-5100"/>
+					<point x="-74499" y="87650" z="-5100"/>
+					<point x="-74183" y="86779" z="-5100"/>
+					<point x="-74350" y="86778" z="-5100"/>
+			</spawnCoord>
+			<spawnCoord id="3"> <!-- Marksman -->
+				<point x="-74384" y="87134" z="-5100"/>
+				<point x="-74861" y="86664" z="-5100"/>
+				<point x="-75326" y="87136" z="-5100"/>
+				<point x="-74859" y="87607" z="-5100"/>
+			</spawnCoord>
+			<spawnCoord id="4"> <!-- Different points around the room (on the ground) -->
+				<point x="-74990" y="87653" z="-5100"/>
+				<point x="-75137" y="87606" z="-5100"/>
+				<point x="-75366" y="87256" z="-5100"/>
+				<point x="-75378" y="87001" z="-5100"/>
+				<point x="-75313" y="86867" z="-5100"/>
+				<point x="-74964" y="86626" z="-5100"/>
+				<point x="-74708" y="86634" z="-5100"/>
+				<point x="-74573" y="86681" z="-5100"/>
+				<point x="-74359" y="87024" z="-5100"/>
+				<point x="-74366" y="87254" z="-5100"/>
+				<point x="-74393" y="87417" z="-5100"/>
+				<point x="-74729" y="87633" z="-5100"/>
+			</spawnCoord>
+			<spawnCoord id="5"> <!-- Different points around the room (up) -->
+				<point x="-75208" y="87501" z="-5100"/>
+				<point x="-75230" y="86791" z="-5100"/>
+				<point x="-74499" y="86779" z="-5100"/>
+				<point x="-74495" y="87476" z="-5100"/>
+			</spawnCoord>
+			<spawnCoord id="6"> <!-- For Chests -->
+				<point x="-74605" y="87283" z="-5100"/>
+				<point x="-74626" y="86997" z="-5100"/>
+				<point x="-75118" y="86976" z="-5100"/>
+				<point x="-75111" y="87281" z="-5100"/>
+			</spawnCoord>
+			<spawnCoord id="7"> <!-- Different points around the room (on the ground + up) -->
+				<point x="-74990" y="87653" z="-5100"/>
+				<point x="-75137" y="87606" z="-5100"/>
+				<point x="-75366" y="87256" z="-5100"/>
+				<point x="-75378" y="87001" z="-5100"/>
+				<point x="-75313" y="86867" z="-5100"/>
+				<point x="-74964" y="86626" z="-5100"/>
+				<point x="-74708" y="86634" z="-5100"/>
+				<point x="-74573" y="86681" z="-5100"/>
+				<point x="-74359" y="87024" z="-5100"/>
+				<point x="-74366" y="87254" z="-5100"/>
+				<point x="-74393" y="87417" z="-5100"/>
+				<point x="-74729" y="87633" z="-5100"/>
+				<point x="-75208" y="87501" z="-5100"/>
+				<point x="-75230" y="86791" z="-5100"/>
+				<point x="-74499" y="86779" z="-5100"/>
+				<point x="-74495" y="87476" z="-5100"/>
+			</spawnCoord>
+		</spawnCoords>
+	</festival>
+
+	<!-- Festival of Darkness
+	Location: Oracle of Dusk
+	Level: 64 and below
+	-->
+	<festival id="4" cabal="dusk">
+		<startPoint x="-76940" y="85303" z="-5100"/>
+		<witch npcId="31143"/>
+		<guide npcId="31140"/>
+		<level limit="64"/>
+		<reward points="120"/> <!-- +120 Points in Seven Signs Competition -->
+		<fees>
+				<fee id="1" itemId="6360" itemCount="4500"/> <!-- 4500 Blue Seal Stones -->
+				<fee id="2" itemId="6361" itemCount="2700"/> <!-- 2700 Green Seal Stones -->
+				<fee id="3" itemId="6362" itemCount="1350"/> <!-- 1350 Red Seal Stones -->
+		</fees>
+		<monsters>
+			<mob id="1" giveItems="20" npcId="18039"/>			<!-- Elder, slow -->
+			<mob id="2" giveItems="10" npcId="18040"/>			<!--  Elder's minion, slow -->
+			<mob id="3" giveItems="3" npcId="18041"/> 		<!-- Archer -->
+			<mob id="4" giveItems="10" npcId="18046"/>			<!-- Marksman -->
+			<mob id="5" giveItems="10" npcId="18043"/>			<!-- Follower (mystic type) -->
+			<mob id="6" giveItems="10" npcId="18047"/>			<!-- Disciple (figher type, fast) -->
+			<mob id="7" giveItems="10" npcId="18048"/>			<!-- Saint (fighter type, fast) -->
+			<mob id="8" giveItems="10" npcId="18045"/>			<!-- Zealot (fighter type, fast) -->
+			<mob id="9" giveItems="10" npcId="18044"/>			<!-- Berserker (fighter type, fast) -->
+			<mob id="10" giveItems="10" npcId="18042"/>		<!-- Warrior (fighter type, fast) -->
+			<mob id="11" giveItems="40" npcId="18112"/>		<!-- Treasure of the Festival (chest) -->
+			<mob id="12" giveItems="50" npcId="18305"/>		<!-- Bomb -->
+		</monsters>
+		<spawnCoords>
+			<spawnCoord id="1"> <!-- Corners for Basic Warriors -->
+				<point x="-76277" y="84636" z="-5100"/>
+				<point x="-77610" y="84638" z="-5100"/>
+				<point x="-77612" y="85969" z="-5100"/>
+				<point x="-76280" y="85971" z="-5100"/>
+			</spawnCoord>
+			<spawnCoord id="2"> <!-- Corners for Archers -->
+					<point x="-76580" y="85959" z="-5100"/>
+					<point x="-76578" y="85819" z="-5100"/>
+					<point x="-76268" y="84946" z="-5100"/>
+					<point x="-76436" y="84945" z="-5100"/>
+					<point x="-77299" y="84631" z="-5100"/>
+					<point x="-77302" y="84792" z="-5100"/>
+					<point x="-77603" y="85661" z="-5100"/>
+					<point x="-77456" y="85661" z="-5100"/>
+			</spawnCoord>
+			<spawnCoord id="3"> <!-- Marksman -->
+				<point x="-77414" y="85304" z="-5100"/>
+				<point x="-76944" y="85777" z="-5100"/>
+				<point x="-76478" y="85304" z="-5100"/>
+				<point x="-76943" y="84833" z="-5100"/>
+			</spawnCoord>
+			<spawnCoord id="4"> <!-- Different points around the room (on the ground) -->
+				<point x="-76780" y="84791" z="-5100"/>
+				<point x="-76652" y="84844" z="-5100"/>
+				<point x="-76451" y="85151" z="-5100"/>
+				<point x="-76462" y="85574" z="-5100"/>
+				<point x="-76805" y="85832" z="-5100"/>
+				<point x="-77090" y="85846" z="-5100"/>
+				<point x="-77216" y="85793" z="-5100"/>
+				<point x="-77446" y="85471" z="-5100"/>
+				<point x="-77450" y="85192" z="-5100"/>
+				<point x="-77414" y="85025" z="-5100"/>
+			</spawnCoord>
+			<spawnCoord id="5"> <!-- Different points around the room (up) -->
+				<point x="-77308" y="84967" z="-5100"/>
+				<point x="-76603" y="84943" z="-5100"/>
+				<point x="-76574" y="85644" z="-5100"/>
+				<point x="-77281" y="85676" z="-5100"/>
+			</spawnCoord>
+			<spawnCoord id="6"> <!-- For Chests -->
+				<point x="-77108" y="85558" z="-5100"/>
+				<point x="-76812" y="85556" z="-5100"/>
+				<point x="-76802" y="85069" z="-5100"/>
+				<point x="-77089" y="85052" z="-5100"/>
+			</spawnCoord>
+
+			<spawnCoord id="7"> <!-- Different points around the room (on the ground + up) -->
+				<point x="-76780" y="84791" z="-5100"/>
+				<point x="-76652" y="84844" z="-5100"/>
+				<point x="-76451" y="85151" z="-5100"/>
+				<point x="-76462" y="85574" z="-5100"/>
+				<point x="-76805" y="85832" z="-5100"/>
+				<point x="-77090" y="85846" z="-5100"/>
+				<point x="-77216" y="85793" z="-5100"/>
+				<point x="-77446" y="85471" z="-5100"/>
+				<point x="-77450" y="85192" z="-5100"/>
+				<point x="-77414" y="85025" z="-5100"/>
+				<point x="-77308" y="84967" z="-5100"/>
+				<point x="-76603" y="84943" z="-5100"/>
+				<point x="-76574" y="85644" z="-5100"/>
+				<point x="-77281" y="85676" z="-5100"/>
+			</spawnCoord>
+
+		</spawnCoords>
+	</festival>
+
+	<!-- Festival of Darkness
+	Location: Oracle of Dusk
+	Level: No Level Limit
+	-->
+	<festival id="5" cabal="dusk">
+		<startPoint x="-79948" y="84697" z="-5100"/>
+		<witch npcId="31142"/>
+		<guide npcId="31141"/>
+		<level limit="90"/>
+		<reward points="150"/> <!-- +150 Points in Seven Signs Competition -->
+		<fees>
+				<fee id="1" itemId="6360" itemCount="6000"/> <!-- 6000 Blue Seal Stones -->
+				<fee id="2" itemId="6361" itemCount="3600"/> <!-- 3600 Green Seal Stones -->
+				<fee id="3" itemId="6362" itemCount="1800"/> <!-- 1800 Red Seal Stones -->
+		</fees>
+		<monsters>
+			<mob id="1" giveItems="20" npcId="18049"/>			<!-- Elder, slow -->
+			<mob id="2" giveItems="10" npcId="18050"/>			<!--  Elder's minion, slow -->
+			<mob id="3" giveItems="3" npcId="18051"/> 		<!-- Archer -->
+			<mob id="4" giveItems="10" npcId="18056"/>			<!-- Marksman -->
+			<mob id="5" giveItems="10" npcId="18053"/>			<!-- Follower (mystic type) -->
+			<mob id="6" giveItems="10" npcId="18057"/>			<!-- Disciple (figher type, fast) -->
+			<mob id="7" giveItems="10" npcId="18058"/>			<!-- Saint (fighter type, fast) -->
+			<mob id="8" giveItems="10" npcId="18055"/>			<!-- Zealot (fighter type, fast) -->
+			<mob id="9" giveItems="10" npcId="18054"/>			<!-- Berserker (fighter type, fast) -->
+			<mob id="10" giveItems="10" npcId="18052"/>		<!-- Warrior (fighter type, fast) -->
+			<mob id="11" giveItems="40" npcId="18113"/>		<!-- Treasure of the Festival (chest) -->
+			<mob id="12" giveItems="50" npcId="18307"/>		<!-- Bomb -->
+		</monsters>
+		<spawnCoords>
+			<spawnCoord id="1"> <!-- Corners for Basic Warriors -->
+				<point x="-80618" y="84032" z="-5100"/>
+				<point x="-80619" y="85362" z="-5100"/>
+				<point x="-79290" y="85360" z="-5100"/>
+				<point x="-79287" y="84031" z="-5100"/>
+			</spawnCoord>
+			<spawnCoord id="2"> <!-- Corners for Archers -->
+					<point x="-79278" y="84335" z="-5100"/>
+					<point x="-79443" y="84339" z="-5100"/>
+					<point x="-80311" y="84018" z="-5100"/>
+					<point x="-80310" y="84187" z="-5100"/>
+					<point x="-80615" y="85049" z="-5100"/>
+					<point x="-80467" y="85055" z="-5100"/>
+					<point x="-79596" y="85376" z="-5100"/>
+					<point x="-79590" y="85226" z="-5100"/>
+			</spawnCoord>
+			<spawnCoord id="3"> <!-- Marksman -->
+				<point x="-79951" y="85166" z="-5100"/>
+				<point x="-79485" y="84699" z="-5100"/>
+				<point x="-79949" y="84225" z="-5100"/>
+				<point x="-80420" y="84695" z="-5100"/>
+			</spawnCoord>
+			<spawnCoord id="4"> <!-- Different points around the room (on the ground) -->
+				<point x="-80439" y="84475" z="-5100"/>
+				<point x="-80117" y="84273" z="-5100"/>
+				<point x="-79719" y="84232" z="-5100"/>
+				<point x="-79523" y="84559" z="-5100"/>
+				<point x="-79550" y="84900" z="-5100"/>
+				<point x="-79805" y="85090" z="-5100"/>
+				<point x="-80160" y="85122" z="-5100"/>
+				<point x="-80398" y="84852" z="-5100"/>
+				<point x="-80444" y="84572" z="-5100"/>
+			</spawnCoord>
+			<spawnCoord id="5"> <!-- Different points around the room (up) -->
+				<point x="-80308" y="84351" z="-5100"/>
+				<point x="-80303" y="85052" z="-5100"/>
+				<point x="-79592" y="85045" z="-5100"/>
+				<point x="-79593" y="84337" z="-5100"/>
+			</spawnCoord>
+			<spawnCoord id="6"> <!-- For Chests -->
+				<point x="-79794" y="84440" z="-5100"/>
+				<point x="-80114" y="84435" z="-5100"/>
+				<point x="-80107" y="84969" z="-5100"/>
+				<point x="-79798" y="84953" z="-5100"/>
+			</spawnCoord>
+			<spawnCoord id="7"> <!-- Different points around the room (on the ground + up) -->
+				<point x="-80439" y="84475" z="-5100"/>
+				<point x="-80117" y="84273" z="-5100"/>
+				<point x="-79719" y="84232" z="-5100"/>
+				<point x="-79523" y="84559" z="-5100"/>
+				<point x="-79550" y="84900" z="-5100"/>
+				<point x="-79805" y="85090" z="-5100"/>
+				<point x="-80160" y="85122" z="-5100"/>
+				<point x="-80398" y="84852" z="-5100"/>
+				<point x="-80444" y="84572" z="-5100"/>
+				<point x="-80308" y="84351" z="-5100"/>
+				<point x="-80303" y="85052" z="-5100"/>
+				<point x="-79592" y="85045" z="-5100"/>
+				<point x="-79593" y="84337" z="-5100"/>
+			</spawnCoord>
+
+		</spawnCoords>
+	</festival>
+
+	<!-- Festival of Darkness
+	Location: Oracle of Dawn
+	Level: 31 and below
+	-->
+
+	<festival id="6" cabal="dawn">
+		<startPoint x="-79179" y="113193" z="-4800"/>
+		<witch npcId="31136"/>
+		<guide npcId="31127"/>
+		<level limit="31"/>
+		<reward points="60"/> <!-- +60 Points in Seven Signs Competition -->
+		<fees>
+				<fee id="1" itemId="6360" itemCount="900"/> <!-- 900 Blue Seal Stones -->
+				<fee id="2" itemId="6361" itemCount="540"/> <!-- 540 Green Seal Stones -->
+				<fee id="3" itemId="6362" itemCount="270"/> <!-- 270 Red Seal Stones -->
+		</fees>
+		<monsters>
+			<mob id="1" giveItems="20" npcId="18059"/>			<!-- Elder, slow -->
+			<mob id="2" giveItems="10" npcId="18060"/>			<!--  Elder's minion, slow -->
+			<mob id="3" giveItems="3" npcId="18061"/> 		<!-- Archer -->
+			<mob id="4" giveItems="10" npcId="18066"/>			<!-- Marksman -->
+			<mob id="5" giveItems="10" npcId="18063"/>			<!-- Follower (mystic type) -->
+			<mob id="6" giveItems="10" npcId="18067"/>			<!-- Disciple (figher type, fast) -->
+			<mob id="7" giveItems="10" npcId="18068"/>			<!-- Saint (fighter type, fast) -->
+			<mob id="8" giveItems="10" npcId="18065"/>			<!-- Zealot (fighter type, fast) -->
+			<mob id="9" giveItems="10" npcId="18064"/>			<!-- Berserker (fighter type, fast) -->
+			<mob id="10" giveItems="10" npcId="18062"/>		<!-- Warrior (fighter type, fast) -->
+			<mob id="11" giveItems="40" npcId="18114"/>		<!-- Treasure of the Festival (chest) -->
+			<mob id="12" giveItems="50" npcId="18309"/>		<!-- Bomb -->
+		</monsters>
+		<spawnCoords>
+			<spawnCoord id="1"> <!-- Corners for Basic Warriors -->
+				<point x="-78514" y="113857" z="-4800"/>
+				<point x="-78515" y="112528" z="-4800"/>
+				<point x="-79849" y="112526" z="-4800"/>
+				<point x="-79848" y="113854" z="-4800"/>
+			</spawnCoord>
+			<spawnCoord id="2"> <!-- Corners for Archers -->
+				<point x="-79859" y="113546" z="-4800"/>
+				<point x="-79691" y="113547" z="-4800"/>
+				<point x="-78825" y="113857" z="-4800"/>
+				<point x="-78824" y="113699" z="-4800"/>
+				<point x="-78515" y="112837" z="-4800"/>
+				<point x="-78662" y="112833" z="-4800"/>
+				<point x="-79540" y="112531" z="-4800"/>
+				<point x="-79543" y="112672" z="-4800"/>
+			</spawnCoord>
+			<spawnCoord id="3"> <!-- Marksman -->
+				<point x="-79186" y="112719" z="-4800"/>
+				<point x="-79656" y="113186" z="-4800"/>
+				<point x="-79187" y="113664" z="-4800"/>
+				<point x="-78712" y="113188" z="-4800"/>
+			</spawnCoord>
+			<spawnCoord id="4"> <!-- Different points around the room (on the ground) -->
+				<point x="-78681" y="113318" z="-4800"/>
+				<point x="-78725" y="113463" z="-4800"/>
+				<point x="-78956" y="113612" z="-4800"/>
+				<point x="-79082" y="113695" z="-4800"/>
+				<point x="-79334" y="113693" z="-4800"/>
+				<point x="-79460" y="113642" z="-4800"/>
+				<point x="-79593" y="113407" z="-4800"/>
+				<point x="-79664" y="113289" z="-4800"/>
+				<point x="-79666" y="113052" z="-4800"/>
+				<point x="-79624" y="112947" z="-4800"/>
+				<point x="-79407" y="112784" z="-4800"/>
+				<point x="-79301" y="112736" z="-4800"/>
+				<point x="-79060" y="112720" z="-4800"/>
+				<point x="-78938" y="112750" z="-4800"/>
+				<point x="-78744" y="112988" z="-4800"/>
+				<point x="-78698" y="113085" z="-4800"/>
+			</spawnCoord>
+			<spawnCoord id="5"> <!-- Different points around the room (up) -->
+				<point x="-78827" y="113531" z="-4800"/>
+				<point x="-79518" y="113549" z="-4800"/>
+				<point x="-79542" y="112838" z="-4800"/>
+				<point x="-78848" y="112830" z="-4800"/>
+			</spawnCoord>
+			<spawnCoord id="6"> <!-- For Chests -->
+				<point x="-79020" y="112942" z="-4800"/>
+				<point x="-79335" y="112953" z="-4800"/>
+				<point x="-79330" y="113438" z="-4800"/>
+				<point x="-79060" y="113416" z="-4800"/>
+			</spawnCoord>
+
+			<spawnCoord id="7"> <!-- Different points around the room (on the ground + up) -->
+				<point x="-78681" y="113318" z="-4800"/>
+				<point x="-78725" y="113463" z="-4800"/>
+				<point x="-78956" y="113612" z="-4800"/>
+				<point x="-79082" y="113695" z="-4800"/>
+				<point x="-79334" y="113693" z="-4800"/>
+				<point x="-79460" y="113642" z="-4800"/>
+				<point x="-79593" y="113407" z="-4800"/>
+				<point x="-79664" y="113289" z="-4800"/>
+				<point x="-79666" y="113052" z="-4800"/>
+				<point x="-79624" y="112947" z="-4800"/>
+				<point x="-79407" y="112784" z="-4800"/>
+				<point x="-79301" y="112736" z="-4800"/>
+				<point x="-79060" y="112720" z="-4800"/>
+				<point x="-78938" y="112750" z="-4800"/>
+				<point x="-78744" y="112988" z="-4800"/>
+				<point x="-78698" y="113085" z="-4800"/>
+				<point x="-78827" y="113531" z="-4800"/>
+				<point x="-79518" y="113549" z="-4800"/>
+				<point x="-79542" y="112838" z="-4800"/>
+				<point x="-78848" y="112830" z="-4800"/>
+			</spawnCoord>
+
+		</spawnCoords>
+	</festival>
+
+
+	<!-- Festival of Darkness
+	Location: Oracle of Dawn
+	Level: 42 and below
+	-->
+
+	<festival id="7" cabal="dawn">
+		<startPoint x="-76173" y="113802" z="-4800"/>
+		<witch npcId="31135"/>
+		<guide npcId="31128"/>
+		<level limit="42"/>
+		<reward points="70"/> <!-- +70 Points in Seven Signs Competition -->
+		<fees>
+				<fee id="1" itemId="6360" itemCount="1500"/> <!-- 1500 Blue Seal Stones -->
+				<fee id="2" itemId="6361" itemCount="900"/> <!-- 900 Green Seal Stones -->
+				<fee id="3" itemId="6362" itemCount="450"/> <!-- 450 Red Seal Stones -->
+		</fees>
+		<monsters>
+			<mob id="1" giveItems="20" npcId="18069"/>			<!-- Elder, slow -->
+			<mob id="2" giveItems="10" npcId="18070"/>			<!--  Elder's minion, slow -->
+			<mob id="3" giveItems="3" npcId="18071"/> 		<!-- Archer -->
+			<mob id="4" giveItems="10" npcId="18076"/>			<!-- Marksman -->
+			<mob id="5" giveItems="10" npcId="18073"/>			<!-- Follower (mystic type) -->
+			<mob id="6" giveItems="10" npcId="18077"/>			<!-- Disciple (figher type, fast) -->
+			<mob id="7" giveItems="10" npcId="18078"/>			<!-- Saint (fighter type, fast) -->
+			<mob id="8" giveItems="10" npcId="18075"/>			<!-- Zealot (fighter type, fast) -->
+			<mob id="9" giveItems="10" npcId="18074"/>			<!-- Berserker (fighter type, fast) -->
+			<mob id="10" giveItems="10" npcId="18072"/>		<!-- Warrior (fighter type, fast) -->
+			<mob id="11" giveItems="40" npcId="18115"/>		<!-- Treasure of the Festival (chest) -->
+			<mob id="12" giveItems="50" npcId="18311"/>		<!-- Bomb -->
+		</monsters>
+		<spawnCoords>
+			<spawnCoord id="1"> <!-- Corners for Basic Warriors -->
+				<point x="-75512" y="114463" z="-4800"/>
+				<point x="-75505" y="113135" z="-4800"/>
+				<point x="-76839" y="113134" z="-4800"/>
+				<point x="-76841" y="114465" z="-4800"/>
+			</spawnCoord>
+			<spawnCoord id="2"> <!-- Corners for Archers -->
+				<point x="-76850" y="114153" z="-4800"/>
+				<point x="-76685" y="114156" z="-4800"/>
+				<point x="-75818" y="114468" z="-4800"/>
+				<point x="-75816" y="114310" z="-4800"/>
+				<point x="-75502" y="113440" z="-4800"/>
+				<point x="-75648" y="113437" z="-4800"/>
+				<point x="-76530" y="113138" z="-4800"/>
+				<point x="-76535" y="113269" z="-4800"/>
+			</spawnCoord>
+			<spawnCoord id="3"> <!-- Marksman -->
+				<point x="-76176" y="113330" z="-4800"/>
+				<point x="-76640" y="113796" z="-4800"/>
+				<point x="-76175" y="114270" z="-4800"/>
+				<point x="-75707" y="113801" z="-4800"/>
+			</spawnCoord>
+			<spawnCoord id="4"> <!-- Different points around the room (on the ground) -->
+				<point x="-75683" y="113928" z="-4800"/>
+				<point x="-75731" y="114051" z="-4800"/>
+				<point x="-75944" y="114257" z="-4800"/>
+				<point x="-76068" y="114311" z="-4800"/>
+				<point x="-76306" y="114273" z="-4800"/>
+				<point x="-76441" y="114245" z="-4800"/>
+				<point x="-76587" y="114021" z="-4800"/>
+				<point x="-76654" y="113896" z="-4800"/>
+				<point x="-76656" y="113674" z="-4800"/>
+				<point x="-76629" y="113549" z="-4800"/>
+				<point x="-76384" y="113383" z="-4800"/>
+				<point x="-76275" y="113317" z="-4800"/>
+				<point x="-76041" y="113311" z="-4800"/>
+				<point x="-75922" y="113352" z="-4800"/>
+				<point x="-75739" y="113562" z="-4800"/>
+				<point x="-75680" y="113691" z="-4800"/>
+			</spawnCoord>
+			<spawnCoord id="5"> <!-- Different points around the room (up) -->
+				<point x="-75819" y="114150" z="-4800"/>
+				<point x="-76516" y="114162" z="-4800"/>
+				<point x="-76543" y="113451" z="-4800"/>
+				<point x="-75817" y="113439" z="-4800"/>
+			</spawnCoord>
+			<spawnCoord id="6"> <!-- For Chests -->
+				<point x="-76036" y="113553" z="-4800"/>
+				<point x="-76305" y="113544" z="-4800"/>
+				<point x="-76328" y="114038" z="-4800"/>
+				<point x="-76023" y="114071" z="-4800"/>
+			</spawnCoord>
+
+			<spawnCoord id="7"> <!-- Different points around the room (on the ground + up) -->
+				<point x="-75683" y="113928" z="-4800"/>
+				<point x="-75731" y="114051" z="-4800"/>
+				<point x="-75944" y="114257" z="-4800"/>
+				<point x="-76068" y="114311" z="-4800"/>
+				<point x="-76306" y="114273" z="-4800"/>
+				<point x="-76441" y="114245" z="-4800"/>
+				<point x="-76587" y="114021" z="-4800"/>
+				<point x="-76654" y="113896" z="-4800"/>
+				<point x="-76656" y="113674" z="-4800"/>
+				<point x="-76629" y="113549" z="-4800"/>
+				<point x="-76384" y="113383" z="-4800"/>
+				<point x="-76275" y="113317" z="-4800"/>
+				<point x="-76041" y="113311" z="-4800"/>
+				<point x="-75922" y="113352" z="-4800"/>
+				<point x="-75739" y="113562" z="-4800"/>
+				<point x="-75680" y="113691" z="-4800"/>
+				<point x="-75819" y="114150" z="-4800"/>
+				<point x="-76516" y="114162" z="-4800"/>
+				<point x="-76543" y="113451" z="-4800"/>
+				<point x="-75817" y="113439" z="-4800"/>
+			</spawnCoord>
+
+		</spawnCoords>
+	</festival>
+
+	<!-- Festival of Darkness
+	Location: Oracle of Dawn
+	Level: 53 and below
+	-->
+
+	<festival id="8" cabal="dawn">
+		<startPoint x="-73834" y="111970" z="-4800"/>
+		<witch npcId="31134"/>
+		<guide npcId="31129"/>
+		<level limit="53"/>
+		<reward points="100"/> <!-- +100 Points in Seven Signs Competition -->
+		<fees>
+				<fee id="1" itemId="6360" itemCount="3000"/> <!-- 3000 Blue Seal Stones -->
+				<fee id="2" itemId="6361" itemCount="1800"/> <!-- 1800 Green Seal Stones -->
+				<fee id="3" itemId="6362" itemCount="900"/> <!-- 900 Red Seal Stones -->
+		</fees>
+		<monsters>
+			<mob id="1" giveItems="20" npcId="18079"/>			<!-- Elder, slow -->
+			<mob id="2" giveItems="10" npcId="18080"/>			<!--  Elder's minion, slow -->
+			<mob id="3" giveItems="3" npcId="18081"/> 		<!-- Archer -->
+			<mob id="4" giveItems="10" npcId="18086"/>			<!-- Marksman -->
+			<mob id="5" giveItems="10" npcId="18083"/>			<!-- Follower (mystic type) -->
+			<mob id="6" giveItems="10" npcId="18087"/>			<!-- Disciple (figher type, fast) -->
+			<mob id="7" giveItems="10" npcId="18088"/>			<!-- Saint (fighter type, fast) -->
+			<mob id="8" giveItems="10" npcId="18085"/>			<!-- Zealot (fighter type, fast) -->
+			<mob id="9" giveItems="10" npcId="18084"/>			<!-- Berserker (fighter type, fast) -->
+			<mob id="10" giveItems="10" npcId="18082"/>		<!-- Warrior (fighter type, fast) -->
+			<mob id="11" giveItems="40" npcId="18116"/>		<!-- Treasure of the Festival (chest) -->
+			<mob id="12" giveItems="50" npcId="18313"/>		<!-- Bomb -->
+		</monsters>
+		<spawnCoords>
+			<spawnCoord id="1"> <!-- Corners for Basic Warriors -->
+				<point x="-73167" y="111300" z="-4800"/>
+				<point x="-74496" y="111301" z="-4800"/>
+				<point x="-74497" y="112635" z="-4800"/>
+				<point x="-73165" y="112635" z="-4800"/>
+			</spawnCoord>
+			<spawnCoord id="2"> <!-- Corners for Archers -->
+				<point x="-73477" y="112640" z="-4800"/>
+				<point x="-73475" y="112475" z="-4800"/>
+				<point x="-73163" y="111609" z="-4800"/>
+				<point x="-73316" y="111606" z="-4800"/>
+				<point x="-74189" y="111315" z="-4800"/>
+				<point x="-74189" y="111433" z="-4800"/>
+				<point x="-74493" y="112319" z="-4800"/>
+				<point x="-74361" y="112325" z="-4800"/>
+			</spawnCoord>
+			<spawnCoord id="3"> <!-- Marksman -->
+				<point x="-74301" y="111970" z="-4800"/>
+				<point x="-73835" y="112436" z="-4800"/>
+				<point x="-73359" y="111964" z="-4800"/>
+				<point x="-73833" y="111490" z="-4800"/>
+			</spawnCoord>
+			<spawnCoord id="4"> <!-- Different points around the room (on the ground) -->
+				<point x="-73697" y="111451" z="-4800"/>
+				<point x="-73566" y="111495" z="-4800"/>
+				<point x="-73401" y="111734" z="-4800"/>
+				<point x="-73337" y="111860" z="-4800"/>
+				<point x="-73339" y="112099" z="-4800"/>
+				<point x="-73399" y="112231" z="-4800"/>
+				<point x="-73603" y="112338" z="-4800"/>
+				<point x="-73735" y="112439" z="-4800"/>
+				<point x="-73957" y="112461" z="-4800"/>
+				<point x="-74093" y="112414" z="-4800"/>
+				<point x="-74269" y="112169" z="-4800"/>
+				<point x="-74321" y="112062" z="-4800"/>
+				<point x="-74325" y="111836" z="-4800"/>
+				<point x="-74278" y="111695" z="-4800"/>
+				<point x="-74059" y="111565" z="-4800"/>
+				<point x="-73941" y="111504" z="-4800"/>
+			</spawnCoord>
+			<spawnCoord id="5"> <!-- Different points around the room (up) -->
+				<point x="-73497" y="111609" z="-4800"/>
+				<point x="-73474" y="112320" z="-4800"/>
+				<point x="-74178" y="112326" z="-4800"/>
+				<point x="-74190" y="111626" z="-4800"/>
+			</spawnCoord>
+			<spawnCoord id="6"> <!-- For Chests -->
+				<point x="-74091" y="111814" z="-4800"/>
+				<point x="-74105" y="112097" z="-4800"/>
+				<point x="-73600" y="112094" z="-4800"/>
+				<point x="-73590" y="111840" z="-4800"/>
+			</spawnCoord>
+
+			<spawnCoord id="7"> <!-- Different points around the room (on the ground + up) -->
+				<point x="-73697" y="111451" z="-4800"/>
+				<point x="-73566" y="111495" z="-4800"/>
+				<point x="-73401" y="111734" z="-4800"/>
+				<point x="-73337" y="111860" z="-4800"/>
+				<point x="-73339" y="112099" z="-4800"/>
+				<point x="-73399" y="112231" z="-4800"/>
+				<point x="-73603" y="112338" z="-4800"/>
+				<point x="-73735" y="112439" z="-4800"/>
+				<point x="-73957" y="112461" z="-4800"/>
+				<point x="-74093" y="112414" z="-4800"/>
+				<point x="-74269" y="112169" z="-4800"/>
+				<point x="-74321" y="112062" z="-4800"/>
+				<point x="-74325" y="111836" z="-4800"/>
+				<point x="-74278" y="111695" z="-4800"/>
+				<point x="-74059" y="111565" z="-4800"/>
+				<point x="-73941" y="111504" z="-4800"/>
+				<point x="-73497" y="111609" z="-4800"/>
+				<point x="-73474" y="112320" z="-4800"/>
+				<point x="-74178" y="112326" z="-4800"/>
+				<point x="-74190" y="111626" z="-4800"/>
+			</spawnCoord>
+
+		</spawnCoords>
+	</festival>
+
+	<!-- Festival of Darkness
+	Location: Oracle of Dawn
+	Level: 64 and below
+	-->
+	<festival id="9" cabal="dawn">
+		<startPoint x="-75918" y="110132" z="-4800"/>
+		<witch npcId="31133"/>
+		<guide npcId="31130"/>
+		<level limit="64"/>
+		<reward points="120"/> <!-- +120 Points in Seven Signs Competition -->
+		<fees>
+				<fee id="1" itemId="6360" itemCount="4500"/> <!-- 4500 Blue Seal Stones -->
+				<fee id="2" itemId="6361" itemCount="2700"/> <!-- 2700 Green Seal Stones -->
+				<fee id="3" itemId="6362" itemCount="1350"/> <!-- 1350 Red Seal Stones -->
+		</fees>
+		<monsters>
+			<mob id="1" giveItems="20" npcId="18089"/>			<!-- Elder, slow -->
+			<mob id="2" giveItems="10" npcId="18090"/>			<!--  Elder's minion, slow -->
+			<mob id="3" giveItems="3" npcId="18091"/> 		<!-- Archer -->
+			<mob id="4" giveItems="10" npcId="18096"/>			<!-- Marksman -->
+			<mob id="5" giveItems="10" npcId="18093"/>			<!-- Follower (mystic type) -->
+			<mob id="6" giveItems="10" npcId="18097"/>			<!-- Disciple (figher type, fast) -->
+			<mob id="7" giveItems="10" npcId="18098"/>			<!-- Saint (fighter type, fast) -->
+			<mob id="8" giveItems="10" npcId="18095"/>			<!-- Zealot (fighter type, fast) -->
+			<mob id="9" giveItems="10" npcId="18094"/>			<!-- Berserker (fighter type, fast) -->
+			<mob id="10" giveItems="10" npcId="18092"/>		<!-- Warrior (fighter type, fast) -->
+			<mob id="11" giveItems="40" npcId="18117"/>		<!-- Treasure of the Festival (chest) -->
+			<mob id="12" giveItems="50" npcId="18315"/>		<!-- Bomb -->
+		</monsters>
+		<spawnCoords>
+			<spawnCoord id="1"> <!-- Corners for Basic Warriors -->
+				<point x="-76584" y="109472" z="-4800"/>
+				<point x="-76582" y="110797" z="-4800"/>
+				<point x="-75256" y="110799" z="-4800"/>
+				<point x="-75253" y="109469" z="-4800"/>
+			</spawnCoord>
+			<spawnCoord id="2"> <!-- Corners for Archers -->
+				<point x="-75244" y="109774" z="-4800"/>
+				<point x="-75412" y="109777" z="-4800"/>
+				<point x="-76276" y="109463" z="-4800"/>
+				<point x="-76278" y="109629" z="-4800"/>
+				<point x="-76601" y="110489" z="-4800"/>
+				<point x="-76428" y="110493" z="-4800"/>
+				<point x="-75564" y="110804" z="-4800"/>
+				<point x="-75559" y="110649" z="-4800"/>
+			</spawnCoord>
+			<spawnCoord id="3"> <!-- Marksman -->
+				<point x="-75919" y="110606" z="-4800"/>
+				<point x="-75449" y="110136" z="-4800"/>
+				<point x="-75920" y="109663" z="-4800"/>
+				<point x="-76388" y="110135" z="-4800"/>
+			</spawnCoord>
+			<spawnCoord id="4"> <!-- Different points around the room (on the ground) -->
+				<point x="-76428" y="110017" z="-4800"/>
+				<point x="-76381" y="109868" z="-4800"/>
+				<point x="-76149" y="109658" z="-4800"/>
+				<point x="-76021" y="109599" z="-4800"/>
+				<point x="-75780" y="109604" z="-4800"/>
+				<point x="-75650" y="109688" z="-4800"/>
+				<point x="-75496" y="109930" z="-4800"/>
+				<point x="-75413" y="110043" z="-4800"/>
+				<point x="-75430" y="110271" z="-4800"/>
+				<point x="-75477" y="110417" z="-4800"/>
+				<point x="-75720" y="110562" z="-4800"/>
+				<point x="-75822" y="110620" z="-4800"/>
+				<point x="-76062" y="110624" z="-4800"/>
+				<point x="-76178" y="110595" z="-4800"/>
+				<point x="-76354" y="110358" z="-4800"/>
+				<point x="-76415" y="110238" z="-4800"/>
+			</spawnCoord>
+			<spawnCoord id="5"> <!-- Different points around the room (up) -->
+				<point x="-76278" y="109799" z="-4800"/>
+				<point x="-75589" y="109775" z="-4800"/>
+				<point x="-75560" y="110479" z="-4800"/>
+				<point x="-76251" y="110497" z="-4800"/>
+			</spawnCoord>
+			<spawnCoord id="6"> <!-- For Chests -->
+				<point x="-76064" y="110380" z="-4800"/>
+				<point x="-75793" y="110376" z="-4800"/>
+				<point x="-75772" y="109895" z="-4800"/>
+				<point x="-76051" y="109897" z="-4800"/>
+			</spawnCoord>
+			<spawnCoord id="7"> <!-- Different points around the room (on the ground + up) -->
+				<point x="-76428" y="110017" z="-4800"/>
+				<point x="-76381" y="109868" z="-4800"/>
+				<point x="-76149" y="109658" z="-4800"/>
+				<point x="-76021" y="109599" z="-4800"/>
+				<point x="-75780" y="109604" z="-4800"/>
+				<point x="-75650" y="109688" z="-4800"/>
+				<point x="-75496" y="109930" z="-4800"/>
+				<point x="-75413" y="110043" z="-4800"/>
+				<point x="-75430" y="110271" z="-4800"/>
+				<point x="-75477" y="110417" z="-4800"/>
+				<point x="-75720" y="110562" z="-4800"/>
+				<point x="-75822" y="110620" z="-4800"/>
+				<point x="-76062" y="110624" z="-4800"/>
+				<point x="-76178" y="110595" z="-4800"/>
+				<point x="-76354" y="110358" z="-4800"/>
+				<point x="-76415" y="110238" z="-4800"/>
+				<point x="-76278" y="109799" z="-4800"/>
+				<point x="-75589" y="109775" z="-4800"/>
+				<point x="-75560" y="110479" z="-4800"/>
+				<point x="-76251" y="110497" z="-4800"/>
+			</spawnCoord>
+
+		</spawnCoords>
+	</festival>
+
+	<!-- Festival of Darkness
+	Location: Oracle of Dawn
+	Level: No Level Limit
+	-->
+	<festival id="10" cabal="dawn">
+		<startPoint x="-78929" y="109538" z="-4800"/>
+		<witch npcId="31132"/>
+		<guide npcId="31131"/>
+		<level limit="90"/>
+		<reward points="150"/> <!-- +150 Points in Seven Signs Competition -->
+		<fees>
+				<fee id="1" itemId="6360" itemCount="6000"/> <!-- 6000 Blue Seal Stones -->
+				<fee id="2" itemId="6361" itemCount="3600"/> <!-- 3600 Green Seal Stones -->
+				<fee id="3" itemId="6362" itemCount="1800"/> <!-- 1800 Red Seal Stones -->
+		</fees>
+		<monsters>
+			<mob id="1" giveItems="20" npcId="18099"/>			<!-- Elder, slow -->
+			<mob id="2" giveItems="10" npcId="18100"/>			<!--  Elder's minion, slow -->
+			<mob id="3" giveItems="3" npcId="18101"/> 		<!-- Archer -->
+			<mob id="4" giveItems="10" npcId="18106"/>			<!-- Marksman -->
+			<mob id="5" giveItems="10" npcId="18103"/>			<!-- Follower (mystic type) -->
+			<mob id="6" giveItems="10" npcId="18107"/>			<!-- Disciple (figher type, fast) -->
+			<mob id="7" giveItems="10" npcId="18108"/>			<!-- Saint (fighter type, fast) -->
+			<mob id="8" giveItems="10" npcId="18105"/>			<!-- Zealot (fighter type, fast) -->
+			<mob id="9" giveItems="10" npcId="18104"/>			<!-- Berserker (fighter type, fast) -->
+			<mob id="10" giveItems="10" npcId="18102"/>		<!-- Warrior (fighter type, fast) -->
+			<mob id="11" giveItems="40" npcId="18118"/>		<!-- Treasure of the Festival (chest) -->
+			<mob id="12" giveItems="50" npcId="18317"/>		<!-- Bomb -->
+		</monsters>
+		<spawnCoords>
+			<spawnCoord id="1"> <!-- Corners for Basic Warriors -->
+				<point x="-79595" y="108860" z="-4800"/>
+				<point x="-79598" y="110193" z="-4800"/>
+				<point x="-78264" y="110195" z="-4800"/>
+				<point x="-78262" y="108856" z="-4800"/>
+			</spawnCoord>
+			<spawnCoord id="2"> <!-- Corners for Archers -->
+				<point x="-78250" y="109167" z="-4800"/>
+				<point x="-78423" y="109171" z="-4800"/>
+				<point x="-79286" y="108856" z="-4800"/>
+				<point x="-79285" y="109017" z="-4800"/>
+				<point x="-79594" y="109885" z="-4800"/>
+				<point x="-79451" y="109882" z="-4800"/>
+				<point x="-78566" y="110188" z="-4800"/>
+				<point x="-78562" y="110055" z="-4800"/>
+			</spawnCoord>
+			<spawnCoord id="3"> <!-- Marksman -->
+				<point x="-78927" y="109999" z="-4800"/>
+				<point x="-78459" y="109532" z="-4800"/>
+				<point x="-78929" y="109054" z="-4800"/>
+				<point x="-79401" y="109526" z="-4800"/>
+			</spawnCoord>
+			<spawnCoord id="4"> <!-- Different points around the room (on the ground) -->
+				<point x="-79433" y="109386" z="-4800"/>
+				<point x="-79390" y="109270" z="-4800"/>
+				<point x="-79115" y="109058" z="-4800"/>
+				<point x="-79032" y="109034" z="-4800"/>
+				<point x="-78791" y="109032" z="-4800"/>
+				<point x="-78660" y="109079" z="-4800"/>
+				<point x="-78516" y="109323" z="-4800"/>
+				<point x="-78457" y="109437" z="-4800"/>
+				<point x="-78457" y="109665" z="-4800"/>
+				<point x="-78492" y="109803" z="-4800"/>
+				<point x="-78803" y="110038" z="-4800"/>
+				<point x="-79083" y="110051" z="-4800"/>
+				<point x="-79208" y="109991" z="-4800"/>
+				<point x="-79354" y="109743" z="-4800"/>
+				<point x="-79412" y="109641" z="-4800"/>
+			</spawnCoord>
+			<spawnCoord id="5"> <!-- Different points around the room (up) -->
+				<point x="-79288" y="109188" z="-4800"/>
+				<point x="-78576" y="109162" z="-4800"/>
+				<point x="-78565" y="109890" z="-4800"/>
+				<point x="-79291" y="109889" z="-4800"/>
+			</spawnCoord>
+			<spawnCoord id="6"> <!-- For Chests -->
+				<point x="-79070" y="109772" z="-4800"/>
+				<point x="-78793" y="109771" z="-4800"/>
+				<point x="-78784" y="109286" z="-4800"/>
+				<point x="-79064" y="109292" z="-4800"/>
+			</spawnCoord>
+
+			<spawnCoord id="7"> <!-- Different points around the room (on the ground + up) -->
+				<point x="-79433" y="109386" z="-4800"/>
+				<point x="-79390" y="109270" z="-4800"/>
+				<point x="-79115" y="109058" z="-4800"/>
+				<point x="-79032" y="109034" z="-4800"/>
+				<point x="-78791" y="109032" z="-4800"/>
+				<point x="-78660" y="109079" z="-4800"/>
+				<point x="-78516" y="109323" z="-4800"/>
+				<point x="-78457" y="109437" z="-4800"/>
+				<point x="-78457" y="109665" z="-4800"/>
+				<point x="-78492" y="109803" z="-4800"/>
+				<point x="-78803" y="110038" z="-4800"/>
+				<point x="-79083" y="110051" z="-4800"/>
+				<point x="-79208" y="109991" z="-4800"/>
+				<point x="-79354" y="109743" z="-4800"/>
+				<point x="-79412" y="109641" z="-4800"/>
+				<point x="-79288" y="109188" z="-4800"/>
+				<point x="-78576" y="109162" z="-4800"/>
+				<point x="-78565" y="109890" z="-4800"/>
+				<point x="-79291" y="109889" z="-4800"/>
+			</spawnCoord>
+
+		</spawnCoords>
+	</festival>
+</festivals>

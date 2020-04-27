@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<zone id="440" name="[toi_no_landing]">
+		<attr name="type" val="no_landing"/>
+		<listener name="NoLandingL2ZoneListener" />
+		<!-- loc_id: 55000 -->
+		<shape type="Poly" zMin="0" zMax="0">
+			<point x="120324" y="16042"/>
+			<point x="117967" y="10107"/>
+			<point x="108843" y="11462"/>
+			<point x="108774" y="20132"/>
+			<point x="115734" y="22851"/>
+			<point x="120398" y="19805"/>
+		</shape>
+	</zone>
+
+	<zone id="442" name="[olymp_no_landing1]">
+		<attr name="type" val="no_landing"/>
+		<listener name="NoLandingL2ZoneListener" />
+		<!-- loc_id: 50123 -->
+		<shape type="Rect" zMin="-15000" zMax="15000">
+			<point x="-131064" y="-262136"/>
+			<point x="-32776" y="-163848"/>
+		</shape>
+	</zone>
+
+	<zone id="12051" name="[aden_castle_no_landing1]">
+		<attr name="type" val="no_landing"/>
+		<attr name="type" val="no_summon"/>
+		<shape type="Poly" zMin="-3200" zMax="8000">
+			<point x="151622" y="14800"/>
+			<point x="151440" y="12450"/>
+			<point x="150491" y="10806"/>
+			<point x="150638" y="10132"/>
+			<point x="151872" y="8461"/>
+			<point x="152001" y="5896"/>
+			<point x="151680" y="2156"/>
+			<point x="159417" y="2913"/>
+			<point x="156236" y="14800"/>
+		</shape>
+	</zone>
+	<zone id="12052" name="[aden_castle_no_landing2]">
+		<attr name="type" val="no_landing"/>
+		<attr name="type" val="no_summon"/>
+		<shape type="Poly" zMin="-3200" zMax="8000">
+			<point x="143327" y="14800"/>
+			<point x="143653" y="12213"/>
+			<point x="144559" y="10501"/>
+			<point x="143586" y="9453"/>
+			<point x="142917" y="8059"/>
+			<point x="143346" y="1483"/>
+			<point x="137367" y="1151"/>
+			<point x="137575" y="8889"/>
+			<point x="137894" y="14800"/>
+		</shape>
+	</zone>
+</list>

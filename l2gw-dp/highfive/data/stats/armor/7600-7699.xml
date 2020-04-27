@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+	<item id="7682" name="Maiden's Hairpin">
+		<cond msgId="1518">
+			<player sex="1" />
+		</cond>
+	</item>
+	<item id="7695" name="Forget-me-not Hairpin">
+		<cond msgId="1518">
+			<player sex="1" />
+		</cond>
+	</item>
+	<item id="7696" name="Daisy Hairpin">
+		<cond msgId="1518">
+			<player sex="1" />
+		</cond>
+	</item>
+</list>
